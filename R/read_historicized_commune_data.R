@@ -100,4 +100,6 @@ read_historicized_commune_data <- function() {
     
     dat
   })
+  
+  l
 }

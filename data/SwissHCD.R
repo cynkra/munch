@@ -1,6 +1,6 @@
-#' Import historic commune data from the web
+#' Historic commune data, imported from the web
 #' 
-#' This functon reads historic commune data from the web and creates a data
+#' This data set is an import of the historic commune data to a data
 #' frame for each file (canton, district, municipality) in it.
 #' 
 #' @return A named list with the components \code{canton}, \code{district} and
@@ -10,7 +10,8 @@
 #' 
 #' @export
 #' @importFrom logging logdebug
-read_historicized_commune_data <- function() {
+SwissHCD <- local({
+  require(logging)
   RECORD_HIST_URL <- 'http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.Document.96666.zip'
   zip.file.name <- tempfile(fileext='.zip')
   logdebug(zip.file.name)
@@ -106,4 +107,4 @@ read_historicized_commune_data <- function() {
   })
   
   l
-}
+})

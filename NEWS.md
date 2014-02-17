@@ -1,3 +1,5 @@
+## 0.0.3 (2014-02-17)
+
 - Include data set `SwissHCD` that will download from the internet when
   first accessed
 

@@ -11,4 +11,3 @@ License: GPL-3
 Suggests:
     testthat
 Roxygen: list(wrap = FALSE)
-

@@ -1,32 +1,35 @@
-#' What the package does (short line) ~~ package title ~~
+#' Functions for working with the historicized list of municipalities of
+#' Switzerland
 #' 
-#' More about what it does (maybe more than one line) ~~ A concise (1-5 lines)
-#' description of the package ~~
+#' The mutations of Swiss municipalities are tracked in a machine-readable
+#' mutation list.  This allows guessing the reference time for any given list of
+#' municipality IDs, and to construct mappings between two lists of municipality
+#' IDs.  The package provides functions to import and work with this mutation
+#' list.
 #' 
 #' \tabular{ll}{
 #'   Package: \tab SwissCommunes\cr
 #'   Type: \tab Package\cr
 #'   Version: \tab 0.0.2\cr
 #'   Date: \tab 2014-02-17\cr
-#'   License: \tab What license is it under?\cr
-#' } ~~
-#' An overview of how to use the package, including the most
-#' important functions ~~
+#'   License: \tab GPL-3\cr
+#' }
 #' 
 #' @name SwissCommunes-package
 #' @aliases SwissCommunes-package SwissCommunes
 #' @docType package
-#' @author Who wrote it
+#' @author Kirill Müller
 #' 
-#' Maintainer: Who to complain to <yourfault@@somewhere.net> ~~ The author
-#' and/or maintainer of the package ~~
-#' @seealso ~~ Optional links to other man pages, e.g. ~~ ~~
-#' <pkg>:<pkg>-package ~~
-#' @references ~~ Literature or other references for background information ~~
-#' @keywords package
-#' @examples
-#' # ~~ simple examples of the most important functions ~~
+#' Maintainer: Kirill Müller <kirill.mueller@@ivt.baug.ethz.ch>
 #' 
+#' URL: \url{https://github.com/krlmlr/SwissCommunes}
+#' 
+#' Issue tracker: \url{https://github.com/krlmlr/SwissCommunes/issues}
+#' 
+#' @references 
+#' \url{http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html}
+#' 
+#' @keywords Switzerland municipalities communes historicized
 NULL
 
 

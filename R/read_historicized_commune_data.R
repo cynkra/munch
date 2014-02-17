@@ -107,3 +107,20 @@ read_historicized_commune_data <- function() {
   
   l
 }
+
+#' Historic commune data, imported from the web
+#' 
+#' This data set is an import of the historic commune data to a data
+#' frame for each file (canton, district, municipality) in it.  (Internally,
+#' it is a promise that calls \code{\link{read_historicized_commune_data}}
+#' when forced, so that the data is read only once per session.)
+#' 
+#' @docType data
+#' @name SwissHCD
+#' @return A named list with the components \code{canton}, \code{district} and
+#'   \code{municipality}, each component contains a data frame.
+#' 
+#' @references \url{http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html}
+#' @seealso \code{\link{read_historicized_commune_data}}
+#' @export
+delayedAssign("SwissHCD", read_historicized_commune_data())

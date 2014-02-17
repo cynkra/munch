@@ -1,4 +1,4 @@
 library(testthat)
-library(Template)
+library(SwissCommunes)
 
-test_check("Template")
+test_check("SwissCommunes")

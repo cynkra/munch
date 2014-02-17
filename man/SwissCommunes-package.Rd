@@ -12,7 +12,7 @@ description of the package ~~
 \tabular{ll}{
   Package: \tab SwissCommunes\cr
   Type: \tab Package\cr
-  Version: \tab 0.0.1\cr
+  Version: \tab 0.0.2\cr
   Date: \tab 2014-02-17\cr
   License: \tab What license is it under?\cr
 } ~~

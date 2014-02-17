@@ -4,7 +4,7 @@
 #' description of the package ~~
 #' 
 #' \tabular{ll}{
-#'   Package: \tab SwissCommunes\cr
+#'   Package: \tab Template\cr
 #'   Type: \tab Package\cr
 #'   Version: \tab 1.0\cr
 #'   Date: \tab 2013-07-09\cr
@@ -13,8 +13,8 @@
 #' An overview of how to use the package, including the most
 #' important functions ~~
 #' 
-#' @name SwissCommunes-package
-#' @aliases SwissCommunes-package SwissCommunes
+#' @name Template-package
+#' @aliases Template-package Template
 #' @docType package
 #' @author Who wrote it
 #' 

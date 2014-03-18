@@ -3,8 +3,8 @@ Type: Package
 Encoding: UTF-8
 Title: Functions for working with the historicized list of communes of
     Switzerland.
-Version: 0.0.2
-Date: 2014-02-17
+Version: 0.0-2
+Date: 2014-03-18
 Author: Kirill Müller
 Maintainer: Kirill Müller <kirill.mueller@ivt.baug.ethz.ch>
 Description: The mutations of Swiss communes are tracked in a machine-readable

@@ -3,7 +3,7 @@
 export(swcCheckData)
 export(swcGetData)
 export(swcReadData)
-importFrom(R.cache,addMemoization)
+importFrom(R.cache,evalWithMemoization)
 importFrom(kimisc,in.interval.ro)
 importFrom(logging,logdebug)
 importFrom(plyr,arrange)

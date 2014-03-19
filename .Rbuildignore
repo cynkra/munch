@@ -2,5 +2,8 @@
 ^\.Rproj\.user$
 ^\.gitignore$
 ^README\.md$
+^NEWS\.md$
+^NEWS\.md\.tmpl$
 ^tools$
+^man-roxygen$
 ^\.travis\.yml$

@@ -1,5 +1,7 @@
-- New function `get_historicized_commune_data()` that reads commune data from
+- New function `swcGetData()` that reads commune data from
   the web only once and reuses cached results for forthcoming calls
+
+- Rename function `read_historicized_commune_data()` to `swcReadData()`
 
 ## 0.0-2 (2014-03-18)
 

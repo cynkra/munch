@@ -24,5 +24,5 @@ Roxygen: list(wrap = FALSE)
 Collate:
     'SwissCommunes-package.R'
     'commune-hist-decl.R'
-    'read_historicized_commune_data.R'
-    'get_historicized_commune_data.R'
+    'swcReadData.R'
+    'swcGetData.R'

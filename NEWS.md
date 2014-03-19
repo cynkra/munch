@@ -1,3 +1,5 @@
+- New function `swcCheckData()` that checks the commune data for consistency
+
 0.0-3 (2014-03-19)
 ===
 

@@ -1,21 +1,3 @@
-checkMutations <- function() {
-  t <- table(commhist.municipality$mAdmissionNumber)
-  t[t > 1]
-  
-  #' All entries with more than one municipality per admission number
-  commhist.municipality[commhist.municipality$mAdmissionNumber %in% names(t[in.interval.ro(t, 2, 5)]),]
-  #View(head(commhist.municipality, 1000))
-  
-  commhist.municipality.adm <- arrange(commhist.municipality, mAdmissionNumber)
-  commhist.municipality.adm.jump <- which(diff(commhist.municipality.adm$mAdmissionDate) < 0)
-  commhist.municipality.adm.bigjump <- which(diff(commhist.municipality.adm$mAdmissionDate) < -1)
-  stopifnot(length(commhist.municipality.adm.jump) < 10)
-  stopifnot(length(commhist.municipality.adm.bigjump) == 0)
-  
-  # mHistId is surrogate key
-  stopifnot(commhist.municipality.adm$mHistId == unique(commhist.municipality.adm$mHistId))
-}
-
 getMunicipalityMutations <- function(municipalityIds=NULL) {
   #' Converts the list of "municipality states" in commhist.municipality
   #' to a list of mutations, for a given list of municipality IDs

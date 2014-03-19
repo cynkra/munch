@@ -1,0 +1,58 @@
+#' Check internal assumptions on historic commune data
+#' 
+#' This functon checks several assumptions made for the historic commune data,
+#'   mostly for internal purposes:
+#' 
+#' \itemize{
+#'   \item Each admission number has less than 5 mutations (with the exception
+#'     of the initial mutation that creates all communes at the earliest
+#'     reported state)
+#'   \item Admission numbers are roughly increasing by date, except for
+#'     differences of one day
+#'   \item The \code{mHist} column is a surrogate key
+#' }
+#' 
+#' @return Invisible named list with the following elements:
+#' 
+#' \describe{
+#'   \item{\code{mutationsWithNonUniqueAdmissionNumbers}}{All municipality
+#'     mutations where the admission number occurs at least in one other
+#'     mutation}
+#'   \item{\code{mutationSequencesWithDecreasingDate}}{Mutation sequences
+#'     where the date decreases}
+#' }
+#' 
+#' @export
+#' @importFrom kimisc in.interval.ro
+#' @importFrom plyr arrange ddply summarize
+swcCheckData <- function(swc=swcGetData()) {
+  admissionNumberCounts <- ddply(
+    swc$municipality[, "mAdmissionNumber", drop = FALSE],
+    .(mAdmissionNumber),
+    summarize,
+    count=length(mAdmissionNumber)
+  )
+  admissionNumberCounts <- admissionNumberCounts[-1, ]
+  
+  stopifnot(with(admissionNumberCounts, count < 5))
+  # All entries with more than one municipality per admission number
+  mutationsWithNonUniqueAdmissionNumbers <- merge(
+    swc$municipality, subset(admissionNumberCounts, count > 1 & count < 5))
+
+  # Admission numbers are roughly increasing by date
+  mutationsSortedByAdmissionNumber <- arrange(swc$municipality, mAdmissionNumber)
+  admissionNumberJumps <- which(diff(swc$municipality.adm$mAdmissionDate) < 0)
+  admissionNumberJumpsBig <- which(diff(swc$municipality.adm$mAdmissionDate) < -1)
+  stopifnot(length(admissionNumberJumps) < 10)
+  stopifnot(length(admissionNumberJumpsBig) == 0)
+
+  mutationIndexesOfJumps <- unique(sort(c(admissionNumberJumps,
+                                          admissionNumberJumps + 1)))
+  mutationSequencesWithDecreasingDate <- swc$municipality[mutationIndexesOfJumps, ]
+
+  # mHistId is surrogate key
+  stopifnot(swc$municipality.adm$mHistId == unique(swc$municipality.adm$mHistId))
+  
+  invisible(nlist(mutationsWithNonUniqueAdmissionNumbers,
+                  mutationSequencesWithDecreasingDate))
+}

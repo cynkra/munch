@@ -17,12 +17,15 @@ URL: https://github.com/krlmlr/SwissCommunes
 BugReports: https://github.com/krlmlr/SwissCommunes/issues
 Imports:
     logging,
-    R.cache
+    R.cache,
+    kimisc,
+    plyr
 Suggests:
     testthat
 Roxygen: list(wrap = FALSE)
 Collate:
     'SwissCommunes-package.R'
     'commune-hist-decl.R'
+    'swcCheckData.R'
     'swcReadData.R'
     'swcGetData.R'

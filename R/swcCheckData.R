@@ -25,12 +25,11 @@
 #' }
 #' 
 #' @export
-#' @importFrom plyr arrange ddply summarize
 swcCheckData <- function(swc=swcGetData()) {
-  admissionNumberCounts <- ddply(
+  admissionNumberCounts <- plyr::ddply(
     swc$municipality[, "mAdmissionNumber", drop = FALSE],
     "mAdmissionNumber",
-    summarize,
+    plyr::summarize,
     count=length(mAdmissionNumber)
   )
   admissionNumberCounts <- admissionNumberCounts[-1, ]
@@ -42,7 +41,7 @@ swcCheckData <- function(swc=swcGetData()) {
                              kimisc::in.interval.ro(get("count"), 2L, 5L)))
 
   # Admission numbers are roughly increasing by date
-  mutationsSortedByAdmissionNumber <- arrange(swc$municipality, get("mAdmissionNumber"))
+  mutationsSortedByAdmissionNumber <- plyr::arrange(swc$municipality, get("mAdmissionNumber"))
   admissionDateDiff <- diff(mutationsSortedByAdmissionNumber$mAdmissionDate)
   admissionNumberJumps <- which(admissionDateDiff < 0)
   admissionNumberJumpsBig <- which(admissionDateDiff < -1)

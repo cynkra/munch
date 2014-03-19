@@ -26,11 +26,11 @@
 #' 
 #' @export
 #' @importFrom kimisc in.interval.ro nlist
-#' @importFrom plyr arrange ddply summarize .
+#' @importFrom plyr arrange ddply summarize
 swcCheckData <- function(swc=swcGetData()) {
   admissionNumberCounts <- ddply(
     swc$municipality[, "mAdmissionNumber", drop = FALSE],
-    .(mAdmissionNumber),
+    "mAdmissionNumber",
     summarize,
     count=length(mAdmissionNumber)
   )
@@ -39,10 +39,10 @@ swcCheckData <- function(swc=swcGetData()) {
   stopifnot(with(admissionNumberCounts, count < 5))
   # All entries with more than one municipality per admission number
   mutationsWithNonUniqueAdmissionNumbers <- merge(
-    swc$municipality, subset(admissionNumberCounts, count > 1 & count < 5))
+    swc$municipality, subset(admissionNumberCounts, get("count") > 1 & get("count") < 5))
 
   # Admission numbers are roughly increasing by date
-  mutationsSortedByAdmissionNumber <- arrange(swc$municipality, mAdmissionNumber)
+  mutationsSortedByAdmissionNumber <- arrange(swc$municipality, get("mAdmissionNumber"))
   admissionNumberJumps <- which(diff(swc$municipality.adm$mAdmissionDate) < 0)
   admissionNumberJumpsBig <- which(diff(swc$municipality.adm$mAdmissionDate) < -1)
   stopifnot(length(admissionNumberJumps) < 10)

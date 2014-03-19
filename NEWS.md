@@ -1,3 +1,6 @@
+- New function `swcGetMutations()` that computes a list of municipality
+  mutations from a list of municipality states
+
 - New function `swcCheckData()` that checks the commune data for consistency
 
 0.0-3 (2014-03-19)

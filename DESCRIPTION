@@ -29,3 +29,4 @@ Collate:
     'swcCheckData.R'
     'swcReadData.R'
     'swcGetData.R'
+    'swcGetMutations.R'

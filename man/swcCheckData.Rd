@@ -13,10 +13,10 @@ swcCheckData(swc = swcGetData())
 Invisible named list with the following elements:
 
 \describe{
-  \item{\code{mutationsWithNonUniqueAdmissionNumbers}}{All municipality
-    mutations where the admission number occurs at least in one other
-    mutation}
-  \item{\code{mutationSequencesWithDecreasingDate}}{Mutation sequences
+  \item{\code{statesWithNonUniqueAdmissionNumbers}}{All municipality
+    states where the admission number occurs at least in one other
+    municipality state}
+  \item{\code{stateSequencesWithDecreasingDate}}{State sequences
     where the date decreases}
 }
 }

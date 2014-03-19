@@ -17,10 +17,10 @@
 #' @return Invisible named list with the following elements:
 #' 
 #' \describe{
-#'   \item{\code{mutationsWithNonUniqueAdmissionNumbers}}{All municipality
-#'     mutations where the admission number occurs at least in one other
-#'     mutation}
-#'   \item{\code{mutationSequencesWithDecreasingDate}}{Mutation sequences
+#'   \item{\code{statesWithNonUniqueAdmissionNumbers}}{All municipality
+#'     states where the admission number occurs at least in one other
+#'     municipality state}
+#'   \item{\code{stateSequencesWithDecreasingDate}}{State sequences
 #'     where the date decreases}
 #' }
 #' 
@@ -36,7 +36,7 @@ swcCheckData <- function(swc=swcGetData()) {
   
   stopifnot(with(admissionNumberCounts, count < 5))
   # All entries with more than one municipality per admission number
-  mutationsWithNonUniqueAdmissionNumbers <- merge(
+  statesWithNonUniqueAdmissionNumbers <- merge(
     swc$municipality, subset(admissionNumberCounts,
                              kimisc::in.interval.ro(get("count"), 2L, 5L)))
 
@@ -50,11 +50,11 @@ swcCheckData <- function(swc=swcGetData()) {
 
   mutationIndexesOfJumps <- unique(sort(c(admissionNumberJumps,
                                           admissionNumberJumps + 1)))
-  mutationSequencesWithDecreasingDate <- swc$municipality[mutationIndexesOfJumps, ]
+  stateSequencesWithDecreasingDate <- swc$municipality[mutationIndexesOfJumps, ]
 
   # mHistId is surrogate key
   stopifnot(swc$municipality.adm$mHistId == unique(swc$municipality.adm$mHistId))
   
-  invisible(kimisc::nlist(mutationsWithNonUniqueAdmissionNumbers,
-                          mutationSequencesWithDecreasingDate))
+  invisible(kimisc::nlist(statesWithNonUniqueAdmissionNumbers,
+                          stateSequencesWithDecreasingDate))
 }

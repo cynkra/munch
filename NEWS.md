@@ -1,3 +1,5 @@
+## 0.0-3 (2014-03-19)
+
 - New function `swcGetData()` that reads commune data from
   the web only once and reuses cached results for forthcoming calls
 

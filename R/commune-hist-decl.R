@@ -1,3 +1,5 @@
+local({
+
 getMunicipalityMutations <- function(municipalityIds=NULL) {
   #' Converts the list of "municipality states" in commhist.municipality
   #' to a list of mutations, for a given list of municipality IDs
@@ -266,3 +268,5 @@ getMunicipalityMappingForMutationIds <- function(from, to) {
     getMunicipalityIdList(to), to
   )
 }
+
+})

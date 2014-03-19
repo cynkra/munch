@@ -55,7 +55,9 @@ swcGetMutations <- function(swc=swcGetData(), municipalityIds=NULL) {
   
   stopifnot(mun.mut$mMutationNumber == sort(mun.mut$mMutationNumber, na.last=T))
   
-  mun.mut$mMutationDate <- with(mun.mut, coalesce.na(mAdmissionDate, mAbolitionDate + 1, replace=NA))
+  mun.mut$mMutationDate <- with(
+    mun.mut,
+    kimisc::coalesce.na(mAdmissionDate, mAbolitionDate + 1, replace=NA))
   stopifnot(!is.na(mun.mut$mMutationDate))
   
   # Special cases: 

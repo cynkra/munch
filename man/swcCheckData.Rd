@@ -5,6 +5,10 @@
 \usage{
 swcCheckData(swc = swcGetData())
 }
+\arguments{
+  \item{swc}{Data as read by the function
+  \code{swcReadData}, defaults to \code{swcGetData()}.}
+}
 \value{
 Invisible named list with the following elements:
 
@@ -22,8 +26,8 @@ This functon checks several assumptions made for the historic commune data,
 }
 \details{
 \itemize{
-  \item Each admission number has less than 5 mutations (with the exception
-    of the initial mutation that creates all communes at the earliest
+  \item Each admission number has less than 5 records (with the exception
+    of the initial admission that creates all communes at the earliest
     reported state)
   \item Admission numbers are roughly increasing by date, except for
     differences of one day

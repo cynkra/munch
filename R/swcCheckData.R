@@ -4,13 +4,15 @@
 #'   mostly for internal purposes:
 #' 
 #' \itemize{
-#'   \item Each admission number has less than 5 mutations (with the exception
-#'     of the initial mutation that creates all communes at the earliest
+#'   \item Each admission number has less than 5 records (with the exception
+#'     of the initial admission that creates all communes at the earliest
 #'     reported state)
 #'   \item Admission numbers are roughly increasing by date, except for
 #'     differences of one day
 #'   \item The \code{mHist} column is a surrogate key
 #' }
+#' 
+#' @template swc
 #' 
 #' @return Invisible named list with the following elements:
 #' 

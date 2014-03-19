@@ -27,6 +27,8 @@
 #' 
 #' @return A data frame that represents mutations.
 #' 
+#' @examples
+#' swcGetMutations()
 #' @export
 swcGetMutations <- function(swc=swcGetData(), municipalityIds=NULL) {
   mun.mut <- merge(

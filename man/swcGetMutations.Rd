@@ -38,4 +38,7 @@ excluded.
 The result is a list of mutations, i.e., a list of edges in the graph of
 municipality state snapshots.
 }
+\examples{
+swcGetMutations()
+}
 

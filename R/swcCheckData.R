@@ -25,7 +25,6 @@
 #' }
 #' 
 #' @export
-#' @importFrom kimisc in.interval.ro nlist
 #' @importFrom plyr arrange ddply summarize
 swcCheckData <- function(swc=swcGetData()) {
   admissionNumberCounts <- ddply(
@@ -39,12 +38,14 @@ swcCheckData <- function(swc=swcGetData()) {
   stopifnot(with(admissionNumberCounts, count < 5))
   # All entries with more than one municipality per admission number
   mutationsWithNonUniqueAdmissionNumbers <- merge(
-    swc$municipality, subset(admissionNumberCounts, get("count") > 1 & get("count") < 5))
+    swc$municipality, subset(admissionNumberCounts,
+                             kimisc::in.interval.ro(get("count"), 2L, 5L)))
 
   # Admission numbers are roughly increasing by date
   mutationsSortedByAdmissionNumber <- arrange(swc$municipality, get("mAdmissionNumber"))
-  admissionNumberJumps <- which(diff(swc$municipality.adm$mAdmissionDate) < 0)
-  admissionNumberJumpsBig <- which(diff(swc$municipality.adm$mAdmissionDate) < -1)
+  admissionDateDiff <- diff(mutationsSortedByAdmissionNumber$mAdmissionDate)
+  admissionNumberJumps <- which(admissionDateDiff < 0)
+  admissionNumberJumpsBig <- which(admissionDateDiff < -1)
   stopifnot(length(admissionNumberJumps) < 10)
   stopifnot(length(admissionNumberJumpsBig) == 0)
 
@@ -55,6 +56,6 @@ swcCheckData <- function(swc=swcGetData()) {
   # mHistId is surrogate key
   stopifnot(swc$municipality.adm$mHistId == unique(swc$municipality.adm$mHistId))
   
-  invisible(nlist(mutationsWithNonUniqueAdmissionNumbers,
-                  mutationSequencesWithDecreasingDate))
+  invisible(kimisc::nlist(mutationsWithNonUniqueAdmissionNumbers,
+                          mutationSequencesWithDecreasingDate))
 }

@@ -27,8 +27,8 @@ This functon checks several assumptions made for the historic commune data,
 \details{
 \itemize{
   \item Each admission number has less than 5 records (with the exception
-    of the initial admission that creates all communes at the earliest
-    reported state)
+    of the first-time registration where all communes share the same
+    admission number)
   \item Admission numbers are roughly increasing by date, except for
     differences of one day
   \item The \code{mHist} column is a surrogate key

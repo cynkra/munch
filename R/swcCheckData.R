@@ -5,8 +5,8 @@
 #' 
 #' \itemize{
 #'   \item Each admission number has less than 5 records (with the exception
-#'     of the initial admission that creates all communes at the earliest
-#'     reported state)
+#'     of the first-time registration where all communes share the same
+#'     admission number)
 #'   \item Admission numbers are roughly increasing by date, except for
 #'     differences of one day
 #'   \item The \code{mHist} column is a surrogate key
@@ -25,8 +25,8 @@
 #' }
 #' 
 #' @export
-#' @importFrom kimisc in.interval.ro
-#' @importFrom plyr arrange ddply summarize
+#' @importFrom kimisc in.interval.ro nlist
+#' @importFrom plyr arrange ddply summarize .
 swcCheckData <- function(swc=swcGetData()) {
   admissionNumberCounts <- ddply(
     swc$municipality[, "mAdmissionNumber", drop = FALSE],

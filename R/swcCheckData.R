@@ -30,7 +30,7 @@ swcCheckData <- function(swc=swcGetData()) {
     swc$municipality[, "mAdmissionNumber", drop = FALSE],
     "mAdmissionNumber",
     plyr::summarize,
-    count=length(mAdmissionNumber)
+    count=length(get("mAdmissionNumber"))
   )
   admissionNumberCounts <- admissionNumberCounts[-1, ]
   

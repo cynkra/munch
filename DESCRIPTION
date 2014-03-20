@@ -15,7 +15,8 @@ Description: The mutations of Swiss communes are tracked in a machine-readable
 License: GPL-3
 URL: https://github.com/krlmlr/SwissCommunes
 BugReports: https://github.com/krlmlr/SwissCommunes/issues
-Depends: R (>= 2.10)
+Depends:
+    R (>= 2.10)
 Imports:
     logging,
     R.cache,

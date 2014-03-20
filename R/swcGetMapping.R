@@ -127,7 +127,8 @@ getMunicipalityMappingWorker <- function(swc, hist.list.from, mid.from, hist.lis
   #' Subsequently, this transformation is augmented with all mutations
   #' between "from" and "to"
   trans.list <- plyr::ddply(
-    subset(mun.mut, in.interval.lo(as.numeric(get("mMutationId")), as.numeric(mid.from), as.numeric(mid.to))),
+    subset(mun.mut, kimisc::in.interval.lo(
+      as.numeric(get("mMutationId")), as.numeric(mid.from), as.numeric(mid.to))),
     "mMutationId",
     function(m) {
       rn <- colnames(f)
@@ -171,7 +172,7 @@ getMunicipalityMappingWorker <- function(swc, hist.list.from, mid.from, hist.lis
     }
   )
   
-  ff <- summary(f)
+  ff <- Matrix::summary(f)
   ff$from <- as.numeric(rownames(f)[ff$i])
   ff$to <- as.numeric(colnames(f)[ff$j])
   ff <- plyr::arrange(ff, from)

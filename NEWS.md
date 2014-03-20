@@ -1,3 +1,5 @@
+- New dataset `SwissBirths`
+
 - New function `swcGetMutations()` that computes a list of municipality
   mutations from a list of municipality states
 

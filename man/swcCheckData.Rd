@@ -6,8 +6,8 @@
 swcCheckData(swc = swcGetData())
 }
 \arguments{
-  \item{swc}{Data as read by the function
-  \code{swcReadData}, defaults to \code{swcGetData()}.}
+\item{swc}{Data as read by the function \code{swcReadData}, defaults to
+\code{swcGetData()}.}
 }
 \value{
 Invisible named list with the following elements:

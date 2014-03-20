@@ -6,11 +6,11 @@
 swcGetMutations(swc = swcGetData(), municipalityIds = NULL)
 }
 \arguments{
-  \item{swc}{Data as read by the function
-  \code{swcReadData}, defaults to \code{swcGetData()}.}
+\item{swc}{Data as read by the function \code{swcReadData}, defaults to
+\code{swcGetData()}.}
 
-  \item{municipalityIds}{A vector of municipality IDs of
-  interest, default is to use all municipalities.}
+\item{municipalityIds}{A vector of municipality IDs of interest, default is
+  to use all municipalities.}
 }
 \value{
 A data frame that represents mutations.

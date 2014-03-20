@@ -21,7 +21,8 @@ Imports:
     logging,
     R.cache,
     kimisc,
-    plyr
+    plyr,
+    Matrix
 Suggests:
     testthat
 Roxygen: list(wrap = FALSE)
@@ -31,4 +32,5 @@ Collate:
     'swcCheckData.R'
     'swcReadData.R'
     'swcGetData.R'
+    'swcGetMapping.R'
     'swcGetMutations.R'

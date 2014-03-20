@@ -2,6 +2,7 @@
 
 export(swcCheckData)
 export(swcGetData)
+export(swcGetMapping)
 export(swcGetMutations)
 export(swcReadData)
 importFrom(R.cache,evalWithMemoization)

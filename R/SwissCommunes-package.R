@@ -39,12 +39,6 @@ NULL
 #'   changes in the definition of the municipalities.
 #' @name SwissBirths
 #' @docType data
-#' @usage SwissBirths
-#' @format A data frame with 105058 observations of  4 variables:
-#' \preformatted{$ Year            : Factor w/ 44 levels "1969","1970",..: 1 1 1 1 1 1 1 1 1 1 ...
-#' $ MunicipalityID  : int  1 2 3 4 5 6 7 8 9 10 ...
-#' $ MunicipalityName: chr  "Aeugst am Albis" "Affoltern am Albis" "Bonstetten" "Hausen am Albis" ...
-#' $ Freq            : num  13 174 22 36 20 13 17 4 32 48 ...}
 #' @author Swiss Federal Statistical Office
 #' @source STAT-TAB, section "Lebendgeburten nach institutionellen Gliederungen, Geschlecht und Staatsangehörigkeit des Kindes und nach Altersklasse der Mutter".
 #'   

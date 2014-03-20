@@ -27,4 +27,9 @@ a match between municipality IDs.  This can be used as an intermediate
 table for merging two data sets with municipality identifiers taken at
 different, possibly unknown, points in time.
 }
+\examples{
+data(SwissBirths)
+mapping <- with(SwissBirths, swcGetMapping(ids.from=MunicipalityID[Year == "1970"], ids.to=MunicipalityID[Year == "1978"]))
+with(mapping, sum(mapping$from.mId != mapping$to.mId))
+}
 

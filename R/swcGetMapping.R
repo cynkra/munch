@@ -16,6 +16,7 @@
 #'   has four attributes that represent municipality IDs that were not valid
 #'   or existed but were not passed to this function for either point in time.
 #' 
+#' @example example/swcGetMapping.R
 #' @export
 swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
   #' For two lists of municipalitys, we construct a mapping from the first list

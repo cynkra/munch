@@ -60,6 +60,7 @@ getMunicipalityIdFitness <- function(swc, municipalityIds) {
 }
 
 computeMunList <- function(mun.mut.m) {
+  logging::loginfo("computeMunList")
   #' The .y values of the argument contain the newly added, the .x values
   #' the dropped column identifiers.  This function verifies that after each
   #' .y value there is a corresponding .x value, and vice versa, and that the
@@ -98,6 +99,7 @@ computeMunList <- function(mun.mut.m) {
 }
 
 computeFitnessAndMunList <- function(mun.mut, hist=F) {
+  logging::loginfo("computeFitnessAndMunList")
   #' The list of mutations is processed in the order of the mutation ID, which
   #' is composed of mutation date and mutation number. (Conversation with Ernst
   #' Oberholzer end of March 2013.)  All records with the same mutation ID

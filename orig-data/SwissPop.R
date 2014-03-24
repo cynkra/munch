@@ -1,5 +1,5 @@
 library(pxR)
-vz <- read.px("orig_data/px-d-40-1A01.px")
+vz <- read.px("orig-data/px-d-40-1A01.px")
 vzd <- as.data.frame(vz)
 vzdm <- subset(vzd, grepl('^[.][.][.][.][.][.]([0-9]+).*$', Region))
 vzdp <- transform(vzdm,

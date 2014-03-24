@@ -31,19 +31,32 @@ swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
   
   ret <- getMunicipalityMappingWorker(swc, hist.list.from, mid.from, hist.list.to, mid.to)
   
-  ret.from <- swc$municipality[match(ret$from, swc$municipality$mHistId),
-                                    c('mHistId', 'cAbbreviation', 'mId', 'mLongName', 'mShortName')]
-  names(ret.from) <- paste('from', names(ret.from), sep='.')
-  ret.to <- swc$municipality[match(ret$to, swc$municipality$mHistId),
-                                  c('mHistId', 'cAbbreviation', 'mId', 'mLongName', 'mShortName')]
-  names(ret.to) <- paste('to', names(ret.to), sep='.')
+  mt <- function(c) factor(c, levels=c("valid", "missing", "extra"))
+  cn <- function(name, n) paste(name, n, sep='.')
+
+  resultTable <- function(histId, inId, name) {
+    ret <- swc$municipality[match(histId, swc$municipality$mHistId),
+                                 c('mHistId', 'cAbbreviation', 'mId', 'mLongName', 'mShortName')]
+    ret$MatchType <- mt(ifelse(ret$mId %in% inId, "valid", "missing"))
+    names(ret) <- cn(names(ret), name)
+    ret
+  }
+  
+  extraTable <- function(retId, inId, name) {
+    mId <- sort(setdiff(inId, retId))
+    if (length(mId) == 0) return(NULL)
+    ret <- data.frame(mId=mId)
+    ret <- transform(ret, MatchType=mt("extra"))
+    names(ret) <- cn(names(ret), name)
+    ret
+  }
+  
+  ret.from <- resultTable(ret$from, ids.from, "from")
+  ret.to <- resultTable(ret$to, ids.to, "to")
   ret <- cbind(ret.from, ret.to)
-  
-  attr(ret, 'extra.mun.from') <- sort(setdiff(ids.from, ret$from.mId))
-  attr(ret, 'missing.mun.from') <- sort(setdiff(unique(ret$from.mId), ids.from))
-  attr(ret, 'extra.mun.to') <- sort(setdiff(ids.to, ret$to.mId))
-  attr(ret, 'missing.mun.to') <- sort(setdiff(unique(ret$to.mId), ids.to))
-  
+  ret <- plyr::rbind.fill(ret,
+                          extraTable(ret.from$mId, ids.from, "from"),
+                          extraTable(ret.to$mId, ids.to, "to"))
   ret
 }
 

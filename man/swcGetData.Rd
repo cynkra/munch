@@ -6,7 +6,7 @@
 swcGetData(force = FALSE)
 }
 \arguments{
-  \item{force}{If \code{TRUE}, reload data from the web.}
+\item{force}{If \code{TRUE}, reload data from the web.}
 }
 \value{
 A named list with the components \code{canton}, \code{district} and

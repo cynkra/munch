@@ -12,9 +12,13 @@
 #' 
 #' @return A data frame with columns prefixed by \code{from.} and \code{to} that
 #'   represents the computed match.  The municipality IDs are stored in the
-#'   columns \code{from.mId} and \code{to.mId}.  In addition, the return value
-#'   has four attributes that represent municipality IDs that were not valid
-#'   or existed but were not passed to this function for either point in time.
+#'   columns \code{from.mId} and \code{to.mId}.  The columns
+#'   \code{from.MergeType} and \code{to.MergeType} contain \code{valid} if
+#'   the municipality is contained in both the input and the mapping table,
+#'   \code{missing} if the municipality is missing from the input, and
+#'   \code{extra} if the municipality is in the input but not in the mapping
+#'   table; most columns are \code{NA} for such rows.  In addition, the column
+#'   \code{MergeType} offers a summary of the "from" and "to" status.
 #' 
 #' @example example/swcGetMapping.R
 #' @export

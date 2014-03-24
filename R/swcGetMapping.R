@@ -59,6 +59,44 @@ getMunicipalityIdFitness <- function(swc, municipalityIds) {
   fm$fitness
 }
 
+computeMunList <- function(mun.mut.m) {
+  #' The .y values of the argument contain the newly added, the .x values
+  #' the dropped column identifiers.  This function verifies that after each
+  #' .y value there is a corresponding .x value, and vice versa, and that the
+  #' mutation IDs are in nondecreasing order.  The return value is the list of
+  #' municipality IDs after all transformations have been applied.
+  #' 
+  #' Work around performance issues in plyr:
+  mun.mut.m$mMutationId <- with(mun.mut.m, as.integer(mMutationId))
+  #' 
+  #' Split input:
+  y <- subset(mun.mut.m, grepl("[.]y$", get("variable")))
+  x <- subset(mun.mut.m, grepl("[.]x$", get("variable")))
+  stopifnot(nrow(x) + nrow(y) == nrow(mun.mut.m))
+  #'
+  #' Assign to each x even sequence values, to each y odd sequence values:
+  xs <- plyr::ddply(x, "value", plyr::mutate, seq=seq_along(value) * 2)
+  ys <- plyr::ddply(y, "value", plyr::mutate, seq=seq_along(value) * 2 - 1)
+  #'
+  #' Mingle, order by municipality (=value) and sequence number:
+  xys <- plyr::arrange(plyr::rbind.fill(xs, ys), get("value"), get("seq"))
+  #'
+  #' Municipality groups: Compute "group change points" and end of group:
+  xys.dvg <- diff(xys$value) > 0
+  xys.endgroup <- c(xys.dvg, TRUE)
+  #'
+  #' Mutation IDs must be nondecreasing, and sequence numbers must be increasing
+  #' by one in each group (i.e., everywhere except perhaps at group boundaries)
+  xys.dMutationId <- diff(xys$mMutationId)
+  xys.dseq <- diff(as.integer(xys$seq))
+  stopifnot(xys.dMutationId[!xys.dvg] >= 0)
+  stopifnot(xys.dseq[!xys.dvg] == 1)
+  #'
+  #' Return value: All municipalities that have not expired at the end of their
+  #' group.
+  subset(xys[xys.endgroup, c("seq", "value")], seq %% 2 == 1)$value
+}
+
 computeFitnessAndMunList <- function(mun.mut, hist=F) {
   #' The list of mutations is processed in the order of the mutation ID, which
   #' is composed of mutation date and mutation number. (Conversation with Ernst
@@ -66,33 +104,21 @@ computeFitnessAndMunList <- function(mun.mut, hist=F) {
   #' form a mutation.  The abolished municipality numbers are removed, the admitted
   #' municipality numbers are added to the global list of municipalitys.  Consistency of
   #' all mutations is checked along the way.
-  mun.list <- c()
-  fitness <- plyr::ddply(
-    mun.mut,
-    "mMutationId",
-    function(m) {
-      if (!hist) {
-        abolId <- unique(m$mId.x)
-        admId <- unique(m$mId.y)
-      } else {
-        abolId <- unique(m$mHistId.x)
-        admId <- unique(m$mHistId.y)
-      }
-      abolId <- subset(abolId, !is.na(abolId))
-      admId <- subset(admId, !is.na(admId))
-      logging::logdebug('%s: +(%s), -(%s)', m$mMutationId[1], format(admId), format(abolId))
-      
-      stopifnot(abolId %in% mun.list)
-      mun.list <<- setdiff(mun.list, abolId)
-      stopifnot(!(admId %in% mun.list))
-      mun.list <<- c(mun.list, admId)
-      
-      data.frame(mMutationId=m$mMutationId, fitness=length(mun.list))
-    }
-  )
-  fitness <- plyr::unrowname(unique(fitness))
-  fitness$mMutationId <- factor(fitness$mMutationId, levels=levels(mun.mut$mMutationId), ordered=T)
-  kimisc::nlist(fitness, mun.list=sort(mun.list))
+  mun.mut.m <- reshape2::melt(
+    mun.mut, id.vars="mMutationId",
+    measure.vars=paste0(if (hist) "mHistId" else "mId", ".", c("x", "y")),
+    na.rm=TRUE)
+  mun.mut.m <- plyr::arrange(mun.mut.m,
+                             get("mMutationId"), get("variable"))
+  mun.mut.m <- unique(mun.mut.m)
+  
+  mun.list <- computeMunList(mun.mut.m)
+  
+  mun.mut.c <- reshape2::dcast(data=mun.mut.m, formula=mMutationId~variable,
+                               fun.aggregate=function(x) { length(unique(x)) })
+  mun.mut.c$delta <- with(mun.mut.c, get("mId.y") - get("mId.x"))
+  mun.mut.c$fitness <- cumsum(mun.mut.c$delta)
+  kimisc::nlist(fitness=mun.mut.c[, c("mMutationId", "fitness")], mun.list)
 }
 
 getHistIdList <- function(swc, mutationId) {

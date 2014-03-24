@@ -22,6 +22,7 @@ Imports:
     R.cache,
     kimisc,
     plyr,
+    reshape2,
     Matrix
 Suggests:
     testthat

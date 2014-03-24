@@ -71,7 +71,6 @@ swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
     `valid.missing`="missing.to",
     `NA.extra`="extra.to"
   )
-  browser()
   ret$MatchType <- factor(
     dMatchType[paste(ret$MatchType.from, ret$MatchType.to, sep='.')],
     levels=dMatchType)

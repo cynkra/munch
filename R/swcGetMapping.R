@@ -18,7 +18,8 @@
 #'   \code{missing} if the municipality is missing from the input, and
 #'   \code{extra} if the municipality is in the input but not in the mapping
 #'   table; most columns are \code{NA} for such rows.  In addition, the column
-#'   \code{MergeType} offers a summary of the "from" and "to" status.
+#'   \code{MergeType} offers a summary of the "from" and "to" status: Rows with
+#'   values other than \code{"valid"} or \code{"missing"} should be examined.
 #' 
 #' @example example/swcGetMapping.R
 #' @export

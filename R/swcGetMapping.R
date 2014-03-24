@@ -103,10 +103,12 @@ computeFitnessAndMunList <- function(mun.mut, hist=F) {
   #' Oberholzer end of March 2013.)  All records with the same mutation ID
   #' form a mutation.  The abolished municipality numbers are removed, the admitted
   #' municipality numbers are added to the global list of municipalitys.  Consistency of
-  #' all mutations is checked along the way.
+  #' all mutations is checked in computeMunList().
+  measure.vars=paste0(if (hist) "mHistId" else "mId", ".", c("x", "y"))
+  
   mun.mut.m <- reshape2::melt(
     mun.mut, id.vars="mMutationId",
-    measure.vars=paste0(if (hist) "mHistId" else "mId", ".", c("x", "y")),
+    measure.vars=measure.vars,
     na.rm=TRUE)
   mun.mut.m <- plyr::arrange(mun.mut.m,
                              get("mMutationId"), get("variable"))
@@ -116,7 +118,8 @@ computeFitnessAndMunList <- function(mun.mut, hist=F) {
   
   mun.mut.c <- reshape2::dcast(data=mun.mut.m, formula=mMutationId~variable,
                                fun.aggregate=function(x) { length(unique(x)) })
-  mun.mut.c$delta <- with(mun.mut.c, get("mId.y") - get("mId.x"))
+  # delta <- y - x
+  mun.mut.c$delta <- with(mun.mut.c, get(measure.vars[[2]]) - get(measure.vars[[1]]))
   mun.mut.c$fitness <- cumsum(mun.mut.c$delta)
   kimisc::nlist(fitness=mun.mut.c[, c("mMutationId", "fitness")], mun.list)
 }

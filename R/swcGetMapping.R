@@ -61,8 +61,8 @@ swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
   ret.to <- resultTable(ret$to, ids.to, "to")
   ret <- cbind(ret.from, ret.to)
   ret <- plyr::rbind.fill(ret,
-                          extraTable(ret.from$mId, ids.from, "from"),
-                          extraTable(ret.to$mId, ids.to, "to"))
+                          extraTable(ret.from$mId.from, ids.from, "from"),
+                          extraTable(ret.to$mId.to, ids.to, "to"))
   dMatchType <- c(
     `valid.valid`="valid",
     `missing.missing`="missing",

@@ -6,19 +6,23 @@
 swcGetMapping(swc = swcGetData(), ids.from, ids.to)
 }
 \arguments{
-  \item{swc}{Data as read by the function
-  \code{swcReadData}, defaults to \code{swcGetData()}.}
+\item{swc}{Data as read by the function \code{swcReadData}, defaults to
+\code{swcGetData()}.}
 
-  \item{ids.from}{A list of "source" municipality IDs}
+\item{ids.from}{A list of "source" municipality IDs}
 
-  \item{ids.to}{A list of "target" municipality IDs}
+\item{ids.to}{A list of "target" municipality IDs}
 }
 \value{
 A data frame with columns prefixed by \code{from.} and \code{to} that
   represents the computed match.  The municipality IDs are stored in the
-  columns \code{from.mId} and \code{to.mId}.  In addition, the return value
-  has four attributes that represent municipality IDs that were not valid
-  or existed but were not passed to this function for either point in time.
+  columns \code{from.mId} and \code{to.mId}.  The columns
+  \code{from.MergeType} and \code{to.MergeType} contain \code{valid} if
+  the municipality is contained in both the input and the mapping table,
+  \code{missing} if the municipality is missing from the input, and
+  \code{extra} if the municipality is in the input but not in the mapping
+  table; most columns are \code{NA} for such rows.  In addition, the column
+  \code{MergeType} offers a summary of the "from" and "to" status.
 }
 \description{
 For two lists of Swiss municipality IDs at any two points in time, this
@@ -28,8 +32,41 @@ table for merging two data sets with municipality identifiers taken at
 different, possibly unknown, points in time.
 }
 \examples{
+logging::basicConfig("INFO")
+
+library(pxR)
+vz <- read.px("/home/muelleki/Downloads/px-d-40-1A01.px")
+vzd <- as.data.frame(vz)
+vzdm <- subset(vzd, grepl('^[.][.][.][.][.][.]([0-9]+).*$', Region))
+vzdp <- transform(vzdm, MunicipalityID=as.numeric(gsub('^[.][.][.][.][.][.]([0-9]+).*$', '\\\\1', Region)))
+mutIDPop <- plyr::dlply(
+  vzdp,
+  .(), #"Jahr",
+  function(piece) {
+    SwissCommunes:::getMostProbableMutationId(swc=swcGetData(), piece$MunicipalityID)
+  }
+)
+
+(mutIDPop <- unique(unlist(mutIDPop)))
+
 data(SwissBirths)
-mapping <- with(SwissBirths, swcGetMapping(ids.from=MunicipalityID[Year == "1970"], ids.to=MunicipalityID[Year == "1978"]))
-with(mapping, sum(mapping$from.mId != mapping$to.mId))
+mutIDBirths <- plyr::dlply(
+  SwissBirths,
+  .(), #"Year",
+  function(piece)
+    SwissCommunes:::getMostProbableMutationId(swc=swcGetData(), municipalityIds=piece$MunicipalityID),
+  .progress="text"
+)
+
+mutIDBirths <- unique(unlist(mutIDBirths))
+
+
+ids.from <- with(vzdp, MunicipalityID)
+ids.to <- with(SwissBirths, MunicipalityID)
+setdiff(ids.from, ids.to)
+setdiff(ids.to, ids.from)
+mapping <- swcGetMapping(ids.from=ids.from, ids.to=ids.to)
+with(mapping, sum(mapping$mId.from != mapping$mId.to))
+subset(mapping, MatchType != "valid")
 }
 

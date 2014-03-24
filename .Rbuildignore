@@ -6,4 +6,5 @@
 ^NEWS\.md\.tmpl$
 ^tools$
 ^man-roxygen$
+^orig-data$
 ^\.travis\.yml$

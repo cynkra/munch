@@ -27,12 +27,19 @@ swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
   #' For two lists of municipalitys, we construct a mapping from the first list
   #' to the second.  First, the most probable mutation number in the
   #' "municipality mutations" data set is computed.
+  tid <- function(ids) {
+    if (is.factor(ids)) ids <- as.character(ids)
+    ids <- as.integer(ids)
+    ids
+  }
   ids.from <- sort(unique(ids.from))
-  mid.from <- getMostProbableMutationId(swc=swc, ids.from)
+  ids.from.int <- tid(ids.from)
+  mid.from <- getMostProbableMutationId(swc=swc, ids.from.int)
   hist.list.from <- getHistIdList(swc=swc, mid.from)
   
   ids.to <- sort(unique(ids.to))
-  mid.to <- getMostProbableMutationId(swc=swc, ids.to)
+  ids.to.int <- tid(ids.to)
+  mid.to <- getMostProbableMutationId(swc=swc, ids.to.int)
   hist.list.to <- getHistIdList(swc=swc, mid.to)
   
   ret <- getMunicipalityMappingWorker(swc, hist.list.from, mid.from, hist.list.to, mid.to)
@@ -43,6 +50,11 @@ swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
   resultTable <- function(histId, inId, name) {
     ret <- swc$municipality[match(histId, swc$municipality$mHistId),
                                  c('mHistId', 'cAbbreviation', 'mId', 'mLongName', 'mShortName')]
+    if (is.factor(inId)) {
+      ret$mIdAsNumber <- ret$mId
+      ret$mId <- factor(ret$mId, levels=levels(inId))
+    }
+
     ret$MatchType <- mt(ifelse(ret$mId %in% inId, "valid", "missing"))
     names(ret) <- cn(names(ret), name)
     ret

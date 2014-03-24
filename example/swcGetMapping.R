@@ -18,7 +18,7 @@ mutIDPop <- plyr::dlply(
 data(SwissBirths)
 mutIDBirths <- plyr::dlply(
   SwissBirths,
-  .(), #"Year",
+  c(), #"Year",
   function(piece)
     SwissCommunes:::getMostProbableMutationId(swc=swcGetData(), municipalityIds=piece$MunicipalityID),
   .progress="text"

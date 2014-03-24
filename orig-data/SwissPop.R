@@ -11,6 +11,7 @@ SwissPop <- with(vzdph, data.frame(Year=Jahr, MunicipalityID=kimisc::ofactor(Mun
                                    MunicipalityName=kimisc::ofactor(MunicipalityName),
                                    HouseholdSize=Haushaltsgrösse, Households=value))
 with(SwissPop, stopifnot(as.numeric(MunicipalityID) == as.numeric(MunicipalityName)))
+SwissPop <- plyr::arrange(SwissPop, Year, HouseholdSize, MunicipalityID)
 save(SwissPop, file="data/SwissPop.rda", compress="xz")
 summary(SwissPop)
 str(SwissPop)

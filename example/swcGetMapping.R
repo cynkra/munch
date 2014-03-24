@@ -1,15 +1,11 @@
 logging::basicConfig("INFO")
 
-library(pxR)
-vz <- read.px("/home/muelleki/Downloads/px-d-40-1A01.px")
-vzd <- as.data.frame(vz)
-vzdm <- subset(vzd, grepl('^[.][.][.][.][.][.]([0-9]+).*$', Region))
-vzdp <- transform(vzdm, MunicipalityID=as.numeric(gsub('^[.][.][.][.][.][.]([0-9]+).*$', '\\1', Region)))
+data(SwissPop)
 mutIDPop <- plyr::dlply(
-  vzdp,
-  .(), #"Jahr",
+  SwissPop,
+  c(), #"Jahr",
   function(piece) {
-    SwissCommunes:::getMostProbableMutationId(swc=swcGetData(), piece$MunicipalityID)
+    SwissCommunes:::getMostProbableMutationId(swc=swcGetData(), as.character(piece$MunicipalityID))
   }
 )
 
@@ -27,7 +23,7 @@ mutIDBirths <- plyr::dlply(
 mutIDBirths <- unique(unlist(mutIDBirths))
 
 
-ids.from <- with(vzdp, MunicipalityID)
+ids.from <- with(SwissPop, MunicipalityID)
 ids.to <- with(SwissBirths, MunicipalityID)
 setdiff(ids.from, ids.to)
 setdiff(ids.to, ids.from)

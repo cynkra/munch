@@ -90,8 +90,9 @@ computeFitnessAndMunList <- function(mun.mut, hist=F) {
       data.frame(mMutationId=m$mMutationId, fitness=length(mun.list))
     }
   )
+  fitness <- plyr::unrowname(unique(fitness))
   fitness$mMutationId <- factor(fitness$mMutationId, levels=levels(mun.mut$mMutationId), ordered=T)
-  kimisc::nlist(fitness, mun.list)
+  kimisc::nlist(fitness, mun.list=sort(mun.list))
 }
 
 getHistIdList <- function(swc, mutationId) {

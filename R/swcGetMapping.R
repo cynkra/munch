@@ -60,13 +60,16 @@ swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
                           extraTable(ret.to$mId, ids.to, "to"))
   dMatchType <- c(
     `valid.valid`="valid",
-    `valid.missing`="missing.to",
-    `missing.valid`="missing.from",
     `missing.missing`="missing",
+    `missing.valid`="missing.from",
     `extra.NA`="extra.from",
-    `NA.extra`="extra.to")
+    `valid.missing`="missing.to",
+    `NA.extra`="extra.to"
+  )
   browser()
-  ret$MatchType <- dMatchType[paste(ret$MatchType.from, ret$MatchType.to, sep='.')]
+  ret$MatchType <- factor(
+    dMatchType[paste(ret$MatchType.from, ret$MatchType.to, sep='.')],
+    levels=dMatchType)
   ret
 }
 

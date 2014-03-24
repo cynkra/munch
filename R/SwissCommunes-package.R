@@ -46,9 +46,31 @@ NULL
 #' $ MunicipalityName: chr  "Aeugst am Albis" "Affoltern am Albis" "Bonstetten" "Hausen am Albis" ...
 #' $ Freq            : num  13 174 22 36 20 13 17 4 32 48 ...}
 #' @author Swiss Federal Statistical Office
-#' @source STAT-TAB, section "Lebendgeburten nach institutionellen Gliederungen, Geschlecht und Staatsangehörigkeit des Kindes und nach Altersklasse der Mutter".
+#' @source STAT-TAB, section 01.2 "Bevölkerung/Bevölkerungsstand und -bewegung",
+#'   item "Lebendgeburten nach institutionellen Gliederungen, Geschlecht und Staatsangehörigkeit des Kindes und nach Altersklasse der Mutter".
 #'   
 #'   STAT-TAB URL: \url{http://www.pxweb.bfs.admin.ch/Database/German_01\%20-\%20Bev\%C3\%B6lkerung/01.2\%20-\%20Bev\%C3\%B6lkerungsstand\%20und\%20-bewegung/01.2\%20-\%20Bev\%C3\%B6lkerungsstand\%20und\%20-bewegung.asp?lang=1&prod=01&secprod=2&openChild=true}.
 #'   
 #'   File link: \url{http://www.pxweb.bfs.admin.ch/Database/German_01\%20-\%20Bev\%C3\%B6lkerung/01.2\%20-\%20Bev\%C3\%B6lkerungsstand\%20und\%20-bewegung/px-d-01-2D02.px}.
 NULL
+
+#' Census population by household size per commune in Switzerland between 1970 and 2000
+#' 
+#' Each row contains the number of households for a municipality,
+#'   a year and a household size.
+#' @name SwissPop
+#' @docType data
+#' @usage SwissPop
+#' @format A data frame with 115840 observations of  5 variables:
+#' \preformatted{$ Year            : Factor w/ 4 levels "1970","1980",..: 1 1 1 1 1 1 1 1 1 1 ...
+#' $ MunicipalityID  : Factor w/ 2896 levels "1","2","3","4",..: 1 1 1 1 1 1 1 1 1 1 ...
+#' $ MunicipalityName: Factor w/ 2896 levels "Aeugst am Albis",..: 1 1 1 1 1 1 1 1 1 1 ...
+#' $ HouseholdSize   : Factor w/ 10 levels "1","2","3","4",..: 1 2 3 4 5 6 7 8 9 10 ...
+#' $ Households      : num  37 46 28 25 32 16 8 3 3 1 ...}
+#' @author Swiss Federal Statistical Office
+#' @source STAT-TAB, section 40.1 "Eidgenössische Volkszählung/1970--2000",
+#'   item "Privathaushalte nach Haushaltsgrösse und Region".
+#'   
+#'   STAT-TAB URL: \url{http://www.pxweb.bfs.admin.ch/Database/German_40%20-%20Eidgen%C3%B6ssische%20Volksz%C3%A4hlung/40.1%20-%201970-2000/40.1%20-%201970-2000.asp?lang=1&prod=40&secprod=1&openChild=true}.
+#'   
+#'   File link: \url{http://www.pxweb.bfs.admin.ch/Database/German_40%20-%20Eidgen%C3%B6ssische%20Volksz%C3%A4hlung/40.1%20-%201970-2000/px-d-40-1A01.px}.

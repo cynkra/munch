@@ -1,3 +1,6 @@
+0.0-4 (2014-03-25)
+===
+
 - New function `swcGetMapping()` that computes a mapping between two lists
   of municipality IDs, with runnable example
 

@@ -9,9 +9,9 @@ swcGetMapping(swc = swcGetData(), ids.from, ids.to)
 \item{swc}{Data as read by the function \code{swcReadData}, defaults to
 \code{swcGetData()}.}
 
-\item{ids.from}{A list of "source" municipality IDs}
+\item{ids.from}{A list of "source" municipality IDs, preferably a factor}
 
-\item{ids.to}{A list of "target" municipality IDs}
+\item{ids.to}{A list of "target" municipality IDs, preferably a factor}
 }
 \value{
 A data frame with columns prefixed by \code{from.} and \code{to} that
@@ -22,7 +22,8 @@ A data frame with columns prefixed by \code{from.} and \code{to} that
   \code{missing} if the municipality is missing from the input, and
   \code{extra} if the municipality is in the input but not in the mapping
   table; most columns are \code{NA} for such rows.  In addition, the column
-  \code{MergeType} offers a summary of the "from" and "to" status.
+  \code{MergeType} offers a summary of the "from" and "to" status: Rows with
+  values other than \code{"valid"} or \code{"missing"} should be examined.
 }
 \description{
 For two lists of Swiss municipality IDs at any two points in time, this
@@ -31,42 +32,33 @@ a match between municipality IDs.  This can be used as an intermediate
 table for merging two data sets with municipality identifiers taken at
 different, possibly unknown, points in time.
 }
+\details{
+It is advisable to use factors as list of municipality IDs.  By that,
+comparisons and merges for municipality IDs are automatically checked for
+compatibility.
+}
 \examples{
-logging::basicConfig("INFO")
-
-library(pxR)
-vz <- read.px("/home/muelleki/Downloads/px-d-40-1A01.px")
-vzd <- as.data.frame(vz)
-vzdm <- subset(vzd, grepl('^[.][.][.][.][.][.]([0-9]+).*$', Region))
-vzdp <- transform(vzdm, MunicipalityID=as.numeric(gsub('^[.][.][.][.][.][.]([0-9]+).*$', '\\\\1', Region)))
-mutIDPop <- plyr::dlply(
-  vzdp,
-  .(), #"Jahr",
-  function(piece) {
-    SwissCommunes:::getMostProbableMutationId(swc=swcGetData(), piece$MunicipalityID)
-  }
-)
-
-(mutIDPop <- unique(unlist(mutIDPop)))
-
+data(SwissPop)
 data(SwissBirths)
-mutIDBirths <- plyr::dlply(
-  SwissBirths,
-  .(), #"Year",
-  function(piece)
-    SwissCommunes:::getMostProbableMutationId(swc=swcGetData(), municipalityIds=piece$MunicipalityID),
-  .progress="text"
-)
 
-mutIDBirths <- unique(unlist(mutIDBirths))
-
-
-ids.from <- with(vzdp, MunicipalityID)
+# Show mismatch of municipality IDs:
+ids.from <- with(SwissPop, MunicipalityID)
 ids.to <- with(SwissBirths, MunicipalityID)
 setdiff(ids.from, ids.to)
 setdiff(ids.to, ids.from)
+
+# Compute mapping and count non-matching municipality IDs:
 mapping <- swcGetMapping(ids.from=ids.from, ids.to=ids.to)
-with(mapping, sum(mapping$mId.from != mapping$mId.to))
-subset(mapping, MatchType != "valid")
+with(mapping, sum(mapping$mIdAsNumber.from != mapping$mIdAsNumber.to))
+
+# These should be looked at in some detail:
+subset(mapping, !(MatchType \%in\% c("valid", "missing")))
+
+# Test for injectivity. The result shows that the mapping is almost injective,
+# only one "from" commune is mapped to more than one other "to" commune.
+# This situation requires further examination.
+valid.mapping <- subset(mapping, MatchType == "valid")
+valid.mapping.dupes <- subset(valid.mapping, duplicated(mId.from))
+(noninjective.mapping <- subset(valid.mapping, mId.from \%in\% valid.mapping.dupes$mId.from))
 }
 

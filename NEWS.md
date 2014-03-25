@@ -1,4 +1,7 @@
-- New dataset `SwissBirths`
+- New function `swcGetMapping()` that computes a mapping between two lists
+  of municipality IDs, with runnable example
+
+- New datasets `SwissBirths` and `SwissPop`
 
 - New function `swcGetMutations()` that computes a list of municipality
   mutations from a list of municipality states

@@ -6,9 +6,13 @@
 #' table for merging two data sets with municipality identifiers taken at
 #' different, possibly unknown, points in time.
 #' 
+#' It is advisable to use factors as list of municipality IDs.  By that,
+#' comparisons and merges for municipality IDs are automatically checked for
+#' compatibility.
+#' 
 #' @template swc
-#' @param ids.from A list of "source" municipality IDs
-#' @param ids.to A list of "target" municipality IDs
+#' @param ids.from A list of "source" municipality IDs, preferably a factor
+#' @param ids.to A list of "target" municipality IDs, preferably a factor
 #' 
 #' @return A data frame with columns prefixed by \code{from.} and \code{to} that
 #'   represents the computed match.  The municipality IDs are stored in the

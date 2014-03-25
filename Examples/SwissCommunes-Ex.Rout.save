@@ -1,0 +1,354 @@
+
+R version 3.0.3 (2014-03-06) -- "Warm Puppy"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "SwissCommunes"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> library('SwissCommunes')
+> 
+> base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("swcGetMapping")
+> ### * swcGetMapping
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: swcGetMapping
+> ### Title: Compute a matching table between two lists of municipality IDs
+> ### Aliases: swcGetMapping
+> 
+> ### ** Examples
+> 
+> data(SwissPop)
+> data(SwissBirths)
+> 
+> # Show mismatch of municipality IDs:
+> ids.from <- with(SwissPop, MunicipalityID)
+> ids.to <- with(SwissBirths, MunicipalityID)
+> setdiff(ids.from, ids.to)
+  [1] "327"  "328"  "330"  "343"  "384"  "531"  "601"  "618"  "621"  "752" 
+ [11] "753"  "851"  "854"  "862"  "864"  "882"  "887"  "926"  "933"  "974" 
+ [21] "984"  "986"  "994"  "1027" "1028" "1029" "1034" "1035" "1036" "1038"
+ [31] "1042" "1060" "1087" "1090" "1101" "1105" "1106" "1124" "1133" "1134"
+ [41] "1141" "1144" "1148" "1149" "1601" "1602" "1603" "1604" "1605" "1606"
+ [51] "1607" "1608" "1609" "1610" "1611" "1612" "1613" "1614" "1615" "1616"
+ [61] "1617" "1618" "1619" "1620" "1621" "1622" "1623" "1624" "1625" "1626"
+ [71] "1627" "1628" "1629" "2001" "2002" "2003" "2007" "2012" "2017" "2018"
+ [81] "2020" "2023" "2026" "2031" "2032" "2036" "2037" "2042" "2046" "2062"
+ [91] "2064" "2069" "2070" "2071" "2074" "2075" "2077" "2081" "2082" "2083"
+[101] "2085" "2088" "2091" "2092" "2093" "2094" "2095" "2100" "2101" "2103"
+[111] "2105" "2107" "2108" "2109" "2110" "2112" "2132" "2133" "2136" "2139"
+[121] "2141" "2142" "2144" "2146" "2150" "2151" "2154" "2156" "2158" "2159"
+[131] "2161" "2176" "2180" "2181" "2182" "2188" "2190" "2191" "2202" "2203"
+[141] "2204" "2210" "2214" "2215" "2219" "2227" "2229" "2232" "2241" "2247"
+[151] "2253" "2263" "2269" "2282" "2322" "2324" "2326" "2327" "2329" "2330"
+[161] "2331" "2332" "2443" "2447" "2460" "2494" "2496" "2531" "2552" "2905"
+[171] "2911" "2912" "2913" "2916" "2918" "2934" "3335" "3336" "3351" "3354"
+[181] "3355" "3357" "3371" "3376" "3406" "3523" "3573" "3591" "3600" "3601"
+[191] "3602" "3632" "3639" "3641" "3642" "3664" "3665" "3666" "3667" "3692"
+[201] "3702" "3704" "3706" "3709" "3710" "3771" "3773" "3774" "3775" "3776"
+[211] "3841" "3842" "3843" "3844" "3845" "3846" "3892" "3912" "3913" "3914"
+[221] "3915" "3928" "3930" "3942" "3943" "3944" "3971" "3973" "3984" "4011"
+[231] "4036" "4043" "4070" "4101" "4116" "4118" "4162" "4168" "4171" "4174"
+[241] "4178" "4180" "4225" "4278" "5011" "5016" "5031" "5032" "5033" "5034"
+[251] "5035" "5036" "5037" "5038" "5039" "5040" "5041" "5042" "5043" "5044"
+[261] "5045" "5046" "5047" "5062" "5065" "5066" "5067" "5068" "5069" "5070"
+[271] "5074" "5075" "5080" "5092" "5093" "5094" "5098" "5101" "5104" "5106"
+[281] "5107" "5110" "5111" "5114" "5116" "5122" "5123" "5127" "5128" "5134"
+[291] "5142" "5145" "5147" "5150" "5153" "5156" "5158" "5159" "5164" "5165"
+[301] "5168" "5169" "5175" "5177" "5179" "5182" "5183" "5184" "5185" "5188"
+[311] "5190" "5191" "5201" "5204" "5209" "5211" "5215" "5217" "5218" "5220"
+[321] "5223" "5228" "5232" "5234" "5235" "5241" "5244" "5245" "5246" "5247"
+[331] "5248" "5252" "5256" "5258" "5259" "5262" "5264" "5265" "5267" "5301"
+[341] "5302" "5303" "5305" "5306" "5308" "5311" "5312" "5313" "5314" "5316"
+[351] "5318" "5319" "5320" "5321" "5322" "5433" "5452" "5453" "5454" "5455"
+[361] "5457" "5459" "5460" "5461" "5462" "5463" "5517" "5519" "5524" "5525"
+[371] "5526" "5528" "5532" "5536" "5538" "5558" "5567" "5569" "5570" "5602"
+[381] "5603" "5605" "5608" "5612" "5630" "5641" "5647" "5677" "5681" "5687"
+[391] "5691" "5781" "5783" "5784" "5786" "5787" "5793" "5794" "5795" "5796"
+[401] "5797" "5800" "5801" "5802" "5811" "5814" "5815" "5818" "5820" "5823"
+[411] "5824" "5825" "5826" "5829" "5901" "5916" "5917" "5918" "5920" "5927"
+[421] "5936" "6051" "6059" "6060" "6062" "6063" "6065" "6066" "6067" "6070"
+[431] "6071" "6085" "6086" "6088" "6103" "6107" "6174" "6175" "6176" "6179"
+[441] "6180" "6196" "6200" "6231" "6233" "6237" "6245" "6247" "6251" "6457"
+[451] "6460" "6501" "6502" "6503" "6505" "6506" "6507" "6508" "6509" "6510"
+[461] "6746" "6747" "6749" "6752" "6755" "6756" "6772" "6777" "6779" "6780"
+[471] "6786" "6788" "6791" "6794" "6795" "6796" "6797" "6798" "6799" "6801"
+[481] "6802" "6804" "6805"
+> setdiff(ids.to, ids.from)
+ [1] "632"  "756"  "855"  "888"  "948"  "1151" "1630" "1631" "1632" "2050"
+[11] "2051" "2052" "2114" "2115" "2116" "2162" "2233" "2234" "2235" "2337"
+[21] "2338" "2503" "3340" "3358" "3359" "3378" "3617" "3671" "3713" "3792"
+[31] "3847" "3931" "3932" "3955" "4049" "4184" "5048" "5049" "5050" "5137"
+[41] "5138" "5236" "5237" "5238" "5269" "5323" "5324" "5397" "5398" "5464"
+[51] "5540" "5541" "5571" "5613" "5804" "5805" "5831" "6074" "6075" "6076"
+[61] "6090" "6118" "6181" "6203" "6204" "6252" "6461" "6512" "6807" "6808"
+[71] "6809" "6810"
+> 
+> # Compute mapping and count non-matching municipality IDs:
+> mapping <- swcGetMapping(ids.from=ids.from, ids.to=ids.to)
+> with(mapping, sum(mapping$mIdAsNumber.from != mapping$mIdAsNumber.to))
+[1] 482
+> 
+> # These should be looked at in some detail:
+> subset(mapping, !(MatchType %in% c("valid", "missing")))
+     mHistId.from cAbbreviation.from mId.from
+1216        11250                 TI     <NA>
+1217        11251                 TI     <NA>
+1356        11390                 TI     5067
+1375        11409                 TI     5068
+1382        11416                 TI     5169
+1464        11498                 TI     5066
+1574        11608                 TI     5070
+1719        11754                 TI     5062
+2697        12735                 TI     5074
+3088        13130                 TI     5075
+                              mLongName.from          mShortName.from
+1216 C'za Bidogno/Sala Capriasca/Corticiasca C'za Bid./Sala C./Corti.
+1217     C'za Sala Capriasca/Vaglio/Lugaggia C'za Sala C./Vag./Lugag.
+1356                                Campello                 Campello
+1375                               Cavagnago                Cavagnago
+1382                              Carabietta               Carabietta
+1464                               Calpiogna                Calpiogna
+1574                               Chironico                Chironico
+1719                                Anzonico                 Anzonico
+2697                                Mairengo                 Mairengo
+3088                                    Osco                     Osco
+     mIdAsNumber.from MatchType.from mHistId.to cAbbreviation.to mId.to
+1216             5236        missing      14938               TI   5226
+1217             5237        missing      14938               TI   5226
+1356             5067          valid      11390               TI   <NA>
+1375             5068          valid      11409               TI   <NA>
+1382             5169          valid      11416               TI   <NA>
+1464             5066          valid      11498               TI   <NA>
+1574             5070          valid      11608               TI   <NA>
+1719             5062          valid      11754               TI   <NA>
+2697             5074          valid      12735               TI   <NA>
+3088             5075          valid      13130               TI   <NA>
+     mLongName.to mShortName.to mIdAsNumber.to MatchType.to    MatchType
+1216    Capriasca     Capriasca           5226        valid missing.from
+1217    Capriasca     Capriasca           5226        valid missing.from
+1356     Campello      Campello           5067      missing   missing.to
+1375    Cavagnago     Cavagnago           5068      missing   missing.to
+1382   Carabietta    Carabietta           5169      missing   missing.to
+1464    Calpiogna     Calpiogna           5066      missing   missing.to
+1574    Chironico     Chironico           5070      missing   missing.to
+1719     Anzonico      Anzonico           5062      missing   missing.to
+2697     Mairengo      Mairengo           5074      missing   missing.to
+3088         Osco          Osco           5075      missing   missing.to
+> 
+> # Test for injectivity. The result shows that the mapping is almost injective,
+> # only one "from" commune is mapped to more than one other "to" commune.
+> # This situation requires further examination.
+> valid.mapping <- subset(mapping, MatchType == "valid")
+> valid.mapping.dupes <- subset(valid.mapping, duplicated(mId.from))
+> (noninjective.mapping <- subset(valid.mapping, mId.from %in% valid.mapping.dupes$mId.from))
+       mHistId.from cAbbreviation.from mId.from mLongName.from mShortName.from
+1369          11403                 TI     5246       Caneggio        Caneggio
+1369.1        11403                 TI     5246       Caneggio        Caneggio
+       mIdAsNumber.from MatchType.from mHistId.to cAbbreviation.to mId.to
+1369               5246          valid      14499               TI   5249
+1369.1             5246          valid      14974               TI   5269
+            mLongName.to     mShortName.to mIdAsNumber.to MatchType.to
+1369   Castel San Pietro Castel San Pietro           5249        valid
+1369.1           Breggia           Breggia           5269        valid
+       MatchType
+1369       valid
+1369.1     valid
+> 
+> 
+> 
+> cleanEx()
+> nameEx("swcGetMutations")
+> ### * swcGetMutations
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: swcGetMutations
+> ### Title: Create a list of municipality mutations
+> ### Aliases: swcGetMutations
+> 
+> ### ** Examples
+> 
+> head(swcGetMutations(), 20)
+   mMutationNumber mHistId.x mId.x mShortName.x mAbolitionMode mAbolitionDate
+1             1000        NA    NA         <NA>           <NA>           <NA>
+2             1000        NA    NA         <NA>           <NA>           <NA>
+3             1000        NA    NA         <NA>           <NA>           <NA>
+4             1000        NA    NA         <NA>           <NA>           <NA>
+5             1000        NA    NA         <NA>           <NA>           <NA>
+6             1000        NA    NA         <NA>           <NA>           <NA>
+7             1000        NA    NA         <NA>           <NA>           <NA>
+8             1000        NA    NA         <NA>           <NA>           <NA>
+9             1000        NA    NA         <NA>           <NA>           <NA>
+10            1000        NA    NA         <NA>           <NA>           <NA>
+11            1000        NA    NA         <NA>           <NA>           <NA>
+12            1000        NA    NA         <NA>           <NA>           <NA>
+13            1000        NA    NA         <NA>           <NA>           <NA>
+14            1000        NA    NA         <NA>           <NA>           <NA>
+15            1000        NA    NA         <NA>           <NA>           <NA>
+16            1000        NA    NA         <NA>           <NA>           <NA>
+17            1000        NA    NA         <NA>           <NA>           <NA>
+18            1000        NA    NA         <NA>           <NA>           <NA>
+19            1000        NA    NA         <NA>           <NA>           <NA>
+20            1000        NA    NA         <NA>           <NA>           <NA>
+   mDateOfChange.x mHistId.y mId.y       mShortName.y          mAdmissionMode
+1             <NA>     11348     1             Aeugst First-time registration
+2             <NA>     11742     2 Affoltern am Albis First-time registration
+3             <NA>     11801     3         Bonstetten First-time registration
+4             <NA>     11992     4    Hausen am Albis First-time registration
+5             <NA>     12249     5           Hedingen First-time registration
+6             <NA>     12671     6    Kappel am Albis First-time registration
+7             <NA>     12674     7             Knonau First-time registration
+8             <NA>     12738     8        Maschwanden First-time registration
+9             <NA>     12433     9     Mettmenstetten First-time registration
+10            <NA>     12497    10           Obfelden First-time registration
+11            <NA>     13124    11          Ottenbach First-time registration
+12            <NA>     12891    12         Rifferswil First-time registration
+13            <NA>     10575    13          Stallikon First-time registration
+14            <NA>     11349    14           Wettswil First-time registration
+15            <NA>     11735    21            Adlikon First-time registration
+16            <NA>     11862    22        Benken (ZH) First-time registration
+17            <NA>     11855    23     Berg am Irchel First-time registration
+18            <NA>     11480    24     Buch am Irchel First-time registration
+19            <NA>     11573    25            Dachsen First-time registration
+20            <NA>     12182    26               Dorf First-time registration
+   mAdmissionDate mDateOfChange.y mMutationDate     mMutationId
+1      1960-01-01      1976-11-14    1960-01-01 1960-01-01.1000
+2      1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+3      1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+4      1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+5      1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+6      1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+7      1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+8      1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+9      1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+10     1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+11     1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+12     1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+13     1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+14     1960-01-01      1976-11-14    1960-01-01 1960-01-01.1000
+15     1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+16     1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+17     1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+18     1960-01-01      2012-12-31    1960-01-01 1960-01-01.1000
+19     1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+20     1960-01-01      1960-01-01    1960-01-01 1960-01-01.1000
+> head(subset(swcGetMutations(), !is.na(mHistId.x)), 20)
+     mMutationNumber mHistId.x mId.x          mShortName.x
+3144            1001     11248  5512               Bercher
+3145            1002     11245  2451            Ichertswil
+3146            1002     11244  2455            Lüterkofen
+3147            1003     11242  5625      Bussy-sur-Morges
+3148            1003     11243  5626 Chardonney-sur-Morges
+3149            1004     11240  4021                 Baden
+3150            1004     11227  4025               Dättwil
+3151            1005     11238  5886    Montreux-Châtelard
+3152            1005     11253  5887     Montreux-Planches
+3153            1006     11237  3972    Seewis im Prätigau
+3154            1007     11236  3881   Conters im Prätigau
+3155            1008     11235  2295         Grossbösingen
+3156            1009     11234  3982       Disentis/Mustèr
+3157            1010     11231  3597                Peiden
+3158            1010     11230  3602       Uors (Lumnezia)
+3159            1011     11233  2935            Herblingen
+3160            1011     11232  2939          Schaffhausen
+3161            1012     11229  3404                 Henau
+3162            1013     11239  4756     Schönholzerswilen
+3163            1013     11266  4757                  Toos
+                mAbolitionMode mAbolitionDate mDateOfChange.x mHistId.y mId.y
+3144 Reassignment to other d/c     1960-12-31      1960-12-31     13186  5512
+3145                 Abolition     1960-12-31      1960-12-31     13187  2455
+3146                 Abolition     1960-12-31      1960-12-31     13187  2455
+3147                 Abolition     1961-03-31      1961-03-31     13188  5625
+3148                 Abolition     1961-03-31      1961-03-31     13188  5625
+3149            Change of area     1961-12-31      1961-12-31     13189  4021
+3150                 Abolition     1961-12-31      1961-12-31     13189  4021
+3151                 Abolition     1961-12-31      1961-12-31     13190  5886
+3152                 Abolition     1961-12-31      1961-12-31     13190  5886
+3153        Change of name (m)     1961-12-31      1961-12-31     13191  3972
+3154        Change of name (m)     1961-12-31      1961-12-31     13192  3881
+3155        Change of name (m)     1961-12-31      1961-12-31     13193  2295
+3156        Change of name (m)     1962-12-31      1962-12-31     13194  3982
+3157                 Abolition     1963-05-23      1963-05-23     13195  3602
+3158                 Abolition     1963-05-23      1963-05-23     13195  3602
+3159                 Abolition     1963-12-31      1963-12-31     13196  2939
+3160            Change of area     1963-12-31      1963-12-31     13196  2939
+3161        Change of name (m)     1964-03-09      1964-03-09     13197  3408
+3162            Change of area     1964-05-31      1964-05-31     13198  4756
+3163                 Abolition     1964-05-31      1964-05-31     13198  4756
+              mShortName.y            mAdmissionMode mAdmissionDate
+3144               Bercher Reassignment to other d/c     1961-01-01
+3145 Lüterkofen-Ichertswil                  Creation     1961-01-01
+3146 Lüterkofen-Ichertswil                  Creation     1961-01-01
+3147      Bussy-Chardonney                  Creation     1961-04-01
+3148      Bussy-Chardonney                  Creation     1961-04-01
+3149                 Baden            Change of area     1962-01-01
+3150                 Baden            Change of area     1962-01-01
+3151              Montreux                  Creation     1962-01-01
+3152              Montreux                  Creation     1962-01-01
+3153   Seewis im Prättigau        Change of name (m)     1962-01-01
+3154  Conters im Prättigau        Change of name (m)     1962-01-01
+3155              Bösingen        Change of name (m)     1962-01-01
+3156       Disentis/Mustér        Change of name (m)     1963-01-01
+3157           Uors-Peiden                  Creation     1963-05-24
+3158           Uors-Peiden                  Creation     1963-05-24
+3159          Schaffhausen            Change of area     1964-01-01
+3160          Schaffhausen            Change of area     1964-01-01
+3161                 Uzwil        Change of name (m)     1964-03-10
+3162     Schönholzerswilen            Change of area     1964-06-01
+3163     Schönholzerswilen            Change of area     1964-06-01
+     mDateOfChange.y mMutationDate     mMutationId
+3144      2006-08-31    1961-01-01 1961-01-01.1001
+3145      1961-01-01    1961-01-01 1961-01-01.1002
+3146      1961-01-01    1961-01-01 1961-01-01.1002
+3147      2006-08-31    1961-04-01 1961-04-01.1003
+3148      2006-08-31    1961-04-01 1961-04-01.1003
+3149      1962-01-01    1962-01-01 1962-01-01.1004
+3150      1962-01-01    1962-01-01 1962-01-01.1004
+3151      2006-08-31    1962-01-01 1962-01-01.1005
+3152      2006-08-31    1962-01-01 1962-01-01.1005
+3153      2000-12-31    1962-01-01 1962-01-01.1006
+3154      2000-12-31    1962-01-01 1962-01-01.1007
+3155      1962-01-01    1962-01-01 1962-01-01.1008
+3156      2000-12-31    1963-01-01 1963-01-01.1009
+3157      2000-12-31    1963-05-24 1963-05-24.1010
+3158      2000-12-31    1963-05-24 1963-05-24.1010
+3159      2008-12-31    1964-01-01 1964-01-01.1011
+3160      2008-12-31    1964-01-01 1964-01-01.1011
+3161      2002-12-31    1964-03-10 1964-03-10.1012
+3162      2010-12-31    1964-06-01 1964-06-01.1013
+3163      2010-12-31    1964-06-01 1964-06-01.1013
+> 
+> 
+> 
+> ### * <FOOTER>
+> ###
+> options(digits = 7L)
+> base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
+Time elapsed:  21.365 0.073 21.552 0 0 
+> grDevices::dev.off()
+null device 
+          1 
+> ###
+> ### Local variables: ***
+> ### mode: outline-minor ***
+> ### outline-regexp: "\\(> \\)?### [*]+" ***
+> ### End: ***
+> quit('no')

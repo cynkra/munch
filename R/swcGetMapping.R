@@ -253,7 +253,7 @@ getMunicipalityMappingWorker <- function(swc, hist.list.from, mid.from, hist.lis
   ff <- Matrix::summary(f)
   ff$from <- as.numeric(rownames(f)[ff$i])
   ff$to <- as.numeric(colnames(f)[ff$j])
-  ff <- plyr::arrange(ff, from)
+  ff <- plyr::arrange(ff, get("from"))
   ff$i <- NULL
   ff$j <- NULL
   ff$x <- NULL

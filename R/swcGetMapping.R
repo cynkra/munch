@@ -122,8 +122,8 @@ computeMunList <- function(mun.mut.m) {
   stopifnot(nrow(x) + nrow(y) == nrow(mun.mut.m))
   #'
   #' Assign to each x even sequence values, to each y odd sequence values:
-  xs <- plyr::ddply(x, "value", plyr::mutate, seq=seq_along(value) * 2)
-  ys <- plyr::ddply(y, "value", plyr::mutate, seq=seq_along(value) * 2 - 1)
+  xs <- plyr::ddply(x, "value", plyr::mutate, seq=seq_along(get("value")) * 2)
+  ys <- plyr::ddply(y, "value", plyr::mutate, seq=seq_along(get("value")) * 2 - 1)
   #'
   #' Mingle, order by municipality (=value) and sequence number:
   xys <- plyr::arrange(plyr::rbind.fill(xs, ys), get("value"), get("seq"))

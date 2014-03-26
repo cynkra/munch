@@ -106,7 +106,7 @@ Type 'q()' to quit R.
 > with(mapping, sum(mapping$mIdAsNumber.from != mapping$mIdAsNumber.to))
 [1] 482
 > 
-> # These should be looked at in some detail:
+> # These should be looked at in some detail, and fixed manually:
 > subset(mapping, !(MatchType %in% c("valid", "missing")))
      mHistId.from cAbbreviation.from mId.from
 1216        11250                 TI     <NA>
@@ -156,9 +156,9 @@ Type 'q()' to quit R.
 > # Test for injectivity. The result shows that the mapping is almost injective,
 > # only one "from" commune is mapped to more than one other "to" commune.
 > # This situation requires further examination.
-> valid.mapping <- subset(mapping, MatchType == "valid")
-> valid.mapping.dupes <- subset(valid.mapping, duplicated(mId.from))
-> (noninjective.mapping <- subset(valid.mapping, mId.from %in% valid.mapping.dupes$mId.from))
+> mapping.dupes <- subset(mapping, duplicated(mIdAsNumber.from))
+> (noninjective.mapping <- subset(
++   mapping, mIdAsNumber.from %in% mapping.dupes$mIdAsNumber.from))
        mHistId.from cAbbreviation.from mId.from mLongName.from mShortName.from
 1369          11403                 TI     5246       Caneggio        Caneggio
 1369.1        11403                 TI     5246       Caneggio        Caneggio
@@ -171,6 +171,128 @@ Type 'q()' to quit R.
        MatchType
 1369       valid
 1369.1     valid
+> 
+> # Simple treatment (just for this example): Remove duplicates, and use only
+> # valid matches:
+> cleaned.mapping <- subset(mapping,
++                           !duplicated(mIdAsNumber.from) & MatchType == "valid")
+> 
+> # Now merge the two datasets based on the mapping table:
+> SwissPop.1970 <- subset(SwissPop, Year == "1970")
+> SwissPopMapping.1970 <- merge(SwissPop.1970,
++                               cleaned.mapping[, c("mId.from", "mId.to")],
++                               by.x = "MunicipalityID", by.y = "mId.from")
+> 
+> # Datasets from the "from" table must be suitably aggregated.  For the given 
+> # case of population totals we use the sum.
+> SwissPopMapping.1970.agg <- plyr::ddply(
++   SwissPopMapping.1970, c("mId.to", "HouseholdSize"),
++   plyr::summarize, Households=sum(Households))
+> with(SwissPopMapping.1970.agg, stopifnot(
++   length(unique(mId.to)) * length(levels(HouseholdSize)) ==
++     length(mId.to)))
+> 
+> # The aggregated "from" dataset now can be merged with the "to" dataset:
+> SwissBirths.1970 <- subset(SwissBirths, Year == "1970")
+> SwissPopBirths.1970 <- merge(SwissPopMapping.1970.agg, SwissBirths.1970,
++                              by.x = "mId.to", by.y = "MunicipalityID")
+> 
+> # Some more communes are still missing from the 1970 statistics, although
+> # the matches are valid:
+> subset(mapping, mIdAsNumber.to %in% setdiff(
++   SwissPopMapping.1970.agg$mId.to, SwissBirths.1970$MunicipalityID))[,
++     c("mId.from", "mShortName.from", "MatchType")]
+     mId.from          mShortName.from MatchType
+16       3533                Marmorera     valid
+30       3503                   Mutten     valid
+36       3593                    Duvin     valid
+42       3583                  Schnaus     valid
+48       3577                    Luven     valid
+123      3803                  Braggio     valid
+136      3806                    Cauco     valid
+147      3743                    Lavin     valid
+148      3742                   Guarda     valid
+177      3811                    Selma     valid
+198      3631                   Almens     valid
+199      3616        Waltensburg/Vuorz     valid
+218      3711                Rongellen     valid
+221      3708                   Mathon     valid
+222      3707                Lohn (GR)     valid
+223      3706             Innerferrera     valid
+227      3702            Ausserferrera     valid
+235      3670                   Urmein     valid
+236      3669               Tschappina     valid
+406      5129                  Sonogno     valid
+517      5688                    Syens     valid
+721      5732                     Vich     valid
+724      5233             Vico Morcote     valid
+737      5690         Villars-le-Comte     valid
+742      5651     Villars-Sainte-Croix     valid
+752      5935           Villars-Epeney     valid
+776      3923                  Castiel     valid
+876      5650          Vaux-sur-Morges     valid
+903      5932                   Ursins     valid
+1350     5173                  Certara     valid
+1368     5307      Campo (Vallemaggia)     valid
+1385     2008           Châtillon (FR)     valid
+1399     5475      Chavannes-le-Veyron     valid
+1408     5906                  Chanéaz     valid
+1486     5668                   Cremin     valid
+1494     5479                 Cuarnens     valid
+1588     5102                  Corippo     valid
+1716     5621                   Aclens     valid
+1772     6172                   Bister     valid
+1776     5155                    Bogno     valid
+1779     4302                  Böbikon     valid
+1781     5747                 Bofflens     valid
+1788     5622                Bremblens     valid
+1797     5096     Brione sopra Minusio     valid
+1852     5513           Bioley-Orjulaz     valid
+2052     5109                   Gresso     valid
+2078     2079               Grangettes     valid
+2152     5671           Dompierre (VD)     valid
+2284     4106                  Mönthal     valid
+2363     5488                   Mauraz     valid
+2366     4314                 Mellikon     valid
+2367      389                Meienried     valid
+2376     5012                   Moleno     valid
+2407     6216                 Mex (VS)     valid
+2618     6109                    Inden     valid
+2698     6178               Martisberg     valid
+2702     5676             Martherenges     valid
+2776     5315                 Linescio     valid
+2819     5564                 Novalles     valid
+2881     5798                   Ropraz     valid
+2939     5081                   Sobrio     valid
+2956     5762                   Sergey     valid
+2969     5686                  Sarzens     valid
+3099     2216           Pierrafortscha     valid
+3325      532                Bangerten     valid
+3328      535 Deisswil b. Münchenbuch.     valid
+3617      629              Oberhünigen     valid
+3627     4084                Islisberg     valid
+3630      362                  Ittigen     valid
+3631      363            Ostermundigen     valid
+3638     6716               Mettembert     valid
+3640     3613                   Pigniu     valid
+3689     2522                 Hersiwil     valid
+3712     4826                  Mammern     valid
+3713      631                Trimstein     valid
+3714      630             Allmendingen     valid
+3722     4643              Bottighofen     valid
+3748     2851           Kilchberg (BL)     valid
+3978      972                   Berken     valid
+4012     4621          Warth-Weiningen     valid
+4016     4716               Bettwiesen     valid
+4045     6728                 Vellerat     valid
+4052     4724                Eschlikon     valid
+4071     4786               Wilen (TG)     valid
+4077     4546             Schlatt (TG)     valid
+4081     4723                  Braunau     valid
+> 
+> # The "from" list must be from an earlier time than the "to" list.
+> try(swcGetMapping(ids.from=ids.to, ids.to=ids.from))
+Error : mid.from <= mid.to is not TRUE
 > 
 > 
 > 
@@ -342,7 +464,7 @@ Type 'q()' to quit R.
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  21.365 0.073 21.552 0 0 
+Time elapsed:  44.735 0.08 45.06 0 0 
 > grDevices::dev.off()
 null device 
           1 

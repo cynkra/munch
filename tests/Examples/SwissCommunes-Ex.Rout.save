@@ -106,6 +106,55 @@ Type 'q()' to quit R.
 > with(mapping, sum(mapping$mIdAsNumber.from != mapping$mIdAsNumber.to))
 [1] 482
 > 
+> # Communes that are "missing" are mostly lakes and other special communes:
+> subset(mapping, MatchType == "missing")[, c("mIdAsNumber.from", "mShortName.from")]
+     mIdAsNumber.from          mShortName.from
+241              9155    Lac de Neuchâtel (NE)
+243              9216                  Sihlsee
+244              9184  Vierwaldstättersee (NW)
+245              9183  Vierwaldstättersee (OW)
+246              9182  Vierwaldstättersee (SZ)
+247              9181  Vierwaldstättersee (UR)
+248              9180  Vierwaldstättersee (LU)
+249              9178            Zugersee (ZG)
+250              9177            Zugersee (SZ)
+251              9176            Zugersee (LU)
+252              9174        Hallwilersee (AG)
+253              9173        Hallwilersee (LU)
+254              9268            Walensee (GL)
+255              9157             Baldeggersee
+256              9269            Walensee (SG)
+257              9154    Lac de Neuchâtel (VD)
+258              9153    Lac de Neuchâtel (FR)
+259              9152    Lac de Neuchâtel (BE)
+260              9150       Lac de Bienne (NE)
+261              9149           Bielersee (BE)
+262              9089              Brienzersee
+263              9073                Thunersee
+264              9053           Zürichsee (SG)
+265              9052           Zürichsee (SZ)
+266              9051           Zürichsee (ZH)
+267              9040               Greifensee
+270              9163             Sempachersee
+283              9239                Sarnersee
+285              9760           Lac Léman (GE)
+286              9759           Lac Léman (VS)
+287              9758           Lac Léman (VD)
+288              9751              Lac de Joux
+289              9711            Lago Maggiore
+290              9710 Lago di Lugano (o.Camp.)
+291              9329            Bodensee (TG)
+292              9328            Bodensee (SG)
+293              9327            Bodensee (SH)
+294              9296        Lac de Morat (VD)
+295              9295           Murtensee (FR)
+296              9276        Lac de la Gruyère
+297              9270                Aegerisee
+299              5238 C'za Corticiasca/Valcol.
+329              5020  C'za Medeglia/Robasacco
+330              2285          Staatswald Galm
+1215             6072 Kom. Gluringen/Ritzingen
+> 
 > # These should be looked at in some detail, and fixed manually:
 > subset(mapping, !(MatchType %in% c("valid", "missing")))
      mHistId.from cAbbreviation.from mId.from
@@ -464,7 +513,7 @@ Error : mid.from <= mid.to is not TRUE
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  44.735 0.08 45.06 0 0 
+Time elapsed:  43.761 0.091 44.068 0 0 
 > grDevices::dev.off()
 null device 
           1 

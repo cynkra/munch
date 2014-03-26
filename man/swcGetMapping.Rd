@@ -57,6 +57,9 @@ setdiff(ids.to, ids.from)
 mapping <- swcGetMapping(ids.from=ids.from, ids.to=ids.to)
 with(mapping, sum(mapping$mIdAsNumber.from != mapping$mIdAsNumber.to))
 
+# Communes that are "missing" are mostly lakes and other special communes:
+subset(mapping, MatchType == "missing")[, c("mIdAsNumber.from", "mShortName.from")]
+
 # These should be looked at in some detail, and fixed manually:
 subset(mapping, !(MatchType \%in\% c("valid", "missing")))
 

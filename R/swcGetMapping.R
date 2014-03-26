@@ -10,6 +10,12 @@
 #' comparisons and merges for municipality IDs are automatically checked for
 #' compatibility.
 #' 
+#' Note that the "from" list must be from an earlier time than the "to" list.
+#' Trying to compute the mapping the other way round results in an error.
+#' This is intentional: As municipalities are usually merged, it makes sense
+#' to use the most recent data set as target for the mapping.  This can also be
+#' a file with suitable geometries to allow for visualization.
+#' 
 #' @template swc
 #' @param ids.from A list of "source" municipality IDs, preferably a factor
 #' @param ids.to A list of "target" municipality IDs, preferably a factor

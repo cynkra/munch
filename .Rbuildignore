@@ -9,3 +9,4 @@
 ^man-roxygen$
 ^orig-data$
 ^\.travis\.yml$
+^appveyor\.yml$

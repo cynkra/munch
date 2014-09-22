@@ -1,5 +1,5 @@
 
-R version 3.0.3 (2014-03-06) -- "Warm Puppy"
+R version 3.1.1 (2014-07-10) -- "Sock it to Me"
 Copyright (C) 2014 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
@@ -104,7 +104,7 @@ Type 'q()' to quit R.
 > # Compute mapping and count non-matching municipality IDs:
 > mapping <- swcGetMapping(ids.from=ids.from, ids.to=ids.to)
 > with(mapping, sum(mapping$mIdAsNumber.from != mapping$mIdAsNumber.to))
-[1] 482
+[1] 490
 > 
 > # Communes that are "missing" are mostly lakes and other special communes:
 > subset(mapping, MatchType == "missing")[, c("mIdAsNumber.from", "mShortName.from")]
@@ -160,47 +160,15 @@ Type 'q()' to quit R.
      mHistId.from cAbbreviation.from mId.from
 1216        11250                 TI     <NA>
 1217        11251                 TI     <NA>
-1356        11390                 TI     5067
-1375        11409                 TI     5068
-1382        11416                 TI     5169
-1464        11498                 TI     5066
-1574        11608                 TI     5070
-1719        11754                 TI     5062
-2697        12735                 TI     5074
-3088        13130                 TI     5075
                               mLongName.from          mShortName.from
 1216 C'za Bidogno/Sala Capriasca/Corticiasca C'za Bid./Sala C./Corti.
 1217     C'za Sala Capriasca/Vaglio/Lugaggia C'za Sala C./Vag./Lugag.
-1356                                Campello                 Campello
-1375                               Cavagnago                Cavagnago
-1382                              Carabietta               Carabietta
-1464                               Calpiogna                Calpiogna
-1574                               Chironico                Chironico
-1719                                Anzonico                 Anzonico
-2697                                Mairengo                 Mairengo
-3088                                    Osco                     Osco
      mIdAsNumber.from MatchType.from mHistId.to cAbbreviation.to mId.to
 1216             5236        missing      14938               TI   5226
 1217             5237        missing      14938               TI   5226
-1356             5067          valid      11390               TI   <NA>
-1375             5068          valid      11409               TI   <NA>
-1382             5169          valid      11416               TI   <NA>
-1464             5066          valid      11498               TI   <NA>
-1574             5070          valid      11608               TI   <NA>
-1719             5062          valid      11754               TI   <NA>
-2697             5074          valid      12735               TI   <NA>
-3088             5075          valid      13130               TI   <NA>
      mLongName.to mShortName.to mIdAsNumber.to MatchType.to    MatchType
 1216    Capriasca     Capriasca           5226        valid missing.from
 1217    Capriasca     Capriasca           5226        valid missing.from
-1356     Campello      Campello           5067      missing   missing.to
-1375    Cavagnago     Cavagnago           5068      missing   missing.to
-1382   Carabietta    Carabietta           5169      missing   missing.to
-1464    Calpiogna     Calpiogna           5066      missing   missing.to
-1574    Chironico     Chironico           5070      missing   missing.to
-1719     Anzonico      Anzonico           5062      missing   missing.to
-2697     Mairengo      Mairengo           5074      missing   missing.to
-3088         Osco          Osco           5075      missing   missing.to
 > 
 > # Test for injectivity. The result shows that the mapping is almost injective,
 > # only one "from" commune is mapped to more than one other "to" commune.
@@ -513,7 +481,7 @@ Error : mid.from <= mid.to is not TRUE
 > ###
 > options(digits = 7L)
 > base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
-Time elapsed:  43.761 0.091 44.068 0 0 
+Time elapsed:  29.125 0.081 29.356 0 0 
 > grDevices::dev.off()
 null device 
           1 

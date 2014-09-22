@@ -110,9 +110,8 @@ getMostProbableMutationId <- function(swc, municipalityIds) {
 }
 
 getMunicipalityIdFitness <- function(swc, municipalityIds) {
-  mun.mut <- swcGetMutations(swc=swc, municipalityIds)
-  fm <- computeFitnessAndMunList(mun.mut)
-  fm$fitness
+  mun.mut <- swcGetMutations(swc=swc)
+  computeFitness(mun.mut, municipalityIds)
 }
 
 computeMunList <- function(mun.mut.m) {
@@ -154,14 +153,12 @@ computeMunList <- function(mun.mut.m) {
   subset(xys[xys.endgroup, c("seq", "value")], seq %% 2 == 1)$value
 }
 
-computeFitnessAndMunList <- function(mun.mut, hist=F) {
-  logging::loginfo("computeFitnessAndMunList")
+meltMutations <- function(mun.mut, hist) {
+  logging::loginfo("meltMutations")
   #' The list of mutations is processed in the order of the mutation ID, which
   #' is composed of mutation date and mutation number. (Conversation with Ernst
   #' Oberholzer end of March 2013.)  All records with the same mutation ID
-  #' form a mutation.  The abolished municipality numbers are removed, the admitted
-  #' municipality numbers are added to the global list of municipalitys.  Consistency of
-  #' all mutations is checked in computeMunList().
+  #' form a mutation.
   measure.vars=paste0(if (hist) "mHistId" else "mId", ".", c("x", "y"))
 
   mun.mut.m <- reshape2::melt(
@@ -170,23 +167,31 @@ computeFitnessAndMunList <- function(mun.mut, hist=F) {
     na.rm=TRUE)
   mun.mut.m <- plyr::arrange(mun.mut.m,
                              get("mMutationId"), get("variable"))
-  mun.mut.m <- unique(mun.mut.m)
+  unique(mun.mut.m)
+}
 
-  mun.list <- computeMunList(mun.mut.m)
+computeFitness <- function(mun.mut, municipalityIds) {
+  mun.mut.m <- meltMutations(mun.mut, hist = F)
 
-  mun.mut.c <- reshape2::dcast(data=mun.mut.m, formula=mMutationId~variable,
-                               fun.aggregate=function(x) { length(unique(x)) })
-  # delta <- y - x
-  mun.mut.c$delta <- with(mun.mut.c, get(measure.vars[[2]]) - get(measure.vars[[1]]))
-  mun.mut.c$fitness <- cumsum(mun.mut.c$delta)
-  kimisc::nlist(fitness=mun.mut.c[, c("mMutationId", "fitness")], mun.list)
+  mun.mut.m <- mutate(
+    mun.mut.m,
+    dir = ifelse(grepl("[.]y$", variable), 1L, -1L),
+    desired = ifelse(value %in% municipalityIds, 1L, -1L),
+    delta = dir * desired)
+
+  mun.mut.c <- reshape2::dcast(data=mun.mut.m, formula=mMutationId~.,
+                               fun.aggregate = sum,
+                               value.var = "delta")
+
+  mun.mut.c$fitness <- cumsum(mun.mut.c$.)
+  mun.mut.c[, c("mMutationId", "fitness")]
 }
 
 getHistIdList <- function(swc, mutationId) {
   mun.mut <- subset(
     swcGetMutations(swc=swc), get("mMutationId") <= mutationId)
-  fm <- computeFitnessAndMunList(mun.mut, hist=T)
-  fm$mun.list
+  mun.mut.m <- meltMutations(mun.mut, hist = T)
+  computeMunList(mun.mut.m)
 }
 
 getMunicipalityMappingWorker <- function(swc, hist.list.from, mid.from, hist.list.to, mid.to) {

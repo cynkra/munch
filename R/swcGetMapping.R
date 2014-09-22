@@ -101,8 +101,12 @@ swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
 
 getMostProbableMutationId <- function(swc, municipalityIds) {
   fitness <- getMunicipalityIdFitness(swc=swc, municipalityIds)
+  logging::logdebug("fitness:\n%s", head(arrange(fitness, -fitness)$fitness, 10))
+  logging::logdebug("mutationId:\n%s", head(arrange(fitness, -fitness)$mMutationId, 10))
   fitness.max <- which.max(fitness$fitness)
-  fitness$mMutationId[fitness.max]
+  ret <- fitness$mMutationId[fitness.max]
+  logging::logdebug("getMostProbableMutationId: %s", ret)
+  ret
 }
 
 getMunicipalityIdFitness <- function(swc, municipalityIds) {

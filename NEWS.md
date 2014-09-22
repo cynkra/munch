@@ -5,6 +5,8 @@
 
 - Improve computation of fitness to properly include abolished communes
 
+- Adapt `swcReadData()` to new data format
+
 0.0-4 (2014-03-25)
 ===
 

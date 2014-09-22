@@ -1,3 +1,7 @@
+- Remove parameter municipalityIds to `swcGetMutations()`
+
+- Improve computation of fitness to properly include abolished communes
+
 0.0-4 (2014-03-25)
 ===
 

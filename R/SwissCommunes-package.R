@@ -10,8 +10,8 @@
 #' \tabular{ll}{
 #'   Package: \tab SwissCommunes\cr
 #'   Type: \tab Package\cr
-#'   Version: \tab 0.0-4\cr
-#'   Date: \tab 2014-03-25\cr
+#'   Version: \tab 0.0-5\cr
+#'   Date: \tab 2014-09-22\cr
 #'   License: \tab GPL-3\cr
 #' }
 #'

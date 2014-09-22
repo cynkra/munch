@@ -3,7 +3,7 @@
 \alias{swcGetMutations}
 \title{Create a list of municipality mutations}
 \usage{
-swcGetMutations(swc = swcGetData(), municipalityIds = NULL)
+swcGetMutations(swc = swcGetData())
 }
 \arguments{
 \item{swc}{Data as read by the function \code{swcReadData}, defaults to

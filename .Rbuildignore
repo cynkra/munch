@@ -5,6 +5,7 @@
 ^NEWS\.md$
 ^NEWS\.md\.tmpl$
 ^tools$
+^example$
 ^man-roxygen$
 ^orig-data$
 ^\.travis\.yml$

@@ -175,9 +175,9 @@ computeFitness <- function(mun.mut, municipalityIds) {
 
   mun.mut.m <- plyr::mutate(
     mun.mut.m,
-    dir = ifelse(grepl("[.]y$", variable), 1L, -1L),
-    desired = ifelse(value %in% municipalityIds, 1L, -1L),
-    delta = dir * desired)
+    dir = ifelse(grepl("[.]y$", get("variable")), 1L, -1L),
+    desired = ifelse(get("value") %in% municipalityIds, 1L, -1L),
+    delta = get("dir") * get("desired"))
 
   mun.mut.c <- reshape2::dcast(data=mun.mut.m, formula=mMutationId~.,
                                fun.aggregate = sum,

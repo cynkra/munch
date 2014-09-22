@@ -22,8 +22,6 @@
 #' municipality state snapshots.
 #'
 #' @template swc
-#' @param municipalityIds A vector of municipality IDs of interest, default is
-#'   to use all municipalities.
 #'
 #' @return A data frame that represents mutations.
 #'
@@ -31,7 +29,7 @@
 #' head(swcGetMutations(), 20)
 #' head(subset(swcGetMutations(), !is.na(mHistId.x)), 20)
 #' @export
-swcGetMutations <- function(swc=swcGetData(), municipalityIds=NULL) {
+swcGetMutations <- function(swc=swcGetData()) {
   mun.mut <- merge(
     subset(
       swc$municipality[
@@ -104,25 +102,6 @@ swcGetMutations <- function(swc=swcGetData(), municipalityIds=NULL) {
                            get("mId.x"), get("mId.y"))
   mun.mut$mMutationId <- factor(interaction(mun.mut$mMutationDate, mun.mut$mMutationNumber), ordered=T)
   #mun.mut$mMutationId <- factor(mun.mut$mMutationDate, ordered=T)
-
-  #' Finally we exclude those records that do not fit our desired
-  #' list of municipality IDs. We need to do this here because we
-  #' want to keep the factor levels of mMutationId consistent.
-  if (!is.null(municipalityIds)) {
-    municipalityIds <- c(municipalityIds, NA)
-    mId.x.in <- with(mun.mut, mId.x %in% municipalityIds)
-    mId.y.in <- with(mun.mut, mId.y %in% municipalityIds)
-    mId.in <- mId.x.in | mId.y.in
-    mId.x.nin <- which(!mId.x.in & mId.y.in)
-    mId.y.nin <- which(!mId.y.in & mId.x.in)
-
-    for (n in c('mHistId.x', 'mId.x', 'mShortName.x', 'mAbolitionMode', 'mAbolitionDate', 'mDateOfChange.x'))
-      mun.mut[mId.x.nin, n] <- NA
-    for (n in c('mHistId.y', 'mId.y', 'mShortName.y', 'mAdmissionMode', 'mAdmissionDate', 'mDateOfChange.y'))
-      mun.mut[mId.y.nin, n] <- NA
-
-    mun.mut <- subset(mun.mut, mId.in)
-  }
 
   mun.mut
 }

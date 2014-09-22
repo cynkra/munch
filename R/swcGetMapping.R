@@ -101,8 +101,8 @@ swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
 
 getMostProbableMutationId <- function(swc, municipalityIds) {
   fitness <- getMunicipalityIdFitness(swc=swc, municipalityIds)
-  logging::logdebug("fitness:\n%s", head(arrange(fitness, -fitness)$fitness, 10))
-  logging::logdebug("mutationId:\n%s", head(arrange(fitness, -fitness)$mMutationId, 10))
+  logging::logdebug("fitness:\n%s", head(plyr::arrange(fitness, -fitness)$fitness, 10))
+  logging::logdebug("mutationId:\n%s", head(plyr::arrange(fitness, -fitness)$mMutationId, 10))
   fitness.max <- which.max(fitness$fitness)
   ret <- fitness$mMutationId[fitness.max]
   logging::logdebug("getMostProbableMutationId: %s", ret)
@@ -173,7 +173,7 @@ meltMutations <- function(mun.mut, hist) {
 computeFitness <- function(mun.mut, municipalityIds) {
   mun.mut.m <- meltMutations(mun.mut, hist = F)
 
-  mun.mut.m <- mutate(
+  mun.mut.m <- plyr::mutate(
     mun.mut.m,
     dir = ifelse(grepl("[.]y$", variable), 1L, -1L),
     desired = ifelse(value %in% municipalityIds, 1L, -1L),

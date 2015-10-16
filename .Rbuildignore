@@ -10,3 +10,6 @@
 ^orig-data$
 ^\.travis\.yml$
 ^appveyor\.yml$
+^Makefile$
+^Makefile\.in$
+^makeR$

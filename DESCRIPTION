@@ -37,3 +37,4 @@ Collate:
     'swcGetMutations.R'
     'zzz-autoroxy.R'
 RoxygenNote: 4.1.1.9000
+LazyData: true

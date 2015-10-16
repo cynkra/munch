@@ -114,6 +114,15 @@ getMunicipalityIdFitness <- function(swc, municipalityIds) {
   computeFitness(mun.mut, municipalityIds)
 }
 
+seq_by <- function(data, varname) {
+  data <- plyr::arrange(data, get(varname))
+  lengths <- rle(data[[varname]])$lengths
+  var_seq <- unlist(lapply(lengths, seq_len))
+
+  data[["seq"]] <- var_seq
+  data
+}
+
 computeMunList <- function(mun.mut.m) {
   logging::loginfo("computeMunList")
   #' The .y values of the argument contain the newly added, the .x values
@@ -131,8 +140,10 @@ computeMunList <- function(mun.mut.m) {
   stopifnot(nrow(x) + nrow(y) == nrow(mun.mut.m))
   #'
   #' Assign to each x even sequence values, to each y odd sequence values:
-  xs <- plyr::ddply(x, "value", plyr::mutate, seq=seq_along(get("value")) * 2)
-  ys <- plyr::ddply(y, "value", plyr::mutate, seq=seq_along(get("value")) * 2 - 1)
+  xs <- seq_by(x, "value")
+  xs$seq <- xs$seq * 2L
+  ys <- seq_by(y, "value")
+  ys$seq <- ys$seq * 2L - 1L
   #'
   #' Mingle, order by municipality (=value) and sequence number:
   xys <- plyr::arrange(plyr::rbind.fill(xs, ys), get("value"), get("seq"))

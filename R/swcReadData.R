@@ -96,9 +96,9 @@ swcReadData <- function() .swcReadData()
     logging::logdebug('Mode names: %s', mode.names)
     for (n in mode.names) dat[, n] <- factor(dat[, n], levels=names(codes), labels=codes)
 
-    numeric.names <- grep('Id|Number', names(dat), value=T)
-    logging::logdebug('Numeric names: %s', numeric.names)
-    for (n in numeric.names) dat[, n] <- as.numeric(dat[, n])
+    integer.names <- grep('Id|Number', names(dat), value=T)
+    logging::logdebug('Integer names: %s', integer.names)
+    for (n in integer.names) dat[, n] <- as.integer(dat[, n])
 
     # Last column is compulsory
     stopifnot(!is.na(dat[, tail(t$colnames, 1)]))

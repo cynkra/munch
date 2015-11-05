@@ -1,3 +1,10 @@
+Version 0.0-6 (2015-11-05)
+===
+
+- Use integers (instead of numerics) for IDs. Factor input also works.
+- Mapping is now computed slightly faster
+- Data are reloaded from the web if current month or package version changes.
+
 0.0-5 (2014-09-22)
 ===
 

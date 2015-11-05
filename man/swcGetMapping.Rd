@@ -45,7 +45,7 @@ to use the most recent data set as target for the mapping.  This can also be
 a file with suitable geometries to allow for visualization.
 
 
-For two lists of municipalitys, we construct a mapping from the first list
+For two lists of municipalities, we construct a mapping from the first list
 to the second.  First, the most probable mutation number in the
 "municipality mutations" data set is computed.
 }

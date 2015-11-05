@@ -35,7 +35,7 @@
 #' @export
 swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
   #' @details
-  #' For two lists of municipalitys, we construct a mapping from the first list
+  #' For two lists of municipalities, we construct a mapping from the first list
   #' to the second.  First, the most probable mutation number in the
   #' "municipality mutations" data set is computed.
   tid <- function(ids) {
@@ -135,51 +135,51 @@ seq_by <- function(data, varname) {
 
 computeMunList <- function(mun.mut.m) {
   logging::loginfo("computeMunList")
-  #' The .y values of the argument contain the newly added, the .x values
-  #' the dropped column identifiers.  This function verifies that after each
-  #' .y value there is a corresponding .x value, and vice versa, and that the
-  #' mutation IDs are in nondecreasing order.  The return value is the list of
-  #' municipality IDs after all transformations have been applied.
-  #'
-  #' Work around performance issues in plyr:
+  # The .y values of the argument contain the newly added, the .x values
+  # the dropped column identifiers.  This function verifies that after each
+  # .y value there is a corresponding .x value, and vice versa, and that the
+  # mutation IDs are in nondecreasing order.  The return value is the list of
+  # municipality IDs after all transformations have been applied.
+  #
+  # Work around performance issues in plyr:
   mun.mut.m$mMutationId <- with(mun.mut.m, as.integer(mMutationId))
-  #'
-  #' Split input:
+  #
+  # Split input:
   y <- subset(mun.mut.m, grepl("[.]y$", get("variable")))
   x <- subset(mun.mut.m, grepl("[.]x$", get("variable")))
   stopifnot(nrow(x) + nrow(y) == nrow(mun.mut.m))
-  #'
-  #' Assign to each x even sequence values, to each y odd sequence values:
+  #
+  # Assign to each x even sequence values, to each y odd sequence values:
   xs <- seq_by(x, "value")
   xs$seq <- xs$seq * 2L
   ys <- seq_by(y, "value")
   ys$seq <- ys$seq * 2L - 1L
-  #'
-  #' Mingle, order by municipality (=value) and sequence number:
+  #
+  # Mingle, order by municipality (=value) and sequence number:
   xys <- plyr::arrange(plyr::rbind.fill(xs, ys), get("value"), get("seq"))
-  #'
-  #' Municipality groups: Compute "group change points" and end of group:
+  #
+  # Municipality groups: Compute "group change points" and end of group:
   xys.dvg <- diff(xys$value) > 0
   xys.endgroup <- c(xys.dvg, TRUE)
-  #'
-  #' Mutation IDs must be nondecreasing, and sequence numbers must be increasing
-  #' by one in each group (i.e., everywhere except perhaps at group boundaries)
+  #
+  # Mutation IDs must be nondecreasing, and sequence numbers must be increasing
+  # by one in each group (i.e., everywhere except perhaps at group boundaries)
   xys.dMutationId <- diff(xys$mMutationId)
   xys.dseq <- diff(as.integer(xys$seq))
   stopifnot(xys.dMutationId[!xys.dvg] >= 0)
   stopifnot(xys.dseq[!xys.dvg] == 1)
-  #'
-  #' Return value: All municipalities that have not expired at the end of their
-  #' group.
+  #
+  # Return value: All municipalities that have not expired at the end of their
+  # group.
   subset(xys[xys.endgroup, c("seq", "value")], seq %% 2 == 1)$value
 }
 
 meltMutations <- function(mun.mut, hist) {
   logging::loginfo("meltMutations")
-  #' The list of mutations is processed in the order of the mutation ID, which
-  #' is composed of mutation date and mutation number. (Conversation with Ernst
-  #' Oberholzer end of March 2013.)  All records with the same mutation ID
-  #' form a mutation.
+  # The list of mutations is processed in the order of the mutation ID, which
+  # is composed of mutation date and mutation number. (Conversation with Ernst
+  # Oberholzer end of March 2013.)  All records with the same mutation ID
+  # form a mutation.
   measure.vars=paste0(if (hist) "mHistId" else "mId", ".", c("x", "y"))
 
   mun.mut.m <- reshape2::melt(
@@ -216,30 +216,30 @@ getHistIdList <- function(swc, mutationId) {
 }
 
 getMunicipalityMappingWorker <- function(swc, hist.list.from, mid.from, hist.list.to, mid.to) {
-  #' Here, we receive the most probable mutation number in the "municipality
-  #' mutations" data set as parameter.
+  # Here, we receive the most probable mutation number in the "municipality
+  # mutations" data set as parameter.
 
-  #' We assume that the first list is older than the second list:
+  # We assume that the first list is older than the second list:
   stopifnot(mid.from <= mid.to)
 
-  #' Then we iterate over all mutations.  We must cover all mutations,
-  #' because a mutation A -> A' -> B would be lost otherwise if A'
-  #' is not in either municipality list.
+  # Then we iterate over all mutations.  We must cover all mutations,
+  # because a mutation A -> A' -> B would be lost otherwise if A'
+  # is not in either municipality list.
   mun.mut <- swcGetMutations(swc=swc)
 
-  #' The mapping will be represented as a linear transformation, encoded
-  #' as a sparse matrix with rows as "from" and columns as "to" municipalitys.
-  #' Each mutation is converted to such a matrix, the matrix product of
-  #' all mutations will be the final mapping.  We start with a unit
-  #' matrix (the identity transformation) of all "from" columns:
+  # The mapping will be represented as a linear transformation, encoded
+  # as a sparse matrix with rows as "from" and columns as "to" municipalities.
+  # Each mutation is converted to such a matrix, the matrix product of
+  # all mutations will be the final mapping.  We start with a unit
+  # matrix (the identity transformation) of all "from" columns:
 
   f <- Matrix::sparseMatrix(i=seq_along(hist.list.from),
                             j=seq_along(hist.list.from),
                             x=1,
                             dimnames=list(hist.list.from, hist.list.from))
 
-  #' Subsequently, this transformation is augmented with all mutations
-  #' between "from" and "to"
+  # Subsequently, this transformation is augmented with all mutations
+  # between "from" and "to"
   trans.list <- plyr::ddply(
     subset(mun.mut, kimisc::in.interval.lo(
       as.numeric(get("mMutationId")), as.numeric(mid.from), as.numeric(mid.to))),

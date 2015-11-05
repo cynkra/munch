@@ -61,11 +61,6 @@ swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
   resultTable <- function(histId, inId, name) {
     ret <- swc$municipality[match(histId, swc$municipality$mHistId),
                                  c('mHistId', 'cAbbreviation', 'mId', 'mLongName', 'mShortName')]
-    if (is.factor(inId)) {
-      ret$mIdAsNumber <- ret$mId
-      ret$mId <- factor(ret$mId, levels=levels(inId))
-    }
-
     ret$MatchType <- mt(ifelse(ret$mId %in% inId, "valid", "missing"))
     names(ret) <- cn(names(ret), name)
     ret
@@ -80,12 +75,26 @@ swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
     ret
   }
 
+  fixFactor <- function(ret, inId, name) {
+    nameId <- paste0("mId.", name)
+    nameIdAsNumber <- paste0("mIdAsNumber.", name)
+    if (is.factor(inId)) {
+      ret[[nameIdAsNumber]] <- ret[[nameId]]
+      ret[[nameId]] <- factor(ret[[nameId]], levels=levels(inId))
+    }
+
+    ret
+  }
+
   ret.from <- resultTable(ret$from, ids.from.int, "from")
   ret.to <- resultTable(ret$to, ids.to.int, "to")
   ret <- cbind(ret.from, ret.to)
   ret <- plyr::rbind.fill(ret,
                           extraTable(ret.from$mId.from, ids.from.int, "from"),
                           extraTable(ret.to$mId.to, ids.to.int, "to"))
+  ret <- fixFactor(ret, ids.from, "from")
+  ret <- fixFactor(ret, ids.to, "to")
+
   dMatchType <- c(
     `valid.valid`="valid",
     `missing.missing`="missing",
@@ -278,8 +287,8 @@ getMunicipalityMappingWorker <- function(swc, hist.list.from, mid.from, hist.lis
   )
 
   ff <- Matrix::summary(f)
-  ff$from <- as.numeric(rownames(f)[ff$i])
-  ff$to <- as.numeric(colnames(f)[ff$j])
+  ff$from <- as.integer(rownames(f)[ff$i])
+  ff$to <- as.integer(colnames(f)[ff$j])
   ff <- plyr::arrange(ff, get("from"))
   ff$i <- NULL
   ff$j <- NULL

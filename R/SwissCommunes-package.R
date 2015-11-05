@@ -58,16 +58,6 @@ NULL
 #'
 #' Each row contains the number of households for a municipality,
 #'   a year and a household size.
-#' @name SwissPop
-#' @docType data
-#' @usage SwissPop
-#' @format A data frame with 115840 observations of  5 variables:
-#' \preformatted{ $ Year            : Factor w/ 4 levels "1970","1980",..: 1 1 1 1 1 1 1 1 1 1 ...
-#'  $ MunicipalityID  : Factor w/ 2896 levels "1","2","3","4",..: 1 2 3 4 5 6 7 8 9 10 ...
-#'  $ MunicipalityName: Factor w/ 2896 levels "Aeugst am Albis",..: 1 2 3 4 5 6 7 8 9 10 ...
-#'  $ HouseholdSize   : Factor w/ 10 levels "1","2","3","4",..: 1 1 1 1 1 1 1 1 1 1 ...
-#'  $ Households      : num  37 344 70 83 93 7 26 23 60 78 ...
-#'  $ Year            : Factor w/ 4 levels "1970","1980",..: 1 1 1 1 1 1 1 1 1 1 ...}
 #' @author Swiss Federal Statistical Office
 #' @source STAT-TAB, section 40.1 "Eidgenössische Volkszählung/1970--2000",
 #'   item "Privathaushalte nach Haushaltsgrösse und Region".
@@ -75,4 +65,4 @@ NULL
 #'   STAT-TAB URL: \url{http://www.pxweb.bfs.admin.ch/Database/German_40\%20-\%20Eidgen\%C3\%B6ssische\%20Volksz\%C3\%A4hlung/40.1\%20-\%201970-2000/40.1\%20-\%201970-2000.asp?lang=1&prod=40&secprod=1&openChild=true}.
 #'
 #'   File link: \url{http://www.pxweb.bfs.admin.ch/Database/German_40\%20-\%20Eidgen\%C3\%B6ssische\%20Volksz\%C3\%A4hlung/40.1\%20-\%201970-2000/px-d-40-1A01.px}.
-NULL
+"SwissPop"

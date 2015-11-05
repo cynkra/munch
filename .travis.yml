@@ -15,8 +15,8 @@ before_install:
   - chmod 755 ./travis-tool.sh
   - ./travis-tool.sh bootstrap
 install:
-  - ./travis-tool.sh install_github hadley/testthat krlmlr/kimisc
   - ./travis-tool.sh install_deps
+  - Rscript -e "devtools::load_all()"
 notifications:
   email:
     on_success: change

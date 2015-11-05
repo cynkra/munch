@@ -36,4 +36,5 @@ Collate:
     'swcGetMapping.R'
     'swcGetMutations.R'
     'zzz-autoroxy.R'
-RoxygenNote: 4.1.1.9000
+RoxygenNote: 5.0.0.9000
+LazyData: true

@@ -34,6 +34,7 @@
 #' @example example/swcGetMapping.R
 #' @export
 swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
+  #' @details
   #' For two lists of municipalitys, we construct a mapping from the first list
   #' to the second.  First, the most probable mutation number in the
   #' "municipality mutations" data set is computed.

@@ -2,7 +2,7 @@ Package: SwissCommunes
 Type: Package
 Encoding: UTF-8
 Title: Functions for working with the historicized list of communes of
-    Switzerland.
+    Switzerland
 Version: 0.0-6
 Date: 2015-11-05
 Author: Kirill Müller

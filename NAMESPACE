@@ -2,4 +2,3 @@
 
 export(swcGetMapping)
 export(swcGetMutations)
-export(swcReadData)

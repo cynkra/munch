@@ -24,9 +24,12 @@ Imports:
     kimisc,
     plyr,
     reshape2,
-    Matrix
+    Matrix,
+    SwissHistMunData
 Suggests:
     testthat
+Remotes:
+    krlmlr/SwissHistMunData
 Collate:
     'SwissCommunes-package.R'
     'commune-hist-decl.R'

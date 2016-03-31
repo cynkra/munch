@@ -1,7 +1,7 @@
 context("check")
 
 test_that("swcCheckData loads data as advertised", {
-  expect_that(check <- swcCheckData(), not(throws_error()))
+  check <- swcCheckData()
   expect_equal(names(check), c("statesWithNonUniqueAdmissionNumbers", "stateSequencesWithDecreasingDate"))
   expect_true(all(unlist(plyr::llply(check, is.data.frame))))
   expect_true(all(unlist(plyr::llply(check, nrow)) > 0))

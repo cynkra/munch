@@ -27,7 +27,6 @@ Imports:
     Matrix
 Suggests:
     testthat
-Roxygen: list(wrap = FALSE)
 Collate:
     'SwissCommunes-package.R'
     'commune-hist-decl.R'
@@ -36,5 +35,6 @@ Collate:
     'swcGetData.R'
     'swcGetMapping.R'
     'swcGetMutations.R'
-RoxygenNote: 5.0.0.9000
+    'zzz-autoroxy.R'
+RoxygenNote: 5.0.1
 LazyData: true

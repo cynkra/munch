@@ -32,7 +32,6 @@ Remotes:
 Collate:
     'SwissCommunes-package.R'
     'commune-hist-decl.R'
-    'swcCheckData.R'
     'swcReadData.R'
     'swcGetMapping.R'
     'swcGetMutations.R'

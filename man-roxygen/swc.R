@@ -1,1 +1,1 @@
-#' @param swc Data, defaults to \code{swcGetData()}.
+#' @param swc Ignored.

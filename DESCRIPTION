@@ -20,18 +20,17 @@ Depends:
     R (>= 2.10)
 Imports:
     logging,
-    R.cache,
     kimisc,
     plyr,
     reshape2,
-    Matrix
+    Matrix,
+    SwissHistMunData
 Suggests:
     testthat
+Remotes: krlmlr/SwissHistMunData
 Collate:
     'SwissCommunes-package.R'
     'commune-hist-decl.R'
-    'swcCheckData.R'
-    'swcReadData.R'
     'swcGetData.R'
     'swcGetMapping.R'
     'swcGetMutations.R'

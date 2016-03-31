@@ -8,8 +8,6 @@
 #'
 #' @param force If \code{TRUE}, reload data from the web.
 #'
-#' @seealso \code{\link{swcReadData}}
-#'
 #' @export
 swcGetData <- function(force = FALSE) {
   list(

@@ -27,11 +27,11 @@ Imports:
     SwissHistMunData
 Suggests:
     testthat
-Remotes:
-    krlmlr/SwissHistMunData
+Remotes: krlmlr/SwissHistMunData
 Collate:
     'SwissCommunes-package.R'
     'commune-hist-decl.R'
+    'swcGetData.R'
     'swcGetMapping.R'
     'swcGetMutations.R'
     'zzz-autoroxy.R'

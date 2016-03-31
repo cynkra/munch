@@ -6,3 +6,6 @@ cache: packages
 
 r_packages:
   - roxygen2
+
+before_script:
+  - Rscript -e 'devtools::load_all()'

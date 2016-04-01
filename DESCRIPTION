@@ -3,8 +3,8 @@ Type: Package
 Encoding: UTF-8
 Title: Functions for working with the historicized list of communes of
     Switzerland
-Version: 0.0-6
-Date: 2015-11-05
+Version: 0.0-7
+Date: 2016-04-01
 Author: Kirill Müller
 Maintainer: Kirill Müller <kirill.mueller@ivt.baug.ethz.ch>
 Description: The mutations of Swiss communes are tracked in a
@@ -20,21 +20,19 @@ Depends:
     R (>= 2.10)
 Imports:
     logging,
-    R.cache,
     kimisc,
     plyr,
     reshape2,
-    Matrix
+    Matrix,
+    SwissHistMunData
 Suggests:
     testthat
-Roxygen: list(wrap = FALSE)
+Remotes: krlmlr/SwissHistMunData
 Collate:
     'SwissCommunes-package.R'
     'commune-hist-decl.R'
-    'swcCheckData.R'
-    'swcReadData.R'
-    'swcGetData.R'
     'swcGetMapping.R'
     'swcGetMutations.R'
-RoxygenNote: 5.0.0.9000
+    'zzz-autoroxy.R'
+RoxygenNote: 5.0.1
 LazyData: true

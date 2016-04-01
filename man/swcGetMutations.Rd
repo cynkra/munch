@@ -4,11 +4,10 @@
 \alias{swcGetMutations}
 \title{Create a list of municipality mutations}
 \usage{
-swcGetMutations(swc = swcGetData())
+swcGetMutations(swc = NULL)
 }
 \arguments{
-\item{swc}{Data as read by the function \code{swcReadData}, defaults to
-\code{swcGetData()}.}
+\item{swc}{Ignored.}
 }
 \value{
 A data frame that represents mutations.

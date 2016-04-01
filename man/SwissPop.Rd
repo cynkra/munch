@@ -4,7 +4,6 @@
 \name{SwissPop}
 \alias{SwissPop}
 \title{Census population by household size per commune in Switzerland between 1970 and 2000}
-\format{An object of class \code{data.frame} with 115840 rows and 5 columns.}
 \source{
 STAT-TAB, section 40.1 "Eidgenössische Volkszählung/1970--2000",
   item "Privathaushalte nach Haushaltsgrösse und Region".
@@ -23,5 +22,4 @@ Each row contains the number of households for a municipality,
 \author{
 Swiss Federal Statistical Office
 }
-\keyword{datasets}
 

@@ -33,7 +33,12 @@
 #'
 #' @example example/swcGetMapping.R
 #' @export
-swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
+swcGetMapping <- function(swc = NULL, ids.from, ids.to) {
+  if (!is.null(swc)) {
+    warning("swc ignored.", call. = FALSE)
+  }
+  municipality_mutations <- SwissHistMunData::municipality_mutations
+
   #' @details
   #' For two lists of municipalities, we construct a mapping from the first list
   #' to the second.  First, the most probable mutation number in the
@@ -45,21 +50,21 @@ swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
   }
   ids.from <- sort(unique(ids.from))
   ids.from.int <- tid(ids.from)
-  mid.from <- getMostProbableMutationId(swc=swc, ids.from.int)
-  hist.list.from <- getHistIdList(swc=swc, mid.from)
+  mid.from <- getMostProbableMutationId(ids.from.int)
+  hist.list.from <- getHistIdList(mid.from)
 
   ids.to <- sort(unique(ids.to))
   ids.to.int <- tid(ids.to)
-  mid.to <- getMostProbableMutationId(swc=swc, ids.to.int)
-  hist.list.to <- getHistIdList(swc=swc, mid.to)
+  mid.to <- getMostProbableMutationId(ids.to.int)
+  hist.list.to <- getHistIdList(mid.to)
 
-  ret <- getMunicipalityMappingWorker(swc, hist.list.from, mid.from, hist.list.to, mid.to)
+  ret <- getMunicipalityMappingWorker(hist.list.from, mid.from, hist.list.to, mid.to)
 
   mt <- function(c) factor(c, levels=c("valid", "missing", "extra"))
   cn <- function(name, n) paste(name, n, sep='.')
 
   resultTable <- function(histId, inId, name) {
-    ret <- swc$municipality[match(histId, swc$municipality$mHistId),
+    ret <- municipality_mutations[match(histId, municipality_mutations$mHistId),
                                  c('mHistId', 'cAbbreviation', 'mId', 'mLongName', 'mShortName')]
     ret$MatchType <- mt(ifelse(ret$mId %in% inId, "valid", "missing"))
     names(ret) <- cn(names(ret), name)
@@ -109,8 +114,8 @@ swcGetMapping <- function(swc=swcGetData(), ids.from, ids.to) {
   ret
 }
 
-getMostProbableMutationId <- function(swc, municipalityIds) {
-  fitness <- getMunicipalityIdFitness(swc=swc, municipalityIds)
+getMostProbableMutationId <- function(municipalityIds) {
+  fitness <- getMunicipalityIdFitness(municipalityIds)
   logging::logdebug("fitness:\n%s", head(plyr::arrange(fitness, -fitness)$fitness, 10))
   logging::logdebug("mutationId:\n%s", head(plyr::arrange(fitness, -fitness)$mMutationId, 10))
   fitness.max <- which.max(fitness$fitness)
@@ -119,8 +124,8 @@ getMostProbableMutationId <- function(swc, municipalityIds) {
   ret
 }
 
-getMunicipalityIdFitness <- function(swc, municipalityIds) {
-  mun.mut <- swcGetMutations(swc=swc)
+getMunicipalityIdFitness <- function(municipalityIds) {
+  mun.mut <- swcGetMutations()
   computeFitness(mun.mut, municipalityIds)
 }
 
@@ -208,14 +213,14 @@ computeFitness <- function(mun.mut, municipalityIds) {
   mun.mut.c[, c("mMutationId", "fitness")]
 }
 
-getHistIdList <- function(swc, mutationId) {
+getHistIdList <- function(mutationId) {
   mun.mut <- subset(
-    swcGetMutations(swc=swc), get("mMutationId") <= mutationId)
+    swcGetMutations(), get("mMutationId") <= mutationId)
   mun.mut.m <- meltMutations(mun.mut, hist = T)
   computeMunList(mun.mut.m)
 }
 
-getMunicipalityMappingWorker <- function(swc, hist.list.from, mid.from, hist.list.to, mid.to) {
+getMunicipalityMappingWorker <- function(hist.list.from, mid.from, hist.list.to, mid.to) {
   # Here, we receive the most probable mutation number in the "municipality
   # mutations" data set as parameter.
 
@@ -225,7 +230,7 @@ getMunicipalityMappingWorker <- function(swc, hist.list.from, mid.from, hist.lis
   # Then we iterate over all mutations.  We must cover all mutations,
   # because a mutation A -> A' -> B would be lost otherwise if A'
   # is not in either municipality list.
-  mun.mut <- swcGetMutations(swc=swc)
+  mun.mut <- swcGetMutations()
 
   # The mapping will be represented as a linear transformation, encoded
   # as a sparse matrix with rows as "from" and columns as "to" municipalities.

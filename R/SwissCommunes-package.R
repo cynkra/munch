@@ -65,4 +65,7 @@ NULL
 #'   STAT-TAB URL: \url{http://www.pxweb.bfs.admin.ch/Database/German_40\%20-\%20Eidgen\%C3\%B6ssische\%20Volksz\%C3\%A4hlung/40.1\%20-\%201970-2000/40.1\%20-\%201970-2000.asp?lang=1&prod=40&secprod=1&openChild=true}.
 #'
 #'   File link: \url{http://www.pxweb.bfs.admin.ch/Database/German_40\%20-\%20Eidgen\%C3\%B6ssische\%20Volksz\%C3\%A4hlung/40.1\%20-\%201970-2000/px-d-40-1A01.px}.
-"SwissPop"
+#' @name SwissPop
+#' @docType data
+#' @usage SwissPop
+NULL

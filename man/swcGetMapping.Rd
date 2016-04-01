@@ -4,11 +4,10 @@
 \alias{swcGetMapping}
 \title{Compute a matching table between two lists of municipality IDs}
 \usage{
-swcGetMapping(swc = swcGetData(), ids.from, ids.to)
+swcGetMapping(swc = NULL, ids.from, ids.to)
 }
 \arguments{
-\item{swc}{Data as read by the function \code{swcReadData}, defaults to
-\code{swcGetData()}.}
+\item{swc}{Ignored.}
 
 \item{ids.from}{A list of "source" municipality IDs, preferably a factor}
 

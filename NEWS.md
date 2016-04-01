@@ -1,3 +1,10 @@
+# SwissCommunes 0.0-7 (2016-04-01)
+
+- Use data from `SwissHistMunData` package.
+- Remove `swcGetData()`, `swcCheckData()` and `swcReadData()`.
+- Fix Travis-CI errors.
+
+
 Version 0.0-6 (2015-11-05)
 ===
 

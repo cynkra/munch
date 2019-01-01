@@ -33,6 +33,5 @@ Collate:
     'commune-hist-decl.R'
     'swcGetMapping.R'
     'swcGetMutations.R'
-    'zzz-autoroxy.R'
-RoxygenNote: 5.0.1
+RoxygenNote: 6.1.1
 LazyData: true

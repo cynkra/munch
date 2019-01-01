@@ -1,37 +1,37 @@
-Package: SwissCommunes
 Type: Package
-Encoding: UTF-8
-Title: Functions for working with the historicized list of communes of
-    Switzerland
+Package: SwissCommunes
+Title: Functions for working with the historicized list of
+    communes of Switzerland
 Version: 0.0-7
 Date: 2016-04-01
 Author: Kirill Müller
 Maintainer: Kirill Müller <kirill.mueller@ivt.baug.ethz.ch>
 Description: The mutations of Swiss communes are tracked in a
-    machine-readable mutation list.  This allows guessing the
-    reference time for any given list of municipality IDs, and to
-    construct mappings between two lists of municipality IDs.  The
-    package provides functions to import and work with this
-    mutation list.
+    machine-readable mutation list.  This allows guessing the reference
+    time for any given list of municipality IDs, and to construct mappings
+    between two lists of municipality IDs.  The package provides functions
+    to import and work with this mutation list.
 License: GPL-3
 URL: https://github.com/krlmlr/SwissCommunes
 BugReports: https://github.com/krlmlr/SwissCommunes/issues
 Depends:
     R (>= 2.10)
 Imports:
-    logging,
-    kimisc,
-    plyr,
-    reshape2,
+    kimisc (>= 0.4),
+    logging (>= 0.8-104),
     Matrix,
+    plyr (>= 1.8.4),
+    reshape2 (>= 1.4.3),
     SwissHistMunData
 Suggests:
-    testthat
-Remotes: krlmlr/SwissHistMunData
+    testthat (>= 2.0.1)
+Remotes: 
+    krlmlr/SwissHistMunData
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
 Collate:
     'SwissCommunes-package.R'
     'commune-hist-decl.R'
     'swcGetMapping.R'
     'swcGetMutations.R'
-RoxygenNote: 6.1.1
-LazyData: true

@@ -7,7 +7,7 @@
 ^tools$
 ^example$
 ^man-roxygen$
-^orig-data$
+^data-raw$
 ^\.travis\.yml$
 ^appveyor\.yml$
 ^Makefile$

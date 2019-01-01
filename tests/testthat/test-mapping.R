@@ -12,8 +12,10 @@ test_that("mapping returns integer columns", {
 })
 
 test_that("mapping returns factors for factor input", {
-  expect_warning(mapping <- swcGetMapping(ids.from = factor(500),
-                                          ids.to = factor(2875)), NA)
+  expect_warning(mapping <- swcGetMapping(
+    ids.from = factor(500),
+    ids.to = factor(2875)
+  ), NA)
 
   expect_is(mapping$mHistId.from, "integer")
   expect_is(mapping$mId.from, "factor")

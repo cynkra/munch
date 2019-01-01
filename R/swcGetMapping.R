@@ -60,12 +60,14 @@ swcGetMapping <- function(swc = NULL, ids.from, ids.to) {
 
   ret <- getMunicipalityMappingWorker(hist.list.from, mid.from, hist.list.to, mid.to)
 
-  mt <- function(c) factor(c, levels=c("valid", "missing", "extra"))
-  cn <- function(name, n) paste(name, n, sep='.')
+  mt <- function(c) factor(c, levels = c("valid", "missing", "extra"))
+  cn <- function(name, n) paste(name, n, sep = ".")
 
   resultTable <- function(histId, inId, name) {
-    ret <- municipality_mutations[match(histId, municipality_mutations$mHistId),
-                                 c('mHistId', 'cAbbreviation', 'mId', 'mLongName', 'mShortName')]
+    ret <- municipality_mutations[
+      match(histId, municipality_mutations$mHistId),
+      c("mHistId", "cAbbreviation", "mId", "mLongName", "mShortName")
+    ]
     ret$MatchType <- mt(ifelse(ret$mId %in% inId, "valid", "missing"))
     names(ret) <- cn(names(ret), name)
     ret
@@ -74,8 +76,8 @@ swcGetMapping <- function(swc = NULL, ids.from, ids.to) {
   extraTable <- function(retId, inId, name) {
     mId <- sort(setdiff(inId, retId))
     if (length(mId) == 0) return(NULL)
-    ret <- data.frame(mId=mId)
-    ret <- transform(ret, MatchType=mt("extra"))
+    ret <- data.frame(mId = mId)
+    ret <- transform(ret, MatchType = mt("extra"))
     names(ret) <- cn(names(ret), name)
     ret
   }
@@ -85,7 +87,7 @@ swcGetMapping <- function(swc = NULL, ids.from, ids.to) {
     nameIdAsNumber <- paste0("mIdAsNumber.", name)
     if (is.factor(inId)) {
       ret[[nameIdAsNumber]] <- ret[[nameId]]
-      ret[[nameId]] <- factor(ret[[nameId]], levels=levels(inId))
+      ret[[nameId]] <- factor(ret[[nameId]], levels = levels(inId))
     }
 
     ret
@@ -94,23 +96,26 @@ swcGetMapping <- function(swc = NULL, ids.from, ids.to) {
   ret.from <- resultTable(ret$from, ids.from.int, "from")
   ret.to <- resultTable(ret$to, ids.to.int, "to")
   ret <- cbind(ret.from, ret.to)
-  ret <- plyr::rbind.fill(ret,
-                          extraTable(ret.from$mId.from, ids.from.int, "from"),
-                          extraTable(ret.to$mId.to, ids.to.int, "to"))
+  ret <- plyr::rbind.fill(
+    ret,
+    extraTable(ret.from$mId.from, ids.from.int, "from"),
+    extraTable(ret.to$mId.to, ids.to.int, "to")
+  )
   ret <- fixFactor(ret, ids.from, "from")
   ret <- fixFactor(ret, ids.to, "to")
 
   dMatchType <- c(
-    `valid.valid`="valid",
-    `missing.missing`="missing",
-    `missing.valid`="missing.from",
-    `extra.NA`="extra.from",
-    `valid.missing`="missing.to",
-    `NA.extra`="extra.to"
+    `valid.valid` = "valid",
+    `missing.missing` = "missing",
+    `missing.valid` = "missing.from",
+    `extra.NA` = "extra.from",
+    `valid.missing` = "missing.to",
+    `NA.extra` = "extra.to"
   )
   ret$MatchType <- factor(
-    dMatchType[paste(ret$MatchType.from, ret$MatchType.to, sep='.')],
-    levels=dMatchType)
+    dMatchType[paste(ret$MatchType.from, ret$MatchType.to, sep = ".")],
+    levels = dMatchType
+  )
   ret
 }
 
@@ -185,14 +190,18 @@ meltMutations <- function(mun.mut, hist) {
   # is composed of mutation date and mutation number. (Conversation with Ernst
   # Oberholzer end of March 2013.)  All records with the same mutation ID
   # form a mutation.
-  measure.vars=paste0(if (hist) "mHistId" else "mId", ".", c("x", "y"))
+  measure.vars <- paste0(if (hist) "mHistId" else "mId", ".", c("x", "y"))
 
   mun.mut.m <- reshape2::melt(
-    mun.mut, id.vars="mMutationId",
-    measure.vars=measure.vars,
-    na.rm=TRUE)
-  mun.mut.m <- plyr::arrange(mun.mut.m,
-                             get("mMutationId"), get("variable"))
+    mun.mut,
+    id.vars = "mMutationId",
+    measure.vars = measure.vars,
+    na.rm = TRUE
+  )
+  mun.mut.m <- plyr::arrange(
+    mun.mut.m,
+    get("mMutationId"), get("variable")
+  )
   unique(mun.mut.m)
 }
 
@@ -203,11 +212,14 @@ computeFitness <- function(mun.mut, municipalityIds) {
     mun.mut.m,
     dir = ifelse(grepl("[.]y$", get("variable")), 1L, -1L),
     desired = ifelse(get("value") %in% municipalityIds, 1L, -1L),
-    delta = get("dir") * get("desired"))
+    delta = get("dir") * get("desired")
+  )
 
-  mun.mut.c <- reshape2::dcast(data=mun.mut.m, formula=mMutationId~.,
-                               fun.aggregate = sum,
-                               value.var = "delta")
+  mun.mut.c <- reshape2::dcast(
+    data = mun.mut.m, formula = mMutationId ~ .,
+    fun.aggregate = sum,
+    value.var = "delta"
+  )
 
   mun.mut.c$fitness <- cumsum(mun.mut.c$.)
   mun.mut.c[, c("mMutationId", "fitness")]
@@ -215,7 +227,8 @@ computeFitness <- function(mun.mut, municipalityIds) {
 
 getHistIdList <- function(mutationId) {
   mun.mut <- subset(
-    swcGetMutations(), get("mMutationId") <= mutationId)
+    swcGetMutations(), get("mMutationId") <= mutationId
+  )
   mun.mut.m <- meltMutations(mun.mut, hist = T)
   computeMunList(mun.mut.m)
 }
@@ -238,16 +251,19 @@ getMunicipalityMappingWorker <- function(hist.list.from, mid.from, hist.list.to,
   # all mutations will be the final mapping.  We start with a unit
   # matrix (the identity transformation) of all "from" columns:
 
-  f <- Matrix::sparseMatrix(i=seq_along(hist.list.from),
-                            j=seq_along(hist.list.from),
-                            x=1,
-                            dimnames=list(hist.list.from, hist.list.from))
+  f <- Matrix::sparseMatrix(
+    i = seq_along(hist.list.from),
+    j = seq_along(hist.list.from),
+    x = 1,
+    dimnames = list(hist.list.from, hist.list.from)
+  )
 
   # Subsequently, this transformation is augmented with all mutations
   # between "from" and "to"
   trans.list <- plyr::ddply(
     subset(mun.mut, kimisc::in.interval.lo(
-      as.numeric(get("mMutationId")), as.numeric(mid.from), as.numeric(mid.to))),
+      as.numeric(get("mMutationId")), as.numeric(mid.from), as.numeric(mid.to)
+    )),
     "mMutationId",
     function(m) {
       rn <- colnames(f)
@@ -256,12 +272,12 @@ getMunicipalityMappingWorker <- function(hist.list.from, mid.from, hist.list.to,
       admId <- unique(m$mHistId.y)
       abolId <- subset(abolId, !is.na(abolId))
       admId <- subset(admId, !is.na(admId))
-      logging::logdebug('%s: +(%s), -(%s)', m$mMutationId[1], format(admId), format(abolId))
+      logging::logdebug("%s: +(%s), -(%s)", m$mMutationId[1], format(admId), format(abolId))
 
       removedId <- setdiff(abolId, admId)
       remainingId <- setdiff(abolId, removedId)
       addedId <- sort(setdiff(admId, abolId))
-      logging::logdebug('%s: ++(%s), =(%s), --(%s)', m$mMutationId[1], format(addedId), format(remainingId), format(removedId))
+      logging::logdebug("%s: ++(%s), =(%s), --(%s)", m$mMutationId[1], format(addedId), format(remainingId), format(removedId))
 
       stopifnot(sort(remainingId) == sort(setdiff(admId, addedId)))
 
@@ -273,21 +289,21 @@ getMunicipalityMappingWorker <- function(hist.list.from, mid.from, hist.list.to,
       stopifnot(!is.na(idI))
       stopifnot(!is.na(idJ))
 
-      logging::logdebug('%s: (%s)->(%s)', m$mMutationId[1], format(m$mHistId.x), format(m$mHistId.y))
+      logging::logdebug("%s: (%s)->(%s)", m$mMutationId[1], format(m$mHistId.x), format(m$mHistId.y))
       trI <- match(m$mHistId.x, rn)
       trJ <- match(m$mHistId.y, cn)
 
       stopifnot(!is.na(trI))
       stopifnot(!is.na(trJ))
-      logging::logdebug('%s: ((%s))->((%s))', m$mMutationId[1], format(trI), format(trJ))
-      logging::logdebug('%s: %s x %s', m$mMutationId[1], length(rn), length(cn))
-      g <- Matrix::sparseMatrix(c(idI, trI), c(idJ, trJ), x=1, dimnames=list(rn, cn))
+      logging::logdebug("%s: ((%s))->((%s))", m$mMutationId[1], format(trI), format(trJ))
+      logging::logdebug("%s: %s x %s", m$mMutationId[1], length(rn), length(cn))
+      g <- Matrix::sparseMatrix(c(idI, trI), c(idJ, trJ), x = 1, dimnames = list(rn, cn))
 
-      logging::logdebug('%s: %s %%*%% %s', m$mMutationId[1], dim(f), dim(g))
+      logging::logdebug("%s: %s %%*%% %s", m$mMutationId[1], dim(f), dim(g))
       f <<- f %*% g
-      logging::logdebug('%s: %s', m$mMutationId[1], dim(f))
+      logging::logdebug("%s: %s", m$mMutationId[1], dim(f))
 
-      data.frame(rows=length(rn), columns=length(cn))
+      data.frame(rows = length(rn), columns = length(cn))
     }
   )
 

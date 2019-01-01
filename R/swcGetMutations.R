@@ -37,33 +37,41 @@ swcGetMutations <- function(swc = NULL) {
 
   mun.mut <- merge(
     subset(
-      municipality_mutations[
-        , c('mHistId',
-            'mId',
-            'mShortName',
-            'mAbolitionNumber',
-            'mAbolitionMode',
-            'mAbolitionDate',
-            'mDateOfChange')],
-      !is.na(get("mAbolitionNumber"))),
+      municipality_mutations
+      [, c(
+          "mHistId",
+          "mId",
+          "mShortName",
+          "mAbolitionNumber",
+          "mAbolitionMode",
+          "mAbolitionDate",
+          "mDateOfChange"
+        )],
+      !is.na(get("mAbolitionNumber"))
+    ),
     subset(
-      municipality_mutations[
-        , c('mHistId',
-            'mId',
-            'mShortName',
-            'mAdmissionNumber',
-            'mAdmissionMode',
-            'mAdmissionDate',
-            'mDateOfChange')],
-      !is.na(get("mAdmissionNumber"))),
-    by.x='mAbolitionNumber', by.y='mAdmissionNumber', all=T, incomparables=NA)
-  names(mun.mut)[1] <- 'mMutationNumber'
+      municipality_mutations
+      [, c(
+          "mHistId",
+          "mId",
+          "mShortName",
+          "mAdmissionNumber",
+          "mAdmissionMode",
+          "mAdmissionDate",
+          "mDateOfChange"
+        )],
+      !is.na(get("mAdmissionNumber"))
+    ),
+    by.x = "mAbolitionNumber", by.y = "mAdmissionNumber", all = T, incomparables = NA
+  )
+  names(mun.mut)[1] <- "mMutationNumber"
 
-  stopifnot(mun.mut$mMutationNumber == sort(mun.mut$mMutationNumber, na.last=T))
+  stopifnot(mun.mut$mMutationNumber == sort(mun.mut$mMutationNumber, na.last = T))
 
   mun.mut$mMutationDate <- with(
     mun.mut,
-    kimisc::coalesce.na(mAdmissionDate, mAbolitionDate + 1, replace=NA))
+    kimisc::coalesce.na(mAdmissionDate, mAbolitionDate + 1, replace = NA)
+  )
   stopifnot(!is.na(mun.mut$mMutationDate))
 
   # Special cases:
@@ -71,24 +79,25 @@ swcGetMutations <- function(swc = NULL) {
   # 1b. A part of Caneggio has been moved to Castel San Pietro. Nothing has been moved
   #     the other way round
   cases.to.remove <- data.frame(
-    mId.x=c(5248, 5256, 5249),
-    mId.y=c(5246, 5246, 5246)
+    mId.x = c(5248, 5256, 5249),
+    mId.y = c(5246, 5246, 5246)
   )
 
   mun.mut <- subset(
     mun.mut,
     !(paste(get("mId.x"), get("mId.y")) %in%
-        paste(cases.to.remove$mId.x, cases.to.remove$mId.y)))
+      paste(cases.to.remove$mId.x, cases.to.remove$mId.y))
+  )
 
   # Same mutation numbers should refer to the same date, but they not always do.
   # First check the "big" first mutation 1000...
-  mun.mut.test <- mun.mut[, c('mMutationDate', 'mMutationNumber')]
+  mun.mut.test <- mun.mut[, c("mMutationDate", "mMutationNumber")]
   mun.mut.test.first <- subset(mun.mut.test, get("mMutationNumber") == 1000)
   stopifnot(mun.mut.test.first$mMutationDate == mun.mut.test.first$mMutationDate[1])
   rm(mun.mut.test.first)
   # ...then the others, using a self-merge by mutation number.
   mun.mut.test <- subset(mun.mut.test, get("mMutationNumber") != 1000)
-  mun.mut.test <- merge(mun.mut.test, mun.mut.test, by='mMutationNumber')
+  mun.mut.test <- merge(mun.mut.test, mun.mut.test, by = "mMutationNumber")
   # A difference of one day is tolerated.
   stopifnot(with(mun.mut.test, abs(mMutationDate.x - mMutationDate.y) <= 1))
   # For those with identical dates, the minimum date is selected...
@@ -96,17 +105,19 @@ swcGetMutations <- function(swc = NULL) {
     subset(mun.mut.test, get("mMutationDate.x") != get("mMutationDate.y")),
     "mMutationNumber",
     function(df)
-      data.frame(mMutationNumber=df$mMutationNumber[1], mMutationDate=min(df$mMutationDate.x))
+      data.frame(mMutationNumber = df$mMutationNumber[1], mMutationDate = min(df$mMutationDate.x))
   )
   # ...and applied
   fix.match.pos <- match(mun.mut$mMutationNumber, mun.mut.fix$mMutationNumber)
   mun.mut$mMutationDate[!is.na(fix.match.pos)] <- mun.mut.fix$mMutationDate[fix.match.pos[!is.na(fix.match.pos)]]
 
-  mun.mut <- plyr::arrange(mun.mut,
-                           get("mMutationDate"), get("mMutationNumber"),
-                           get("mId.x"), get("mId.y"))
-  mun.mut$mMutationId <- factor(interaction(mun.mut$mMutationDate, mun.mut$mMutationNumber), ordered=T)
-  #mun.mut$mMutationId <- factor(mun.mut$mMutationDate, ordered=T)
+  mun.mut <- plyr::arrange(
+    mun.mut,
+    get("mMutationDate"), get("mMutationNumber"),
+    get("mId.x"), get("mId.y")
+  )
+  mun.mut$mMutationId <- factor(interaction(mun.mut$mMutationDate, mun.mut$mMutationNumber), ordered = T)
+  # mun.mut$mMutationId <- factor(mun.mut$mMutationDate, ordered=T)
 
   mun.mut
 }

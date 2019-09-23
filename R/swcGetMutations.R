@@ -21,6 +21,9 @@
 #' The result is a list of mutations, i.e., a list of edges in the graph of
 #' municipality state snapshots.
 #'
+#' @param mids A list of municipality id's of which the mutations should be
+#'   retrieved.
+#'
 #' @template swc
 #'
 #' @return A data frame that represents mutations.

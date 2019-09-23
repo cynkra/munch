@@ -29,11 +29,16 @@
 #' head(swcGetMutations(), 20)
 #' head(subset(swcGetMutations(), !is.na(mHistId.x)), 20)
 #' @export
-swcGetMutations <- function(swc = NULL) {
+swcGetMutations <- function(swc = NULL, mids = NULL) {
   if (!is.null(swc)) {
     warning("swc ignored.", call. = FALSE)
   }
-  municipality_mutations <- SwissHistMunData::municipality_mutations
+
+  if (is.null(mids)) {
+    municipality_mutations <- SwissHistMunData::municipality_mutations
+  } else {
+    municipality_mutations <- subset(SwissHistMunData::municipality_mutations, mId %in% mids)
+  }
 
   mun.mut <- merge(
     subset(

@@ -130,7 +130,7 @@ getMostProbableMutationId <- function(municipalityIds) {
 }
 
 getMunicipalityIdFitness <- function(municipalityIds) {
-  mun.mut <- swcGetMutations()
+  mun.mut <- swc_get_mutations()
   computeFitness(mun.mut, municipalityIds)
 }
 
@@ -227,7 +227,7 @@ computeFitness <- function(mun.mut, municipalityIds) {
 
 getHistIdList <- function(mutationId) {
   mun.mut <- subset(
-    swcGetMutations(), get("mMutationId") <= mutationId
+    swc_get_mutations(), get("mMutationId") <= mutationId
   )
   mun.mut.m <- meltMutations(mun.mut, hist = T)
   computeMunList(mun.mut.m)
@@ -243,7 +243,7 @@ getMunicipalityMappingWorker <- function(hist.list.from, mid.from, hist.list.to,
   # Then we iterate over all mutations.  We must cover all mutations,
   # because a mutation A -> A' -> B would be lost otherwise if A'
   # is not in either municipality list.
-  mun.mut <- swcGetMutations()
+  mun.mut <- swc_get_mutations()
 
   # The mapping will be represented as a linear transformation, encoded
   # as a sparse matrix with rows as "from" and columns as "to" municipalities.

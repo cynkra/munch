@@ -3,4 +3,5 @@
 export(swcGetMapping)
 export(swcGetMutations)
 export(swc_get_mapping)
+export(swc_get_mutations)
 import(rlang)

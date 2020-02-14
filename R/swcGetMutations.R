@@ -29,7 +29,7 @@
 #' head(swcGetMutations(), 20)
 #' head(subset(swcGetMutations(), !is.na(mHistId.x)), 20)
 #' @export
-swcGetMutations <- function(swc = NULL) {
+swc_get_mutations <- function(swc = NULL) {
   if (!is.null(swc)) {
     warning("swc ignored.", call. = FALSE)
   }

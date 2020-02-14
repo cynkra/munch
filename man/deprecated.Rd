@@ -3,9 +3,12 @@
 \name{deprecated}
 \alias{deprecated}
 \alias{swcGetMapping}
+\alias{swcGetMutations}
 \title{Deprecated functions}
 \usage{
 swcGetMapping(swc = NULL, ids.from, ids.to)
+
+swcGetMutations(swc = NULL)
 }
 \description{
 These functions are deprecated in favor of better alternatives.

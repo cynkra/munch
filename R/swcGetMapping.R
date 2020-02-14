@@ -31,9 +31,9 @@
 #'   \code{MergeType} offers a summary of the "from" and "to" status: Rows with
 #'   values other than \code{"valid"} or \code{"missing"} should be examined.
 #'
-#' @example example/swcGetMapping.R
+#' @example example/swc_get_mapping.R
 #' @export
-swcGetMapping <- function(swc = NULL, ids.from, ids.to) {
+swc_get_mapping <- function(swc = NULL, ids.from, ids.to) {
   if (!is.null(swc)) {
     warning("swc ignored.", call. = FALSE)
   }

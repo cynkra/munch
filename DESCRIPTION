@@ -18,10 +18,12 @@ Depends:
     R (>= 2.10)
 Imports:
     kimisc (>= 0.4),
+    lifecycle,
     logging (>= 0.8-104),
     Matrix,
     plyr (>= 1.8.4),
     reshape2 (>= 1.4.3),
+    rlang,
     SwissHistMunData
 Suggests:
     testthat (>= 2.0.1)
@@ -29,9 +31,13 @@ Remotes:
     krlmlr/SwissHistMunData
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
 Collate:
+    'import.R'
+    'aaa-function.R'
     'SwissCommunes-package.R'
     'commune-hist-decl.R'
     'swcGetMapping.R'
     'swcGetMutations.R'
+    'deprecated.R'
+    'zzx-deprecated.R'

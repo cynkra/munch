@@ -34,6 +34,7 @@ LazyData: true
 RoxygenNote: 7.0.2
 Collate:
     'import.R'
+    'global.R'
     'aaa-function.R'
     'SwissCommunes-package.R'
     'commune-hist-decl.R'

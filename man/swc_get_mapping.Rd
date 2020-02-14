@@ -59,7 +59,7 @@ setdiff(ids.from, ids.to)
 setdiff(ids.to, ids.from)
 
 # Compute mapping and count non-matching municipality IDs:
-mapping <- swcGetMapping(ids.from=ids.from, ids.to=ids.to)
+mapping <- swc_get_mapping(ids.from=ids.from, ids.to=ids.to)
 with(mapping, sum(mapping$mIdAsNumber.from != mapping$mIdAsNumber.to))
 
 # Communes that are "missing" are mostly lakes and other special communes:
@@ -86,7 +86,7 @@ SwissPopMapping.1970 <- merge(SwissPop.1970,
                               cleaned.mapping[, c("mId.from", "mId.to")],
                               by.x = "MunicipalityID", by.y = "mId.from")
 
-# Datasets from the "from" table must be suitably aggregated.  For the given 
+# Datasets from the "from" table must be suitably aggregated.  For the given
 # case of population totals we use the sum.
 SwissPopMapping.1970.agg <- plyr::ddply(
   SwissPopMapping.1970, c("mId.to", "HouseholdSize"),
@@ -107,5 +107,5 @@ subset(mapping, mIdAsNumber.to \%in\% setdiff(
     c("mId.from", "mShortName.from", "MatchType")]
 
 # The "from" list must be from an earlier time than the "to" list.
-try(swcGetMapping(ids.from=ids.to, ids.to=ids.from))
+try(swc_get_mapping(ids.from=ids.to, ids.to=ids.from))
 }

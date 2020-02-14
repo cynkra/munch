@@ -13,3 +13,4 @@ swcGetMutations(swc = NULL)
 \description{
 These functions are deprecated in favor of better alternatives.
 }
+\keyword{internal}

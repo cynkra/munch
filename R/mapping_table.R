@@ -32,8 +32,8 @@ combine_mapping <- function(earlier, later) {
     ) %>%
     arrange(mId.x, mId.y)
 
-  dm::check_key(out, mId.x)
-  dm::check_key(out, mShortName.x)
+  stopifnot(!anyDuplicated(out$mId.x))
+  stopifnot(!anyDuplicated(out$mShortName.x))
 
   out
 }

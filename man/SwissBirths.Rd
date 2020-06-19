@@ -4,11 +4,13 @@
 \name{SwissBirths}
 \alias{SwissBirths}
 \title{Total births per municipality in Switzerland between 1969 and 2012}
-\format{A data frame with 105058 observations of  4 variables:
+\format{
+A data frame with 105058 observations of  4 variables:
 \preformatted{ $ Year            : Factor w/ 44 levels "1969","1970",..: 1 1 1 1 1 1 1 1 1 1 ...
  $ MunicipalityID  : Factor w/ 2485 levels "1","2","3","4",..: 1 2 3 4 5 6 7 8 9 10 ...
  $ MunicipalityName: Factor w/ 2485 levels "Aeugst am Albis",..: 1 2 3 4 5 6 7 8 9 10 ...
- $ Births          : num  13 174 22 36 20 13 17 4 32 48 ...}}
+ $ Births          : num  13 174 22 36 20 13 17 4 32 48 ...}
+}
 \source{
 STAT-TAB, section 01.2 "Bevölkerung/Bevölkerungsstand und -bewegung",
   item "Lebendgeburten nach institutionellen Gliederungen, Geschlecht und Staatsangehörigkeit des Kindes und nach Altersklasse der Mutter".

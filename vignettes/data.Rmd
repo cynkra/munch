@@ -21,7 +21,7 @@ library(tidyverse)
 ```
 
 ```{r build, echo = FALSE}
-SOURCE_YEAR <- 2018
+SOURCE_YEAR <- 2005
 
 years <- seq(SOURCE_YEAR, lubridate::year(Sys.Date()), by = 1)
 

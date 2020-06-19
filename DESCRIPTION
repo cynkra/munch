@@ -12,19 +12,20 @@ Description: The mutations of Swiss communes are tracked in a
     between two lists of municipality IDs.  The package provides functions
     to import and work with this mutation list.
 License: GPL-3
-URL: https://github.com/cynkra/SwissCommunes
-BugReports: https://cynkra.github.io/SwissCommunes, https://github.com/cynkra/SwissCommunes/issues
+URL: https://cynkra.github.io/SwissCommunes,
+    https://github.com/cynkra/SwissCommunes
+BugReports: https://github.com/cynkra/SwissCommunes/issues
 Depends:
     R (>= 2.10)
 Imports:
     cli,
+    dplyr (>= 0.8.3),
     dttr2,
     glue,
     lifecycle,
     logging (>= 0.8-104),
     lubridate,
     Matrix,
-    dplyr (>= 0.8.3),
     purrr (>= 0.3.2),
     reshape2 (>= 1.4.3),
     rlang,

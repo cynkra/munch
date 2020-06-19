@@ -1,3 +1,9 @@
+# SwissCommunes 0.0.8.9001
+
+- New `swc_get_municipality_state()` for retrieving the valid municipalities at a given year.
+- New `swc_get_merger_mapping_table()` for computing mapping tables to a given target year.
+
+
 # SwissCommunes 0.0.8.9000
 
 - function 'get_mun_hist_lookup()': get historic municipalities contributing to modern municipalities on desired time-grid

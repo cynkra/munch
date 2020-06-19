@@ -6,8 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Functions for working with the historicized list of municipalities of
-Switzerland — SwissCommunes-package • SwissCommunes</title>
+<title>Get municipality mutation history — swc_get_mun_history • SwissCommunes</title>
 
 
 <!-- jquery -->
@@ -40,13 +39,9 @@ Switzerland — SwissCommunes-package • SwissCommunes</title>
 
 
 
-<meta property="og:title" content="Functions for working with the historicized list of municipalities of
-Switzerland — SwissCommunes-package" />
-<meta property="og:description" content="The mutations of Swiss municipalities are tracked in a machine-readable
-mutation list.  This allows guessing the reference time for any given list of
-municipality IDs, and to construct mappings between two lists of municipality
-IDs.  The package provides functions to import and work with this mutation
-list." />
+<meta property="og:title" content="Get municipality mutation history — swc_get_mun_history" />
+<meta property="og:description" content="The history goes back as far as the mutation number becocmes 1000
+  (first time registration)" />
 
 
 
@@ -117,38 +112,30 @@ list." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Functions for working with the historicized list of municipalities of
-Switzerland</h1>
-    <small class="dont-index">Source: <a href='https://github.com/cynkra/SwissCommunes/blob/master/R/SwissCommunes-package.R'><code>R/SwissCommunes-package.R</code></a></small>
-    <div class="hidden name"><code>SwissCommunes-package.Rd</code></div>
+    <h1>Get municipality mutation history</h1>
+    <small class="dont-index">Source: <a href='https://github.com/cynkra/SwissCommunes/blob/master/R/swc_get_mun_history.R'><code>R/swc_get_mun_history.R</code></a></small>
+    <div class="hidden name"><code>swc_get_mun_history.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>The mutations of Swiss municipalities are tracked in a machine-readable
-mutation list.  This allows guessing the reference time for any given list of
-municipality IDs, and to construct mappings between two lists of municipality
-IDs.  The package provides functions to import and work with this mutation
-list.</p>
+    <p>The history goes back as far as the mutation number becocmes 1000
+  (first time registration)</p>
     </div>
 
+    <pre class="usage"><span class='fu'>swc_get_mun_history</span>(<span class='no'>munId</span>)</pre>
+
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>munId</th>
+      <td><p>Municipality Id as integer</p></td>
+    </tr>
+    </table>
 
 
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
-
-    
-<table class='table'>
-<tr><td>Package:</td><td>SwissCommunes</td></tr>
-<tr><td>Type:</td><td>Package</td></tr>
-<tr><td>Version:</td><td>0.0-5</td></tr>
-<tr><td>Date:</td><td>2014-09-22</td></tr>
-<tr><td>License:</td><td>GPL-3</td></tr>
-</table>
-
-
-    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
-
-    <p><a href='http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html'>http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html</a></p>
-
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='no'>waedenswil_history</span> <span class='kw'>&lt;-</span> <span class='fu'>swc_get_mun_history</span>(<span class='fl'>293</span>)</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

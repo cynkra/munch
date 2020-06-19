@@ -12,8 +12,8 @@ Description: The mutations of Swiss communes are tracked in a
     between two lists of municipality IDs.  The package provides functions
     to import and work with this mutation list.
 License: GPL-3
-URL: https://github.com/krlmlr/SwissCommunes
-BugReports: https://github.com/krlmlr/SwissCommunes/issues
+URL: https://github.com/cynkra/SwissCommunes
+BugReports: https://cynkra.github.io/SwissCommunes, https://github.com/cynkra/SwissCommunes/issues
 Depends:
     R (>= 2.10)
 Imports:

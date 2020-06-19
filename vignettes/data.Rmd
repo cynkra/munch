@@ -17,7 +17,8 @@ knitr::opts_chunk$set(
 
 ```{r setup, include = FALSE}
 library(SwissCommunes)
-library(tidyverse)
+library(dplyr)
+library(purrr)
 ```
 
 ```{r build, echo = FALSE}

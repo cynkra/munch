@@ -32,7 +32,7 @@ swc_get_municipality_state <- function(year, canton = NULL) {
 
   final <-
     admitted %>%
-    anti_join(abolished)
+    anti_join(abolished, by = "mHistId.y")
 
   final %>%
     arrange(mId.y) %>%

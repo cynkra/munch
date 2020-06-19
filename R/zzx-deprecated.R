@@ -1,7 +1,12 @@
 #' @export
 #' @keywords internal
 #' @rdname deprecated
-swcGetMapping <- new_fun_forward(swc_get_mapping, old_fwd_name = "swcGetMapping")
+swcGetMapping <- function(swc = NULL, ids.from, ids.to) {
+  lifecycle::deprecate_soft("0.0.8", "swissCommunes::swcGetMapping()",
+                            "swissCommunes::swc_get_mapping()")
+  swc_get_mapping(ids.from = ids.from, ids.to = ids.to)
+}
+
 
 #' @export
 #' @keywords internal

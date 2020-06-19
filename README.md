@@ -1,9 +1,20 @@
-# SwissCommunes [![Travis-CI Build Status](https://travis-ci.org/krlmlr/SwissCommunes.png?branch=master)](https://travis-ci.org/krlmlr/SwissCommunes) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/krlmlr/SwissCommunes?branch=master&svg=true)](https://ci.appveyor.com/project/krlmlr/SwissCommunes)
+# SwissCommunes 
 
-Functions for working with the [historicized list of communes of Switzerland](http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html).
+<!-- badges: start -->
+[![tic](https://github.com/cynkra/SwissCommunes/workflows/tic/badge.svg?branch=master)](https://github.com/cynkra/SwissCommunes/actions)
+<!-- badges: end -->
 
-Install using latest `devtools`:
+Functions for working with the [historicized list of communes of Switzerland](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.html).
+
+## Static tables
+
+You do not need to install the package to use the mapping table.
+Head to <https://cynkra.github.io/SwissCommunes/articles/data.html> to get an overview of readily available matching files.
+
+## Installation
+
+Install this package from GitHub via:
 
 ```
-devtools::install_github("krlmlr/SwissCommunes")
+devtools::install_github("cynkra/SwissCommunes")
 ```

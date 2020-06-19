@@ -2,8 +2,8 @@ Type: Package
 Package: SwissCommunes
 Title: Functions for working with the historicized list of
     communes of Switzerland
-Version: 0.0.7.9000
-Date: 2019-01-01
+Version: 0.0.8.9000
+Date: 2020-03-30
 Author: Kirill Müller
 Maintainer: Kirill Müller <kirill.mueller@ivt.baug.ethz.ch>
 Description: The mutations of Swiss communes are tracked in a
@@ -17,21 +17,24 @@ BugReports: https://github.com/krlmlr/SwissCommunes/issues
 Depends:
     R (>= 2.10)
 Imports:
-    kimisc (>= 0.4),
+    cli,
+    dttr2,
+    glue,
+    lifecycle,
     logging (>= 0.8-104),
+    lubridate,
     Matrix,
-    plyr (>= 1.8.4),
+    dplyr (>= 0.8.3),
+    purrr (>= 0.3.2),
     reshape2 (>= 1.4.3),
-    SwissHistMunData
+    rlang,
+    SwissHistMunData,
+    tibble,
+    tidyr
 Suggests:
-    testthat (>= 2.0.1)
+    testthat (>= 2.1.0)
 Remotes: 
     krlmlr/SwissHistMunData
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
-Collate:
-    'SwissCommunes-package.R'
-    'commune-hist-decl.R'
-    'swcGetMapping.R'
-    'swcGetMutations.R'
+RoxygenNote: 7.1.0

@@ -21,6 +21,11 @@
 #' The result is a list of mutations, i.e., a list of edges in the graph of
 #' municipality state snapshots.
 #'
+#' @param mids A list of municipality id's (BFS-numbers) of which the mutations should be
+#'   retrieved.
+#'
+#' @inheritParams get_municipality_state
+#'
 #' @template swc
 #'
 #' @return A data frame that represents mutations.
@@ -29,16 +34,26 @@
 #' head(swcGetMutations(), 20)
 #' head(subset(swcGetMutations(), !is.na(mHistId.x)), 20)
 #' @export
-swcGetMutations <- function(swc = NULL) {
-  if (!is.null(swc)) {
-    warning("swc ignored.", call. = FALSE)
-  }
+swc_get_mutations <- function(mids = NULL, canton = NULL) {
   municipality_mutations <- SwissHistMunData::municipality_mutations
+
+  if (!is.null(mids)) {
+    municipality_mutations <-
+      municipality_mutations %>%
+      filter(mId %in% !!mids)
+  }
+
+  if (!is.null(canton)) {
+    municipality_mutations <-
+      municipality_mutations %>%
+      filter(cAbbreviation %in% !!canton)
+  }
 
   mun.mut <- merge(
     subset(
       municipality_mutations
       [, c(
+          "cAbbreviation",
           "mHistId",
           "mId",
           "mShortName",
@@ -70,7 +85,7 @@ swcGetMutations <- function(swc = NULL) {
 
   mun.mut$mMutationDate <- with(
     mun.mut,
-    kimisc::coalesce.na(mAdmissionDate, mAbolitionDate + 1, replace = NA)
+    coalesce(mAdmissionDate, mAbolitionDate + 1)
   )
   stopifnot(!is.na(mun.mut$mMutationDate))
 
@@ -101,23 +116,31 @@ swcGetMutations <- function(swc = NULL) {
   # A difference of one day is tolerated.
   stopifnot(with(mun.mut.test, abs(mMutationDate.x - mMutationDate.y) <= 1))
   # For those with identical dates, the minimum date is selected...
-  mun.mut.fix <- plyr::ddply(
-    subset(mun.mut.test, get("mMutationDate.x") != get("mMutationDate.y")),
-    "mMutationNumber",
-    function(df)
-      data.frame(mMutationNumber = df$mMutationNumber[1], mMutationDate = min(df$mMutationDate.x))
-  )
-  # ...and applied
+  mun.mut.fix.prep <- filter(mun.mut.test, mMutationDate.x != mMutationDate.y)
+  mun.mut.fix <- if (nrow(mun.mut.fix.prep) == 0) {
+    mun.mut.fix.prep
+  } else {
+    group_by(mun.mut.fix.prep, mMutationNumber) %>%
+      summarize(mMutationDate = min(mMutationDate.x, na.rm = TRUE))
+  }
+
   fix.match.pos <- match(mun.mut$mMutationNumber, mun.mut.fix$mMutationNumber)
   mun.mut$mMutationDate[!is.na(fix.match.pos)] <- mun.mut.fix$mMutationDate[fix.match.pos[!is.na(fix.match.pos)]]
 
-  mun.mut <- plyr::arrange(
+  mun.mut <- arrange(
     mun.mut,
-    get("mMutationDate"), get("mMutationNumber"),
-    get("mId.x"), get("mId.y")
+    mMutationDate, mMutationNumber,
+    mId.x, mId.y
   )
   mun.mut$mMutationId <- factor(interaction(mun.mut$mMutationDate, mun.mut$mMutationNumber), ordered = T)
   # mun.mut$mMutationId <- factor(mun.mut$mMutationDate, ordered=T)
 
-  mun.mut
+  # Remove Liechtenstein and lakes
+  as_tibble(mun.mut) %>%
+    filter(is.na(mId.y) | mId.y < 7000)
+}
+
+get_all_mutations_slim <- function() {
+  as_tibble(swc_get_mutations()) %>%
+    select(mHistId.x, mHistId.y, mId.y, mShortName.y, mAdmissionDate, mDateOfChange.y)
 }

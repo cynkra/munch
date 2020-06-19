@@ -1,3 +1,18 @@
+# SwissCommunes 0.0.8.9000
+
+- function 'get_mun_hist_lookup()': get historic municipalities contributing to modern municipalities on desired time-grid
+- internal function 'get_mun_hist()' for collecting historicized municipality IDs
+- Removed dependencies: {kimisc}, {plyr}; using {dplyr} instead
+
+
+# SwissCommunes 0.0.8
+
+- Renamed function `swcGetMapping()` -> `swc_get_mapping()` (old function soft-deprecated)
+- Renamed function `swcGetMutations()` -> `swc_get_mutations()` (old function soft-deprecated)
+- Added function `swc_get_mun_history()`
+- Added function `swc_get_mun_merges()`
+
+
 # SwissCommunes 0.0.7.9000
 
 - Use tic.

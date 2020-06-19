@@ -15,3 +15,5 @@
 ^Makefile\.in$
 ^makeR$
 ^script$
+^\.ccache$
+^\.github$

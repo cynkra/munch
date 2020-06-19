@@ -36,5 +36,5 @@ swc_get_municipality_state <- function(year, canton = NULL) {
 
   final %>%
     arrange(mId.y) %>%
-    select(mId = mId.y, mShortName = mShortName.y)
+    select(mun_id = mId.y, short_name = mShortName.y)
 }

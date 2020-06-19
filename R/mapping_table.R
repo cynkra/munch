@@ -50,7 +50,11 @@ accumulate_mappings <- function(year, mappings, mapping_init) {
   )
 
   tibble(year, data) %>%
-    unnest(data)
+    unnest(data) %>%
+    rename(
+      mun_id_x = mId.x, short_name_x = mShortName.x,
+      mun_id_y = mId.y, short_name_y = mShortName.y
+    )
 }
 
 min_safe <- function(x) {
@@ -64,7 +68,7 @@ max_safe <- function(x) {
 compact_mapping <- function(flat) {
   compact_check <-
     flat %>%
-    group_by(mId.x, mShortName.x, mId.y, mShortName.y) %>%
+    group_by(mun_id_x, short_name_x, mun_id_y, short_name_y) %>%
     summarize(is_compact = all(diff(year) == 1)) %>%
     ungroup()
 
@@ -72,7 +76,7 @@ compact_mapping <- function(flat) {
 
   out <-
     flat %>%
-    group_by(mId.x, mShortName.x, mId.y, mShortName.y) %>%
+    group_by(mun_id_x, short_name_x, mun_id_y, short_name_y) %>%
     summarize(year_from = min_safe(year), year_to = max_safe(year)) %>%
     ungroup() %>%
     select(year_from, year_to, everything())

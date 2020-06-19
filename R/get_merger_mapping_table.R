@@ -79,5 +79,5 @@ swc_get_merger_mapping_table <- function(start_year, end_year, canton = NULL, ty
 get_municipalities_identity_mapping <- function(year, canton = NULL) {
 
   swc_get_municipality_state(year = year, canton = canton) %>%
-    transmute(mId.x = mId, mShortName.x = mShortName, mId.y = mId, mShortName.y = mShortName)
+    transmute(mId.x = mun_id, mShortName.x = short_name, mId.y = mun_id, mShortName.y = short_name)
 }

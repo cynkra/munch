@@ -16,9 +16,8 @@
 #' to use the most recent data set as target for the mapping.  This can also be
 #' a file with suitable geometries to allow for visualization.
 #'
-#' @template swc
-#' @param ids.from A list of "source" municipality IDs, preferably a factor
-#' @param ids.to A list of "target" municipality IDs, preferably a factor
+#' @param ids_from A list of "source" municipality IDs, preferably a factor
+#' @param ids_to A list of "target" municipality IDs, preferably a factor
 #'
 #' @return A data frame with columns prefixed by \code{from.} and \code{to} that
 #'   represents the computed match.  The municipality IDs are stored in the
@@ -33,12 +32,8 @@
 #'
 #' @example example/swc_get_mapping.R
 #' @export
-swc_get_mapping <- function(swc = NULL, ids.from, ids.to) {
-  if (!is.null(swc)) {
-    warning("swc ignored.", call. = FALSE)
-  }
-
-  all.ids <- c(ids.from, ids.to)
+swc_get_mapping <- function(ids_from, ids_to) {
+  all.ids <- c(ids_from, ids_to)
 
   municipality_mutations <- SwissHistMunData::municipality_mutations
 
@@ -53,14 +48,14 @@ swc_get_mapping <- function(swc = NULL, ids.from, ids.to) {
     ids <- as.integer(ids)
     ids
   }
-  ids.from <- sort(unique(ids.from))
-  ids.from.int <- tid(ids.from)
-  mid.from <- getMostProbableMutationId(mutations, ids.from.int)
+  ids_from <- sort(unique(ids_from))
+  ids_from.int <- tid(ids_from)
+  mid.from <- getMostProbableMutationId(mutations, ids_from.int)
   hist.list.from <- getHistIdList(mutations, mid.from)
 
-  ids.to <- sort(unique(ids.to))
-  ids.to.int <- tid(ids.to)
-  mid.to <- getMostProbableMutationId(mutations, ids.to.int)
+  ids_to <- sort(unique(ids_to))
+  ids_to.int <- tid(ids_to)
+  mid.to <- getMostProbableMutationId(mutations, ids_to.int)
   hist.list.to <- getHistIdList(mutations, mid.to)
 
   ret <- getMunicipalityMappingWorker(mutations, hist.list.from, mid.from, hist.list.to, mid.to)
@@ -98,16 +93,16 @@ swc_get_mapping <- function(swc = NULL, ids.from, ids.to) {
     ret
   }
 
-  ret.from <- resultTable(ret$from, ids.from.int, "from")
-  ret.to <- resultTable(ret$to, ids.to.int, "to")
+  ret.from <- resultTable(ret$from, ids_from.int, "from")
+  ret.to <- resultTable(ret$to, ids_to.int, "to")
   ret <- cbind(ret.from, ret.to)
   ret <- bind_rows(
     ret,
-    extraTable(ret.from$mId.from, ids.from.int, "from"),
-    extraTable(ret.to$mId.to, ids.to.int, "to")
+    extraTable(ret.from$mId.from, ids_from.int, "from"),
+    extraTable(ret.to$mId.to, ids_to.int, "to")
   )
-  ret <- fixFactor(ret, ids.from, "from")
-  ret <- fixFactor(ret, ids.to, "to")
+  ret <- fixFactor(ret, ids_from, "from")
+  ret <- fixFactor(ret, ids_to, "to")
 
   dMatchType <- c(
     `valid.valid` = "valid",

@@ -4,14 +4,14 @@
 \alias{swc_get_mapping}
 \title{Compute a matching table between two lists of municipality IDs}
 \usage{
-swc_get_mapping(swc = NULL, ids.from, ids.to)
+swc_get_mapping(swc = NULL, ids_from, ids_to)
 }
 \arguments{
 \item{swc}{Ignored.}
 
-\item{ids.from}{A list of "source" municipality IDs, preferably a factor}
+\item{ids_from}{A list of "source" municipality IDs, preferably a factor}
 
-\item{ids.to}{A list of "target" municipality IDs, preferably a factor}
+\item{ids_to}{A list of "target" municipality IDs, preferably a factor}
 }
 \value{
 A data frame with columns prefixed by \code{from.} and \code{to} that

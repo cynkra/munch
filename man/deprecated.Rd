@@ -6,7 +6,7 @@
 \alias{swcGetMutations}
 \title{Deprecated functions}
 \usage{
-swcGetMapping(swc = NULL, ids.from, ids.to)
+swcGetMapping(swc = NULL, ids_from, ids_to)
 
 swcGetMutations(swc = NULL)
 }

@@ -4,7 +4,7 @@
 swcGetMapping <- function(swc = NULL, ids.from, ids.to) {
   lifecycle::deprecate_soft("0.0.8", "swissCommunes::swcGetMapping()",
                             "swissCommunes::swc_get_mapping()")
-  swc_get_mapping(ids.from = ids.from, ids.to = ids.to)
+  swc_get_mapping(ids_from = ids.from, ids_to = ids.to)
 }
 
 

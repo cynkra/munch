@@ -27,15 +27,19 @@ Imports:
     lubridate,
     Matrix,
     purrr (>= 0.3.2),
+    readr,
     reshape2 (>= 1.4.3),
     rlang,
     SwissHistMunData,
     tibble,
     tidyr
 Suggests:
-    testthat (>= 2.1.0)
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown
 Remotes: 
     cynkra/SwissHistMunData
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0.9000
+VignetteBuilder: knitr

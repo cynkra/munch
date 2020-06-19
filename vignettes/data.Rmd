@@ -1,0 +1,71 @@
+---
+title: "Mapping tables as CSV files"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Mapping tables as CSV files}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  eval = (Sys.getenv("IN_PKGDOWN") != "")
+)
+```
+
+```{r setup, include = FALSE}
+library(SwissCommunes)
+library(tidyverse)
+```
+
+```{r build, echo = FALSE}
+SOURCE_YEAR <- 2018
+
+years <- seq(SOURCE_YEAR, lubridate::year(Sys.Date()), by = 1)
+
+write_mapping_table <- function(year, type) {
+  mapping <- swc_get_merger_mapping_table(SOURCE_YEAR, year, type = type)
+  
+  rel_path <- file.path("data", type, paste0(year, ".csv"))
+  path <- file.path("../docs", rel_path)
+  pkgdown_path <- file.path("..", rel_path)
+  
+  dir.create(dirname(path), recursive = TRUE, showWarnings = FALSE)
+  
+  readr::write_csv(mapping, path)
+  
+  tibble(year, type, path, pkgdown_path, nrow = nrow(mapping))
+}
+
+compact <- map(years, write_mapping_table, type = "compact")
+flat <- map(years, write_mapping_table, type = "flat")
+
+format_mapping_tables <- function(results) {
+  results <- bind_rows(!!!results)
+  results %>% 
+    mutate(text = paste0("- ", SOURCE_YEAR, "--", year, ": ", format(nrow, big.mark = "'"), " rows ([csv](", pkgdown_path, "))")) %>% 
+    summarize(text = paste(text, collapse = "\n")) %>% 
+    pull()
+}
+```
+
+# Compact tables
+
+This representation consumes very little space.
+The source key `mun_id_x` may be non-unique, in this case the `year_from` and `year_to` columns must be consulted.
+
+```{r results = "asis", echo = FALSE}
+cat(format_mapping_tables(compact))
+```
+
+
+# Flat tables
+
+This representation is very explicit.
+The combination of `mun_id_x` and `year` is guaranteed to be unique.
+
+```{r results = "asis", echo = FALSE}
+cat(format_mapping_tables(flat))
+```

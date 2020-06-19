@@ -7,7 +7,7 @@
 #'
 #' @param start_year First year of time interval (integer)
 #' @param end_year Last year of time interval (integer)
-#' @inheritParams get_municipality_state
+#' @inheritParams swc_get_municipality_state
 #' @param type Two options:
 #'
 #'     - "flat" (default) returns the table with one row per year per mapping

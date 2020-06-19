@@ -10,7 +10,8 @@ swc_get_mutations(mids = NULL, canton = NULL)
 \item{mids}{A list of municipality id's (BFS-numbers) of which the mutations should be
 retrieved.}
 
-\item{swc}{Ignored.}
+\item{canton}{Canton abbreviation as character (e.g. "GE", "ZH", "TI", etc.) to focus on.
+If left `NULL` (default) all cantons are considered.}
 }
 \value{
 A data frame that represents mutations.

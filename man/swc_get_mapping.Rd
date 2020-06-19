@@ -4,11 +4,9 @@
 \alias{swc_get_mapping}
 \title{Compute a matching table between two lists of municipality IDs}
 \usage{
-swc_get_mapping(swc = NULL, ids_from, ids_to)
+swc_get_mapping(ids_from, ids_to)
 }
 \arguments{
-\item{swc}{Ignored.}
-
 \item{ids_from}{A list of "source" municipality IDs, preferably a factor}
 
 \item{ids_to}{A list of "target" municipality IDs, preferably a factor}
@@ -54,13 +52,13 @@ data(SwissPop)
 data(SwissBirths)
 
 # Show mismatch of municipality IDs:
-ids.from <- with(SwissPop, MunicipalityID)
-ids.to <- with(SwissBirths, MunicipalityID)
-setdiff(ids.from, ids.to)
-setdiff(ids.to, ids.from)
+ids_from <- with(SwissPop, MunicipalityID)
+ids_to <- with(SwissBirths, MunicipalityID)
+setdiff(ids_from, ids_to)
+setdiff(ids_to, ids_from)
 
 # Compute mapping and count non-matching municipality IDs:
-mapping <- swc_get_mapping(ids.from=ids.from, ids.to=ids.to)
+mapping <- swc_get_mapping(ids_from=ids_from, ids_to=ids_to)
 with(mapping, sum(mapping$mIdAsNumber.from != mapping$mIdAsNumber.to))
 
 # Communes that are "missing" are mostly lakes and other special communes:
@@ -111,5 +109,5 @@ subset(mapping, mIdAsNumber.to \%in\% setdiff(
     c("mId.from", "mShortName.from", "MatchType")]
 
 # The "from" list must be from an earlier time than the "to" list.
-try(swc_get_mapping(ids.from=ids.to, ids.to=ids.from))
+try(swc_get_mapping(ids_from=ids_to, ids_to=ids_from))
 }

@@ -24,9 +24,7 @@
 #' @param mids A list of municipality id's (BFS-numbers) of which the mutations should be
 #'   retrieved.
 #'
-#' @inheritParams get_municipality_state
-#'
-#' @template swc
+#' @inheritParams swc_get_municipality_state
 #'
 #' @return A data frame that represents mutations.
 #'

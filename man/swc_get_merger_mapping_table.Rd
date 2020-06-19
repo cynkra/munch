@@ -16,6 +16,9 @@ swc_get_merger_mapping_table(
 
 \item{end_year}{Last year of time interval (integer)}
 
+\item{canton}{Canton abbreviation as character (e.g. "GE", "ZH", "TI", etc.) to focus on.
+If left `NULL` (default) all cantons are considered.}
+
 \item{type}{Two options:
 
     - "flat" (default) returns the table with one row per year per mapping

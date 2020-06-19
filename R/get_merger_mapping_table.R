@@ -81,26 +81,3 @@ get_municipalities_identity_mapping <- function(year, canton = NULL) {
   swc_get_municipality_state(year = year, canton = canton) %>%
     transmute(mId.x = mId, mShortName.x = mShortName, mId.y = mId, mShortName.y = mShortName)
 }
-
-
-
-
-join_mergers <- function(df, mapping_table, x_join_year, x_join_bfs, x_gem_name) {
-
-  year <- sym(x_join_year)
-  bfs <- sym(x_join_bfs)
-  x_gem <- sym(x_gem_name)
-
-  mapping_table_renamed <- rename(mapping_table, !!year := "year", !!bfs := "mId.x")
-
-  df %>%
-    left_join(mapping_table_renamed, by = c(x_join_year, x_join_bfs)) %>%
-    select(-mShortName.x) %>%
-    mutate(BFS_neu = ifelse(is.na(mId.y), !!bfs, mId.y),
-           Gemeinde_neu = ifelse(is.na(mShortName.y), !!x_gem, mShortName.y)) %>%
-    select(-mId.y, -mShortName.y)
-}
-
-
-
-

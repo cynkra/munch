@@ -19,9 +19,9 @@
 #' @export
 #'
 #' @examples
-#' get_merger_mapping_table(2005, 2010)
-#' get_merger_mapping_table(2015, 2019, canton = "ZH", type = "compact")
-get_merger_mapping_table <- function(start_year, end_year, canton = NULL, type = "flat") {
+#' swc_get_merger_mapping_table(2005, 2010)
+#' swc_get_merger_mapping_table(2015, 2019, canton = "ZH", type = "compact")
+swc_get_merger_mapping_table <- function(start_year, end_year, canton = NULL, type = "flat") {
   summarize_ungroup <- function(.data, ...) {
     summarize(.data, ..., .groups = "drop")
   }
@@ -78,7 +78,7 @@ get_merger_mapping_table <- function(start_year, end_year, canton = NULL, type =
 
 get_municipalities_identity_mapping <- function(year, canton = NULL) {
 
-  get_municipality_state(year = year, canton = canton) %>%
+  swc_get_municipality_state(year = year, canton = canton) %>%
     transmute(mId.x = mId, mShortName.x = mShortName, mId.y = mId, mShortName.y = mShortName)
 }
 

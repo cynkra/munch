@@ -13,9 +13,9 @@
 #' @export
 #'
 #' @examples
-#' get_municipality_state(1987)
-#' get_municipality_state(2000, "ZH")
-get_municipality_state <- function(year, canton = NULL) {
+#' swc_get_municipality_state(1987)
+#' swc_get_municipality_state(2000, "ZH")
+swc_get_municipality_state <- function(year, canton = NULL) {
   mutations <- swc_get_mutations(canton = canton)
 
   mutations_filtered <- mutations %>%

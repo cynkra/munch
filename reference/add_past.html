@@ -132,7 +132,7 @@
     <p>The past is searched by the mHistId.x of the origial file</p>
     </div>
 
-    <pre class="usage"><span class='fu'>add_past</span>(<span class='kw'>x</span>, <span class='kw'>mutations</span>)</pre>
+    <pre class="usage"><span class='fu'>add_past</span><span class='op'>(</span><span class='va'>x</span>, <span class='va'>mutations</span><span class='op'>)</span></pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -149,17 +149,17 @@
 
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='kw'>mutations</span> <span class='op'>&lt;-</span> <span class='fu'><a href='deprecated.html'>swcGetMutations</a></span>()
+    <pre class="examples"><div class='input'><span class='va'>mutations</span> <span class='op'>&lt;-</span> <span class='fu'><a href='deprecated.html'>swcGetMutations</a></span><span class='op'>(</span><span class='op'>)</span>
 </div><div class='output co'>#&gt; <span class='warning'>Warning: `swcGetMutations()` is deprecated as of SwissCommunes 0.0.8.</span>
 #&gt; <span class='warning'>Please use `swc_get_mutations()` instead.</span>
 #&gt; <span class='warning'><span style='color: #555555;'>This warning is displayed once every 8 hours.</span><span></span>
 #&gt; <span class='warning'></span><span style='color: #555555;'>Call `lifecycle::last_warnings()` to see where this warning was generated.</span><span></span></div><div class='input'>
-<span class='kw'>t</span> <span class='op'>&lt;-</span>
- <span class='kw'>dplyr</span>::<span class='fu'><a href='https://dplyr.tidyverse.org/reference/filter.html'>filter</a></span>(<span class='kw'>mutations</span>, <span class='kw'>mId.y</span> <span class='op'>==</span> <span class='fl'>293</span>)
+<span class='va'>t</span> <span class='op'>&lt;-</span>
+ <span class='fu'>dplyr</span><span class='fu'>::</span><span class='fu'><a href='https://dplyr.tidyverse.org/reference/filter.html'>filter</a></span><span class='op'>(</span><span class='va'>mutations</span>, <span class='va'>mId.y</span> <span class='op'>==</span> <span class='fl'>293</span><span class='op'>)</span>
 
-<span class='kw'>t_1</span> <span class='op'>&lt;-</span> <span class='kw'>dplyr</span>::<span class='fu'><a href='https://dplyr.tidyverse.org/reference/filter.html'>filter</a></span>(<span class='kw'>t</span>, <span class='kw'>mHistId.y</span> <span class='op'>==</span> <span class='fu'><a href='https://rdrr.io/r/base/Extremes.html'>max</a></span>(<span class='kw'>mHistId.y</span>))
+<span class='va'>t_1</span> <span class='op'>&lt;-</span> <span class='fu'>dplyr</span><span class='fu'>::</span><span class='fu'><a href='https://dplyr.tidyverse.org/reference/filter.html'>filter</a></span><span class='op'>(</span><span class='va'>t</span>, <span class='va'>mHistId.y</span> <span class='op'>==</span> <span class='fu'><a href='https://rdrr.io/r/base/Extremes.html'>max</a></span><span class='op'>(</span><span class='va'>mHistId.y</span><span class='op'>)</span><span class='op'>)</span>
 
-<span class='kw'>t_past</span> <span class='op'>&lt;-</span> <span class='fu'>add_past</span>(<span class='kw'>t</span>, <span class='kw'>mutations</span>)
+<span class='va'>t_past</span> <span class='op'>&lt;-</span> <span class='fu'>add_past</span><span class='op'>(</span><span class='va'>t</span>, <span class='va'>mutations</span><span class='op'>)</span>
 
 </div></span></pre>
   </div>

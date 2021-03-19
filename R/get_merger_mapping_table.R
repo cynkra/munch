@@ -26,7 +26,7 @@ swc_get_merger_mapping_table <- function(start_year, end_year, canton = NULL, ty
     summarize(.data, ..., .groups = "drop")
   }
   # From analyze.R: ignore trivial area changes
-  IGNORE_MUTATIONS <- c(3293, 3432)
+  IGNORE_MUTATIONS <- c(3293, 3432, 3932)
 
   START_DATE <- as.Date(paste0(start_year, "-01-01"))
 

@@ -14,7 +14,7 @@ summarize_ungroup <- function(.data, ...) {
 #' # Arguments
 
 # From analyze.R: ignore trivial area changes
-IGNORE_MUTATIONS <- c(3293, 3432)
+IGNORE_MUTATIONS <- c(3293, 3432, 3932)
 
 # From analyze.R:
 # - nontrivial mutation happened in 2004

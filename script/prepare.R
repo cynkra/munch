@@ -24,7 +24,7 @@ IGNORE_MUTATIONS <- c(3293, 3432, 3932)
 START_DATE <- as.Date("2005-01-01")
 
 # Smaller working set, use NULL for all
-#CANTON <- "LU"
+# CANTON <- "LU"
 CANTON <- NULL
 
 #' # Preparation

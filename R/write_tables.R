@@ -10,6 +10,7 @@ write_all_mapping_tables <- function() {
 }
 
 write_mapping_table <- function(source_year, year, type) {
+  message(year)
   mapping <- swc_get_merger_mapping_table(source_year, year, type = type)
 
   path <- new_csv_file(file.path(type, year))

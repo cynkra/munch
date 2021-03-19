@@ -198,52 +198,9 @@ list.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='va'>cantons</span>
-</div><div class='output co'>#&gt; <span style='color: #949494;'># A tibble: 26 x 4</span><span>
-#&gt;      cId cAbbreviation cLongName           cDateOfChange
-#&gt;    </span><span style='color: #949494;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>         </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>               </span><span style='color: #949494;font-style: italic;'>&lt;date&gt;</span><span>       
-#&gt; </span><span style='color: #BCBCBC;'> 1</span><span>     1 ZH            Zürich              1960-01-01   
-#&gt; </span><span style='color: #BCBCBC;'> 2</span><span>     2 BE            Bern / Berne        1960-01-01   
-#&gt; </span><span style='color: #BCBCBC;'> 3</span><span>     3 LU            Luzern              1960-01-01   
-#&gt; </span><span style='color: #BCBCBC;'> 4</span><span>     4 UR            Uri                 1960-01-01   
-#&gt; </span><span style='color: #BCBCBC;'> 5</span><span>     5 SZ            Schwyz              1960-01-01   
-#&gt; </span><span style='color: #BCBCBC;'> 6</span><span>     6 OW            Obwalden            1960-01-01   
-#&gt; </span><span style='color: #BCBCBC;'> 7</span><span>     7 NW            Nidwalden           1960-01-01   
-#&gt; </span><span style='color: #BCBCBC;'> 8</span><span>     8 GL            Glarus              1960-01-01   
-#&gt; </span><span style='color: #BCBCBC;'> 9</span><span>     9 ZG            Zug                 1960-01-01   
-#&gt; </span><span style='color: #BCBCBC;'>10</span><span>    10 FR            Fribourg / Freiburg 1960-01-01   
-#&gt; </span><span style='color: #949494;'># … with 16 more rows</span><span></div><div class='input'><span class='va'>district_mutations</span>
-</div><div class='output co'>#&gt; </span><span style='color: #949494;'># A tibble: 308 x 13</span><span>
-#&gt;    dHistId   cId   dId dLongName          dShortName dEntryMode dAdmissionNumber
-#&gt;      </span><span style='color: #949494;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>              </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;fct&gt;</span><span>                 </span><span style='color: #949494;font-style: italic;'>&lt;int&gt;</span><span>
-#&gt; </span><span style='color: #BCBCBC;'> 1</span><span>   </span><span style='text-decoration: underline;'>10</span><span>001    20  </span><span style='text-decoration: underline;'>2</span><span>001 Bezirk Arbon       Arbon      District                100
-#&gt; </span><span style='color: #BCBCBC;'> 2</span><span>   </span><span style='text-decoration: underline;'>10</span><span>002    21  </span><span style='text-decoration: underline;'>2</span><span>106 Distretto di Mend… Mendrisio  District                100
-#&gt; </span><span style='color: #BCBCBC;'> 3</span><span>   </span><span style='text-decoration: underline;'>10</span><span>003    21  </span><span style='text-decoration: underline;'>2</span><span>105 Distretto di Luga… Lugano     District                100
-#&gt; </span><span style='color: #BCBCBC;'> 4</span><span>   </span><span style='text-decoration: underline;'>10</span><span>004    21  </span><span style='text-decoration: underline;'>2</span><span>104 Distretto di Loca… Locarno    District                100
-#&gt; </span><span style='color: #BCBCBC;'> 5</span><span>   </span><span style='text-decoration: underline;'>10</span><span>005    21  </span><span style='text-decoration: underline;'>2</span><span>103 Distretto di Leve… Leventina  District                100
-#&gt; </span><span style='color: #BCBCBC;'> 6</span><span>   </span><span style='text-decoration: underline;'>10</span><span>006    21  </span><span style='text-decoration: underline;'>2</span><span>102 Distretto di Blen… Blenio     District                100
-#&gt; </span><span style='color: #BCBCBC;'> 7</span><span>   </span><span style='text-decoration: underline;'>10</span><span>007    21  </span><span style='text-decoration: underline;'>2</span><span>101 Distretto di Bell… Bellinzona District                100
-#&gt; </span><span style='color: #BCBCBC;'> 8</span><span>   </span><span style='text-decoration: underline;'>10</span><span>008    20  </span><span style='text-decoration: underline;'>2</span><span>008 Bezirk Weinfelden  Weinfelden District                100
-#&gt; </span><span style='color: #BCBCBC;'> 9</span><span>   </span><span style='text-decoration: underline;'>10</span><span>009    20  </span><span style='text-decoration: underline;'>2</span><span>007 Bezirk Steckborn   Steckborn  District                100
-#&gt; </span><span style='color: #BCBCBC;'>10</span><span>   </span><span style='text-decoration: underline;'>10</span><span>010    20  </span><span style='text-decoration: underline;'>2</span><span>006 Bezirk Münchwilen  Münchwilen District                100
-#&gt; </span><span style='color: #949494;'># … with 298 more rows, and 6 more variables: dAdmissionMode &lt;fct&gt;,</span><span>
-#&gt; </span><span style='color: #949494;'>#   dAdmissionDate &lt;date&gt;, dAbolitionNumber &lt;int&gt;, dAbolitionMode &lt;fct&gt;,</span><span>
-#&gt; </span><span style='color: #949494;'>#   dAbolitionDate &lt;date&gt;, dDateOfChange &lt;date&gt;</span><span></div><div class='input'><span class='va'>municipality_mutations</span>
-</div><div class='output co'>#&gt; </span><span style='color: #949494;'># A tibble: 5,798 x 15</span><span>
-#&gt;    mHistId dHistId cAbbreviation   mId mLongName  mShortName  mEntryMode mStatus
-#&gt;      </span><span style='color: #949494;font-style: italic;'>&lt;int&gt;</span><span>   </span><span style='color: #949494;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>         </span><span style='color: #949494;font-style: italic;'>&lt;int&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>       </span><span style='color: #949494;font-style: italic;'>&lt;fct&gt;</span><span>        </span><span style='color: #949494;font-style: italic;'>&lt;int&gt;</span><span>
-#&gt; </span><span style='color: #BCBCBC;'> 1</span><span>   </span><span style='text-decoration: underline;'>10</span><span>001   </span><span style='text-decoration: underline;'>10</span><span>189 GR             </span><span style='text-decoration: underline;'>3</span><span>501 Alvaschein Alvaschein  Municipal…       1
-#&gt; </span><span style='color: #BCBCBC;'> 2</span><span>   </span><span style='text-decoration: underline;'>10</span><span>002   </span><span style='text-decoration: underline;'>10</span><span>192 SG             </span><span style='text-decoration: underline;'>3</span><span>403 Gantersch… Ganterschw… Municipal…       1
-#&gt; </span><span style='color: #BCBCBC;'> 3</span><span>   </span><span style='text-decoration: underline;'>10</span><span>003   </span><span style='text-decoration: underline;'>10</span><span>189 GR             </span><span style='text-decoration: underline;'>3</span><span>523 Wiesen (G… Wiesen (GR) Municipal…       1
-#&gt; </span><span style='color: #BCBCBC;'> 4</span><span>   </span><span style='text-decoration: underline;'>10</span><span>004   </span><span style='text-decoration: underline;'>10</span><span>189 GR             </span><span style='text-decoration: underline;'>3</span><span>522 Filisur    Filisur     Municipal…       1
-#&gt; </span><span style='color: #BCBCBC;'> 5</span><span>   </span><span style='text-decoration: underline;'>10</span><span>005   </span><span style='text-decoration: underline;'>10</span><span>189 GR             </span><span style='text-decoration: underline;'>3</span><span>521 Bergün/Br… Bergün/Bra… Municipal…       1
-#&gt; </span><span style='color: #BCBCBC;'> 6</span><span>   </span><span style='text-decoration: underline;'>10</span><span>006   </span><span style='text-decoration: underline;'>10</span><span>189 GR             </span><span style='text-decoration: underline;'>3</span><span>515 Surava     Surava      Municipal…       1
-#&gt; </span><span style='color: #BCBCBC;'> 7</span><span>   </span><span style='text-decoration: underline;'>10</span><span>007   </span><span style='text-decoration: underline;'>10</span><span>189 GR             </span><span style='text-decoration: underline;'>3</span><span>514 Schmitten… Schmitten … Municipal…       1
-#&gt; </span><span style='color: #BCBCBC;'> 8</span><span>   </span><span style='text-decoration: underline;'>10</span><span>008   </span><span style='text-decoration: underline;'>10</span><span>189 GR             </span><span style='text-decoration: underline;'>3</span><span>513 Lantsch/L… Lantsch/Le… Municipal…       1
-#&gt; </span><span style='color: #BCBCBC;'> 9</span><span>   </span><span style='text-decoration: underline;'>10</span><span>009   </span><span style='text-decoration: underline;'>10</span><span>023 AG             </span><span style='text-decoration: underline;'>4</span><span>122 Villnache… Villnachern Municipal…       1
-#&gt; </span><span style='color: #BCBCBC;'>10</span><span>   </span><span style='text-decoration: underline;'>10</span><span>010   </span><span style='text-decoration: underline;'>10</span><span>189 GR             </span><span style='text-decoration: underline;'>3</span><span>511 Alvaneu    Alvaneu     Municipal…       1
-#&gt; </span><span style='color: #949494;'># … with 5,788 more rows, and 7 more variables: mAdmissionNumber &lt;int&gt;,</span><span>
-#&gt; </span><span style='color: #949494;'>#   mAdmissionMode &lt;fct&gt;, mAdmissionDate &lt;date&gt;, mAbolitionNumber &lt;int&gt;,</span><span>
-#&gt; </span><span style='color: #949494;'>#   mAbolitionMode &lt;fct&gt;, mAbolitionDate &lt;date&gt;, mDateOfChange &lt;date&gt;</span><span></div></span></pre>
+</div><div class='output co'>#&gt; <span class='error'>Error in eval(expr, envir, enclos): object 'cantons' not found</span></div><div class='input'><span class='va'>district_mutations</span>
+</div><div class='output co'>#&gt; <span class='error'>Error in eval(expr, envir, enclos): object 'district_mutations' not found</span></div><div class='input'><span class='va'>municipality_mutations</span>
+</div><div class='output co'>#&gt; <span class='error'>Error in eval(expr, envir, enclos): object 'municipality_mutations' not found</span></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

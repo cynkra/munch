@@ -30,29 +30,33 @@ swc_get_merger_mapping_table <- function(start_year, end_year, canton = NULL, ty
 
   START_DATE <- as.Date(paste0(start_year, "-01-01"))
 
-
+  # Deal with change of area: keep identity mapping only
   mutations <-
     swc_get_mutations(canton = canton) %>%
     filter(mAbolitionDate >= !!START_DATE) %>%
-    filter(!(mMutationNumber %in% !!IGNORE_MUTATIONS))
+    filter(
+      mAbolitionMode != "Change of area" | mAdmissionMode != "Change of area" |
+        mShortName.x == mShortName.y
+    )
 
   mutations_check <-
     mutations %>%
+    filter(mAbolitionMode != "Change of area" | mAdmissionMode != "Change of area") %>%
     distinct(mMutationNumber, mId.y, mShortName.y) %>%
     add_count(mMutationNumber) %>%
     filter(n > 1)
 
   stopifnot(nrow(mutations_check) == 0)
 
-  mutations_diff <-
-    mutations %>%
-    filter(mId.x != mId.y | mShortName.x != mShortName.y)
-
+  # Need to keep all mappings here to maintain identity mapping
+  # throughout accumulate_mappings()
+  # Need distinct() at end for odd corner case
   mutations_base <-
-    mutations_diff %>%
+    mutations %>%
     select(mAdmissionDate, mMutationNumber, mId.x, mShortName.x, mId.y, mShortName.y) %>%
     mutate(year = as.integer(lubridate::year(mAdmissionDate))) %>%
-    select(-mAdmissionDate, -mMutationNumber)
+    select(-mAdmissionDate, -mMutationNumber) %>%
+    distinct()
 
   source_years <- seq2(start_year, end_year - 1)
 

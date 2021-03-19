@@ -1,3 +1,0 @@
-utils::globalVariables(c(
-  "getMostProbableMutationId"
-))

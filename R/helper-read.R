@@ -132,9 +132,9 @@ check_data <- function() {
   data <- swc_read_data()
 
   unchanged <-
-    identical(data$canton, cantons) &&
-      identical(data$district, district_mutations) &&
-      identical(data$municipality, municipality_mutations)
+    identical(data$canton, swc_get_cantons()) &&
+      identical(data$district, swc_get_district_mutations()) &&
+      identical(data$municipality, swc_get_municipality_mutations())
 
   !unchanged
 }
@@ -146,19 +146,19 @@ check_data <- function() {
 check_past_changes <- function() {
   data <- swc_read_data()
 
-  past_canton <- dplyr::inner_join(data$canton, cantons)
+  past_canton <- dplyr::inner_join(data$canton, swc_get_cantons())
 
-  past_district <- dplyr::inner_join(data$district, district_mutations)
+  past_district <- dplyr::inner_join(data$district, swc_get_district_mutations())
 
   past_municipality <- dplyr::inner_join(
     data$municipality,
-    municipality_mutations
+    swc_get_municipality_mutations()
   )
 
   unchanged <-
-    nrow(past_canton) == nrow(cantons) &&
-      nrow(past_district) == nrow(district_mutations) &&
-      nrow(past_municipality) == nrow(municipality_mutations)
+    nrow(past_canton) == nrow(swc_get_cantons()) &&
+      nrow(past_district) == nrow(swc_get_district_mutations()) &&
+      nrow(past_municipality) == nrow(swc_get_municipality_mutations())
 
   unchanged
 }
@@ -169,7 +169,7 @@ daff_canton <- function() {
 
   data <- swc_read_data()
 
-  daff::render_diff(daff::diff_data(cantons, data$canton))
+  daff::render_diff(daff::diff_data(swc_get_cantons(), data$canton))
 }
 
 daff_district <- function() {
@@ -177,7 +177,7 @@ daff_district <- function() {
 
   data <- swc_read_data()
 
-  daff::render_diff(daff::diff_data(district_mutations, data$district))
+  daff::render_diff(daff::diff_data(swc_get_district_mutations(), data$district))
 }
 
 daff_municipality_mutations <- function() {
@@ -185,7 +185,7 @@ daff_municipality_mutations <- function() {
 
   data <- swc_read_data()
 
-  daff::render_diff(daff::diff_data(municipality_mutations, data$municipality))
+  daff::render_diff(daff::diff_data(swc_get_municipality_mutations(), data$municipality))
 }
 
 

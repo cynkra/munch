@@ -35,7 +35,7 @@
 swc_get_mapping <- function(ids_from, ids_to) {
   all.ids <- c(ids_from, ids_to)
 
-  municipality_mutations <- municipality_mutations
+  municipality_mutations <- swc_get_municipality_mutations()
 
   mutations <- swc_get_mutations(mids = all.ids)
 

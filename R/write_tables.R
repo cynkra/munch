@@ -1,5 +1,5 @@
-# Municipality splits existed before 2005
-write_all_mapping_tables <- function(source_year = 2005) {
+# Municipality splits existed 2005 and before
+write_all_mapping_tables <- function(source_year = 2006) {
   MAX_YEAR <- lubridate::year(
     max(swc_get_municipality_mutations()$mAbolitionDate, na.rm = TRUE)
   ) + 1L

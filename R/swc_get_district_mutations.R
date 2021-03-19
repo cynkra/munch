@@ -1,4 +1,3 @@
 swc_get_district_mutations <- function() {
-  load(rda_file("district_mutations"))
-  district_mutations
+  readr::read_csv(csv_file("district_mutations"))
 }

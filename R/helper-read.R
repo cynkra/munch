@@ -122,10 +122,6 @@ overwrite_data <- function() {
   readr::write_csv(data$municipality, csv_file("municipality_mutations"))
 }
 
-csv_file <- function(name) {
-  system.file("csv", paste0(name, ".csv"), package = "SwissCommunes")
-}
-
 #' check if new data is identical to old data
 #'
 #' @export

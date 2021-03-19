@@ -1,8 +1,7 @@
 swc_get_cantons <- function() {
-  load(rda_file("cantons"))
-  cantons
+  readr::read_csv(csv_file("cantons"))
 }
 
-rda_file <- function(name) {
-  system.file("rda", paste0(name, ".rda"), package = "SwissCommunes")
+csv_file <- function(name) {
+  system.file("csv", paste0(name, ".csv"), package = "SwissCommunes")
 }

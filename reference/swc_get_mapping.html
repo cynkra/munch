@@ -49,6 +49,8 @@ different, possibly unknown, points in time." />
 
 
 
+
+
 <!-- mathjax -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script>
@@ -60,9 +62,15 @@ different, possibly unknown, points in time." />
 
 
 
+  
+
+  
+
   </head>
 
   <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -83,12 +91,6 @@ different, possibly unknown, points in time." />
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="../index.html">
-    <span class="fas fa fas fa-home fa-lg"></span>
-     
-  </a>
-</li>
-<li>
   <a href="../reference/index.html">Reference</a>
 </li>
 <li class="dropdown">
@@ -110,7 +112,7 @@ different, possibly unknown, points in time." />
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/cynkra/SwissCommunes/">
-    <span class="fab fa fab fa-github fa-lg"></span>
+    <span class="fab fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -195,7 +197,7 @@ to the second.  First, the most probable mutation number in the
 <span class='co'># Show mismatch of municipality IDs:</span>
 <span class='va'>ids_from</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>SwissPop</span>, <span class='va'>MunicipalityID</span><span class='op'>)</span>
 <span class='va'>ids_to</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>SwissBirths</span>, <span class='va'>MunicipalityID</span><span class='op'>)</span>
-<span class='fu'><a href='https://rdrr.io/pkg/generics/man/setops.html'>setdiff</a></span><span class='op'>(</span><span class='va'>ids_from</span>, <span class='va'>ids_to</span><span class='op'>)</span>
+<span class='fu'><a href='https://generics.r-lib.org/reference/setops.html'>setdiff</a></span><span class='op'>(</span><span class='va'>ids_from</span>, <span class='va'>ids_to</span><span class='op'>)</span>
 </div><div class='output co'>#&gt;   [1] "327"  "328"  "330"  "343"  "384"  "531"  "601"  "618"  "621"  "752" 
 #&gt;  [11] "753"  "851"  "854"  "862"  "864"  "882"  "887"  "926"  "933"  "974" 
 #&gt;  [21] "984"  "986"  "994"  "1027" "1028" "1029" "1034" "1035" "1036" "1038"
@@ -244,7 +246,7 @@ to the second.  First, the most probable mutation number in the
 #&gt; [451] "6460" "6501" "6502" "6503" "6505" "6506" "6507" "6508" "6509" "6510"
 #&gt; [461] "6746" "6747" "6749" "6752" "6755" "6756" "6772" "6777" "6779" "6780"
 #&gt; [471] "6786" "6788" "6791" "6794" "6795" "6796" "6797" "6798" "6799" "6801"
-#&gt; [481] "6802" "6804" "6805"</div><div class='input'><span class='fu'><a href='https://rdrr.io/pkg/generics/man/setops.html'>setdiff</a></span><span class='op'>(</span><span class='va'>ids_to</span>, <span class='va'>ids_from</span><span class='op'>)</span>
+#&gt; [481] "6802" "6804" "6805"</div><div class='input'><span class='fu'><a href='https://generics.r-lib.org/reference/setops.html'>setdiff</a></span><span class='op'>(</span><span class='va'>ids_to</span>, <span class='va'>ids_from</span><span class='op'>)</span>
 </div><div class='output co'>#&gt;  [1] "632"  "756"  "855"  "888"  "948"  "1151" "1630" "1631" "1632" "2050"
 #&gt; [11] "2051" "2052" "2114" "2115" "2116" "2162" "2233" "2234" "2235" "2337"
 #&gt; [21] "2338" "2503" "3340" "3358" "3359" "3378" "3617" "3671" "3713" "3792"
@@ -255,12 +257,12 @@ to the second.  First, the most probable mutation number in the
 #&gt; [71] "6809" "6810"</div><div class='input'>
 <span class='co'># Compute mapping and count non-matching municipality IDs:</span>
 <span class='va'>mapping</span> <span class='op'>&lt;-</span> <span class='fu'>swc_get_mapping</span><span class='op'>(</span>ids_from<span class='op'>=</span><span class='va'>ids_from</span>, ids_to<span class='op'>=</span><span class='va'>ids_to</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; 2020-10-30 04:12:51 INFO::meltMutations
-#&gt; 2020-10-30 04:12:52 INFO::meltMutations
-#&gt; 2020-10-30 04:12:52 INFO::computeMunList
-#&gt; 2020-10-30 04:12:52 INFO::meltMutations
-#&gt; 2020-10-30 04:12:52 INFO::meltMutations
-#&gt; 2020-10-30 04:12:52 INFO::computeMunList</div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>mapping</span><span class='op'>$</span><span class='va'>mIdAsNumber.from</span> <span class='op'>!=</span> <span class='va'>mapping</span><span class='op'>$</span><span class='va'>mIdAsNumber.to</span><span class='op'>)</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; 2021-03-19 05:23:39 INFO::meltMutations
+#&gt; 2021-03-19 05:23:39 INFO::meltMutations
+#&gt; 2021-03-19 05:23:39 INFO::computeMunList
+#&gt; 2021-03-19 05:23:39 INFO::meltMutations
+#&gt; 2021-03-19 05:23:39 INFO::meltMutations
+#&gt; 2021-03-19 05:23:39 INFO::computeMunList</div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>mapping</span><span class='op'>$</span><span class='va'>mIdAsNumber.from</span> <span class='op'>!=</span> <span class='va'>mapping</span><span class='op'>$</span><span class='va'>mIdAsNumber.to</span><span class='op'>)</span><span class='op'>)</span>
 </div><div class='output co'>#&gt; [1] NA</div><div class='input'>
 <span class='co'># Communes that are "missing" are mostly lakes and other special communes:</span>
 <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='va'>MatchType</span> <span class='op'>==</span> <span class='st'>"missing"</span><span class='op'>)</span><span class='op'>[</span>, <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"mIdAsNumber.from"</span>, <span class='st'>"mShortName.from"</span><span class='op'>)</span><span class='op'>]</span>
@@ -13592,7 +13594,7 @@ to the second.  First, the most probable mutation number in the
   <span class='va'>HouseholdSize</span>
   <span class='op'>)</span> <span class='op'>%&gt;%</span>
   <span class='fu'><a href='https://dplyr.tidyverse.org/reference/summarise.html'>summarize</a></span><span class='op'>(</span>Households <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>Households</span><span class='op'>)</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span class='message'>`summarise()` regrouping output by 'mId.to' (override with `.groups` argument)</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>SwissPopMapping.1970.agg</span>, <span class='fu'><a href='https://rdrr.io/r/base/stopifnot.html'>stopifnot</a></span><span class='op'>(</span>
+</div><div class='output co'>#&gt; <span class='message'>`summarise()` has grouped output by 'mId.to'. You can override using the `.groups` argument.</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>SwissPopMapping.1970.agg</span>, <span class='fu'><a href='https://rdrr.io/r/base/stopifnot.html'>stopifnot</a></span><span class='op'>(</span>
   <span class='fu'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/unique.html'>unique</a></span><span class='op'>(</span><span class='va'>mId.to</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>*</span> <span class='fu'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/levels.html'>levels</a></span><span class='op'>(</span><span class='va'>HouseholdSize</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>==</span>
     <span class='fu'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='op'>(</span><span class='va'>mId.to</span><span class='op'>)</span><span class='op'>)</span><span class='op'>)</span>
 
@@ -13603,7 +13605,7 @@ to the second.  First, the most probable mutation number in the
 
 <span class='co'># Some more communes are still missing from the 1970 statistics, although</span>
 <span class='co'># the matches are valid:</span>
-<span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='va'>mIdAsNumber.to</span> <span class='op'>%in%</span> <span class='fu'><a href='https://rdrr.io/pkg/generics/man/setops.html'>setdiff</a></span><span class='op'>(</span>
+<span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='va'>mIdAsNumber.to</span> <span class='op'>%in%</span> <span class='fu'><a href='https://generics.r-lib.org/reference/setops.html'>setdiff</a></span><span class='op'>(</span>
   <span class='va'>SwissPopMapping.1970.agg</span><span class='op'>$</span><span class='va'>mId.to</span>, <span class='va'>SwissBirths.1970</span><span class='op'>$</span><span class='va'>MunicipalityID</span><span class='op'>)</span><span class='op'>)</span><span class='op'>[</span>,
     <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"mId.from"</span>, <span class='st'>"mShortName.from"</span>, <span class='st'>"MatchType"</span><span class='op'>)</span><span class='op'>]</span>
 </div><div class='output co'>#&gt;      mId.from          mShortName.from MatchType
@@ -13623,12 +13625,12 @@ to the second.  First, the most probable mutation number in the
 #&gt; 1210      972                   Berken     valid</div><div class='input'>
 <span class='co'># The "from" list must be from an earlier time than the "to" list.</span>
 <span class='kw'><a href='https://rdrr.io/r/base/try.html'>try</a></span><span class='op'>(</span><span class='fu'>swc_get_mapping</span><span class='op'>(</span>ids_from<span class='op'>=</span><span class='va'>ids_to</span>, ids_to<span class='op'>=</span><span class='va'>ids_from</span><span class='op'>)</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; 2020-10-30 04:12:56 INFO::meltMutations
-#&gt; 2020-10-30 04:12:56 INFO::meltMutations
-#&gt; 2020-10-30 04:12:56 INFO::computeMunList
-#&gt; 2020-10-30 04:12:56 INFO::meltMutations
-#&gt; 2020-10-30 04:12:56 INFO::meltMutations
-#&gt; 2020-10-30 04:12:56 INFO::computeMunList
+</div><div class='output co'>#&gt; 2021-03-19 05:23:44 INFO::meltMutations
+#&gt; 2021-03-19 05:23:44 INFO::meltMutations
+#&gt; 2021-03-19 05:23:44 INFO::computeMunList
+#&gt; 2021-03-19 05:23:44 INFO::meltMutations
+#&gt; 2021-03-19 05:23:44 INFO::meltMutations
+#&gt; 2021-03-19 05:23:44 INFO::computeMunList
 #&gt; Error in getMunicipalityMappingWorker(mutations, hist.list.from, mid.from,  : 
 #&gt;   mid.from &lt;= mid.to is not TRUE</div></pre>
   </div>
@@ -13642,11 +13644,11 @@ to the second.  First, the most probable mutation number in the
 
       <footer>
       <div class="copyright">
-  <p>Developed by Kirill Müller.</p>
+  <p><p>Developed by Kirill Müller, Tobias Schieferdecker, Thomas Knecht.</p></p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
+  <p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 1.6.1.9000.</p></p>
 </div>
 
       </footer>
@@ -13654,6 +13656,8 @@ to the second.  First, the most probable mutation number in the
 
   
 
+
+  
 
   </body>
 </html>

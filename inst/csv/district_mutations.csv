@@ -1,0 +1,309 @@
+dHistId,cId,dId,dLongName,dShortName,dEntryMode,dAdmissionNumber,dAdmissionMode,dAdmissionDate,dAbolitionNumber,dAbolitionMode,dAbolitionDate,dDateOfChange
+10001,20,2001,Bezirk Arbon,Arbon,District,100,First-time registration,1960-01-01,153,Abolition,2010-12-31,2010-12-31
+10002,21,2106,Distretto di Mendrisio,Mendrisio,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10003,21,2105,Distretto di Lugano,Lugano,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10004,21,2104,Distretto di Locarno,Locarno,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10005,21,2103,Distretto di Leventina,Leventina,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10006,21,2102,Distretto di Blenio,Blenio,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10007,21,2101,Distretto di Bellinzona,Bellinzona,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10008,20,2008,Bezirk Weinfelden,Weinfelden,District,100,First-time registration,1960-01-01,153,Abolition,2010-12-31,2010-12-31
+10009,20,2007,Bezirk Steckborn,Steckborn,District,100,First-time registration,1960-01-01,153,Abolition,2010-12-31,2010-12-31
+10010,20,2006,Bezirk Münchwilen,Münchwilen,District,100,First-time registration,1960-01-01,153,Abolition,2010-12-31,2010-12-31
+10011,20,2005,Bezirk Kreuzlingen,Kreuzlingen,District,100,First-time registration,1960-01-01,153,Abolition,2010-12-31,2010-12-31
+10012,20,2004,Bezirk Frauenfeld,Frauenfeld,District,100,First-time registration,1960-01-01,153,Abolition,2010-12-31,2010-12-31
+10013,23,2308,District de Monthey,Monthey,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10014,20,2002,Bezirk Bischofszell,Bischofszell,District,100,First-time registration,1960-01-01,153,Abolition,2010-12-31,2010-12-31
+10015,22,2201,District d'Aigle,Aigle,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10016,19,1911,Bezirk Zurzach,Zurzach,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10017,19,1910,Bezirk Zofingen,Zofingen,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10018,19,1909,Bezirk Rheinfelden,Rheinfelden,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10019,19,1908,Bezirk Muri,Muri,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10020,19,1907,Bezirk Lenzburg,Lenzburg,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10021,19,1906,Bezirk Laufenburg,Laufenburg,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10022,19,1905,Bezirk Kulm,Kulm,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10023,19,1904,Bezirk Brugg,Brugg,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10024,19,1903,Bezirk Bremgarten,Bremgarten,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10025,19,1902,Bezirk Baden,Baden,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10026,19,1901,Bezirk Aarau,Aarau,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10027,20,2003,Bezirk Diessenhofen,Diessenhofen,District,100,First-time registration,1960-01-01,153,Abolition,2010-12-31,2010-12-31
+10028,22,2213,District d'Oron,Oron,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10029,23,2307,District de Martigny,Martigny,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10030,23,2306,Bezirk Leuk,Leuk,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10031,23,2305,District d'Hérens,Hérens,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10032,23,2304,Bezirk Goms,Goms,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10033,23,2303,District d'Entremont,Entremont,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10034,23,2302,District de Conthey,Conthey,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10035,23,2301,Bezirk Brig,Brig,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10036,22,2219,District d'Yverdon,Yverdon,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10037,22,2218,District de Vevey,Vevey,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10038,22,2217,District de la Vallée,La Vallée,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10039,22,2216,District de Rolle,Rolle,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10040,21,2107,Distretto di Riviera,Riviera,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10041,22,2214,District de Payerne,Payerne,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10042,21,2108,Distretto di Vallemaggia,Vallemaggia,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10043,22,2212,District d'Orbe,Orbe,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10044,22,2211,District de Nyon,Nyon,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10045,22,2210,District de Moudon,Moudon,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10046,22,2209,District de Morges,Morges,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10047,22,2208,District de Lavaux,Lavaux,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10048,22,2207,District de Lausanne,Lausanne,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10049,22,2206,District de Grandson,Grandson,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10050,22,2205,District d'Echallens,Echallens,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10051,11,1106,Bezirk Kriegstetten,Kriegstetten,District,100,First-time registration,1960-01-01,127,Change of name (d),1990-12-31,1990-12-31
+10052,22,2203,District d'Avenches,Avenches,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10053,1,101,Bezirk Affoltern,Affoltern,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10054,15,1501,Bezirk Hinterland,Hinterland,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10055,22,2215,District du Pays-d'Enhaut,Pays-d'Enhaut,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10056,2,204,Amtsbezirk Biel,Biel,District,100,First-time registration,1960-01-01,152,Abolition,2009-12-31,2009-12-31
+10057,15,1503,Bezirk Vorderland,Vorderland,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10058,5,503,Bezirk Höfe,Höfe,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10059,5,502,Bezirk Gersau,Gersau,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10060,5,501,Bezirk Einsiedeln,Einsiedeln,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10061,4,400,Kanton Uri,Kt. Uri,Canton,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10062,3,305,Amt Willisau,Willisau,District,100,First-time registration,1960-01-01,154,Abolition,2012-12-31,2012-12-31
+10063,3,304,Amt Sursee,Sursee,District,100,First-time registration,1960-01-01,154,Abolition,2012-12-31,2012-12-31
+10064,3,303,Amt Luzern,Luzern,District,100,First-time registration,1960-01-01,154,Abolition,2012-12-31,2012-12-31
+10065,3,302,Amt Hochdorf,Hochdorf,District,100,First-time registration,1960-01-01,154,Abolition,2012-12-31,2012-12-31
+10066,3,301,Amt Entlebuch,Entlebuch,District,100,First-time registration,1960-01-01,154,Abolition,2012-12-31,2012-12-31
+10067,2,207,District de Courtelary,Courtelary,District,100,First-time registration,1960-01-01,152,Abolition,2009-12-31,2009-12-31
+10068,5,506,Bezirk Schwyz,Schwyz,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10069,2,205,Amtsbezirk Büren,Büren,District,100,First-time registration,1960-01-01,152,Abolition,2009-12-31,2009-12-31
+10070,6,600,Kanton Obwalden,Kt. Obwalden,Canton,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10071,2,203,Amtsbezirk Bern,Bern,District,100,First-time registration,1960-01-01,152,Abolition,2009-12-31,2009-12-31
+10072,2,202,Amtsbezirk Aarwangen,Aarwangen,District,100,First-time registration,1960-01-01,152,Abolition,2009-12-31,2009-12-31
+10073,2,201,Amtsbezirk Aarberg,Aarberg,District,100,First-time registration,1960-01-01,152,Abolition,2009-12-31,2009-12-31
+10074,1,110,Bezirk Winterthur,Winterthur,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10075,1,109,Bezirk Uster,Uster,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10076,1,108,Bezirk Pfäffikon,Pfäffikon,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10077,1,107,Bezirk Meilen,Meilen,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10078,1,106,Bezirk Horgen,Horgen,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10079,1,105,Bezirk Hinwil,Hinwil,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10080,1,104,Bezirk Dielsdorf,Dielsdorf,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10081,1,103,Bezirk Bülach,Bülach,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10082,1,102,Bezirk Andelfingen,Andelfingen,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10083,2,206,Amtsbezirk Burgdorf,Burgdorf,District,100,First-time registration,1960-01-01,152,Abolition,2009-12-31,2009-12-31
+10084,11,1105,Bezirk Gösgen,Gösgen,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10085,22,2204,District de Cossonay,Cossonay,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10086,14,1406,Bezirk Unterklettgau,Unterklettgau,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10087,14,1405,Bezirk Stein,Stein,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10088,14,1404,Bezirk Schleitheim,Schleitheim,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10089,14,1403,Bezirk Schaffhausen,Schaffhausen,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10090,14,1402,Bezirk Reiat,Reiat,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10091,14,1401,Bezirk Oberklettgau,Oberklettgau,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10092,13,1301,Bezirk Arlesheim,Arlesheim,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10093,12,1200,Kanton Basel-Stadt,Kt. Basel-Stadt,Canton,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10094,11,1110,Bezirk Thierstein,Thierstein,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10095,11,1109,Bezirk Solothurn,Solothurn,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10096,5,505,Bezirk March,March,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10097,11,1107,Bezirk Lebern,Lebern,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10098,15,1502,Bezirk Mittelland,Mittelland,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10099,11,1104,Bezirk Dorneck,Dorneck,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10100,11,1103,Bezirk Bucheggberg,Bucheggberg,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10101,10,1007,District de la Veveyse,La Veveyse,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10102,10,1006,Bezirk Sense,Sense,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10103,10,1005,Bezirk See / District du Lac,See / Lac,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10104,10,1004,District de la Sarine,La Sarine,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10105,10,1003,District de la Gruyère,La Gruyère,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10106,10,1002,District de la Glâne,La Glâne,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10107,10,1001,District de la Broye,La Broye,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10108,9,900,Kanton Zug,Kt. Zug,Canton,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10109,8,800,Kanton Glarus,Kt. Glarus,Canton,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10110,7,700,Kanton Nidwalden,Kt. Nidwalden,Canton,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10111,11,1108,Bezirk Olten,Olten,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10112,21,2100,Territorio senza distretto Ticino,Territ. senza distr. TI,Area not allocated to distr.,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10113,5,500,Bezirksfreies Gebiet Schwyz,Bezirksfreies Gebiet SZ,Area not allocated to distr.,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10114,2,214,Amtsbezirk Konolfingen,Konolfingen,District,100,First-time registration,1960-01-01,108,Formal renumbering,1978-12-31,1978-12-31
+10115,2,213,Amtsbezirk Interlaken,Interlaken,District,100,First-time registration,1960-01-01,107,Formal renumbering,1978-12-31,1978-12-31
+10116,2,212,Amtsbezirk Frutigen,Frutigen,District,100,First-time registration,1960-01-01,106,Formal renumbering,1978-12-31,1978-12-31
+10117,2,211,Amtsbezirk Fraubrunnen,Fraubrunnen,District,100,First-time registration,1960-01-01,105,Formal renumbering,1978-12-31,1978-12-31
+10118,2,209,Amtsbezirk Erlach,Erlach,District,100,First-time registration,1960-01-01,104,Formal renumbering,1978-12-31,1978-12-31
+10119,1,111,Bezirk Zürich,Zürich,District,100,First-time registration,1960-01-01,124,Abolition,1989-12-31,1989-12-31
+10121,24,2400,Région sans district Neuchâtel,Région sans district NE,Area not allocated to distr.,100,First-time registration,1960-01-01,156,Change of name (d),2017-12-31,2017-12-31
+10122,2,217,District de Moutier,Moutier,District,100,First-time registration,1960-01-01,123,Formal renumbering,1978-12-31,1978-12-31
+10123,22,2202,District d'Aubonne,Aubonne,District,100,First-time registration,1960-01-01,151,Abolition,2006-08-31,2006-08-31
+10124,2,218,District de la Neuveville,La Neuveville,District,100,First-time registration,1960-01-01,122,Formal renumbering,1978-12-31,1978-12-31
+10125,23,2309,Bezirk Raron,Raron,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10126,19,1900,Bezirksfreies Gebiet Aargau,Bezirksfreies Gebiet AG,Area not allocated to distr.,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10127,17,1700,Bezirksfreies Gebiet St. Gallen,Bezirksfreies Gebiet SG,Area not allocated to distr.,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10128,14,1400,Bezirksfreies Gebiet Schaffhausen,Bezirksfreies Gebiet SH,Area not allocated to distr.,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10129,10,1000,Région sans district Fribourg / Freiburg,Région sans district FR,Area not allocated to distr.,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10134,3,300,Bezirksfreies Gebiet Luzern,Bezirksfreies Gebiet LU,Area not allocated to distr.,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10135,23,2300,Région sans district Valais / Wallis,Région sans district VS,Area not allocated to distr.,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10136,2,230,Amtsbezirk Wangen,Wangen,District,100,First-time registration,1960-01-01,121,Formal renumbering,1978-12-31,1978-12-31
+10137,11,1102,Bezirk Balsthal-Tal,Balsthal-Tal,District,100,First-time registration,1960-01-01,126,Change of name (d),1990-12-31,1990-12-31
+10138,11,1101,Bezirk Balsthal-Gäu,Balsthal-Gäu,District,100,First-time registration,1960-01-01,125,Change of name (d),1990-12-31,1990-12-31
+10139,18,1810,Bezirk Münstertal,Münstertal,District,100,First-time registration,1960-01-01,128,Change of name (d),1991-12-31,1991-12-31
+10140,5,504,Bezirk Küssnacht,Küssnacht,District,100,First-time registration,1960-01-01,150,Change of name (d),2003-12-31,2003-12-31
+10141,13,1304,Bezirk Waldenburg,Waldenburg,District,100,First-time registration,1960-01-01,131,Formal renumbering,1993-12-31,1993-12-31
+10142,13,1303,Bezirk Sissach,Sissach,District,100,First-time registration,1960-01-01,130,Formal renumbering,1993-12-31,1993-12-31
+10143,13,1302,Bezirk Liestal,Liestal,District,100,First-time registration,1960-01-01,129,Formal renumbering,1993-12-31,1993-12-31
+10144,2,215,Amtsbezirk Laufen,Laufen,District,100,First-time registration,1960-01-01,109,Formal renumbering,1978-12-31,1978-12-31
+10145,2,208,District de Delémont,Delémont,District,100,First-time registration,1960-01-01,101,Reassignment to other d/c,1978-12-31,1978-12-31
+10146,2,216,Amtsbezirk Laupen,Laupen,District,100,First-time registration,1960-01-01,110,Formal renumbering,1978-12-31,1978-12-31
+10147,2,223,District de Porrentruy,Porrentruy,District,100,First-time registration,1960-01-01,103,Reassignment to other d/c,1978-12-31,1978-12-31
+10148,20,2000,Bezirksfreies Gebiet Thurgau,Bezirksfreies Gebiet TG,Area not allocated to distr.,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10149,2,229,Amtsbezirk Trachselwald,Trachselwald,District,100,First-time registration,1960-01-01,120,Formal renumbering,1978-12-31,1978-12-31
+10150,2,228,Amtsbezirk Thun,Thun,District,100,First-time registration,1960-01-01,119,Formal renumbering,1978-12-31,1978-12-31
+10151,2,227,Amtsbezirk Signau,Signau,District,100,First-time registration,1960-01-01,118,Formal renumbering,1978-12-31,1978-12-31
+10152,2,226,Amtsbezirk Seftigen,Seftigen,District,100,First-time registration,1960-01-01,117,Formal renumbering,1978-12-31,1978-12-31
+10153,2,225,Amtsbezirk Schwarzenburg,Schwarzenburg,District,100,First-time registration,1960-01-01,116,Formal renumbering,1978-12-31,1978-12-31
+10154,2,224,Amtsbezirk Saanen,Saanen,District,100,First-time registration,1960-01-01,115,Formal renumbering,1978-12-31,1978-12-31
+10155,2,222,Amtsbezirk Obersimmental,Obersimmental,District,100,First-time registration,1960-01-01,114,Formal renumbering,1978-12-31,1978-12-31
+10156,2,221,Amtsbezirk Oberhasli,Oberhasli,District,100,First-time registration,1960-01-01,113,Formal renumbering,1978-12-31,1978-12-31
+10157,2,220,Amtsbezirk Niedersimmental,Niedersimmental,District,100,First-time registration,1960-01-01,112,Formal renumbering,1978-12-31,1978-12-31
+10158,2,219,Amtsbezirk Nidau,Nidau,District,100,First-time registration,1960-01-01,111,Formal renumbering,1978-12-31,1978-12-31
+10159,2,210,District des Franches-Montagnes,Les Franches-Montagnes,District,100,First-time registration,1960-01-01,102,Reassignment to other d/c,1978-12-31,1978-12-31
+10160,18,1813,Bezirk Unterlandquart,Unterlandquart,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10161,17,1706,Bezirk Sargans,Sargans,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10162,18,1806,Bezirk Imboden,Imboden,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10163,18,1807,Bezirk Inn,Inn,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10164,18,1808,Bezirk Maloja / Distretto di Maloggia,Maloja / Maloggia,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10165,18,1809,Distretto di Moësa,Moësa,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10166,18,1804,Bezirk Heinzenberg,Heinzenberg,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10167,18,1812,Bezirk Plessur,Plessur,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10168,22,2200,Région sans district Vaud,Région sans district VD,Area not allocated to distr.,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10169,18,1814,Bezirk Vorderrhein,Vorderrhein,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10170,17,1701,Bezirk St. Gallen,St. Gallen,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10171,17,1702,Bezirk Rorschach,Rorschach,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10172,17,1703,Bezirk Unterrheintal,Unterrheintal,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10173,17,1704,Bezirk Oberrheintal,Oberrheintal,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10174,17,1705,Bezirk Werdenberg,Werdenberg,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10175,18,1811,Bezirk Oberlandquart,Oberlandquart,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10176,24,2404,District de Neuchâtel,Neuchâtel,District,100,First-time registration,1960-01-01,157,Abolition,2017-12-31,2017-12-31
+10177,23,2310,District de Saint-Maurice,Saint-Maurice,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10178,23,2311,District de Sierre,Sierre,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10179,23,2312,District de Sion,Sion,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10180,23,2313,Bezirk Visp,Visp,District,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10181,24,2401,District de Boudry,Boudry,District,100,First-time registration,1960-01-01,157,Abolition,2017-12-31,2017-12-31
+10183,24,2403,District du Locle,Le Locle,District,100,First-time registration,1960-01-01,157,Abolition,2017-12-31,2017-12-31
+10184,18,1805,Bezirk Hinterrhein,Hinterrhein,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10185,24,2405,District du Val-de-Ruz,Val-de-Ruz,District,100,First-time registration,1960-01-01,157,Abolition,2017-12-31,2017-12-31
+10186,24,2406,District du Val-de-Travers,Val-de-Travers,District,100,First-time registration,1960-01-01,157,Abolition,2017-12-31,2017-12-31
+10187,25,2500,Canton de Genève,Cant. de Genève,Canton,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10189,18,1801,Bezirk Albula,Albula,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10190,18,1802,Distretto di Bernina,Bernina,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10191,24,2402,District de la Chaux-de-Fonds,La Chaux-de-Fonds,District,100,First-time registration,1960-01-01,157,Abolition,2017-12-31,2017-12-31
+10192,17,1712,Bezirk Untertoggenburg,Untertoggenburg,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10193,18,1803,Bezirk Glenner,Glenner,District,100,First-time registration,1960-01-01,148,Abolition,2000-12-31,2000-12-31
+10194,17,1707,Bezirk Gaster,Gaster,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10195,17,1714,Bezirk Gossau,Gossau,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10196,17,1711,Bezirk Alttoggenburg,Alttoggenburg,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10197,16,1601,Innerer Landesteil,Innerer Landesteil,District,100,First-time registration,1960-01-01,147,Abolition,1996-12-31,1996-12-31
+10198,16,1602,Aeusserer Landesteil,Aeusserer Landesteil,District,100,First-time registration,1960-01-01,147,Abolition,1996-12-31,1996-12-31
+10199,1,100,Bezirksfreies Gebiet Zürich,Bezirksfreies Gebiet ZH,Area not allocated to distr.,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10200,2,200,Bezirksfreies Gebiet Bern / Berne,Bezirksfreies Gebiet BE,Area not allocated to distr.,100,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10201,17,1710,Bezirk Neutoggenburg,Neutoggenburg,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10202,17,1709,Bezirk Obertoggenburg,Obertoggenburg,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10203,17,1708,Bezirk See,See,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10204,17,1713,Bezirk Wil,Wil,District,100,First-time registration,1960-01-01,149,Abolition,2002-12-31,2002-12-31
+10205,2,225,Amtsbezirk Thun,Thun,District,119,Formal renumbering,1979-01-01,142,Formal renumbering,1993-12-31,1993-12-31
+10206,2,223,Amtsbezirk Seftigen,Seftigen,District,117,Formal renumbering,1979-01-01,140,Formal renumbering,1993-12-31,1993-12-31
+10207,2,215,District de Moutier,Moutier,District,123,Formal renumbering,1979-01-01,146,Formal renumbering,1993-12-31,1993-12-31
+10208,2,216,District de la Neuveville,La Neuveville,District,122,Formal renumbering,1979-01-01,145,Formal renumbering,1993-12-31,1993-12-31
+10209,2,217,Amtsbezirk Nidau,Nidau,District,111,Formal renumbering,1979-01-01,134,Formal renumbering,1993-12-31,1993-12-31
+10210,2,218,Amtsbezirk Niedersimmental,Niedersimmental,District,112,Formal renumbering,1979-01-01,135,Formal renumbering,1993-12-31,1993-12-31
+10211,2,219,Amtsbezirk Oberhasli,Oberhasli,District,113,Formal renumbering,1979-01-01,136,Formal renumbering,1993-12-31,1993-12-31
+10212,2,221,Amtsbezirk Saanen,Saanen,District,115,Formal renumbering,1979-01-01,138,Formal renumbering,1993-12-31,1993-12-31
+10213,2,212,Amtsbezirk Konolfingen,Konolfingen,District,108,Formal renumbering,1979-01-01,152,Abolition,2009-12-31,2009-12-31
+10214,2,211,Amtsbezirk Interlaken,Interlaken,District,107,Formal renumbering,1979-01-01,152,Abolition,2009-12-31,2009-12-31
+10215,2,210,Amtsbezirk Frutigen,Frutigen,District,106,Formal renumbering,1979-01-01,152,Abolition,2009-12-31,2009-12-31
+10216,2,209,Amtsbezirk Fraubrunnen,Fraubrunnen,District,105,Formal renumbering,1979-01-01,152,Abolition,2009-12-31,2009-12-31
+10217,2,214,Amtsbezirk Laupen,Laupen,District,110,Formal renumbering,1979-01-01,133,Formal renumbering,1993-12-31,1993-12-31
+10218,2,224,Amtsbezirk Signau,Signau,District,118,Formal renumbering,1979-01-01,141,Formal renumbering,1993-12-31,1993-12-31
+10219,2,220,Amtsbezirk Obersimmental,Obersimmental,District,114,Formal renumbering,1979-01-01,137,Formal renumbering,1993-12-31,1993-12-31
+10220,2,226,Amtsbezirk Trachselwald,Trachselwald,District,120,Formal renumbering,1979-01-01,143,Formal renumbering,1993-12-31,1993-12-31
+10221,2,227,Amtsbezirk Wangen,Wangen,District,121,Formal renumbering,1979-01-01,144,Formal renumbering,1993-12-31,1993-12-31
+10222,2,213,Amtsbezirk Laufen,Laufen,District,109,Formal renumbering,1979-01-01,132,Reassignment to other d/c,1993-12-31,1993-12-31
+10223,2,208,Amtsbezirk Erlach,Erlach,District,104,Formal renumbering,1979-01-01,152,Abolition,2009-12-31,2009-12-31
+10224,26,2601,District de Delémont,Delémont,District,101,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
+10225,26,2602,District des Franches-Montagnes,Les Franches-Montagnes,District,102,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
+10226,26,2603,District de Porrentruy,Porrentruy,District,103,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
+10227,2,222,Amtsbezirk Schwarzenburg,Schwarzenburg,District,116,Formal renumbering,1979-01-01,139,Formal renumbering,1993-12-31,1993-12-31
+10228,1,112,Bezirk Zürich,Zürich,District,124,Creation,1990-01-01,NA,NA,NA,1990-01-01
+10229,1,111,Bezirk Dietikon,Dietikon,District,124,Creation,1990-01-01,NA,NA,NA,1990-01-01
+10230,11,1101,Bezirk Gäu,Gäu,District,125,Change of name (d),1991-01-01,NA,NA,NA,1991-01-01
+10231,11,1102,Bezirk Thal,Thal,District,126,Change of name (d),1991-01-01,NA,NA,NA,1991-01-01
+10232,11,1106,Bezirk Wasseramt,Wasseramt,District,127,Change of name (d),1991-01-01,NA,NA,NA,1991-01-01
+10233,18,1810,Bezirk Val Müstair,Val Müstair,District,128,Change of name (d),1992-01-01,148,Abolition,2000-12-31,2000-12-31
+10234,2,214,District de Moutier,Moutier,District,146,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10235,2,217,Amtsbezirk Niedersimmental,Niedersimmental,District,135,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10236,13,1302,Bezirk Laufen,Laufen,District,132,Reassignment to other d/c,1994-01-01,NA,NA,NA,1994-01-01
+10237,13,1303,Bezirk Liestal,Liestal,District,129,Formal renumbering,1994-01-01,NA,NA,NA,1994-01-01
+10238,13,1304,Bezirk Sissach,Sissach,District,130,Formal renumbering,1994-01-01,NA,NA,NA,1994-01-01
+10239,2,213,Amtsbezirk Laupen,Laupen,District,133,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10240,13,1305,Bezirk Waldenburg,Waldenburg,District,131,Formal renumbering,1994-01-01,NA,NA,NA,1994-01-01
+10241,2,215,District de la Neuveville,La Neuveville,District,145,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10242,2,216,Amtsbezirk Nidau,Nidau,District,134,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10243,2,225,Amtsbezirk Trachselwald,Trachselwald,District,143,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10244,2,218,Amtsbezirk Oberhasli,Oberhasli,District,136,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10245,2,226,Amtsbezirk Wangen,Wangen,District,144,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10246,2,224,Amtsbezirk Thun,Thun,District,142,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10247,2,223,Amtsbezirk Signau,Signau,District,141,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10248,2,222,Amtsbezirk Seftigen,Seftigen,District,140,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10249,2,221,Amtsbezirk Schwarzenburg,Schwarzenburg,District,139,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10250,2,220,Amtsbezirk Saanen,Saanen,District,138,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10251,2,219,Amtsbezirk Obersimmental,Obersimmental,District,137,Formal renumbering,1994-01-01,152,Abolition,2009-12-31,2009-12-31
+10252,16,1600,Kanton Appenzell Innerrhoden,Kt. Appenzell i.Rh.,Canton,147,Creation,1997-01-01,NA,NA,NA,1997-01-01
+10253,18,1826,Bezirk Landquart,Landquart,District,148,Creation,2001-01-01,155,Abolition,2016-12-31,2016-12-31
+10254,18,1827,Bezirk Maloja / Distretto di Maloggia,Maloja / Maloggia,District,148,Creation,2001-01-01,155,Abolition,2016-12-31,2016-12-31
+10255,18,1822,Distretto di Bernina,Bernina,District,148,Creation,2001-01-01,155,Abolition,2016-12-31,2016-12-31
+10256,18,1824,Bezirk Imboden,Imboden,District,148,Creation,2001-01-01,155,Abolition,2016-12-31,2016-12-31
+10257,18,1831,Bezirk Surselva,Surselva,District,148,Creation,2001-01-01,155,Abolition,2016-12-31,2016-12-31
+10258,18,1830,Bezirk Prättigau-Davos,Prättigau-Davos,District,148,Creation,2001-01-01,155,Abolition,2016-12-31,2016-12-31
+10259,18,1823,Bezirk Hinterrhein,Hinterrhein,District,148,Creation,2001-01-01,155,Abolition,2016-12-31,2016-12-31
+10260,18,1825,Bezirk Inn,Inn,District,148,Creation,2001-01-01,155,Abolition,2016-12-31,2016-12-31
+10261,18,1829,Bezirk Plessur,Plessur,District,148,Creation,2001-01-01,155,Abolition,2016-12-31,2016-12-31
+10262,18,1828,Distretto di Moesa,Moesa,District,148,Creation,2001-01-01,155,Abolition,2016-12-31,2016-12-31
+10263,18,1821,Bezirk Albula,Albula,District,148,Creation,2001-01-01,155,Abolition,2016-12-31,2016-12-31
+10264,17,1727,Wahlkreis Toggenburg,Toggenburg,District,149,Creation,2003-01-01,NA,NA,NA,2003-01-01
+10265,17,1722,Wahlkreis Rorschach,Rorschach,District,149,Creation,2003-01-01,NA,NA,NA,2003-01-01
+10266,17,1721,Wahlkreis St. Gallen,St. Gallen,District,149,Creation,2003-01-01,NA,NA,NA,2003-01-01
+10267,17,1724,Wahlkreis Werdenberg,Werdenberg,District,149,Creation,2003-01-01,NA,NA,NA,2003-01-01
+10268,17,1728,Wahlkreis Wil,Wil,District,149,Creation,2003-01-01,NA,NA,NA,2003-01-01
+10269,17,1725,Wahlkreis Sarganserland,Sarganserland,District,149,Creation,2003-01-01,NA,NA,NA,2003-01-01
+10270,17,1726,Wahlkreis See-Gaster,See-Gaster,District,149,Creation,2003-01-01,NA,NA,NA,2003-01-01
+10271,17,1723,Wahlkreis Rheintal,Rheintal,District,149,Creation,2003-01-01,NA,NA,NA,2003-01-01
+10272,5,504,Bezirk Küssnacht (SZ),Küssnacht (SZ),District,150,Change of name (d),2004-01-01,NA,NA,NA,2004-01-01
+10273,22,2221,District d'Aigle,Aigle,District,151,Creation,2006-09-01,NA,NA,NA,2006-09-01
+10274,22,2222,District de la Broye-Vully,Broye-Vully,District,151,Creation,2006-09-01,NA,NA,NA,2006-09-01
+10275,22,2223,District du Gros-de-Vaud,Gros-de-Vaud,District,151,Creation,2006-09-01,NA,NA,NA,2006-09-01
+10276,22,2224,District du Jura-Nord vaudois,Jura-Nord vaudois,District,151,Creation,2006-09-01,NA,NA,NA,2006-09-01
+10277,22,2225,District de Lausanne,Lausanne,District,151,Creation,2006-09-01,NA,NA,NA,2006-09-01
+10278,22,2226,District de Lavaux-Oron,Lavaux-Oron,District,151,Creation,2006-09-01,NA,NA,NA,2006-09-01
+10279,22,2227,District de Morges,Morges,District,151,Creation,2006-09-01,NA,NA,NA,2006-09-01
+10280,22,2228,District de Nyon,Nyon,District,151,Creation,2006-09-01,NA,NA,NA,2006-09-01
+10281,22,2229,District de l'Ouest lausannois,Ouest lausannois,District,151,Creation,2006-09-01,NA,NA,NA,2006-09-01
+10282,22,2230,District de la Riviera-Pays-d'Enhaut,Riviera-Pays-d'Enhaut,District,151,Creation,2006-09-01,NA,NA,NA,2006-09-01
+10283,2,241,Arrondissement administratif Jura bernois,Jura bernois,District,152,Creation,2010-01-01,NA,NA,NA,2010-01-01
+10284,2,242,Verwaltungskreis Biel/Bienne,Biel/Bienne,District,152,Creation,2010-01-01,NA,NA,NA,2010-01-01
+10285,2,243,Verwaltungskreis Seeland,Seeland,District,152,Creation,2010-01-01,NA,NA,NA,2010-01-01
+10286,2,244,Verwaltungskreis Oberaargau,Oberaargau,District,152,Creation,2010-01-01,NA,NA,NA,2010-01-01
+10287,2,245,Verwaltungskreis Emmental,Emmental,District,152,Creation,2010-01-01,NA,NA,NA,2010-01-01
+10288,2,246,Verwaltungskreis Bern-Mittelland,Bern-Mittelland,District,152,Creation,2010-01-01,NA,NA,NA,2010-01-01
+10289,2,247,Verwaltungskreis Thun,Thun,District,152,Creation,2010-01-01,NA,NA,NA,2010-01-01
+10290,2,248,Verwaltungskreis Obersimmental-Saanen,Obersimmental-Saanen,District,152,Creation,2010-01-01,NA,NA,NA,2010-01-01
+10291,2,249,Verwaltungskreis Frutigen-Niedersimmental,Frutigen-Niedersimmental,District,152,Creation,2010-01-01,NA,NA,NA,2010-01-01
+10292,2,250,Verwaltungskreis Interlaken-Oberhasli,Interlaken-Oberhasli,District,152,Creation,2010-01-01,NA,NA,NA,2010-01-01
+10293,20,2011,Bezirk Arbon,Arbon,District,153,Creation,2011-01-01,NA,NA,NA,2011-01-01
+10294,20,2012,Bezirk Frauenfeld,Frauenfeld,District,153,Creation,2011-01-01,NA,NA,NA,2011-01-01
+10295,20,2013,Bezirk Kreuzlingen,Kreuzlingen,District,153,Creation,2011-01-01,NA,NA,NA,2011-01-01
+10296,20,2014,Bezirk Münchwilen,Münchwilen,District,153,Creation,2011-01-01,NA,NA,NA,2011-01-01
+10297,20,2015,Bezirk Weinfelden,Weinfelden,District,153,Creation,2011-01-01,NA,NA,NA,2011-01-01
+10298,3,311,Wahlkreis Luzern-Stadt,Luzern-Stadt,District,154,Creation,2013-01-01,NA,NA,NA,2013-01-01
+10299,3,312,Wahlkreis Luzern-Land,Luzern-Land,District,154,Creation,2013-01-01,NA,NA,NA,2013-01-01
+10300,3,313,Wahlkreis Hochdorf,Hochdorf,District,154,Creation,2013-01-01,NA,NA,NA,2013-01-01
+10301,3,314,Wahlkreis Sursee,Sursee,District,154,Creation,2013-01-01,NA,NA,NA,2013-01-01
+10302,3,315,Wahlkreis Willisau,Willisau,District,154,Creation,2013-01-01,NA,NA,NA,2013-01-01
+10303,3,316,Wahlkreis Entlebuch,Entlebuch,District,154,Creation,2013-01-01,NA,NA,NA,2013-01-01
+10307,18,1841,Region Albula,Albula,District,155,Creation,2017-01-01,NA,NA,NA,2017-01-01
+10308,18,1842,Region Bernina,Bernina,District,155,Creation,2017-01-01,NA,NA,NA,2017-01-01
+10310,18,1844,Region Imboden,Imboden,District,155,Creation,2017-01-01,NA,NA,NA,2017-01-01
+10311,18,1845,Region Landquart,Landquart,District,155,Creation,2017-01-01,NA,NA,NA,2017-01-01
+10312,18,1846,Region Maloja,Maloja,District,155,Creation,2017-01-01,NA,NA,NA,2017-01-01
+10313,18,1847,Region Moesa,Moesa,District,155,Creation,2017-01-01,NA,NA,NA,2017-01-01
+10314,18,1848,Region Plessur,Plessur,District,155,Creation,2017-01-01,NA,NA,NA,2017-01-01
+10315,18,1849,Region Prättigau / Davos,Prättigau / Davos,District,155,Creation,2017-01-01,NA,NA,NA,2017-01-01
+10316,18,1850,Region Surselva,Surselva,District,155,Creation,2017-01-01,NA,NA,NA,2017-01-01
+10317,18,1851,Region Viamala,Viamala,District,155,Creation,2017-01-01,NA,NA,NA,2017-01-01
+10318,18,1843,Region Engiadina Bassa / Val Müstair,Engiadina B./Val Müstair,District,155,Creation,2017-01-01,NA,NA,NA,2017-01-01
+10320,24,2400,Canton de Neuchâtel,Cant. de Neuchâtel,Canton,156,Change of name (d),2018-01-01,NA,NA,NA,2018-01-01

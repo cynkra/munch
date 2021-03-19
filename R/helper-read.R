@@ -117,13 +117,14 @@ swc_read_data <- function() {
 overwrite_data <- function() {
   data <- swc_read_data()
 
-  cantons <- data$canton
-  district_mutations <- data$district
-  municipality_mutations <- data$municipality
-
-  usethis::use_data(cantons, district_mutations, municipality_mutations, overwrite = TRUE)
+  readr::write_csv(data$canton, csv_file("canton"))
+  readr::write_csv(data$district, csv_file("district_mutations"))
+  readr::write_csv(data$municipality, csv_file("municipality_mutations"))
 }
 
+csv_file <- function(name) {
+  system.file("csv", paste0(name, ".csv"), package = "SwissCommunes")
+}
 
 #' check if new data is identical to old data
 #'

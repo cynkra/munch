@@ -430,9 +430,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 869,Kaufdorf,869,Kaufdorf
 870,Kehrsatz,870,Kehrsatz
 872,Kirchdorf (BE),872,Kirchdorf (BE)
-873,Kirchenthurnen,873,Kirchenthurnen
-874,Lohnstorf,874,Lohnstorf
-876,Mühlethurnen,876,Mühlethurnen
 877,Niedermuhlern,877,Niedermuhlern
 879,Riggisberg,879,Riggisberg
 880,Rüeggisberg,880,Rüeggisberg
@@ -442,6 +439,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 885,Uttigen,885,Uttigen
 886,Wattenwil,886,Wattenwil
 888,Wald (BE),888,Wald (BE)
+889,Thurnen,889,Thurnen
 901,Eggiwil,901,Eggiwil
 902,Langnau im Emmental,902,Langnau im Emmental
 903,Lauperswil,903,Lauperswil
@@ -464,7 +462,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 934,Oberhofen am Thunersee,934,Oberhofen am Thunersee
 935,Oberlangenegg,935,Oberlangenegg
 936,Pohlern,936,Pohlern
-937,Schwendibach,937,Schwendibach
 938,Sigriswil,938,Sigriswil
 939,Steffisburg,939,Steffisburg
 940,Teuffenthal (BE),940,Teuffenthal (BE)
@@ -506,7 +503,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 992,Wangen an der Aare,992,Wangen an der Aare
 993,Wangenried,993,Wangenried
 995,Wiedlisbach,995,Wiedlisbach
-996,Wolfisberg,996,Wolfisberg
 1001,Doppleschwand,1001,Doppleschwand
 1002,Entlebuch,1002,Entlebuch
 1004,Flühli,1004,Flühli
@@ -571,7 +567,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 1122,Altbüron,1122,Altbüron
 1123,Altishofen,1123,Altishofen
 1125,Dagmersellen,1125,Dagmersellen
-1126,Ebersecken,1126,Ebersecken
 1127,Egolzwil,1127,Egolzwil
 1128,Ettiswil,1128,Ettiswil
 1129,Fischbach,1129,Fischbach
@@ -705,11 +700,10 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2097,Rue,2097,Rue
 2099,Siviriez,2099,Siviriez
 2102,Ursy,2102,Ursy
-2111,Villaz-Saint-Pierre,2111,Villaz-Saint-Pierre
 2113,Vuisternens-dev-Romont,2113,Vuisternens-dev-Romont
 2114,Villorsonnens,2114,Villorsonnens
 2115,Torny,2115,Torny
-2116,La Folliaz,2116,La Folliaz
+2117,Villaz,2117,Villaz
 2121,Haut-Intyamon,2121,Haut-Intyamon
 2122,Pont-en-Ogoz,2122,Pont-en-Ogoz
 2123,Botterens,2123,Botterens
@@ -741,7 +735,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2175,Belfaux,2175,Belfaux
 2177,Chénens,2177,Chénens
 2183,Corminboeuf,2183,Corminboeuf
-2185,Corserey,2185,Corserey
 2186,Cottens (FR),2186,Cottens (FR)
 2189,Ependes (FR),2189,Ependes (FR)
 2194,Ferpicloz,2194,Ferpicloz
@@ -752,11 +745,9 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2206,Marly,2206,Marly
 2208,Matran,2208,Matran
 2211,Neyruz (FR),2211,Neyruz (FR)
-2213,Noréaz,2213,Noréaz
 2216,Pierrafortscha,2216,Pierrafortscha
 2217,Ponthaux,2217,Ponthaux
 2220,Le Mouret,2220,Le Mouret
-2221,Prez-vers-Noréaz,2221,Prez-vers-Noréaz
 2225,Senèdes,2225,Senèdes
 2226,Treyvaux,2226,Treyvaux
 2228,Villars-sur-Glâne,2228,Villars-sur-Glâne
@@ -765,6 +756,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2234,La Brillaz,2234,La Brillaz
 2235,La Sonnaz,2235,La Sonnaz
 2236,Gibloux,2236,Gibloux
+2237,Prez,2237,Prez
 2250,Courgevaux,2250,Courgevaux
 2254,Courtepin,2254,Courtepin
 2257,Cressier (FR),2257,Cressier (FR)
@@ -1221,7 +1213,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3901,Chur,3901,Chur
 3911,Churwalden,3911,Churwalden
 3921,Arosa,3921,Arosa
-3926,Maladers,3926,Maladers
 3932,Tschiertschen-Praden,3932,Tschiertschen-Praden
 3941,Haldenstein,3941,Haldenstein
 3945,Trimmis,3945,Trimmis
@@ -1318,7 +1309,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 4110,Remigen,4110,Remigen
 4111,Riniken,4111,Riniken
 4112,Rüfenach,4112,Rüfenach
-4114,Schinznach-Bad,4114,Schinznach-Bad
 4117,Thalheim (AG),4117,Thalheim (AG)
 4120,Veltheim (AG),4120,Veltheim (AG)
 4121,Villigen,4121,Villigen

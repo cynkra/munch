@@ -7,39 +7,39 @@ mId.x,mShortName.x,mId.y,mShortName.y,year
 5183,Fescoggia,5237,Alto Malcantone,2006
 5204,Mugena,5237,Alto Malcantone,2006
 5232,Vezio,5237,Alto Malcantone,2006
-1124,Buchs (LU),1125,Dagmersellen,2007
-1125,Dagmersellen,1125,Dagmersellen,2007
-1144,Uffikon,1125,Dagmersellen,2007
-1128,Ettiswil,1128,Ettiswil,2007
-1133,Kottwil,1128,Ettiswil,2007
-1148,Willisau Land,1151,Willisau,2007
-1149,Willisau Stadt,1151,Willisau,2007
-1134,Langnau bei Reiden,1140,Reiden,2007
-1140,Reiden,1140,Reiden,2007
-1141,Richenthal,1140,Reiden,2007
-2002,Autavaux,2052,Vernay,2007
-2018,Forel (FR),2052,Vernay,2007
-2031,Montbrelloz,2052,Vernay,2007
-2003,Bollion,2025,Lully (FR),2007
-2025,Lully (FR),2025,Lully (FR),2007
-2042,Seiry,2025,Lully (FR),2007
-2074,Esmonts,2112,Vuarmarens,2007
-2112,Vuarmarens,2112,Vuarmarens,2007
-2123,Botterens,2123,Botterens,2007
-2156,Villarbeney,2123,Botterens,2007
-2125,Bulle,2125,Bulle,2007
-2154,La Tour-de-Trême,2125,Bulle,2007
-2241,Agriswil,2276,Ried bei Kerzers,2007
-2276,Ried bei Kerzers,2276,Ried bei Kerzers,2007
-2494,Niedererlinsbach,2503,Erlinsbach (SO),2007
-2496,Obererlinsbach,2503,Erlinsbach (SO),2007
-3692,Medels im Rheinwald,3694,Splügen,2007
-3694,Splügen,3694,Splügen,2007
-4005,Erlinsbach,4005,Erlinsbach (AG),2007
-4036,Oberehrendingen,4049,Ehrendingen,2007
-4043,Unterehrendingen,4049,Ehrendingen,2007
-4116,Stilli,4121,Villigen,2007
-4121,Villigen,4121,Villigen,2007
+1124,Buchs (LU),1125,Dagmersellen,2006
+1125,Dagmersellen,1125,Dagmersellen,2006
+1144,Uffikon,1125,Dagmersellen,2006
+1128,Ettiswil,1128,Ettiswil,2006
+1133,Kottwil,1128,Ettiswil,2006
+1148,Willisau Land,1151,Willisau,2006
+1149,Willisau Stadt,1151,Willisau,2006
+1134,Langnau bei Reiden,1140,Reiden,2006
+1140,Reiden,1140,Reiden,2006
+1141,Richenthal,1140,Reiden,2006
+2002,Autavaux,2052,Vernay,2006
+2018,Forel (FR),2052,Vernay,2006
+2031,Montbrelloz,2052,Vernay,2006
+2003,Bollion,2025,Lully (FR),2006
+2025,Lully (FR),2025,Lully (FR),2006
+2042,Seiry,2025,Lully (FR),2006
+2074,Esmonts,2112,Vuarmarens,2006
+2112,Vuarmarens,2112,Vuarmarens,2006
+2123,Botterens,2123,Botterens,2006
+2156,Villarbeney,2123,Botterens,2006
+2125,Bulle,2125,Bulle,2006
+2154,La Tour-de-Trême,2125,Bulle,2006
+2241,Agriswil,2276,Ried bei Kerzers,2006
+2276,Ried bei Kerzers,2276,Ried bei Kerzers,2006
+2494,Niedererlinsbach,2503,Erlinsbach (SO),2006
+2496,Obererlinsbach,2503,Erlinsbach (SO),2006
+3692,Medels im Rheinwald,3694,Splügen,2006
+3694,Splügen,3694,Splügen,2006
+4005,Erlinsbach,4005,Erlinsbach (AG),2006
+4036,Oberehrendingen,4049,Ehrendingen,2006
+4043,Unterehrendingen,4049,Ehrendingen,2006
+4116,Stilli,4121,Villigen,2006
+4121,Villigen,4121,Villigen,2006
 5065,Calonico,5072,Faido,2007
 5069,Chiggiogna,5072,Faido,2007
 5072,Faido,5072,Faido,2007
@@ -437,18 +437,29 @@ mId.x,mShortName.x,mId.y,mShortName.y,year
 5308,Cavergno,5310,Cevio,2007
 5310,Cevio,5310,Cevio,2007
 4323,Zurzach,4323,Bad Zurzach,2007
-327,Gutenburg,332,Madiswil,2008
-332,Madiswil,332,Madiswil,2008
-749,Studen,749,Studen (BE),2008
-926,Forst,948,Forst-Längenbühl,2008
-933,Längenbühl,948,Forst-Längenbühl,2008
-1032,Hohenrain,1032,Hohenrain,2008
-1034,Lieli,1032,Hohenrain,2008
-3335,Jona,3340,Rapperswil-Jona,2008
-3336,Rapperswil (SG),3340,Rapperswil-Jona,2008
-3892,St. Antönien Ascharina,3893,St. Antönien,2008
-3893,St. Antönien,3893,St. Antönien,2008
-6288,Saas Almagell,6288,Saas-Almagell,2008
-6289,Saas Balen,6289,Saas-Balen,2008
-6290,Saas Fee,6290,Saas-Fee,2008
-6291,Saas Grund,6291,Saas-Grund,2008
+327,Gutenburg,332,Madiswil,2007
+332,Madiswil,332,Madiswil,2007
+749,Studen,749,Studen (BE),2007
+926,Forst,948,Forst-Längenbühl,2007
+933,Längenbühl,948,Forst-Längenbühl,2007
+1032,Hohenrain,1032,Hohenrain,2007
+1034,Lieli,1032,Hohenrain,2007
+3335,Jona,3340,Rapperswil-Jona,2007
+3336,Rapperswil (SG),3340,Rapperswil-Jona,2007
+3892,St. Antönien Ascharina,3893,St. Antönien,2007
+3893,St. Antönien,3893,St. Antönien,2007
+6288,Saas Almagell,6288,Saas-Almagell,2007
+6289,Saas Balen,6289,Saas-Balen,2007
+6290,Saas Fee,6290,Saas-Fee,2007
+6291,Saas Grund,6291,Saas-Grund,2007
+979,Herzogenbuchsee,979,Herzogenbuchsee,2008
+984,Oberönz,979,Herzogenbuchsee,2008
+3702,Ausserferrera,3713,Ferrera,2008
+3706,Innerferrera,3713,Ferrera,2008
+3928,Pagig,3931,St. Peter-Pagig,2008
+3930,St. Peter,3931,St. Peter-Pagig,2008
+3944,Says,3945,Trimmis,2008
+3945,Trimmis,3945,Trimmis,2008
+5913,Donneloye,5913,Donneloye,2008
+5917,Gossens,5913,Donneloye,2008
+5920,Mézery-près-Donneloye,5913,Donneloye,2008

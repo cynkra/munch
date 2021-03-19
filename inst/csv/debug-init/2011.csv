@@ -188,9 +188,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 324,Bleienbach,324,Bleienbach
 325,Busswil bei Melchnau,325,Busswil bei Melchnau
 326,Gondiswil,326,Gondiswil
-328,Kleindietwil,328,Kleindietwil
 329,Langenthal,329,Langenthal
-330,Leimiswil,330,Leimiswil
 331,Lotzwil,331,Lotzwil
 332,Madiswil,332,Madiswil
 333,Melchnau,333,Melchnau
@@ -223,7 +221,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 381,Arch,381,Arch
 382,Büetigen,382,Büetigen
 383,Büren an der Aare,383,Büren an der Aare
-384,Busswil bei Büren,384,Busswil bei Büren
 385,Diessbach bei Büren,385,Diessbach bei Büren
 386,Dotzigen,386,Dotzigen
 387,Lengnau (BE),387,Lengnau (BE)
@@ -461,10 +458,9 @@ mId.x,mShortName.x,mId.y,mShortName.y
 841,Gsteig,841,Gsteig
 842,Lauenen,842,Lauenen
 843,Saanen,843,Saanen
-851,Albligen,851,Albligen
 852,Guggisberg,852,Guggisberg
 853,Rüschegg,853,Rüschegg
-854,Wahlern,854,Wahlern
+855,Schwarzenburg,855,Schwarzenburg
 861,Belp,861,Belp
 862,Belpberg,862,Belpberg
 863,Burgistein,863,Burgistein
@@ -538,7 +534,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 971,Attiswil,971,Attiswil
 972,Berken,972,Berken
 973,Bettenhausen,973,Bettenhausen
-974,Bollodingen,974,Bollodingen
 975,Farnern,975,Farnern
 976,Graben,976,Graben
 977,Heimenhausen,977,Heimenhausen
@@ -713,31 +708,9 @@ mId.x,mShortName.x,mId.y,mShortName.y
 1509,Stans,1509,Stans
 1510,Stansstad,1510,Stansstad
 1511,Wolfenschiessen,1511,Wolfenschiessen
-1601,Betschwanden,1601,Betschwanden
-1602,Bilten,1602,Bilten
-1603,Braunwald,1603,Braunwald
-1605,Elm,1605,Elm
-1606,Engi,1606,Engi
-1607,Ennenda,1607,Ennenda
-1608,Filzbach,1608,Filzbach
-1609,Glarus,1609,Glarus
-1610,Haslen,1610,Haslen
-1613,Linthal,1613,Linthal
-1614,Luchsingen,1614,Luchsingen
-1615,Matt,1615,Matt
-1616,Mitlödi,1616,Mitlödi
-1617,Mollis,1617,Mollis
-1618,Mühlehorn,1618,Mühlehorn
-1619,Näfels,1619,Näfels
-1620,Netstal,1620,Netstal
-1622,Niederurnen,1622,Niederurnen
-1623,Oberurnen,1623,Oberurnen
-1624,Obstalden,1624,Obstalden
-1625,Riedern,1625,Riedern
-1626,Rüti (GL),1626,Rüti (GL)
-1627,Schwanden (GL),1627,Schwanden (GL)
-1628,Schwändi,1628,Schwändi
-1629,Sool,1629,Sool
+1630,Glarus Nord,1630,Glarus Nord
+1631,Glarus Süd,1631,Glarus Süd
+1632,Glarus,1632,Glarus
 1701,Baar,1701,Baar
 1702,Cham,1702,Cham
 1703,Hünenberg,1703,Hünenberg
@@ -824,7 +797,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2152,Sâles,2152,Sâles
 2153,Sorens,2153,Sorens
 2155,Vaulruz,2155,Vaulruz
-2159,Villarvolard,2159,Villarvolard
 2160,Vuadens,2160,Vuadens
 2162,Bas-Intyamon,2162,Bas-Intyamon
 2171,Arconciel,2171,Arconciel
@@ -1007,7 +979,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2549,Kammersrohr,2549,Kammersrohr
 2550,Langendorf,2550,Langendorf
 2551,Lommiswil,2551,Lommiswil
-2552,Niederwil (SO),2552,Niederwil (SO)
 2553,Oberdorf (SO),2553,Oberdorf (SO)
 2554,Riedholz,2554,Riedholz
 2555,Rüttenen,2555,Rüttenen
@@ -1437,9 +1408,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3954,Malans,3954,Malans
 3961,Grüsch,3961,Grüsch
 3962,Schiers,3962,Schiers
-3971,Fanas,3971,Fanas
 3972,Seewis im Prättigau,3972,Seewis im Prättigau
-3973,Valzeina,3973,Valzeina
 3981,Breil/Brigels,3981,Breil/Brigels
 3982,Disentis/Mustér,3982,Disentis/Mustér
 3983,Medel (Lucmagn),3983,Medel (Lucmagn)
@@ -2317,11 +2286,9 @@ mId.x,mShortName.x,mId.y,mShortName.y
 6082,Ayent,6082,Ayent
 6083,Evolène,6083,Evolène
 6084,Hérémence,6084,Hérémence
-6085,Mase,6085,Mase
-6086,Nax,6086,Nax
 6087,Saint-Martin (VS),6087,Saint-Martin (VS)
-6088,Vernamiège,6088,Vernamiège
 6089,Vex,6089,Vex
+6090,Mont-Noble,6090,Mont-Noble
 6101,Agarn,6101,Agarn
 6102,Albinen,6102,Albinen
 6104,Ergisch,6104,Ergisch

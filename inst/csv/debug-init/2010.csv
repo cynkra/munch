@@ -203,7 +203,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 340,Rütschelen,340,Rütschelen
 341,Schwarzhäusern,341,Schwarzhäusern
 342,Thunstetten,342,Thunstetten
-343,Untersteckholz,343,Untersteckholz
 344,Ursenbach,344,Ursenbach
 345,Wynau,345,Wynau
 351,Bern,351,Bern
@@ -289,7 +288,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 500,Treiten,500,Treiten
 501,Tschugg,501,Tschugg
 502,Vinelz,502,Vinelz
-531,Ballmoos,531,Ballmoos
 532,Bangerten,532,Bangerten
 533,Bätterkinden,533,Bätterkinden
 534,Büren zum Hof,534,Büren zum Hof
@@ -346,7 +344,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 592,Schwanden bei Brienz,592,Schwanden bei Brienz
 593,Unterseen,593,Unterseen
 594,Wilderswil,594,Wilderswil
-601,Aeschlen,601,Aeschlen
 602,Arni (BE),602,Arni (BE)
 603,Biglen,603,Biglen
 604,Bleiken b. Oberdiessbach,604,Bleiken b. Oberdiessbach
@@ -439,10 +436,9 @@ mId.x,mShortName.x,mId.y,mShortName.y
 749,Studen (BE),749,Studen (BE)
 750,Sutz-Lattrigen,750,Sutz-Lattrigen
 751,Täuffelen,751,Täuffelen
-752,Tüscherz-Alfermée,752,Tüscherz-Alfermée
-753,Twann,753,Twann
 754,Walperswil,754,Walperswil
 755,Worben,755,Worben
+756,Twann-Tüscherz,756,Twann-Tüscherz
 761,Därstetten,761,Därstetten
 762,Diemtigen,762,Diemtigen
 763,Erlenbach im Simmental,763,Erlenbach im Simmental
@@ -594,7 +590,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 1057,Honau,1057,Honau
 1058,Horw,1058,Horw
 1059,Kriens,1059,Kriens
-1060,Littau,1060,Littau
 1061,Luzern,1061,Luzern
 1062,Malters,1062,Malters
 1063,Meggen,1063,Meggen
@@ -942,11 +937,9 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2429,Welschenrohr,2429,Welschenrohr
 2441,Aetigkofen,2441,Aetigkofen
 2442,Aetingen,2442,Aetingen
-2443,Balm bei Messen,2443,Balm bei Messen
 2444,Bibern (SO),2444,Bibern (SO)
 2445,Biezwil,2445,Biezwil
 2446,Brügglen,2446,Brügglen
-2447,Brunnenthal,2447,Brunnenthal
 2449,Gossliwil,2449,Gossliwil
 2450,Hessigkofen,2450,Hessigkofen
 2452,Küttigkofen,2452,Küttigkofen
@@ -957,7 +950,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2457,Messen,2457,Messen
 2458,Mühledorf (SO),2458,Mühledorf (SO)
 2459,Nennigkofen,2459,Nennigkofen
-2460,Oberramsern,2460,Oberramsern
 2461,Schnottwil,2461,Schnottwil
 2462,Tscheppach,2462,Tscheppach
 2463,Unterramsern,2463,Unterramsern
@@ -1245,11 +1237,10 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3338,Schmerikon,3338,Schmerikon
 3339,Uznach,3339,Uznach
 3340,Rapperswil-Jona,3340,Rapperswil-Jona
-3351,Alt St. Johann,3351,Alt St. Johann
 3352,Ebnat-Kappel,3352,Ebnat-Kappel
 3356,Stein (SG),3356,Stein (SG)
-3357,Wildhaus,3357,Wildhaus
 3358,Nesslau-Krummenau,3358,Nesslau-Krummenau
+3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 3372,Hemberg,3372,Hemberg
 3373,Krinau,3373,Krinau
 3374,Lichtensteig,3374,Lichtensteig
@@ -1346,10 +1337,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3661,Cazis,3661,Cazis
 3662,Flerden,3662,Flerden
 3663,Masein,3663,Masein
-3664,Portein,3664,Portein
-3665,Präz,3665,Präz
-3666,Sarn,3666,Sarn
-3667,Tartar,3667,Tartar
 3668,Thusis,3668,Thusis
 3669,Tschappina,3669,Tschappina
 3670,Urmein,3670,Urmein
@@ -1386,11 +1373,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3761,Ftan,3761,Ftan
 3762,Scuol,3762,Scuol
 3763,Sent,3763,Sent
-3771,Bondo,3771,Bondo
-3773,Castasegna,3773,Castasegna
-3774,Soglio,3774,Soglio
-3775,Stampa,3775,Stampa
-3776,Vicosoprano,3776,Vicosoprano
 3781,Bever,3781,Bever
 3782,Celerina/Schlarigna,3782,Celerina/Schlarigna
 3783,Madulain,3783,Madulain
@@ -1402,6 +1384,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3789,Sils im Engadin/Segl,3789,Sils im Engadin/Segl
 3790,Silvaplana,3790,Silvaplana
 3791,Zuoz,3791,Zuoz
+3792,Bregaglia,3792,Bregaglia
 3801,Arvigo,3801,Arvigo
 3803,Braggio,3803,Braggio
 3804,Buseno,3804,Buseno
@@ -1432,8 +1415,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3893,St. Antönien,3893,St. Antönien
 3901,Chur,3901,Chur
 3911,Churwalden,3911,Churwalden
-3912,Malix,3912,Malix
-3913,Parpan,3913,Parpan
 3921,Arosa,3921,Arosa
 3922,Calfreisen,3922,Calfreisen
 3923,Castiel,3923,Castiel
@@ -1476,7 +1457,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 4008,Küttigen,4008,Küttigen
 4009,Muhen,4009,Muhen
 4010,Oberentfelden,4010,Oberentfelden
-4011,Rohr (AG),4011,Rohr (AG)
 4012,Suhr,4012,Suhr
 4013,Unterentfelden,4013,Unterentfelden
 4021,Baden,4021,Baden
@@ -1514,7 +1494,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 4067,Fischbach-Göslikon,4067,Fischbach-Göslikon
 4068,Hägglingen,4068,Hägglingen
 4069,Hermetschwil-Staffeln,4069,Hermetschwil-Staffeln
-4070,Hilfikon,4070,Hilfikon
 4071,Jonen,4071,Jonen
 4072,Niederwil (AG),4072,Niederwil (AG)
 4073,Oberlunkhofen,4073,Oberlunkhofen
@@ -1539,7 +1518,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 4098,Gallenkirch,4098,Gallenkirch
 4099,Habsburg,4099,Habsburg
 4100,Hausen (AG),4100,Hausen (AG)
-4101,Hottwil,4101,Hottwil
 4103,Linn,4103,Linn
 4104,Lupfig,4104,Lupfig
 4105,Mandach,4105,Mandach
@@ -1554,7 +1532,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 4114,Schinznach-Bad,4114,Schinznach-Bad
 4115,Schinznach-Dorf,4115,Schinznach-Dorf
 4117,Thalheim (AG),4117,Thalheim (AG)
-4118,Umiken,4118,Umiken
 4119,Unterbözberg,4119,Unterbözberg
 4120,Veltheim (AG),4120,Veltheim (AG)
 4121,Villigen,4121,Villigen
@@ -1578,28 +1555,23 @@ mId.x,mShortName.x,mId.y,mShortName.y
 4146,Unterkulm,4146,Unterkulm
 4147,Zetzwil,4147,Zetzwil
 4161,Eiken,4161,Eiken
-4162,Etzgen,4162,Etzgen
 4163,Frick,4163,Frick
 4164,Gansingen,4164,Gansingen
 4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 4166,Herznach,4166,Herznach
 4167,Hornussen,4167,Hornussen
-4168,Ittenthal,4168,Ittenthal
 4169,Kaisten,4169,Kaisten
 4170,Laufenburg,4170,Laufenburg
-4171,Mettau,4171,Mettau
 4172,Münchwilen (AG),4172,Münchwilen (AG)
 4173,Oberhof,4173,Oberhof
-4174,Oberhofen (AG),4174,Oberhofen (AG)
 4175,Oeschgen,4175,Oeschgen
 4176,Schwaderloch,4176,Schwaderloch
 4177,Sisseln,4177,Sisseln
-4178,Sulz (AG),4178,Sulz (AG)
 4179,Ueken,4179,Ueken
-4180,Wil (AG),4180,Wil (AG)
 4181,Wittnau,4181,Wittnau
 4182,Wölflinswil,4182,Wölflinswil
 4183,Zeihen,4183,Zeihen
+4184,Mettauertal,4184,Mettauertal
 4191,Ammerswil,4191,Ammerswil
 4192,Boniswil,4192,Boniswil
 4193,Brunegg,4193,Brunegg

@@ -553,7 +553,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 981,Niederbipp,981,Niederbipp
 982,Niederönz,982,Niederönz
 983,Oberbipp,983,Oberbipp
-984,Oberönz,984,Oberönz
 985,Ochlenberg,985,Ochlenberg
 986,Röthenbach b. Herzogenb.,986,Röthenbach b. Herzogenb.
 987,Rumisberg,987,Rumisberg
@@ -1384,16 +1383,15 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3694,Splügen,3694,Splügen
 3695,Sufers,3695,Sufers
 3701,Andeer,3701,Andeer
-3702,Ausserferrera,3702,Ausserferrera
 3703,Casti-Wergenstein,3703,Casti-Wergenstein
 3704,Clugin,3704,Clugin
 3705,Donat,3705,Donat
-3706,Innerferrera,3706,Innerferrera
 3707,Lohn (GR),3707,Lohn (GR)
 3708,Mathon,3708,Mathon
 3710,Pignia,3710,Pignia
 3711,Rongellen,3711,Rongellen
 3712,Zillis-Reischen,3712,Zillis-Reischen
+3713,Ferrera,3713,Ferrera
 3721,Bonaduz,3721,Bonaduz
 3722,Domat/Ems,3722,Domat/Ems
 3723,Rhäzüns,3723,Rhäzüns
@@ -1475,13 +1473,11 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3925,Lüen,3925,Lüen
 3926,Maladers,3926,Maladers
 3927,Molinis,3927,Molinis
-3928,Pagig,3928,Pagig
 3929,Peist,3929,Peist
-3930,St. Peter,3930,St. Peter
+3931,St. Peter-Pagig,3931,St. Peter-Pagig
 3941,Haldenstein,3941,Haldenstein
 3942,Igis,3942,Igis
 3943,Mastrils,3943,Mastrils
-3944,Says,3944,Says
 3945,Trimmis,3945,Trimmis
 3946,Untervaz,3946,Untervaz
 3947,Zizers,3947,Zizers
@@ -2359,10 +2355,8 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5914,Ependes (VD),5914,Ependes (VD)
 5915,Essert-Pittet,5915,Essert-Pittet
 5916,Essert-sous-Champvent,5916,Essert-sous-Champvent
-5917,Gossens,5917,Gossens
 5918,Gressy,5918,Gressy
 5919,Mathod,5919,Mathod
-5920,Mézery-près-Donneloye,5920,Mézery-près-Donneloye
 5921,Molondin,5921,Molondin
 5922,Montagny-près-Yverdon,5922,Montagny-près-Yverdon
 5923,Oppens,5923,Oppens

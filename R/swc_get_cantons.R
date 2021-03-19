@@ -6,6 +6,6 @@ csv_file <- function(name) {
   system.file("csv", paste0(name, ".csv"), package = "SwissCommunes")
 }
 
-new_csv_file <- function(name) {
-  file.path("inst/csv", paste0(name, ".csv"))
+new_csv_file <- function(...) {
+  paste0(file.path("inst/csv", ...), ".csv")
 }

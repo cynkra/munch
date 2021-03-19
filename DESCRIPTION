@@ -4,20 +4,32 @@ Title: Functions for working with the historicized list of
     communes of Switzerland
 Version: 0.0.8.9001
 Date: 2020-06-19
-Author: Kirill Müller
-Maintainer: Kirill Müller <kirill.mueller@ivt.baug.ethz.ch>
-Description: The mutations of Swiss communes are tracked in a
-    machine-readable mutation list.  This allows guessing the reference
-    time for any given list of municipality IDs, and to construct mappings
-    between two lists of municipality IDs.  The package provides functions
-    to import and work with this mutation list.
+Authors@R: 
+    c(person(given = "Kirill",
+             family = "Müller",
+             role = c("aut", "cre"),
+             email = "krlmlr+r@mailbox.org"),
+      person(given = "Tobias",
+             family = "Schieferdecker",
+             role = "aut"),
+      person(given = "Thomas",
+             family = "Knecht",
+             role = "aut"),
+       person(given = "Christoph",
+             family = "Sax",
+             role = "ctb"),
+     person(given = "Swiss Federal Statistical Office (SFSO), Swiss Statistics Web site",
+             role = "cph"))
+Description: Contains historicized municipality data for
+    Switzerland from 1960 onwards, from the "Historisiertes
+    Gemeindeverzeichnis" of the Swiss Federal Statistical Office.
 License: GPL-3
 URL: https://cynkra.github.io/SwissCommunes,
     https://github.com/cynkra/SwissCommunes
 BugReports: https://github.com/cynkra/SwissCommunes/issues
 Depends:
     R (>= 2.10)
-Imports:
+Imports: 
     cli,
     dplyr (>= 0.8.3),
     dttr2,
@@ -30,15 +42,15 @@ Imports:
     readr,
     reshape2 (>= 1.4.3),
     rlang,
-    SwissHistMunData,
-    tibble,
+    tibble (>= 1.4.2)
     tidyr
 Suggests:
-    testthat (>= 2.1.0),
+    daff,
     knitr,
-    rmarkdown
-Remotes: 
-    cynkra/SwissHistMunData
+    readxl,
+    rmarkdown,
+    testthat (>= 2.1.0),
+    usethis (>= 1.4.0)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1.9001

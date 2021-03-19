@@ -42,7 +42,7 @@ Imports:
     readr,
     reshape2 (>= 1.4.3),
     rlang,
-    tibble (>= 1.4.2)
+    tibble (>= 1.4.2),
     tidyr
 Suggests:
     daff,

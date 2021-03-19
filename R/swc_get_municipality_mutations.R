@@ -1,3 +1,3 @@
 swc_get_municipality_mutations <- function() {
-  readr::read_csv(csv_file("municipality_mutations"))
+  readr::read_csv(csv_file("municipality_mutations"), col_types = readr::cols())
 }

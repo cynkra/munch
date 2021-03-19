@@ -1,5 +1,5 @@
 swc_get_cantons <- function() {
-  readr::read_csv(csv_file("cantons"))
+  readr::read_csv(csv_file("cantons"), col_types = readr::cols())
 }
 
 csv_file <- function(name) {

@@ -33,7 +33,7 @@
 #' head(subset(swcGetMutations(), !is.na(mHistId.x)), 20)
 #' @export
 swc_get_mutations <- function(mids = NULL, canton = NULL) {
-  municipality_mutations <- SwissHistMunData::municipality_mutations
+  municipality_mutations <- municipality_mutations
 
   if (!is.null(mids)) {
     municipality_mutations <-

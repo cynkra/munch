@@ -173,10 +173,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,301,301,Aarberg,Aarberg
 2005,302,302,Bargen (BE),Bargen (BE)
 2005,303,303,Grossaffoltern,Grossaffoltern
+2005,304,304,Kallnach,Kallnach
 2005,305,305,Kappelen,Kappelen
+2005,306,306,Lyss,Lyss
 2005,307,307,Meikirch,Meikirch
 2005,308,304,Niederried bei Kallnach,Kallnach
 2005,309,309,Radelfingen,Radelfingen
+2005,310,310,Rapperswil (BE),Rapperswil (BE)
 2005,311,311,Schüpfen,Schüpfen
 2005,312,312,Seedorf (BE),Seedorf (BE)
 2005,321,321,Aarwangen,Aarwangen
@@ -187,8 +190,10 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,326,326,Gondiswil,Gondiswil
 2005,327,332,Gutenburg,Madiswil
 2005,328,332,Kleindietwil,Madiswil
+2005,329,329,Langenthal,Langenthal
 2005,330,332,Leimiswil,Madiswil
 2005,331,331,Lotzwil,Lotzwil
+2005,332,332,Madiswil,Madiswil
 2005,333,333,Melchnau,Melchnau
 2005,334,334,Obersteckholz,Obersteckholz
 2005,335,335,Oeschenbach,Oeschenbach
@@ -294,6 +299,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,537,537,Etzelkofen,Etzelkofen
 2005,538,538,Fraubrunnen,Fraubrunnen
 2005,539,539,Grafenried,Grafenried
+2005,540,540,Jegenstorf,Jegenstorf
 2005,541,541,Iffwil,Iffwil
 2005,542,542,Limpach,Limpach
 2005,543,543,Mattstetten,Mattstetten
@@ -356,7 +362,9 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,613,613,Landiswil,Landiswil
 2005,614,614,Linden,Linden
 2005,615,615,Mirchel,Mirchel
+2005,616,616,Münsingen,Münsingen
 2005,617,617,Niederhünigen,Niederhünigen
+2005,619,619,Oberdiessbach,Oberdiessbach
 2005,620,620,Oberthal,Oberthal
 2005,622,622,Oppligen,Oppligen
 2005,623,623,Rubigen,Rubigen
@@ -462,6 +470,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,852,852,Guggisberg,Guggisberg
 2005,853,853,Rüschegg,Rüschegg
 2005,854,855,Wahlern,Schwarzenburg
+2005,861,861,Belp,Belp
 2005,862,861,Belpberg,Belp
 2005,863,863,Burgistein,Burgistein
 2005,865,865,Gelterfingen,Gelterfingen
@@ -478,6 +487,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,876,876,Mühlethurnen,Mühlethurnen
 2005,877,877,Niedermuhlern,Niedermuhlern
 2005,878,878,Noflen,Noflen
+2005,879,879,Riggisberg,Riggisberg
 2005,880,880,Rüeggisberg,Rüeggisberg
 2005,881,881,Rümligen,Rümligen
 2005,882,879,Rüti bei Riggisberg,Riggisberg
@@ -534,10 +544,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,960,960,Wyssachen,Wyssachen
 2005,971,971,Attiswil,Attiswil
 2005,972,972,Berken,Berken
+2005,973,973,Bettenhausen,Bettenhausen
 2005,974,973,Bollodingen,Bettenhausen
 2005,975,975,Farnern,Farnern
 2005,976,976,Graben,Graben
+2005,977,977,Heimenhausen,Heimenhausen
 2005,978,978,Hermiswil,Hermiswil
+2005,979,979,Herzogenbuchsee,Herzogenbuchsee
 2005,980,980,Inkwil,Inkwil
 2005,981,981,Niederbipp,Niederbipp
 2005,982,982,Niederönz,Niederönz
@@ -572,7 +585,9 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,1026,1026,Eschenbach (LU),Eschenbach (LU)
 2005,1027,1030,Gelfingen,Hitzkirch
 2005,1028,1030,Hämikon,Hitzkirch
+2005,1030,1030,Hitzkirch,Hitzkirch
 2005,1031,1031,Hochdorf,Hochdorf
+2005,1032,1032,Hohenrain,Hohenrain
 2005,1033,1033,Inwil,Inwil
 2005,1034,1032,Lieli,Hohenrain
 2005,1035,1030,Mosen,Hitzkirch
@@ -593,6 +608,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,1058,1058,Horw,Horw
 2005,1059,1059,Kriens,Kriens
 2005,1060,1061,Littau,Luzern
+2005,1061,1061,Luzern,Luzern
 2005,1062,1062,Malters,Malters
 2005,1063,1063,Meggen,Meggen
 2005,1064,1064,Meierskappel,Meierskappel
@@ -601,6 +617,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,1067,1067,Udligenswil,Udligenswil
 2005,1068,1068,Vitznau,Vitznau
 2005,1069,1069,Weggis,Weggis
+2005,1081,1081,Beromünster,Beromünster
 2005,1082,1082,Büron,Büron
 2005,1083,1083,Buttisholz,Buttisholz
 2005,1084,1084,Eich,Eich
@@ -615,19 +632,23 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,1094,1094,Nottwil,Nottwil
 2005,1095,1095,Oberkirch,Oberkirch
 2005,1096,1097,Pfeffikon,Rickenbach (LU)
+2005,1097,1097,Rickenbach (LU),Rickenbach (LU)
 2005,1098,1098,Ruswil,Ruswil
 2005,1099,1099,Schenkon,Schenkon
 2005,1100,1100,Schlierbach,Schlierbach
 2005,1102,1102,Sempach,Sempach
 2005,1103,1103,Sursee,Sursee
+2005,1104,1104,Triengen,Triengen
 2005,1106,1104,Winikon,Triengen
 2005,1107,1107,Wolhusen,Wolhusen
 2005,1121,1121,Alberswil,Alberswil
 2005,1122,1122,Altbüron,Altbüron
 2005,1123,1123,Altishofen,Altishofen
 2005,1124,1125,Buchs (LU),Dagmersellen
+2005,1125,1125,Dagmersellen,Dagmersellen
 2005,1126,1126,Ebersecken,Ebersecken
 2005,1127,1127,Egolzwil,Egolzwil
+2005,1128,1128,Ettiswil,Ettiswil
 2005,1129,1129,Fischbach,Fischbach
 2005,1130,1130,Gettnau,Gettnau
 2005,1131,1131,Grossdietwil,Grossdietwil
@@ -639,8 +660,10 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,1137,1137,Nebikon,Nebikon
 2005,1138,1143,Ohmstal,Schötz
 2005,1139,1139,Pfaffnau,Pfaffnau
+2005,1140,1140,Reiden,Reiden
 2005,1141,1140,Richenthal,Reiden
 2005,1142,1142,Roggliswil,Roggliswil
+2005,1143,1143,Schötz,Schötz
 2005,1144,1125,Uffikon,Dagmersellen
 2005,1145,1145,Ufhusen,Ufhusen
 2005,1146,1146,Wauwil,Wauwil
@@ -724,6 +747,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,1607,1632,Ennenda,Glarus
 2005,1608,1630,Filzbach,Glarus Nord
 2005,1609,1632,Glarus,Glarus
+2005,1610,1631,Haslen,Glarus Süd
 2005,1612,1631,Leuggelbach,Glarus Süd
 2005,1613,1631,Linthal,Glarus Süd
 2005,1614,1631,Luchsingen,Glarus Süd
@@ -763,11 +787,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,2011,2011,Cugy (FR),Cugy (FR)
 2005,2013,2013,Domdidier,Domdidier
 2005,2014,2014,Dompierre (FR),Dompierre (FR)
+2005,2015,2015,Estavayer-le-Lac,Estavayer-le-Lac
 2005,2016,2016,Fétigny,Fétigny
 2005,2017,2015,Font,Estavayer-le-Lac
 2005,2018,2052,Forel (FR),Vernay
 2005,2022,2022,Gletterens,Gletterens
 2005,2024,2024,Léchelles,Léchelles
+2005,2025,2025,Lully (FR),Lully (FR)
 2005,2027,2027,Ménières,Ménières
 2005,2029,2029,Montagny (FR),Montagny (FR)
 2005,2031,2052,Montbrelloz,Vernay
@@ -800,17 +826,22 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,2096,2096,Romont (FR),Romont (FR)
 2005,2097,2097,Rue,Rue
 2005,2099,2099,Siviriez,Siviriez
+2005,2102,2102,Ursy,Ursy
 2005,2111,2111,Villaz-Saint-Pierre,Villaz-Saint-Pierre
+2005,2112,2102,Vuarmarens,Ursy
 2005,2113,2113,Vuisternens-dev-Romont,Vuisternens-dev-Romont
 2005,2114,2114,Villorsonnens,Villorsonnens
 2005,2115,2115,Torny,Torny
 2005,2116,2116,La Folliaz,La Folliaz
 2005,2121,2121,Haut-Intyamon,Haut-Intyamon
 2005,2122,2122,Pont-en-Ogoz,Pont-en-Ogoz
+2005,2123,2123,Botterens,Botterens
 2005,2124,2124,Broc,Broc
+2005,2125,2125,Bulle,Bulle
 2005,2126,2126,Cerniat (FR),Cerniat (FR)
 2005,2127,2127,Charmey,Charmey
 2005,2128,2128,Châtel-sur-Montsalvens,Châtel-sur-Montsalvens
+2005,2129,2129,Corbières,Corbières
 2005,2130,2130,Crésuz,Crésuz
 2005,2131,2131,Echarlens,Echarlens
 2005,2134,2134,Grandvillard,Grandvillard
@@ -886,6 +917,8 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,2271,2271,Meyriez,Meyriez
 2005,2272,2272,Misery-Courtion,Misery-Courtion
 2005,2274,2274,Muntelier,Muntelier
+2005,2275,2275,Murten,Murten
+2005,2276,2276,Ried bei Kerzers,Ried bei Kerzers
 2005,2277,2277,Salvenach,Salvenach
 2005,2278,2278,Ulmiz,Ulmiz
 2005,2279,2279,Villarepos,Villarepos
@@ -952,6 +985,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,2454,2464,Lüsslingen,Lüsslingen-Nennigkofen
 2005,2455,2455,Lüterkofen-Ichertswil,Lüterkofen-Ichertswil
 2005,2456,2456,Lüterswil-Gächliwil,Lüterswil-Gächliwil
+2005,2457,2457,Messen,Messen
 2005,2458,2458,Mühledorf (SO),Mühledorf (SO)
 2005,2459,2464,Nennigkofen,Lüsslingen-Nennigkofen
 2005,2460,2457,Oberramsern,Messen
@@ -981,6 +1015,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,2500,2500,Trimbach,Trimbach
 2005,2501,2501,Winznau,Winznau
 2005,2502,2502,Wisen (SO),Wisen (SO)
+2005,2511,2511,Aeschi (SO),Aeschi (SO)
 2005,2513,2513,Biberist,Biberist
 2005,2514,2514,Bolken,Bolken
 2005,2516,2516,Deitingen,Deitingen
@@ -1014,6 +1049,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,2551,2551,Lommiswil,Lommiswil
 2005,2552,2554,Niederwil (SO),Riedholz
 2005,2553,2553,Oberdorf (SO),Oberdorf (SO)
+2005,2554,2554,Riedholz,Riedholz
 2005,2555,2555,Rüttenen,Rüttenen
 2005,2556,2556,Selzach,Selzach
 2005,2571,2571,Boningen,Boningen
@@ -1145,12 +1181,15 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,2917,2917,Lohn (SH),Lohn (SH)
 2005,2918,2920,Opfertshofen (SH),Thayngen
 2005,2919,2919,Stetten (SH),Stetten (SH)
+2005,2920,2920,Thayngen,Thayngen
 2005,2931,2931,Bargen (SH),Bargen (SH)
+2005,2932,2932,Beringen,Beringen
 2005,2933,2933,Buchberg,Buchberg
 2005,2934,2939,Hemmental,Schaffhausen
 2005,2936,2936,Merishausen,Merishausen
 2005,2937,2937,Neuhausen am Rheinfall,Neuhausen am Rheinfall
 2005,2938,2938,Rüdlingen,Rüdlingen
+2005,2939,2939,Schaffhausen,Schaffhausen
 2005,2951,2951,Beggingen,Beggingen
 2005,2952,2952,Schleitheim,Schleitheim
 2005,2953,2953,Siblingen,Siblingen
@@ -1350,6 +1389,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,3642,3671,Tumegl/Tomils,Tomils
 2005,3651,3672,Safien,Safiental
 2005,3652,3672,Tenna,Safiental
+2005,3661,3661,Cazis,Cazis
 2005,3662,3662,Flerden,Flerden
 2005,3663,3663,Masein,Masein
 2005,3664,3661,Portein,Cazis
@@ -1363,7 +1403,9 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,3691,3691,Hinterrhein,Hinterrhein
 2005,3692,3694,Medels im Rheinwald,Splügen
 2005,3693,3693,Nufenen,Nufenen
+2005,3694,3694,Splügen,Splügen
 2005,3695,3695,Sufers,Sufers
+2005,3701,3701,Andeer,Andeer
 2005,3702,3713,Ausserferrera,Ferrera
 2005,3703,3703,Casti-Wergenstein,Casti-Wergenstein
 2005,3704,3701,Clugin,Andeer
@@ -1432,6 +1474,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,3844,3847,Sta. Maria Val Müstair,Val Müstair
 2005,3845,3847,Tschierv,Val Müstair
 2005,3846,3847,Valchava,Val Müstair
+2005,3851,3851,Davos,Davos
 2005,3861,3861,Fideris,Fideris
 2005,3862,3862,Furna,Furna
 2005,3863,3863,Jenaz,Jenaz
@@ -1441,11 +1484,14 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,3883,3883,Saas,Saas
 2005,3891,3891,Luzein,Luzein
 2005,3892,3893,St. Antönien Ascharina,St. Antönien
+2005,3893,3893,St. Antönien,St. Antönien
 2005,3901,3901,Chur,Chur
+2005,3911,3911,Churwalden,Churwalden
 2005,3912,3911,Malix,Churwalden
 2005,3913,3911,Parpan,Churwalden
 2005,3914,3932,Praden,Tschiertschen-Praden
 2005,3915,3932,Tschiertschen,Tschiertschen-Praden
+2005,3921,3921,Arosa,Arosa
 2005,3922,3921,Calfreisen,Arosa
 2005,3923,3921,Castiel,Arosa
 2005,3924,3921,Langwies,Arosa
@@ -1459,12 +1505,14 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,3942,3955,Igis,Landquart
 2005,3943,3955,Mastrils,Landquart
 2005,3944,3945,Says,Trimmis
+2005,3945,3945,Trimmis,Trimmis
 2005,3946,3946,Untervaz,Untervaz
 2005,3947,3947,Zizers,Zizers
 2005,3951,3951,Fläsch,Fläsch
 2005,3952,3952,Jenins,Jenins
 2005,3953,3953,Maienfeld,Maienfeld
 2005,3954,3954,Malans,Malans
+2005,3961,3961,Grüsch,Grüsch
 2005,3962,3962,Schiers,Schiers
 2005,3971,3961,Fanas,Grüsch
 2005,3972,3972,Seewis im Prättigau,Seewis im Prättigau
@@ -1475,6 +1523,8 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,3984,3987,Schlans,Trun
 2005,3985,3985,Sumvitg,Sumvitg
 2005,3986,3986,Tujetsch,Tujetsch
+2005,3987,3987,Trun,Trun
+2005,4001,4001,Aarau,Aarau
 2005,4002,4002,Biberstein,Biberstein
 2005,4003,4003,Buchs (AG),Buchs (AG)
 2005,4004,4004,Densbüren,Densbüren
@@ -1533,6 +1583,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,4077,4077,Tägerig,Tägerig
 2005,4078,4078,Uezwil,Uezwil
 2005,4079,4079,Unterlunkhofen,Unterlunkhofen
+2005,4080,4080,Villmergen,Villmergen
 2005,4081,4081,Widen,Widen
 2005,4082,4082,Wohlen (AG),Wohlen (AG)
 2005,4083,4083,Zufikon,Zufikon
@@ -1541,6 +1592,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,4092,4092,Birr,Birr
 2005,4093,4093,Birrhard,Birrhard
 2005,4094,4094,Bözen,Bözen
+2005,4095,4095,Brugg,Brugg
 2005,4096,4096,Effingen,Effingen
 2005,4097,4097,Elfingen,Elfingen
 2005,4098,4124,Gallenkirch,Bözberg
@@ -1565,6 +1617,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,4118,4095,Umiken,Brugg
 2005,4119,4124,Unterbözberg,Bözberg
 2005,4120,4120,Veltheim (AG),Veltheim (AG)
+2005,4121,4121,Villigen,Villigen
 2005,4122,4122,Villnachern,Villnachern
 2005,4123,4123,Windisch,Windisch
 2005,4131,4131,Beinwil am See,Beinwil am See
@@ -1592,6 +1645,8 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,4166,4166,Herznach,Herznach
 2005,4167,4167,Hornussen,Hornussen
 2005,4168,4169,Ittenthal,Kaisten
+2005,4169,4169,Kaisten,Kaisten
+2005,4170,4170,Laufenburg,Laufenburg
 2005,4171,4184,Mettau,Mettauertal
 2005,4172,4172,Münchwilen (AG),Münchwilen (AG)
 2005,4173,4173,Oberhof,Oberhof
@@ -1638,6 +1693,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,4231,4231,Dietwil,Dietwil
 2005,4232,4232,Geltwil,Geltwil
 2005,4233,4233,Kallern,Kallern
+2005,4234,4234,Merenschwand,Merenschwand
 2005,4235,4235,Mühlau,Mühlau
 2005,4236,4236,Muri (AG),Muri (AG)
 2005,4237,4237,Oberrüti,Oberrüti
@@ -1817,6 +1873,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5069,5072,Chiggiogna,Faido
 2005,5070,5072,Chironico,Faido
 2005,5071,5071,Dalpe,Dalpe
+2005,5072,5072,Faido,Faido
 2005,5073,5073,Giornico,Giornico
 2005,5074,5072,Mairengo,Faido
 2005,5075,5072,Osco,Faido
@@ -1874,6 +1931,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5148,5148,Bedano,Bedano
 2005,5149,5149,Bedigliora,Bedigliora
 2005,5150,5226,Bidogno,Capriasca
+2005,5151,5151,Bioggio,Bioggio
 2005,5153,5238,Bironico,Monteceneri
 2005,5154,5154,Bissone,Bissone
 2005,5155,5192,Bogno,Lugano
@@ -1899,6 +1957,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5188,5151,Iseo,Bioggio
 2005,5189,5189,Lamone,Lamone
 2005,5191,5226,Lugaggia,Capriasca
+2005,5192,5192,Lugano,Lugano
 2005,5193,5193,Magliaso,Magliaso
 2005,5194,5194,Manno,Manno
 2005,5195,5195,Maroggia,Maroggia
@@ -1925,12 +1984,14 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5223,5238,Sigirino,Monteceneri
 2005,5224,5192,Sonvico,Lugano
 2005,5225,5225,Sorengo,Sorengo
+2005,5226,5226,Capriasca,Capriasca
 2005,5227,5227,Torricella-Taverne,Torricella-Taverne
 2005,5229,5192,Valcolla,Lugano
 2005,5230,5230,Vernate,Vernate
 2005,5231,5231,Vezia,Vezia
 2005,5233,5233,Vico Morcote,Vico Morcote
 2005,5235,5192,Villa Luganese,Lugano
+2005,5236,5236,Collina d'Oro,Collina d'Oro
 2005,5237,5237,Alto Malcantone,Alto Malcantone
 2005,5241,5254,Arzo,Mendrisio
 2005,5242,5242,Balerna,Balerna
@@ -1944,6 +2005,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5251,5251,Coldrerio,Coldrerio
 2005,5252,5254,Genestrerio,Mendrisio
 2005,5253,5254,Ligornetto,Mendrisio
+2005,5254,5254,Mendrisio,Mendrisio
 2005,5255,5254,Meride,Mendrisio
 2005,5257,5257,Morbio Inferiore,Morbio Inferiore
 2005,5258,5269,Morbio Superiore,Breggia
@@ -1967,6 +2029,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5307,5307,Campo (Vallemaggia),Campo (Vallemaggia)
 2005,5308,5310,Cavergno,Cevio
 2005,5309,5309,Cerentino,Cerentino
+2005,5310,5310,Cevio,Cevio
 2005,5314,5324,Gordevio,Avegno Gordevio
 2005,5315,5315,Linescio,Linescio
 2005,5317,5317,Maggia,Maggia
@@ -1991,6 +2054,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5414,5414,Villeneuve (VD),Villeneuve (VD)
 2005,5415,5415,Yvorne,Yvorne
 2005,5421,5421,Apples,Apples
+2005,5422,5422,Aubonne,Aubonne
 2005,5423,5423,Ballens,Ballens
 2005,5424,5424,Berolle,Berolle
 2005,5425,5425,Bière,Bière
@@ -2006,6 +2070,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5435,5435,Saint-Livres,Saint-Livres
 2005,5436,5436,Saint-Oyens,Saint-Oyens
 2005,5437,5437,Saubraz,Saubraz
+2005,5451,5451,Avenches,Avenches
 2005,5452,5464,Bellerive (VD),Vully-les-Lacs
 2005,5453,5464,Chabrey,Vully-les-Lacs
 2005,5455,5464,Constantine,Vully-les-Lacs
@@ -2049,6 +2114,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5500,5500,Sévery,Sévery
 2005,5501,5501,Sullens,Sullens
 2005,5503,5503,Vufflens-la-Ville,Vufflens-la-Ville
+2005,5511,5511,Assens,Assens
 2005,5512,5512,Bercher,Bercher
 2005,5513,5513,Bioley-Orjulaz,Bioley-Orjulaz
 2005,5514,5514,Bottens,Bottens
@@ -2133,6 +2199,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5631,5631,Denens,Denens
 2005,5632,5632,Denges,Denges
 2005,5633,5633,Echandens,Echandens
+2005,5634,5634,Echichens,Echichens
 2005,5635,5635,Ecublens (VD),Ecublens (VD)
 2005,5636,5636,Etoy,Etoy
 2005,5637,5637,Lavigny,Lavigny
@@ -2168,6 +2235,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5672,5672,Forel-sur-Lucens,Forel-sur-Lucens
 2005,5673,5673,Hermenches,Hermenches
 2005,5674,5674,Lovatens,Lovatens
+2005,5675,5675,Lucens,Lucens
 2005,5676,5693,Martherenges,Montanaire
 2005,5677,5804,Montaubion-Chardonney,Jorat-Menthue
 2005,5678,5678,Moudon,Moudon
@@ -2259,6 +2327,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5795,5805,Palézieux,Oron
 2005,5796,5804,Peney-le-Jorat,Jorat-Menthue
 2005,5798,5798,Ropraz,Ropraz
+2005,5799,5799,Servion,Servion
 2005,5800,5805,Les Tavernes,Oron
 2005,5801,5805,Les Thioleyres,Oron
 2005,5802,5805,Vuibroye,Oron
@@ -2282,6 +2351,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5827,5827,Trey,Trey
 2005,5828,5828,Treytorrens (Payerne),Treytorrens (Payerne)
 2005,5829,5831,Villars-Bramard,Valbroye
+2005,5830,5830,Villarzel,Villarzel
 2005,5841,5841,Château-d'Oex,Château-d'Oex
 2005,5842,5842,Rossinière,Rossinière
 2005,5843,5843,Rougemont,Rougemont
@@ -2314,6 +2384,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5902,5902,Belmont-sur-Yverdon,Belmont-sur-Yverdon
 2005,5903,5903,Bioley-Magnoux,Bioley-Magnoux
 2005,5904,5904,Chamblon,Chamblon
+2005,5905,5905,Champvent,Champvent
 2005,5906,5693,Chanéaz,Montanaire
 2005,5907,5907,Chavannes-le-Chêne,Chavannes-le-Chêne
 2005,5908,5908,Chêne-Pâquier,Chêne-Pâquier
@@ -2321,6 +2392,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5910,5910,Cronay,Cronay
 2005,5911,5911,Cuarny,Cuarny
 2005,5912,5912,Démoret,Démoret
+2005,5913,5913,Donneloye,Donneloye
 2005,5914,5914,Ependes (VD),Ependes (VD)
 2005,5915,5915,Essert-Pittet,Essert-Pittet
 2005,5916,5905,Essert-sous-Champvent,Champvent
@@ -2345,11 +2417,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5935,5935,Villars-Epeney,Villars-Epeney
 2005,5936,5905,Villars-sous-Champvent,Champvent
 2005,5937,5937,Vugelles-La Mothe,Vugelles-La Mothe
+2005,5938,5938,Yverdon-les-Bains,Yverdon-les-Bains
 2005,5939,5939,Yvonand,Yvonand
 2005,6001,6007,Birgisch,Naters
 2005,6002,6002,Brig-Glis,Brig-Glis
 2005,6004,6004,Eggerberg,Eggerberg
 2005,6006,6007,Mund,Naters
+2005,6007,6007,Naters,Naters
 2005,6008,6008,Ried-Brig,Ried-Brig
 2005,6009,6009,Simplon,Simplon
 2005,6010,6010,Termen,Termen
@@ -2395,6 +2469,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,6105,6110,Erschmatt,Leuk
 2005,6107,6118,Gampel,Gampel-Bratsch
 2005,6109,6109,Inden,Inden
+2005,6110,6110,Leuk,Leuk
 2005,6111,6111,Leukerbad,Leukerbad
 2005,6112,6112,Oberems,Oberems
 2005,6113,6113,Salgesch,Salgesch
@@ -2448,6 +2523,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,6214,6214,Finhaut,Finhaut
 2005,6215,6215,Massongex,Massongex
 2005,6216,6217,Mex (VS),Saint-Maurice
+2005,6217,6217,Saint-Maurice,Saint-Maurice
 2005,6218,6218,Salvan,Salvan
 2005,6219,6219,Vernayaz,Vernayaz
 2005,6220,6220,Vérossaz,Vérossaz
@@ -2475,6 +2551,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,6263,6263,Grimisuat,Grimisuat
 2005,6264,6266,Salins,Sion
 2005,6265,6265,Savièse,Savièse
+2005,6266,6266,Sion,Sion
 2005,6267,6267,Veysonnaz,Veysonnaz
 2005,6281,6281,Baltschieder,Baltschieder
 2005,6282,6282,Eisten,Eisten
@@ -2641,10 +2718,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,6748,6748,Les Genevez (JU),Les Genevez (JU)
 2005,6749,6757,Goumois,Saignelégier
 2005,6750,6750,Lajoux (JU),Lajoux (JU)
+2005,6751,6751,Montfaucon,Montfaucon
 2005,6752,6751,Montfavergier,Montfaucon
+2005,6753,6753,Muriaux,Muriaux
 2005,6754,6754,Le Noirmont,Le Noirmont
 2005,6755,6753,Le Peuchapatte,Muriaux
 2005,6756,6757,Les Pommerats,Saignelégier
+2005,6757,6757,Saignelégier,Saignelégier
 2005,6758,6758,Saint-Brais,Saint-Brais
 2005,6759,6759,Soubey,Soubey
 2005,6771,6771,Alle,Alle
@@ -2666,6 +2746,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,6787,6787,Damphreux,Damphreux
 2005,6788,6809,Damvant,Haute-Ajoie
 2005,6789,6789,Fahy,Fahy
+2005,6790,6790,Fontenais,Fontenais
 2005,6791,6810,Fregiécourt,La Baroche
 2005,6792,6792,Grandfontaine,Grandfontaine
 2005,6793,6793,Lugnez,Lugnez
@@ -2856,10 +2937,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,301,301,Aarberg,Aarberg
 2006,302,302,Bargen (BE),Bargen (BE)
 2006,303,303,Grossaffoltern,Grossaffoltern
+2006,304,304,Kallnach,Kallnach
 2006,305,305,Kappelen,Kappelen
+2006,306,306,Lyss,Lyss
 2006,307,307,Meikirch,Meikirch
 2006,308,304,Niederried bei Kallnach,Kallnach
 2006,309,309,Radelfingen,Radelfingen
+2006,310,310,Rapperswil (BE),Rapperswil (BE)
 2006,311,311,Schüpfen,Schüpfen
 2006,312,312,Seedorf (BE),Seedorf (BE)
 2006,321,321,Aarwangen,Aarwangen
@@ -2870,8 +2954,10 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,326,326,Gondiswil,Gondiswil
 2006,327,332,Gutenburg,Madiswil
 2006,328,332,Kleindietwil,Madiswil
+2006,329,329,Langenthal,Langenthal
 2006,330,332,Leimiswil,Madiswil
 2006,331,331,Lotzwil,Lotzwil
+2006,332,332,Madiswil,Madiswil
 2006,333,333,Melchnau,Melchnau
 2006,334,334,Obersteckholz,Obersteckholz
 2006,335,335,Oeschenbach,Oeschenbach
@@ -2977,6 +3063,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,537,537,Etzelkofen,Etzelkofen
 2006,538,538,Fraubrunnen,Fraubrunnen
 2006,539,539,Grafenried,Grafenried
+2006,540,540,Jegenstorf,Jegenstorf
 2006,541,541,Iffwil,Iffwil
 2006,542,542,Limpach,Limpach
 2006,543,543,Mattstetten,Mattstetten
@@ -3039,7 +3126,9 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,613,613,Landiswil,Landiswil
 2006,614,614,Linden,Linden
 2006,615,615,Mirchel,Mirchel
+2006,616,616,Münsingen,Münsingen
 2006,617,617,Niederhünigen,Niederhünigen
+2006,619,619,Oberdiessbach,Oberdiessbach
 2006,620,620,Oberthal,Oberthal
 2006,622,622,Oppligen,Oppligen
 2006,623,623,Rubigen,Rubigen
@@ -3145,6 +3234,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,852,852,Guggisberg,Guggisberg
 2006,853,853,Rüschegg,Rüschegg
 2006,854,855,Wahlern,Schwarzenburg
+2006,861,861,Belp,Belp
 2006,862,861,Belpberg,Belp
 2006,863,863,Burgistein,Burgistein
 2006,865,865,Gelterfingen,Gelterfingen
@@ -3161,6 +3251,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,876,876,Mühlethurnen,Mühlethurnen
 2006,877,877,Niedermuhlern,Niedermuhlern
 2006,878,878,Noflen,Noflen
+2006,879,879,Riggisberg,Riggisberg
 2006,880,880,Rüeggisberg,Rüeggisberg
 2006,881,881,Rümligen,Rümligen
 2006,882,879,Rüti bei Riggisberg,Riggisberg
@@ -3217,10 +3308,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,960,960,Wyssachen,Wyssachen
 2006,971,971,Attiswil,Attiswil
 2006,972,972,Berken,Berken
+2006,973,973,Bettenhausen,Bettenhausen
 2006,974,973,Bollodingen,Bettenhausen
 2006,975,975,Farnern,Farnern
 2006,976,976,Graben,Graben
+2006,977,977,Heimenhausen,Heimenhausen
 2006,978,978,Hermiswil,Hermiswil
+2006,979,979,Herzogenbuchsee,Herzogenbuchsee
 2006,980,980,Inkwil,Inkwil
 2006,981,981,Niederbipp,Niederbipp
 2006,982,982,Niederönz,Niederönz
@@ -3255,7 +3349,9 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,1026,1026,Eschenbach (LU),Eschenbach (LU)
 2006,1027,1030,Gelfingen,Hitzkirch
 2006,1028,1030,Hämikon,Hitzkirch
+2006,1030,1030,Hitzkirch,Hitzkirch
 2006,1031,1031,Hochdorf,Hochdorf
+2006,1032,1032,Hohenrain,Hohenrain
 2006,1033,1033,Inwil,Inwil
 2006,1034,1032,Lieli,Hohenrain
 2006,1035,1030,Mosen,Hitzkirch
@@ -3276,6 +3372,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,1058,1058,Horw,Horw
 2006,1059,1059,Kriens,Kriens
 2006,1060,1061,Littau,Luzern
+2006,1061,1061,Luzern,Luzern
 2006,1062,1062,Malters,Malters
 2006,1063,1063,Meggen,Meggen
 2006,1064,1064,Meierskappel,Meierskappel
@@ -3284,6 +3381,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,1067,1067,Udligenswil,Udligenswil
 2006,1068,1068,Vitznau,Vitznau
 2006,1069,1069,Weggis,Weggis
+2006,1081,1081,Beromünster,Beromünster
 2006,1082,1082,Büron,Büron
 2006,1083,1083,Buttisholz,Buttisholz
 2006,1084,1084,Eich,Eich
@@ -3298,11 +3396,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,1094,1094,Nottwil,Nottwil
 2006,1095,1095,Oberkirch,Oberkirch
 2006,1096,1097,Pfeffikon,Rickenbach (LU)
+2006,1097,1097,Rickenbach (LU),Rickenbach (LU)
 2006,1098,1098,Ruswil,Ruswil
 2006,1099,1099,Schenkon,Schenkon
 2006,1100,1100,Schlierbach,Schlierbach
 2006,1102,1102,Sempach,Sempach
 2006,1103,1103,Sursee,Sursee
+2006,1104,1104,Triengen,Triengen
 2006,1106,1104,Winikon,Triengen
 2006,1107,1107,Wolhusen,Wolhusen
 2006,1121,1121,Alberswil,Alberswil
@@ -3323,6 +3423,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,1139,1139,Pfaffnau,Pfaffnau
 2006,1140,1140,Reiden,Reiden
 2006,1142,1142,Roggliswil,Roggliswil
+2006,1143,1143,Schötz,Schötz
 2006,1145,1145,Ufhusen,Ufhusen
 2006,1146,1146,Wauwil,Wauwil
 2006,1147,1147,Wikon,Wikon
@@ -3440,6 +3541,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,2011,2011,Cugy (FR),Cugy (FR)
 2006,2013,2013,Domdidier,Domdidier
 2006,2014,2014,Dompierre (FR),Dompierre (FR)
+2006,2015,2015,Estavayer-le-Lac,Estavayer-le-Lac
 2006,2016,2016,Fétigny,Fétigny
 2006,2017,2015,Font,Estavayer-le-Lac
 2006,2022,2022,Gletterens,Gletterens
@@ -3475,6 +3577,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,2096,2096,Romont (FR),Romont (FR)
 2006,2097,2097,Rue,Rue
 2006,2099,2099,Siviriez,Siviriez
+2006,2102,2102,Ursy,Ursy
 2006,2111,2111,Villaz-Saint-Pierre,Villaz-Saint-Pierre
 2006,2112,2102,Vuarmarens,Ursy
 2006,2113,2113,Vuisternens-dev-Romont,Vuisternens-dev-Romont
@@ -3489,6 +3592,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,2126,2126,Cerniat (FR),Cerniat (FR)
 2006,2127,2127,Charmey,Charmey
 2006,2128,2128,Châtel-sur-Montsalvens,Châtel-sur-Montsalvens
+2006,2129,2129,Corbières,Corbières
 2006,2130,2130,Crésuz,Crésuz
 2006,2131,2131,Echarlens,Echarlens
 2006,2134,2134,Grandvillard,Grandvillard
@@ -3561,6 +3665,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,2271,2271,Meyriez,Meyriez
 2006,2272,2272,Misery-Courtion,Misery-Courtion
 2006,2274,2274,Muntelier,Muntelier
+2006,2275,2275,Murten,Murten
 2006,2276,2276,Ried bei Kerzers,Ried bei Kerzers
 2006,2277,2277,Salvenach,Salvenach
 2006,2278,2278,Ulmiz,Ulmiz
@@ -3628,6 +3733,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,2454,2464,Lüsslingen,Lüsslingen-Nennigkofen
 2006,2455,2455,Lüterkofen-Ichertswil,Lüterkofen-Ichertswil
 2006,2456,2456,Lüterswil-Gächliwil,Lüterswil-Gächliwil
+2006,2457,2457,Messen,Messen
 2006,2458,2458,Mühledorf (SO),Mühledorf (SO)
 2006,2459,2464,Nennigkofen,Lüsslingen-Nennigkofen
 2006,2460,2457,Oberramsern,Messen
@@ -3656,6 +3762,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,2501,2501,Winznau,Winznau
 2006,2502,2502,Wisen (SO),Wisen (SO)
 2006,2503,2503,Erlinsbach (SO),Erlinsbach (SO)
+2006,2511,2511,Aeschi (SO),Aeschi (SO)
 2006,2513,2513,Biberist,Biberist
 2006,2514,2514,Bolken,Bolken
 2006,2516,2516,Deitingen,Deitingen
@@ -3689,6 +3796,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,2551,2551,Lommiswil,Lommiswil
 2006,2552,2554,Niederwil (SO),Riedholz
 2006,2553,2553,Oberdorf (SO),Oberdorf (SO)
+2006,2554,2554,Riedholz,Riedholz
 2006,2555,2555,Rüttenen,Rüttenen
 2006,2556,2556,Selzach,Selzach
 2006,2571,2571,Boningen,Boningen
@@ -3820,12 +3928,15 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,2917,2917,Lohn (SH),Lohn (SH)
 2006,2918,2920,Opfertshofen (SH),Thayngen
 2006,2919,2919,Stetten (SH),Stetten (SH)
+2006,2920,2920,Thayngen,Thayngen
 2006,2931,2931,Bargen (SH),Bargen (SH)
+2006,2932,2932,Beringen,Beringen
 2006,2933,2933,Buchberg,Buchberg
 2006,2934,2939,Hemmental,Schaffhausen
 2006,2936,2936,Merishausen,Merishausen
 2006,2937,2937,Neuhausen am Rheinfall,Neuhausen am Rheinfall
 2006,2938,2938,Rüdlingen,Rüdlingen
+2006,2939,2939,Schaffhausen,Schaffhausen
 2006,2951,2951,Beggingen,Beggingen
 2006,2952,2952,Schleitheim,Schleitheim
 2006,2953,2953,Siblingen,Siblingen
@@ -4025,6 +4136,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,3642,3671,Tumegl/Tomils,Tomils
 2006,3651,3672,Safien,Safiental
 2006,3652,3672,Tenna,Safiental
+2006,3661,3661,Cazis,Cazis
 2006,3662,3662,Flerden,Flerden
 2006,3663,3663,Masein,Masein
 2006,3664,3661,Portein,Cazis
@@ -4039,6 +4151,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,3693,3693,Nufenen,Nufenen
 2006,3694,3694,Splügen,Splügen
 2006,3695,3695,Sufers,Sufers
+2006,3701,3701,Andeer,Andeer
 2006,3702,3713,Ausserferrera,Ferrera
 2006,3703,3703,Casti-Wergenstein,Casti-Wergenstein
 2006,3704,3701,Clugin,Andeer
@@ -4107,6 +4220,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,3844,3847,Sta. Maria Val Müstair,Val Müstair
 2006,3845,3847,Tschierv,Val Müstair
 2006,3846,3847,Valchava,Val Müstair
+2006,3851,3851,Davos,Davos
 2006,3861,3861,Fideris,Fideris
 2006,3862,3862,Furna,Furna
 2006,3863,3863,Jenaz,Jenaz
@@ -4116,11 +4230,14 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,3883,3883,Saas,Saas
 2006,3891,3891,Luzein,Luzein
 2006,3892,3893,St. Antönien Ascharina,St. Antönien
+2006,3893,3893,St. Antönien,St. Antönien
 2006,3901,3901,Chur,Chur
+2006,3911,3911,Churwalden,Churwalden
 2006,3912,3911,Malix,Churwalden
 2006,3913,3911,Parpan,Churwalden
 2006,3914,3932,Praden,Tschiertschen-Praden
 2006,3915,3932,Tschiertschen,Tschiertschen-Praden
+2006,3921,3921,Arosa,Arosa
 2006,3922,3921,Calfreisen,Arosa
 2006,3923,3921,Castiel,Arosa
 2006,3924,3921,Langwies,Arosa
@@ -4134,12 +4251,14 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,3942,3955,Igis,Landquart
 2006,3943,3955,Mastrils,Landquart
 2006,3944,3945,Says,Trimmis
+2006,3945,3945,Trimmis,Trimmis
 2006,3946,3946,Untervaz,Untervaz
 2006,3947,3947,Zizers,Zizers
 2006,3951,3951,Fläsch,Fläsch
 2006,3952,3952,Jenins,Jenins
 2006,3953,3953,Maienfeld,Maienfeld
 2006,3954,3954,Malans,Malans
+2006,3961,3961,Grüsch,Grüsch
 2006,3962,3962,Schiers,Schiers
 2006,3971,3961,Fanas,Grüsch
 2006,3972,3972,Seewis im Prättigau,Seewis im Prättigau
@@ -4150,6 +4269,8 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,3984,3987,Schlans,Trun
 2006,3985,3985,Sumvitg,Sumvitg
 2006,3986,3986,Tujetsch,Tujetsch
+2006,3987,3987,Trun,Trun
+2006,4001,4001,Aarau,Aarau
 2006,4002,4002,Biberstein,Biberstein
 2006,4003,4003,Buchs (AG),Buchs (AG)
 2006,4004,4004,Densbüren,Densbüren
@@ -4207,6 +4328,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,4077,4077,Tägerig,Tägerig
 2006,4078,4078,Uezwil,Uezwil
 2006,4079,4079,Unterlunkhofen,Unterlunkhofen
+2006,4080,4080,Villmergen,Villmergen
 2006,4081,4081,Widen,Widen
 2006,4082,4082,Wohlen (AG),Wohlen (AG)
 2006,4083,4083,Zufikon,Zufikon
@@ -4215,6 +4337,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,4092,4092,Birr,Birr
 2006,4093,4093,Birrhard,Birrhard
 2006,4094,4094,Bözen,Bözen
+2006,4095,4095,Brugg,Brugg
 2006,4096,4096,Effingen,Effingen
 2006,4097,4097,Elfingen,Elfingen
 2006,4098,4124,Gallenkirch,Bözberg
@@ -4266,6 +4389,8 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,4166,4166,Herznach,Herznach
 2006,4167,4167,Hornussen,Hornussen
 2006,4168,4169,Ittenthal,Kaisten
+2006,4169,4169,Kaisten,Kaisten
+2006,4170,4170,Laufenburg,Laufenburg
 2006,4171,4184,Mettau,Mettauertal
 2006,4172,4172,Münchwilen (AG),Münchwilen (AG)
 2006,4173,4173,Oberhof,Oberhof
@@ -4312,6 +4437,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,4231,4231,Dietwil,Dietwil
 2006,4232,4232,Geltwil,Geltwil
 2006,4233,4233,Kallern,Kallern
+2006,4234,4234,Merenschwand,Merenschwand
 2006,4235,4235,Mühlau,Mühlau
 2006,4236,4236,Muri (AG),Muri (AG)
 2006,4237,4237,Oberrüti,Oberrüti
@@ -4485,6 +4611,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5068,5072,Cavagnago,Faido
 2006,5070,5072,Chironico,Faido
 2006,5071,5071,Dalpe,Dalpe
+2006,5072,5072,Faido,Faido
 2006,5073,5073,Giornico,Giornico
 2006,5074,5072,Mairengo,Faido
 2006,5075,5072,Osco,Faido
@@ -4541,6 +4668,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5148,5148,Bedano,Bedano
 2006,5149,5149,Bedigliora,Bedigliora
 2006,5150,5226,Bidogno,Capriasca
+2006,5151,5151,Bioggio,Bioggio
 2006,5153,5238,Bironico,Monteceneri
 2006,5154,5154,Bissone,Bissone
 2006,5155,5192,Bogno,Lugano
@@ -4566,6 +4694,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5188,5151,Iseo,Bioggio
 2006,5189,5189,Lamone,Lamone
 2006,5191,5226,Lugaggia,Capriasca
+2006,5192,5192,Lugano,Lugano
 2006,5193,5193,Magliaso,Magliaso
 2006,5194,5194,Manno,Manno
 2006,5195,5195,Maroggia,Maroggia
@@ -4592,12 +4721,14 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5223,5238,Sigirino,Monteceneri
 2006,5224,5192,Sonvico,Lugano
 2006,5225,5225,Sorengo,Sorengo
+2006,5226,5226,Capriasca,Capriasca
 2006,5227,5227,Torricella-Taverne,Torricella-Taverne
 2006,5229,5192,Valcolla,Lugano
 2006,5230,5230,Vernate,Vernate
 2006,5231,5231,Vezia,Vezia
 2006,5233,5233,Vico Morcote,Vico Morcote
 2006,5235,5192,Villa Luganese,Lugano
+2006,5236,5236,Collina d'Oro,Collina d'Oro
 2006,5237,5237,Alto Malcantone,Alto Malcantone
 2006,5241,5254,Arzo,Mendrisio
 2006,5242,5242,Balerna,Balerna
@@ -4611,6 +4742,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5251,5251,Coldrerio,Coldrerio
 2006,5252,5254,Genestrerio,Mendrisio
 2006,5253,5254,Ligornetto,Mendrisio
+2006,5254,5254,Mendrisio,Mendrisio
 2006,5255,5254,Meride,Mendrisio
 2006,5257,5257,Morbio Inferiore,Morbio Inferiore
 2006,5258,5269,Morbio Superiore,Breggia
@@ -4657,6 +4789,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5414,5414,Villeneuve (VD),Villeneuve (VD)
 2006,5415,5415,Yvorne,Yvorne
 2006,5421,5421,Apples,Apples
+2006,5422,5422,Aubonne,Aubonne
 2006,5423,5423,Ballens,Ballens
 2006,5424,5424,Berolle,Berolle
 2006,5425,5425,Bière,Bière
@@ -4672,6 +4805,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5435,5435,Saint-Livres,Saint-Livres
 2006,5436,5436,Saint-Oyens,Saint-Oyens
 2006,5437,5437,Saubraz,Saubraz
+2006,5451,5451,Avenches,Avenches
 2006,5452,5464,Bellerive (VD),Vully-les-Lacs
 2006,5453,5464,Chabrey,Vully-les-Lacs
 2006,5455,5464,Constantine,Vully-les-Lacs
@@ -4714,6 +4848,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5500,5500,Sévery,Sévery
 2006,5501,5501,Sullens,Sullens
 2006,5503,5503,Vufflens-la-Ville,Vufflens-la-Ville
+2006,5511,5511,Assens,Assens
 2006,5512,5512,Bercher,Bercher
 2006,5513,5513,Bioley-Orjulaz,Bioley-Orjulaz
 2006,5514,5514,Bottens,Bottens
@@ -4798,6 +4933,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5631,5631,Denens,Denens
 2006,5632,5632,Denges,Denges
 2006,5633,5633,Echandens,Echandens
+2006,5634,5634,Echichens,Echichens
 2006,5635,5635,Ecublens (VD),Ecublens (VD)
 2006,5636,5636,Etoy,Etoy
 2006,5637,5637,Lavigny,Lavigny
@@ -4833,6 +4969,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5672,5672,Forel-sur-Lucens,Forel-sur-Lucens
 2006,5673,5673,Hermenches,Hermenches
 2006,5674,5674,Lovatens,Lovatens
+2006,5675,5675,Lucens,Lucens
 2006,5676,5693,Martherenges,Montanaire
 2006,5677,5804,Montaubion-Chardonney,Jorat-Menthue
 2006,5678,5678,Moudon,Moudon
@@ -4924,6 +5061,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5795,5805,Palézieux,Oron
 2006,5796,5804,Peney-le-Jorat,Jorat-Menthue
 2006,5798,5798,Ropraz,Ropraz
+2006,5799,5799,Servion,Servion
 2006,5800,5805,Les Tavernes,Oron
 2006,5801,5805,Les Thioleyres,Oron
 2006,5802,5805,Vuibroye,Oron
@@ -4978,6 +5116,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5902,5902,Belmont-sur-Yverdon,Belmont-sur-Yverdon
 2006,5903,5903,Bioley-Magnoux,Bioley-Magnoux
 2006,5904,5904,Chamblon,Chamblon
+2006,5905,5905,Champvent,Champvent
 2006,5906,5693,Chanéaz,Montanaire
 2006,5907,5907,Chavannes-le-Chêne,Chavannes-le-Chêne
 2006,5908,5908,Chêne-Pâquier,Chêne-Pâquier
@@ -4985,6 +5124,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5910,5910,Cronay,Cronay
 2006,5911,5911,Cuarny,Cuarny
 2006,5912,5912,Démoret,Démoret
+2006,5913,5913,Donneloye,Donneloye
 2006,5914,5914,Ependes (VD),Ependes (VD)
 2006,5915,5915,Essert-Pittet,Essert-Pittet
 2006,5916,5905,Essert-sous-Champvent,Champvent
@@ -5009,11 +5149,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5935,5935,Villars-Epeney,Villars-Epeney
 2006,5936,5905,Villars-sous-Champvent,Champvent
 2006,5937,5937,Vugelles-La Mothe,Vugelles-La Mothe
+2006,5938,5938,Yverdon-les-Bains,Yverdon-les-Bains
 2006,5939,5939,Yvonand,Yvonand
 2006,6001,6007,Birgisch,Naters
 2006,6002,6002,Brig-Glis,Brig-Glis
 2006,6004,6004,Eggerberg,Eggerberg
 2006,6006,6007,Mund,Naters
+2006,6007,6007,Naters,Naters
 2006,6008,6008,Ried-Brig,Ried-Brig
 2006,6009,6009,Simplon,Simplon
 2006,6010,6010,Termen,Termen
@@ -5059,6 +5201,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,6105,6110,Erschmatt,Leuk
 2006,6107,6118,Gampel,Gampel-Bratsch
 2006,6109,6109,Inden,Inden
+2006,6110,6110,Leuk,Leuk
 2006,6111,6111,Leukerbad,Leukerbad
 2006,6112,6112,Oberems,Oberems
 2006,6113,6113,Salgesch,Salgesch
@@ -5112,6 +5255,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,6214,6214,Finhaut,Finhaut
 2006,6215,6215,Massongex,Massongex
 2006,6216,6217,Mex (VS),Saint-Maurice
+2006,6217,6217,Saint-Maurice,Saint-Maurice
 2006,6218,6218,Salvan,Salvan
 2006,6219,6219,Vernayaz,Vernayaz
 2006,6220,6220,Vérossaz,Vérossaz
@@ -5139,6 +5283,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,6263,6263,Grimisuat,Grimisuat
 2006,6264,6266,Salins,Sion
 2006,6265,6265,Savièse,Savièse
+2006,6266,6266,Sion,Sion
 2006,6267,6267,Veysonnaz,Veysonnaz
 2006,6281,6281,Baltschieder,Baltschieder
 2006,6282,6282,Eisten,Eisten
@@ -5305,10 +5450,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,6748,6748,Les Genevez (JU),Les Genevez (JU)
 2006,6749,6757,Goumois,Saignelégier
 2006,6750,6750,Lajoux (JU),Lajoux (JU)
+2006,6751,6751,Montfaucon,Montfaucon
 2006,6752,6751,Montfavergier,Montfaucon
+2006,6753,6753,Muriaux,Muriaux
 2006,6754,6754,Le Noirmont,Le Noirmont
 2006,6755,6753,Le Peuchapatte,Muriaux
 2006,6756,6757,Les Pommerats,Saignelégier
+2006,6757,6757,Saignelégier,Saignelégier
 2006,6758,6758,Saint-Brais,Saint-Brais
 2006,6759,6759,Soubey,Soubey
 2006,6771,6771,Alle,Alle
@@ -5330,6 +5478,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,6787,6787,Damphreux,Damphreux
 2006,6788,6809,Damvant,Haute-Ajoie
 2006,6789,6789,Fahy,Fahy
+2006,6790,6790,Fontenais,Fontenais
 2006,6791,6810,Fregiécourt,La Baroche
 2006,6792,6792,Grandfontaine,Grandfontaine
 2006,6793,6793,Lugnez,Lugnez
@@ -5520,10 +5669,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,301,301,Aarberg,Aarberg
 2007,302,302,Bargen (BE),Bargen (BE)
 2007,303,303,Grossaffoltern,Grossaffoltern
+2007,304,304,Kallnach,Kallnach
 2007,305,305,Kappelen,Kappelen
+2007,306,306,Lyss,Lyss
 2007,307,307,Meikirch,Meikirch
 2007,308,304,Niederried bei Kallnach,Kallnach
 2007,309,309,Radelfingen,Radelfingen
+2007,310,310,Rapperswil (BE),Rapperswil (BE)
 2007,311,311,Schüpfen,Schüpfen
 2007,312,312,Seedorf (BE),Seedorf (BE)
 2007,321,321,Aarwangen,Aarwangen
@@ -5533,8 +5685,10 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,325,325,Busswil bei Melchnau,Busswil bei Melchnau
 2007,326,326,Gondiswil,Gondiswil
 2007,328,332,Kleindietwil,Madiswil
+2007,329,329,Langenthal,Langenthal
 2007,330,332,Leimiswil,Madiswil
 2007,331,331,Lotzwil,Lotzwil
+2007,332,332,Madiswil,Madiswil
 2007,333,333,Melchnau,Melchnau
 2007,334,334,Obersteckholz,Obersteckholz
 2007,335,335,Oeschenbach,Oeschenbach
@@ -5640,6 +5794,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,537,537,Etzelkofen,Etzelkofen
 2007,538,538,Fraubrunnen,Fraubrunnen
 2007,539,539,Grafenried,Grafenried
+2007,540,540,Jegenstorf,Jegenstorf
 2007,541,541,Iffwil,Iffwil
 2007,542,542,Limpach,Limpach
 2007,543,543,Mattstetten,Mattstetten
@@ -5702,7 +5857,9 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,613,613,Landiswil,Landiswil
 2007,614,614,Linden,Linden
 2007,615,615,Mirchel,Mirchel
+2007,616,616,Münsingen,Münsingen
 2007,617,617,Niederhünigen,Niederhünigen
+2007,619,619,Oberdiessbach,Oberdiessbach
 2007,620,620,Oberthal,Oberthal
 2007,622,622,Oppligen,Oppligen
 2007,623,623,Rubigen,Rubigen
@@ -5808,6 +5965,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,852,852,Guggisberg,Guggisberg
 2007,853,853,Rüschegg,Rüschegg
 2007,854,855,Wahlern,Schwarzenburg
+2007,861,861,Belp,Belp
 2007,862,861,Belpberg,Belp
 2007,863,863,Burgistein,Burgistein
 2007,865,865,Gelterfingen,Gelterfingen
@@ -5824,6 +5982,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,876,876,Mühlethurnen,Mühlethurnen
 2007,877,877,Niedermuhlern,Niedermuhlern
 2007,878,878,Noflen,Noflen
+2007,879,879,Riggisberg,Riggisberg
 2007,880,880,Rüeggisberg,Rüeggisberg
 2007,881,881,Rümligen,Rümligen
 2007,882,879,Rüti bei Riggisberg,Riggisberg
@@ -5879,10 +6038,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,960,960,Wyssachen,Wyssachen
 2007,971,971,Attiswil,Attiswil
 2007,972,972,Berken,Berken
+2007,973,973,Bettenhausen,Bettenhausen
 2007,974,973,Bollodingen,Bettenhausen
 2007,975,975,Farnern,Farnern
 2007,976,976,Graben,Graben
+2007,977,977,Heimenhausen,Heimenhausen
 2007,978,978,Hermiswil,Hermiswil
+2007,979,979,Herzogenbuchsee,Herzogenbuchsee
 2007,980,980,Inkwil,Inkwil
 2007,981,981,Niederbipp,Niederbipp
 2007,982,982,Niederönz,Niederönz
@@ -5917,6 +6079,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,1026,1026,Eschenbach (LU),Eschenbach (LU)
 2007,1027,1030,Gelfingen,Hitzkirch
 2007,1028,1030,Hämikon,Hitzkirch
+2007,1030,1030,Hitzkirch,Hitzkirch
 2007,1031,1031,Hochdorf,Hochdorf
 2007,1032,1032,Hohenrain,Hohenrain
 2007,1033,1033,Inwil,Inwil
@@ -5938,6 +6101,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,1058,1058,Horw,Horw
 2007,1059,1059,Kriens,Kriens
 2007,1060,1061,Littau,Luzern
+2007,1061,1061,Luzern,Luzern
 2007,1062,1062,Malters,Malters
 2007,1063,1063,Meggen,Meggen
 2007,1064,1064,Meierskappel,Meierskappel
@@ -5946,6 +6110,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,1067,1067,Udligenswil,Udligenswil
 2007,1068,1068,Vitznau,Vitznau
 2007,1069,1069,Weggis,Weggis
+2007,1081,1081,Beromünster,Beromünster
 2007,1082,1082,Büron,Büron
 2007,1083,1083,Buttisholz,Buttisholz
 2007,1084,1084,Eich,Eich
@@ -5960,11 +6125,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,1094,1094,Nottwil,Nottwil
 2007,1095,1095,Oberkirch,Oberkirch
 2007,1096,1097,Pfeffikon,Rickenbach (LU)
+2007,1097,1097,Rickenbach (LU),Rickenbach (LU)
 2007,1098,1098,Ruswil,Ruswil
 2007,1099,1099,Schenkon,Schenkon
 2007,1100,1100,Schlierbach,Schlierbach
 2007,1102,1102,Sempach,Sempach
 2007,1103,1103,Sursee,Sursee
+2007,1104,1104,Triengen,Triengen
 2007,1106,1104,Winikon,Triengen
 2007,1107,1107,Wolhusen,Wolhusen
 2007,1121,1121,Alberswil,Alberswil
@@ -5985,6 +6152,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,1139,1139,Pfaffnau,Pfaffnau
 2007,1140,1140,Reiden,Reiden
 2007,1142,1142,Roggliswil,Roggliswil
+2007,1143,1143,Schötz,Schötz
 2007,1145,1145,Ufhusen,Ufhusen
 2007,1146,1146,Wauwil,Wauwil
 2007,1147,1147,Wikon,Wikon
@@ -6102,6 +6270,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,2011,2011,Cugy (FR),Cugy (FR)
 2007,2013,2013,Domdidier,Domdidier
 2007,2014,2014,Dompierre (FR),Dompierre (FR)
+2007,2015,2015,Estavayer-le-Lac,Estavayer-le-Lac
 2007,2016,2016,Fétigny,Fétigny
 2007,2017,2015,Font,Estavayer-le-Lac
 2007,2022,2022,Gletterens,Gletterens
@@ -6137,6 +6306,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,2096,2096,Romont (FR),Romont (FR)
 2007,2097,2097,Rue,Rue
 2007,2099,2099,Siviriez,Siviriez
+2007,2102,2102,Ursy,Ursy
 2007,2111,2111,Villaz-Saint-Pierre,Villaz-Saint-Pierre
 2007,2112,2102,Vuarmarens,Ursy
 2007,2113,2113,Vuisternens-dev-Romont,Vuisternens-dev-Romont
@@ -6151,6 +6321,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,2126,2126,Cerniat (FR),Cerniat (FR)
 2007,2127,2127,Charmey,Charmey
 2007,2128,2128,Châtel-sur-Montsalvens,Châtel-sur-Montsalvens
+2007,2129,2129,Corbières,Corbières
 2007,2130,2130,Crésuz,Crésuz
 2007,2131,2131,Echarlens,Echarlens
 2007,2134,2134,Grandvillard,Grandvillard
@@ -6223,6 +6394,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,2271,2271,Meyriez,Meyriez
 2007,2272,2272,Misery-Courtion,Misery-Courtion
 2007,2274,2274,Muntelier,Muntelier
+2007,2275,2275,Murten,Murten
 2007,2276,2276,Ried bei Kerzers,Ried bei Kerzers
 2007,2277,2277,Salvenach,Salvenach
 2007,2278,2278,Ulmiz,Ulmiz
@@ -6290,6 +6462,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,2454,2464,Lüsslingen,Lüsslingen-Nennigkofen
 2007,2455,2455,Lüterkofen-Ichertswil,Lüterkofen-Ichertswil
 2007,2456,2456,Lüterswil-Gächliwil,Lüterswil-Gächliwil
+2007,2457,2457,Messen,Messen
 2007,2458,2458,Mühledorf (SO),Mühledorf (SO)
 2007,2459,2464,Nennigkofen,Lüsslingen-Nennigkofen
 2007,2460,2457,Oberramsern,Messen
@@ -6318,6 +6491,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,2501,2501,Winznau,Winznau
 2007,2502,2502,Wisen (SO),Wisen (SO)
 2007,2503,2503,Erlinsbach (SO),Erlinsbach (SO)
+2007,2511,2511,Aeschi (SO),Aeschi (SO)
 2007,2513,2513,Biberist,Biberist
 2007,2514,2514,Bolken,Bolken
 2007,2516,2516,Deitingen,Deitingen
@@ -6351,6 +6525,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,2551,2551,Lommiswil,Lommiswil
 2007,2552,2554,Niederwil (SO),Riedholz
 2007,2553,2553,Oberdorf (SO),Oberdorf (SO)
+2007,2554,2554,Riedholz,Riedholz
 2007,2555,2555,Rüttenen,Rüttenen
 2007,2556,2556,Selzach,Selzach
 2007,2571,2571,Boningen,Boningen
@@ -6482,12 +6657,15 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,2917,2917,Lohn (SH),Lohn (SH)
 2007,2918,2920,Opfertshofen (SH),Thayngen
 2007,2919,2919,Stetten (SH),Stetten (SH)
+2007,2920,2920,Thayngen,Thayngen
 2007,2931,2931,Bargen (SH),Bargen (SH)
+2007,2932,2932,Beringen,Beringen
 2007,2933,2933,Buchberg,Buchberg
 2007,2934,2939,Hemmental,Schaffhausen
 2007,2936,2936,Merishausen,Merishausen
 2007,2937,2937,Neuhausen am Rheinfall,Neuhausen am Rheinfall
 2007,2938,2938,Rüdlingen,Rüdlingen
+2007,2939,2939,Schaffhausen,Schaffhausen
 2007,2951,2951,Beggingen,Beggingen
 2007,2952,2952,Schleitheim,Schleitheim
 2007,2953,2953,Siblingen,Siblingen
@@ -6686,6 +6864,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,3642,3671,Tumegl/Tomils,Tomils
 2007,3651,3672,Safien,Safiental
 2007,3652,3672,Tenna,Safiental
+2007,3661,3661,Cazis,Cazis
 2007,3662,3662,Flerden,Flerden
 2007,3663,3663,Masein,Masein
 2007,3664,3661,Portein,Cazis
@@ -6700,6 +6879,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,3693,3693,Nufenen,Nufenen
 2007,3694,3694,Splügen,Splügen
 2007,3695,3695,Sufers,Sufers
+2007,3701,3701,Andeer,Andeer
 2007,3702,3713,Ausserferrera,Ferrera
 2007,3703,3703,Casti-Wergenstein,Casti-Wergenstein
 2007,3704,3701,Clugin,Andeer
@@ -6768,6 +6948,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,3844,3847,Sta. Maria Val Müstair,Val Müstair
 2007,3845,3847,Tschierv,Val Müstair
 2007,3846,3847,Valchava,Val Müstair
+2007,3851,3851,Davos,Davos
 2007,3861,3861,Fideris,Fideris
 2007,3862,3862,Furna,Furna
 2007,3863,3863,Jenaz,Jenaz
@@ -6778,10 +6959,12 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,3891,3891,Luzein,Luzein
 2007,3893,3893,St. Antönien,St. Antönien
 2007,3901,3901,Chur,Chur
+2007,3911,3911,Churwalden,Churwalden
 2007,3912,3911,Malix,Churwalden
 2007,3913,3911,Parpan,Churwalden
 2007,3914,3932,Praden,Tschiertschen-Praden
 2007,3915,3932,Tschiertschen,Tschiertschen-Praden
+2007,3921,3921,Arosa,Arosa
 2007,3922,3921,Calfreisen,Arosa
 2007,3923,3921,Castiel,Arosa
 2007,3924,3921,Langwies,Arosa
@@ -6795,12 +6978,14 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,3942,3955,Igis,Landquart
 2007,3943,3955,Mastrils,Landquart
 2007,3944,3945,Says,Trimmis
+2007,3945,3945,Trimmis,Trimmis
 2007,3946,3946,Untervaz,Untervaz
 2007,3947,3947,Zizers,Zizers
 2007,3951,3951,Fläsch,Fläsch
 2007,3952,3952,Jenins,Jenins
 2007,3953,3953,Maienfeld,Maienfeld
 2007,3954,3954,Malans,Malans
+2007,3961,3961,Grüsch,Grüsch
 2007,3962,3962,Schiers,Schiers
 2007,3971,3961,Fanas,Grüsch
 2007,3972,3972,Seewis im Prättigau,Seewis im Prättigau
@@ -6811,6 +6996,8 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,3984,3987,Schlans,Trun
 2007,3985,3985,Sumvitg,Sumvitg
 2007,3986,3986,Tujetsch,Tujetsch
+2007,3987,3987,Trun,Trun
+2007,4001,4001,Aarau,Aarau
 2007,4002,4002,Biberstein,Biberstein
 2007,4003,4003,Buchs (AG),Buchs (AG)
 2007,4004,4004,Densbüren,Densbüren
@@ -6868,6 +7055,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,4077,4077,Tägerig,Tägerig
 2007,4078,4078,Uezwil,Uezwil
 2007,4079,4079,Unterlunkhofen,Unterlunkhofen
+2007,4080,4080,Villmergen,Villmergen
 2007,4081,4081,Widen,Widen
 2007,4082,4082,Wohlen (AG),Wohlen (AG)
 2007,4083,4083,Zufikon,Zufikon
@@ -6876,6 +7064,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,4092,4092,Birr,Birr
 2007,4093,4093,Birrhard,Birrhard
 2007,4094,4094,Bözen,Bözen
+2007,4095,4095,Brugg,Brugg
 2007,4096,4096,Effingen,Effingen
 2007,4097,4097,Elfingen,Elfingen
 2007,4098,4124,Gallenkirch,Bözberg
@@ -6927,6 +7116,8 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,4166,4166,Herznach,Herznach
 2007,4167,4167,Hornussen,Hornussen
 2007,4168,4169,Ittenthal,Kaisten
+2007,4169,4169,Kaisten,Kaisten
+2007,4170,4170,Laufenburg,Laufenburg
 2007,4171,4184,Mettau,Mettauertal
 2007,4172,4172,Münchwilen (AG),Münchwilen (AG)
 2007,4173,4173,Oberhof,Oberhof
@@ -6973,6 +7164,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,4231,4231,Dietwil,Dietwil
 2007,4232,4232,Geltwil,Geltwil
 2007,4233,4233,Kallern,Kallern
+2007,4234,4234,Merenschwand,Merenschwand
 2007,4235,4235,Mühlau,Mühlau
 2007,4236,4236,Muri (AG),Muri (AG)
 2007,4237,4237,Oberrüti,Oberrüti
@@ -7146,6 +7338,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5068,5072,Cavagnago,Faido
 2007,5070,5072,Chironico,Faido
 2007,5071,5071,Dalpe,Dalpe
+2007,5072,5072,Faido,Faido
 2007,5073,5073,Giornico,Giornico
 2007,5074,5072,Mairengo,Faido
 2007,5075,5072,Osco,Faido
@@ -7202,6 +7395,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5148,5148,Bedano,Bedano
 2007,5149,5149,Bedigliora,Bedigliora
 2007,5150,5226,Bidogno,Capriasca
+2007,5151,5151,Bioggio,Bioggio
 2007,5153,5238,Bironico,Monteceneri
 2007,5154,5154,Bissone,Bissone
 2007,5155,5192,Bogno,Lugano
@@ -7227,6 +7421,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5188,5151,Iseo,Bioggio
 2007,5189,5189,Lamone,Lamone
 2007,5191,5226,Lugaggia,Capriasca
+2007,5192,5192,Lugano,Lugano
 2007,5193,5193,Magliaso,Magliaso
 2007,5194,5194,Manno,Manno
 2007,5195,5195,Maroggia,Maroggia
@@ -7253,12 +7448,14 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5223,5238,Sigirino,Monteceneri
 2007,5224,5192,Sonvico,Lugano
 2007,5225,5225,Sorengo,Sorengo
+2007,5226,5226,Capriasca,Capriasca
 2007,5227,5227,Torricella-Taverne,Torricella-Taverne
 2007,5229,5192,Valcolla,Lugano
 2007,5230,5230,Vernate,Vernate
 2007,5231,5231,Vezia,Vezia
 2007,5233,5233,Vico Morcote,Vico Morcote
 2007,5235,5192,Villa Luganese,Lugano
+2007,5236,5236,Collina d'Oro,Collina d'Oro
 2007,5237,5237,Alto Malcantone,Alto Malcantone
 2007,5241,5254,Arzo,Mendrisio
 2007,5242,5242,Balerna,Balerna
@@ -7272,6 +7469,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5251,5251,Coldrerio,Coldrerio
 2007,5252,5254,Genestrerio,Mendrisio
 2007,5253,5254,Ligornetto,Mendrisio
+2007,5254,5254,Mendrisio,Mendrisio
 2007,5255,5254,Meride,Mendrisio
 2007,5257,5257,Morbio Inferiore,Morbio Inferiore
 2007,5258,5269,Morbio Superiore,Breggia
@@ -7318,6 +7516,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5414,5414,Villeneuve (VD),Villeneuve (VD)
 2007,5415,5415,Yvorne,Yvorne
 2007,5421,5421,Apples,Apples
+2007,5422,5422,Aubonne,Aubonne
 2007,5423,5423,Ballens,Ballens
 2007,5424,5424,Berolle,Berolle
 2007,5425,5425,Bière,Bière
@@ -7333,6 +7532,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5435,5435,Saint-Livres,Saint-Livres
 2007,5436,5436,Saint-Oyens,Saint-Oyens
 2007,5437,5437,Saubraz,Saubraz
+2007,5451,5451,Avenches,Avenches
 2007,5452,5464,Bellerive (VD),Vully-les-Lacs
 2007,5453,5464,Chabrey,Vully-les-Lacs
 2007,5455,5464,Constantine,Vully-les-Lacs
@@ -7375,6 +7575,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5500,5500,Sévery,Sévery
 2007,5501,5501,Sullens,Sullens
 2007,5503,5503,Vufflens-la-Ville,Vufflens-la-Ville
+2007,5511,5511,Assens,Assens
 2007,5512,5512,Bercher,Bercher
 2007,5513,5513,Bioley-Orjulaz,Bioley-Orjulaz
 2007,5514,5514,Bottens,Bottens
@@ -7459,6 +7660,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5631,5631,Denens,Denens
 2007,5632,5632,Denges,Denges
 2007,5633,5633,Echandens,Echandens
+2007,5634,5634,Echichens,Echichens
 2007,5635,5635,Ecublens (VD),Ecublens (VD)
 2007,5636,5636,Etoy,Etoy
 2007,5637,5637,Lavigny,Lavigny
@@ -7494,6 +7696,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5672,5672,Forel-sur-Lucens,Forel-sur-Lucens
 2007,5673,5673,Hermenches,Hermenches
 2007,5674,5674,Lovatens,Lovatens
+2007,5675,5675,Lucens,Lucens
 2007,5676,5693,Martherenges,Montanaire
 2007,5677,5804,Montaubion-Chardonney,Jorat-Menthue
 2007,5678,5678,Moudon,Moudon
@@ -7585,6 +7788,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5795,5805,Palézieux,Oron
 2007,5796,5804,Peney-le-Jorat,Jorat-Menthue
 2007,5798,5798,Ropraz,Ropraz
+2007,5799,5799,Servion,Servion
 2007,5800,5805,Les Tavernes,Oron
 2007,5801,5805,Les Thioleyres,Oron
 2007,5802,5805,Vuibroye,Oron
@@ -7639,6 +7843,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5902,5902,Belmont-sur-Yverdon,Belmont-sur-Yverdon
 2007,5903,5903,Bioley-Magnoux,Bioley-Magnoux
 2007,5904,5904,Chamblon,Chamblon
+2007,5905,5905,Champvent,Champvent
 2007,5906,5693,Chanéaz,Montanaire
 2007,5907,5907,Chavannes-le-Chêne,Chavannes-le-Chêne
 2007,5908,5908,Chêne-Pâquier,Chêne-Pâquier
@@ -7646,6 +7851,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5910,5910,Cronay,Cronay
 2007,5911,5911,Cuarny,Cuarny
 2007,5912,5912,Démoret,Démoret
+2007,5913,5913,Donneloye,Donneloye
 2007,5914,5914,Ependes (VD),Ependes (VD)
 2007,5915,5915,Essert-Pittet,Essert-Pittet
 2007,5916,5905,Essert-sous-Champvent,Champvent
@@ -7670,11 +7876,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5935,5935,Villars-Epeney,Villars-Epeney
 2007,5936,5905,Villars-sous-Champvent,Champvent
 2007,5937,5937,Vugelles-La Mothe,Vugelles-La Mothe
+2007,5938,5938,Yverdon-les-Bains,Yverdon-les-Bains
 2007,5939,5939,Yvonand,Yvonand
 2007,6001,6007,Birgisch,Naters
 2007,6002,6002,Brig-Glis,Brig-Glis
 2007,6004,6004,Eggerberg,Eggerberg
 2007,6006,6007,Mund,Naters
+2007,6007,6007,Naters,Naters
 2007,6008,6008,Ried-Brig,Ried-Brig
 2007,6009,6009,Simplon,Simplon
 2007,6010,6010,Termen,Termen
@@ -7720,6 +7928,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,6105,6110,Erschmatt,Leuk
 2007,6107,6118,Gampel,Gampel-Bratsch
 2007,6109,6109,Inden,Inden
+2007,6110,6110,Leuk,Leuk
 2007,6111,6111,Leukerbad,Leukerbad
 2007,6112,6112,Oberems,Oberems
 2007,6113,6113,Salgesch,Salgesch
@@ -7773,6 +7982,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,6214,6214,Finhaut,Finhaut
 2007,6215,6215,Massongex,Massongex
 2007,6216,6217,Mex (VS),Saint-Maurice
+2007,6217,6217,Saint-Maurice,Saint-Maurice
 2007,6218,6218,Salvan,Salvan
 2007,6219,6219,Vernayaz,Vernayaz
 2007,6220,6220,Vérossaz,Vérossaz
@@ -7800,6 +8010,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,6263,6263,Grimisuat,Grimisuat
 2007,6264,6266,Salins,Sion
 2007,6265,6265,Savièse,Savièse
+2007,6266,6266,Sion,Sion
 2007,6267,6267,Veysonnaz,Veysonnaz
 2007,6281,6281,Baltschieder,Baltschieder
 2007,6282,6282,Eisten,Eisten
@@ -7966,10 +8177,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,6748,6748,Les Genevez (JU),Les Genevez (JU)
 2007,6749,6757,Goumois,Saignelégier
 2007,6750,6750,Lajoux (JU),Lajoux (JU)
+2007,6751,6751,Montfaucon,Montfaucon
 2007,6752,6751,Montfavergier,Montfaucon
+2007,6753,6753,Muriaux,Muriaux
 2007,6754,6754,Le Noirmont,Le Noirmont
 2007,6755,6753,Le Peuchapatte,Muriaux
 2007,6756,6757,Les Pommerats,Saignelégier
+2007,6757,6757,Saignelégier,Saignelégier
 2007,6758,6758,Saint-Brais,Saint-Brais
 2007,6759,6759,Soubey,Soubey
 2007,6771,6771,Alle,Alle
@@ -7991,6 +8205,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,6787,6787,Damphreux,Damphreux
 2007,6788,6809,Damvant,Haute-Ajoie
 2007,6789,6789,Fahy,Fahy
+2007,6790,6790,Fontenais,Fontenais
 2007,6791,6810,Fregiécourt,La Baroche
 2007,6792,6792,Grandfontaine,Grandfontaine
 2007,6793,6793,Lugnez,Lugnez
@@ -8181,10 +8396,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,301,301,Aarberg,Aarberg
 2008,302,302,Bargen (BE),Bargen (BE)
 2008,303,303,Grossaffoltern,Grossaffoltern
+2008,304,304,Kallnach,Kallnach
 2008,305,305,Kappelen,Kappelen
+2008,306,306,Lyss,Lyss
 2008,307,307,Meikirch,Meikirch
 2008,308,304,Niederried bei Kallnach,Kallnach
 2008,309,309,Radelfingen,Radelfingen
+2008,310,310,Rapperswil (BE),Rapperswil (BE)
 2008,311,311,Schüpfen,Schüpfen
 2008,312,312,Seedorf (BE),Seedorf (BE)
 2008,321,321,Aarwangen,Aarwangen
@@ -8194,8 +8412,10 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,325,325,Busswil bei Melchnau,Busswil bei Melchnau
 2008,326,326,Gondiswil,Gondiswil
 2008,328,332,Kleindietwil,Madiswil
+2008,329,329,Langenthal,Langenthal
 2008,330,332,Leimiswil,Madiswil
 2008,331,331,Lotzwil,Lotzwil
+2008,332,332,Madiswil,Madiswil
 2008,333,333,Melchnau,Melchnau
 2008,334,334,Obersteckholz,Obersteckholz
 2008,335,335,Oeschenbach,Oeschenbach
@@ -8301,6 +8521,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,537,537,Etzelkofen,Etzelkofen
 2008,538,538,Fraubrunnen,Fraubrunnen
 2008,539,539,Grafenried,Grafenried
+2008,540,540,Jegenstorf,Jegenstorf
 2008,541,541,Iffwil,Iffwil
 2008,542,542,Limpach,Limpach
 2008,543,543,Mattstetten,Mattstetten
@@ -8363,7 +8584,9 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,613,613,Landiswil,Landiswil
 2008,614,614,Linden,Linden
 2008,615,615,Mirchel,Mirchel
+2008,616,616,Münsingen,Münsingen
 2008,617,617,Niederhünigen,Niederhünigen
+2008,619,619,Oberdiessbach,Oberdiessbach
 2008,620,620,Oberthal,Oberthal
 2008,622,622,Oppligen,Oppligen
 2008,623,623,Rubigen,Rubigen
@@ -8469,6 +8692,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,852,852,Guggisberg,Guggisberg
 2008,853,853,Rüschegg,Rüschegg
 2008,854,855,Wahlern,Schwarzenburg
+2008,861,861,Belp,Belp
 2008,862,861,Belpberg,Belp
 2008,863,863,Burgistein,Burgistein
 2008,865,865,Gelterfingen,Gelterfingen
@@ -8485,6 +8709,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,876,876,Mühlethurnen,Mühlethurnen
 2008,877,877,Niedermuhlern,Niedermuhlern
 2008,878,878,Noflen,Noflen
+2008,879,879,Riggisberg,Riggisberg
 2008,880,880,Rüeggisberg,Rüeggisberg
 2008,881,881,Rümligen,Rümligen
 2008,882,879,Rüti bei Riggisberg,Riggisberg
@@ -8540,9 +8765,11 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,960,960,Wyssachen,Wyssachen
 2008,971,971,Attiswil,Attiswil
 2008,972,972,Berken,Berken
+2008,973,973,Bettenhausen,Bettenhausen
 2008,974,973,Bollodingen,Bettenhausen
 2008,975,975,Farnern,Farnern
 2008,976,976,Graben,Graben
+2008,977,977,Heimenhausen,Heimenhausen
 2008,978,978,Hermiswil,Hermiswil
 2008,979,979,Herzogenbuchsee,Herzogenbuchsee
 2008,980,980,Inkwil,Inkwil
@@ -8578,6 +8805,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,1026,1026,Eschenbach (LU),Eschenbach (LU)
 2008,1027,1030,Gelfingen,Hitzkirch
 2008,1028,1030,Hämikon,Hitzkirch
+2008,1030,1030,Hitzkirch,Hitzkirch
 2008,1031,1031,Hochdorf,Hochdorf
 2008,1032,1032,Hohenrain,Hohenrain
 2008,1033,1033,Inwil,Inwil
@@ -8599,6 +8827,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,1058,1058,Horw,Horw
 2008,1059,1059,Kriens,Kriens
 2008,1060,1061,Littau,Luzern
+2008,1061,1061,Luzern,Luzern
 2008,1062,1062,Malters,Malters
 2008,1063,1063,Meggen,Meggen
 2008,1064,1064,Meierskappel,Meierskappel
@@ -8607,6 +8836,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,1067,1067,Udligenswil,Udligenswil
 2008,1068,1068,Vitznau,Vitznau
 2008,1069,1069,Weggis,Weggis
+2008,1081,1081,Beromünster,Beromünster
 2008,1082,1082,Büron,Büron
 2008,1083,1083,Buttisholz,Buttisholz
 2008,1084,1084,Eich,Eich
@@ -8621,11 +8851,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,1094,1094,Nottwil,Nottwil
 2008,1095,1095,Oberkirch,Oberkirch
 2008,1096,1097,Pfeffikon,Rickenbach (LU)
+2008,1097,1097,Rickenbach (LU),Rickenbach (LU)
 2008,1098,1098,Ruswil,Ruswil
 2008,1099,1099,Schenkon,Schenkon
 2008,1100,1100,Schlierbach,Schlierbach
 2008,1102,1102,Sempach,Sempach
 2008,1103,1103,Sursee,Sursee
+2008,1104,1104,Triengen,Triengen
 2008,1106,1104,Winikon,Triengen
 2008,1107,1107,Wolhusen,Wolhusen
 2008,1121,1121,Alberswil,Alberswil
@@ -8646,6 +8878,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,1139,1139,Pfaffnau,Pfaffnau
 2008,1140,1140,Reiden,Reiden
 2008,1142,1142,Roggliswil,Roggliswil
+2008,1143,1143,Schötz,Schötz
 2008,1145,1145,Ufhusen,Ufhusen
 2008,1146,1146,Wauwil,Wauwil
 2008,1147,1147,Wikon,Wikon
@@ -8763,6 +8996,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,2011,2011,Cugy (FR),Cugy (FR)
 2008,2013,2013,Domdidier,Domdidier
 2008,2014,2014,Dompierre (FR),Dompierre (FR)
+2008,2015,2015,Estavayer-le-Lac,Estavayer-le-Lac
 2008,2016,2016,Fétigny,Fétigny
 2008,2017,2015,Font,Estavayer-le-Lac
 2008,2022,2022,Gletterens,Gletterens
@@ -8798,6 +9032,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,2096,2096,Romont (FR),Romont (FR)
 2008,2097,2097,Rue,Rue
 2008,2099,2099,Siviriez,Siviriez
+2008,2102,2102,Ursy,Ursy
 2008,2111,2111,Villaz-Saint-Pierre,Villaz-Saint-Pierre
 2008,2112,2102,Vuarmarens,Ursy
 2008,2113,2113,Vuisternens-dev-Romont,Vuisternens-dev-Romont
@@ -8812,6 +9047,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,2126,2126,Cerniat (FR),Cerniat (FR)
 2008,2127,2127,Charmey,Charmey
 2008,2128,2128,Châtel-sur-Montsalvens,Châtel-sur-Montsalvens
+2008,2129,2129,Corbières,Corbières
 2008,2130,2130,Crésuz,Crésuz
 2008,2131,2131,Echarlens,Echarlens
 2008,2134,2134,Grandvillard,Grandvillard
@@ -8884,6 +9120,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,2271,2271,Meyriez,Meyriez
 2008,2272,2272,Misery-Courtion,Misery-Courtion
 2008,2274,2274,Muntelier,Muntelier
+2008,2275,2275,Murten,Murten
 2008,2276,2276,Ried bei Kerzers,Ried bei Kerzers
 2008,2277,2277,Salvenach,Salvenach
 2008,2278,2278,Ulmiz,Ulmiz
@@ -8951,6 +9188,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,2454,2464,Lüsslingen,Lüsslingen-Nennigkofen
 2008,2455,2455,Lüterkofen-Ichertswil,Lüterkofen-Ichertswil
 2008,2456,2456,Lüterswil-Gächliwil,Lüterswil-Gächliwil
+2008,2457,2457,Messen,Messen
 2008,2458,2458,Mühledorf (SO),Mühledorf (SO)
 2008,2459,2464,Nennigkofen,Lüsslingen-Nennigkofen
 2008,2460,2457,Oberramsern,Messen
@@ -8979,6 +9217,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,2501,2501,Winznau,Winznau
 2008,2502,2502,Wisen (SO),Wisen (SO)
 2008,2503,2503,Erlinsbach (SO),Erlinsbach (SO)
+2008,2511,2511,Aeschi (SO),Aeschi (SO)
 2008,2513,2513,Biberist,Biberist
 2008,2514,2514,Bolken,Bolken
 2008,2516,2516,Deitingen,Deitingen
@@ -9012,6 +9251,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,2551,2551,Lommiswil,Lommiswil
 2008,2552,2554,Niederwil (SO),Riedholz
 2008,2553,2553,Oberdorf (SO),Oberdorf (SO)
+2008,2554,2554,Riedholz,Riedholz
 2008,2555,2555,Rüttenen,Rüttenen
 2008,2556,2556,Selzach,Selzach
 2008,2571,2571,Boningen,Boningen
@@ -9143,12 +9383,15 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,2917,2917,Lohn (SH),Lohn (SH)
 2008,2918,2920,Opfertshofen (SH),Thayngen
 2008,2919,2919,Stetten (SH),Stetten (SH)
+2008,2920,2920,Thayngen,Thayngen
 2008,2931,2931,Bargen (SH),Bargen (SH)
+2008,2932,2932,Beringen,Beringen
 2008,2933,2933,Buchberg,Buchberg
 2008,2934,2939,Hemmental,Schaffhausen
 2008,2936,2936,Merishausen,Merishausen
 2008,2937,2937,Neuhausen am Rheinfall,Neuhausen am Rheinfall
 2008,2938,2938,Rüdlingen,Rüdlingen
+2008,2939,2939,Schaffhausen,Schaffhausen
 2008,2951,2951,Beggingen,Beggingen
 2008,2952,2952,Schleitheim,Schleitheim
 2008,2953,2953,Siblingen,Siblingen
@@ -9347,6 +9590,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,3642,3671,Tumegl/Tomils,Tomils
 2008,3651,3672,Safien,Safiental
 2008,3652,3672,Tenna,Safiental
+2008,3661,3661,Cazis,Cazis
 2008,3662,3662,Flerden,Flerden
 2008,3663,3663,Masein,Masein
 2008,3664,3661,Portein,Cazis
@@ -9361,6 +9605,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,3693,3693,Nufenen,Nufenen
 2008,3694,3694,Splügen,Splügen
 2008,3695,3695,Sufers,Sufers
+2008,3701,3701,Andeer,Andeer
 2008,3703,3703,Casti-Wergenstein,Casti-Wergenstein
 2008,3704,3701,Clugin,Andeer
 2008,3705,3705,Donat,Donat
@@ -9428,6 +9673,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,3844,3847,Sta. Maria Val Müstair,Val Müstair
 2008,3845,3847,Tschierv,Val Müstair
 2008,3846,3847,Valchava,Val Müstair
+2008,3851,3851,Davos,Davos
 2008,3861,3861,Fideris,Fideris
 2008,3862,3862,Furna,Furna
 2008,3863,3863,Jenaz,Jenaz
@@ -9438,10 +9684,12 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,3891,3891,Luzein,Luzein
 2008,3893,3893,St. Antönien,St. Antönien
 2008,3901,3901,Chur,Chur
+2008,3911,3911,Churwalden,Churwalden
 2008,3912,3911,Malix,Churwalden
 2008,3913,3911,Parpan,Churwalden
 2008,3914,3932,Praden,Tschiertschen-Praden
 2008,3915,3932,Tschiertschen,Tschiertschen-Praden
+2008,3921,3921,Arosa,Arosa
 2008,3922,3921,Calfreisen,Arosa
 2008,3923,3921,Castiel,Arosa
 2008,3924,3921,Langwies,Arosa
@@ -9460,6 +9708,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,3952,3952,Jenins,Jenins
 2008,3953,3953,Maienfeld,Maienfeld
 2008,3954,3954,Malans,Malans
+2008,3961,3961,Grüsch,Grüsch
 2008,3962,3962,Schiers,Schiers
 2008,3971,3961,Fanas,Grüsch
 2008,3972,3972,Seewis im Prättigau,Seewis im Prättigau
@@ -9470,6 +9719,8 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,3984,3987,Schlans,Trun
 2008,3985,3985,Sumvitg,Sumvitg
 2008,3986,3986,Tujetsch,Tujetsch
+2008,3987,3987,Trun,Trun
+2008,4001,4001,Aarau,Aarau
 2008,4002,4002,Biberstein,Biberstein
 2008,4003,4003,Buchs (AG),Buchs (AG)
 2008,4004,4004,Densbüren,Densbüren
@@ -9527,6 +9778,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,4077,4077,Tägerig,Tägerig
 2008,4078,4078,Uezwil,Uezwil
 2008,4079,4079,Unterlunkhofen,Unterlunkhofen
+2008,4080,4080,Villmergen,Villmergen
 2008,4081,4081,Widen,Widen
 2008,4082,4082,Wohlen (AG),Wohlen (AG)
 2008,4083,4083,Zufikon,Zufikon
@@ -9535,6 +9787,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,4092,4092,Birr,Birr
 2008,4093,4093,Birrhard,Birrhard
 2008,4094,4094,Bözen,Bözen
+2008,4095,4095,Brugg,Brugg
 2008,4096,4096,Effingen,Effingen
 2008,4097,4097,Elfingen,Elfingen
 2008,4098,4124,Gallenkirch,Bözberg
@@ -9586,6 +9839,8 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,4166,4166,Herznach,Herznach
 2008,4167,4167,Hornussen,Hornussen
 2008,4168,4169,Ittenthal,Kaisten
+2008,4169,4169,Kaisten,Kaisten
+2008,4170,4170,Laufenburg,Laufenburg
 2008,4171,4184,Mettau,Mettauertal
 2008,4172,4172,Münchwilen (AG),Münchwilen (AG)
 2008,4173,4173,Oberhof,Oberhof
@@ -9632,6 +9887,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,4231,4231,Dietwil,Dietwil
 2008,4232,4232,Geltwil,Geltwil
 2008,4233,4233,Kallern,Kallern
+2008,4234,4234,Merenschwand,Merenschwand
 2008,4235,4235,Mühlau,Mühlau
 2008,4236,4236,Muri (AG),Muri (AG)
 2008,4237,4237,Oberrüti,Oberrüti
@@ -9805,6 +10061,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5068,5072,Cavagnago,Faido
 2008,5070,5072,Chironico,Faido
 2008,5071,5071,Dalpe,Dalpe
+2008,5072,5072,Faido,Faido
 2008,5073,5073,Giornico,Giornico
 2008,5074,5072,Mairengo,Faido
 2008,5075,5072,Osco,Faido
@@ -9880,6 +10137,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5186,5186,Grancia,Grancia
 2008,5187,5187,Gravesano,Gravesano
 2008,5189,5189,Lamone,Lamone
+2008,5192,5192,Lugano,Lugano
 2008,5193,5193,Magliaso,Magliaso
 2008,5194,5194,Manno,Manno
 2008,5195,5195,Maroggia,Maroggia
@@ -9912,6 +10170,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5230,5230,Vernate,Vernate
 2008,5231,5231,Vezia,Vezia
 2008,5233,5233,Vico Morcote,Vico Morcote
+2008,5236,5236,Collina d'Oro,Collina d'Oro
 2008,5237,5237,Alto Malcantone,Alto Malcantone
 2008,5241,5254,Arzo,Mendrisio
 2008,5242,5242,Balerna,Balerna
@@ -9925,6 +10184,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5251,5251,Coldrerio,Coldrerio
 2008,5252,5254,Genestrerio,Mendrisio
 2008,5253,5254,Ligornetto,Mendrisio
+2008,5254,5254,Mendrisio,Mendrisio
 2008,5255,5254,Meride,Mendrisio
 2008,5257,5257,Morbio Inferiore,Morbio Inferiore
 2008,5258,5269,Morbio Superiore,Breggia
@@ -9968,6 +10228,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5414,5414,Villeneuve (VD),Villeneuve (VD)
 2008,5415,5415,Yvorne,Yvorne
 2008,5421,5421,Apples,Apples
+2008,5422,5422,Aubonne,Aubonne
 2008,5423,5423,Ballens,Ballens
 2008,5424,5424,Berolle,Berolle
 2008,5425,5425,Bière,Bière
@@ -9983,6 +10244,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5435,5435,Saint-Livres,Saint-Livres
 2008,5436,5436,Saint-Oyens,Saint-Oyens
 2008,5437,5437,Saubraz,Saubraz
+2008,5451,5451,Avenches,Avenches
 2008,5452,5464,Bellerive (VD),Vully-les-Lacs
 2008,5453,5464,Chabrey,Vully-les-Lacs
 2008,5455,5464,Constantine,Vully-les-Lacs
@@ -10025,6 +10287,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5500,5500,Sévery,Sévery
 2008,5501,5501,Sullens,Sullens
 2008,5503,5503,Vufflens-la-Ville,Vufflens-la-Ville
+2008,5511,5511,Assens,Assens
 2008,5512,5512,Bercher,Bercher
 2008,5513,5513,Bioley-Orjulaz,Bioley-Orjulaz
 2008,5514,5514,Bottens,Bottens
@@ -10109,6 +10372,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5631,5631,Denens,Denens
 2008,5632,5632,Denges,Denges
 2008,5633,5633,Echandens,Echandens
+2008,5634,5634,Echichens,Echichens
 2008,5635,5635,Ecublens (VD),Ecublens (VD)
 2008,5636,5636,Etoy,Etoy
 2008,5637,5637,Lavigny,Lavigny
@@ -10144,6 +10408,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5672,5672,Forel-sur-Lucens,Forel-sur-Lucens
 2008,5673,5673,Hermenches,Hermenches
 2008,5674,5674,Lovatens,Lovatens
+2008,5675,5675,Lucens,Lucens
 2008,5676,5693,Martherenges,Montanaire
 2008,5677,5804,Montaubion-Chardonney,Jorat-Menthue
 2008,5678,5678,Moudon,Moudon
@@ -10235,6 +10500,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5795,5805,Palézieux,Oron
 2008,5796,5804,Peney-le-Jorat,Jorat-Menthue
 2008,5798,5798,Ropraz,Ropraz
+2008,5799,5799,Servion,Servion
 2008,5800,5805,Les Tavernes,Oron
 2008,5801,5805,Les Thioleyres,Oron
 2008,5802,5805,Vuibroye,Oron
@@ -10289,6 +10555,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5902,5902,Belmont-sur-Yverdon,Belmont-sur-Yverdon
 2008,5903,5903,Bioley-Magnoux,Bioley-Magnoux
 2008,5904,5904,Chamblon,Chamblon
+2008,5905,5905,Champvent,Champvent
 2008,5906,5693,Chanéaz,Montanaire
 2008,5907,5907,Chavannes-le-Chêne,Chavannes-le-Chêne
 2008,5908,5908,Chêne-Pâquier,Chêne-Pâquier
@@ -10296,6 +10563,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5910,5910,Cronay,Cronay
 2008,5911,5911,Cuarny,Cuarny
 2008,5912,5912,Démoret,Démoret
+2008,5913,5913,Donneloye,Donneloye
 2008,5914,5914,Ependes (VD),Ependes (VD)
 2008,5915,5915,Essert-Pittet,Essert-Pittet
 2008,5916,5905,Essert-sous-Champvent,Champvent
@@ -10318,11 +10586,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5935,5935,Villars-Epeney,Villars-Epeney
 2008,5936,5905,Villars-sous-Champvent,Champvent
 2008,5937,5937,Vugelles-La Mothe,Vugelles-La Mothe
+2008,5938,5938,Yverdon-les-Bains,Yverdon-les-Bains
 2008,5939,5939,Yvonand,Yvonand
 2008,6001,6007,Birgisch,Naters
 2008,6002,6002,Brig-Glis,Brig-Glis
 2008,6004,6004,Eggerberg,Eggerberg
 2008,6006,6007,Mund,Naters
+2008,6007,6007,Naters,Naters
 2008,6008,6008,Ried-Brig,Ried-Brig
 2008,6009,6009,Simplon,Simplon
 2008,6010,6010,Termen,Termen
@@ -10368,6 +10638,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,6105,6110,Erschmatt,Leuk
 2008,6107,6118,Gampel,Gampel-Bratsch
 2008,6109,6109,Inden,Inden
+2008,6110,6110,Leuk,Leuk
 2008,6111,6111,Leukerbad,Leukerbad
 2008,6112,6112,Oberems,Oberems
 2008,6113,6113,Salgesch,Salgesch
@@ -10421,6 +10692,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,6214,6214,Finhaut,Finhaut
 2008,6215,6215,Massongex,Massongex
 2008,6216,6217,Mex (VS),Saint-Maurice
+2008,6217,6217,Saint-Maurice,Saint-Maurice
 2008,6218,6218,Salvan,Salvan
 2008,6219,6219,Vernayaz,Vernayaz
 2008,6220,6220,Vérossaz,Vérossaz
@@ -10448,6 +10720,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,6263,6263,Grimisuat,Grimisuat
 2008,6264,6266,Salins,Sion
 2008,6265,6265,Savièse,Savièse
+2008,6266,6266,Sion,Sion
 2008,6267,6267,Veysonnaz,Veysonnaz
 2008,6281,6281,Baltschieder,Baltschieder
 2008,6282,6282,Eisten,Eisten
@@ -10614,10 +10887,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,6748,6748,Les Genevez (JU),Les Genevez (JU)
 2008,6749,6757,Goumois,Saignelégier
 2008,6750,6750,Lajoux (JU),Lajoux (JU)
+2008,6751,6751,Montfaucon,Montfaucon
 2008,6752,6751,Montfavergier,Montfaucon
+2008,6753,6753,Muriaux,Muriaux
 2008,6754,6754,Le Noirmont,Le Noirmont
 2008,6755,6753,Le Peuchapatte,Muriaux
 2008,6756,6757,Les Pommerats,Saignelégier
+2008,6757,6757,Saignelégier,Saignelégier
 2008,6758,6758,Saint-Brais,Saint-Brais
 2008,6759,6759,Soubey,Soubey
 2008,6771,6771,Alle,Alle
@@ -10639,6 +10915,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,6787,6787,Damphreux,Damphreux
 2008,6788,6809,Damvant,Haute-Ajoie
 2008,6789,6789,Fahy,Fahy
+2008,6790,6790,Fontenais,Fontenais
 2008,6791,6810,Fregiécourt,La Baroche
 2008,6792,6792,Grandfontaine,Grandfontaine
 2008,6793,6793,Lugnez,Lugnez
@@ -10829,10 +11106,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,301,301,Aarberg,Aarberg
 2009,302,302,Bargen (BE),Bargen (BE)
 2009,303,303,Grossaffoltern,Grossaffoltern
+2009,304,304,Kallnach,Kallnach
 2009,305,305,Kappelen,Kappelen
+2009,306,306,Lyss,Lyss
 2009,307,307,Meikirch,Meikirch
 2009,308,304,Niederried bei Kallnach,Kallnach
 2009,309,309,Radelfingen,Radelfingen
+2009,310,310,Rapperswil (BE),Rapperswil (BE)
 2009,311,311,Schüpfen,Schüpfen
 2009,312,312,Seedorf (BE),Seedorf (BE)
 2009,321,321,Aarwangen,Aarwangen
@@ -10842,8 +11122,10 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,325,325,Busswil bei Melchnau,Busswil bei Melchnau
 2009,326,326,Gondiswil,Gondiswil
 2009,328,332,Kleindietwil,Madiswil
+2009,329,329,Langenthal,Langenthal
 2009,330,332,Leimiswil,Madiswil
 2009,331,331,Lotzwil,Lotzwil
+2009,332,332,Madiswil,Madiswil
 2009,333,333,Melchnau,Melchnau
 2009,334,334,Obersteckholz,Obersteckholz
 2009,335,335,Oeschenbach,Oeschenbach
@@ -10949,6 +11231,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,537,537,Etzelkofen,Etzelkofen
 2009,538,538,Fraubrunnen,Fraubrunnen
 2009,539,539,Grafenried,Grafenried
+2009,540,540,Jegenstorf,Jegenstorf
 2009,541,541,Iffwil,Iffwil
 2009,542,542,Limpach,Limpach
 2009,543,543,Mattstetten,Mattstetten
@@ -11011,7 +11294,9 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,613,613,Landiswil,Landiswil
 2009,614,614,Linden,Linden
 2009,615,615,Mirchel,Mirchel
+2009,616,616,Münsingen,Münsingen
 2009,617,617,Niederhünigen,Niederhünigen
+2009,619,619,Oberdiessbach,Oberdiessbach
 2009,620,620,Oberthal,Oberthal
 2009,622,622,Oppligen,Oppligen
 2009,623,623,Rubigen,Rubigen
@@ -11117,6 +11402,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,852,852,Guggisberg,Guggisberg
 2009,853,853,Rüschegg,Rüschegg
 2009,854,855,Wahlern,Schwarzenburg
+2009,861,861,Belp,Belp
 2009,862,861,Belpberg,Belp
 2009,863,863,Burgistein,Burgistein
 2009,865,865,Gelterfingen,Gelterfingen
@@ -11188,6 +11474,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,960,960,Wyssachen,Wyssachen
 2009,971,971,Attiswil,Attiswil
 2009,972,972,Berken,Berken
+2009,973,973,Bettenhausen,Bettenhausen
 2009,974,973,Bollodingen,Bettenhausen
 2009,975,975,Farnern,Farnern
 2009,976,976,Graben,Graben
@@ -11241,6 +11528,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,1058,1058,Horw,Horw
 2009,1059,1059,Kriens,Kriens
 2009,1060,1061,Littau,Luzern
+2009,1061,1061,Luzern,Luzern
 2009,1062,1062,Malters,Malters
 2009,1063,1063,Meggen,Meggen
 2009,1064,1064,Meierskappel,Meierskappel
@@ -11249,6 +11537,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,1067,1067,Udligenswil,Udligenswil
 2009,1068,1068,Vitznau,Vitznau
 2009,1069,1069,Weggis,Weggis
+2009,1081,1081,Beromünster,Beromünster
 2009,1082,1082,Büron,Büron
 2009,1083,1083,Buttisholz,Buttisholz
 2009,1084,1084,Eich,Eich
@@ -11262,6 +11551,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,1094,1094,Nottwil,Nottwil
 2009,1095,1095,Oberkirch,Oberkirch
 2009,1096,1097,Pfeffikon,Rickenbach (LU)
+2009,1097,1097,Rickenbach (LU),Rickenbach (LU)
 2009,1098,1098,Ruswil,Ruswil
 2009,1099,1099,Schenkon,Schenkon
 2009,1100,1100,Schlierbach,Schlierbach
@@ -11287,6 +11577,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,1139,1139,Pfaffnau,Pfaffnau
 2009,1140,1140,Reiden,Reiden
 2009,1142,1142,Roggliswil,Roggliswil
+2009,1143,1143,Schötz,Schötz
 2009,1145,1145,Ufhusen,Ufhusen
 2009,1146,1146,Wauwil,Wauwil
 2009,1147,1147,Wikon,Wikon
@@ -11404,6 +11695,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,2011,2011,Cugy (FR),Cugy (FR)
 2009,2013,2013,Domdidier,Domdidier
 2009,2014,2014,Dompierre (FR),Dompierre (FR)
+2009,2015,2015,Estavayer-le-Lac,Estavayer-le-Lac
 2009,2016,2016,Fétigny,Fétigny
 2009,2017,2015,Font,Estavayer-le-Lac
 2009,2022,2022,Gletterens,Gletterens
@@ -11439,6 +11731,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,2096,2096,Romont (FR),Romont (FR)
 2009,2097,2097,Rue,Rue
 2009,2099,2099,Siviriez,Siviriez
+2009,2102,2102,Ursy,Ursy
 2009,2111,2111,Villaz-Saint-Pierre,Villaz-Saint-Pierre
 2009,2112,2102,Vuarmarens,Ursy
 2009,2113,2113,Vuisternens-dev-Romont,Vuisternens-dev-Romont
@@ -11453,6 +11746,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,2126,2126,Cerniat (FR),Cerniat (FR)
 2009,2127,2127,Charmey,Charmey
 2009,2128,2128,Châtel-sur-Montsalvens,Châtel-sur-Montsalvens
+2009,2129,2129,Corbières,Corbières
 2009,2130,2130,Crésuz,Crésuz
 2009,2131,2131,Echarlens,Echarlens
 2009,2134,2134,Grandvillard,Grandvillard
@@ -11525,6 +11819,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,2271,2271,Meyriez,Meyriez
 2009,2272,2272,Misery-Courtion,Misery-Courtion
 2009,2274,2274,Muntelier,Muntelier
+2009,2275,2275,Murten,Murten
 2009,2276,2276,Ried bei Kerzers,Ried bei Kerzers
 2009,2277,2277,Salvenach,Salvenach
 2009,2278,2278,Ulmiz,Ulmiz
@@ -11592,6 +11887,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,2454,2464,Lüsslingen,Lüsslingen-Nennigkofen
 2009,2455,2455,Lüterkofen-Ichertswil,Lüterkofen-Ichertswil
 2009,2456,2456,Lüterswil-Gächliwil,Lüterswil-Gächliwil
+2009,2457,2457,Messen,Messen
 2009,2458,2458,Mühledorf (SO),Mühledorf (SO)
 2009,2459,2464,Nennigkofen,Lüsslingen-Nennigkofen
 2009,2460,2457,Oberramsern,Messen
@@ -11620,6 +11916,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,2501,2501,Winznau,Winznau
 2009,2502,2502,Wisen (SO),Wisen (SO)
 2009,2503,2503,Erlinsbach (SO),Erlinsbach (SO)
+2009,2511,2511,Aeschi (SO),Aeschi (SO)
 2009,2513,2513,Biberist,Biberist
 2009,2514,2514,Bolken,Bolken
 2009,2516,2516,Deitingen,Deitingen
@@ -11653,6 +11950,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,2551,2551,Lommiswil,Lommiswil
 2009,2552,2554,Niederwil (SO),Riedholz
 2009,2553,2553,Oberdorf (SO),Oberdorf (SO)
+2009,2554,2554,Riedholz,Riedholz
 2009,2555,2555,Rüttenen,Rüttenen
 2009,2556,2556,Selzach,Selzach
 2009,2571,2571,Boningen,Boningen
@@ -11782,6 +12080,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,2919,2919,Stetten (SH),Stetten (SH)
 2009,2920,2920,Thayngen,Thayngen
 2009,2931,2931,Bargen (SH),Bargen (SH)
+2009,2932,2932,Beringen,Beringen
 2009,2933,2933,Buchberg,Buchberg
 2009,2936,2936,Merishausen,Merishausen
 2009,2937,2937,Neuhausen am Rheinfall,Neuhausen am Rheinfall
@@ -11977,6 +12276,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,3640,3640,Sils im Domleschg,Sils im Domleschg
 2009,3651,3672,Safien,Safiental
 2009,3652,3672,Tenna,Safiental
+2009,3661,3661,Cazis,Cazis
 2009,3662,3662,Flerden,Flerden
 2009,3663,3663,Masein,Masein
 2009,3664,3661,Portein,Cazis
@@ -12064,8 +12364,10 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,3891,3891,Luzein,Luzein
 2009,3893,3893,St. Antönien,St. Antönien
 2009,3901,3901,Chur,Chur
+2009,3911,3911,Churwalden,Churwalden
 2009,3912,3911,Malix,Churwalden
 2009,3913,3911,Parpan,Churwalden
+2009,3921,3921,Arosa,Arosa
 2009,3922,3921,Calfreisen,Arosa
 2009,3923,3921,Castiel,Arosa
 2009,3924,3921,Langwies,Arosa
@@ -12085,6 +12387,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,3952,3952,Jenins,Jenins
 2009,3953,3953,Maienfeld,Maienfeld
 2009,3954,3954,Malans,Malans
+2009,3961,3961,Grüsch,Grüsch
 2009,3962,3962,Schiers,Schiers
 2009,3971,3961,Fanas,Grüsch
 2009,3972,3972,Seewis im Prättigau,Seewis im Prättigau
@@ -12095,6 +12398,8 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,3984,3987,Schlans,Trun
 2009,3985,3985,Sumvitg,Sumvitg
 2009,3986,3986,Tujetsch,Tujetsch
+2009,3987,3987,Trun,Trun
+2009,4001,4001,Aarau,Aarau
 2009,4002,4002,Biberstein,Biberstein
 2009,4003,4003,Buchs (AG),Buchs (AG)
 2009,4004,4004,Densbüren,Densbüren
@@ -12152,6 +12457,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,4077,4077,Tägerig,Tägerig
 2009,4078,4078,Uezwil,Uezwil
 2009,4079,4079,Unterlunkhofen,Unterlunkhofen
+2009,4080,4080,Villmergen,Villmergen
 2009,4081,4081,Widen,Widen
 2009,4082,4082,Wohlen (AG),Wohlen (AG)
 2009,4083,4083,Zufikon,Zufikon
@@ -12160,6 +12466,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,4092,4092,Birr,Birr
 2009,4093,4093,Birrhard,Birrhard
 2009,4094,4094,Bözen,Bözen
+2009,4095,4095,Brugg,Brugg
 2009,4096,4096,Effingen,Effingen
 2009,4097,4097,Elfingen,Elfingen
 2009,4098,4124,Gallenkirch,Bözberg
@@ -12211,6 +12518,8 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,4166,4166,Herznach,Herznach
 2009,4167,4167,Hornussen,Hornussen
 2009,4168,4169,Ittenthal,Kaisten
+2009,4169,4169,Kaisten,Kaisten
+2009,4170,4170,Laufenburg,Laufenburg
 2009,4171,4184,Mettau,Mettauertal
 2009,4172,4172,Münchwilen (AG),Münchwilen (AG)
 2009,4173,4173,Oberhof,Oberhof
@@ -12257,6 +12566,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,4231,4231,Dietwil,Dietwil
 2009,4232,4232,Geltwil,Geltwil
 2009,4233,4233,Kallern,Kallern
+2009,4234,4234,Merenschwand,Merenschwand
 2009,4235,4235,Mühlau,Mühlau
 2009,4236,4236,Muri (AG),Muri (AG)
 2009,4237,4237,Oberrüti,Oberrüti
@@ -12430,6 +12740,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5068,5072,Cavagnago,Faido
 2009,5070,5072,Chironico,Faido
 2009,5071,5071,Dalpe,Dalpe
+2009,5072,5072,Faido,Faido
 2009,5073,5073,Giornico,Giornico
 2009,5074,5072,Mairengo,Faido
 2009,5075,5072,Osco,Faido
@@ -12502,6 +12813,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5186,5186,Grancia,Grancia
 2009,5187,5187,Gravesano,Gravesano
 2009,5189,5189,Lamone,Lamone
+2009,5192,5192,Lugano,Lugano
 2009,5193,5193,Magliaso,Magliaso
 2009,5194,5194,Manno,Manno
 2009,5195,5195,Maroggia,Maroggia
@@ -12534,6 +12846,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5230,5230,Vernate,Vernate
 2009,5231,5231,Vezia,Vezia
 2009,5233,5233,Vico Morcote,Vico Morcote
+2009,5236,5236,Collina d'Oro,Collina d'Oro
 2009,5237,5237,Alto Malcantone,Alto Malcantone
 2009,5242,5242,Balerna,Balerna
 2009,5243,5254,Besazio,Mendrisio
@@ -12541,6 +12854,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5250,5250,Chiasso,Chiasso
 2009,5251,5251,Coldrerio,Coldrerio
 2009,5253,5254,Ligornetto,Mendrisio
+2009,5254,5254,Mendrisio,Mendrisio
 2009,5255,5254,Meride,Mendrisio
 2009,5257,5257,Morbio Inferiore,Morbio Inferiore
 2009,5260,5260,Novazzano,Novazzano
@@ -12581,6 +12895,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5414,5414,Villeneuve (VD),Villeneuve (VD)
 2009,5415,5415,Yvorne,Yvorne
 2009,5421,5421,Apples,Apples
+2009,5422,5422,Aubonne,Aubonne
 2009,5423,5423,Ballens,Ballens
 2009,5424,5424,Berolle,Berolle
 2009,5425,5425,Bière,Bière
@@ -12596,6 +12911,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5435,5435,Saint-Livres,Saint-Livres
 2009,5436,5436,Saint-Oyens,Saint-Oyens
 2009,5437,5437,Saubraz,Saubraz
+2009,5451,5451,Avenches,Avenches
 2009,5452,5464,Bellerive (VD),Vully-les-Lacs
 2009,5453,5464,Chabrey,Vully-les-Lacs
 2009,5455,5464,Constantine,Vully-les-Lacs
@@ -12722,6 +13038,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5631,5631,Denens,Denens
 2009,5632,5632,Denges,Denges
 2009,5633,5633,Echandens,Echandens
+2009,5634,5634,Echichens,Echichens
 2009,5635,5635,Ecublens (VD),Ecublens (VD)
 2009,5636,5636,Etoy,Etoy
 2009,5637,5637,Lavigny,Lavigny
@@ -12757,6 +13074,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5672,5672,Forel-sur-Lucens,Forel-sur-Lucens
 2009,5673,5673,Hermenches,Hermenches
 2009,5674,5674,Lovatens,Lovatens
+2009,5675,5675,Lucens,Lucens
 2009,5676,5693,Martherenges,Montanaire
 2009,5677,5804,Montaubion-Chardonney,Jorat-Menthue
 2009,5678,5678,Moudon,Moudon
@@ -12848,6 +13166,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5795,5805,Palézieux,Oron
 2009,5796,5804,Peney-le-Jorat,Jorat-Menthue
 2009,5798,5798,Ropraz,Ropraz
+2009,5799,5799,Servion,Servion
 2009,5800,5805,Les Tavernes,Oron
 2009,5801,5805,Les Thioleyres,Oron
 2009,5802,5805,Vuibroye,Oron
@@ -12902,6 +13221,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5902,5902,Belmont-sur-Yverdon,Belmont-sur-Yverdon
 2009,5903,5903,Bioley-Magnoux,Bioley-Magnoux
 2009,5904,5904,Chamblon,Chamblon
+2009,5905,5905,Champvent,Champvent
 2009,5906,5693,Chanéaz,Montanaire
 2009,5907,5907,Chavannes-le-Chêne,Chavannes-le-Chêne
 2009,5908,5908,Chêne-Pâquier,Chêne-Pâquier
@@ -12909,6 +13229,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5910,5910,Cronay,Cronay
 2009,5911,5911,Cuarny,Cuarny
 2009,5912,5912,Démoret,Démoret
+2009,5913,5913,Donneloye,Donneloye
 2009,5914,5914,Ependes (VD),Ependes (VD)
 2009,5915,5915,Essert-Pittet,Essert-Pittet
 2009,5916,5905,Essert-sous-Champvent,Champvent
@@ -12931,11 +13252,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5935,5935,Villars-Epeney,Villars-Epeney
 2009,5936,5905,Villars-sous-Champvent,Champvent
 2009,5937,5937,Vugelles-La Mothe,Vugelles-La Mothe
+2009,5938,5938,Yverdon-les-Bains,Yverdon-les-Bains
 2009,5939,5939,Yvonand,Yvonand
 2009,6001,6007,Birgisch,Naters
 2009,6002,6002,Brig-Glis,Brig-Glis
 2009,6004,6004,Eggerberg,Eggerberg
 2009,6006,6007,Mund,Naters
+2009,6007,6007,Naters,Naters
 2009,6008,6008,Ried-Brig,Ried-Brig
 2009,6009,6009,Simplon,Simplon
 2009,6010,6010,Termen,Termen
@@ -12977,6 +13300,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,6104,6104,Ergisch,Ergisch
 2009,6105,6110,Erschmatt,Leuk
 2009,6109,6109,Inden,Inden
+2009,6110,6110,Leuk,Leuk
 2009,6111,6111,Leukerbad,Leukerbad
 2009,6112,6112,Oberems,Oberems
 2009,6113,6113,Salgesch,Salgesch
@@ -13029,6 +13353,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,6214,6214,Finhaut,Finhaut
 2009,6215,6215,Massongex,Massongex
 2009,6216,6217,Mex (VS),Saint-Maurice
+2009,6217,6217,Saint-Maurice,Saint-Maurice
 2009,6218,6218,Salvan,Salvan
 2009,6219,6219,Vernayaz,Vernayaz
 2009,6220,6220,Vérossaz,Vérossaz
@@ -13051,6 +13376,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,6263,6263,Grimisuat,Grimisuat
 2009,6264,6266,Salins,Sion
 2009,6265,6265,Savièse,Savièse
+2009,6266,6266,Sion,Sion
 2009,6267,6267,Veysonnaz,Veysonnaz
 2009,6281,6281,Baltschieder,Baltschieder
 2009,6282,6282,Eisten,Eisten
@@ -13224,6 +13550,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,6785,6785,Courtedoux,Courtedoux
 2009,6787,6787,Damphreux,Damphreux
 2009,6789,6789,Fahy,Fahy
+2009,6790,6790,Fontenais,Fontenais
 2009,6792,6792,Grandfontaine,Grandfontaine
 2009,6793,6793,Lugnez,Lugnez
 2009,6800,6800,Porrentruy,Porrentruy
@@ -13407,10 +13734,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,301,301,Aarberg,Aarberg
 2010,302,302,Bargen (BE),Bargen (BE)
 2010,303,303,Grossaffoltern,Grossaffoltern
+2010,304,304,Kallnach,Kallnach
 2010,305,305,Kappelen,Kappelen
+2010,306,306,Lyss,Lyss
 2010,307,307,Meikirch,Meikirch
 2010,308,304,Niederried bei Kallnach,Kallnach
 2010,309,309,Radelfingen,Radelfingen
+2010,310,310,Rapperswil (BE),Rapperswil (BE)
 2010,311,311,Schüpfen,Schüpfen
 2010,312,312,Seedorf (BE),Seedorf (BE)
 2010,321,321,Aarwangen,Aarwangen
@@ -13423,6 +13753,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,329,329,Langenthal,Langenthal
 2010,330,332,Leimiswil,Madiswil
 2010,331,331,Lotzwil,Lotzwil
+2010,332,332,Madiswil,Madiswil
 2010,333,333,Melchnau,Melchnau
 2010,334,334,Obersteckholz,Obersteckholz
 2010,335,335,Oeschenbach,Oeschenbach
@@ -13588,6 +13919,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,613,613,Landiswil,Landiswil
 2010,614,614,Linden,Linden
 2010,615,615,Mirchel,Mirchel
+2010,616,616,Münsingen,Münsingen
 2010,617,617,Niederhünigen,Niederhünigen
 2010,619,619,Oberdiessbach,Oberdiessbach
 2010,620,620,Oberthal,Oberthal
@@ -13694,6 +14026,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,852,852,Guggisberg,Guggisberg
 2010,853,853,Rüschegg,Rüschegg
 2010,854,855,Wahlern,Schwarzenburg
+2010,861,861,Belp,Belp
 2010,862,861,Belpberg,Belp
 2010,863,863,Burgistein,Burgistein
 2010,865,865,Gelterfingen,Gelterfingen
@@ -13765,6 +14098,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,960,960,Wyssachen,Wyssachen
 2010,971,971,Attiswil,Attiswil
 2010,972,972,Berken,Berken
+2010,973,973,Bettenhausen,Bettenhausen
 2010,974,973,Bollodingen,Bettenhausen
 2010,975,975,Farnern,Farnern
 2010,976,976,Graben,Graben
@@ -13826,6 +14160,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,1067,1067,Udligenswil,Udligenswil
 2010,1068,1068,Vitznau,Vitznau
 2010,1069,1069,Weggis,Weggis
+2010,1081,1081,Beromünster,Beromünster
 2010,1082,1082,Büron,Büron
 2010,1083,1083,Buttisholz,Buttisholz
 2010,1084,1084,Eich,Eich
@@ -13839,6 +14174,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,1094,1094,Nottwil,Nottwil
 2010,1095,1095,Oberkirch,Oberkirch
 2010,1096,1097,Pfeffikon,Rickenbach (LU)
+2010,1097,1097,Rickenbach (LU),Rickenbach (LU)
 2010,1098,1098,Ruswil,Ruswil
 2010,1099,1099,Schenkon,Schenkon
 2010,1100,1100,Schlierbach,Schlierbach
@@ -13864,6 +14200,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,1139,1139,Pfaffnau,Pfaffnau
 2010,1140,1140,Reiden,Reiden
 2010,1142,1142,Roggliswil,Roggliswil
+2010,1143,1143,Schötz,Schötz
 2010,1145,1145,Ufhusen,Ufhusen
 2010,1146,1146,Wauwil,Wauwil
 2010,1147,1147,Wikon,Wikon
@@ -13981,6 +14318,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,2011,2011,Cugy (FR),Cugy (FR)
 2010,2013,2013,Domdidier,Domdidier
 2010,2014,2014,Dompierre (FR),Dompierre (FR)
+2010,2015,2015,Estavayer-le-Lac,Estavayer-le-Lac
 2010,2016,2016,Fétigny,Fétigny
 2010,2017,2015,Font,Estavayer-le-Lac
 2010,2022,2022,Gletterens,Gletterens
@@ -14016,6 +14354,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,2096,2096,Romont (FR),Romont (FR)
 2010,2097,2097,Rue,Rue
 2010,2099,2099,Siviriez,Siviriez
+2010,2102,2102,Ursy,Ursy
 2010,2111,2111,Villaz-Saint-Pierre,Villaz-Saint-Pierre
 2010,2112,2102,Vuarmarens,Ursy
 2010,2113,2113,Vuisternens-dev-Romont,Vuisternens-dev-Romont
@@ -14030,6 +14369,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,2126,2126,Cerniat (FR),Cerniat (FR)
 2010,2127,2127,Charmey,Charmey
 2010,2128,2128,Châtel-sur-Montsalvens,Châtel-sur-Montsalvens
+2010,2129,2129,Corbières,Corbières
 2010,2130,2130,Crésuz,Crésuz
 2010,2131,2131,Echarlens,Echarlens
 2010,2134,2134,Grandvillard,Grandvillard
@@ -14102,6 +14442,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,2271,2271,Meyriez,Meyriez
 2010,2272,2272,Misery-Courtion,Misery-Courtion
 2010,2274,2274,Muntelier,Muntelier
+2010,2275,2275,Murten,Murten
 2010,2276,2276,Ried bei Kerzers,Ried bei Kerzers
 2010,2277,2277,Salvenach,Salvenach
 2010,2278,2278,Ulmiz,Ulmiz
@@ -14195,6 +14536,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,2501,2501,Winznau,Winznau
 2010,2502,2502,Wisen (SO),Wisen (SO)
 2010,2503,2503,Erlinsbach (SO),Erlinsbach (SO)
+2010,2511,2511,Aeschi (SO),Aeschi (SO)
 2010,2513,2513,Biberist,Biberist
 2010,2514,2514,Bolken,Bolken
 2010,2516,2516,Deitingen,Deitingen
@@ -14228,6 +14570,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,2551,2551,Lommiswil,Lommiswil
 2010,2552,2554,Niederwil (SO),Riedholz
 2010,2553,2553,Oberdorf (SO),Oberdorf (SO)
+2010,2554,2554,Riedholz,Riedholz
 2010,2555,2555,Rüttenen,Rüttenen
 2010,2556,2556,Selzach,Selzach
 2010,2571,2571,Boningen,Boningen
@@ -14357,6 +14700,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,2919,2919,Stetten (SH),Stetten (SH)
 2010,2920,2920,Thayngen,Thayngen
 2010,2931,2931,Bargen (SH),Bargen (SH)
+2010,2932,2932,Beringen,Beringen
 2010,2933,2933,Buchberg,Buchberg
 2010,2936,2936,Merishausen,Merishausen
 2010,2937,2937,Neuhausen am Rheinfall,Neuhausen am Rheinfall
@@ -14632,6 +14976,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,3893,3893,St. Antönien,St. Antönien
 2010,3901,3901,Chur,Chur
 2010,3911,3911,Churwalden,Churwalden
+2010,3921,3921,Arosa,Arosa
 2010,3922,3921,Calfreisen,Arosa
 2010,3923,3921,Castiel,Arosa
 2010,3924,3921,Langwies,Arosa
@@ -14651,6 +14996,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,3952,3952,Jenins,Jenins
 2010,3953,3953,Maienfeld,Maienfeld
 2010,3954,3954,Malans,Malans
+2010,3961,3961,Grüsch,Grüsch
 2010,3962,3962,Schiers,Schiers
 2010,3971,3961,Fanas,Grüsch
 2010,3972,3972,Seewis im Prättigau,Seewis im Prättigau
@@ -14661,6 +15007,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,3984,3987,Schlans,Trun
 2010,3985,3985,Sumvitg,Sumvitg
 2010,3986,3986,Tujetsch,Tujetsch
+2010,3987,3987,Trun,Trun
 2010,4001,4001,Aarau,Aarau
 2010,4002,4002,Biberstein,Biberstein
 2010,4003,4003,Buchs (AG),Buchs (AG)
@@ -14819,6 +15166,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,4231,4231,Dietwil,Dietwil
 2010,4232,4232,Geltwil,Geltwil
 2010,4233,4233,Kallern,Kallern
+2010,4234,4234,Merenschwand,Merenschwand
 2010,4235,4235,Mühlau,Mühlau
 2010,4236,4236,Muri (AG),Muri (AG)
 2010,4237,4237,Oberrüti,Oberrüti
@@ -14991,6 +15339,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5068,5072,Cavagnago,Faido
 2010,5070,5072,Chironico,Faido
 2010,5071,5071,Dalpe,Dalpe
+2010,5072,5072,Faido,Faido
 2010,5073,5073,Giornico,Giornico
 2010,5074,5072,Mairengo,Faido
 2010,5075,5072,Osco,Faido
@@ -15052,6 +15401,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5186,5186,Grancia,Grancia
 2010,5187,5187,Gravesano,Gravesano
 2010,5189,5189,Lamone,Lamone
+2010,5192,5192,Lugano,Lugano
 2010,5193,5193,Magliaso,Magliaso
 2010,5194,5194,Manno,Manno
 2010,5195,5195,Maroggia,Maroggia
@@ -15082,6 +15432,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5230,5230,Vernate,Vernate
 2010,5231,5231,Vezia,Vezia
 2010,5233,5233,Vico Morcote,Vico Morcote
+2010,5236,5236,Collina d'Oro,Collina d'Oro
 2010,5237,5237,Alto Malcantone,Alto Malcantone
 2010,5238,5238,Monteceneri,Monteceneri
 2010,5242,5242,Balerna,Balerna
@@ -15090,6 +15441,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5250,5250,Chiasso,Chiasso
 2010,5251,5251,Coldrerio,Coldrerio
 2010,5253,5254,Ligornetto,Mendrisio
+2010,5254,5254,Mendrisio,Mendrisio
 2010,5255,5254,Meride,Mendrisio
 2010,5257,5257,Morbio Inferiore,Morbio Inferiore
 2010,5260,5260,Novazzano,Novazzano
@@ -15131,6 +15483,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5414,5414,Villeneuve (VD),Villeneuve (VD)
 2010,5415,5415,Yvorne,Yvorne
 2010,5421,5421,Apples,Apples
+2010,5422,5422,Aubonne,Aubonne
 2010,5423,5423,Ballens,Ballens
 2010,5424,5424,Berolle,Berolle
 2010,5425,5425,Bière,Bière
@@ -15146,6 +15499,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5435,5435,Saint-Livres,Saint-Livres
 2010,5436,5436,Saint-Oyens,Saint-Oyens
 2010,5437,5437,Saubraz,Saubraz
+2010,5451,5451,Avenches,Avenches
 2010,5452,5464,Bellerive (VD),Vully-les-Lacs
 2010,5453,5464,Chabrey,Vully-les-Lacs
 2010,5455,5464,Constantine,Vully-les-Lacs
@@ -15272,6 +15626,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5631,5631,Denens,Denens
 2010,5632,5632,Denges,Denges
 2010,5633,5633,Echandens,Echandens
+2010,5634,5634,Echichens,Echichens
 2010,5635,5635,Ecublens (VD),Ecublens (VD)
 2010,5636,5636,Etoy,Etoy
 2010,5637,5637,Lavigny,Lavigny
@@ -15307,6 +15662,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5672,5672,Forel-sur-Lucens,Forel-sur-Lucens
 2010,5673,5673,Hermenches,Hermenches
 2010,5674,5674,Lovatens,Lovatens
+2010,5675,5675,Lucens,Lucens
 2010,5676,5693,Martherenges,Montanaire
 2010,5677,5804,Montaubion-Chardonney,Jorat-Menthue
 2010,5678,5678,Moudon,Moudon
@@ -15398,6 +15754,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5795,5805,Palézieux,Oron
 2010,5796,5804,Peney-le-Jorat,Jorat-Menthue
 2010,5798,5798,Ropraz,Ropraz
+2010,5799,5799,Servion,Servion
 2010,5800,5805,Les Tavernes,Oron
 2010,5801,5805,Les Thioleyres,Oron
 2010,5802,5805,Vuibroye,Oron
@@ -15452,6 +15809,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5902,5902,Belmont-sur-Yverdon,Belmont-sur-Yverdon
 2010,5903,5903,Bioley-Magnoux,Bioley-Magnoux
 2010,5904,5904,Chamblon,Chamblon
+2010,5905,5905,Champvent,Champvent
 2010,5906,5693,Chanéaz,Montanaire
 2010,5907,5907,Chavannes-le-Chêne,Chavannes-le-Chêne
 2010,5908,5908,Chêne-Pâquier,Chêne-Pâquier
@@ -15459,6 +15817,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5910,5910,Cronay,Cronay
 2010,5911,5911,Cuarny,Cuarny
 2010,5912,5912,Démoret,Démoret
+2010,5913,5913,Donneloye,Donneloye
 2010,5914,5914,Ependes (VD),Ependes (VD)
 2010,5915,5915,Essert-Pittet,Essert-Pittet
 2010,5916,5905,Essert-sous-Champvent,Champvent
@@ -15481,11 +15840,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5935,5935,Villars-Epeney,Villars-Epeney
 2010,5936,5905,Villars-sous-Champvent,Champvent
 2010,5937,5937,Vugelles-La Mothe,Vugelles-La Mothe
+2010,5938,5938,Yverdon-les-Bains,Yverdon-les-Bains
 2010,5939,5939,Yvonand,Yvonand
 2010,6001,6007,Birgisch,Naters
 2010,6002,6002,Brig-Glis,Brig-Glis
 2010,6004,6004,Eggerberg,Eggerberg
 2010,6006,6007,Mund,Naters
+2010,6007,6007,Naters,Naters
 2010,6008,6008,Ried-Brig,Ried-Brig
 2010,6009,6009,Simplon,Simplon
 2010,6010,6010,Termen,Termen
@@ -15527,6 +15888,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,6104,6104,Ergisch,Ergisch
 2010,6105,6110,Erschmatt,Leuk
 2010,6109,6109,Inden,Inden
+2010,6110,6110,Leuk,Leuk
 2010,6111,6111,Leukerbad,Leukerbad
 2010,6112,6112,Oberems,Oberems
 2010,6113,6113,Salgesch,Salgesch
@@ -15579,6 +15941,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,6214,6214,Finhaut,Finhaut
 2010,6215,6215,Massongex,Massongex
 2010,6216,6217,Mex (VS),Saint-Maurice
+2010,6217,6217,Saint-Maurice,Saint-Maurice
 2010,6218,6218,Salvan,Salvan
 2010,6219,6219,Vernayaz,Vernayaz
 2010,6220,6220,Vérossaz,Vérossaz
@@ -15601,6 +15964,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,6263,6263,Grimisuat,Grimisuat
 2010,6264,6266,Salins,Sion
 2010,6265,6265,Savièse,Savièse
+2010,6266,6266,Sion,Sion
 2010,6267,6267,Veysonnaz,Veysonnaz
 2010,6281,6281,Baltschieder,Baltschieder
 2010,6282,6282,Eisten,Eisten
@@ -15774,6 +16138,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,6785,6785,Courtedoux,Courtedoux
 2010,6787,6787,Damphreux,Damphreux
 2010,6789,6789,Fahy,Fahy
+2010,6790,6790,Fontenais,Fontenais
 2010,6792,6792,Grandfontaine,Grandfontaine
 2010,6793,6793,Lugnez,Lugnez
 2010,6800,6800,Porrentruy,Porrentruy
@@ -15957,11 +16322,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,301,301,Aarberg,Aarberg
 2011,302,302,Bargen (BE),Bargen (BE)
 2011,303,303,Grossaffoltern,Grossaffoltern
+2011,304,304,Kallnach,Kallnach
 2011,305,305,Kappelen,Kappelen
 2011,306,306,Lyss,Lyss
 2011,307,307,Meikirch,Meikirch
 2011,308,304,Niederried bei Kallnach,Kallnach
 2011,309,309,Radelfingen,Radelfingen
+2011,310,310,Rapperswil (BE),Rapperswil (BE)
 2011,311,311,Schüpfen,Schüpfen
 2011,312,312,Seedorf (BE),Seedorf (BE)
 2011,321,321,Aarwangen,Aarwangen
@@ -16137,6 +16504,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,613,613,Landiswil,Landiswil
 2011,614,614,Linden,Linden
 2011,615,615,Mirchel,Mirchel
+2011,616,616,Münsingen,Münsingen
 2011,617,617,Niederhünigen,Niederhünigen
 2011,619,619,Oberdiessbach,Oberdiessbach
 2011,620,620,Oberthal,Oberthal
@@ -16242,6 +16610,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,852,852,Guggisberg,Guggisberg
 2011,853,853,Rüschegg,Rüschegg
 2011,855,855,Schwarzenburg,Schwarzenburg
+2011,861,861,Belp,Belp
 2011,862,861,Belpberg,Belp
 2011,863,863,Burgistein,Burgistein
 2011,865,865,Gelterfingen,Gelterfingen
@@ -16374,6 +16743,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,1067,1067,Udligenswil,Udligenswil
 2011,1068,1068,Vitznau,Vitznau
 2011,1069,1069,Weggis,Weggis
+2011,1081,1081,Beromünster,Beromünster
 2011,1082,1082,Büron,Büron
 2011,1083,1083,Buttisholz,Buttisholz
 2011,1084,1084,Eich,Eich
@@ -16387,6 +16757,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,1094,1094,Nottwil,Nottwil
 2011,1095,1095,Oberkirch,Oberkirch
 2011,1096,1097,Pfeffikon,Rickenbach (LU)
+2011,1097,1097,Rickenbach (LU),Rickenbach (LU)
 2011,1098,1098,Ruswil,Ruswil
 2011,1099,1099,Schenkon,Schenkon
 2011,1100,1100,Schlierbach,Schlierbach
@@ -16412,6 +16783,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,1139,1139,Pfaffnau,Pfaffnau
 2011,1140,1140,Reiden,Reiden
 2011,1142,1142,Roggliswil,Roggliswil
+2011,1143,1143,Schötz,Schötz
 2011,1145,1145,Ufhusen,Ufhusen
 2011,1146,1146,Wauwil,Wauwil
 2011,1147,1147,Wikon,Wikon
@@ -16507,6 +16879,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,2011,2011,Cugy (FR),Cugy (FR)
 2011,2013,2013,Domdidier,Domdidier
 2011,2014,2014,Dompierre (FR),Dompierre (FR)
+2011,2015,2015,Estavayer-le-Lac,Estavayer-le-Lac
 2011,2016,2016,Fétigny,Fétigny
 2011,2017,2015,Font,Estavayer-le-Lac
 2011,2022,2022,Gletterens,Gletterens
@@ -16542,6 +16915,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,2096,2096,Romont (FR),Romont (FR)
 2011,2097,2097,Rue,Rue
 2011,2099,2099,Siviriez,Siviriez
+2011,2102,2102,Ursy,Ursy
 2011,2111,2111,Villaz-Saint-Pierre,Villaz-Saint-Pierre
 2011,2112,2102,Vuarmarens,Ursy
 2011,2113,2113,Vuisternens-dev-Romont,Vuisternens-dev-Romont
@@ -16628,6 +17002,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,2271,2271,Meyriez,Meyriez
 2011,2272,2272,Misery-Courtion,Misery-Courtion
 2011,2274,2274,Muntelier,Muntelier
+2011,2275,2275,Murten,Murten
 2011,2276,2276,Ried bei Kerzers,Ried bei Kerzers
 2011,2277,2277,Salvenach,Salvenach
 2011,2278,2278,Ulmiz,Ulmiz
@@ -16721,6 +17096,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,2501,2501,Winznau,Winznau
 2011,2502,2502,Wisen (SO),Wisen (SO)
 2011,2503,2503,Erlinsbach (SO),Erlinsbach (SO)
+2011,2511,2511,Aeschi (SO),Aeschi (SO)
 2011,2513,2513,Biberist,Biberist
 2011,2514,2514,Bolken,Bolken
 2011,2516,2516,Deitingen,Deitingen
@@ -16883,6 +17259,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,2919,2919,Stetten (SH),Stetten (SH)
 2011,2920,2920,Thayngen,Thayngen
 2011,2931,2931,Bargen (SH),Bargen (SH)
+2011,2932,2932,Beringen,Beringen
 2011,2933,2933,Buchberg,Buchberg
 2011,2936,2936,Merishausen,Merishausen
 2011,2937,2937,Neuhausen am Rheinfall,Neuhausen am Rheinfall
@@ -17158,6 +17535,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,3893,3893,St. Antönien,St. Antönien
 2011,3901,3901,Chur,Chur
 2011,3911,3911,Churwalden,Churwalden
+2011,3921,3921,Arosa,Arosa
 2011,3922,3921,Calfreisen,Arosa
 2011,3923,3921,Castiel,Arosa
 2011,3924,3921,Langwies,Arosa
@@ -17186,6 +17564,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,3984,3987,Schlans,Trun
 2011,3985,3985,Sumvitg,Sumvitg
 2011,3986,3986,Tujetsch,Tujetsch
+2011,3987,3987,Trun,Trun
 2011,4001,4001,Aarau,Aarau
 2011,4002,4002,Biberstein,Biberstein
 2011,4003,4003,Buchs (AG),Buchs (AG)
@@ -17344,6 +17723,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,4231,4231,Dietwil,Dietwil
 2011,4232,4232,Geltwil,Geltwil
 2011,4233,4233,Kallern,Kallern
+2011,4234,4234,Merenschwand,Merenschwand
 2011,4235,4235,Mühlau,Mühlau
 2011,4236,4236,Muri (AG),Muri (AG)
 2011,4237,4237,Oberrüti,Oberrüti
@@ -17516,6 +17896,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,5068,5072,Cavagnago,Faido
 2011,5070,5072,Chironico,Faido
 2011,5071,5071,Dalpe,Dalpe
+2011,5072,5072,Faido,Faido
 2011,5073,5073,Giornico,Giornico
 2011,5074,5072,Mairengo,Faido
 2011,5075,5072,Osco,Faido
@@ -17577,6 +17958,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,5186,5186,Grancia,Grancia
 2011,5187,5187,Gravesano,Gravesano
 2011,5189,5189,Lamone,Lamone
+2011,5192,5192,Lugano,Lugano
 2011,5193,5193,Magliaso,Magliaso
 2011,5194,5194,Manno,Manno
 2011,5195,5195,Maroggia,Maroggia
@@ -17607,6 +17989,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,5230,5230,Vernate,Vernate
 2011,5231,5231,Vezia,Vezia
 2011,5233,5233,Vico Morcote,Vico Morcote
+2011,5236,5236,Collina d'Oro,Collina d'Oro
 2011,5237,5237,Alto Malcantone,Alto Malcantone
 2011,5238,5238,Monteceneri,Monteceneri
 2011,5242,5242,Balerna,Balerna
@@ -17615,6 +17998,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,5250,5250,Chiasso,Chiasso
 2011,5251,5251,Coldrerio,Coldrerio
 2011,5253,5254,Ligornetto,Mendrisio
+2011,5254,5254,Mendrisio,Mendrisio
 2011,5255,5254,Meride,Mendrisio
 2011,5257,5257,Morbio Inferiore,Morbio Inferiore
 2011,5260,5260,Novazzano,Novazzano
@@ -17898,6 +18282,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,5794,5805,Oron-le-Châtel,Oron
 2011,5795,5805,Palézieux,Oron
 2011,5798,5798,Ropraz,Ropraz
+2011,5799,5799,Servion,Servion
 2011,5800,5805,Les Tavernes,Oron
 2011,5801,5805,Les Thioleyres,Oron
 2011,5802,5805,Vuibroye,Oron
@@ -17946,6 +18331,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,5902,5902,Belmont-sur-Yverdon,Belmont-sur-Yverdon
 2011,5903,5903,Bioley-Magnoux,Bioley-Magnoux
 2011,5904,5904,Chamblon,Chamblon
+2011,5905,5905,Champvent,Champvent
 2011,5906,5693,Chanéaz,Montanaire
 2011,5907,5907,Chavannes-le-Chêne,Chavannes-le-Chêne
 2011,5908,5908,Chêne-Pâquier,Chêne-Pâquier
@@ -17953,6 +18339,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,5910,5910,Cronay,Cronay
 2011,5911,5911,Cuarny,Cuarny
 2011,5912,5912,Démoret,Démoret
+2011,5913,5913,Donneloye,Donneloye
 2011,5914,5914,Ependes (VD),Ependes (VD)
 2011,5915,5915,Essert-Pittet,Essert-Pittet
 2011,5916,5905,Essert-sous-Champvent,Champvent
@@ -17980,6 +18367,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,6002,6002,Brig-Glis,Brig-Glis
 2011,6004,6004,Eggerberg,Eggerberg
 2011,6006,6007,Mund,Naters
+2011,6007,6007,Naters,Naters
 2011,6008,6008,Ried-Brig,Ried-Brig
 2011,6009,6009,Simplon,Simplon
 2011,6010,6010,Termen,Termen
@@ -18019,6 +18407,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,6104,6104,Ergisch,Ergisch
 2011,6105,6110,Erschmatt,Leuk
 2011,6109,6109,Inden,Inden
+2011,6110,6110,Leuk,Leuk
 2011,6111,6111,Leukerbad,Leukerbad
 2011,6112,6112,Oberems,Oberems
 2011,6113,6113,Salgesch,Salgesch
@@ -18071,6 +18460,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,6214,6214,Finhaut,Finhaut
 2011,6215,6215,Massongex,Massongex
 2011,6216,6217,Mex (VS),Saint-Maurice
+2011,6217,6217,Saint-Maurice,Saint-Maurice
 2011,6218,6218,Salvan,Salvan
 2011,6219,6219,Vernayaz,Vernayaz
 2011,6220,6220,Vérossaz,Vérossaz
@@ -18093,6 +18483,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,6263,6263,Grimisuat,Grimisuat
 2011,6264,6266,Salins,Sion
 2011,6265,6265,Savièse,Savièse
+2011,6266,6266,Sion,Sion
 2011,6267,6267,Veysonnaz,Veysonnaz
 2011,6281,6281,Baltschieder,Baltschieder
 2011,6282,6282,Eisten,Eisten
@@ -18266,6 +18657,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,6785,6785,Courtedoux,Courtedoux
 2011,6787,6787,Damphreux,Damphreux
 2011,6789,6789,Fahy,Fahy
+2011,6790,6790,Fontenais,Fontenais
 2011,6792,6792,Grandfontaine,Grandfontaine
 2011,6793,6793,Lugnez,Lugnez
 2011,6800,6800,Porrentruy,Porrentruy
@@ -18449,11 +18841,13 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,301,301,Aarberg,Aarberg
 2012,302,302,Bargen (BE),Bargen (BE)
 2012,303,303,Grossaffoltern,Grossaffoltern
+2012,304,304,Kallnach,Kallnach
 2012,305,305,Kappelen,Kappelen
 2012,306,306,Lyss,Lyss
 2012,307,307,Meikirch,Meikirch
 2012,308,304,Niederried bei Kallnach,Kallnach
 2012,309,309,Radelfingen,Radelfingen
+2012,310,310,Rapperswil (BE),Rapperswil (BE)
 2012,311,311,Schüpfen,Schüpfen
 2012,312,312,Seedorf (BE),Seedorf (BE)
 2012,321,321,Aarwangen,Aarwangen
@@ -18629,6 +19023,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,613,613,Landiswil,Landiswil
 2012,614,614,Linden,Linden
 2012,615,615,Mirchel,Mirchel
+2012,616,616,Münsingen,Münsingen
 2012,617,617,Niederhünigen,Niederhünigen
 2012,619,619,Oberdiessbach,Oberdiessbach
 2012,620,620,Oberthal,Oberthal
@@ -18866,6 +19261,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,1067,1067,Udligenswil,Udligenswil
 2012,1068,1068,Vitznau,Vitznau
 2012,1069,1069,Weggis,Weggis
+2012,1081,1081,Beromünster,Beromünster
 2012,1082,1082,Büron,Büron
 2012,1083,1083,Buttisholz,Buttisholz
 2012,1084,1084,Eich,Eich
@@ -18879,6 +19275,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,1094,1094,Nottwil,Nottwil
 2012,1095,1095,Oberkirch,Oberkirch
 2012,1096,1097,Pfeffikon,Rickenbach (LU)
+2012,1097,1097,Rickenbach (LU),Rickenbach (LU)
 2012,1098,1098,Ruswil,Ruswil
 2012,1099,1099,Schenkon,Schenkon
 2012,1100,1100,Schlierbach,Schlierbach
@@ -18904,6 +19301,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,1139,1139,Pfaffnau,Pfaffnau
 2012,1140,1140,Reiden,Reiden
 2012,1142,1142,Roggliswil,Roggliswil
+2012,1143,1143,Schötz,Schötz
 2012,1145,1145,Ufhusen,Ufhusen
 2012,1146,1146,Wauwil,Wauwil
 2012,1147,1147,Wikon,Wikon
@@ -19120,6 +19518,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,2271,2271,Meyriez,Meyriez
 2012,2272,2272,Misery-Courtion,Misery-Courtion
 2012,2274,2274,Muntelier,Muntelier
+2012,2275,2275,Murten,Murten
 2012,2276,2276,Ried bei Kerzers,Ried bei Kerzers
 2012,2277,2277,Salvenach,Salvenach
 2012,2278,2278,Ulmiz,Ulmiz
@@ -19375,6 +19774,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,2919,2919,Stetten (SH),Stetten (SH)
 2012,2920,2920,Thayngen,Thayngen
 2012,2931,2931,Bargen (SH),Bargen (SH)
+2012,2932,2932,Beringen,Beringen
 2012,2933,2933,Buchberg,Buchberg
 2012,2936,2936,Merishausen,Merishausen
 2012,2937,2937,Neuhausen am Rheinfall,Neuhausen am Rheinfall
@@ -19650,6 +20050,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,3893,3893,St. Antönien,St. Antönien
 2012,3901,3901,Chur,Chur
 2012,3911,3911,Churwalden,Churwalden
+2012,3921,3921,Arosa,Arosa
 2012,3922,3921,Calfreisen,Arosa
 2012,3923,3921,Castiel,Arosa
 2012,3924,3921,Langwies,Arosa
@@ -20059,6 +20460,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,5186,5186,Grancia,Grancia
 2012,5187,5187,Gravesano,Gravesano
 2012,5189,5189,Lamone,Lamone
+2012,5192,5192,Lugano,Lugano
 2012,5193,5193,Magliaso,Magliaso
 2012,5194,5194,Manno,Manno
 2012,5195,5195,Maroggia,Maroggia
@@ -20098,6 +20500,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,5250,5250,Chiasso,Chiasso
 2012,5251,5251,Coldrerio,Coldrerio
 2012,5253,5254,Ligornetto,Mendrisio
+2012,5254,5254,Mendrisio,Mendrisio
 2012,5255,5254,Meride,Mendrisio
 2012,5257,5257,Morbio Inferiore,Morbio Inferiore
 2012,5260,5260,Novazzano,Novazzano
@@ -20453,6 +20856,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,6002,6002,Brig-Glis,Brig-Glis
 2012,6004,6004,Eggerberg,Eggerberg
 2012,6006,6007,Mund,Naters
+2012,6007,6007,Naters,Naters
 2012,6008,6008,Ried-Brig,Ried-Brig
 2012,6009,6009,Simplon,Simplon
 2012,6010,6010,Termen,Termen
@@ -20492,6 +20896,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,6104,6104,Ergisch,Ergisch
 2012,6105,6110,Erschmatt,Leuk
 2012,6109,6109,Inden,Inden
+2012,6110,6110,Leuk,Leuk
 2012,6111,6111,Leukerbad,Leukerbad
 2012,6112,6112,Oberems,Oberems
 2012,6113,6113,Salgesch,Salgesch
@@ -20544,6 +20949,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,6214,6214,Finhaut,Finhaut
 2012,6215,6215,Massongex,Massongex
 2012,6216,6217,Mex (VS),Saint-Maurice
+2012,6217,6217,Saint-Maurice,Saint-Maurice
 2012,6218,6218,Salvan,Salvan
 2012,6219,6219,Vernayaz,Vernayaz
 2012,6220,6220,Vérossaz,Vérossaz
@@ -20566,6 +20972,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,6263,6263,Grimisuat,Grimisuat
 2012,6264,6266,Salins,Sion
 2012,6265,6265,Savièse,Savièse
+2012,6266,6266,Sion,Sion
 2012,6267,6267,Veysonnaz,Veysonnaz
 2012,6281,6281,Baltschieder,Baltschieder
 2012,6282,6282,Eisten,Eisten
@@ -20739,6 +21146,7 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,6785,6785,Courtedoux,Courtedoux
 2012,6787,6787,Damphreux,Damphreux
 2012,6789,6789,Fahy,Fahy
+2012,6790,6790,Fontenais,Fontenais
 2012,6792,6792,Grandfontaine,Grandfontaine
 2012,6793,6793,Lugnez,Lugnez
 2012,6800,6800,Porrentruy,Porrentruy

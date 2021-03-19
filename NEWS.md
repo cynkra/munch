@@ -1,5 +1,10 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# SwissCommunes 0.0.8.9004 (2021-03-19)
+
+- Improve internal consistency (#23).
+
+
 # SwissCommunes 0.0.8.9003 (2021-03-19)
 
 - Update data to 2021.

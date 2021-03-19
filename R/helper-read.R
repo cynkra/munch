@@ -2,7 +2,7 @@
 #'
 #' @export
 swc_read_data <- function() {
-  record_hist_url <- "https://www.bfs.admin.ch/bfsstatic/dam/assets/11467407/master"
+  record_hist_url <- "https://www.bfs.admin.ch/bfsstatic/dam/assets/15264522/master"
   zip_file_name <- tempfile(fileext = ".zip")
   logging::logdebug(zip_file_name)
   on.exit(unlink(zip_file_name), add = TRUE)
@@ -13,7 +13,8 @@ swc_read_data <- function() {
   logging::logdebug(unzip_dir_name)
   on.exit(unlink(unzip_dir_name, recursive = TRUE), add = TRUE)
 
-  file.list <- unzip(zip_file_name, list = TRUE)
+  all_file_list <- unzip(zip_file_name, list = TRUE)
+  file_list <- all_file_list[grepl("^01[.]1/", all_file_list$Name), ]
   unzip(zip_file_name, exdir = unzip_dir_name)
 
   # Reading using unz() and recoding "on the fly"
@@ -79,7 +80,7 @@ swc_read_data <- function() {
   l <- lapply(X = ft, FUN = function(t) {
     logging::logdebug("Parsing data set: %s", t$n)
 
-    fname <- grep(paste0("_", t$n, "(?:_.*)?[.]txt"), file.list$Name, value = TRUE)
+    fname <- grep(paste0("_", t$n, "(?:_.*)?[.]txt"), file_list$Name, value = TRUE)
     fpath <- file.path(unzip_dir_name, fname)
     dat <- read.table(
       fpath,

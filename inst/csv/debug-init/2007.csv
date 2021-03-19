@@ -188,7 +188,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 324,Bleienbach,324,Bleienbach
 325,Busswil bei Melchnau,325,Busswil bei Melchnau
 326,Gondiswil,326,Gondiswil
-327,Gutenburg,327,Gutenburg
 328,Kleindietwil,328,Kleindietwil
 329,Langenthal,329,Langenthal
 330,Leimiswil,330,Leimiswil
@@ -437,7 +436,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 746,Safnern,746,Safnern
 747,Scheuren,747,Scheuren
 748,Schwadernau,748,Schwadernau
-749,Studen,749,Studen
+749,Studen (BE),749,Studen (BE)
 750,Sutz-Lattrigen,750,Sutz-Lattrigen
 751,Täuffelen,751,Täuffelen
 752,Tüscherz-Alfermée,752,Tüscherz-Alfermée
@@ -510,14 +509,12 @@ mId.x,mShortName.x,mId.y,mShortName.y
 923,Buchholterberg,923,Buchholterberg
 924,Eriz,924,Eriz
 925,Fahrni,925,Fahrni
-926,Forst,926,Forst
 927,Heiligenschwendi,927,Heiligenschwendi
 928,Heimberg,928,Heimberg
 929,Hilterfingen,929,Hilterfingen
 930,Höfen,930,Höfen
 931,Homberg,931,Homberg
 932,Horrenbach-Buchen,932,Horrenbach-Buchen
-933,Längenbühl,933,Längenbühl
 934,Oberhofen am Thunersee,934,Oberhofen am Thunersee
 935,Oberlangenegg,935,Oberlangenegg
 936,Pohlern,936,Pohlern
@@ -532,6 +529,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 945,Unterlangenegg,945,Unterlangenegg
 946,Wachseldorn,946,Wachseldorn
 947,Zwieselberg,947,Zwieselberg
+948,Forst-Längenbühl,948,Forst-Längenbühl
 951,Affoltern im Emmental,951,Affoltern im Emmental
 952,Dürrenroth,952,Dürrenroth
 953,Eriswil,953,Eriswil
@@ -589,7 +587,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 1031,Hochdorf,1031,Hochdorf
 1032,Hohenrain,1032,Hohenrain
 1033,Inwil,1033,Inwil
-1034,Lieli,1034,Lieli
 1035,Mosen,1035,Mosen
 1036,Müswangen,1036,Müswangen
 1037,Rain,1037,Rain
@@ -1261,11 +1258,10 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3332,Eschenbach (SG),3332,Eschenbach (SG)
 3333,Goldingen,3333,Goldingen
 3334,Gommiswald,3334,Gommiswald
-3335,Jona,3335,Jona
-3336,Rapperswil (SG),3336,Rapperswil (SG)
 3337,St. Gallenkappel,3337,St. Gallenkappel
 3338,Schmerikon,3338,Schmerikon
 3339,Uznach,3339,Uznach
+3340,Rapperswil-Jona,3340,Rapperswil-Jona
 3351,Alt St. Johann,3351,Alt St. Johann
 3352,Ebnat-Kappel,3352,Ebnat-Kappel
 3356,Stein (SG),3356,Stein (SG)
@@ -1465,7 +1461,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3882,Küblis,3882,Küblis
 3883,Saas,3883,Saas
 3891,Luzein,3891,Luzein
-3892,St. Antönien Ascharina,3892,St. Antönien Ascharina
 3893,St. Antönien,3893,St. Antönien
 3901,Chur,3901,Chur
 3911,Churwalden,3911,Churwalden
@@ -2527,10 +2522,10 @@ mId.x,mShortName.x,mId.y,mShortName.y
 6285,Grächen,6285,Grächen
 6286,Lalden,6286,Lalden
 6287,Randa,6287,Randa
-6288,Saas Almagell,6288,Saas Almagell
-6289,Saas Balen,6289,Saas Balen
-6290,Saas Fee,6290,Saas Fee
-6291,Saas Grund,6291,Saas Grund
+6288,Saas-Almagell,6288,Saas-Almagell
+6289,Saas-Balen,6289,Saas-Balen
+6290,Saas-Fee,6290,Saas-Fee
+6291,Saas-Grund,6291,Saas-Grund
 6292,St. Niklaus,6292,St. Niklaus
 6293,Stalden (VS),6293,Stalden (VS)
 6294,Staldenried,6294,Staldenried

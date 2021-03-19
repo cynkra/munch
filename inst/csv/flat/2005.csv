@@ -220,7 +220,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,361,Zollikofen,361,Zollikofen
 2005,362,Ittigen,362,Ittigen
 2005,363,Ostermundigen,363,Ostermundigen
-2005,371,Biel (BE),371,Biel (BE)
+2005,371,Biel/Bienne,371,Biel/Bienne
 2005,372,Evilard,372,Evilard
 2005,381,Arch,381,Arch
 2005,382,Büetigen,382,Büetigen
@@ -585,7 +585,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,1026,Eschenbach (LU),1026,Eschenbach (LU)
 2005,1027,Gelfingen,1027,Gelfingen
 2005,1028,Hämikon,1028,Hämikon
-2005,1029,Herlisberg,1029,Herlisberg
 2005,1030,Hitzkirch,1030,Hitzkirch
 2005,1031,Hochdorf,1031,Hochdorf
 2005,1032,Hohenrain,1032,Hohenrain
@@ -627,7 +626,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,1087,Gunzwil,1087,Gunzwil
 2005,1088,Hildisrieden,1088,Hildisrieden
 2005,1089,Knutwil,1089,Knutwil
-2005,1090,Kulmerau,1090,Kulmerau
 2005,1091,Mauensee,1091,Mauensee
 2005,1092,Neudorf,1092,Neudorf
 2005,1093,Neuenkirch,1093,Neuenkirch
@@ -641,7 +639,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,1102,Sempach,1102,Sempach
 2005,1103,Sursee,1103,Sursee
 2005,1104,Triengen,1104,Triengen
-2005,1105,Wilihof,1105,Wilihof
 2005,1106,Winikon,1106,Winikon
 2005,1107,Wolhusen,1107,Wolhusen
 2005,1121,Alberswil,1121,Alberswil
@@ -784,12 +781,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2003,Bollion,2003,Bollion
 2005,2004,Bussy (FR),2004,Bussy (FR)
 2005,2005,Châbles,2005,Châbles
-2005,2007,Chapelle (Broye),2007,Chapelle (Broye)
 2005,2008,Châtillon (FR),2008,Châtillon (FR)
 2005,2009,Cheiry,2009,Cheiry
 2005,2010,Cheyres,2010,Cheyres
 2005,2011,Cugy (FR),2011,Cugy (FR)
-2005,2012,Delley,2012,Delley
 2005,2013,Domdidier,2013,Domdidier
 2005,2014,Dompierre (FR),2014,Dompierre (FR)
 2005,2015,Estavayer-le-Lac,2015,Estavayer-le-Lac
@@ -805,8 +800,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2033,Morens (FR),2033,Morens (FR)
 2005,2034,Murist,2034,Murist
 2005,2035,Nuvilly,2035,Nuvilly
-2005,2036,Portalban,2036,Portalban
-2005,2037,Praratoud,2037,Praratoud
 2005,2038,Prévondavaux,2038,Prévondavaux
 2005,2039,Rueyres-les-Prés,2039,Rueyres-les-Prés
 2005,2040,Russy,2040,Russy
@@ -815,10 +808,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2043,Sévaz,2043,Sévaz
 2005,2044,Surpierre,2044,Surpierre
 2005,2045,Vallon,2045,Vallon
-2005,2046,Vesin,2046,Vesin
 2005,2047,Villeneuve (FR),2047,Villeneuve (FR)
 2005,2049,Vuissens,2049,Vuissens
 2005,2050,Les Montets,2050,Les Montets
+2005,2051,Delley-Portalban,2051,Delley-Portalban
 2005,2061,Auboranges,2061,Auboranges
 2005,2063,Billens-Hennens,2063,Billens-Hennens
 2005,2066,Chapelle (Glâne),2066,Chapelle (Glâne)
@@ -827,7 +820,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2072,Ecublens (FR),2072,Ecublens (FR)
 2005,2074,Esmonts,2074,Esmonts
 2005,2079,Grangettes,2079,Grangettes
-2005,2083,Lussy (FR),2083,Lussy (FR)
 2005,2086,Massonnens,2086,Massonnens
 2005,2087,Mézières (FR),2087,Mézières (FR)
 2005,2089,Montet (Glâne),2089,Montet (Glâne)
@@ -835,12 +827,12 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2097,Rue,2097,Rue
 2005,2099,Siviriez,2099,Siviriez
 2005,2102,Ursy,2102,Ursy
-2005,2109,Villarimboud,2109,Villarimboud
 2005,2111,Villaz-Saint-Pierre,2111,Villaz-Saint-Pierre
 2005,2112,Vuarmarens,2112,Vuarmarens
 2005,2113,Vuisternens-dev-Romont,2113,Vuisternens-dev-Romont
 2005,2114,Villorsonnens,2114,Villorsonnens
 2005,2115,Torny,2115,Torny
+2005,2116,La Folliaz,2116,La Folliaz
 2005,2121,Haut-Intyamon,2121,Haut-Intyamon
 2005,2122,Pont-en-Ogoz,2122,Pont-en-Ogoz
 2005,2123,Botterens,2123,Botterens
@@ -909,7 +901,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2241,Agriswil,2241,Agriswil
 2005,2243,Barberêche,2243,Barberêche
 2005,2244,Büchslen,2244,Büchslen
-2005,2247,Cordast,2247,Cordast
 2005,2250,Courgevaux,2250,Courgevaux
 2005,2251,Courlevon,2251,Courlevon
 2005,2254,Courtepin,2254,Courtepin
@@ -1182,7 +1173,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2902,Guntmadingen,2902,Guntmadingen
 2005,2903,Löhningen,2903,Löhningen
 2005,2904,Neunkirch,2904,Neunkirch
-2005,2905,Osterfingen,2905,Osterfingen
 2005,2911,Altdorf (SH),2911,Altdorf (SH)
 2005,2913,Bibern (SH),2913,Bibern (SH)
 2005,2914,Büttenhardt,2914,Büttenhardt
@@ -1295,10 +1285,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,3339,Uznach,3339,Uznach
 2005,3351,Alt St. Johann,3351,Alt St. Johann
 2005,3352,Ebnat-Kappel,3352,Ebnat-Kappel
-2005,3354,Krummenau,3354,Krummenau
-2005,3355,Nesslau,3355,Nesslau
 2005,3356,Stein (SG),3356,Stein (SG)
 2005,3357,Wildhaus,3357,Wildhaus
+2005,3358,Nesslau-Krummenau,3358,Nesslau-Krummenau
 2005,3371,Brunnadern,3371,Brunnadern
 2005,3372,Hemberg,3372,Hemberg
 2005,3373,Krinau,3373,Krinau
@@ -2397,7 +2386,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2005,5890,Vevey,5890,Vevey
 2005,5891,Veytaux,5891,Veytaux
-2005,5901,Arrissoules,5901,Arrissoules
 2005,5902,Belmont-sur-Yverdon,5902,Belmont-sur-Yverdon
 2005,5903,Bioley-Magnoux,5903,Bioley-Magnoux
 2005,5904,Chamblon,5904,Chamblon

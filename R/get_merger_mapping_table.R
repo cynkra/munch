@@ -53,7 +53,7 @@ swc_get_merger_mapping_table <- function(start_year, end_year, canton = NULL, ty
   # Need distinct() at end for odd corner case
   mutations %>%
     select(mAdmissionDate, mMutationNumber, mId.x, mShortName.x, mId.y, mShortName.y) %>%
-    mutate(year = as.integer(lubridate::year(mAdmissionDate)) + 1L) %>%
+    mutate(year = as.integer(lubridate::year(mAdmissionDate - 1)) + 1L) %>%
     select(-mAdmissionDate, -mMutationNumber) %>%
     distinct() %>%
     filter(year <= !!end_year) %>%

@@ -115,7 +115,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 159,Uetikon am See,159,Uetikon am See
 160,Zumikon,160,Zumikon
 161,Zollikon,161,Zollikon
-171,Bauma,171,Bauma
 172,Fehraltorf,172,Fehraltorf
 173,Hittnau,173,Hittnau
 174,Illnau-Effretikon,174,Illnau-Effretikon
@@ -123,7 +122,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 176,Lindau,176,Lindau
 177,Pfäffikon,177,Pfäffikon
 178,Russikon,178,Russikon
-179,Sternenberg,179,Sternenberg
 180,Weisslingen,180,Weisslingen
 181,Wila,181,Wila
 182,Wildberg,182,Wildberg
@@ -168,6 +166,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 250,Urdorf,250,Urdorf
 251,Weiningen (ZH),251,Weiningen (ZH)
 261,Zürich,261,Zürich
+297,Bauma,297,Bauma
 298,Wiesendangen,298,Wiesendangen
 301,Aarberg,301,Aarberg
 302,Bargen (BE),302,Bargen (BE)
@@ -258,10 +257,8 @@ mId.x,mShortName.x,mId.y,mShortName.y
 433,Cortébert,433,Cortébert
 434,Courtelary,434,Courtelary
 435,La Ferrière,435,La Ferrière
-436,La Heutte,436,La Heutte
 437,Mont-Tramelan,437,Mont-Tramelan
 438,Orvin,438,Orvin
-439,Péry,439,Péry
 441,Renan (BE),441,Renan (BE)
 442,Romont (BE),442,Romont (BE)
 443,Saint-Imier,443,Saint-Imier
@@ -270,6 +267,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 446,Tramelan,446,Tramelan
 448,Villeret,448,Villeret
 449,Sauge,449,Sauge
+450,Péry-La Heutte,450,Péry-La Heutte
 491,Brüttelen,491,Brüttelen
 492,Erlach,492,Erlach
 493,Finsterhennen,493,Finsterhennen
@@ -367,31 +365,26 @@ mId.x,mShortName.x,mId.y,mShortName.y
 670,Neuenegg,670,Neuenegg
 671,Wileroltigen,671,Wileroltigen
 681,Belprahon,681,Belprahon
-682,Bévilard,682,Bévilard
 683,Champoz,683,Champoz
-684,Châtelat,684,Châtelat
 687,Corcelles (BE),687,Corcelles (BE)
 690,Court,690,Court
 691,Crémines,691,Crémines
 692,Eschert,692,Eschert
 694,Grandval,694,Grandval
 696,Loveresse,696,Loveresse
-697,Malleray,697,Malleray
-699,Monible,699,Monible
 700,Moutier,700,Moutier
 701,Perrefitte,701,Perrefitte
-702,Pontenet,702,Pontenet
 703,Reconvilier,703,Reconvilier
 704,Roches (BE),704,Roches (BE)
 706,Saicourt,706,Saicourt
 707,Saules (BE),707,Saules (BE)
 708,Schelten,708,Schelten
 709,Seehof,709,Seehof
-710,Sornetan,710,Sornetan
 711,Sorvilier,711,Sorvilier
-712,Souboz,712,Souboz
 713,Tavannes,713,Tavannes
 715,Rebévelier,715,Rebévelier
+716,Petit-Val,716,Petit-Val
+717,Valbirse,717,Valbirse
 723,La Neuveville,723,La Neuveville
 724,Nods,724,Nods
 726,Plateau de Diesse,726,Plateau de Diesse
@@ -1187,17 +1180,10 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3442,Gaiserwald,3442,Gaiserwald
 3443,Gossau (SG),3443,Gossau (SG)
 3444,Waldkirch,3444,Waldkirch
-3501,Alvaschein,3501,Alvaschein
-3502,Mon,3502,Mon
 3503,Mutten,3503,Mutten
-3504,Stierva,3504,Stierva
-3505,Tiefencastel,3505,Tiefencastel
 3506,Vaz/Obervaz,3506,Vaz/Obervaz
-3511,Alvaneu,3511,Alvaneu
-3512,Brienz/Brinzauls,3512,Brienz/Brinzauls
 3513,Lantsch/Lenz,3513,Lantsch/Lenz
 3514,Schmitten (GR),3514,Schmitten (GR)
-3515,Surava,3515,Surava
 3521,Bergün/Bravuogn,3521,Bergün/Bravuogn
 3522,Filisur,3522,Filisur
 3531,Bivio,3531,Bivio
@@ -1209,13 +1195,13 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3539,Savognin,3539,Savognin
 3540,Sur,3540,Sur
 3541,Tinizong-Rona,3541,Tinizong-Rona
+3542,Albula/Alvra,3542,Albula/Alvra
 3551,Brusio,3551,Brusio
 3561,Poschiavo,3561,Poschiavo
 3572,Falera,3572,Falera
 3575,Laax,3575,Laax
 3581,Sagogn,3581,Sagogn
 3582,Schluein,3582,Schluein
-3598,St. Martin,3598,St. Martin
 3603,Vals,3603,Vals
 3611,Andiast,3611,Andiast
 3612,Obersaxen,3612,Obersaxen
@@ -1223,11 +1209,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3617,Mundaun,3617,Mundaun
 3618,Lumnezia,3618,Lumnezia
 3619,Ilanz/Glion,3619,Ilanz/Glion
-3631,Almens,3631,Almens
 3633,Fürstenau,3633,Fürstenau
-3634,Paspels,3634,Paspels
-3635,Pratval,3635,Pratval
-3636,Rodels,3636,Rodels
 3637,Rothenbrunnen,3637,Rothenbrunnen
 3638,Scharans,3638,Scharans
 3640,Sils im Domleschg,3640,Sils im Domleschg
@@ -1237,8 +1219,8 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3668,Thusis,3668,Thusis
 3669,Tschappina,3669,Tschappina
 3670,Urmein,3670,Urmein
-3671,Tomils,3671,Tomils
 3672,Safiental,3672,Safiental
+3673,Domleschg,3673,Domleschg
 3681,Avers,3681,Avers
 3691,Hinterrhein,3691,Hinterrhein
 3693,Nufenen,3693,Nufenen
@@ -1259,16 +1241,9 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3732,Flims,3732,Flims
 3733,Tamins,3733,Tamins
 3734,Trin,3734,Trin
-3741,Ardez,3741,Ardez
-3742,Guarda,3742,Guarda
-3743,Lavin,3743,Lavin
-3744,Susch,3744,Susch
-3745,Tarasp,3745,Tarasp
 3746,Zernez,3746,Zernez
 3752,Samnaun,3752,Samnaun
-3761,Ftan,3761,Ftan
 3762,Scuol,3762,Scuol
-3763,Sent,3763,Sent
 3764,Valsot,3764,Valsot
 3781,Bever,3781,Bever
 3782,Celerina/Schlarigna,3782,Celerina/Schlarigna
@@ -1282,14 +1257,10 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3790,Silvaplana,3790,Silvaplana
 3791,Zuoz,3791,Zuoz
 3792,Bregaglia,3792,Bregaglia
-3801,Arvigo,3801,Arvigo
-3803,Braggio,3803,Braggio
 3804,Buseno,3804,Buseno
 3805,Castaneda,3805,Castaneda
-3806,Cauco,3806,Cauco
 3808,Rossa,3808,Rossa
 3810,Santa Maria in Calanca,3810,Santa Maria in Calanca
-3811,Selma,3811,Selma
 3821,Lostallo,3821,Lostallo
 3822,Mesocco,3822,Mesocco
 3823,Soazza,3823,Soazza
@@ -1299,6 +1270,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3834,Roveredo (GR),3834,Roveredo (GR)
 3835,San Vittore,3835,San Vittore
 3836,Verdabbio,3836,Verdabbio
+3837,Calanca,3837,Calanca
 3847,Val Müstair,3847,Val Müstair
 3851,Davos,3851,Davos
 3861,Fideris,3861,Fideris

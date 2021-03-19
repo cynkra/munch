@@ -93,8 +93,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 120,Wald (ZH),120,Wald (ZH)
 121,Wetzikon (ZH),121,Wetzikon (ZH)
 131,Adliswil,131,Adliswil
-132,Hirzel,132,Hirzel
-133,Horgen,133,Horgen
 134,Hütten,134,Hütten
 135,Kilchberg (ZH),135,Kilchberg (ZH)
 136,Langnau am Albis,136,Langnau am Albis
@@ -138,12 +136,10 @@ mId.x,mShortName.x,mId.y,mShortName.y
 214,Dägerlen,214,Dägerlen
 215,Dättlikon,215,Dättlikon
 216,Dinhard,216,Dinhard
-217,Elgg,217,Elgg
 218,Ellikon an der Thur,218,Ellikon an der Thur
 219,Elsau,219,Elsau
 220,Hagenbuch,220,Hagenbuch
 221,Hettlingen,221,Hettlingen
-222,Hofstetten (ZH),222,Hofstetten (ZH)
 223,Neftenbach,223,Neftenbach
 224,Pfungen,224,Pfungen
 225,Rickenbach (ZH),225,Rickenbach (ZH)
@@ -164,6 +160,8 @@ mId.x,mShortName.x,mId.y,mShortName.y
 250,Urdorf,250,Urdorf
 251,Weiningen (ZH),251,Weiningen (ZH)
 261,Zürich,261,Zürich
+294,Elgg,294,Elgg
+295,Horgen,295,Horgen
 296,Illnau-Effretikon,296,Illnau-Effretikon
 297,Bauma,297,Bauma
 298,Wiesendangen,298,Wiesendangen
@@ -341,7 +339,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 620,Oberthal,620,Oberthal
 622,Oppligen,622,Oppligen
 623,Rubigen,623,Rubigen
-624,Schlosswil,624,Schlosswil
 626,Walkringen,626,Walkringen
 627,Worb,627,Worb
 628,Zäziwil,628,Zäziwil
@@ -432,7 +429,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 855,Schwarzenburg,855,Schwarzenburg
 861,Belp,861,Belp
 863,Burgistein,863,Burgistein
-865,Gelterfingen,865,Gelterfingen
 866,Gerzensee,866,Gerzensee
 867,Gurzelen,867,Gurzelen
 868,Jaberg,868,Jaberg
@@ -441,10 +437,8 @@ mId.x,mShortName.x,mId.y,mShortName.y
 872,Kirchdorf (BE),872,Kirchdorf (BE)
 873,Kirchenthurnen,873,Kirchenthurnen
 874,Lohnstorf,874,Lohnstorf
-875,Mühledorf (BE),875,Mühledorf (BE)
 876,Mühlethurnen,876,Mühlethurnen
 877,Niedermuhlern,877,Niedermuhlern
-878,Noflen,878,Noflen
 879,Riggisberg,879,Riggisberg
 880,Rüeggisberg,880,Rüeggisberg
 881,Rümligen,881,Rümligen
@@ -1147,14 +1141,12 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3442,Gaiserwald,3442,Gaiserwald
 3443,Gossau (SG),3443,Gossau (SG)
 3444,Waldkirch,3444,Waldkirch
-3503,Mutten,3503,Mutten
 3506,Vaz/Obervaz,3506,Vaz/Obervaz
 3513,Lantsch/Lenz,3513,Lantsch/Lenz
 3514,Schmitten (GR),3514,Schmitten (GR)
-3521,Bergün/Bravuogn,3521,Bergün/Bravuogn
-3522,Filisur,3522,Filisur
 3542,Albula/Alvra,3542,Albula/Alvra
 3543,Surses,3543,Surses
+3544,Bergün Filisur,3544,Bergün Filisur
 3551,Brusio,3551,Brusio
 3561,Poschiavo,3561,Poschiavo
 3572,Falera,3572,Falera
@@ -1162,8 +1154,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3581,Sagogn,3581,Sagogn
 3582,Schluein,3582,Schluein
 3603,Vals,3603,Vals
-3611,Andiast,3611,Andiast
-3616,Waltensburg/Vuorz,3616,Waltensburg/Vuorz
 3618,Lumnezia,3618,Lumnezia
 3619,Ilanz/Glion,3619,Ilanz/Glion
 3633,Fürstenau,3633,Fürstenau
@@ -1335,7 +1325,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 4110,Remigen,4110,Remigen
 4111,Riniken,4111,Riniken
 4112,Rüfenach,4112,Rüfenach
-4113,Scherz,4113,Scherz
 4114,Schinznach-Bad,4114,Schinznach-Bad
 4117,Thalheim (AG),4117,Thalheim (AG)
 4120,Veltheim (AG),4120,Veltheim (AG)
@@ -2104,18 +2093,13 @@ mId.x,mShortName.x,mId.y,mShortName.y
 6298,Visperterminen,6298,Visperterminen
 6299,Zeneggen,6299,Zeneggen
 6300,Zermatt,6300,Zermatt
-6402,Bevaix,6402,Bevaix
 6404,Boudry,6404,Boudry
 6407,Corcelles-Cormondrèche,6407,Corcelles-Cormondrèche
 6408,Cortaillod,6408,Cortaillod
-6409,Fresens,6409,Fresens
-6410,Gorgier,6410,Gorgier
-6411,Montalchez,6411,Montalchez
 6412,Peseux,6412,Peseux
 6413,Rochefort,6413,Rochefort
-6414,Saint-Aubin-Sauges,6414,Saint-Aubin-Sauges
-6415,Vaumarcus,6415,Vaumarcus
 6416,Milvignes,6416,Milvignes
+6417,La Grande-Béroche,6417,La Grande-Béroche
 6421,La Chaux-de-Fonds,6421,La Chaux-de-Fonds
 6422,Les Planchettes,6422,Les Planchettes
 6423,La Sagne,6423,La Sagne
@@ -2188,7 +2172,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 6702,Boécourt,6702,Boécourt
 6703,Bourrignon,6703,Bourrignon
 6704,Châtillon (JU),6704,Châtillon (JU)
-6705,Corban,6705,Corban
 6706,Courchapoix,6706,Courchapoix
 6708,Courrendlin,6708,Courrendlin
 6709,Courroux,6709,Courroux
@@ -2236,7 +2219,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 6792,Grandfontaine,6792,Grandfontaine
 6793,Lugnez,6793,Lugnez
 6800,Porrentruy,6800,Porrentruy
-6803,Rocourt,6803,Rocourt
 6806,Vendlincourt,6806,Vendlincourt
 6807,Basse-Allaine,6807,Basse-Allaine
 6808,Clos du Doubs,6808,Clos du Doubs

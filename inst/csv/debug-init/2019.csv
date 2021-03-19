@@ -28,15 +28,12 @@ mId.x,mShortName.x,mId.y,mShortName.y
 33,Kleinandelfingen,33,Kleinandelfingen
 34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 35,Marthalen,35,Marthalen
-36,Oberstammheim,36,Oberstammheim
 37,Ossingen,37,Ossingen
 38,Rheinau,38,Rheinau
 39,Thalheim an der Thur,39,Thalheim an der Thur
 40,Trüllikon,40,Trüllikon
 41,Truttikon,41,Truttikon
-42,Unterstammheim,42,Unterstammheim
 43,Volken,43,Volken
-44,Waltalingen,44,Waltalingen
 51,Bachenbülach,51,Bachenbülach
 52,Bassersdorf,52,Bassersdorf
 53,Bülach,53,Bülach
@@ -93,15 +90,12 @@ mId.x,mShortName.x,mId.y,mShortName.y
 120,Wald (ZH),120,Wald (ZH)
 121,Wetzikon (ZH),121,Wetzikon (ZH)
 131,Adliswil,131,Adliswil
-134,Hütten,134,Hütten
 135,Kilchberg (ZH),135,Kilchberg (ZH)
 136,Langnau am Albis,136,Langnau am Albis
 137,Oberrieden,137,Oberrieden
 138,Richterswil,138,Richterswil
 139,Rüschlikon,139,Rüschlikon
-140,Schönenberg (ZH),140,Schönenberg (ZH)
 141,Thalwil,141,Thalwil
-142,Wädenswil,142,Wädenswil
 151,Erlenbach (ZH),151,Erlenbach (ZH)
 152,Herrliberg,152,Herrliberg
 153,Hombrechtikon,153,Hombrechtikon
@@ -160,6 +154,8 @@ mId.x,mShortName.x,mId.y,mShortName.y
 250,Urdorf,250,Urdorf
 251,Weiningen (ZH),251,Weiningen (ZH)
 261,Zürich,261,Zürich
+292,Stammheim,292,Stammheim
+293,Wädenswil,293,Wädenswil
 294,Elgg,294,Elgg
 295,Horgen,295,Horgen
 296,Illnau-Effretikon,296,Illnau-Effretikon
@@ -348,7 +344,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 661,Clavaleyres,661,Clavaleyres
 662,Ferenbalm,662,Ferenbalm
 663,Frauenkappelen,663,Frauenkappelen
-664,Golaten,664,Golaten
 665,Gurbrü,665,Gurbrü
 666,Kriechenwil,666,Kriechenwil
 667,Laupen,667,Laupen
@@ -1169,9 +1164,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3672,Safiental,3672,Safiental
 3673,Domleschg,3673,Domleschg
 3681,Avers,3681,Avers
-3691,Hinterrhein,3691,Hinterrhein
-3693,Nufenen,3693,Nufenen
-3694,Splügen,3694,Splügen
 3695,Sufers,3695,Sufers
 3701,Andeer,3701,Andeer
 3703,Casti-Wergenstein,3703,Casti-Wergenstein
@@ -1181,6 +1173,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3711,Rongellen,3711,Rongellen
 3712,Zillis-Reischen,3712,Zillis-Reischen
 3713,Ferrera,3713,Ferrera
+3714,Rheinwald,3714,Rheinwald
 3721,Bonaduz,3721,Bonaduz
 3722,Domat/Ems,3722,Domat/Ems
 3723,Rhäzüns,3723,Rhäzüns
@@ -1422,7 +1415,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 4263,Zeiningen,4263,Zeiningen
 4264,Zuzgen,4264,Zuzgen
 4271,Aarburg,4271,Aarburg
-4272,Attelwil,4272,Attelwil
 4273,Bottenwil,4273,Bottenwil
 4274,Brittnau,4274,Brittnau
 4275,Kirchleerau,4275,Kirchleerau
@@ -2183,11 +2175,9 @@ mId.x,mShortName.x,mId.y,mShortName.y
 6716,Mettembert,6716,Mettembert
 6718,Movelier,6718,Movelier
 6719,Pleigne,6719,Pleigne
-6720,Rebeuvelier,6720,Rebeuvelier
 6721,Rossemaison,6721,Rossemaison
 6722,Saulcy,6722,Saulcy
 6724,Soyhières,6724,Soyhières
-6728,Vellerat,6728,Vellerat
 6729,Haute-Sorne,6729,Haute-Sorne
 6730,Val Terbi,6730,Val Terbi
 6741,Le Bémont (JU),6741,Le Bémont (JU)

@@ -19,7 +19,7 @@ swc_get_municipality_state <- function(year, canton = NULL) {
   mutations <- swc_get_mutations(canton = canton)
 
   mutations_filtered <- mutations %>%
-    mutate(mutation_year = lubridate::year(mMutationDate)) %>%
+    mutate(mutation_year = lubridate::year(mMutationDate - 1)) %>%
     filter(mutation_year < year)
 
   admitted <-

@@ -19,8 +19,6 @@
 <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#toc">
-    
-
     <div class="container template-article">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -33,12 +31,18 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">SwissCommunes</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.8.9001</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.8.9002</span>
       </span>
     </div>
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
+<li>
+  <a href="../index.html">
+    <span class="fas fa-home fa-lg"></span>
+     
+  </a>
+</li>
 <li>
   <a href="../reference/index.html">Reference</a>
 </li>
@@ -60,7 +64,7 @@
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/cynkra/SwissCommunes/" class="external-link">
+  <a href="https://github.com/cynkra/SwissCommunes/">
     <span class="fab fa-github fa-lg"></span>
      
   </a>
@@ -75,13 +79,13 @@
 
       
 
-      </header><script src="data_files/accessible-code-block-0.0.1/empty-anchor.js"></script><div class="row">
+      </header><script src="data_files/header-attrs-2.6/header-attrs.js"></script><div class="row">
   <div class="col-md-9 contents">
     <div class="page-header toc-ignore">
       <h1 data-toc-skip>Mapping tables as CSV files</h1>
             
       
-      <small class="dont-index">Source: <a href="https://github.com/cynkra/SwissCommunes/blob/master/vignettes/data.Rmd" class="external-link"><code>vignettes/data.Rmd</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/cynkra/SwissCommunes/blob/master/vignettes/data.Rmd"><code>vignettes/data.Rmd</code></a></small>
       <div class="hidden name"><code>data.Rmd</code></div>
 
     </div>
@@ -93,23 +97,23 @@
 <a href="#compact-tables" class="anchor"></a>Compact tables</h1>
 <p>This representation consumes very little space. The source key <code>mun_id_x</code> may be non-unique, in this case the <code>year_from</code> and <code>year_to</code> columns must be consulted.</p>
 <ul>
-<li>2005–2005: 2’764 rows (<a href="../data/compact/2005.csv">csv</a>)</li>
+<li>2005–2005: 2’781 rows (<a href="../data/compact/2005.csv">csv</a>)</li>
 <li>2005–2006: 2’771 rows (<a href="../data/compact/2006.csv">csv</a>)</li>
 <li>2005–2007: 2’778 rows (<a href="../data/compact/2007.csv">csv</a>)</li>
-<li>2005–2008: 2’783 rows (<a href="../data/compact/2008.csv">csv</a>)</li>
-<li>2005–2009: 2’801 rows (<a href="../data/compact/2009.csv">csv</a>)</li>
+<li>2005–2008: 2’785 rows (<a href="../data/compact/2008.csv">csv</a>)</li>
+<li>2005–2009: 2’790 rows (<a href="../data/compact/2009.csv">csv</a>)</li>
 <li>2005–2010: 2’808 rows (<a href="../data/compact/2010.csv">csv</a>)</li>
-<li>2005–2011: 2’820 rows (<a href="../data/compact/2011.csv">csv</a>)</li>
-<li>2005–2012: 2’823 rows (<a href="../data/compact/2012.csv">csv</a>)</li>
-<li>2005–2013: 2’844 rows (<a href="../data/compact/2013.csv">csv</a>)</li>
-<li>2005–2014: 2’855 rows (<a href="../data/compact/2014.csv">csv</a>)</li>
+<li>2005–2011: 2’815 rows (<a href="../data/compact/2011.csv">csv</a>)</li>
+<li>2005–2012: 2’827 rows (<a href="../data/compact/2012.csv">csv</a>)</li>
+<li>2005–2013: 2’830 rows (<a href="../data/compact/2013.csv">csv</a>)</li>
+<li>2005–2014: 2’851 rows (<a href="../data/compact/2014.csv">csv</a>)</li>
 <li>2005–2015: 2’862 rows (<a href="../data/compact/2015.csv">csv</a>)</li>
 <li>2005–2016: 2’869 rows (<a href="../data/compact/2016.csv">csv</a>)</li>
-<li>2005–2017: 2’874 rows (<a href="../data/compact/2017.csv">csv</a>)</li>
-<li>2005–2018: 2’879 rows (<a href="../data/compact/2018.csv">csv</a>)</li>
-<li>2005–2019: 2’882 rows (<a href="../data/compact/2019.csv">csv</a>)</li>
-<li>2005–2020: 2’885 rows (<a href="../data/compact/2020.csv">csv</a>)</li>
-<li>2005–2021: 2’885 rows (<a href="../data/compact/2021.csv">csv</a>)</li>
+<li>2005–2017: 2’876 rows (<a href="../data/compact/2017.csv">csv</a>)</li>
+<li>2005–2018: 2’881 rows (<a href="../data/compact/2018.csv">csv</a>)</li>
+<li>2005–2019: 2’886 rows (<a href="../data/compact/2019.csv">csv</a>)</li>
+<li>2005–2020: 2’889 rows (<a href="../data/compact/2020.csv">csv</a>)</li>
+<li>2005–2021: 2’894 rows (<a href="../data/compact/2021.csv">csv</a>)</li>
 </ul>
 </div>
 <div id="flat-tables" class="section level1">
@@ -117,23 +121,23 @@
 <a href="#flat-tables" class="anchor"></a>Flat tables</h1>
 <p>This representation is very explicit. The combination of <code>mun_id_x</code> and <code>year</code> is guaranteed to be unique.</p>
 <ul>
-<li>2005–2005: 2’764 rows (<a href="../data/flat/2005.csv">csv</a>)</li>
-<li>2005–2006: 5’496 rows (<a href="../data/flat/2006.csv">csv</a>)</li>
-<li>2005–2007: 8’223 rows (<a href="../data/flat/2007.csv">csv</a>)</li>
-<li>2005–2008: 10’933 rows (<a href="../data/flat/2008.csv">csv</a>)</li>
-<li>2005–2009: 13’561 rows (<a href="../data/flat/2009.csv">csv</a>)</li>
-<li>2005–2010: 16’149 rows (<a href="../data/flat/2010.csv">csv</a>)</li>
-<li>2005–2011: 18’668 rows (<a href="../data/flat/2011.csv">csv</a>)</li>
-<li>2005–2012: 21’157 rows (<a href="../data/flat/2012.csv">csv</a>)</li>
-<li>2005–2013: 23’557 rows (<a href="../data/flat/2013.csv">csv</a>)</li>
-<li>2005–2014: 25’913 rows (<a href="../data/flat/2014.csv">csv</a>)</li>
-<li>2005–2015: 28’241 rows (<a href="../data/flat/2015.csv">csv</a>)</li>
-<li>2005–2016: 30’532 rows (<a href="../data/flat/2016.csv">csv</a>)</li>
-<li>2005–2017: 32’775 rows (<a href="../data/flat/2017.csv">csv</a>)</li>
-<li>2005–2018: 35’013 rows (<a href="../data/flat/2018.csv">csv</a>)</li>
-<li>2005–2019: 37’228 rows (<a href="../data/flat/2019.csv">csv</a>)</li>
-<li>2005–2020: 39’433 rows (<a href="../data/flat/2020.csv">csv</a>)</li>
-<li>2005–2021: 41’638 rows (<a href="../data/flat/2021.csv">csv</a>)</li>
+<li>2005–2005: 2’781 rows (<a href="../data/flat/2005.csv">csv</a>)</li>
+<li>2005–2006: 5’533 rows (<a href="../data/flat/2006.csv">csv</a>)</li>
+<li>2005–2007: 8’265 rows (<a href="../data/flat/2007.csv">csv</a>)</li>
+<li>2005–2008: 10’992 rows (<a href="../data/flat/2008.csv">csv</a>)</li>
+<li>2005–2009: 13’702 rows (<a href="../data/flat/2009.csv">csv</a>)</li>
+<li>2005–2010: 16’330 rows (<a href="../data/flat/2010.csv">csv</a>)</li>
+<li>2005–2011: 18’918 rows (<a href="../data/flat/2011.csv">csv</a>)</li>
+<li>2005–2012: 21’437 rows (<a href="../data/flat/2012.csv">csv</a>)</li>
+<li>2005–2013: 23’926 rows (<a href="../data/flat/2013.csv">csv</a>)</li>
+<li>2005–2014: 26’326 rows (<a href="../data/flat/2014.csv">csv</a>)</li>
+<li>2005–2015: 28’682 rows (<a href="../data/flat/2015.csv">csv</a>)</li>
+<li>2005–2016: 31’010 rows (<a href="../data/flat/2016.csv">csv</a>)</li>
+<li>2005–2017: 33’301 rows (<a href="../data/flat/2017.csv">csv</a>)</li>
+<li>2005–2018: 35’544 rows (<a href="../data/flat/2018.csv">csv</a>)</li>
+<li>2005–2019: 37’783 rows (<a href="../data/flat/2019.csv">csv</a>)</li>
+<li>2005–2020: 39’998 rows (<a href="../data/flat/2020.csv">csv</a>)</li>
+<li>2005–2021: 42’215 rows (<a href="../data/flat/2021.csv">csv</a>)</li>
 </ul>
 </div>
   </div>
@@ -149,13 +153,11 @@
 
 
       <footer><div class="copyright">
-  <p></p>
-<p>Developed by Kirill Müller, Tobias Schieferdecker, Thomas Knecht.</p>
+  <p>Developed by Kirill Müller, Tobias Schieferdecker, Thomas Knecht.</p>
 </div>
 
 <div class="pkgdown">
-  <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link external-link">pkgdown</a> 1.6.1.9000.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
 </div>
 
       </footer>
@@ -163,8 +165,6 @@
 
   
 
-
-  
 
   </body>
 </html>

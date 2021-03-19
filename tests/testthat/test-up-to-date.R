@@ -3,7 +3,7 @@ context("up-to-date")
 test_that("data is up-to-date", {
   skip_on_os("windows")
 
-  pkg_path <- system.file(package = "SwissHistMunData")
+  pkg_path <- system.file(package = "SwissCommunes")
   data_path <- file.path(pkg_path, "data")
 
   data <- swc_read_data()

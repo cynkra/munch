@@ -1,4 +1,4 @@
 library(testthat)
-library(SwissHistMunData)
+library(SwissCommunes)
 
-test_check("SwissHistMunData")
+test_check("SwissCommunes")

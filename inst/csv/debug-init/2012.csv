@@ -462,6 +462,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 853,Rüschegg,853,Rüschegg
 855,Schwarzenburg,855,Schwarzenburg
 861,Belp,861,Belp
+862,Belpberg,862,Belpberg
 863,Burgistein,863,Burgistein
 865,Gelterfingen,865,Gelterfingen
 866,Gerzensee,866,Gerzensee
@@ -731,6 +732,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2014,Dompierre (FR),2014,Dompierre (FR)
 2015,Estavayer-le-Lac,2015,Estavayer-le-Lac
 2016,Fétigny,2016,Fétigny
+2017,Font,2017,Font
 2022,Gletterens,2022,Gletterens
 2024,Léchelles,2024,Léchelles
 2025,Lully (FR),2025,Lully (FR)
@@ -766,6 +768,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2099,Siviriez,2099,Siviriez
 2102,Ursy,2102,Ursy
 2111,Villaz-Saint-Pierre,2111,Villaz-Saint-Pierre
+2112,Vuarmarens,2112,Vuarmarens
 2113,Vuisternens-dev-Romont,2113,Vuisternens-dev-Romont
 2114,Villorsonnens,2114,Villorsonnens
 2115,Torny,2115,Torny
@@ -962,6 +965,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2528,Obergerlafingen,2528,Obergerlafingen
 2529,Oekingen,2529,Oekingen
 2530,Recherswil,2530,Recherswil
+2531,Steinhof,2531,Steinhof
 2532,Subingen,2532,Subingen
 2534,Zuchwil,2534,Zuchwil
 2541,Balm bei Günsberg,2541,Balm bei Günsberg
@@ -1393,6 +1397,8 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3931,St. Peter-Pagig,3931,St. Peter-Pagig
 3932,Tschiertschen-Praden,3932,Tschiertschen-Praden
 3941,Haldenstein,3941,Haldenstein
+3942,Igis,3942,Igis
+3943,Mastrils,3943,Mastrils
 3945,Trimmis,3945,Trimmis
 3946,Untervaz,3946,Untervaz
 3947,Zizers,3947,Zizers
@@ -1400,13 +1406,13 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3952,Jenins,3952,Jenins
 3953,Maienfeld,3953,Maienfeld
 3954,Malans,3954,Malans
-3955,Landquart,3955,Landquart
 3961,Grüsch,3961,Grüsch
 3962,Schiers,3962,Schiers
 3972,Seewis im Prättigau,3972,Seewis im Prättigau
 3981,Breil/Brigels,3981,Breil/Brigels
 3982,Disentis/Mustér,3982,Disentis/Mustér
 3983,Medel (Lucmagn),3983,Medel (Lucmagn)
+3984,Schlans,3984,Schlans
 3985,Sumvitg,3985,Sumvitg
 3986,Tujetsch,3986,Tujetsch
 3987,Trun,3987,Trun
@@ -1559,6 +1565,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 4222,Aristau,4222,Aristau
 4223,Auw,4223,Auw
 4224,Beinwil (Freiamt),4224,Beinwil (Freiamt)
+4225,Benzenschwil,4225,Benzenschwil
 4226,Besenbüren,4226,Besenbüren
 4227,Bettwil,4227,Bettwil
 4228,Boswil,4228,Boswil
@@ -1726,15 +1733,24 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5017,Sant'Antonino,5017,Sant'Antonino
 5018,Sant'Antonio,5018,Sant'Antonio
 5019,Sementina,5019,Sementina
+5040,Ludiano,5040,Ludiano
+5041,Malvaglia,5041,Malvaglia
+5046,Semione,5046,Semione
 5048,Acquarossa,5048,Acquarossa
 5049,Blenio,5049,Blenio
-5050,Serravalle,5050,Serravalle
 5061,Airolo,5061,Airolo
+5062,Anzonico,5062,Anzonico
 5063,Bedretto,5063,Bedretto
 5064,Bodio,5064,Bodio
+5066,Calpiogna,5066,Calpiogna
+5067,Campello,5067,Campello
+5068,Cavagnago,5068,Cavagnago
+5070,Chironico,5070,Chironico
 5071,Dalpe,5071,Dalpe
 5072,Faido,5072,Faido
 5073,Giornico,5073,Giornico
+5074,Mairengo,5074,Mairengo
+5075,Osco,5075,Osco
 5076,Personico,5076,Personico
 5077,Pollegio,5077,Pollegio
 5078,Prato (Leventina),5078,Prato (Leventina)
@@ -1781,6 +1797,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5162,Cadempino,5162,Cadempino
 5163,Cadro,5163,Cadro
 5167,Canobbio,5167,Canobbio
+5169,Carabietta,5169,Carabietta
 5170,Carona,5170,Carona
 5171,Caslano,5171,Caslano
 5173,Certara,5173,Certara
@@ -2100,18 +2117,28 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5764,Vallorbe,5764,Vallorbe
 5765,Vaulion,5765,Vaulion
 5766,Vuiteboeuf,5766,Vuiteboeuf
+5781,Bussigny-sur-Oron,5781,Bussigny-sur-Oron
 5782,Carrouge (VD),5782,Carrouge (VD)
+5783,Châtillens,5783,Châtillens
+5784,Chesalles-sur-Oron,5784,Chesalles-sur-Oron
 5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
+5786,Les Cullayes,5786,Les Cullayes
+5787,Ecoteaux,5787,Ecoteaux
 5788,Essertes,5788,Essertes
 5789,Ferlens (VD),5789,Ferlens (VD)
 5790,Maracon,5790,Maracon
 5791,Mézières (VD),5791,Mézières (VD)
 5792,Montpreveyres,5792,Montpreveyres
+5793,Oron-la-Ville,5793,Oron-la-Ville
+5794,Oron-le-Châtel,5794,Oron-le-Châtel
+5795,Palézieux,5795,Palézieux
 5798,Ropraz,5798,Ropraz
 5799,Servion,5799,Servion
+5800,Les Tavernes,5800,Les Tavernes
+5801,Les Thioleyres,5801,Les Thioleyres
+5802,Vuibroye,5802,Vuibroye
 5803,Vulliens,5803,Vulliens
 5804,Jorat-Menthue,5804,Jorat-Menthue
-5805,Oron,5805,Oron
 5812,Champtauroz,5812,Champtauroz
 5813,Chevroux,5813,Chevroux
 5816,Corcelles-près-Payerne,5816,Corcelles-près-Payerne
@@ -2166,6 +2193,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5913,Donneloye,5913,Donneloye
 5914,Ependes (VD),5914,Ependes (VD)
 5915,Essert-Pittet,5915,Essert-Pittet
+5916,Essert-sous-Champvent,5916,Essert-sous-Champvent
 5919,Mathod,5919,Mathod
 5921,Molondin,5921,Molondin
 5922,Montagny-près-Yverdon,5922,Montagny-près-Yverdon
@@ -2173,6 +2201,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5924,Orges,5924,Orges
 5925,Orzens,5925,Orzens
 5926,Pomy,5926,Pomy
+5927,Prahins,5927,Prahins
 5928,Rovray,5928,Rovray
 5929,Suchy,5929,Suchy
 5930,Suscévaz,5930,Suscévaz
@@ -2181,6 +2210,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5933,Valeyres-sous-Montagny,5933,Valeyres-sous-Montagny
 5934,Valeyres-sous-Ursins,5934,Valeyres-sous-Ursins
 5935,Villars-Epeney,5935,Villars-Epeney
+5936,Villars-sous-Champvent,5936,Villars-sous-Champvent
 5937,Vugelles-La Mothe,5937,Vugelles-La Mothe
 5938,Yverdon-les-Bains,5938,Yverdon-les-Bains
 5939,Yvonand,5939,Yvonand

@@ -117,6 +117,8 @@ mId.x,mShortName.x,mId.y,mShortName.y
 161,Zollikon,161,Zollikon
 172,Fehraltorf,172,Fehraltorf
 173,Hittnau,173,Hittnau
+174,Illnau-Effretikon,174,Illnau-Effretikon
+175,Kyburg,175,Kyburg
 176,Lindau,176,Lindau
 177,Pfäffikon,177,Pfäffikon
 178,Russikon,178,Russikon
@@ -164,7 +166,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 250,Urdorf,250,Urdorf
 251,Weiningen (ZH),251,Weiningen (ZH)
 261,Zürich,261,Zürich
-296,Illnau-Effretikon,296,Illnau-Effretikon
 297,Bauma,297,Bauma
 298,Wiesendangen,298,Wiesendangen
 301,Aarberg,301,Aarberg
@@ -243,7 +244,9 @@ mId.x,mShortName.x,mId.y,mShortName.y
 414,Krauchthal,414,Krauchthal
 415,Lyssach,415,Lyssach
 416,Mötschwil,416,Mötschwil
+417,Niederösch,417,Niederösch
 418,Oberburg,418,Oberburg
+419,Oberösch,419,Oberösch
 420,Rüdtligen-Alchenflüh,420,Rüdtligen-Alchenflüh
 421,Rumendingen,421,Rumendingen
 422,Rüti bei Lyssach,422,Rüti bei Lyssach
@@ -277,6 +280,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 500,Treiten,500,Treiten
 501,Tschugg,501,Tschugg
 502,Vinelz,502,Vinelz
+532,Bangerten,532,Bangerten
 533,Bätterkinden,533,Bätterkinden
 535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
 536,Diemerswil,536,Diemerswil
@@ -504,6 +508,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 975,Farnern,975,Farnern
 976,Graben,976,Graben
 977,Heimenhausen,977,Heimenhausen
+978,Hermiswil,978,Hermiswil
 979,Herzogenbuchsee,979,Herzogenbuchsee
 980,Inkwil,980,Inkwil
 981,Niederbipp,981,Niederbipp
@@ -690,9 +695,12 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2009,Cheiry,2009,Cheiry
 2010,Cheyres,2010,Cheyres
 2011,Cugy (FR),2011,Cugy (FR)
+2013,Domdidier,2013,Domdidier
+2014,Dompierre (FR),2014,Dompierre (FR)
 2015,Estavayer-le-Lac,2015,Estavayer-le-Lac
 2016,Fétigny,2016,Fétigny
 2022,Gletterens,2022,Gletterens
+2024,Léchelles,2024,Léchelles
 2025,Lully (FR),2025,Lully (FR)
 2027,Ménières,2027,Ménières
 2029,Montagny (FR),2029,Montagny (FR)
@@ -701,6 +709,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2035,Nuvilly,2035,Nuvilly
 2038,Prévondavaux,2038,Prévondavaux
 2039,Rueyres-les-Prés,2039,Rueyres-les-Prés
+2040,Russy,2040,Russy
 2041,Saint-Aubin (FR),2041,Saint-Aubin (FR)
 2043,Sévaz,2043,Sévaz
 2044,Surpierre,2044,Surpierre
@@ -710,7 +719,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2050,Les Montets,2050,Les Montets
 2051,Delley-Portalban,2051,Delley-Portalban
 2052,Vernay,2052,Vernay
-2053,Belmont-Broye,2053,Belmont-Broye
 2061,Auboranges,2061,Auboranges
 2063,Billens-Hennens,2063,Billens-Hennens
 2066,Chapelle (Glâne),2066,Chapelle (Glâne)
@@ -756,15 +764,18 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2162,Bas-Intyamon,2162,Bas-Intyamon
 2163,Val-de-Charmey,2163,Val-de-Charmey
 2171,Arconciel,2171,Arconciel
+2172,Autafond,2172,Autafond
 2173,Autigny,2173,Autigny
 2174,Avry,2174,Avry
 2175,Belfaux,2175,Belfaux
 2177,Chénens,2177,Chénens
 2179,Chésopelloz,2179,Chésopelloz
 2183,Corminboeuf,2183,Corminboeuf
+2184,Corpataux-Magnedens,2184,Corpataux-Magnedens
 2185,Corserey,2185,Corserey
 2186,Cottens (FR),2186,Cottens (FR)
 2189,Ependes (FR),2189,Ependes (FR)
+2192,Farvagny,2192,Farvagny
 2194,Ferpicloz,2194,Ferpicloz
 2196,Fribourg,2196,Fribourg
 2197,Givisiez,2197,Givisiez
@@ -778,16 +789,19 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2217,Ponthaux,2217,Ponthaux
 2220,Le Mouret,2220,Le Mouret
 2221,Prez-vers-Noréaz,2221,Prez-vers-Noréaz
+2222,Rossens (FR),2222,Rossens (FR)
+2223,Le Glèbe,2223,Le Glèbe
 2225,Senèdes,2225,Senèdes
 2226,Treyvaux,2226,Treyvaux
 2228,Villars-sur-Glâne,2228,Villars-sur-Glâne
 2230,Villarsel-sur-Marly,2230,Villarsel-sur-Marly
+2231,Vuisternens-en-Ogoz,2231,Vuisternens-en-Ogoz
 2233,Hauterive (FR),2233,Hauterive (FR)
 2234,La Brillaz,2234,La Brillaz
 2235,La Sonnaz,2235,La Sonnaz
-2236,Gibloux,2236,Gibloux
 2243,Barberêche,2243,Barberêche
 2250,Courgevaux,2250,Courgevaux
+2251,Courlevon,2251,Courlevon
 2254,Courtepin,2254,Courtepin
 2257,Cressier (FR),2257,Cressier (FR)
 2258,Fräschels,2258,Fräschels
@@ -795,17 +809,21 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2260,Gempenach,2260,Gempenach
 2261,Greng,2261,Greng
 2262,Gurmels,2262,Gurmels
+2264,Jeuss,2264,Jeuss
 2265,Kerzers,2265,Kerzers
 2266,Kleinbösingen,2266,Kleinbösingen
+2270,Lurtigen,2270,Lurtigen
 2271,Meyriez,2271,Meyriez
 2272,Misery-Courtion,2272,Misery-Courtion
 2274,Muntelier,2274,Muntelier
 2275,Murten,2275,Murten
 2276,Ried bei Kerzers,2276,Ried bei Kerzers
+2277,Salvenach,2277,Salvenach
 2278,Ulmiz,2278,Ulmiz
 2279,Villarepos,2279,Villarepos
+2280,Bas-Vully,2280,Bas-Vully
+2281,Haut-Vully,2281,Haut-Vully
 2283,Wallenried,2283,Wallenried
-2284,Mont-Vully,2284,Mont-Vully
 2291,Alterswil,2291,Alterswil
 2292,Brünisried,2292,Brünisried
 2293,Düdingen,2293,Düdingen
@@ -1168,8 +1186,16 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3514,Schmitten (GR),3514,Schmitten (GR)
 3521,Bergün/Bravuogn,3521,Bergün/Bravuogn
 3522,Filisur,3522,Filisur
+3531,Bivio,3531,Bivio
+3532,Cunter,3532,Cunter
+3533,Marmorera,3533,Marmorera
+3534,Mulegns,3534,Mulegns
+3536,Riom-Parsonz,3536,Riom-Parsonz
+3538,Salouf,3538,Salouf
+3539,Savognin,3539,Savognin
+3540,Sur,3540,Sur
+3541,Tinizong-Rona,3541,Tinizong-Rona
 3542,Albula/Alvra,3542,Albula/Alvra
-3543,Surses,3543,Surses
 3551,Brusio,3551,Brusio
 3561,Poschiavo,3561,Poschiavo
 3572,Falera,3572,Falera
@@ -1178,7 +1204,9 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3582,Schluein,3582,Schluein
 3603,Vals,3603,Vals
 3611,Andiast,3611,Andiast
+3612,Obersaxen,3612,Obersaxen
 3616,Waltensburg/Vuorz,3616,Waltensburg/Vuorz
+3617,Mundaun,3617,Mundaun
 3618,Lumnezia,3618,Lumnezia
 3619,Ilanz/Glion,3619,Ilanz/Glion
 3633,Fürstenau,3633,Fürstenau
@@ -1251,7 +1279,9 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3871,Klosters-Serneus,3871,Klosters-Serneus
 3881,Conters im Prättigau,3881,Conters im Prättigau
 3882,Küblis,3882,Küblis
+3883,Saas,3883,Saas
 3891,Luzein,3891,Luzein
+3893,St. Antönien,3893,St. Antönien
 3901,Chur,3901,Chur
 3911,Churwalden,3911,Churwalden
 3921,Arosa,3921,Arosa
@@ -1275,7 +1305,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3985,Sumvitg,3985,Sumvitg
 3986,Tujetsch,3986,Tujetsch
 3987,Trun,3987,Trun
-3988,Obersaxen Mundaun,3988,Obersaxen Mundaun
 4001,Aarau,4001,Aarau
 4002,Biberstein,4002,Biberstein
 4003,Buchs (AG),4003,Buchs (AG)
@@ -1599,6 +1628,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5077,Pollegio,5077,Pollegio
 5078,Prato (Leventina),5078,Prato (Leventina)
 5079,Quinto,5079,Quinto
+5081,Sobrio,5081,Sobrio
 5091,Ascona,5091,Ascona
 5095,Brione (Verzasca),5095,Brione (Verzasca)
 5096,Brione sopra Minusio,5096,Brione sopra Minusio
@@ -1606,18 +1636,22 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5102,Corippo,5102,Corippo
 5105,Frasco,5105,Frasco
 5108,Gordola,5108,Gordola
+5109,Gresso,5109,Gresso
 5112,Lavertezzo,5112,Lavertezzo
 5113,Locarno,5113,Locarno
 5115,Losone,5115,Losone
 5117,Mergoscia,5117,Mergoscia
 5118,Minusio,5118,Minusio
+5119,Mosogno,5119,Mosogno
 5120,Muralto,5120,Muralto
 5121,Orselina,5121,Orselina
 5125,Ronco sopra Ascona,5125,Ronco sopra Ascona
 5129,Sonogno,5129,Sonogno
 5131,Tenero-Contra,5131,Tenero-Contra
+5132,Vergeletto,5132,Vergeletto
 5135,Vogorno,5135,Vogorno
 5136,Onsernone,5136,Onsernone
+5137,Isorno,5137,Isorno
 5138,Cugnasco-Gerra,5138,Cugnasco-Gerra
 5141,Agno,5141,Agno
 5143,Aranno,5143,Aranno
@@ -1936,16 +1970,18 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5764,Vallorbe,5764,Vallorbe
 5765,Vaulion,5765,Vaulion
 5766,Vuiteboeuf,5766,Vuiteboeuf
+5782,Carrouge (VD),5782,Carrouge (VD)
 5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
 5788,Essertes,5788,Essertes
+5789,Ferlens (VD),5789,Ferlens (VD)
 5790,Maracon,5790,Maracon
+5791,Mézières (VD),5791,Mézières (VD)
 5792,Montpreveyres,5792,Montpreveyres
 5798,Ropraz,5798,Ropraz
 5799,Servion,5799,Servion
 5803,Vulliens,5803,Vulliens
 5804,Jorat-Menthue,5804,Jorat-Menthue
 5805,Oron,5805,Oron
-5806,Jorat-Mézières,5806,Jorat-Mézières
 5812,Champtauroz,5812,Champtauroz
 5813,Chevroux,5813,Chevroux
 5816,Corcelles-près-Payerne,5816,Corcelles-près-Payerne
@@ -2154,6 +2190,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 6391,Kom. Reck.-Glu./Grafsch.,6391,Kom. Reck.-Glu./Grafsch.
 6402,Bevaix,6402,Bevaix
 6404,Boudry,6404,Boudry
+6405,Brot-Dessous,6405,Brot-Dessous
 6407,Corcelles-Cormondrèche,6407,Corcelles-Cormondrèche
 6408,Cortaillod,6408,Cortaillod
 6409,Fresens,6409,Fresens

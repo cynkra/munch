@@ -138,6 +138,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 199,Volketswil,199,Volketswil
 200,Wangen-Brüttisellen,200,Wangen-Brüttisellen
 211,Altikon,211,Altikon
+212,Bertschikon,212,Bertschikon
 213,Brütten,213,Brütten
 214,Dägerlen,214,Dägerlen
 215,Dättlikon,215,Dättlikon
@@ -154,6 +155,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 226,Schlatt (ZH),226,Schlatt (ZH)
 227,Seuzach,227,Seuzach
 228,Turbenthal,228,Turbenthal
+229,Wiesendangen,229,Wiesendangen
 230,Winterthur,230,Winterthur
 231,Zell (ZH),231,Zell (ZH)
 241,Aesch (ZH),241,Aesch (ZH)
@@ -168,7 +170,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 250,Urdorf,250,Urdorf
 251,Weiningen (ZH),251,Weiningen (ZH)
 261,Zürich,261,Zürich
-298,Wiesendangen,298,Wiesendangen
 301,Aarberg,301,Aarberg
 302,Bargen (BE),302,Bargen (BE)
 303,Grossaffoltern,303,Grossaffoltern
@@ -262,14 +263,15 @@ mId.x,mShortName.x,mId.y,mShortName.y
 437,Mont-Tramelan,437,Mont-Tramelan
 438,Orvin,438,Orvin
 439,Péry,439,Péry
+440,Plagne,440,Plagne
 441,Renan (BE),441,Renan (BE)
 442,Romont (BE),442,Romont (BE)
 443,Saint-Imier,443,Saint-Imier
 444,Sonceboz-Sombeval,444,Sonceboz-Sombeval
 445,Sonvilier,445,Sonvilier
 446,Tramelan,446,Tramelan
+447,Vauffelin,447,Vauffelin
 448,Villeret,448,Villeret
-449,Sauge,449,Sauge
 491,Brüttelen,491,Brüttelen
 492,Erlach,492,Erlach
 493,Finsterhennen,493,Finsterhennen
@@ -284,18 +286,27 @@ mId.x,mShortName.x,mId.y,mShortName.y
 502,Vinelz,502,Vinelz
 532,Bangerten,532,Bangerten
 533,Bätterkinden,533,Bätterkinden
+534,Büren zum Hof,534,Büren zum Hof
 535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
 536,Diemerswil,536,Diemerswil
+537,Etzelkofen,537,Etzelkofen
 538,Fraubrunnen,538,Fraubrunnen
+539,Grafenried,539,Grafenried
 540,Jegenstorf,540,Jegenstorf
 541,Iffwil,541,Iffwil
+542,Limpach,542,Limpach
 543,Mattstetten,543,Mattstetten
 544,Moosseedorf,544,Moosseedorf
+545,Mülchi,545,Mülchi
 546,Münchenbuchsee,546,Münchenbuchsee
+547,Münchringen,547,Münchringen
+549,Schalunen,549,Schalunen
+550,Scheunen,550,Scheunen
 551,Urtenen-Schönbühl,551,Urtenen-Schönbühl
 552,Utzenstorf,552,Utzenstorf
 553,Wiggiswil,553,Wiggiswil
 554,Wiler bei Utzenstorf,554,Wiler bei Utzenstorf
+555,Zauggenried,555,Zauggenried
 556,Zielebach,556,Zielebach
 557,Zuzwil (BE),557,Zuzwil (BE)
 561,Adelboden,561,Adelboden
@@ -330,6 +341,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 594,Wilderswil,594,Wilderswil
 602,Arni (BE),602,Arni (BE)
 603,Biglen,603,Biglen
+604,Bleiken b. Oberdiessbach,604,Bleiken b. Oberdiessbach
 605,Bowil,605,Bowil
 606,Brenzikofen,606,Brenzikofen
 607,Freimettigen,607,Freimettigen
@@ -392,9 +404,11 @@ mId.x,mShortName.x,mId.y,mShortName.y
 712,Souboz,712,Souboz
 713,Tavannes,713,Tavannes
 715,Rebévelier,715,Rebévelier
+721,Diesse,721,Diesse
+722,Lamboing,722,Lamboing
 723,La Neuveville,723,La Neuveville
 724,Nods,724,Nods
-726,Plateau de Diesse,726,Plateau de Diesse
+725,Prêles,725,Prêles
 731,Aegerten,731,Aegerten
 732,Bellmund,732,Bellmund
 733,Brügg,733,Brügg
@@ -422,11 +436,13 @@ mId.x,mShortName.x,mId.y,mShortName.y
 761,Därstetten,761,Därstetten
 762,Diemtigen,762,Diemtigen
 763,Erlenbach im Simmental,763,Erlenbach im Simmental
+764,Niederstocken,764,Niederstocken
+765,Oberstocken,765,Oberstocken
 766,Oberwil im Simmental,766,Oberwil im Simmental
 767,Reutigen,767,Reutigen
 768,Spiez,768,Spiez
 769,Wimmis,769,Wimmis
-770,Stocken-Höfen,770,Stocken-Höfen
+781,Gadmen,781,Gadmen
 782,Guttannen,782,Guttannen
 783,Hasliberg,783,Hasliberg
 784,Innertkirchen,784,Innertkirchen
@@ -450,6 +466,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 868,Jaberg,868,Jaberg
 869,Kaufdorf,869,Kaufdorf
 870,Kehrsatz,870,Kehrsatz
+871,Kienersrüti,871,Kienersrüti
 872,Kirchdorf (BE),872,Kirchdorf (BE)
 873,Kirchenthurnen,873,Kirchenthurnen
 874,Lohnstorf,874,Lohnstorf
@@ -482,6 +499,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 927,Heiligenschwendi,927,Heiligenschwendi
 928,Heimberg,928,Heimberg
 929,Hilterfingen,929,Hilterfingen
+930,Höfen,930,Höfen
 931,Homberg,931,Homberg
 932,Horrenbach-Buchen,932,Horrenbach-Buchen
 934,Oberhofen am Thunersee,934,Oberhofen am Thunersee
@@ -750,6 +768,8 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2123,Botterens,2123,Botterens
 2124,Broc,2124,Broc
 2125,Bulle,2125,Bulle
+2126,Cerniat (FR),2126,Cerniat (FR)
+2127,Charmey,2127,Charmey
 2128,Châtel-sur-Montsalvens,2128,Châtel-sur-Montsalvens
 2129,Corbières,2129,Corbières
 2130,Crésuz,2130,Crésuz
@@ -769,7 +789,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2155,Vaulruz,2155,Vaulruz
 2160,Vuadens,2160,Vuadens
 2162,Bas-Intyamon,2162,Bas-Intyamon
-2163,Val-de-Charmey,2163,Val-de-Charmey
 2171,Arconciel,2171,Arconciel
 2172,Autafond,2172,Autafond
 2173,Autigny,2173,Autigny
@@ -877,14 +896,23 @@ mId.x,mShortName.x,mId.y,mShortName.y
 2427,Matzendorf,2427,Matzendorf
 2428,Mümliswil-Ramiswil,2428,Mümliswil-Ramiswil
 2429,Welschenrohr,2429,Welschenrohr
+2441,Aetigkofen,2441,Aetigkofen
+2442,Aetingen,2442,Aetingen
+2444,Bibern (SO),2444,Bibern (SO)
 2445,Biezwil,2445,Biezwil
+2446,Brügglen,2446,Brügglen
+2449,Gossliwil,2449,Gossliwil
+2450,Hessigkofen,2450,Hessigkofen
+2452,Küttigkofen,2452,Küttigkofen
+2453,Kyburg-Buchegg,2453,Kyburg-Buchegg
 2455,Lüterkofen-Ichertswil,2455,Lüterkofen-Ichertswil
 2456,Lüterswil-Gächliwil,2456,Lüterswil-Gächliwil
 2457,Messen,2457,Messen
+2458,Mühledorf (SO),2458,Mühledorf (SO)
 2461,Schnottwil,2461,Schnottwil
+2462,Tscheppach,2462,Tscheppach
 2463,Unterramsern,2463,Unterramsern
 2464,Lüsslingen-Nennigkofen,2464,Lüsslingen-Nennigkofen
-2465,Buchegg,2465,Buchegg
 2471,Bättwil,2471,Bättwil
 2472,Büren (SO),2472,Büren (SO)
 2473,Dornach,2473,Dornach
@@ -1211,18 +1239,30 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3541,Tinizong-Rona,3541,Tinizong-Rona
 3551,Brusio,3551,Brusio
 3561,Poschiavo,3561,Poschiavo
+3571,Castrisch,3571,Castrisch
 3572,Falera,3572,Falera
+3574,Ilanz,3574,Ilanz
 3575,Laax,3575,Laax
+3576,Ladir,3576,Ladir
+3577,Luven,3577,Luven
+3578,Pitasch,3578,Pitasch
+3579,Riein,3579,Riein
+3580,Ruschein,3580,Ruschein
 3581,Sagogn,3581,Sagogn
 3582,Schluein,3582,Schluein
+3583,Schnaus,3583,Schnaus
+3584,Sevgein,3584,Sevgein
+3593,Duvin,3593,Duvin
 3598,St. Martin,3598,St. Martin
 3603,Vals,3603,Vals
 3611,Andiast,3611,Andiast
 3612,Obersaxen,3612,Obersaxen
+3613,Pigniu,3613,Pigniu
+3614,Rueun,3614,Rueun
+3615,Siat,3615,Siat
 3616,Waltensburg/Vuorz,3616,Waltensburg/Vuorz
 3617,Mundaun,3617,Mundaun
 3618,Lumnezia,3618,Lumnezia
-3619,Ilanz/Glion,3619,Ilanz/Glion
 3631,Almens,3631,Almens
 3633,Fürstenau,3633,Fürstenau
 3634,Paspels,3634,Paspels
@@ -1379,6 +1419,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 4066,Eggenwil,4066,Eggenwil
 4067,Fischbach-Göslikon,4067,Fischbach-Göslikon
 4068,Hägglingen,4068,Hägglingen
+4069,Hermetschwil-Staffeln,4069,Hermetschwil-Staffeln
 4071,Jonen,4071,Jonen
 4072,Niederwil (AG),4072,Niederwil (AG)
 4073,Oberlunkhofen,4073,Oberlunkhofen
@@ -1406,18 +1447,19 @@ mId.x,mShortName.x,mId.y,mShortName.y
 4105,Mandach,4105,Mandach
 4106,Mönthal,4106,Mönthal
 4107,Mülligen,4107,Mülligen
+4109,Oberflachs,4109,Oberflachs
 4110,Remigen,4110,Remigen
 4111,Riniken,4111,Riniken
 4112,Rüfenach,4112,Rüfenach
 4113,Scherz,4113,Scherz
 4114,Schinznach-Bad,4114,Schinznach-Bad
+4115,Schinznach-Dorf,4115,Schinznach-Dorf
 4117,Thalheim (AG),4117,Thalheim (AG)
 4120,Veltheim (AG),4120,Veltheim (AG)
 4121,Villigen,4121,Villigen
 4122,Villnachern,4122,Villnachern
 4123,Windisch,4123,Windisch
 4124,Bözberg,4124,Bözberg
-4125,Schinznach,4125,Schinznach
 4131,Beinwil am See,4131,Beinwil am See
 4132,Birrwil,4132,Birrwil
 4133,Burg (AG),4133,Burg (AG)
@@ -1544,6 +1586,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 4318,Schneisingen,4318,Schneisingen
 4319,Siglistorf,4319,Siglistorf
 4320,Tegerfelden,4320,Tegerfelden
+4321,Unterendingen,4321,Unterendingen
 4322,Wislikofen,4322,Wislikofen
 4323,Bad Zurzach,4323,Bad Zurzach
 4401,Arbon,4401,Arbon
@@ -1892,7 +1935,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5621,Aclens,5621,Aclens
 5622,Bremblens,5622,Bremblens
 5623,Buchillon,5623,Buchillon
-5624,Bussigny,5624,Bussigny
+5624,Bussigny-près-Lausanne,5624,Bussigny-près-Lausanne
 5625,Bussy-Chardonney,5625,Bussy-Chardonney
 5627,Chavannes-près-Renens,5627,Chavannes-près-Renens
 5628,Chigny,5628,Chigny
@@ -1942,7 +1985,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5692,Vucherens,5692,Vucherens
 5693,Montanaire,5693,Montanaire
 5701,Arnex-sur-Nyon,5701,Arnex-sur-Nyon
-5702,Arzier-Le Muids,5702,Arzier-Le Muids
+5702,Arzier,5702,Arzier
 5703,Bassins,5703,Bassins
 5704,Begnins,5704,Begnins
 5705,Bogis-Bossey,5705,Bogis-Bossey
@@ -2150,9 +2193,11 @@ mId.x,mShortName.x,mId.y,mShortName.y
 6157,Val-d'Illiez,6157,Val-d'Illiez
 6158,Vionnaz,6158,Vionnaz
 6159,Vouvry,6159,Vouvry
+6171,Betten,6171,Betten
 6172,Bister,6172,Bister
 6173,Bitsch,6173,Bitsch
 6177,Grengiols,6177,Grengiols
+6178,Martisberg,6178,Martisberg
 6181,Riederalp,6181,Riederalp
 6191,Ausserberg,6191,Ausserberg
 6192,Blatten,6192,Blatten
@@ -2166,7 +2211,6 @@ mId.x,mShortName.x,mId.y,mShortName.y
 6202,Wiler (Lötschen),6202,Wiler (Lötschen)
 6203,Mörel-Filet,6203,Mörel-Filet
 6204,Steg-Hohtenn,6204,Steg-Hohtenn
-6205,Bettmeralp,6205,Bettmeralp
 6211,Collonges,6211,Collonges
 6212,Dorénaz,6212,Dorénaz
 6213,Evionnaz,6213,Evionnaz

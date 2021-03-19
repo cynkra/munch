@@ -553,6 +553,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 981,Niederbipp,981,Niederbipp
 982,Niederönz,982,Niederönz
 983,Oberbipp,983,Oberbipp
+984,Oberönz,984,Oberönz
 985,Ochlenberg,985,Ochlenberg
 986,Röthenbach b. Herzogenb.,986,Röthenbach b. Herzogenb.
 987,Rumisberg,987,Rumisberg
@@ -1383,15 +1384,16 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3694,Splügen,3694,Splügen
 3695,Sufers,3695,Sufers
 3701,Andeer,3701,Andeer
+3702,Ausserferrera,3702,Ausserferrera
 3703,Casti-Wergenstein,3703,Casti-Wergenstein
 3704,Clugin,3704,Clugin
 3705,Donat,3705,Donat
+3706,Innerferrera,3706,Innerferrera
 3707,Lohn (GR),3707,Lohn (GR)
 3708,Mathon,3708,Mathon
 3710,Pignia,3710,Pignia
 3711,Rongellen,3711,Rongellen
 3712,Zillis-Reischen,3712,Zillis-Reischen
-3713,Ferrera,3713,Ferrera
 3721,Bonaduz,3721,Bonaduz
 3722,Domat/Ems,3722,Domat/Ems
 3723,Rhäzüns,3723,Rhäzüns
@@ -1473,11 +1475,13 @@ mId.x,mShortName.x,mId.y,mShortName.y
 3925,Lüen,3925,Lüen
 3926,Maladers,3926,Maladers
 3927,Molinis,3927,Molinis
+3928,Pagig,3928,Pagig
 3929,Peist,3929,Peist
-3931,St. Peter-Pagig,3931,St. Peter-Pagig
+3930,St. Peter,3930,St. Peter
 3941,Haldenstein,3941,Haldenstein
 3942,Igis,3942,Igis
 3943,Mastrils,3943,Mastrils
+3944,Says,3944,Says
 3945,Trimmis,3945,Trimmis
 3946,Untervaz,3946,Untervaz
 3947,Zizers,3947,Zizers
@@ -1856,8 +1860,10 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5099,Cavigliano,5099,Cavigliano
 5101,Contone,5101,Contone
 5102,Corippo,5102,Corippo
+5104,Cugnasco,5104,Cugnasco
 5105,Frasco,5105,Frasco
 5106,Gerra (Gambarogno),5106,Gerra (Gambarogno)
+5107,Gerra (Verzasca),5107,Gerra (Verzasca)
 5108,Gordola,5108,Gordola
 5109,Gresso,5109,Gresso
 5110,Indemini,5110,Indemini
@@ -1885,13 +1891,14 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5135,Vogorno,5135,Vogorno
 5136,Onsernone,5136,Onsernone
 5137,Isorno,5137,Isorno
-5138,Cugnasco-Gerra,5138,Cugnasco-Gerra
 5141,Agno,5141,Agno
 5143,Aranno,5143,Aranno
 5144,Arogno,5144,Arogno
 5146,Astano,5146,Astano
+5147,Barbengo,5147,Barbengo
 5148,Bedano,5148,Bedano
 5149,Bedigliora,5149,Bedigliora
+5150,Bidogno,5150,Bidogno
 5151,Bioggio,5151,Bioggio
 5153,Bironico,5153,Bironico
 5154,Bissone,5154,Bissone
@@ -1902,18 +1909,22 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5163,Cadro,5163,Cadro
 5165,Camignolo,5165,Camignolo
 5167,Canobbio,5167,Canobbio
+5168,Carabbia,5168,Carabbia
 5169,Carabietta,5169,Carabietta
 5170,Carona,5170,Carona
 5171,Caslano,5171,Caslano
 5173,Certara,5173,Certara
 5174,Cimadera,5174,Cimadera
 5176,Comano,5176,Comano
+5177,Corticiasca,5177,Corticiasca
 5178,Croglio,5178,Croglio
 5180,Cureglia,5180,Cureglia
 5181,Curio,5181,Curio
 5186,Grancia,5186,Grancia
 5187,Gravesano,5187,Gravesano
+5188,Iseo,5188,Iseo
 5189,Lamone,5189,Lamone
+5191,Lugaggia,5191,Lugaggia
 5192,Lugano,5192,Lugano
 5193,Magliaso,5193,Magliaso
 5194,Manno,5194,Manno
@@ -1947,6 +1958,7 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5230,Vernate,5230,Vernate
 5231,Vezia,5231,Vezia
 5233,Vico Morcote,5233,Vico Morcote
+5235,Villa Luganese,5235,Villa Luganese
 5236,Collina d'Oro,5236,Collina d'Oro
 5237,Alto Malcantone,5237,Alto Malcantone
 5241,Arzo,5241,Arzo
@@ -1979,16 +1991,19 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5284,Iragna,5284,Iragna
 5285,Lodrino,5285,Lodrino
 5286,Osogna,5286,Osogna
+5302,Avegno,5302,Avegno
 5304,Bosco/Gurin,5304,Bosco/Gurin
 5307,Campo (Vallemaggia),5307,Campo (Vallemaggia)
 5309,Cerentino,5309,Cerentino
 5310,Cevio,5310,Cevio
+5314,Gordevio,5314,Gordevio
 5315,Linescio,5315,Linescio
 5317,Maggia,5317,Maggia
 5323,Lavizzara,5323,Lavizzara
-5324,Avegno Gordevio,5324,Avegno Gordevio
 5391,C'za Medeglia/Cadenazzo,5391,C'za Medeglia/Cadenazzo
-5394,C'za Capriasca/Valco.,5394,C'za Capriasca/Valco.
+5392,C'za Bid./Capri./Cortic.,5392,C'za Bid./Capri./Cortic.
+5393,C'za Capriasca/Lugagg.,5393,C'za Capriasca/Lugagg.
+5394,C'za Corticiasca/Valc.,5394,C'za Corticiasca/Valc.
 5401,Aigle,5401,Aigle
 5402,Bex,5402,Bex
 5403,Chessel,5403,Chessel
@@ -2344,8 +2359,10 @@ mId.x,mShortName.x,mId.y,mShortName.y
 5914,Ependes (VD),5914,Ependes (VD)
 5915,Essert-Pittet,5915,Essert-Pittet
 5916,Essert-sous-Champvent,5916,Essert-sous-Champvent
+5917,Gossens,5917,Gossens
 5918,Gressy,5918,Gressy
 5919,Mathod,5919,Mathod
+5920,Mézery-près-Donneloye,5920,Mézery-près-Donneloye
 5921,Molondin,5921,Molondin
 5922,Montagny-près-Yverdon,5922,Montagny-près-Yverdon
 5923,Oppens,5923,Oppens

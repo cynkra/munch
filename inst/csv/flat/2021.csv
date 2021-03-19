@@ -2043,7 +2043,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2005,5392,5226,C'za Bid./Capri./Cortic.,Capriasca
 2005,5393,5226,C'za Capriasca/Lugagg.,Capriasca
 2005,5394,5394,C'za Corticiasca/Valc.,C'za Capriasca/Lugano
-2005,5399,5399,Verzasca,Verzasca
 2005,5401,5401,Aigle,Aigle
 2005,5402,5402,Bex,Bex
 2005,5403,5403,Chessel,Chessel
@@ -4790,7 +4789,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2006,5392,5226,C'za Bid./Capri./Cortic.,Capriasca
 2006,5393,5226,C'za Capriasca/Lugagg.,Capriasca
 2006,5394,5394,C'za Corticiasca/Valc.,C'za Capriasca/Lugano
-2006,5399,5399,Verzasca,Verzasca
 2006,5401,5401,Aigle,Aigle
 2006,5402,5402,Bex,Bex
 2006,5403,5403,Chessel,Chessel
@@ -7521,7 +7519,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2007,5392,5226,C'za Bid./Capri./Cortic.,Capriasca
 2007,5393,5226,C'za Capriasca/Lugagg.,Capriasca
 2007,5394,5394,C'za Corticiasca/Valc.,C'za Capriasca/Lugano
-2007,5399,5399,Verzasca,Verzasca
 2007,5401,5401,Aigle,Aigle
 2007,5402,5402,Bex,Bex
 2007,5403,5403,Chessel,Chessel
@@ -10245,7 +10242,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2008,5392,5226,C'za Bid./Capri./Cortic.,Capriasca
 2008,5393,5226,C'za Capriasca/Lugagg.,Capriasca
 2008,5394,5394,C'za Corticiasca/Valc.,C'za Capriasca/Lugano
-2008,5399,5399,Verzasca,Verzasca
 2008,5401,5401,Aigle,Aigle
 2008,5402,5402,Bex,Bex
 2008,5403,5403,Chessel,Chessel
@@ -12925,7 +12921,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2009,5324,5324,Avegno Gordevio,Avegno Gordevio
 2009,5391,5391,C'za Medeglia/Cadenazzo,C'za Cadenazzo/Montecen.
 2009,5394,5394,C'za Capriasca/Valco.,C'za Capriasca/Lugano
-2009,5399,5399,Verzasca,Verzasca
 2009,5401,5401,Aigle,Aigle
 2009,5402,5402,Bex,Bex
 2009,5403,5403,Chessel,Chessel
@@ -15526,7 +15521,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2010,5391,5391,C'za Medeglia/Cadenazzo,C'za Cadenazzo/Montecen.
 2010,5394,5394,C'za Capriasca/Valco.,C'za Capriasca/Lugano
 2010,5397,5397,Centovalli,Centovalli
-2010,5399,5399,Verzasca,Verzasca
 2010,5401,5401,Aigle,Aigle
 2010,5402,5402,Bex,Bex
 2010,5403,5403,Chessel,Chessel
@@ -18084,7 +18078,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2011,5394,5394,C'za Capriasca/Valco.,C'za Capriasca/Lugano
 2011,5397,5397,Centovalli,Centovalli
 2011,5398,5398,Gambarogno,Gambarogno
-2011,5399,5399,Verzasca,Verzasca
 2011,5401,5401,Aigle,Aigle
 2011,5402,5402,Bex,Bex
 2011,5403,5403,Chessel,Chessel
@@ -20633,7 +20626,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2012,5394,5394,C'za Capriasca/Valco.,C'za Capriasca/Lugano
 2012,5397,5397,Centovalli,Centovalli
 2012,5398,5398,Gambarogno,Gambarogno
-2012,5399,5399,Verzasca,Verzasca
 2012,5401,5401,Aigle,Aigle
 2012,5402,5402,Bex,Bex
 2012,5403,5403,Chessel,Chessel
@@ -23083,7 +23075,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2013,5394,5394,C'za Capriasca/Valco.,C'za Capriasca/Lugano
 2013,5397,5397,Centovalli,Centovalli
 2013,5398,5398,Gambarogno,Gambarogno
-2013,5399,5399,Verzasca,Verzasca
 2013,5401,5401,Aigle,Aigle
 2013,5402,5402,Bex,Bex
 2013,5403,5403,Chessel,Chessel
@@ -25441,7 +25432,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2014,5396,5396,Terre di Pedemonte,Terre di Pedemonte
 2014,5397,5397,Centovalli,Centovalli
 2014,5398,5398,Gambarogno,Gambarogno
-2014,5399,5399,Verzasca,Verzasca
 2014,5401,5401,Aigle,Aigle
 2014,5402,5402,Bex,Bex
 2014,5403,5403,Chessel,Chessel
@@ -27770,7 +27760,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2015,5396,5396,Terre di Pedemonte,Terre di Pedemonte
 2015,5397,5397,Centovalli,Centovalli
 2015,5398,5398,Gambarogno,Gambarogno
-2015,5399,5399,Verzasca,Verzasca
 2015,5401,5401,Aigle,Aigle
 2015,5402,5402,Bex,Bex
 2015,5403,5403,Chessel,Chessel
@@ -30070,7 +30059,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2016,5396,5396,Terre di Pedemonte,Terre di Pedemonte
 2016,5397,5397,Centovalli,Centovalli
 2016,5398,5398,Gambarogno,Gambarogno
-2016,5399,5399,Verzasca,Verzasca
 2016,5401,5401,Aigle,Aigle
 2016,5402,5402,Bex,Bex
 2016,5403,5403,Chessel,Chessel
@@ -32347,7 +32335,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2017,5396,5396,Terre di Pedemonte,Terre di Pedemonte
 2017,5397,5397,Centovalli,Centovalli
 2017,5398,5398,Gambarogno,Gambarogno
-2017,5399,5399,Verzasca,Verzasca
 2017,5401,5401,Aigle,Aigle
 2017,5402,5402,Bex,Bex
 2017,5403,5403,Chessel,Chessel
@@ -34580,7 +34567,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2018,5396,5396,Terre di Pedemonte,Terre di Pedemonte
 2018,5397,5397,Centovalli,Centovalli
 2018,5398,5398,Gambarogno,Gambarogno
-2018,5399,5399,Verzasca,Verzasca
 2018,5401,5401,Aigle,Aigle
 2018,5402,5402,Bex,Bex
 2018,5403,5403,Chessel,Chessel
@@ -36798,7 +36784,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2019,5396,5396,Terre di Pedemonte,Terre di Pedemonte
 2019,5397,5397,Centovalli,Centovalli
 2019,5398,5398,Gambarogno,Gambarogno
-2019,5399,5399,Verzasca,Verzasca
 2019,5401,5401,Aigle,Aigle
 2019,5402,5402,Bex,Bex
 2019,5403,5403,Chessel,Chessel
@@ -39004,7 +38989,6 @@ year,mun_id_x,mun_id_y,short_name_x,short_name_y
 2020,5396,5396,Terre di Pedemonte,Terre di Pedemonte
 2020,5397,5397,Centovalli,Centovalli
 2020,5398,5398,Gambarogno,Gambarogno
-2020,5399,5399,Verzasca,Verzasca
 2020,5401,5401,Aigle,Aigle
 2020,5402,5402,Bex,Bex
 2020,5403,5403,Chessel,Chessel

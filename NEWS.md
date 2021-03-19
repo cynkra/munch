@@ -1,3 +1,13 @@
+<!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
+
+# SwissCommunes 0.0.8.9002 (2021-03-19)
+
+- Fix off-by-one error that affects mutations in the middle of the year.
+- Write compact and flat tables to main branch.
+- The `cantons`, `district_mutations` and `municipality_mutations` datasets are no longer exported.
+- Fix loss of municipality mappings in the presence of area changes.
+
+
 # SwissCommunes 0.0.8.9001
 
 - New `swc_get_municipality_state()` for retrieving the valid municipalities at a given year.

@@ -1,13 +1,13 @@
-write_all_mapping_tables <- function() {
-  SOURCE_YEAR <- 2005
+# Municipality splits existed before 2005
+write_all_mapping_tables <- function(source_year = 2005) {
   MAX_YEAR <- lubridate::year(
     max(swc_get_municipality_mutations()$mAbolitionDate, na.rm = TRUE)
   ) + 1L
 
-  years <- seq(SOURCE_YEAR, MAX_YEAR, by = 1)
+  years <- seq(source_year, MAX_YEAR, by = 1)
 
-  compact <- map(years, write_mapping_table, source_year = SOURCE_YEAR, type = "compact")
-  flat <- map(years, write_mapping_table, source_year = SOURCE_YEAR, type = "flat")
+  compact <- map(years, write_mapping_table, source_year = source_year, type = "compact")
+  flat <- map(years, write_mapping_table, source_year = source_year, type = "flat")
 
   invisible()
 }

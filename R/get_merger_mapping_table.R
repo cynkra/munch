@@ -56,7 +56,8 @@ swc_get_merger_mapping_table <- function(start_year, end_year, canton = NULL, ty
     select(mAdmissionDate, mMutationNumber, mId.x, mShortName.x, mId.y, mShortName.y) %>%
     mutate(year = as.integer(lubridate::year(mAdmissionDate))) %>%
     select(-mAdmissionDate, -mMutationNumber) %>%
-    distinct()
+    distinct() %>%
+    filter(year <= !!end_year)
 
   readr::write_csv(mutations_base, new_csv_file("debug-base", end_year))
 

@@ -1,5 +1,10 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# SwissCommunes 0.0.8.9003 (2021-03-19)
+
+- Update data to 2021.
+
+
 # SwissCommunes 0.0.8.9002 (2021-03-19)
 
 - Fix off-by-one error that affects mutations in the middle of the year.

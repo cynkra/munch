@@ -72,8 +72,4 @@ NULL
 
 #' @importFrom tibble tibble
 #' @importFrom utils download.file read.table tail unzip
-#' @examples
-#' cantons
-#' district_mutations
-#' municipality_mutations
 "_PACKAGE"

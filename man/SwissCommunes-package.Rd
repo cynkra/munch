@@ -26,11 +26,6 @@ Contains historicized municipality data for
   License: \tab GPL-3\cr
 }
 }
-\examples{
-cantons
-district_mutations
-municipality_mutations
-}
 \references{
 \url{http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html}
 }

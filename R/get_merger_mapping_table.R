@@ -61,10 +61,6 @@ swc_get_merger_mapping_table <- function(start_year, end_year, canton = NULL, ty
     filter(year <= !!end_year) %>%
     identity() -> mutations_base
 
-  if (Sys.getenv("IN_PKGDOWN") == "") {
-    readr::write_csv(mutations_base, new_csv_file("debug-base", end_year))
-  }
-
   source_years <- seq2(start_year, end_year - 1)
 
   # Subtract one -- `year` refers to the last year where the state *before* the mutation
@@ -76,10 +72,6 @@ swc_get_merger_mapping_table <- function(start_year, end_year, canton = NULL, ty
 
   mutation_init <-
     get_municipalities_identity_mapping(end_year, canton)
-
-  if (Sys.getenv("IN_PKGDOWN") == "") {
-    readr::write_csv(mutation_init, new_csv_file("debug-init", end_year))
-  }
 
   flat <- accumulate_mappings(c(source_years, end_year), nested_mutations$x, mutation_init)
 

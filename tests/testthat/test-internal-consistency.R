@@ -8,9 +8,9 @@ read_mun_csv <- function(file) {
   return(df)
 }
 
-all_files <- list.files(here::here("inst/csv/flat"))
-
-file_paths <- paste0(here::here("inst/csv/flat/"), all_files)
+csv_dir <- system.file("csv/flat", package = "SwissCommunes")
+all_files <- list.files(csv_dir)
+file_paths <- file.path(csv_dir, all_files)
 
 all_data <-
   file_paths %>%

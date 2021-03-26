@@ -3,7 +3,10 @@ load_bfs_mun_list <- function(date_or_year) {
   #        but AFAIK there are rules that determine the ranges for the mun_ids per canton; maybe we could use that?
   #
   # cf. bfs.admin.ch/bfs/de/home/dienstleistungen/forschung/api/api-gemeinde.assetdetail.15224054.html
-  # year needs to be translated to a from-to period; we chose <year>-01-01 for both
+  # if `date_or_year` is given as year, it needs to be translated to a from-to period;
+  # we then choose <year>-01-01 for both;
+  # also if `date_or_year` is given as date, we choose the same date for the start
+  # and the end of the query-period
 
   if (is.numeric(date_or_year) | nchar(date_or_year) == 4) {
     # FIXME: explicit error in case year is not like an integer?

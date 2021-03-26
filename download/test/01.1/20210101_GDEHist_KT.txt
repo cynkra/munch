@@ -1,0 +1,26 @@
+1	ZH	Zürich	01.01.1960
+2	BE	Bern / Berne	01.01.1960
+3	LU	Luzern	01.01.1960
+4	UR	Uri	01.01.1960
+5	SZ	Schwyz	01.01.1960
+6	OW	Obwalden	01.01.1960
+7	NW	Nidwalden	01.01.1960
+8	GL	Glarus	01.01.1960
+9	ZG	Zug	01.01.1960
+10	FR	Fribourg / Freiburg	01.01.1960
+11	SO	Solothurn	01.01.1960
+12	BS	Basel-Stadt	01.01.1960
+13	BL	Basel-Landschaft	01.01.1960
+14	SH	Schaffhausen	01.01.1960
+15	AR	Appenzell Ausserrhoden	01.01.1960
+16	AI	Appenzell Innerrhoden	01.01.1960
+17	SG	St. Gallen	01.01.1960
+18	GR	Graubünden / Grigioni / Grischun	01.01.1960
+19	AG	Aargau	01.01.1960
+20	TG	Thurgau	01.01.1960
+21	TI	Ticino	01.01.1960
+22	VD	Vaud	01.01.1960
+23	VS	Valais / Wallis	01.01.1960
+24	NE	Neuchâtel	01.01.1960
+25	GE	Genève	01.01.1960
+26	JU	Jura	01.01.1979

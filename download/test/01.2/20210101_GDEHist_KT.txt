@@ -1,0 +1,26 @@
+1	ZH	Zürich	12.09.1848
+2	BE	Bern / Berne	12.09.1848
+3	LU	Luzern	12.09.1848
+4	UR	Uri	12.09.1848
+5	SZ	Schwyz	12.09.1848
+6	OW	Obwalden	12.09.1848
+7	NW	Nidwalden	12.09.1848
+8	GL	Glarus	12.09.1848
+9	ZG	Zug	12.09.1848
+10	FR	Fribourg / Freiburg	12.09.1848
+11	SO	Solothurn	12.09.1848
+12	BS	Basel-Stadt	12.09.1848
+13	BL	Basel-Landschaft	12.09.1848
+14	SH	Schaffhausen	12.09.1848
+15	AR	Appenzell Ausserrhoden	12.09.1848
+16	AI	Appenzell Innerrhoden	12.09.1848
+17	SG	St. Gallen	12.09.1848
+18	GR	Graubünden / Grigioni / Grischun	12.09.1848
+19	AG	Aargau	12.09.1848
+20	TG	Thurgau	12.09.1848
+21	TI	Ticino	12.09.1848
+22	VD	Vaud	12.09.1848
+23	VS	Valais / Wallis	12.09.1848
+24	NE	Neuchâtel	12.09.1848
+25	GE	Genève	12.09.1848
+26	JU	Jura	01.01.1979

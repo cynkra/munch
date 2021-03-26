@@ -7,6 +7,8 @@
 #' @importFrom tidyr unnest nest
 #' @rawNamespace import(lubridate, except = c(intersect, union, setdiff))
 #' @importFrom stats na.omit
+#' @importFrom rvest html_text
+#' @importFrom stringr str_extract
 NULL
 
 globalVariables(".")

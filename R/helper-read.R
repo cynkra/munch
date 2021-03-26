@@ -2,7 +2,24 @@
 #'
 #' @export
 swc_read_data <- function() {
-  record_hist_url <- "https://www.bfs.admin.ch/bfsstatic/dam/assets/15264522/master"
+
+  bfs_nr <- "dz-b-00.04-hgv-01"
+
+  bfs_home <- "https://www.bfs.admin.ch"
+
+  asset_page <- xml2::read_html(sprintf("%s/asset/de/%s", bfs_home, bfs_nr))
+
+  asset_number <- asset_page %>%
+    html_text(bfs_nr) %>%
+    str_extract("https://.*assets/.*/") %>%
+    str_extract("[0-9]+")
+
+  pub_date <- asset_page %>%
+    html_text(bfs_nr) %>%
+    str_extract("Veröffentlicht am\n.*[0-9]+.[0-9]+.[0-9]+") %>%
+    str_extract("[0-9]+.[0-9]+.[0-9]+")
+
+  record_hist_url <- paste0("https://www.bfs.admin.ch/bfsstatic/dam/assets/",asset_number,"/master")
   zip_file_name <- tempfile(fileext = ".zip")
   logging::logdebug(zip_file_name)
   on.exit(unlink(zip_file_name), add = TRUE)

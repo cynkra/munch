@@ -33,7 +33,7 @@
 #' @example example/swc_get_mapping.R
 #' @export
 swc_get_mapping <- function(ids_from, ids_to) {
-  all.ids <- c(ids_from, ids_to)
+  all.ids <- c(tid(ids_from), tid(ids_to))
 
   municipality_mutations <- swc_get_municipality_mutations()
 
@@ -43,11 +43,6 @@ swc_get_mapping <- function(ids_from, ids_to) {
   #' For two lists of municipalities, we construct a mapping from the first list
   #' to the second.  First, the most probable mutation number in the
   #' "municipality mutations" data set is computed.
-  tid <- function(ids) {
-    if (is.factor(ids)) ids <- as.character(ids)
-    ids <- as.integer(ids)
-    ids
-  }
   ids_from <- sort(unique(ids_from))
   ids_from.int <- tid(ids_from)
   mid.from <- getMostProbableMutationId(mutations, ids_from.int)
@@ -117,6 +112,12 @@ swc_get_mapping <- function(ids_from, ids_to) {
     levels = dMatchType
   )
   ret
+}
+
+tid <- function(ids) {
+  if (is.factor(ids)) ids <- as.character(ids)
+  ids <- as.integer(ids)
+  ids
 }
 
 getMostProbableMutationId <- function(mutations, municipalityIds) {
@@ -267,11 +268,14 @@ getMunicipalityMappingWorker <- function(mutations, hist.list.from, mid.from, hi
     as.numeric(mid.to) >= as.numeric(mMutationId)
   )
 
+  stopifnot(!anyNA(trans.list_prep$mHistId.y))
+
   trans.list <- if (nrow(trans.list_prep) == 0) {
     trans.list_prep
   } else {
     group_split(trans.list_prep, mMutationId) %>%
       map_dfr(function(m) {
+        stopifnot(!is.na(m$mHistId.y))
         rn <- colnames(f)
 
         abolId <- unique(m$mHistId.x)

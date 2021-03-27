@@ -35,12 +35,6 @@
 swc_get_mutations <- function(mids = NULL, canton = NULL) {
   municipality_mutations <- swc_get_municipality_mutations()
 
-  if (!is.null(mids)) {
-    municipality_mutations <-
-      municipality_mutations %>%
-      filter(mId %in% !!mids)
-  }
-
   if (!is.null(canton)) {
     municipality_mutations <-
       municipality_mutations %>%
@@ -134,8 +128,18 @@ swc_get_mutations <- function(mids = NULL, canton = NULL) {
   # mun.mut$mMutationId <- factor(mun.mut$mMutationDate, ordered=T)
 
   # Remove Liechtenstein and lakes
-  as_tibble(mun.mut) %>%
+  out <-
+    mun.mut %>%
+    as_tibble() %>%
     filter(is.na(mId.y) | mId.y < 7000)
+
+  if (!is.null(mids)) {
+    out <-
+      out %>%
+      filter(mId.x %in% !!mids | mId.y %in% !!mids)
+  }
+
+  out
 }
 
 get_all_mutations_slim <- function() {

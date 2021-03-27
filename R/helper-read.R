@@ -17,8 +17,8 @@ swc_read_data <- function() {
 
   pub_date <-
     asset_text %>%
-    str_extract("Veröffentlicht am\n.*[0-9]+.[0-9]+.[0-9]+") %>%
-    str_extract("[0-9]+.[0-9]+.[0-9]+")
+    stringr::str_extract("Veröffentlicht am\n.*[0-9]+.[0-9]+.[0-9]+") %>%
+    stringr::str_extract("[0-9]+.[0-9]+.[0-9]+")
 
   record_hist_url <- paste0(
     "https://www.bfs.admin.ch/bfsstatic/dam/assets/", asset_number, "/master"

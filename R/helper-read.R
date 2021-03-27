@@ -144,9 +144,10 @@ swc_read_data <- function() {
 overwrite_data <- function() {
   data <- swc_read_data()
 
-  readr::write_csv(data$canton, csv_file("mut/canton"))
-  readr::write_csv(data$district, csv_file("mut/district_mutations"))
-  readr::write_csv(data$municipality, csv_file("mut/municipality_mutations"))
+  readr::write_csv(data$canton, new_csv_file("mut/canton"))
+  readr::write_csv(data$district, new_csv_file("mut/district_mutations"))
+  readr::write_csv(data$municipality, new_csv_file("mut/municipality_mutations"))
+  readr::write_csv(data$metadata, new_csv_file("mut/metadata"))
 }
 
 #' check if new data is identical to old data

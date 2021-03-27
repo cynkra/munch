@@ -98,7 +98,7 @@ swc_read_data <- function() {
     `30` = "Mutation canceled"
   )
 
-  l <- lapply(X = ft, FUN = function(t) {
+  out <- lapply(X = ft, FUN = function(t) {
     logging::logdebug("Parsing data set: %s", t$n)
 
     fname <- grep(paste0("_", t$n, "(?:_.*)?[.]txt"), file_list$Name, value = TRUE)
@@ -130,7 +130,12 @@ swc_read_data <- function() {
     tibble::as_tibble(dat)
   })
 
-  l
+  out$metadata <- tibble::tibble(
+    key = "publication_date",
+    value = as.character(as.Date(pub_date, format = "%d.%m.%Y"))
+  )
+
+  out
 }
 
 #' Overwrite the mutation package-data

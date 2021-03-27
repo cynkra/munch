@@ -70,7 +70,9 @@ swc_get_mapping <- function(ids_from, ids_to) {
 
   extraTable <- function(retId, inId, name) {
     mId <- sort(setdiff(inId, retId))
-    if (length(mId) == 0) return(NULL)
+    if (length(mId) == 0) {
+      return(NULL)
+    }
     ret <- data.frame(mId = mId)
     ret <- transform(ret, MatchType = mt("extra"))
     names(ret) <- cn(names(ret), name)
@@ -280,12 +282,14 @@ getMunicipalityMappingWorker <- function(mutations, hist.list.from, mid.from, hi
 
         abolId <- unique(m$mHistId.x)
         admId <- unique(m$mHistId.y)
-        abolId <- subset(abolId,!is.na(abolId))
-        admId <- subset(admId,!is.na(admId))
-        logging::logdebug("%s: +(%s), -(%s)",
-                          m$mMutationId[1],
-                          format(admId),
-                          format(abolId))
+        abolId <- subset(abolId, !is.na(abolId))
+        admId <- subset(admId, !is.na(admId))
+        logging::logdebug(
+          "%s: +(%s), -(%s)",
+          m$mMutationId[1],
+          format(admId),
+          format(abolId)
+        )
 
         removedId <- setdiff(abolId, admId)
         remainingId <- setdiff(abolId, removedId)
@@ -308,25 +312,30 @@ getMunicipalityMappingWorker <- function(mutations, hist.list.from, mid.from, hi
         stopifnot(!is.na(idI))
         stopifnot(!is.na(idJ))
 
-        logging::logdebug("%s: (%s)->(%s)",
-                          m$mMutationId[1],
-                          format(m$mHistId.x),
-                          format(m$mHistId.y))
+        logging::logdebug(
+          "%s: (%s)->(%s)",
+          m$mMutationId[1],
+          format(m$mHistId.x),
+          format(m$mHistId.y)
+        )
         trI <- match(m$mHistId.x, rn)
         trJ <- match(m$mHistId.y, cn)
 
         stopifnot(!is.na(trI))
         stopifnot(!is.na(trJ))
-        logging::logdebug("%s: ((%s))->((%s))",
-                          m$mMutationId[1],
-                          format(trI),
-                          format(trJ))
+        logging::logdebug(
+          "%s: ((%s))->((%s))",
+          m$mMutationId[1],
+          format(trI),
+          format(trJ)
+        )
         logging::logdebug("%s: %s x %s", m$mMutationId[1], length(rn), length(cn))
         g <-
           Matrix::sparseMatrix(c(idI, trI),
-                               c(idJ, trJ),
-                               x = 1,
-                               dimnames = list(rn, cn))
+            c(idJ, trJ),
+            x = 1,
+            dimnames = list(rn, cn)
+          )
 
         logging::logdebug("%s: %s %%*%% %s", m$mMutationId[1], dim(f), dim(g))
         f <<- f %*% g

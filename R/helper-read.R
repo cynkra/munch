@@ -2,7 +2,28 @@
 #'
 #' @export
 swc_read_data <- function() {
-  record_hist_url <- "https://www.bfs.admin.ch/bfsstatic/dam/assets/15264522/master"
+  bfs_nr <- "dz-b-00.04-hgv-01"
+
+  bfs_home <- "https://www.bfs.admin.ch"
+
+  asset_page <- xml2::read_html(sprintf("%s/asset/de/%s", bfs_home, bfs_nr))
+
+  asset_text <- rvest::html_text(asset_page, bfs_nr)
+
+  asset_number <-
+    asset_text %>%
+    stringr::str_extract("https://.*assets/.*/") %>%
+    stringr::str_extract("[0-9]+")
+
+  pub_date <-
+    asset_text %>%
+    stringr::str_extract("Ver\u00f6ffentlicht am\n.*[0-9]+.[0-9]+.[0-9]+") %>%
+    stringr::str_extract("[0-9]+.[0-9]+.[0-9]+")
+
+  record_hist_url <- paste0(
+    "https://www.bfs.admin.ch/bfsstatic/dam/assets/", asset_number, "/master"
+  )
+
   zip_file_name <- tempfile(fileext = ".zip")
   logging::logdebug(zip_file_name)
   on.exit(unlink(zip_file_name), add = TRUE)
@@ -77,7 +98,7 @@ swc_read_data <- function() {
     `30` = "Mutation canceled"
   )
 
-  l <- lapply(X = ft, FUN = function(t) {
+  out <- lapply(X = ft, FUN = function(t) {
     logging::logdebug("Parsing data set: %s", t$n)
 
     fname <- grep(paste0("_", t$n, "(?:_.*)?[.]txt"), file_list$Name, value = TRUE)
@@ -109,7 +130,12 @@ swc_read_data <- function() {
     tibble::as_tibble(dat)
   })
 
-  l
+  out$metadata <- tibble::tibble(
+    key = "publication_date",
+    value = as.character(as.Date(pub_date, format = "%d.%m.%Y"))
+  )
+
+  out
 }
 
 #' Overwrite the mutation package-data
@@ -118,9 +144,10 @@ swc_read_data <- function() {
 overwrite_data <- function() {
   data <- swc_read_data()
 
-  readr::write_csv(data$canton, csv_file("mut/canton"))
-  readr::write_csv(data$district, csv_file("mut/district_mutations"))
-  readr::write_csv(data$municipality, csv_file("mut/municipality_mutations"))
+  readr::write_csv(data$canton, new_csv_file("mut/canton"))
+  readr::write_csv(data$district, new_csv_file("mut/district_mutations"))
+  readr::write_csv(data$municipality, new_csv_file("mut/municipality_mutations"))
+  readr::write_csv(data$metadata, new_csv_file("mut/metadata"))
 }
 
 #' check if new data is identical to old data

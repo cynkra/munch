@@ -4,17 +4,7 @@ load_bfs_mun_list <- function(date_or_year = lubridate::year(Sys.Date())) {
   # we then choose <year>-01-01 for both;
   # also if `date_or_year` is given as date, we choose the same date for the start
   # and the end of the query-period
-  tryCatch({
-    if (is.numeric(date_or_year) || nchar(date_or_year) == 4) {
-      date <- paste0("01-01-", as.character(as.integer(date_or_year)))
-    } else {
-      date <- format(as.Date(date_or_year), "%d-%m-%Y")
-    }},
-    error = function(e) abort_not_date_or_year(),
-    warning = function(w) abort_not_date_or_year()
-  )
-  if (as.Date(date, format = "%d-%m-%Y") < as.Date("12-09-1848", "%d-%m-%Y")) abort_date_too_early(date)
-
+  date <- date_or_year_to_date(date_or_year)
   all_data <- readr::read_csv(
     glue::glue("https://sms.bfs.admin.ch/WcfBFSSpecificService.svc/AnonymousRest/communes/snapshots?useBfsCode=true&startPeriod={date}&endPeriod={date}"),
     col_types = readr::cols()
@@ -35,4 +25,18 @@ load_bfs_mun_list <- function(date_or_year = lubridate::year(Sys.Date())) {
       left_join(cantons, by = "ct_id") %>%
       select(mun_id, mun_name, ct_short, ct_name) %>%
       arrange(mun_id)
+}
+
+date_or_year_to_date <- function(date_or_year) {
+  tryCatch({
+    if (is.numeric(date_or_year) || nchar(date_or_year) == 4) {
+      date <- paste0("01-01-", as.character(as.integer(date_or_year)))
+    } else {
+      date <- format(as.Date(date_or_year), "%d-%m-%Y")
+    }},
+    error = function(e) abort_not_date_or_year(),
+    warning = function(w) abort_not_date_or_year()
+  )
+  if (as.Date(date, format = "%d-%m-%Y") < as.Date("12-09-1848", "%d-%m-%Y")) abort_date_too_early(date)
+  date
 }

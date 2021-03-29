@@ -44,7 +44,7 @@ error_time_grid_fail <- function(time_grid) {
 }
 
 abort_not_date_or_year <- function() {
-  abort(error_not_date_or_year(), class = swc_error_full("not_data_or_year"))
+  abort(error_not_date_or_year(), class = swc_error_full("not_date_or_year"))
 }
 
 error_not_date_or_year <- function() {

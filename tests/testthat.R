@@ -1,4 +1,4 @@
 library(testthat)
-library(SwissCommunes)
+library(munch)
 
-test_check("SwissCommunes")
+test_check("munch")

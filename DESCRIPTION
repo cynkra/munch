@@ -1,5 +1,5 @@
 Type: Package
-Package: SwissCommunes
+Package: munch
 Title: Functions for working with the historicized list of
     communes of Switzerland
 Version: 0.0.8.9005
@@ -24,9 +24,9 @@ Description: Contains historicized municipality data for
     Switzerland from 1960 onwards, from the "Historisiertes
     Gemeindeverzeichnis" of the Swiss Federal Statistical Office.
 License: GPL-3
-URL: https://cynkra.github.io/SwissCommunes,
-    https://github.com/cynkra/SwissCommunes
-BugReports: https://github.com/cynkra/SwissCommunes/issues
+URL: https://cynkra.github.io/munch/,
+    https://github.com/cynkra/munch
+BugReports: https://github.com/cynkra/munch/issues
 Depends:
     R (>= 2.10)
 Imports: 

@@ -8,7 +8,7 @@ load_bfs_mun_list <- function(date_or_year) {
   # also if `date_or_year` is given as date, we choose the same date for the start
   # and the end of the query-period
 
-  if (is.numeric(date_or_year) | nchar(date_or_year) == 4) {
+  if (is.numeric(date_or_year) || nchar(date_or_year) == 4) {
     # FIXME: explicit error in case year is not like an integer?
     date <- paste0("01-01-", as.character(as.integer(date_or_year)))
   } else {

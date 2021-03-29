@@ -33,7 +33,7 @@
 #' @example example/swc_get_mapping.R
 #' @export
 swc_get_mapping <- function(ids_from, ids_to) {
-  all.ids <- c(ids_from, ids_to)
+  all.ids <- c(tid(ids_from), tid(ids_to))
 
   municipality_mutations <- swc_get_municipality_mutations()
 
@@ -43,11 +43,6 @@ swc_get_mapping <- function(ids_from, ids_to) {
   #' For two lists of municipalities, we construct a mapping from the first list
   #' to the second.  First, the most probable mutation number in the
   #' "municipality mutations" data set is computed.
-  tid <- function(ids) {
-    if (is.factor(ids)) ids <- as.character(ids)
-    ids <- as.integer(ids)
-    ids
-  }
   ids_from <- sort(unique(ids_from))
   ids_from.int <- tid(ids_from)
   mid.from <- getMostProbableMutationId(mutations, ids_from.int)
@@ -75,7 +70,9 @@ swc_get_mapping <- function(ids_from, ids_to) {
 
   extraTable <- function(retId, inId, name) {
     mId <- sort(setdiff(inId, retId))
-    if (length(mId) == 0) return(NULL)
+    if (length(mId) == 0) {
+      return(NULL)
+    }
     ret <- data.frame(mId = mId)
     ret <- transform(ret, MatchType = mt("extra"))
     names(ret) <- cn(names(ret), name)
@@ -117,6 +114,12 @@ swc_get_mapping <- function(ids_from, ids_to) {
     levels = dMatchType
   )
   ret
+}
+
+tid <- function(ids) {
+  if (is.factor(ids)) ids <- as.character(ids)
+  ids <- as.integer(ids)
+  ids
 }
 
 getMostProbableMutationId <- function(mutations, municipalityIds) {
@@ -267,21 +270,26 @@ getMunicipalityMappingWorker <- function(mutations, hist.list.from, mid.from, hi
     as.numeric(mid.to) >= as.numeric(mMutationId)
   )
 
+  stopifnot(!anyNA(trans.list_prep$mHistId.y))
+
   trans.list <- if (nrow(trans.list_prep) == 0) {
     trans.list_prep
   } else {
     group_split(trans.list_prep, mMutationId) %>%
       map_dfr(function(m) {
+        stopifnot(!is.na(m$mHistId.y))
         rn <- colnames(f)
 
         abolId <- unique(m$mHistId.x)
         admId <- unique(m$mHistId.y)
-        abolId <- subset(abolId,!is.na(abolId))
-        admId <- subset(admId,!is.na(admId))
-        logging::logdebug("%s: +(%s), -(%s)",
-                          m$mMutationId[1],
-                          format(admId),
-                          format(abolId))
+        abolId <- subset(abolId, !is.na(abolId))
+        admId <- subset(admId, !is.na(admId))
+        logging::logdebug(
+          "%s: +(%s), -(%s)",
+          m$mMutationId[1],
+          format(admId),
+          format(abolId)
+        )
 
         removedId <- setdiff(abolId, admId)
         remainingId <- setdiff(abolId, removedId)
@@ -304,25 +312,30 @@ getMunicipalityMappingWorker <- function(mutations, hist.list.from, mid.from, hi
         stopifnot(!is.na(idI))
         stopifnot(!is.na(idJ))
 
-        logging::logdebug("%s: (%s)->(%s)",
-                          m$mMutationId[1],
-                          format(m$mHistId.x),
-                          format(m$mHistId.y))
+        logging::logdebug(
+          "%s: (%s)->(%s)",
+          m$mMutationId[1],
+          format(m$mHistId.x),
+          format(m$mHistId.y)
+        )
         trI <- match(m$mHistId.x, rn)
         trJ <- match(m$mHistId.y, cn)
 
         stopifnot(!is.na(trI))
         stopifnot(!is.na(trJ))
-        logging::logdebug("%s: ((%s))->((%s))",
-                          m$mMutationId[1],
-                          format(trI),
-                          format(trJ))
+        logging::logdebug(
+          "%s: ((%s))->((%s))",
+          m$mMutationId[1],
+          format(trI),
+          format(trJ)
+        )
         logging::logdebug("%s: %s x %s", m$mMutationId[1], length(rn), length(cn))
         g <-
           Matrix::sparseMatrix(c(idI, trI),
-                               c(idJ, trJ),
-                               x = 1,
-                               dimnames = list(rn, cn))
+            c(idJ, trJ),
+            x = 1,
+            dimnames = list(rn, cn)
+          )
 
         logging::logdebug("%s: %s %%*%% %s", m$mMutationId[1], dim(f), dim(g))
         f <<- f %*% g

@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup, include = FALSE}
-library(SwissCommunes)
+library(munch)
 library(dplyr)
 library(purrr)
 ```

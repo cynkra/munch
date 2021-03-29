@@ -20,9 +20,11 @@ load_bfs_mun_list <- function(date_or_year = lubridate::year(Sys.Date())) {
     col_types = readr::cols()
     )
     cantons <- all_data %>%
+      # Level 1 are cantons
       filter(Level == 1) %>%
       select(ct_id = Identifier, ct_name = Name_de, ct_short = ABBREV_1_Text_de)
     districts <- all_data %>%
+      # Level 2 are districts
       filter(Level == 2) %>%
       select(dist_id = Identifier, ct_id = Parent)
     # Level 3 are municipalities

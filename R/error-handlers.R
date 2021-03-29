@@ -50,3 +50,11 @@ abort_not_date_or_year <- function() {
 error_not_date_or_year <- function() {
   "Either `as.integer()` or `as.Date()` have to work on `date_or_year`."
 }
+
+abort_date_too_early <- function(date) {
+  abort(error_date_too_early(date), class = swc_error_full("date_too_early"))
+}
+
+error_date_too_early <- function(date) {
+  glue::glue("Earliest possible date is '1848-09-12', but given date is '{as.Date(date, format = '%d-%m-%Y')}'.")
+}

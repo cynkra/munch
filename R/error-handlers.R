@@ -42,3 +42,19 @@ abort_time_grid_fail <- function(time_grid) {
 error_time_grid_fail <- function(time_grid) {
   glue::glue("Value {tick(time_grid)} supplied to parameter 'time_grid', options are: 'none', 'monthly', 'quarterly', 'yearly'.")
 }
+
+abort_not_date_or_year <- function() {
+  abort(error_not_date_or_year(), class = swc_error_full("not_date_or_year"))
+}
+
+error_not_date_or_year <- function() {
+  "Either `as.integer()` or `as.Date()` have to work on `date_or_year`."
+}
+
+abort_date_too_early <- function(date) {
+  abort(error_date_too_early(date), class = swc_error_full("date_too_early"))
+}
+
+error_date_too_early <- function(date) {
+  glue::glue("Earliest possible date is '1848-09-12', but given date is '{as.Date(date, format = '%d-%m-%Y')}'.")
+}

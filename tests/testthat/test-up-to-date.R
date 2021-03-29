@@ -4,7 +4,7 @@ test_that("data is up-to-date", {
   skip("Broken")
   skip_on_os("windows")
 
-  pkg_path <- system.file(package = "SwissCommunes")
+  pkg_path <- system.file(package = "munch")
   data_path <- file.path(pkg_path, "data")
 
   data <- swc_read_data()

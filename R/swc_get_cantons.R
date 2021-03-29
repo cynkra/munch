@@ -3,7 +3,7 @@ swc_get_cantons <- function() {
 }
 
 csv_file <- function(name) {
-  system.file("csv", paste0(name, ".csv"), package = "SwissCommunes")
+  system.file("csv", paste0(name, ".csv"), package = "munch")
 }
 
 new_csv_file <- function(...) {

@@ -8,23 +8,23 @@
 #' list.
 #'
 #' \tabular{ll}{
-#'   Package: \tab SwissCommunes\cr
+#'   Package: \tab munch\cr
 #'   Type: \tab Package\cr
 #'   Version: \tab 0.0-5\cr
 #'   Date: \tab 2014-09-22\cr
 #'   License: \tab GPL-3\cr
 #' }
 #'
-#' @name SwissCommunes-package
-#' @aliases SwissCommunes-package SwissCommunes
+#' @name munch-package
+#' @aliases munch-package munch
 #' @docType package
 #' @author Kirill Müller
 #'
-#' Maintainer: Kirill Müller <kirill.mueller@@ivt.baug.ethz.ch>
+#' Maintainer: Kirill Müller <kirill@cynkra.com>
 #'
-#' URL: \url{https://github.com/krlmlr/SwissCommunes}
+#' URL: \url{https://github.com/cynkra/munch}
 #'
-#' Issue tracker: \url{https://github.com/krlmlr/SwissCommunes/issues}
+#' Issue tracker: \url{https://github.com/cynkra/munch/issues}
 #'
 #' @references
 #' \url{http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html}

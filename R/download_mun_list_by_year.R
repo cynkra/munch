@@ -13,7 +13,7 @@ load_bfs_mun_list <- function(date_or_year = lubridate::year(Sys.Date())) {
     error = function(e) abort_not_date_or_year(),
     warning = function(w) abort_not_date_or_year()
   )
-  if (date < "12-09-1848") abort_date_too_early(date)
+  if (as.Date(date, format = "%d-%m-%Y") < as.Date("12-09-1848", "%d-%m-%Y")) abort_date_too_early(date)
 
   all_data <- readr::read_csv(
     glue::glue("https://sms.bfs.admin.ch/WcfBFSSpecificService.svc/AnonymousRest/communes/snapshots?useBfsCode=true&startPeriod={date}&endPeriod={date}"),

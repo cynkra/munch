@@ -1,9 +1,5 @@
 load_bfs_mun_list <- function(date_or_year = lubridate::year(Sys.Date())) {
   # cf. https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/forschung/api/api-gemeinde.assetdetail.15224054.html
-  # if `date_or_year` is given as year, it needs to be translated to a from-to period;
-  # we then choose <year>-01-01 for both;
-  # also if `date_or_year` is given as date, we choose the same date for the start
-  # and the end of the query-period
   date <- date_or_year_to_date(date_or_year)
   all_data <- readr::read_csv(
     glue::glue("https://sms.bfs.admin.ch/WcfBFSSpecificService.svc/AnonymousRest/communes/snapshots?useBfsCode=true&startPeriod={date}&endPeriod={date}"),
@@ -28,6 +24,10 @@ load_bfs_mun_list <- function(date_or_year = lubridate::year(Sys.Date())) {
 }
 
 date_or_year_to_date <- function(date_or_year) {
+  # if `date_or_year` is given as year, it needs to be translated to a from-to period;
+  # we then choose <year>-01-01 for both;
+  # also if `date_or_year` is given as date, we choose the same date for the start
+  # and the end of the query-period
   tryCatch({
     if (is.numeric(date_or_year) || nchar(date_or_year) == 4) {
       date <- paste0("01-01-", as.character(as.integer(date_or_year)))

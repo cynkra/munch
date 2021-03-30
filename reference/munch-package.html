@@ -6,7 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Census population by household size per commune in Switzerland between 1970 and 2000 — SwissPop • munch</title>
+<title>Functions for working with the historicized list of municipalities of
+Switzerland — munch-package • munch</title>
 
 
 <!-- jquery -->
@@ -39,9 +40,16 @@
 
 
 
-<meta property="og:title" content="Census population by household size per commune in Switzerland between 1970 and 2000 — SwissPop" />
-<meta property="og:description" content="Each row contains the number of households for a municipality,
-  a year and a household size." />
+<meta property="og:title" content="Functions for working with the historicized list of municipalities of
+Switzerland — munch-package" />
+<meta property="og:description" content="The mutations of Swiss municipalities are tracked in a machine-readable
+mutation list.  This allows guessing the reference time for any given list of
+municipality IDs, and to construct mappings between two lists of municipality
+IDs.  The package provides functions to import and work with this mutation
+list.
+Contains historicized municipality data for
+    Switzerland from 1960 onwards, from the &quot;Historisiertes
+    Gemeindeverzeichnis&quot; of the Swiss Federal Statistical Office." />
 
 
 
@@ -127,28 +135,67 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Census population by household size per commune in Switzerland between 1970 and 2000</h1>
+    <h1>Functions for working with the historicized list of municipalities of
+Switzerland</h1>
     <small class="dont-index">Source: <a href='https://github.com/cynkra/munch/blob/master/R/SwissCommunes-package.R'><code>R/SwissCommunes-package.R</code></a></small>
-    <div class="hidden name"><code>SwissPop.Rd</code></div>
+    <div class="hidden name"><code>munch-package.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Each row contains the number of households for a municipality,
-  a year and a household size.</p>
+    <p>The mutations of Swiss municipalities are tracked in a machine-readable
+mutation list.  This allows guessing the reference time for any given list of
+municipality IDs, and to construct mappings between two lists of municipality
+IDs.  The package provides functions to import and work with this mutation
+list.</p>
+<p>Contains historicized municipality data for
+    Switzerland from 1960 onwards, from the "Historisiertes
+    Gemeindeverzeichnis" of the Swiss Federal Statistical Office.</p>
     </div>
 
-    <pre class="usage"><span class='va'>SwissPop</span></pre>
 
 
-    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>STAT-TAB, section 40.1 "Eidgenössische Volkszählung/1970--2000",
-  item "Privathaushalte nach Haushaltsgrösse und Region".</p>
-<p>STAT-TAB URL: <a href='http://www.pxweb.bfs.admin.ch/Database/German_40%20-%20Eidgen%C3%B6ssische%20Volksz%C3%A4hlung/40.1%20-%201970-2000/40.1%20-%201970-2000.asp?lang=1&amp;prod=40&amp;secprod=1&amp;openChild=true'>http://www.pxweb.bfs.admin.ch/Database/German_40%20-%20Eidgen%C3%B6ssische%20Volksz%C3%A4hlung/40.1%20-%201970-2000/40.1%20-%201970-2000.asp?lang=1&amp;prod=40&amp;secprod=1&amp;openChild=true</a>.</p>
-<p>File link: <a href='http://www.pxweb.bfs.admin.ch/Database/German_40%20-%20Eidgen%C3%B6ssische%20Volksz%C3%A4hlung/40.1%20-%201970-2000/px-d-40-1A01.px'>http://www.pxweb.bfs.admin.ch/Database/German_40%20-%20Eidgen%C3%B6ssische%20Volksz%C3%A4hlung/40.1%20-%201970-2000/px-d-40-1A01.px</a>.</p>
+    
+<table class='table'>
+<tr><td>Package:</td><td>munch</td></tr>
+<tr><td>Type:</td><td>Package</td></tr>
+<tr><td>Version:</td><td>0.0-5</td></tr>
+<tr><td>Date:</td><td>2014-09-22</td></tr>
+<tr><td>License:</td><td>GPL-3</td></tr>
+</table>
+
+
+    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
+
+    <p><a href='http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html'>http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gem_liste/02.html</a></p>
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+
+    <div class='dont-index'><p>Useful links:</p><ul>
+<li><p><a href='https://cynkra.github.io/munch/'>https://cynkra.github.io/munch/</a></p></li>
+<li><p><a href='https://github.com/cynkra/munch'>https://github.com/cynkra/munch</a></p></li>
+<li><p>Report bugs at <a href='https://github.com/cynkra/munch/issues'>https://github.com/cynkra/munch/issues</a></p></li>
+</ul>
+
+</div>
     <h2 class="hasAnchor" id="author"><a class="anchor" href="#author"></a>Author</h2>
 
-    <p>Swiss Federal Statistical Office</p>
+    <p>Kirill Müller</p>
+<p>Maintainer: Kirill Müller &lt;kirill@cynkra.com&gt;</p>
+<p>URL: <a href='https://github.com/cynkra/munch'>https://github.com/cynkra/munch</a></p>
+<p>Issue tracker: <a href='https://github.com/cynkra/munch/issues'>https://github.com/cynkra/munch/issues</a></p>
+<p><strong>Maintainer</strong>: Kirill Müller <a href='mailto:krlmlr+r@mailbox.org'>krlmlr+r@mailbox.org</a></p>
+<p>Authors:</p><ul>
+<li><p>Tobias Schieferdecker</p></li>
+<li><p>Thomas Knecht</p></li>
+</ul>
+
+<p>Other contributors:</p><ul>
+<li><p>Christoph Sax [contributor]</p></li>
+<li><p>Swiss Federal Statistical Office (SFSO), Swiss Statistics Web site [copyright holder]</p></li>
+</ul>
+
+
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

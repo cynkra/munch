@@ -12,37 +12,56 @@
 #
 # For the tests we remove the three exceptions from the result of `swc_get_merger_mapping_table()` and only then do the comparison
 
+mapping_2005 <- swc_get_merger_mapping_table(2005, 2005) %>%
+  filter(!(mun_id_y %in% c(2391, 5391, 5392, 5393, 5394, 6391)))
+bfs_2005 <- load_bfs_mun_list(2005)
+
+mapping_2012 <- swc_get_merger_mapping_table(2012, 2012) %>%
+  filter(!(mun_id_y %in% c(2391, 5391, 5394, 6391)))
+bfs_2012 <- load_bfs_mun_list(2012)
+
+mapping_2020 <- swc_get_merger_mapping_table(2020, 2020) %>%
+  filter(!(mun_id_y %in% c(2391, 5391, 5394)))
+bfs_2020 <- load_bfs_mun_list(2020)
+
+
 test_that("mapping tables' inventory of municipalities are complete", {
 
   # TEST 2005 DATA:
-  mapping_2005 <- swc_get_merger_mapping_table(2005, 2005) %>%
-    filter(!(mun_id_y %in% c(2391, 5391, 5392, 5393, 5394, 6391)))
-  bfs_2005 <- load_bfs_mun_list(2005)
-
   expect_identical(
     sort(mapping_2005$mun_id_y),
     sort(bfs_2005$mun_id)
   )
 
   # TEST 2012 DATA:
-  mapping_2012 <- swc_get_merger_mapping_table(2012, 2012) %>%
-    filter(!(mun_id_y %in% c(2391, 5391, 5394, 6391)))
-  bfs_2012 <- load_bfs_mun_list(2012)
-
   expect_identical(
     sort(mapping_2012$mun_id_y),
     sort(bfs_2012$mun_id)
   )
 
   # TEST 2020 DATA:
-  mapping_2020 <- swc_get_merger_mapping_table(2020, 2020) %>%
-    filter(!(mun_id_y %in% c(2391, 5391, 5394)))
-  bfs_2020 <- load_bfs_mun_list(2020)
-
   expect_identical(
     sort(mapping_2020$mun_id_y),
     sort(bfs_2020$mun_id)
   )
 })
 
+test_that("swc_get_municipality_state() works", {
+  expect_identical(
+    swc_get_municipality_state(2005) %>%
+      filter(!(mun_id %in% c(2391, 5391, 5392, 5393, 5394, 6391))) %>%
+      pull(mun_id),
+    bfs_2005 %>%
+      pull(mun_id)
+  )
+
+
+  expect_identical(
+    swc_get_municipality_state(2020) %>%
+      filter(!(mun_id %in% c(2391, 5391, 5394))) %>%
+      pull(mun_id),
+    bfs_2020 %>%
+      pull(mun_id)
+  )
+})
 

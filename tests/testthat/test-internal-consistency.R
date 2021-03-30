@@ -8,7 +8,7 @@ read_mun_csv <- function(file) {
   return(df)
 }
 
-csv_dir <- system.file("csv/flat", package = "SwissCommunes")
+csv_dir <- system.file("csv/flat", package = "munch")
 all_files <- list.files(csv_dir)
 file_paths <- file.path(csv_dir, all_files)
 

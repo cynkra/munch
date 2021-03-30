@@ -3,7 +3,7 @@ load_bfs_mun_list <- function(date_or_year = lubridate::year(Sys.Date()), canton
   date <- date_or_year_to_date(date_or_year)
   all_data <- readr::read_csv(
     glue::glue("https://sms.bfs.admin.ch/WcfBFSSpecificService.svc/AnonymousRest/communes/snapshots?useBfsCode=true&startPeriod={date}&endPeriod={date}"),
-    col_types = readr::cols()
+    col_types = "icciicccccccccdddddddddddddddlccll"
     )
     cantons <- all_data %>%
       # Level 1 are cantons

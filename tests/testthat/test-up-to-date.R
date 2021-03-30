@@ -20,15 +20,4 @@ test_that("data is up-to-date", {
     data$municipality %>%
       mutate(across(where(is.factor), as.character))
   )
-# FIXME: should the following be deleted?
-#   cantons <- data$canton
-#   district_mutations <- data$district
-#   municipality_mutations <- data$municipality
-#
-#   old <- usethis::proj_set(pkg_path)
-#
-#   usethis::use_data(
-#     cantons, district_mutations, municipality_mutations,
-#     overwrite = TRUE
-#   )
 })

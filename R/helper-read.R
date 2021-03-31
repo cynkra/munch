@@ -28,7 +28,9 @@ swc_read_data <- function() {
   logging::logdebug(zip_file_name)
   on.exit(unlink(zip_file_name), add = TRUE)
 
-  download.file(record_hist_url, zip_file_name, quiet = TRUE)
+  # `mode = "wb"` needed in order for it to work on Windows
+  # cf. https://github.com/tidyverse/readxl/issues/126
+  download.file(record_hist_url, zip_file_name, quiet = TRUE, mode="wb")
 
   unzip_dir_name <- tempfile()
   logging::logdebug(unzip_dir_name)

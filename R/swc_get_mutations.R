@@ -29,8 +29,8 @@
 #' @return A data frame that represents mutations.
 #'
 #' @examples
-#' head(swcGetMutations(), 20)
-#' head(subset(swcGetMutations(), !is.na(mHistId.x)), 20)
+#' head(swc_get_mutations(), 20)
+#' head(subset(swc_get_mutations(), !is.na(mHistId.x)), 20)
 #' @export
 swc_get_mutations <- function(mids = NULL, canton = NULL) {
   municipality_mutations <- swc_get_municipality_mutations()

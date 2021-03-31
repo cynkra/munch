@@ -188,8 +188,7 @@ to the second.  First, the most probable mutation number in the
 "municipality mutations" data set is computed.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'>pkgload</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/pkgload/man/load_all.html'>load_all</a></span><span class='op'>(</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span class='error'>Error: No root directory found in /tmp/RtmpazxNaY/file33b27c8b835e/reference or its parent directories. Root criterion: contains a file "DESCRIPTION"</span></div><div class='input'><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://dplyr.tidyverse.org'>dplyr</a></span><span class='op'>)</span>
+    <pre class="examples"><div class='input'><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://dplyr.tidyverse.org'>dplyr</a></span><span class='op'>)</span>
 </div><div class='output co'>#&gt; <span class='message'></span>
 #&gt; <span class='message'>Attaching package: ‘dplyr’</span></div><div class='output co'>#&gt; <span class='message'>The following objects are masked from ‘package:stats’:</span>
 #&gt; <span class='message'></span>
@@ -261,12 +260,12 @@ to the second.  First, the most probable mutation number in the
 #&gt; [71] "6809" "6810"</div><div class='input'>
 <span class='co'># Compute mapping and count non-matching municipality IDs:</span>
 <span class='va'>mapping</span> <span class='op'>&lt;-</span> <span class='fu'>swc_get_mapping</span><span class='op'>(</span>ids_from <span class='op'>=</span> <span class='va'>ids_from</span>, ids_to <span class='op'>=</span> <span class='va'>ids_to</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; 2021-03-30 13:30:47 INFO::meltMutations
-#&gt; 2021-03-30 13:30:48 INFO::meltMutations
-#&gt; 2021-03-30 13:30:48 INFO::computeMunList
-#&gt; 2021-03-30 13:30:48 INFO::meltMutations
-#&gt; 2021-03-30 13:30:48 INFO::meltMutations
-#&gt; 2021-03-30 13:30:48 INFO::computeMunList</div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>mapping</span><span class='op'>$</span><span class='va'>mIdAsNumber.from</span> <span class='op'>!=</span> <span class='va'>mapping</span><span class='op'>$</span><span class='va'>mIdAsNumber.to</span><span class='op'>)</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; 2021-03-31 14:16:30 INFO::meltMutations
+#&gt; 2021-03-31 14:16:31 INFO::meltMutations
+#&gt; 2021-03-31 14:16:31 INFO::computeMunList
+#&gt; 2021-03-31 14:16:31 INFO::meltMutations
+#&gt; 2021-03-31 14:16:31 INFO::meltMutations
+#&gt; 2021-03-31 14:16:31 INFO::computeMunList</div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>mapping</span><span class='op'>$</span><span class='va'>mIdAsNumber.from</span> <span class='op'>!=</span> <span class='va'>mapping</span><span class='op'>$</span><span class='va'>mIdAsNumber.to</span><span class='op'>)</span><span class='op'>)</span>
 </div><div class='output co'>#&gt; [1] 487</div><div class='input'>
 <span class='co'># Communes that are "missing" are mostly lakes and other special communes:</span>
 <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='va'>MatchType</span> <span class='op'>==</span> <span class='st'>"missing"</span><span class='op'>)</span><span class='op'>[</span>, <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"mIdAsNumber.from"</span>, <span class='st'>"mShortName.from"</span><span class='op'>)</span><span class='op'>]</span>
@@ -433,12 +432,12 @@ to the second.  First, the most probable mutation number in the
 #&gt; 2891     4723                  Braunau     valid</div><div class='input'>
 <span class='co'># The "from" list must be from an earlier time than the "to" list.</span>
 <span class='kw'><a href='https://rdrr.io/r/base/try.html'>try</a></span><span class='op'>(</span><span class='fu'>swc_get_mapping</span><span class='op'>(</span>ids_from <span class='op'>=</span> <span class='va'>ids_to</span>, ids_to <span class='op'>=</span> <span class='va'>ids_from</span><span class='op'>)</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; 2021-03-30 13:30:57 INFO::meltMutations
-#&gt; 2021-03-30 13:30:57 INFO::meltMutations
-#&gt; 2021-03-30 13:30:57 INFO::computeMunList
-#&gt; 2021-03-30 13:30:57 INFO::meltMutations
-#&gt; 2021-03-30 13:30:57 INFO::meltMutations
-#&gt; 2021-03-30 13:30:57 INFO::computeMunList
+</div><div class='output co'>#&gt; 2021-03-31 14:16:39 INFO::meltMutations
+#&gt; 2021-03-31 14:16:39 INFO::meltMutations
+#&gt; 2021-03-31 14:16:39 INFO::computeMunList
+#&gt; 2021-03-31 14:16:39 INFO::meltMutations
+#&gt; 2021-03-31 14:16:39 INFO::meltMutations
+#&gt; 2021-03-31 14:16:39 INFO::computeMunList
 #&gt; Error in getMunicipalityMappingWorker(mutations, hist.list.from, mid.from,  : 
 #&gt;   mid.from &lt;= mid.to is not TRUE</div></pre>
   </div>

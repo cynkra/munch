@@ -234,3 +234,20 @@ download_mun_inventory <- function() {
 
   data
 }
+
+read_mun_csv <- function(file) {
+  target_year <- sub(".csv", "", basename(file))
+  read.csv(file) %>%
+    mutate(target_year = target_year)
+}
+
+read_all_data <- function() {
+  csv_dir <- system.file("csv/flat", package = "munch")
+  all_files <- list.files(csv_dir)
+  file_paths <- file.path(csv_dir, all_files)
+
+  file_paths %>%
+    purrr::map_df(~ read_mun_csv(.)) %>%
+    as_tibble() %>%
+    mutate(target_year = as.integer(target_year))
+}

@@ -1,22 +1,6 @@
 # setup test --------------------------------------------------------------
 
-read_mun_csv <- function(file) {
-  target_year <- sub(".csv", "", basename(file))
-  df <- read.csv(file) %>%
-    mutate(target_year = target_year)
-
-  return(df)
-}
-
-csv_dir <- system.file("csv/flat", package = "munch")
-all_files <- list.files(csv_dir)
-file_paths <- file.path(csv_dir, all_files)
-
-all_data <-
-  file_paths %>%
-  purrr::map_df(~ read_mun_csv(.)) %>%
-  as_tibble() %>%
-  mutate(target_year = as.integer(target_year))
+all_data <- read_all_data()
 
 source_years_summary <- all_data %>%
   count(year, mun_id_x, short_name_x) %>%

@@ -212,25 +212,3 @@ daff_municipality_mutations <- function() {
 
   daff::render_diff(daff::diff_data(swc_get_municipality_mutations(), data$municipality))
 }
-
-
-
-#' download latest municipality inventory
-#'
-#' @export
-download_mun_inventory <- function() {
-  mun_inventory_url <- "https://www.bfs.admin.ch/bfsstatic/dam/assets/6986904/master"
-
-  zip_file_name <- tempfile(fileext = ".xlsx")
-  logging::logdebug(zip_file_name)
-
-  on.exit(unlink(zip_file_name), add = TRUE)
-
-  download.file(mun_inventory_url, zip_file_name, quiet = TRUE, mode = "wb")
-
-  data <- readxl::read_excel(zip_file_name, sheet = 2)
-
-  names(data) <- tolower(names(data))
-
-  data
-}

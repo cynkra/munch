@@ -47,7 +47,6 @@ Imports:
 Suggests:
     daff,
     knitr,
-    pkgload,
     readxl,
     rmarkdown,
     rvest,

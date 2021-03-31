@@ -47,7 +47,6 @@ to the second.  First, the most probable mutation number in the
 "municipality mutations" data set is computed.
 }
 \examples{
-pkgload::load_all()
 library(dplyr)
 data(SwissPop)
 data(SwissBirths)

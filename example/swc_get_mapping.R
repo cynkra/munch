@@ -1,4 +1,3 @@
-pkgload::load_all()
 library(dplyr)
 data(SwissPop)
 data(SwissBirths)

@@ -59,8 +59,6 @@ municipalities between different points in time." />
 
 
 
-<!-- dependencies from examples -->
-
 
   
 
@@ -139,7 +137,7 @@ municipalities between different points in time." />
 municipalities between different points in time.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>swc_get_mutations</span><span class='op'>(</span>mids <span class='op'>=</span> <span class='cn'>NULL</span>, canton <span class='op'>=</span> <span class='cn'>NULL</span><span class='op'>)</span></pre>
+    <div class="ref-usage sourceCode"><pre class='sourceCode r'><code><span class='fu'>swc_get_mutations</span><span class='op'>(</span>mids <span class='op'>=</span> <span class='cn'>NULL</span>, canton <span class='op'>=</span> <span class='cn'>NULL</span><span class='op'>)</span></code></pre></div>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -179,177 +177,181 @@ The result is a list of mutations, i.e., a list of edges in the graph of
 municipality state snapshots.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='fu'><a href='deprecated.html'>swcGetMutations</a></span><span class='op'>(</span><span class='op'>)</span>, <span class='fl'>20</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span class='warning'>Warning: `swcGetMutations()` was deprecated in munch 0.0.8.</span>
-#&gt; <span class='warning'>Please use `swc_get_mutations()` instead.</span></div><div class='output co'>#&gt;    mMutationNumber cAbbreviation mHistId.x mId.x mShortName.x mAbolitionMode
-#&gt; 1             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 2             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 3             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 4             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 5             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 6             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 7             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 8             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 9             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 10            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 11            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 12            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 13            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 14            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 15            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 16            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 17            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 18            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 19            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt; 20            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;
-#&gt;    mAbolitionDate mDateOfChange.x mHistId.y mId.y       mShortName.y
-#&gt; 1            &lt;NA&gt;            &lt;NA&gt;     11348     1             Aeugst
-#&gt; 2            &lt;NA&gt;            &lt;NA&gt;     11742     2 Affoltern am Albis
-#&gt; 3            &lt;NA&gt;            &lt;NA&gt;     11801     3         Bonstetten
-#&gt; 4            &lt;NA&gt;            &lt;NA&gt;     11992     4    Hausen am Albis
-#&gt; 5            &lt;NA&gt;            &lt;NA&gt;     12249     5           Hedingen
-#&gt; 6            &lt;NA&gt;            &lt;NA&gt;     12671     6    Kappel am Albis
-#&gt; 7            &lt;NA&gt;            &lt;NA&gt;     12674     7             Knonau
-#&gt; 8            &lt;NA&gt;            &lt;NA&gt;     12738     8        Maschwanden
-#&gt; 9            &lt;NA&gt;            &lt;NA&gt;     12433     9     Mettmenstetten
-#&gt; 10           &lt;NA&gt;            &lt;NA&gt;     12497    10           Obfelden
-#&gt; 11           &lt;NA&gt;            &lt;NA&gt;     13124    11          Ottenbach
-#&gt; 12           &lt;NA&gt;            &lt;NA&gt;     12891    12         Rifferswil
-#&gt; 13           &lt;NA&gt;            &lt;NA&gt;     10575    13          Stallikon
-#&gt; 14           &lt;NA&gt;            &lt;NA&gt;     11349    14           Wettswil
-#&gt; 15           &lt;NA&gt;            &lt;NA&gt;     11735    21            Adlikon
-#&gt; 16           &lt;NA&gt;            &lt;NA&gt;     11862    22        Benken (ZH)
-#&gt; 17           &lt;NA&gt;            &lt;NA&gt;     11855    23     Berg am Irchel
-#&gt; 18           &lt;NA&gt;            &lt;NA&gt;     11480    24     Buch am Irchel
-#&gt; 19           &lt;NA&gt;            &lt;NA&gt;     11573    25            Dachsen
-#&gt; 20           &lt;NA&gt;            &lt;NA&gt;     12182    26               Dorf
-#&gt;             mAdmissionMode mAdmissionDate mDateOfChange.y mMutationDate
-#&gt; 1  First-time registration     1960-01-01      1976-11-14    1960-01-01
-#&gt; 2  First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 3  First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 4  First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 5  First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 6  First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 7  First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 8  First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 9  First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 10 First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 11 First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 12 First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 13 First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 14 First-time registration     1960-01-01      1976-11-14    1960-01-01
-#&gt; 15 First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 16 First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 17 First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 18 First-time registration     1960-01-01      2012-12-31    1960-01-01
-#&gt; 19 First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt; 20 First-time registration     1960-01-01      1960-01-01    1960-01-01
-#&gt;        mMutationId
-#&gt; 1  1960-01-01.1000
-#&gt; 2  1960-01-01.1000
-#&gt; 3  1960-01-01.1000
-#&gt; 4  1960-01-01.1000
-#&gt; 5  1960-01-01.1000
-#&gt; 6  1960-01-01.1000
-#&gt; 7  1960-01-01.1000
-#&gt; 8  1960-01-01.1000
-#&gt; 9  1960-01-01.1000
-#&gt; 10 1960-01-01.1000
-#&gt; 11 1960-01-01.1000
-#&gt; 12 1960-01-01.1000
-#&gt; 13 1960-01-01.1000
-#&gt; 14 1960-01-01.1000
-#&gt; 15 1960-01-01.1000
-#&gt; 16 1960-01-01.1000
-#&gt; 17 1960-01-01.1000
-#&gt; 18 1960-01-01.1000
-#&gt; 19 1960-01-01.1000
-#&gt; 20 1960-01-01.1000</div><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='fu'><a href='deprecated.html'>swcGetMutations</a></span><span class='op'>(</span><span class='op'>)</span>, <span class='op'>!</span><span class='fu'><a href='https://rdrr.io/r/base/NA.html'>is.na</a></span><span class='op'>(</span><span class='va'>mHistId.x</span><span class='op'>)</span><span class='op'>)</span>, <span class='fl'>20</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span class='warning'>Warning: `swcGetMutations()` was deprecated in munch 0.0.8.</span>
-#&gt; <span class='warning'>Please use `swc_get_mutations()` instead.</span></div><div class='output co'>#&gt;      mMutationNumber cAbbreviation mHistId.x mId.x          mShortName.x
-#&gt; 3103            1001            VD     11248  5512               Bercher
-#&gt; 3104            1002            SO     11245  2451            Ichertswil
-#&gt; 3105            1002            SO     11244  2455            Lüterkofen
-#&gt; 3106            1003            VD     11242  5625      Bussy-sur-Morges
-#&gt; 3107            1003            VD     11243  5626 Chardonney-sur-Morges
-#&gt; 3108            1004            AG     11240  4021                 Baden
-#&gt; 3109            1004            AG     11227  4025               Dättwil
-#&gt; 3110            1005            VD     11238  5886    Montreux-Châtelard
-#&gt; 3111            1005            VD     11253  5887     Montreux-Planches
-#&gt; 3112            1006            GR     11237  3972    Seewis im Prätigau
-#&gt; 3113            1007            GR     11236  3881   Conters im Prätigau
-#&gt; 3114            1008            FR     11235  2295         Grossbösingen
-#&gt; 3115            1009            GR     11234  3982       Disentis/Mustèr
-#&gt; 3116            1010            GR     11231  3597                Peiden
-#&gt; 3117            1010            GR     11230  3602       Uors (Lumnezia)
-#&gt; 3118            1011            SH     11233  2935            Herblingen
-#&gt; 3119            1011            SH     11232  2939          Schaffhausen
-#&gt; 3120            1012            SG     11229  3404                 Henau
-#&gt; 3121            1013            TG     11239  4756     Schönholzerswilen
-#&gt; 3122            1013            TG     11266  4757                  Toos
-#&gt;                 mAbolitionMode mAbolitionDate mDateOfChange.x mHistId.y mId.y
-#&gt; 3103 Reassignment to other d/c     1960-12-31      1960-12-31     13186  5512
-#&gt; 3104                 Abolition     1960-12-31      1960-12-31     13187  2455
-#&gt; 3105                 Abolition     1960-12-31      1960-12-31     13187  2455
-#&gt; 3106                 Abolition     1961-03-31      1961-03-31     13188  5625
-#&gt; 3107                 Abolition     1961-03-31      1961-03-31     13188  5625
-#&gt; 3108            Change of area     1961-12-31      1961-12-31     13189  4021
-#&gt; 3109                 Abolition     1961-12-31      1961-12-31     13189  4021
-#&gt; 3110                 Abolition     1961-12-31      1961-12-31     13190  5886
-#&gt; 3111                 Abolition     1961-12-31      1961-12-31     13190  5886
-#&gt; 3112        Change of name (m)     1961-12-31      1961-12-31     13191  3972
-#&gt; 3113        Change of name (m)     1961-12-31      1961-12-31     13192  3881
-#&gt; 3114        Change of name (m)     1961-12-31      1961-12-31     13193  2295
-#&gt; 3115        Change of name (m)     1962-12-31      1962-12-31     13194  3982
-#&gt; 3116                 Abolition     1963-05-23      1963-05-23     13195  3602
-#&gt; 3117                 Abolition     1963-05-23      1963-05-23     13195  3602
-#&gt; 3118                 Abolition     1963-12-31      1963-12-31     13196  2939
-#&gt; 3119            Change of area     1963-12-31      1963-12-31     13196  2939
-#&gt; 3120        Change of name (m)     1964-03-09      1964-03-09     13197  3408
-#&gt; 3121            Change of area     1964-05-31      1964-05-31     13198  4756
-#&gt; 3122                 Abolition     1964-05-31      1964-05-31     13198  4756
-#&gt;               mShortName.y            mAdmissionMode mAdmissionDate
-#&gt; 3103               Bercher Reassignment to other d/c     1961-01-01
-#&gt; 3104 Lüterkofen-Ichertswil                  Creation     1961-01-01
-#&gt; 3105 Lüterkofen-Ichertswil                  Creation     1961-01-01
-#&gt; 3106      Bussy-Chardonney                  Creation     1961-04-01
-#&gt; 3107      Bussy-Chardonney                  Creation     1961-04-01
-#&gt; 3108                 Baden            Change of area     1962-01-01
-#&gt; 3109                 Baden            Change of area     1962-01-01
-#&gt; 3110              Montreux                  Creation     1962-01-01
-#&gt; 3111              Montreux                  Creation     1962-01-01
-#&gt; 3112   Seewis im Prättigau        Change of name (m)     1962-01-01
-#&gt; 3113  Conters im Prättigau        Change of name (m)     1962-01-01
-#&gt; 3114              Bösingen        Change of name (m)     1962-01-01
-#&gt; 3115       Disentis/Mustér        Change of name (m)     1963-01-01
-#&gt; 3116           Uors-Peiden                  Creation     1963-05-24
-#&gt; 3117           Uors-Peiden                  Creation     1963-05-24
-#&gt; 3118          Schaffhausen            Change of area     1964-01-01
-#&gt; 3119          Schaffhausen            Change of area     1964-01-01
-#&gt; 3120                 Uzwil        Change of name (m)     1964-03-10
-#&gt; 3121     Schönholzerswilen            Change of area     1964-06-01
-#&gt; 3122     Schönholzerswilen            Change of area     1964-06-01
-#&gt;      mDateOfChange.y mMutationDate     mMutationId
-#&gt; 3103      2006-08-31    1961-01-01 1961-01-01.1001
-#&gt; 3104      1961-01-01    1961-01-01 1961-01-01.1002
-#&gt; 3105      1961-01-01    1961-01-01 1961-01-01.1002
-#&gt; 3106      2006-08-31    1961-04-01 1961-04-01.1003
-#&gt; 3107      2006-08-31    1961-04-01 1961-04-01.1003
-#&gt; 3108      1962-01-01    1962-01-01 1962-01-01.1004
-#&gt; 3109      1962-01-01    1962-01-01 1962-01-01.1004
-#&gt; 3110      2006-08-31    1962-01-01 1962-01-01.1005
-#&gt; 3111      2006-08-31    1962-01-01 1962-01-01.1005
-#&gt; 3112      2000-12-31    1962-01-01 1962-01-01.1006
-#&gt; 3113      2000-12-31    1962-01-01 1962-01-01.1007
-#&gt; 3114      1962-01-01    1962-01-01 1962-01-01.1008
-#&gt; 3115      2000-12-31    1963-01-01 1963-01-01.1009
-#&gt; 3116      2000-12-31    1963-05-24 1963-05-24.1010
-#&gt; 3117      2000-12-31    1963-05-24 1963-05-24.1010
-#&gt; 3118      2008-12-31    1964-01-01 1964-01-01.1011
-#&gt; 3119      2008-12-31    1964-01-01 1964-01-01.1011
-#&gt; 3120      2002-12-31    1964-03-10 1964-03-10.1012
-#&gt; 3121      2010-12-31    1964-06-01 1964-06-01.1013
-#&gt; 3122      2010-12-31    1964-06-01 1964-06-01.1013</div></pre>
+    <div class="ref-examples sourceCode"><pre class='sourceCode r'><code><span class='r-in'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='fu'><a href='deprecated.html'>swcGetMutations</a></span><span class='op'>(</span><span class='op'>)</span>, <span class='fl'>20</span><span class='op'>)</span></span>
+<span class='r-wrn co'><span class='r-pr'>#&gt;</span> <span class='warning'>Warning: </span>`swcGetMutations()` was deprecated in munch 0.0.8.</span>
+<span class='r-wrn co'><span class='r-pr'>#&gt;</span> Please use `swc_get_mutations()` instead.</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    mMutationNumber cAbbreviation mHistId.x mId.x mShortName.x mAbolitionMode</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 4             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 5             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 6             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 7             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 8             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 9             1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 10            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 11            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 12            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 13            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 14            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 15            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 16            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 17            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 18            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 19            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 20            1000          &lt;NA&gt;        NA    NA         &lt;NA&gt;           &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    mAbolitionDate mDateOfChange.x mHistId.y mId.y       mShortName.y</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1            &lt;NA&gt;            &lt;NA&gt;     11348     1             Aeugst</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2            &lt;NA&gt;            &lt;NA&gt;     11742     2 Affoltern am Albis</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3            &lt;NA&gt;            &lt;NA&gt;     11801     3         Bonstetten</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 4            &lt;NA&gt;            &lt;NA&gt;     11992     4    Hausen am Albis</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 5            &lt;NA&gt;            &lt;NA&gt;     12249     5           Hedingen</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 6            &lt;NA&gt;            &lt;NA&gt;     12671     6    Kappel am Albis</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 7            &lt;NA&gt;            &lt;NA&gt;     12674     7             Knonau</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 8            &lt;NA&gt;            &lt;NA&gt;     12738     8        Maschwanden</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 9            &lt;NA&gt;            &lt;NA&gt;     12433     9     Mettmenstetten</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 10           &lt;NA&gt;            &lt;NA&gt;     12497    10           Obfelden</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 11           &lt;NA&gt;            &lt;NA&gt;     13124    11          Ottenbach</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 12           &lt;NA&gt;            &lt;NA&gt;     12891    12         Rifferswil</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 13           &lt;NA&gt;            &lt;NA&gt;     10575    13          Stallikon</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 14           &lt;NA&gt;            &lt;NA&gt;     11349    14           Wettswil</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 15           &lt;NA&gt;            &lt;NA&gt;     11735    21            Adlikon</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 16           &lt;NA&gt;            &lt;NA&gt;     11862    22        Benken (ZH)</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 17           &lt;NA&gt;            &lt;NA&gt;     11855    23     Berg am Irchel</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 18           &lt;NA&gt;            &lt;NA&gt;     11480    24     Buch am Irchel</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 19           &lt;NA&gt;            &lt;NA&gt;     11573    25            Dachsen</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 20           &lt;NA&gt;            &lt;NA&gt;     12182    26               Dorf</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>             mAdmissionMode mAdmissionDate mDateOfChange.y mMutationDate</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1  First-time registration     1960-01-01      1976-11-14    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2  First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3  First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 4  First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 5  First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 6  First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 7  First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 8  First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 9  First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 10 First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 11 First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 12 First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 13 First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 14 First-time registration     1960-01-01      1976-11-14    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 15 First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 16 First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 17 First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 18 First-time registration     1960-01-01      2012-12-31    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 19 First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 20 First-time registration     1960-01-01      1960-01-01    1960-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>        mMutationId</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1  1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2  1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3  1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 4  1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 5  1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 6  1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 7  1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 8  1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 9  1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 10 1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 11 1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 12 1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 13 1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 14 1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 15 1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 16 1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 17 1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 18 1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 19 1960-01-01.1000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 20 1960-01-01.1000</span>
+<span class='r-in'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='fu'><a href='deprecated.html'>swcGetMutations</a></span><span class='op'>(</span><span class='op'>)</span>, <span class='op'>!</span><span class='fu'><a href='https://rdrr.io/r/base/NA.html'>is.na</a></span><span class='op'>(</span><span class='va'>mHistId.x</span><span class='op'>)</span><span class='op'>)</span>, <span class='fl'>20</span><span class='op'>)</span></span>
+<span class='r-wrn co'><span class='r-pr'>#&gt;</span> <span class='warning'>Warning: </span>`swcGetMutations()` was deprecated in munch 0.0.8.</span>
+<span class='r-wrn co'><span class='r-pr'>#&gt;</span> Please use `swc_get_mutations()` instead.</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>      mMutationNumber cAbbreviation mHistId.x mId.x          mShortName.x</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3103            1001            VD     11248  5512               Bercher</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3104            1002            SO     11245  2451            Ichertswil</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3105            1002            SO     11244  2455            Lüterkofen</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3106            1003            VD     11242  5625      Bussy-sur-Morges</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3107            1003            VD     11243  5626 Chardonney-sur-Morges</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3108            1004            AG     11240  4021                 Baden</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3109            1004            AG     11227  4025               Dättwil</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3110            1005            VD     11238  5886    Montreux-Châtelard</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3111            1005            VD     11253  5887     Montreux-Planches</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3112            1006            GR     11237  3972    Seewis im Prätigau</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3113            1007            GR     11236  3881   Conters im Prätigau</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3114            1008            FR     11235  2295         Grossbösingen</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3115            1009            GR     11234  3982       Disentis/Mustèr</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3116            1010            GR     11231  3597                Peiden</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3117            1010            GR     11230  3602       Uors (Lumnezia)</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3118            1011            SH     11233  2935            Herblingen</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3119            1011            SH     11232  2939          Schaffhausen</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3120            1012            SG     11229  3404                 Henau</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3121            1013            TG     11239  4756     Schönholzerswilen</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3122            1013            TG     11266  4757                  Toos</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>                 mAbolitionMode mAbolitionDate mDateOfChange.x mHistId.y mId.y</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3103 Reassignment to other d/c     1960-12-31      1960-12-31     13186  5512</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3104                 Abolition     1960-12-31      1960-12-31     13187  2455</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3105                 Abolition     1960-12-31      1960-12-31     13187  2455</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3106                 Abolition     1961-03-31      1961-03-31     13188  5625</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3107                 Abolition     1961-03-31      1961-03-31     13188  5625</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3108            Change of area     1961-12-31      1961-12-31     13189  4021</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3109                 Abolition     1961-12-31      1961-12-31     13189  4021</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3110                 Abolition     1961-12-31      1961-12-31     13190  5886</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3111                 Abolition     1961-12-31      1961-12-31     13190  5886</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3112        Change of name (m)     1961-12-31      1961-12-31     13191  3972</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3113        Change of name (m)     1961-12-31      1961-12-31     13192  3881</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3114        Change of name (m)     1961-12-31      1961-12-31     13193  2295</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3115        Change of name (m)     1962-12-31      1962-12-31     13194  3982</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3116                 Abolition     1963-05-23      1963-05-23     13195  3602</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3117                 Abolition     1963-05-23      1963-05-23     13195  3602</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3118                 Abolition     1963-12-31      1963-12-31     13196  2939</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3119            Change of area     1963-12-31      1963-12-31     13196  2939</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3120        Change of name (m)     1964-03-09      1964-03-09     13197  3408</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3121            Change of area     1964-05-31      1964-05-31     13198  4756</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3122                 Abolition     1964-05-31      1964-05-31     13198  4756</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>               mShortName.y            mAdmissionMode mAdmissionDate</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3103               Bercher Reassignment to other d/c     1961-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3104 Lüterkofen-Ichertswil                  Creation     1961-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3105 Lüterkofen-Ichertswil                  Creation     1961-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3106      Bussy-Chardonney                  Creation     1961-04-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3107      Bussy-Chardonney                  Creation     1961-04-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3108                 Baden            Change of area     1962-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3109                 Baden            Change of area     1962-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3110              Montreux                  Creation     1962-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3111              Montreux                  Creation     1962-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3112   Seewis im Prättigau        Change of name (m)     1962-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3113  Conters im Prättigau        Change of name (m)     1962-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3114              Bösingen        Change of name (m)     1962-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3115       Disentis/Mustér        Change of name (m)     1963-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3116           Uors-Peiden                  Creation     1963-05-24</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3117           Uors-Peiden                  Creation     1963-05-24</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3118          Schaffhausen            Change of area     1964-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3119          Schaffhausen            Change of area     1964-01-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3120                 Uzwil        Change of name (m)     1964-03-10</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3121     Schönholzerswilen            Change of area     1964-06-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3122     Schönholzerswilen            Change of area     1964-06-01</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>      mDateOfChange.y mMutationDate     mMutationId</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3103      2006-08-31    1961-01-01 1961-01-01.1001</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3104      1961-01-01    1961-01-01 1961-01-01.1002</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3105      1961-01-01    1961-01-01 1961-01-01.1002</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3106      2006-08-31    1961-04-01 1961-04-01.1003</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3107      2006-08-31    1961-04-01 1961-04-01.1003</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3108      1962-01-01    1962-01-01 1962-01-01.1004</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3109      1962-01-01    1962-01-01 1962-01-01.1004</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3110      2006-08-31    1962-01-01 1962-01-01.1005</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3111      2006-08-31    1962-01-01 1962-01-01.1005</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3112      2000-12-31    1962-01-01 1962-01-01.1006</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3113      2000-12-31    1962-01-01 1962-01-01.1007</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3114      1962-01-01    1962-01-01 1962-01-01.1008</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3115      2000-12-31    1963-01-01 1963-01-01.1009</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3116      2000-12-31    1963-05-24 1963-05-24.1010</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3117      2000-12-31    1963-05-24 1963-05-24.1010</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3118      2008-12-31    1964-01-01 1964-01-01.1011</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3119      2008-12-31    1964-01-01 1964-01-01.1011</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3120      2002-12-31    1964-03-10 1964-03-10.1012</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3121      2010-12-31    1964-06-01 1964-06-01.1013</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 3122      2010-12-31    1964-06-01 1964-06-01.1013</span>
+</code></pre></div>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

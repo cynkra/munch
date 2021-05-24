@@ -62,8 +62,6 @@ different, possibly unknown, points in time." />
 
 
 
-<!-- dependencies from examples -->
-
 
   
 
@@ -145,7 +143,7 @@ table for merging two data sets with municipality identifiers taken at
 different, possibly unknown, points in time.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>swc_get_mapping</span><span class='op'>(</span><span class='va'>ids_from</span>, <span class='va'>ids_to</span><span class='op'>)</span></pre>
+    <div class="ref-usage sourceCode"><pre class='sourceCode r'><code><span class='fu'>swc_get_mapping</span><span class='op'>(</span><span class='va'>ids_from</span>, <span class='va'>ids_to</span><span class='op'>)</span></code></pre></div>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -188,258 +186,271 @@ to the second.  First, the most probable mutation number in the
 "municipality mutations" data set is computed.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://dplyr.tidyverse.org'>dplyr</a></span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span class='message'></span>
-#&gt; <span class='message'>Attaching package: ‘dplyr’</span></div><div class='output co'>#&gt; <span class='message'>The following objects are masked from ‘package:stats’:</span>
-#&gt; <span class='message'></span>
-#&gt; <span class='message'>    filter, lag</span></div><div class='output co'>#&gt; <span class='message'>The following objects are masked from ‘package:base’:</span>
-#&gt; <span class='message'></span>
-#&gt; <span class='message'>    intersect, setdiff, setequal, union</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='va'>SwissPop</span><span class='op'>)</span>
-<span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='va'>SwissBirths</span><span class='op'>)</span>
-
-<span class='co'># Show mismatch of municipality IDs:</span>
-<span class='va'>ids_from</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>SwissPop</span>, <span class='va'>MunicipalityID</span><span class='op'>)</span>
-<span class='va'>ids_to</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>SwissBirths</span>, <span class='va'>MunicipalityID</span><span class='op'>)</span>
-<span class='fu'><a href='https://generics.r-lib.org/reference/setops.html'>setdiff</a></span><span class='op'>(</span><span class='va'>ids_from</span>, <span class='va'>ids_to</span><span class='op'>)</span>
-</div><div class='output co'>#&gt;   [1] "327"  "328"  "330"  "343"  "384"  "531"  "601"  "618"  "621"  "752" 
-#&gt;  [11] "753"  "851"  "854"  "862"  "864"  "882"  "887"  "926"  "933"  "974" 
-#&gt;  [21] "984"  "986"  "994"  "1027" "1028" "1029" "1034" "1035" "1036" "1038"
-#&gt;  [31] "1042" "1060" "1087" "1090" "1101" "1105" "1106" "1124" "1133" "1134"
-#&gt;  [41] "1141" "1144" "1148" "1149" "1601" "1602" "1603" "1604" "1605" "1606"
-#&gt;  [51] "1607" "1608" "1609" "1610" "1611" "1612" "1613" "1614" "1615" "1616"
-#&gt;  [61] "1617" "1618" "1619" "1620" "1621" "1622" "1623" "1624" "1625" "1626"
-#&gt;  [71] "1627" "1628" "1629" "2001" "2002" "2003" "2007" "2012" "2017" "2018"
-#&gt;  [81] "2020" "2023" "2026" "2031" "2032" "2036" "2037" "2042" "2046" "2062"
-#&gt;  [91] "2064" "2069" "2070" "2071" "2074" "2075" "2077" "2081" "2082" "2083"
-#&gt; [101] "2085" "2088" "2091" "2092" "2093" "2094" "2095" "2100" "2101" "2103"
-#&gt; [111] "2105" "2107" "2108" "2109" "2110" "2112" "2132" "2133" "2136" "2139"
-#&gt; [121] "2141" "2142" "2144" "2146" "2150" "2151" "2154" "2156" "2158" "2159"
-#&gt; [131] "2161" "2176" "2180" "2181" "2182" "2188" "2190" "2191" "2202" "2203"
-#&gt; [141] "2204" "2210" "2214" "2215" "2219" "2227" "2229" "2232" "2241" "2247"
-#&gt; [151] "2253" "2263" "2269" "2282" "2322" "2324" "2326" "2327" "2329" "2330"
-#&gt; [161] "2331" "2332" "2443" "2447" "2460" "2494" "2496" "2531" "2552" "2905"
-#&gt; [171] "2911" "2912" "2913" "2916" "2918" "2934" "3335" "3336" "3351" "3354"
-#&gt; [181] "3355" "3357" "3371" "3376" "3406" "3523" "3573" "3591" "3600" "3601"
-#&gt; [191] "3602" "3632" "3639" "3641" "3642" "3664" "3665" "3666" "3667" "3692"
-#&gt; [201] "3702" "3704" "3706" "3709" "3710" "3771" "3773" "3774" "3775" "3776"
-#&gt; [211] "3841" "3842" "3843" "3844" "3845" "3846" "3892" "3912" "3913" "3914"
-#&gt; [221] "3915" "3928" "3930" "3942" "3943" "3944" "3971" "3973" "3984" "4011"
-#&gt; [231] "4036" "4043" "4070" "4101" "4116" "4118" "4162" "4168" "4171" "4174"
-#&gt; [241] "4178" "4180" "4225" "4278" "5011" "5016" "5031" "5032" "5033" "5034"
-#&gt; [251] "5035" "5036" "5037" "5038" "5039" "5040" "5041" "5042" "5043" "5044"
-#&gt; [261] "5045" "5046" "5047" "5062" "5065" "5066" "5067" "5068" "5069" "5070"
-#&gt; [271] "5074" "5075" "5080" "5092" "5093" "5094" "5098" "5101" "5104" "5106"
-#&gt; [281] "5107" "5110" "5111" "5114" "5116" "5122" "5123" "5127" "5128" "5134"
-#&gt; [291] "5142" "5145" "5147" "5150" "5153" "5156" "5158" "5159" "5164" "5165"
-#&gt; [301] "5168" "5169" "5175" "5177" "5179" "5182" "5183" "5184" "5185" "5188"
-#&gt; [311] "5190" "5191" "5201" "5204" "5209" "5211" "5215" "5217" "5218" "5220"
-#&gt; [321] "5223" "5228" "5232" "5234" "5235" "5241" "5244" "5245" "5246" "5247"
-#&gt; [331] "5248" "5252" "5256" "5258" "5259" "5262" "5264" "5265" "5267" "5301"
-#&gt; [341] "5302" "5303" "5305" "5306" "5308" "5311" "5312" "5313" "5314" "5316"
-#&gt; [351] "5318" "5319" "5320" "5321" "5322" "5433" "5452" "5453" "5454" "5455"
-#&gt; [361] "5457" "5459" "5460" "5461" "5462" "5463" "5517" "5519" "5524" "5525"
-#&gt; [371] "5526" "5528" "5532" "5536" "5538" "5558" "5567" "5569" "5570" "5602"
-#&gt; [381] "5603" "5605" "5608" "5612" "5630" "5641" "5647" "5677" "5681" "5687"
-#&gt; [391] "5691" "5781" "5783" "5784" "5786" "5787" "5793" "5794" "5795" "5796"
-#&gt; [401] "5797" "5800" "5801" "5802" "5811" "5814" "5815" "5818" "5820" "5823"
-#&gt; [411] "5824" "5825" "5826" "5829" "5901" "5916" "5917" "5918" "5920" "5927"
-#&gt; [421] "5936" "6051" "6059" "6060" "6062" "6063" "6065" "6066" "6067" "6070"
-#&gt; [431] "6071" "6085" "6086" "6088" "6103" "6107" "6174" "6175" "6176" "6179"
-#&gt; [441] "6180" "6196" "6200" "6231" "6233" "6237" "6245" "6247" "6251" "6457"
-#&gt; [451] "6460" "6501" "6502" "6503" "6505" "6506" "6507" "6508" "6509" "6510"
-#&gt; [461] "6746" "6747" "6749" "6752" "6755" "6756" "6772" "6777" "6779" "6780"
-#&gt; [471] "6786" "6788" "6791" "6794" "6795" "6796" "6797" "6798" "6799" "6801"
-#&gt; [481] "6802" "6804" "6805"</div><div class='input'><span class='fu'><a href='https://generics.r-lib.org/reference/setops.html'>setdiff</a></span><span class='op'>(</span><span class='va'>ids_to</span>, <span class='va'>ids_from</span><span class='op'>)</span>
-</div><div class='output co'>#&gt;  [1] "632"  "756"  "855"  "888"  "948"  "1151" "1630" "1631" "1632" "2050"
-#&gt; [11] "2051" "2052" "2114" "2115" "2116" "2162" "2233" "2234" "2235" "2337"
-#&gt; [21] "2338" "2503" "3340" "3358" "3359" "3378" "3617" "3671" "3713" "3792"
-#&gt; [31] "3847" "3931" "3932" "3955" "4049" "4184" "5048" "5049" "5050" "5137"
-#&gt; [41] "5138" "5236" "5237" "5238" "5269" "5323" "5324" "5397" "5398" "5464"
-#&gt; [51] "5540" "5541" "5571" "5613" "5804" "5805" "5831" "6074" "6075" "6076"
-#&gt; [61] "6090" "6118" "6181" "6203" "6204" "6252" "6461" "6512" "6807" "6808"
-#&gt; [71] "6809" "6810"</div><div class='input'>
-<span class='co'># Compute mapping and count non-matching municipality IDs:</span>
-<span class='va'>mapping</span> <span class='op'>&lt;-</span> <span class='fu'>swc_get_mapping</span><span class='op'>(</span>ids_from <span class='op'>=</span> <span class='va'>ids_from</span>, ids_to <span class='op'>=</span> <span class='va'>ids_to</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; 2021-04-20 05:19:21 INFO::meltMutations
-#&gt; 2021-04-20 05:19:21 INFO::meltMutations
-#&gt; 2021-04-20 05:19:21 INFO::computeMunList
-#&gt; 2021-04-20 05:19:21 INFO::meltMutations
-#&gt; 2021-04-20 05:19:21 INFO::meltMutations
-#&gt; 2021-04-20 05:19:21 INFO::computeMunList</div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>mapping</span><span class='op'>$</span><span class='va'>mIdAsNumber.from</span> <span class='op'>!=</span> <span class='va'>mapping</span><span class='op'>$</span><span class='va'>mIdAsNumber.to</span><span class='op'>)</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; [1] 487</div><div class='input'>
-<span class='co'># Communes that are "missing" are mostly lakes and other special communes:</span>
-<span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='va'>MatchType</span> <span class='op'>==</span> <span class='st'>"missing"</span><span class='op'>)</span><span class='op'>[</span>, <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"mIdAsNumber.from"</span>, <span class='st'>"mShortName.from"</span><span class='op'>)</span><span class='op'>]</span>
-</div><div class='output co'>#&gt;      mIdAsNumber.from          mShortName.from
-#&gt; 253              5238 C'za Corticiasca/Valcol.
-#&gt; 2222             4510                   Sulgen</div><div class='input'>
-<span class='co'># These should be looked at in some detail, and fixed manually:</span>
-<span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='op'>!</span><span class='op'>(</span><span class='va'>MatchType</span> <span class='op'>%in%</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"valid"</span>, <span class='st'>"missing"</span><span class='op'>)</span><span class='op'>)</span><span class='op'>)</span>
-</div><div class='output co'>#&gt;     mHistId.from cAbbreviation.from mId.from
-#&gt; 589        11250                 TI     &lt;NA&gt;
-#&gt; 590        11251                 TI     &lt;NA&gt;
-#&gt;                              mLongName.from          mShortName.from
-#&gt; 589 C'za Bidogno/Sala Capriasca/Corticiasca C'za Bid./Sala C./Corti.
-#&gt; 590     C'za Sala Capriasca/Vaglio/Lugaggia C'za Sala C./Vag./Lugag.
-#&gt;     MatchType.from mHistId.to cAbbreviation.to mId.to mLongName.to
-#&gt; 589        missing      14938               TI   5226    Capriasca
-#&gt; 590        missing      14938               TI   5226    Capriasca
-#&gt;     mShortName.to MatchType.to mIdAsNumber.from mIdAsNumber.to    MatchType
-#&gt; 589     Capriasca        valid             5236           5226 missing.from
-#&gt; 590     Capriasca        valid             5237           5226 missing.from</div><div class='input'>
-<span class='co'># Test for injectivity. The result shows that the mapping is almost injective,</span>
-<span class='co'># only one "from" commune is mapped to more than one other "to" commune.</span>
-<span class='co'># This situation requires further examination.</span>
-<span class='va'>mapping.dupes</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='fu'><a href='https://rdrr.io/r/base/duplicated.html'>duplicated</a></span><span class='op'>(</span><span class='va'>mIdAsNumber.from</span><span class='op'>)</span><span class='op'>)</span>
-<span class='op'>(</span><span class='va'>noninjective.mapping</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span>
-  <span class='va'>mapping</span>, <span class='va'>mIdAsNumber.from</span> <span class='op'>%in%</span> <span class='va'>mapping.dupes</span><span class='op'>$</span><span class='va'>mIdAsNumber.from</span>
-<span class='op'>)</span><span class='op'>)</span>
-</div><div class='output co'>#&gt;     mHistId.from cAbbreviation.from mId.from mLongName.from mShortName.from
-#&gt; 610        11403                 TI     5246       Caneggio        Caneggio
-#&gt; 611        11403                 TI     5246       Caneggio        Caneggio
-#&gt;     MatchType.from mHistId.to cAbbreviation.to mId.to      mLongName.to
-#&gt; 610          valid      14499               TI   5249 Castel San Pietro
-#&gt; 611          valid      14974               TI   5269           Breggia
-#&gt;         mShortName.to MatchType.to mIdAsNumber.from mIdAsNumber.to MatchType
-#&gt; 610 Castel San Pietro        valid             5246           5249     valid
-#&gt; 611           Breggia        valid             5246           5269     valid</div><div class='input'>
-<span class='co'># Simple treatment (just for this example): Remove duplicates, and use only</span>
-<span class='co'># valid matches:</span>
-<span class='va'>cleaned.mapping</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span>
-  <span class='va'>mapping</span>,
-  <span class='op'>!</span><span class='fu'><a href='https://rdrr.io/r/base/duplicated.html'>duplicated</a></span><span class='op'>(</span><span class='va'>mIdAsNumber.from</span><span class='op'>)</span> <span class='op'>&amp;</span> <span class='va'>MatchType</span> <span class='op'>==</span> <span class='st'>"valid"</span>
-<span class='op'>)</span>
-
-<span class='co'># Now merge the two datasets based on the mapping table:</span>
-<span class='va'>SwissPop.1970</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>SwissPop</span>, <span class='va'>Year</span> <span class='op'>==</span> <span class='st'>"1970"</span><span class='op'>)</span>
-<span class='va'>SwissPopMapping.1970</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/merge.html'>merge</a></span><span class='op'>(</span><span class='va'>SwissPop.1970</span>,
-  <span class='va'>cleaned.mapping</span><span class='op'>[</span>, <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"mId.from"</span>, <span class='st'>"mId.to"</span><span class='op'>)</span><span class='op'>]</span>,
-  by.x <span class='op'>=</span> <span class='st'>"MunicipalityID"</span>, by.y <span class='op'>=</span> <span class='st'>"mId.from"</span>
-<span class='op'>)</span>
-
-<span class='co'># Datasets from the "from" table must be suitably aggregated.  For the given</span>
-<span class='co'># case of population totals we use the sum.</span>
-<span class='va'>SwissPopMapping.1970.agg</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://dplyr.tidyverse.org/reference/group_by.html'>group_by</a></span><span class='op'>(</span>
-  <span class='va'>SwissPopMapping.1970</span>,
-  <span class='va'>mId.to</span>,
-  <span class='va'>HouseholdSize</span>
-<span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/summarise.html'>summarize</a></span><span class='op'>(</span>Households <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>Households</span><span class='op'>)</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span class='message'>`summarise()` has grouped output by 'mId.to'. You can override using the `.groups` argument.</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>SwissPopMapping.1970.agg</span>, <span class='fu'><a href='https://rdrr.io/r/base/stopifnot.html'>stopifnot</a></span><span class='op'>(</span>
-  <span class='fu'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/unique.html'>unique</a></span><span class='op'>(</span><span class='va'>mId.to</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>*</span> <span class='fu'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/levels.html'>levels</a></span><span class='op'>(</span><span class='va'>HouseholdSize</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>==</span>
-    <span class='fu'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='op'>(</span><span class='va'>mId.to</span><span class='op'>)</span>
-<span class='op'>)</span><span class='op'>)</span>
-
-<span class='co'># The aggregated "from" dataset now can be merged with the "to" dataset:</span>
-<span class='va'>SwissBirths.1970</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>SwissBirths</span>, <span class='va'>Year</span> <span class='op'>==</span> <span class='st'>"1970"</span><span class='op'>)</span>
-<span class='va'>SwissPopBirths.1970</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/merge.html'>merge</a></span><span class='op'>(</span><span class='va'>SwissPopMapping.1970.agg</span>, <span class='va'>SwissBirths.1970</span>,
-  by.x <span class='op'>=</span> <span class='st'>"mId.to"</span>, by.y <span class='op'>=</span> <span class='st'>"MunicipalityID"</span>
-<span class='op'>)</span>
-
-<span class='co'># Some more communes are still missing from the 1970 statistics, although</span>
-<span class='co'># the matches are valid:</span>
-<span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='va'>mIdAsNumber.to</span> <span class='op'>%in%</span> <span class='fu'><a href='https://generics.r-lib.org/reference/setops.html'>setdiff</a></span><span class='op'>(</span>
-  <span class='va'>SwissPopMapping.1970.agg</span><span class='op'>$</span><span class='va'>mId.to</span>, <span class='va'>SwissBirths.1970</span><span class='op'>$</span><span class='va'>MunicipalityID</span>
-<span class='op'>)</span><span class='op'>)</span><span class='op'>[</span>
-  ,
-  <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"mId.from"</span>, <span class='st'>"mShortName.from"</span>, <span class='st'>"MatchType"</span><span class='op'>)</span>
-<span class='op'>]</span>
-</div><div class='output co'>#&gt;      mId.from          mShortName.from MatchType
-#&gt; 16       3533                Marmorera     valid
-#&gt; 30       3503                   Mutten     valid
-#&gt; 36       3593                    Duvin     valid
-#&gt; 42       3583                  Schnaus     valid
-#&gt; 48       3577                    Luven     valid
-#&gt; 122      3803                  Braggio     valid
-#&gt; 135      3806                    Cauco     valid
-#&gt; 146      3743                    Lavin     valid
-#&gt; 147      3742                   Guarda     valid
-#&gt; 176      3811                    Selma     valid
-#&gt; 197      3631                   Almens     valid
-#&gt; 198      3616        Waltensburg/Vuorz     valid
-#&gt; 217      3711                Rongellen     valid
-#&gt; 220      3708                   Mathon     valid
-#&gt; 221      3707                Lohn (GR)     valid
-#&gt; 222      3706             Innerferrera     valid
-#&gt; 226      3702            Ausserferrera     valid
-#&gt; 234      3670                   Urmein     valid
-#&gt; 235      3669               Tschappina     valid
-#&gt; 346      5129                  Sonogno     valid
-#&gt; 390      5688                    Syens     valid
-#&gt; 439      5732                     Vich     valid
-#&gt; 441      5233             Vico Morcote     valid
-#&gt; 452      5690         Villars-le-Comte     valid
-#&gt; 455      5651     Villars-Sainte-Croix     valid
-#&gt; 458      5935           Villars-Epeney     valid
-#&gt; 479      3923                  Castiel     valid
-#&gt; 549      5650          Vaux-sur-Morges     valid
-#&gt; 576      5932                   Ursins     valid
-#&gt; 591      5173                  Certara     valid
-#&gt; 609      5307      Campo (Vallemaggia)     valid
-#&gt; 627      2008           Châtillon (FR)     valid
-#&gt; 641      5475      Chavannes-le-Veyron     valid
-#&gt; 650      5906                  Chanéaz     valid
-#&gt; 720      5668                   Cremin     valid
-#&gt; 728      5479                 Cuarnens     valid
-#&gt; 816      5102                  Corippo     valid
-#&gt; 933      5621                   Aclens     valid
-#&gt; 976      6172                   Bister     valid
-#&gt; 980      5155                    Bogno     valid
-#&gt; 983      4302                  Böbikon     valid
-#&gt; 985      5747                 Bofflens     valid
-#&gt; 992      5622                Bremblens     valid
-#&gt; 999      5096     Brione sopra Minusio     valid
-#&gt; 1049     5513           Bioley-Orjulaz     valid
-#&gt; 1224     5109                   Gresso     valid
-#&gt; 1247     2079               Grangettes     valid
-#&gt; 1315     5671           Dompierre (VD)     valid
-#&gt; 1427     4106                  Mönthal     valid
-#&gt; 1500     5488                   Mauraz     valid
-#&gt; 1502     4314                 Mellikon     valid
-#&gt; 1503      389                Meienried     valid
-#&gt; 1512     5012                   Moleno     valid
-#&gt; 1540     6216                 Mex (VS)     valid
-#&gt; 1730     6109                    Inden     valid
-#&gt; 1800     6178               Martisberg     valid
-#&gt; 1803     5676             Martherenges     valid
-#&gt; 1872     5315                 Linescio     valid
-#&gt; 1911     5564                 Novalles     valid
-#&gt; 1964     5798                   Ropraz     valid
-#&gt; 2016     5081                   Sobrio     valid
-#&gt; 2031     5762                   Sergey     valid
-#&gt; 2042     5686                  Sarzens     valid
-#&gt; 2167     2216           Pierrafortscha     valid
-#&gt; 2372      532                Bangerten     valid
-#&gt; 2375      535 Deisswil b. Münchenbuch.     valid
-#&gt; 2455      629              Oberhünigen     valid
-#&gt; 2464     4084                Islisberg     valid
-#&gt; 2467      362                  Ittigen     valid
-#&gt; 2468      363            Ostermundigen     valid
-#&gt; 2474     6716               Mettembert     valid
-#&gt; 2476     3613                   Pigniu     valid
-#&gt; 2521     2522                 Hersiwil     valid
-#&gt; 2540     4826                  Mammern     valid
-#&gt; 2541      631                Trimstein     valid
-#&gt; 2542      630             Allmendingen     valid
-#&gt; 2550     4643              Bottighofen     valid
-#&gt; 2576     2851           Kilchberg (BL)     valid
-#&gt; 2805      972                   Berken     valid
-#&gt; 2835     4621          Warth-Weiningen     valid
-#&gt; 2839     4716               Bettwiesen     valid
-#&gt; 2860     6728                 Vellerat     valid
-#&gt; 2865     4724                Eschlikon     valid
-#&gt; 2881     4786               Wilen (TG)     valid
-#&gt; 2887     4546             Schlatt (TG)     valid
-#&gt; 2891     4723                  Braunau     valid</div><div class='input'>
-<span class='co'># The "from" list must be from an earlier time than the "to" list.</span>
-<span class='kw'><a href='https://rdrr.io/r/base/try.html'>try</a></span><span class='op'>(</span><span class='fu'>swc_get_mapping</span><span class='op'>(</span>ids_from <span class='op'>=</span> <span class='va'>ids_to</span>, ids_to <span class='op'>=</span> <span class='va'>ids_from</span><span class='op'>)</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; 2021-04-20 05:19:27 INFO::meltMutations
-#&gt; 2021-04-20 05:19:27 INFO::meltMutations
-#&gt; 2021-04-20 05:19:27 INFO::computeMunList
-#&gt; 2021-04-20 05:19:27 INFO::meltMutations
-#&gt; 2021-04-20 05:19:27 INFO::meltMutations
-#&gt; 2021-04-20 05:19:27 INFO::computeMunList
-#&gt; Error in getMunicipalityMappingWorker(mutations, hist.list.from, mid.from,  : 
-#&gt;   mid.from &lt;= mid.to is not TRUE</div></pre>
+    <div class="ref-examples sourceCode"><pre class='sourceCode r'><code><span class='r-in'><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://dplyr.tidyverse.org'>dplyr</a></span><span class='op'>)</span></span>
+<span class='r-msg co'><span class='r-pr'>#&gt;</span> </span>
+<span class='r-msg co'><span class='r-pr'>#&gt;</span> Attaching package: ‘dplyr’</span>
+<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following objects are masked from ‘package:stats’:</span>
+<span class='r-msg co'><span class='r-pr'>#&gt;</span> </span>
+<span class='r-msg co'><span class='r-pr'>#&gt;</span>     filter, lag</span>
+<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following objects are masked from ‘package:base’:</span>
+<span class='r-msg co'><span class='r-pr'>#&gt;</span> </span>
+<span class='r-msg co'><span class='r-pr'>#&gt;</span>     intersect, setdiff, setequal, union</span>
+<span class='r-in'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='va'>SwissPop</span><span class='op'>)</span></span>
+<span class='r-in'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='va'>SwissBirths</span><span class='op'>)</span></span>
+<span class='r-in'></span>
+<span class='r-in'><span class='co'># Show mismatch of municipality IDs:</span></span>
+<span class='r-in'><span class='va'>ids_from</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>SwissPop</span>, <span class='va'>MunicipalityID</span><span class='op'>)</span></span>
+<span class='r-in'><span class='va'>ids_to</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>SwissBirths</span>, <span class='va'>MunicipalityID</span><span class='op'>)</span></span>
+<span class='r-in'><span class='fu'><a href='https://generics.r-lib.org/reference/setops.html'>setdiff</a></span><span class='op'>(</span><span class='va'>ids_from</span>, <span class='va'>ids_to</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>   [1] "327"  "328"  "330"  "343"  "384"  "531"  "601"  "618"  "621"  "752" </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>  [11] "753"  "851"  "854"  "862"  "864"  "882"  "887"  "926"  "933"  "974" </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>  [21] "984"  "986"  "994"  "1027" "1028" "1029" "1034" "1035" "1036" "1038"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>  [31] "1042" "1060" "1087" "1090" "1101" "1105" "1106" "1124" "1133" "1134"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>  [41] "1141" "1144" "1148" "1149" "1601" "1602" "1603" "1604" "1605" "1606"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>  [51] "1607" "1608" "1609" "1610" "1611" "1612" "1613" "1614" "1615" "1616"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>  [61] "1617" "1618" "1619" "1620" "1621" "1622" "1623" "1624" "1625" "1626"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>  [71] "1627" "1628" "1629" "2001" "2002" "2003" "2007" "2012" "2017" "2018"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>  [81] "2020" "2023" "2026" "2031" "2032" "2036" "2037" "2042" "2046" "2062"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>  [91] "2064" "2069" "2070" "2071" "2074" "2075" "2077" "2081" "2082" "2083"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [101] "2085" "2088" "2091" "2092" "2093" "2094" "2095" "2100" "2101" "2103"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [111] "2105" "2107" "2108" "2109" "2110" "2112" "2132" "2133" "2136" "2139"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [121] "2141" "2142" "2144" "2146" "2150" "2151" "2154" "2156" "2158" "2159"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [131] "2161" "2176" "2180" "2181" "2182" "2188" "2190" "2191" "2202" "2203"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [141] "2204" "2210" "2214" "2215" "2219" "2227" "2229" "2232" "2241" "2247"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [151] "2253" "2263" "2269" "2282" "2322" "2324" "2326" "2327" "2329" "2330"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [161] "2331" "2332" "2443" "2447" "2460" "2494" "2496" "2531" "2552" "2905"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [171] "2911" "2912" "2913" "2916" "2918" "2934" "3335" "3336" "3351" "3354"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [181] "3355" "3357" "3371" "3376" "3406" "3523" "3573" "3591" "3600" "3601"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [191] "3602" "3632" "3639" "3641" "3642" "3664" "3665" "3666" "3667" "3692"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [201] "3702" "3704" "3706" "3709" "3710" "3771" "3773" "3774" "3775" "3776"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [211] "3841" "3842" "3843" "3844" "3845" "3846" "3892" "3912" "3913" "3914"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [221] "3915" "3928" "3930" "3942" "3943" "3944" "3971" "3973" "3984" "4011"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [231] "4036" "4043" "4070" "4101" "4116" "4118" "4162" "4168" "4171" "4174"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [241] "4178" "4180" "4225" "4278" "5011" "5016" "5031" "5032" "5033" "5034"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [251] "5035" "5036" "5037" "5038" "5039" "5040" "5041" "5042" "5043" "5044"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [261] "5045" "5046" "5047" "5062" "5065" "5066" "5067" "5068" "5069" "5070"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [271] "5074" "5075" "5080" "5092" "5093" "5094" "5098" "5101" "5104" "5106"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [281] "5107" "5110" "5111" "5114" "5116" "5122" "5123" "5127" "5128" "5134"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [291] "5142" "5145" "5147" "5150" "5153" "5156" "5158" "5159" "5164" "5165"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [301] "5168" "5169" "5175" "5177" "5179" "5182" "5183" "5184" "5185" "5188"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [311] "5190" "5191" "5201" "5204" "5209" "5211" "5215" "5217" "5218" "5220"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [321] "5223" "5228" "5232" "5234" "5235" "5241" "5244" "5245" "5246" "5247"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [331] "5248" "5252" "5256" "5258" "5259" "5262" "5264" "5265" "5267" "5301"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [341] "5302" "5303" "5305" "5306" "5308" "5311" "5312" "5313" "5314" "5316"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [351] "5318" "5319" "5320" "5321" "5322" "5433" "5452" "5453" "5454" "5455"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [361] "5457" "5459" "5460" "5461" "5462" "5463" "5517" "5519" "5524" "5525"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [371] "5526" "5528" "5532" "5536" "5538" "5558" "5567" "5569" "5570" "5602"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [381] "5603" "5605" "5608" "5612" "5630" "5641" "5647" "5677" "5681" "5687"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [391] "5691" "5781" "5783" "5784" "5786" "5787" "5793" "5794" "5795" "5796"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [401] "5797" "5800" "5801" "5802" "5811" "5814" "5815" "5818" "5820" "5823"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [411] "5824" "5825" "5826" "5829" "5901" "5916" "5917" "5918" "5920" "5927"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [421] "5936" "6051" "6059" "6060" "6062" "6063" "6065" "6066" "6067" "6070"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [431] "6071" "6085" "6086" "6088" "6103" "6107" "6174" "6175" "6176" "6179"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [441] "6180" "6196" "6200" "6231" "6233" "6237" "6245" "6247" "6251" "6457"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [451] "6460" "6501" "6502" "6503" "6505" "6506" "6507" "6508" "6509" "6510"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [461] "6746" "6747" "6749" "6752" "6755" "6756" "6772" "6777" "6779" "6780"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [471] "6786" "6788" "6791" "6794" "6795" "6796" "6797" "6798" "6799" "6801"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [481] "6802" "6804" "6805"</span>
+<span class='r-in'><span class='fu'><a href='https://generics.r-lib.org/reference/setops.html'>setdiff</a></span><span class='op'>(</span><span class='va'>ids_to</span>, <span class='va'>ids_from</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>  [1] "632"  "756"  "855"  "888"  "948"  "1151" "1630" "1631" "1632" "2050"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [11] "2051" "2052" "2114" "2115" "2116" "2162" "2233" "2234" "2235" "2337"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [21] "2338" "2503" "3340" "3358" "3359" "3378" "3617" "3671" "3713" "3792"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [31] "3847" "3931" "3932" "3955" "4049" "4184" "5048" "5049" "5050" "5137"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [41] "5138" "5236" "5237" "5238" "5269" "5323" "5324" "5397" "5398" "5464"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [51] "5540" "5541" "5571" "5613" "5804" "5805" "5831" "6074" "6075" "6076"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [61] "6090" "6118" "6181" "6203" "6204" "6252" "6461" "6512" "6807" "6808"</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [71] "6809" "6810"</span>
+<span class='r-in'></span>
+<span class='r-in'><span class='co'># Compute mapping and count non-matching municipality IDs:</span></span>
+<span class='r-in'><span class='va'>mapping</span> <span class='op'>&lt;-</span> <span class='fu'>swc_get_mapping</span><span class='op'>(</span>ids_from <span class='op'>=</span> <span class='va'>ids_from</span>, ids_to <span class='op'>=</span> <span class='va'>ids_to</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2021-05-24 06:04:38 INFO::meltMutations</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2021-05-24 06:04:38 INFO::meltMutations</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2021-05-24 06:04:38 INFO::computeMunList</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2021-05-24 06:04:38 INFO::meltMutations</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2021-05-24 06:04:38 INFO::meltMutations</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2021-05-24 06:04:38 INFO::computeMunList</span>
+<span class='r-in'><span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>mapping</span><span class='op'>$</span><span class='va'>mIdAsNumber.from</span> <span class='op'>!=</span> <span class='va'>mapping</span><span class='op'>$</span><span class='va'>mIdAsNumber.to</span><span class='op'>)</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> [1] 487</span>
+<span class='r-in'></span>
+<span class='r-in'><span class='co'># Communes that are "missing" are mostly lakes and other special communes:</span></span>
+<span class='r-in'><span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='va'>MatchType</span> <span class='op'>==</span> <span class='st'>"missing"</span><span class='op'>)</span><span class='op'>[</span>, <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"mIdAsNumber.from"</span>, <span class='st'>"mShortName.from"</span><span class='op'>)</span><span class='op'>]</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>      mIdAsNumber.from          mShortName.from</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 253              5238 C'za Corticiasca/Valcol.</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2222             4510                   Sulgen</span>
+<span class='r-in'></span>
+<span class='r-in'><span class='co'># These should be looked at in some detail, and fixed manually:</span></span>
+<span class='r-in'><span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='op'>!</span><span class='op'>(</span><span class='va'>MatchType</span> <span class='op'><a href='https://rdrr.io/r/base/match.html'>%in%</a></span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"valid"</span>, <span class='st'>"missing"</span><span class='op'>)</span><span class='op'>)</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>     mHistId.from cAbbreviation.from mId.from</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 589        11250                 TI     &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 590        11251                 TI     &lt;NA&gt;</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>                              mLongName.from          mShortName.from</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 589 C'za Bidogno/Sala Capriasca/Corticiasca C'za Bid./Sala C./Corti.</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 590     C'za Sala Capriasca/Vaglio/Lugaggia C'za Sala C./Vag./Lugag.</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>     MatchType.from mHistId.to cAbbreviation.to mId.to mLongName.to</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 589        missing      14938               TI   5226    Capriasca</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 590        missing      14938               TI   5226    Capriasca</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>     mShortName.to MatchType.to mIdAsNumber.from mIdAsNumber.to    MatchType</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 589     Capriasca        valid             5236           5226 missing.from</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 590     Capriasca        valid             5237           5226 missing.from</span>
+<span class='r-in'></span>
+<span class='r-in'><span class='co'># Test for injectivity. The result shows that the mapping is almost injective,</span></span>
+<span class='r-in'><span class='co'># only one "from" commune is mapped to more than one other "to" commune.</span></span>
+<span class='r-in'><span class='co'># This situation requires further examination.</span></span>
+<span class='r-in'><span class='va'>mapping.dupes</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='fu'><a href='https://rdrr.io/r/base/duplicated.html'>duplicated</a></span><span class='op'>(</span><span class='va'>mIdAsNumber.from</span><span class='op'>)</span><span class='op'>)</span></span>
+<span class='r-in'><span class='op'>(</span><span class='va'>noninjective.mapping</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span></span>
+<span class='r-in'>  <span class='va'>mapping</span>, <span class='va'>mIdAsNumber.from</span> <span class='op'><a href='https://rdrr.io/r/base/match.html'>%in%</a></span> <span class='va'>mapping.dupes</span><span class='op'>$</span><span class='va'>mIdAsNumber.from</span></span>
+<span class='r-in'><span class='op'>)</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>     mHistId.from cAbbreviation.from mId.from mLongName.from mShortName.from</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 610        11403                 TI     5246       Caneggio        Caneggio</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 611        11403                 TI     5246       Caneggio        Caneggio</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>     MatchType.from mHistId.to cAbbreviation.to mId.to      mLongName.to</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 610          valid      14499               TI   5249 Castel San Pietro</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 611          valid      14974               TI   5269           Breggia</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>         mShortName.to MatchType.to mIdAsNumber.from mIdAsNumber.to MatchType</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 610 Castel San Pietro        valid             5246           5249     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 611           Breggia        valid             5246           5269     valid</span>
+<span class='r-in'></span>
+<span class='r-in'><span class='co'># Simple treatment (just for this example): Remove duplicates, and use only</span></span>
+<span class='r-in'><span class='co'># valid matches:</span></span>
+<span class='r-in'><span class='va'>cleaned.mapping</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span></span>
+<span class='r-in'>  <span class='va'>mapping</span>,</span>
+<span class='r-in'>  <span class='op'>!</span><span class='fu'><a href='https://rdrr.io/r/base/duplicated.html'>duplicated</a></span><span class='op'>(</span><span class='va'>mIdAsNumber.from</span><span class='op'>)</span> <span class='op'>&amp;</span> <span class='va'>MatchType</span> <span class='op'>==</span> <span class='st'>"valid"</span></span>
+<span class='r-in'><span class='op'>)</span></span>
+<span class='r-in'></span>
+<span class='r-in'><span class='co'># Now merge the two datasets based on the mapping table:</span></span>
+<span class='r-in'><span class='va'>SwissPop.1970</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>SwissPop</span>, <span class='va'>Year</span> <span class='op'>==</span> <span class='st'>"1970"</span><span class='op'>)</span></span>
+<span class='r-in'><span class='va'>SwissPopMapping.1970</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/merge.html'>merge</a></span><span class='op'>(</span><span class='va'>SwissPop.1970</span>,</span>
+<span class='r-in'>  <span class='va'>cleaned.mapping</span><span class='op'>[</span>, <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"mId.from"</span>, <span class='st'>"mId.to"</span><span class='op'>)</span><span class='op'>]</span>,</span>
+<span class='r-in'>  by.x <span class='op'>=</span> <span class='st'>"MunicipalityID"</span>, by.y <span class='op'>=</span> <span class='st'>"mId.from"</span></span>
+<span class='r-in'><span class='op'>)</span></span>
+<span class='r-in'></span>
+<span class='r-in'><span class='co'># Datasets from the "from" table must be suitably aggregated.  For the given</span></span>
+<span class='r-in'><span class='co'># case of population totals we use the sum.</span></span>
+<span class='r-in'><span class='va'>SwissPopMapping.1970.agg</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://dplyr.tidyverse.org/reference/group_by.html'>group_by</a></span><span class='op'>(</span></span>
+<span class='r-in'>  <span class='va'>SwissPopMapping.1970</span>,</span>
+<span class='r-in'>  <span class='va'>mId.to</span>,</span>
+<span class='r-in'>  <span class='va'>HouseholdSize</span></span>
+<span class='r-in'><span class='op'>)</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span></span>
+<span class='r-in'>  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/summarise.html'>summarize</a></span><span class='op'>(</span>Households <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>Households</span><span class='op'>)</span><span class='op'>)</span></span>
+<span class='r-msg co'><span class='r-pr'>#&gt;</span> `summarise()` has grouped output by 'mId.to'. You can override using the `.groups` argument.</span>
+<span class='r-in'><span class='fu'><a href='https://rdrr.io/r/base/with.html'>with</a></span><span class='op'>(</span><span class='va'>SwissPopMapping.1970.agg</span>, <span class='fu'><a href='https://rdrr.io/r/base/stopifnot.html'>stopifnot</a></span><span class='op'>(</span></span>
+<span class='r-in'>  <span class='fu'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/unique.html'>unique</a></span><span class='op'>(</span><span class='va'>mId.to</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>*</span> <span class='fu'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/levels.html'>levels</a></span><span class='op'>(</span><span class='va'>HouseholdSize</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>==</span></span>
+<span class='r-in'>    <span class='fu'><a href='https://rdrr.io/r/base/length.html'>length</a></span><span class='op'>(</span><span class='va'>mId.to</span><span class='op'>)</span></span>
+<span class='r-in'><span class='op'>)</span><span class='op'>)</span></span>
+<span class='r-in'></span>
+<span class='r-in'><span class='co'># The aggregated "from" dataset now can be merged with the "to" dataset:</span></span>
+<span class='r-in'><span class='va'>SwissBirths.1970</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>SwissBirths</span>, <span class='va'>Year</span> <span class='op'>==</span> <span class='st'>"1970"</span><span class='op'>)</span></span>
+<span class='r-in'><span class='va'>SwissPopBirths.1970</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/merge.html'>merge</a></span><span class='op'>(</span><span class='va'>SwissPopMapping.1970.agg</span>, <span class='va'>SwissBirths.1970</span>,</span>
+<span class='r-in'>  by.x <span class='op'>=</span> <span class='st'>"mId.to"</span>, by.y <span class='op'>=</span> <span class='st'>"MunicipalityID"</span></span>
+<span class='r-in'><span class='op'>)</span></span>
+<span class='r-in'></span>
+<span class='r-in'><span class='co'># Some more communes are still missing from the 1970 statistics, although</span></span>
+<span class='r-in'><span class='co'># the matches are valid:</span></span>
+<span class='r-in'><span class='fu'><a href='https://rdrr.io/r/base/subset.html'>subset</a></span><span class='op'>(</span><span class='va'>mapping</span>, <span class='va'>mIdAsNumber.to</span> <span class='op'><a href='https://rdrr.io/r/base/match.html'>%in%</a></span> <span class='fu'><a href='https://generics.r-lib.org/reference/setops.html'>setdiff</a></span><span class='op'>(</span></span>
+<span class='r-in'>  <span class='va'>SwissPopMapping.1970.agg</span><span class='op'>$</span><span class='va'>mId.to</span>, <span class='va'>SwissBirths.1970</span><span class='op'>$</span><span class='va'>MunicipalityID</span></span>
+<span class='r-in'><span class='op'>)</span><span class='op'>)</span><span class='op'>[</span></span>
+<span class='r-in'>  ,</span>
+<span class='r-in'>  <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"mId.from"</span>, <span class='st'>"mShortName.from"</span>, <span class='st'>"MatchType"</span><span class='op'>)</span></span>
+<span class='r-in'><span class='op'>]</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>      mId.from          mShortName.from MatchType</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 16       3533                Marmorera     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 30       3503                   Mutten     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 36       3593                    Duvin     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 42       3583                  Schnaus     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 48       3577                    Luven     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 122      3803                  Braggio     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 135      3806                    Cauco     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 146      3743                    Lavin     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 147      3742                   Guarda     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 176      3811                    Selma     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 197      3631                   Almens     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 198      3616        Waltensburg/Vuorz     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 217      3711                Rongellen     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 220      3708                   Mathon     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 221      3707                Lohn (GR)     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 222      3706             Innerferrera     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 226      3702            Ausserferrera     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 234      3670                   Urmein     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 235      3669               Tschappina     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 346      5129                  Sonogno     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 390      5688                    Syens     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 439      5732                     Vich     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 441      5233             Vico Morcote     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 452      5690         Villars-le-Comte     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 455      5651     Villars-Sainte-Croix     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 458      5935           Villars-Epeney     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 479      3923                  Castiel     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 549      5650          Vaux-sur-Morges     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 576      5932                   Ursins     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 591      5173                  Certara     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 609      5307      Campo (Vallemaggia)     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 627      2008           Châtillon (FR)     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 641      5475      Chavannes-le-Veyron     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 650      5906                  Chanéaz     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 720      5668                   Cremin     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 728      5479                 Cuarnens     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 816      5102                  Corippo     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 933      5621                   Aclens     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 976      6172                   Bister     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 980      5155                    Bogno     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 983      4302                  Böbikon     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 985      5747                 Bofflens     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 992      5622                Bremblens     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 999      5096     Brione sopra Minusio     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1049     5513           Bioley-Orjulaz     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1224     5109                   Gresso     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1247     2079               Grangettes     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1315     5671           Dompierre (VD)     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1427     4106                  Mönthal     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1500     5488                   Mauraz     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1502     4314                 Mellikon     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1503      389                Meienried     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1512     5012                   Moleno     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1540     6216                 Mex (VS)     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1730     6109                    Inden     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1800     6178               Martisberg     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1803     5676             Martherenges     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1872     5315                 Linescio     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1911     5564                 Novalles     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1964     5798                   Ropraz     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2016     5081                   Sobrio     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2031     5762                   Sergey     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2042     5686                  Sarzens     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2167     2216           Pierrafortscha     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2372      532                Bangerten     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2375      535 Deisswil b. Münchenbuch.     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2455      629              Oberhünigen     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2464     4084                Islisberg     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2467      362                  Ittigen     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2468      363            Ostermundigen     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2474     6716               Mettembert     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2476     3613                   Pigniu     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2521     2522                 Hersiwil     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2540     4826                  Mammern     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2541      631                Trimstein     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2542      630             Allmendingen     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2550     4643              Bottighofen     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2576     2851           Kilchberg (BL)     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2805      972                   Berken     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2835     4621          Warth-Weiningen     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2839     4716               Bettwiesen     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2860     6728                 Vellerat     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2865     4724                Eschlikon     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2881     4786               Wilen (TG)     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2887     4546             Schlatt (TG)     valid</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2891     4723                  Braunau     valid</span>
+<span class='r-in'></span>
+<span class='r-in'><span class='co'># The "from" list must be from an earlier time than the "to" list.</span></span>
+<span class='r-in'><span class='kw'><a href='https://rdrr.io/r/base/try.html'>try</a></span><span class='op'>(</span><span class='fu'>swc_get_mapping</span><span class='op'>(</span>ids_from <span class='op'>=</span> <span class='va'>ids_to</span>, ids_to <span class='op'>=</span> <span class='va'>ids_from</span><span class='op'>)</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2021-05-24 06:04:47 INFO::meltMutations</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2021-05-24 06:04:47 INFO::meltMutations</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2021-05-24 06:04:47 INFO::computeMunList</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2021-05-24 06:04:47 INFO::meltMutations</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2021-05-24 06:04:47 INFO::meltMutations</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2021-05-24 06:04:47 INFO::computeMunList</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> Error in getMunicipalityMappingWorker(mutations, hist.list.from, mid.from,  : </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>   mid.from &lt;= mid.to is not TRUE</span>
+</code></pre></div>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

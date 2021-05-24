@@ -60,8 +60,6 @@ Filtering by canton is supported." />
 
 
 
-<!-- dependencies from examples -->
-
 
   
 
@@ -141,7 +139,7 @@ Filtering by canton is supported." />
 Filtering by canton is supported.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>swc_get_municipality_state</span><span class='op'>(</span><span class='va'>year</span>, canton <span class='op'>=</span> <span class='cn'>NULL</span><span class='op'>)</span></pre>
+    <div class="ref-usage sourceCode"><pre class='sourceCode r'><code><span class='fu'>swc_get_municipality_state</span><span class='op'>(</span><span class='va'>year</span>, canton <span class='op'>=</span> <span class='cn'>NULL</span><span class='op'>)</span></code></pre></div>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -163,35 +161,37 @@ If left `NULL` (default) all cantons are considered.</p></td>
 municipalities in the given year.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'>swc_get_municipality_state</span><span class='op'>(</span><span class='fl'>1987</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; <span style='color: #949494;'># A tibble: 3,028 x 2</span><span>
-#&gt;    mun_id short_name        
-#&gt;     </span><span style='color: #949494;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>             
-#&gt; </span><span style='color: #BCBCBC;'> 1</span><span>      1 Aeugst am Albis   
-#&gt; </span><span style='color: #BCBCBC;'> 2</span><span>      2 Affoltern am Albis
-#&gt; </span><span style='color: #BCBCBC;'> 3</span><span>      3 Bonstetten        
-#&gt; </span><span style='color: #BCBCBC;'> 4</span><span>      4 Hausen am Albis   
-#&gt; </span><span style='color: #BCBCBC;'> 5</span><span>      5 Hedingen          
-#&gt; </span><span style='color: #BCBCBC;'> 6</span><span>      6 Kappel am Albis   
-#&gt; </span><span style='color: #BCBCBC;'> 7</span><span>      7 Knonau            
-#&gt; </span><span style='color: #BCBCBC;'> 8</span><span>      8 Maschwanden       
-#&gt; </span><span style='color: #BCBCBC;'> 9</span><span>      9 Mettmenstetten    
-#&gt; </span><span style='color: #BCBCBC;'>10</span><span>     10 Obfelden          
-#&gt; </span><span style='color: #949494;'># … with 3,018 more rows</span><span></div><div class='input'><span class='fu'>swc_get_municipality_state</span><span class='op'>(</span><span class='fl'>2000</span>, <span class='st'>"ZH"</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; </span><span style='color: #949494;'># A tibble: 171 x 2</span><span>
-#&gt;    mun_id short_name        
-#&gt;     </span><span style='color: #949494;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>             
-#&gt; </span><span style='color: #BCBCBC;'> 1</span><span>      1 Aeugst am Albis   
-#&gt; </span><span style='color: #BCBCBC;'> 2</span><span>      2 Affoltern am Albis
-#&gt; </span><span style='color: #BCBCBC;'> 3</span><span>      3 Bonstetten        
-#&gt; </span><span style='color: #BCBCBC;'> 4</span><span>      4 Hausen am Albis   
-#&gt; </span><span style='color: #BCBCBC;'> 5</span><span>      5 Hedingen          
-#&gt; </span><span style='color: #BCBCBC;'> 6</span><span>      6 Kappel am Albis   
-#&gt; </span><span style='color: #BCBCBC;'> 7</span><span>      7 Knonau            
-#&gt; </span><span style='color: #BCBCBC;'> 8</span><span>      8 Maschwanden       
-#&gt; </span><span style='color: #BCBCBC;'> 9</span><span>      9 Mettmenstetten    
-#&gt; </span><span style='color: #BCBCBC;'>10</span><span>     10 Obfelden          
-#&gt; </span><span style='color: #949494;'># … with 161 more rows</span><span></div></span></pre>
+    <div class="ref-examples sourceCode"><pre class='sourceCode r'><code><span class='r-in'><span class='fu'>swc_get_municipality_state</span><span class='op'>(</span><span class='fl'>1987</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># A tibble: 3,028 x 2</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    mun_id short_name        </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>     <span style='color: #949494;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>             </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 1</span><span>      1 Aeugst am Albis   </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 2</span><span>      2 Affoltern am Albis</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 3</span><span>      3 Bonstetten        </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 4</span><span>      4 Hausen am Albis   </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 5</span><span>      5 Hedingen          </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 6</span><span>      6 Kappel am Albis   </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 7</span><span>      7 Knonau            </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 8</span><span>      8 Maschwanden       </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 9</span><span>      9 Mettmenstetten    </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>10</span><span>     10 Obfelden          </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># … with 3,018 more rows</span></span>
+<span class='r-in'><span class='fu'>swc_get_municipality_state</span><span class='op'>(</span><span class='fl'>2000</span>, <span class='st'>"ZH"</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># A tibble: 171 x 2</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    mun_id short_name        </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>     <span style='color: #949494;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #949494;font-style: italic;'>&lt;chr&gt;</span><span>             </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 1</span><span>      1 Aeugst am Albis   </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 2</span><span>      2 Affoltern am Albis</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 3</span><span>      3 Bonstetten        </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 4</span><span>      4 Hausen am Albis   </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 5</span><span>      5 Hedingen          </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 6</span><span>      6 Kappel am Albis   </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 7</span><span>      7 Knonau            </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 8</span><span>      8 Maschwanden       </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 9</span><span>      9 Mettmenstetten    </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>10</span><span>     10 Obfelden          </span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># … with 161 more rows</span></span>
+</code></pre></div>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

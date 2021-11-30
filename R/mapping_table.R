@@ -51,7 +51,8 @@ accumulate_mappings <- function(year, mappings, mapping_init) {
 
   tibble(year, data) %>%
     unnest(data) %>%
-    rename(
+    select(
+      year,
       mun_id_x = mId.x, short_name_x = mShortName.x,
       mun_id_y = mId.y, short_name_y = mShortName.y
     )

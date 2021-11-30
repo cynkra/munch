@@ -28,7 +28,9 @@ swc_read_data <- function() {
   logging::logdebug(zip_file_name)
   on.exit(unlink(zip_file_name), add = TRUE)
 
-  download.file(record_hist_url, zip_file_name, quiet = TRUE)
+  # `mode = "wb"` needed in order for it to work on Windows
+  # cf. https://github.com/tidyverse/readxl/issues/126
+  download.file(record_hist_url, zip_file_name, quiet = TRUE, mode="wb")
 
   unzip_dir_name <- tempfile()
   logging::logdebug(unzip_dir_name)
@@ -211,4 +213,41 @@ daff_municipality_mutations <- function() {
   data <- swc_read_data()
 
   daff::render_diff(daff::diff_data(swc_get_municipality_mutations(), data$municipality))
+}
+
+#' download latest municipality inventory
+#'
+#' @export
+download_mun_inventory <- function() {
+  mun_inventory_url <- "https://www.bfs.admin.ch/bfsstatic/dam/assets/6986904/master"
+
+  zip_file_name <- tempfile(fileext = ".xlsx")
+  logging::logdebug(zip_file_name)
+
+  on.exit(unlink(zip_file_name), add = TRUE)
+
+  download.file(mun_inventory_url, zip_file_name, quiet = TRUE, mode = "wb")
+
+  data <- readxl::read_excel(zip_file_name, sheet = 2)
+
+  names(data) <- tolower(names(data))
+
+  data
+}
+
+read_mun_csv <- function(file) {
+  target_year <- sub(".csv", "", basename(file))
+  read.csv(file) %>%
+    mutate(target_year = target_year)
+}
+
+read_all_data <- function() {
+  csv_dir <- system.file("csv/flat", package = "munch")
+  all_files <- list.files(csv_dir)
+  file_paths <- file.path(csv_dir, all_files)
+
+  file_paths %>%
+    purrr::map_df(~ read_mun_csv(.)) %>%
+    as_tibble() %>%
+    mutate(target_year = as.integer(target_year))
 }

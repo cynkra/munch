@@ -40,6 +40,6 @@ The result is a list of mutations, i.e., a list of edges in the graph of
 municipality state snapshots.
 }
 \examples{
-head(swcGetMutations(), 20)
-head(subset(swcGetMutations(), !is.na(mHistId.x)), 20)
+head(swc_get_mutations(), 20)
+head(subset(swc_get_mutations(), !is.na(mHistId.x)), 20)
 }

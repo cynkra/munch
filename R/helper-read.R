@@ -28,7 +28,9 @@ swc_read_data <- function() {
   logging::logdebug(zip_file_name)
   on.exit(unlink(zip_file_name), add = TRUE)
 
-  download.file(record_hist_url, zip_file_name, quiet = TRUE)
+  # `mode = "wb"` needed in order for it to work on Windows
+  # cf. https://github.com/tidyverse/readxl/issues/126
+  download.file(record_hist_url, zip_file_name, quiet = TRUE, mode="wb")
 
   unzip_dir_name <- tempfile()
   logging::logdebug(unzip_dir_name)
@@ -233,4 +235,21 @@ download_mun_inventory <- function() {
   names(data) <- tolower(names(data))
 
   data
+}
+
+read_mun_csv <- function(file) {
+  target_year <- sub(".csv", "", basename(file))
+  read.csv(file) %>%
+    mutate(target_year = target_year)
+}
+
+read_all_data <- function() {
+  csv_dir <- system.file("csv/flat", package = "munch")
+  all_files <- list.files(csv_dir)
+  file_paths <- file.path(csv_dir, all_files)
+
+  file_paths %>%
+    purrr::map_df(~ read_mun_csv(.)) %>%
+    as_tibble() %>%
+    mutate(target_year = as.integer(target_year))
 }

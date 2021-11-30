@@ -1,8 +1,6 @@
 context("mapping")
 
 test_that("mapping returns integer columns", {
-  skip("Broken")
-
   mapping <- swc_get_mapping(ids_from = 500, ids_to = 2875)
 
   expect_is(mapping$mHistId.from, "integer")
@@ -14,8 +12,6 @@ test_that("mapping returns integer columns", {
 })
 
 test_that("mapping returns factors for factor input", {
-  skip("Broken")
-
   mapping <- swc_get_mapping(
     ids_from = factor(500),
     ids_to = factor(2875)

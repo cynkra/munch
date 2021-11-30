@@ -1,9 +1,9 @@
-load_bfs_mun_list <- function(date_or_year = lubridate::year(Sys.Date())) {
+load_bfs_mun_list <- function(date_or_year = lubridate::year(Sys.Date()), canton = NULL) {
   # cf. https://www.bfs.admin.ch/bfs/de/home/dienstleistungen/forschung/api/api-gemeinde.assetdetail.15224054.html
   date <- date_or_year_to_date(date_or_year)
   all_data <- readr::read_csv(
     glue::glue("https://sms.bfs.admin.ch/WcfBFSSpecificService.svc/AnonymousRest/communes/snapshots?useBfsCode=true&startPeriod={date}&endPeriod={date}"),
-    col_types = readr::cols()
+    col_types = "icciicccccccccdddddddddddddddlccll"
     )
     cantons <- all_data %>%
       # Level 1 are cantons
@@ -14,13 +14,17 @@ load_bfs_mun_list <- function(date_or_year = lubridate::year(Sys.Date())) {
       filter(Level == 2) %>%
       select(dist_id = Identifier, ct_id = Parent)
     # Level 3 are municipalities
-    all_data %>%
+    res <- all_data %>%
       filter(Level == 3) %>%
       select(mun_id = Identifier, mun_name = Name_de, dist_id = Parent) %>%
       left_join(districts, by = "dist_id") %>%
       left_join(cantons, by = "ct_id") %>%
       select(mun_id, mun_name, ct_short, ct_name) %>%
       arrange(mun_id)
+    if (!is.null(canton)) {
+      res <- filter(res, ct_short == canton)
+    }
+    res
 }
 
 date_or_year_to_date <- function(date_or_year) {

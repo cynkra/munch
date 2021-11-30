@@ -143,13 +143,23 @@ swc_read_data <- function() {
 #' Overwrite the mutation package-data
 #'
 #' @export
-overwrite_data <- function() {
+overwrite_data <- function(push = FALSE) {
+  if (push) {
+    stopifnot(length(grep("^inst/csv/mut/", gert::git_status()$file)) == 0)
+  }
+
   data <- swc_read_data()
 
   readr::write_csv(data$canton, new_csv_file("mut/canton"))
   readr::write_csv(data$district, new_csv_file("mut/district_mutations"))
   readr::write_csv(data$municipality, new_csv_file("mut/municipality_mutations"))
   readr::write_csv(data$metadata, new_csv_file("mut/metadata"))
+
+  if (push && length(grep("^inst/csv/mut/", gert::git_status()$file)) != 0) {
+    gert::git_add("inst/csv/mut")
+    gert::git_commit("New data")
+    gert::git_push(refspec = "refs/heads/main")
+  }
 }
 
 #' check if new data is identical to old data

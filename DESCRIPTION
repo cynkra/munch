@@ -46,6 +46,7 @@ Imports:
     tidyr
 Suggests:
     daff,
+    gert,
     knitr,
     readxl,
     rmarkdown,

@@ -2287,7 +2287,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 12323,10013,VS,6153,Monthey,Monthey,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
 12324,10107,FR,2032,Montet (Broye),Montet (Broye),Municipality,1,1000,First-time registration,1960-01-01,2274,Abolition,2003-12-31,2003-12-31
 12325,10185,NE,6482,Montmollin,Montmollin,Municipality,1,1000,First-time registration,1960-01-01,3402,Abolition,2012-12-31,2012-12-31
-12326,10003,TI,5202,Monteggio,Monteggio,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+12326,10003,TI,5202,Monteggio,Monteggio,Municipality,1,1000,First-time registration,1960-01-01,3954,Abolition,2021-04-17,2021-04-17
 12327,10085,VD,5492,Montricher,Montricher,Municipality,1,1000,First-time registration,1960-01-01,2403,Reassignment to other d/c,2006-08-31,2006-08-31
 12328,10017,AG,4277,Moosleerau,Moosleerau,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
 12329,10002,TI,5257,Morbio Inferiore,Morbio Inferiore,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
@@ -2952,7 +2952,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 12990,10099,SO,2480,Seewen,Seewen,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
 12991,10107,FR,2043,Sévaz,Sévaz,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
 12992,10041,VD,5826,Seigneux,Seigneux,Municipality,1,1000,First-time registration,1960-01-01,2645,Reassignment to other d/c,2006-08-31,2006-08-31
-12993,10003,TI,5222,Sessa,Sessa,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+12993,10003,TI,5222,Sessa,Sessa,Municipality,1,1000,First-time registration,1960-01-01,3954,Abolition,2021-04-17,2021-04-17
 12994,10028,VD,5799,Servion,Servion,Municipality,1,1000,First-time registration,1960-01-01,2627,Reassignment to other d/c,2006-08-31,2006-08-31
 12995,10043,VD,5762,Sergey,Sergey,Municipality,1,1000,First-time registration,1960-01-01,2605,Reassignment to other d/c,2006-08-31,2006-08-31
 12996,10020,AG,4209,Seon,Seon,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
@@ -3023,7 +3023,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 13063,10123,VD,5437,Saubraz,Saubraz,Municipality,1,1000,First-time registration,1960-01-01,2370,Reassignment to other d/c,2006-08-31,2006-08-31
 13064,10083,BE,420,Rüdtligen-Alchenflüh,Rüdtligen-Alchenflüh,Municipality,1,1000,First-time registration,1960-01-01,2957,Reassignment to other d/c,2009-12-31,2009-12-31
 13065,10023,AG,4115,Schinznach Dorf,Schinznach Dorf,Municipality,1,1000,First-time registration,1960-01-01,2177,Change of name (m),2002-12-31,2002-12-31
-13066,10003,TI,5213,Ponte Tresa,Ponte Tresa,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+13066,10003,TI,5213,Ponte Tresa,Ponte Tresa,Municipality,1,1000,First-time registration,1960-01-01,3954,Abolition,2021-04-17,2021-04-17
 13067,10104,FR,2220,Praroman,Praroman,Municipality,1,1000,First-time registration,1960-01-01,2169,Abolition,2002-12-31,2002-12-31
 13068,10107,FR,2037,Praratoud,Praratoud,Municipality,1,1000,First-time registration,1960-01-01,2311,Abolition,2004-12-31,2004-12-31
 13069,10044,VD,5725,Prangins,Prangins,Municipality,1,1000,First-time registration,1960-01-01,2577,Reassignment to other d/c,2006-08-31,2006-08-31
@@ -3208,7 +3208,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 13249,10104,FR,2206,Marly,Marly,Municipality,1,1064,Change of area,1976-01-01,NA,NA,NA,1976-01-01
 13250,10075,ZH,200,Wangen-Brüttisellen,Wangen-Brüttisellen,Municipality,1,1065,Change of name (m),1976-01-01,NA,NA,NA,1976-01-01
 13251,10002,TI,5250,Chiasso,Chiasso,Municipality,1,1066,Change of area,1976-04-04,NA,NA,NA,1976-04-04
-13252,10003,TI,5178,Croglio,Croglio,Municipality,1,1067,Creation,1976-04-04,NA,NA,NA,1976-04-04
+13252,10003,TI,5178,Croglio,Croglio,Municipality,1,1067,Creation,1976-04-04,3954,Abolition,2021-04-17,2021-04-17
 13253,10003,TI,5226,Tesserete,Tesserete,Municipality,1,1068,Change of area,1976-04-04,2157,Abolition,2001-10-17,2001-10-17
 13254,10169,GR,3986,Tujetsch,Tujetsch,Municipality,1,1069,Change of name (m),1976-05-10,2154,Reassignment to other d/c,2000-12-31,2000-12-31
 13255,10053,ZH,14,Wettswil am Albis,Wettswil am Albis,Municipality,1,1070,Change of name (m),1976-11-15,NA,NA,NA,1976-11-15
@@ -4507,7 +4507,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 14548,10276,VD,5938,Yverdon-les-Bains,Yverdon-les-Bains,Municipality,1,2715,Reassignment to other d/c,2006-09-01,3278,Change of area,2011-06-30,2011-06-30
 14549,10276,VD,5761,Romainmôtier-Envy,Romainmôtier-Envy,Municipality,1,2604,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14550,10282,VD,5886,Montreux,Montreux,Municipality,1,2674,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
-14551,10279,VD,5625,Bussy-Chardonney,Bussy-Chardonney,Municipality,1,2491,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
+14551,10279,VD,5625,Bussy-Chardonney,Bussy-Chardonney,Municipality,1,2491,Reassignment to other d/c,2006-09-01,3955,Abolition,2021-06-30,2021-06-30
 14552,10275,VD,5512,Bercher,Bercher,Municipality,1,2415,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14553,10276,VD,5760,Rances,Rances,Municipality,1,2603,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14554,10275,VD,5796,Peney-le-Jorat,Peney-le-Jorat,Municipality,1,2625,Reassignment to other d/c,2006-09-01,3272,Abolition,2011-06-30,2011-06-30
@@ -4523,7 +4523,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 14564,10274,VD,5681,Oulens-sur-Lucens,Oulens-sur-Lucens,Municipality,1,2541,Reassignment to other d/c,2006-09-01,3276,Abolition,2011-06-30,2011-06-30
 14565,10275,VD,5530,Pailly,Pailly,Municipality,1,2433,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14566,10278,VD,5795,Palézieux,Palézieux,Municipality,1,2624,Reassignment to other d/c,2006-09-01,3286,Abolition,2011-12-31,2011-12-31
-14567,10279,VD,5494,Pampigny,Pampigny,Municipality,1,2405,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
+14567,10279,VD,5494,Pampigny,Pampigny,Municipality,1,2405,Reassignment to other d/c,2006-09-01,3955,Abolition,2021-06-30,2021-06-30
 14568,10278,VD,5588,Paudex,Paudex,Municipality,1,2470,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14569,10276,VD,5759,Premier,Premier,Municipality,1,2602,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14570,10279,VD,5643,Préverenges,Préverenges,Municipality,1,2508,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
@@ -4549,7 +4549,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 14590,10281,VD,5648,Saint-Sulpice (VD),Saint-Sulpice (VD),Municipality,1,2513,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14591,10276,VD,5568,Sainte-Croix,Sainte-Croix,Municipality,1,2460,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14592,10274,VD,5686,Sarzens,Sarzens,Municipality,1,2546,Reassignment to other d/c,2006-09-01,3575,Abolition,2016-12-31,2016-12-31
-14593,10279,VD,5500,Sévery,Sévery,Municipality,1,2411,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
+14593,10279,VD,5500,Sévery,Sévery,Municipality,1,2411,Reassignment to other d/c,2006-09-01,3955,Abolition,2021-06-30,2021-06-30
 14594,10279,VD,5499,Senarclens,Senarclens,Municipality,1,2410,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14595,10276,VD,5762,Sergey,Sergey,Municipality,1,2605,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14596,10278,VD,5799,Servion,Servion,Municipality,1,2627,Reassignment to other d/c,2006-09-01,3287,Change of area,2011-12-31,2011-12-31
@@ -4564,7 +4564,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 14605,10277,VD,5592,Romanel-sur-Lausanne,Romanel-sur-Lausanne,Municipality,1,2474,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14606,10279,VD,5645,Romanel-sur-Morges,Romanel-sur-Morges,Municipality,1,2510,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14607,10274,VD,5798,Ropraz,Ropraz,Municipality,1,2626,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
-14608,10279,VD,5644,Reverolle,Reverolle,Municipality,1,2509,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
+14608,10279,VD,5644,Reverolle,Reverolle,Municipality,1,2509,Reassignment to other d/c,2006-09-01,3955,Abolition,2021-06-30,2021-06-30
 14609,10282,VD,5842,Rossinière,Rossinière,Municipality,1,2651,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14610,10278,VD,5608,Riex,Riex,Municipality,1,2482,Reassignment to other d/c,2006-09-01,3274,Abolition,2011-06-30,2011-06-30
 14611,10274,VD,5684,Rossenges,Rossenges,Municipality,1,2544,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
@@ -4714,7 +4714,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 14755,10275,VD,5471,Bettens,Bettens,Municipality,1,2382,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14756,10276,VD,5903,Bioley-Magnoux,Bioley-Magnoux,Municipality,1,2680,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14757,10279,VD,5425,Bière,Bière,Municipality,1,2358,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
-14758,10275,VD,5513,Bioley-Orjulaz,Bioley-Orjulaz,Municipality,1,2416,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
+14758,10275,VD,5513,Bioley-Orjulaz,Bioley-Orjulaz,Municipality,1,2416,Reassignment to other d/c,2006-09-01,3956,Abolition,2021-06-30,2021-06-30
 14759,10276,VD,5902,Belmont-sur-Yverdon,Belmont-sur-Yverdon,Municipality,1,2679,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14760,10278,VD,5581,Belmont-sur-Lausanne,Belmont-sur-Lausanne,Municipality,1,2463,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14761,10280,VD,5704,Begnins,Begnins,Municipality,1,2556,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
@@ -4736,7 +4736,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 14777,10276,VD,5551,Bonvillars,Bonvillars,Municipality,1,2443,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14778,10276,VD,5743,Arnex-sur-Orbe,Arnex-sur-Orbe,Municipality,1,2587,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14779,10280,VD,5701,Arnex-sur-Nyon,Arnex-sur-Nyon,Municipality,1,2553,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
-14780,10279,VD,5421,Apples,Apples,Municipality,1,2354,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
+14780,10279,VD,5421,Apples,Apples,Municipality,1,2354,Reassignment to other d/c,2006-09-01,3955,Abolition,2021-06-30,2021-06-30
 14781,10279,VD,5621,Aclens,Aclens,Municipality,1,2487,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14782,10279,VD,5851,Allaman,Allaman,Municipality,1,2653,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14783,10276,VD,5742,Agiez,Agiez,Municipality,1,2586,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
@@ -4782,7 +4782,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 14823,10275,VD,5670,Denezy,Denezy,Municipality,1,2530,Reassignment to other d/c,2006-09-01,3395,Abolition,2012-12-31,2012-12-31
 14824,10279,VD,5631,Denens,Denens,Municipality,1,2496,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14825,10275,VD,5516,Cugy (VD),Cugy (VD),Municipality,1,2419,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
-14826,10279,VD,5478,Cottens (VD),Cottens (VD),Municipality,1,2389,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
+14826,10279,VD,5478,Cottens (VD),Cottens (VD),Municipality,1,2389,Reassignment to other d/c,2006-09-01,3955,Abolition,2021-06-30,2021-06-30
 14827,10280,VD,5713,Crans-près-Céligny,Crans-près-Céligny,Municipality,1,2565,Reassignment to other d/c,2006-09-01,3952,Change of name (m),2020-12-31,2020-12-31
 14828,10279,VD,5477,Cossonay,Cossonay,Municipality,1,2388,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
 14829,10276,VD,5911,Cuarny,Cuarny,Municipality,1,2688,Reassignment to other d/c,2006-09-01,NA,NA,NA,2006-09-01
@@ -4912,7 +4912,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 14954,10259,GR,3701,Andeer,Andeer,Municipality,1,2752,Change of area,2009-01-01,3567,Reassignment to other d/c,2016-12-31,2016-12-31
 14955,10260,GR,3847,Val Müstair,Val Müstair,Municipality,1,2753,Creation,2009-01-01,3477,Reassignment to other d/c,2016-12-31,2016-12-31
 14956,10261,GR,3932,Tschiertschen-Praden,Tschiertschen-Praden,Municipality,1,2754,Creation,2009-01-01,3520,Reassignment to other d/c,2016-12-31,2016-12-31
-14957,10275,VD,5511,Assens,Assens,Municipality,1,2755,Change of area,2009-01-01,NA,NA,NA,2009-01-01
+14957,10275,VD,5511,Assens,Assens,Municipality,1,2755,Change of area,2009-01-01,3956,Change of area,2021-06-30,2021-06-30
 14958,10032,VS,6076,Obergoms,Obergoms,Municipality,1,2756,Creation,2009-01-01,NA,NA,NA,2009-01-01
 14959,10030,VS,6118,Gampel-Bratsch,Gampel-Bratsch,Municipality,1,2757,Creation,2009-01-01,NA,NA,NA,2009-01-01
 14960,10125,VS,6203,Mörel-Filet,Mörel-Filet,Municipality,1,2758,Creation,2009-01-01,NA,NA,NA,2009-01-01
@@ -5825,3 +5825,6 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 16608,10288,BE,879,Riggisberg,Riggisberg,Municipality,1,3951,Change of area,2021-01-01,NA,NA,NA,2021-01-01
 16609,10280,VD,5713,Crans (VD),Crans (VD),Municipality,1,3952,Change of name (m),2021-01-01,NA,NA,NA,2021-01-01
 16610,10315,GR,3871,Klosters,Klosters,Municipality,1,3953,Change of name (m),2021-01-01,NA,NA,NA,2021-01-01
+16611,10003,TI,5239,Tresa,Tresa,Municipality,1,3954,Creation,2021-04-18,NA,NA,NA,2021-04-18
+16612,10279,VD,5656,Hautemorges,Hautemorges,Municipality,1,3955,Creation,2021-07-01,NA,NA,NA,2021-07-01
+16613,10275,VD,5511,Assens,Assens,Municipality,1,3956,Change of area,2021-07-01,NA,NA,NA,2021-07-01

@@ -158,7 +158,7 @@ overwrite_data <- function(push = FALSE) {
   if (push && length(grep("^inst/csv/mut/", gert::git_status()$file)) != 0) {
     gert::git_add("inst/csv/mut")
     gert::git_commit("New data")
-    gert::git_push(refspec = "refs/heads/main")
+    gert::git_push(remote = "origin", refspec = "HEAD:refs/heads/main")
   }
 }
 

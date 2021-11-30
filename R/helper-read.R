@@ -150,6 +150,8 @@ overwrite_data <- function() {
   readr::write_csv(data$district, new_csv_file("mut/district_mutations"))
   readr::write_csv(data$municipality, new_csv_file("mut/municipality_mutations"))
   readr::write_csv(data$metadata, new_csv_file("mut/metadata"))
+
+  write_all_mapping_tables()
 }
 
 #' check if new data is identical to old data

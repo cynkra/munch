@@ -13,9 +13,7 @@ municipality IDs, and to construct mappings between two lists of municipality
 IDs.  The package provides functions to import and work with this mutation
 list.
 
-Contains historicized municipality data for
-    Switzerland from 1960 onwards, from the "Historisiertes
-    Gemeindeverzeichnis" of the Swiss Federal Statistical Office.
+Contains historicized municipality data for Switzerland from 1960 onwards, from the "Historisiertes Gemeindeverzeichnis" of the Swiss Federal Statistical Office.
 }
 \details{
 \tabular{ll}{

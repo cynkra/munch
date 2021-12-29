@@ -64,4 +64,3 @@ test_that("swc_get_municipality_state() works", {
       pull(mun_id)
   )
 })
-

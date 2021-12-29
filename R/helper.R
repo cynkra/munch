@@ -28,10 +28,11 @@ get_mun_hist_impl <- function(mut_in_time_interval, mun_id_to, year_from, year_t
   m_hist_id <- filter(
     mut_in_time_interval,
     mId.y == mun_id_to,
-      # for the last mutation of a municipality (so far) the `mDateOfChange.y` is set to the same date as `mAdmissionDate`
-      # that means for us that it is still valid
-      mAdmissionDate == mDateOfChange.y |
-      as.integer(format(mDateOfChange.y, "%Y")) >= year_to) %>%
+    # for the last mutation of a municipality (so far) the `mDateOfChange.y` is set to the same date as `mAdmissionDate`
+    # that means for us that it is still valid
+    mAdmissionDate == mDateOfChange.y |
+      as.integer(format(mDateOfChange.y, "%Y")) >= year_to
+  ) %>%
     pull(mHistId.y) %>%
     # it can happen, that this results in more than 1 row, if a municipality merger leads to
     # the same `mHistId.y` for 2 or more municipalities

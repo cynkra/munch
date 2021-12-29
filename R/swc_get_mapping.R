@@ -40,7 +40,7 @@ swc_get_mapping <- function(ids_from, ids_to) {
       mHistId = as.integer(mHistId),
       dHistId = as.integer(dHistId),
       mId = as.integer(mId)
-      )
+    )
 
   mutations <- swc_get_mutations(mids = all.ids)
 

@@ -377,7 +377,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,630,Allmendingen,630,Allmendingen
 2005,631,Trimstein,616,Münsingen
 2005,632,Wichtrach,632,Wichtrach
-2005,661,Clavaleyres,661,Clavaleyres
+2005,661,Clavaleyres,2275,Murten
 2005,662,Ferenbalm,662,Ferenbalm
 2005,663,Frauenkappelen,663,Frauenkappelen
 2005,664,Golaten,304,Kallnach
@@ -906,8 +906,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2254,Courtepin,2254,Courtepin
 2005,2257,Cressier (FR),2257,Cressier (FR)
 2005,2258,Fräschels,2258,Fräschels
-2005,2259,Galmiz,2259,Galmiz
-2005,2260,Gempenach,2260,Gempenach
+2005,2259,Galmiz,2275,Murten
+2005,2260,Gempenach,2275,Murten
 2005,2261,Greng,2261,Greng
 2005,2262,Gurmels,2262,Gurmels
 2005,2264,Jeuss,2275,Murten
@@ -1591,10 +1591,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,4091,Auenstein,4091,Auenstein
 2005,4092,Birr,4092,Birr
 2005,4093,Birrhard,4093,Birrhard
-2005,4094,Bözen,4094,Bözen
+2005,4094,Bözen,4185,Böztal
 2005,4095,Brugg,4095,Brugg
-2005,4096,Effingen,4096,Effingen
-2005,4097,Elfingen,4097,Elfingen
+2005,4096,Effingen,4185,Böztal
+2005,4097,Elfingen,4185,Böztal
 2005,4098,Gallenkirch,4124,Bözberg
 2005,4099,Habsburg,4099,Habsburg
 2005,4100,Hausen (AG),4100,Hausen (AG)
@@ -1643,7 +1643,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,4164,Gansingen,4164,Gansingen
 2005,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2005,4166,Herznach,4166,Herznach
-2005,4167,Hornussen,4167,Hornussen
+2005,4167,Hornussen,4185,Böztal
 2005,4168,Ittenthal,4169,Kaisten
 2005,4169,Kaisten,4169,Kaisten
 2005,4170,Laufenburg,4170,Laufenburg
@@ -1732,29 +1732,29 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,4287,Vordemwald,4287,Vordemwald
 2005,4288,Wiliberg,4288,Wiliberg
 2005,4289,Zofingen,4289,Zofingen
-2005,4301,Baldingen,4301,Baldingen
-2005,4302,Böbikon,4302,Böbikon
+2005,4301,Baldingen,4324,Zurzach
+2005,4302,Böbikon,4324,Zurzach
 2005,4303,Böttstein,4303,Böttstein
 2005,4304,Döttingen,4304,Döttingen
 2005,4305,Endingen,4305,Endingen
 2005,4306,Fisibach,4306,Fisibach
 2005,4307,Full-Reuenthal,4307,Full-Reuenthal
-2005,4308,Kaiserstuhl,4308,Kaiserstuhl
+2005,4308,Kaiserstuhl,4324,Zurzach
 2005,4309,Klingnau,4309,Klingnau
 2005,4310,Koblenz,4310,Koblenz
 2005,4311,Leibstadt,4311,Leibstadt
 2005,4312,Lengnau (AG),4312,Lengnau (AG)
 2005,4313,Leuggern,4313,Leuggern
 2005,4314,Mellikon,4314,Mellikon
-2005,4315,Rekingen (AG),4315,Rekingen (AG)
-2005,4316,Rietheim,4316,Rietheim
-2005,4317,Rümikon,4317,Rümikon
+2005,4315,Rekingen (AG),4324,Zurzach
+2005,4316,Rietheim,4324,Zurzach
+2005,4317,Rümikon,4324,Zurzach
 2005,4318,Schneisingen,4318,Schneisingen
 2005,4319,Siglistorf,4319,Siglistorf
 2005,4320,Tegerfelden,4320,Tegerfelden
 2005,4321,Unterendingen,4305,Endingen
-2005,4322,Wislikofen,4322,Wislikofen
-2005,4323,Zurzach,4323,Bad Zurzach
+2005,4322,Wislikofen,4324,Zurzach
+2005,4323,Zurzach,4324,Zurzach
 2005,4401,Arbon,4401,Arbon
 2005,4406,Dozwil,4406,Dozwil
 2005,4411,Egnach,4411,Egnach
@@ -2322,7 +2322,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
 2005,5786,Les Cullayes,5799,Servion
 2005,5787,Ecoteaux,5805,Oron
-2005,5788,Essertes,5788,Essertes
+2005,5788,Essertes,5805,Oron
 2005,5789,Ferlens (VD),5806,Jorat-Mézières
 2005,5790,Maracon,5790,Maracon
 2005,5791,Mézières (VD),5806,Jorat-Mézières
@@ -2376,13 +2376,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,5871,L'Abbaye,5871,L'Abbaye
 2005,5872,Le Chenit,5872,Le Chenit
 2005,5873,Le Lieu,5873,Le Lieu
-2005,5881,Blonay,5881,Blonay
+2005,5881,Blonay,5892,Blonay - Saint-Légier
 2005,5882,Chardonne,5882,Chardonne
 2005,5883,Corseaux,5883,Corseaux
 2005,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2005,5885,Jongny,5885,Jongny
 2005,5886,Montreux,5886,Montreux
-2005,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2005,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2005,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2005,5890,Vevey,5890,Vevey
 2005,5891,Veytaux,5891,Veytaux
@@ -3146,7 +3146,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,630,Allmendingen,630,Allmendingen
 2006,631,Trimstein,616,Münsingen
 2006,632,Wichtrach,632,Wichtrach
-2006,661,Clavaleyres,661,Clavaleyres
+2006,661,Clavaleyres,2275,Murten
 2006,662,Ferenbalm,662,Ferenbalm
 2006,663,Frauenkappelen,663,Frauenkappelen
 2006,664,Golaten,304,Kallnach
@@ -3661,8 +3661,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,2254,Courtepin,2254,Courtepin
 2006,2257,Cressier (FR),2257,Cressier (FR)
 2006,2258,Fräschels,2258,Fräschels
-2006,2259,Galmiz,2259,Galmiz
-2006,2260,Gempenach,2260,Gempenach
+2006,2259,Galmiz,2275,Murten
+2006,2260,Gempenach,2275,Murten
 2006,2261,Greng,2261,Greng
 2006,2262,Gurmels,2262,Gurmels
 2006,2264,Jeuss,2275,Murten
@@ -4343,10 +4343,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,4091,Auenstein,4091,Auenstein
 2006,4092,Birr,4092,Birr
 2006,4093,Birrhard,4093,Birrhard
-2006,4094,Bözen,4094,Bözen
+2006,4094,Bözen,4185,Böztal
 2006,4095,Brugg,4095,Brugg
-2006,4096,Effingen,4096,Effingen
-2006,4097,Elfingen,4097,Elfingen
+2006,4096,Effingen,4185,Böztal
+2006,4097,Elfingen,4185,Böztal
 2006,4098,Gallenkirch,4124,Bözberg
 2006,4099,Habsburg,4099,Habsburg
 2006,4100,Hausen (AG),4100,Hausen (AG)
@@ -4394,7 +4394,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,4164,Gansingen,4164,Gansingen
 2006,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2006,4166,Herznach,4166,Herznach
-2006,4167,Hornussen,4167,Hornussen
+2006,4167,Hornussen,4185,Böztal
 2006,4168,Ittenthal,4169,Kaisten
 2006,4169,Kaisten,4169,Kaisten
 2006,4170,Laufenburg,4170,Laufenburg
@@ -4483,29 +4483,29 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,4287,Vordemwald,4287,Vordemwald
 2006,4288,Wiliberg,4288,Wiliberg
 2006,4289,Zofingen,4289,Zofingen
-2006,4301,Baldingen,4301,Baldingen
-2006,4302,Böbikon,4302,Böbikon
+2006,4301,Baldingen,4324,Zurzach
+2006,4302,Böbikon,4324,Zurzach
 2006,4303,Böttstein,4303,Böttstein
 2006,4304,Döttingen,4304,Döttingen
 2006,4305,Endingen,4305,Endingen
 2006,4306,Fisibach,4306,Fisibach
 2006,4307,Full-Reuenthal,4307,Full-Reuenthal
-2006,4308,Kaiserstuhl,4308,Kaiserstuhl
+2006,4308,Kaiserstuhl,4324,Zurzach
 2006,4309,Klingnau,4309,Klingnau
 2006,4310,Koblenz,4310,Koblenz
 2006,4311,Leibstadt,4311,Leibstadt
 2006,4312,Lengnau (AG),4312,Lengnau (AG)
 2006,4313,Leuggern,4313,Leuggern
 2006,4314,Mellikon,4314,Mellikon
-2006,4315,Rekingen (AG),4315,Rekingen (AG)
-2006,4316,Rietheim,4316,Rietheim
-2006,4317,Rümikon,4317,Rümikon
+2006,4315,Rekingen (AG),4324,Zurzach
+2006,4316,Rietheim,4324,Zurzach
+2006,4317,Rümikon,4324,Zurzach
 2006,4318,Schneisingen,4318,Schneisingen
 2006,4319,Siglistorf,4319,Siglistorf
 2006,4320,Tegerfelden,4320,Tegerfelden
 2006,4321,Unterendingen,4305,Endingen
-2006,4322,Wislikofen,4322,Wislikofen
-2006,4323,Zurzach,4323,Bad Zurzach
+2006,4322,Wislikofen,4324,Zurzach
+2006,4323,Zurzach,4324,Zurzach
 2006,4401,Arbon,4401,Arbon
 2006,4406,Dozwil,4406,Dozwil
 2006,4411,Egnach,4411,Egnach
@@ -5068,7 +5068,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
 2006,5786,Les Cullayes,5799,Servion
 2006,5787,Ecoteaux,5805,Oron
-2006,5788,Essertes,5788,Essertes
+2006,5788,Essertes,5805,Oron
 2006,5789,Ferlens (VD),5806,Jorat-Mézières
 2006,5790,Maracon,5790,Maracon
 2006,5791,Mézières (VD),5806,Jorat-Mézières
@@ -5122,13 +5122,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,5871,L'Abbaye,5871,L'Abbaye
 2006,5872,Le Chenit,5872,Le Chenit
 2006,5873,Le Lieu,5873,Le Lieu
-2006,5881,Blonay,5881,Blonay
+2006,5881,Blonay,5892,Blonay - Saint-Légier
 2006,5882,Chardonne,5882,Chardonne
 2006,5883,Corseaux,5883,Corseaux
 2006,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2006,5885,Jongny,5885,Jongny
 2006,5886,Montreux,5886,Montreux
-2006,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2006,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2006,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2006,5890,Vevey,5890,Vevey
 2006,5891,Veytaux,5891,Veytaux
@@ -5891,7 +5891,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,630,Allmendingen,630,Allmendingen
 2007,631,Trimstein,616,Münsingen
 2007,632,Wichtrach,632,Wichtrach
-2007,661,Clavaleyres,661,Clavaleyres
+2007,661,Clavaleyres,2275,Murten
 2007,662,Ferenbalm,662,Ferenbalm
 2007,663,Frauenkappelen,663,Frauenkappelen
 2007,664,Golaten,304,Kallnach
@@ -6402,8 +6402,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,2254,Courtepin,2254,Courtepin
 2007,2257,Cressier (FR),2257,Cressier (FR)
 2007,2258,Fräschels,2258,Fräschels
-2007,2259,Galmiz,2259,Galmiz
-2007,2260,Gempenach,2260,Gempenach
+2007,2259,Galmiz,2275,Murten
+2007,2260,Gempenach,2275,Murten
 2007,2261,Greng,2261,Greng
 2007,2262,Gurmels,2262,Gurmels
 2007,2264,Jeuss,2275,Murten
@@ -7082,10 +7082,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,4091,Auenstein,4091,Auenstein
 2007,4092,Birr,4092,Birr
 2007,4093,Birrhard,4093,Birrhard
-2007,4094,Bözen,4094,Bözen
+2007,4094,Bözen,4185,Böztal
 2007,4095,Brugg,4095,Brugg
-2007,4096,Effingen,4096,Effingen
-2007,4097,Elfingen,4097,Elfingen
+2007,4096,Effingen,4185,Böztal
+2007,4097,Elfingen,4185,Böztal
 2007,4098,Gallenkirch,4124,Bözberg
 2007,4099,Habsburg,4099,Habsburg
 2007,4100,Hausen (AG),4100,Hausen (AG)
@@ -7133,7 +7133,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,4164,Gansingen,4164,Gansingen
 2007,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2007,4166,Herznach,4166,Herznach
-2007,4167,Hornussen,4167,Hornussen
+2007,4167,Hornussen,4185,Böztal
 2007,4168,Ittenthal,4169,Kaisten
 2007,4169,Kaisten,4169,Kaisten
 2007,4170,Laufenburg,4170,Laufenburg
@@ -7222,29 +7222,29 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,4287,Vordemwald,4287,Vordemwald
 2007,4288,Wiliberg,4288,Wiliberg
 2007,4289,Zofingen,4289,Zofingen
-2007,4301,Baldingen,4301,Baldingen
-2007,4302,Böbikon,4302,Böbikon
+2007,4301,Baldingen,4324,Zurzach
+2007,4302,Böbikon,4324,Zurzach
 2007,4303,Böttstein,4303,Böttstein
 2007,4304,Döttingen,4304,Döttingen
 2007,4305,Endingen,4305,Endingen
 2007,4306,Fisibach,4306,Fisibach
 2007,4307,Full-Reuenthal,4307,Full-Reuenthal
-2007,4308,Kaiserstuhl,4308,Kaiserstuhl
+2007,4308,Kaiserstuhl,4324,Zurzach
 2007,4309,Klingnau,4309,Klingnau
 2007,4310,Koblenz,4310,Koblenz
 2007,4311,Leibstadt,4311,Leibstadt
 2007,4312,Lengnau (AG),4312,Lengnau (AG)
 2007,4313,Leuggern,4313,Leuggern
 2007,4314,Mellikon,4314,Mellikon
-2007,4315,Rekingen (AG),4315,Rekingen (AG)
-2007,4316,Rietheim,4316,Rietheim
-2007,4317,Rümikon,4317,Rümikon
+2007,4315,Rekingen (AG),4324,Zurzach
+2007,4316,Rietheim,4324,Zurzach
+2007,4317,Rümikon,4324,Zurzach
 2007,4318,Schneisingen,4318,Schneisingen
 2007,4319,Siglistorf,4319,Siglistorf
 2007,4320,Tegerfelden,4320,Tegerfelden
 2007,4321,Unterendingen,4305,Endingen
-2007,4322,Wislikofen,4322,Wislikofen
-2007,4323,Bad Zurzach,4323,Bad Zurzach
+2007,4322,Wislikofen,4324,Zurzach
+2007,4323,Bad Zurzach,4324,Zurzach
 2007,4401,Arbon,4401,Arbon
 2007,4406,Dozwil,4406,Dozwil
 2007,4411,Egnach,4411,Egnach
@@ -7797,7 +7797,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
 2007,5786,Les Cullayes,5799,Servion
 2007,5787,Ecoteaux,5805,Oron
-2007,5788,Essertes,5788,Essertes
+2007,5788,Essertes,5805,Oron
 2007,5789,Ferlens (VD),5806,Jorat-Mézières
 2007,5790,Maracon,5790,Maracon
 2007,5791,Mézières (VD),5806,Jorat-Mézières
@@ -7849,13 +7849,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,5871,L'Abbaye,5871,L'Abbaye
 2007,5872,Le Chenit,5872,Le Chenit
 2007,5873,Le Lieu,5873,Le Lieu
-2007,5881,Blonay,5881,Blonay
+2007,5881,Blonay,5892,Blonay - Saint-Légier
 2007,5882,Chardonne,5882,Chardonne
 2007,5883,Corseaux,5883,Corseaux
 2007,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2007,5885,Jongny,5885,Jongny
 2007,5886,Montreux,5886,Montreux
-2007,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2007,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2007,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2007,5890,Vevey,5890,Vevey
 2007,5891,Veytaux,5891,Veytaux
@@ -8618,7 +8618,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,630,Allmendingen,630,Allmendingen
 2008,631,Trimstein,616,Münsingen
 2008,632,Wichtrach,632,Wichtrach
-2008,661,Clavaleyres,661,Clavaleyres
+2008,661,Clavaleyres,2275,Murten
 2008,662,Ferenbalm,662,Ferenbalm
 2008,663,Frauenkappelen,663,Frauenkappelen
 2008,664,Golaten,304,Kallnach
@@ -9128,8 +9128,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,2254,Courtepin,2254,Courtepin
 2008,2257,Cressier (FR),2257,Cressier (FR)
 2008,2258,Fräschels,2258,Fräschels
-2008,2259,Galmiz,2259,Galmiz
-2008,2260,Gempenach,2260,Gempenach
+2008,2259,Galmiz,2275,Murten
+2008,2260,Gempenach,2275,Murten
 2008,2261,Greng,2261,Greng
 2008,2262,Gurmels,2262,Gurmels
 2008,2264,Jeuss,2275,Murten
@@ -9805,10 +9805,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,4091,Auenstein,4091,Auenstein
 2008,4092,Birr,4092,Birr
 2008,4093,Birrhard,4093,Birrhard
-2008,4094,Bözen,4094,Bözen
+2008,4094,Bözen,4185,Böztal
 2008,4095,Brugg,4095,Brugg
-2008,4096,Effingen,4096,Effingen
-2008,4097,Elfingen,4097,Elfingen
+2008,4096,Effingen,4185,Böztal
+2008,4097,Elfingen,4185,Böztal
 2008,4098,Gallenkirch,4124,Bözberg
 2008,4099,Habsburg,4099,Habsburg
 2008,4100,Hausen (AG),4100,Hausen (AG)
@@ -9856,7 +9856,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,4164,Gansingen,4164,Gansingen
 2008,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2008,4166,Herznach,4166,Herznach
-2008,4167,Hornussen,4167,Hornussen
+2008,4167,Hornussen,4185,Böztal
 2008,4168,Ittenthal,4169,Kaisten
 2008,4169,Kaisten,4169,Kaisten
 2008,4170,Laufenburg,4170,Laufenburg
@@ -9945,29 +9945,29 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,4287,Vordemwald,4287,Vordemwald
 2008,4288,Wiliberg,4288,Wiliberg
 2008,4289,Zofingen,4289,Zofingen
-2008,4301,Baldingen,4301,Baldingen
-2008,4302,Böbikon,4302,Böbikon
+2008,4301,Baldingen,4324,Zurzach
+2008,4302,Böbikon,4324,Zurzach
 2008,4303,Böttstein,4303,Böttstein
 2008,4304,Döttingen,4304,Döttingen
 2008,4305,Endingen,4305,Endingen
 2008,4306,Fisibach,4306,Fisibach
 2008,4307,Full-Reuenthal,4307,Full-Reuenthal
-2008,4308,Kaiserstuhl,4308,Kaiserstuhl
+2008,4308,Kaiserstuhl,4324,Zurzach
 2008,4309,Klingnau,4309,Klingnau
 2008,4310,Koblenz,4310,Koblenz
 2008,4311,Leibstadt,4311,Leibstadt
 2008,4312,Lengnau (AG),4312,Lengnau (AG)
 2008,4313,Leuggern,4313,Leuggern
 2008,4314,Mellikon,4314,Mellikon
-2008,4315,Rekingen (AG),4315,Rekingen (AG)
-2008,4316,Rietheim,4316,Rietheim
-2008,4317,Rümikon,4317,Rümikon
+2008,4315,Rekingen (AG),4324,Zurzach
+2008,4316,Rietheim,4324,Zurzach
+2008,4317,Rümikon,4324,Zurzach
 2008,4318,Schneisingen,4318,Schneisingen
 2008,4319,Siglistorf,4319,Siglistorf
 2008,4320,Tegerfelden,4320,Tegerfelden
 2008,4321,Unterendingen,4305,Endingen
-2008,4322,Wislikofen,4322,Wislikofen
-2008,4323,Bad Zurzach,4323,Bad Zurzach
+2008,4322,Wislikofen,4324,Zurzach
+2008,4323,Bad Zurzach,4324,Zurzach
 2008,4401,Arbon,4401,Arbon
 2008,4406,Dozwil,4406,Dozwil
 2008,4411,Egnach,4411,Egnach
@@ -10520,7 +10520,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
 2008,5786,Les Cullayes,5799,Servion
 2008,5787,Ecoteaux,5805,Oron
-2008,5788,Essertes,5788,Essertes
+2008,5788,Essertes,5805,Oron
 2008,5789,Ferlens (VD),5806,Jorat-Mézières
 2008,5790,Maracon,5790,Maracon
 2008,5791,Mézières (VD),5806,Jorat-Mézières
@@ -10572,13 +10572,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,5871,L'Abbaye,5871,L'Abbaye
 2008,5872,Le Chenit,5872,Le Chenit
 2008,5873,Le Lieu,5873,Le Lieu
-2008,5881,Blonay,5881,Blonay
+2008,5881,Blonay,5892,Blonay - Saint-Légier
 2008,5882,Chardonne,5882,Chardonne
 2008,5883,Corseaux,5883,Corseaux
 2008,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2008,5885,Jongny,5885,Jongny
 2008,5886,Montreux,5886,Montreux
-2008,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2008,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2008,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2008,5890,Vevey,5890,Vevey
 2008,5891,Veytaux,5891,Veytaux
@@ -11339,7 +11339,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,630,Allmendingen,630,Allmendingen
 2009,631,Trimstein,616,Münsingen
 2009,632,Wichtrach,632,Wichtrach
-2009,661,Clavaleyres,661,Clavaleyres
+2009,661,Clavaleyres,2275,Murten
 2009,662,Ferenbalm,662,Ferenbalm
 2009,663,Frauenkappelen,663,Frauenkappelen
 2009,664,Golaten,304,Kallnach
@@ -11838,8 +11838,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,2254,Courtepin,2254,Courtepin
 2009,2257,Cressier (FR),2257,Cressier (FR)
 2009,2258,Fräschels,2258,Fräschels
-2009,2259,Galmiz,2259,Galmiz
-2009,2260,Gempenach,2260,Gempenach
+2009,2259,Galmiz,2275,Murten
+2009,2260,Gempenach,2275,Murten
 2009,2261,Greng,2261,Greng
 2009,2262,Gurmels,2262,Gurmels
 2009,2264,Jeuss,2275,Murten
@@ -12495,10 +12495,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,4091,Auenstein,4091,Auenstein
 2009,4092,Birr,4092,Birr
 2009,4093,Birrhard,4093,Birrhard
-2009,4094,Bözen,4094,Bözen
+2009,4094,Bözen,4185,Böztal
 2009,4095,Brugg,4095,Brugg
-2009,4096,Effingen,4096,Effingen
-2009,4097,Elfingen,4097,Elfingen
+2009,4096,Effingen,4185,Böztal
+2009,4097,Elfingen,4185,Böztal
 2009,4098,Gallenkirch,4124,Bözberg
 2009,4099,Habsburg,4099,Habsburg
 2009,4100,Hausen (AG),4100,Hausen (AG)
@@ -12546,7 +12546,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,4164,Gansingen,4164,Gansingen
 2009,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2009,4166,Herznach,4166,Herznach
-2009,4167,Hornussen,4167,Hornussen
+2009,4167,Hornussen,4185,Böztal
 2009,4168,Ittenthal,4169,Kaisten
 2009,4169,Kaisten,4169,Kaisten
 2009,4170,Laufenburg,4170,Laufenburg
@@ -12635,29 +12635,29 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,4287,Vordemwald,4287,Vordemwald
 2009,4288,Wiliberg,4288,Wiliberg
 2009,4289,Zofingen,4289,Zofingen
-2009,4301,Baldingen,4301,Baldingen
-2009,4302,Böbikon,4302,Böbikon
+2009,4301,Baldingen,4324,Zurzach
+2009,4302,Böbikon,4324,Zurzach
 2009,4303,Böttstein,4303,Böttstein
 2009,4304,Döttingen,4304,Döttingen
 2009,4305,Endingen,4305,Endingen
 2009,4306,Fisibach,4306,Fisibach
 2009,4307,Full-Reuenthal,4307,Full-Reuenthal
-2009,4308,Kaiserstuhl,4308,Kaiserstuhl
+2009,4308,Kaiserstuhl,4324,Zurzach
 2009,4309,Klingnau,4309,Klingnau
 2009,4310,Koblenz,4310,Koblenz
 2009,4311,Leibstadt,4311,Leibstadt
 2009,4312,Lengnau (AG),4312,Lengnau (AG)
 2009,4313,Leuggern,4313,Leuggern
 2009,4314,Mellikon,4314,Mellikon
-2009,4315,Rekingen (AG),4315,Rekingen (AG)
-2009,4316,Rietheim,4316,Rietheim
-2009,4317,Rümikon,4317,Rümikon
+2009,4315,Rekingen (AG),4324,Zurzach
+2009,4316,Rietheim,4324,Zurzach
+2009,4317,Rümikon,4324,Zurzach
 2009,4318,Schneisingen,4318,Schneisingen
 2009,4319,Siglistorf,4319,Siglistorf
 2009,4320,Tegerfelden,4320,Tegerfelden
 2009,4321,Unterendingen,4305,Endingen
-2009,4322,Wislikofen,4322,Wislikofen
-2009,4323,Bad Zurzach,4323,Bad Zurzach
+2009,4322,Wislikofen,4324,Zurzach
+2009,4323,Bad Zurzach,4324,Zurzach
 2009,4401,Arbon,4401,Arbon
 2009,4406,Dozwil,4406,Dozwil
 2009,4411,Egnach,4411,Egnach
@@ -13198,7 +13198,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
 2009,5786,Les Cullayes,5799,Servion
 2009,5787,Ecoteaux,5805,Oron
-2009,5788,Essertes,5788,Essertes
+2009,5788,Essertes,5805,Oron
 2009,5789,Ferlens (VD),5806,Jorat-Mézières
 2009,5790,Maracon,5790,Maracon
 2009,5791,Mézières (VD),5806,Jorat-Mézières
@@ -13250,13 +13250,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,5871,L'Abbaye,5871,L'Abbaye
 2009,5872,Le Chenit,5872,Le Chenit
 2009,5873,Le Lieu,5873,Le Lieu
-2009,5881,Blonay,5881,Blonay
+2009,5881,Blonay,5892,Blonay - Saint-Légier
 2009,5882,Chardonne,5882,Chardonne
 2009,5883,Corseaux,5883,Corseaux
 2009,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2009,5885,Jongny,5885,Jongny
 2009,5886,Montreux,5886,Montreux
-2009,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2009,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2009,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2009,5890,Vevey,5890,Vevey
 2009,5891,Veytaux,5891,Veytaux
@@ -13976,7 +13976,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,630,Allmendingen,630,Allmendingen
 2010,631,Trimstein,616,Münsingen
 2010,632,Wichtrach,632,Wichtrach
-2010,661,Clavaleyres,661,Clavaleyres
+2010,661,Clavaleyres,2275,Murten
 2010,662,Ferenbalm,662,Ferenbalm
 2010,663,Frauenkappelen,663,Frauenkappelen
 2010,664,Golaten,304,Kallnach
@@ -14473,8 +14473,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,2254,Courtepin,2254,Courtepin
 2010,2257,Cressier (FR),2257,Cressier (FR)
 2010,2258,Fräschels,2258,Fräschels
-2010,2259,Galmiz,2259,Galmiz
-2010,2260,Gempenach,2260,Gempenach
+2010,2259,Galmiz,2275,Murten
+2010,2260,Gempenach,2275,Murten
 2010,2261,Greng,2261,Greng
 2010,2262,Gurmels,2262,Gurmels
 2010,2264,Jeuss,2275,Murten
@@ -15114,10 +15114,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,4091,Auenstein,4091,Auenstein
 2010,4092,Birr,4092,Birr
 2010,4093,Birrhard,4093,Birrhard
-2010,4094,Bözen,4094,Bözen
+2010,4094,Bözen,4185,Böztal
 2010,4095,Brugg,4095,Brugg
-2010,4096,Effingen,4096,Effingen
-2010,4097,Elfingen,4097,Elfingen
+2010,4096,Effingen,4185,Böztal
+2010,4097,Elfingen,4185,Böztal
 2010,4098,Gallenkirch,4124,Bözberg
 2010,4099,Habsburg,4099,Habsburg
 2010,4100,Hausen (AG),4100,Hausen (AG)
@@ -15162,7 +15162,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,4164,Gansingen,4164,Gansingen
 2010,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2010,4166,Herznach,4166,Herznach
-2010,4167,Hornussen,4167,Hornussen
+2010,4167,Hornussen,4185,Böztal
 2010,4169,Kaisten,4169,Kaisten
 2010,4170,Laufenburg,4170,Laufenburg
 2010,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -15247,29 +15247,29 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,4287,Vordemwald,4287,Vordemwald
 2010,4288,Wiliberg,4288,Wiliberg
 2010,4289,Zofingen,4289,Zofingen
-2010,4301,Baldingen,4301,Baldingen
-2010,4302,Böbikon,4302,Böbikon
+2010,4301,Baldingen,4324,Zurzach
+2010,4302,Böbikon,4324,Zurzach
 2010,4303,Böttstein,4303,Böttstein
 2010,4304,Döttingen,4304,Döttingen
 2010,4305,Endingen,4305,Endingen
 2010,4306,Fisibach,4306,Fisibach
 2010,4307,Full-Reuenthal,4307,Full-Reuenthal
-2010,4308,Kaiserstuhl,4308,Kaiserstuhl
+2010,4308,Kaiserstuhl,4324,Zurzach
 2010,4309,Klingnau,4309,Klingnau
 2010,4310,Koblenz,4310,Koblenz
 2010,4311,Leibstadt,4311,Leibstadt
 2010,4312,Lengnau (AG),4312,Lengnau (AG)
 2010,4313,Leuggern,4313,Leuggern
 2010,4314,Mellikon,4314,Mellikon
-2010,4315,Rekingen (AG),4315,Rekingen (AG)
-2010,4316,Rietheim,4316,Rietheim
-2010,4317,Rümikon,4317,Rümikon
+2010,4315,Rekingen (AG),4324,Zurzach
+2010,4316,Rietheim,4324,Zurzach
+2010,4317,Rümikon,4324,Zurzach
 2010,4318,Schneisingen,4318,Schneisingen
 2010,4319,Siglistorf,4319,Siglistorf
 2010,4320,Tegerfelden,4320,Tegerfelden
 2010,4321,Unterendingen,4305,Endingen
-2010,4322,Wislikofen,4322,Wislikofen
-2010,4323,Bad Zurzach,4323,Bad Zurzach
+2010,4322,Wislikofen,4324,Zurzach
+2010,4323,Bad Zurzach,4324,Zurzach
 2010,4401,Arbon,4401,Arbon
 2010,4406,Dozwil,4406,Dozwil
 2010,4411,Egnach,4411,Egnach
@@ -15798,7 +15798,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
 2010,5786,Les Cullayes,5799,Servion
 2010,5787,Ecoteaux,5805,Oron
-2010,5788,Essertes,5788,Essertes
+2010,5788,Essertes,5805,Oron
 2010,5789,Ferlens (VD),5806,Jorat-Mézières
 2010,5790,Maracon,5790,Maracon
 2010,5791,Mézières (VD),5806,Jorat-Mézières
@@ -15850,13 +15850,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,5871,L'Abbaye,5871,L'Abbaye
 2010,5872,Le Chenit,5872,Le Chenit
 2010,5873,Le Lieu,5873,Le Lieu
-2010,5881,Blonay,5881,Blonay
+2010,5881,Blonay,5892,Blonay - Saint-Légier
 2010,5882,Chardonne,5882,Chardonne
 2010,5883,Corseaux,5883,Corseaux
 2010,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2010,5885,Jongny,5885,Jongny
 2010,5886,Montreux,5886,Montreux
-2010,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2010,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2010,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2010,5890,Vevey,5890,Vevey
 2010,5891,Veytaux,5891,Veytaux
@@ -16573,7 +16573,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,630,Allmendingen,630,Allmendingen
 2011,631,Trimstein,616,Münsingen
 2011,632,Wichtrach,632,Wichtrach
-2011,661,Clavaleyres,661,Clavaleyres
+2011,661,Clavaleyres,2275,Murten
 2011,662,Ferenbalm,662,Ferenbalm
 2011,663,Frauenkappelen,663,Frauenkappelen
 2011,664,Golaten,304,Kallnach
@@ -17045,8 +17045,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,2254,Courtepin,2254,Courtepin
 2011,2257,Cressier (FR),2257,Cressier (FR)
 2011,2258,Fräschels,2258,Fräschels
-2011,2259,Galmiz,2259,Galmiz
-2011,2260,Gempenach,2260,Gempenach
+2011,2259,Galmiz,2275,Murten
+2011,2260,Gempenach,2275,Murten
 2011,2261,Greng,2261,Greng
 2011,2262,Gurmels,2262,Gurmels
 2011,2264,Jeuss,2275,Murten
@@ -17683,10 +17683,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,4091,Auenstein,4091,Auenstein
 2011,4092,Birr,4092,Birr
 2011,4093,Birrhard,4093,Birrhard
-2011,4094,Bözen,4094,Bözen
+2011,4094,Bözen,4185,Böztal
 2011,4095,Brugg,4095,Brugg
-2011,4096,Effingen,4096,Effingen
-2011,4097,Elfingen,4097,Elfingen
+2011,4096,Effingen,4185,Böztal
+2011,4097,Elfingen,4185,Böztal
 2011,4098,Gallenkirch,4124,Bözberg
 2011,4099,Habsburg,4099,Habsburg
 2011,4100,Hausen (AG),4100,Hausen (AG)
@@ -17731,7 +17731,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,4164,Gansingen,4164,Gansingen
 2011,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2011,4166,Herznach,4166,Herznach
-2011,4167,Hornussen,4167,Hornussen
+2011,4167,Hornussen,4185,Böztal
 2011,4169,Kaisten,4169,Kaisten
 2011,4170,Laufenburg,4170,Laufenburg
 2011,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -17816,29 +17816,29 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,4287,Vordemwald,4287,Vordemwald
 2011,4288,Wiliberg,4288,Wiliberg
 2011,4289,Zofingen,4289,Zofingen
-2011,4301,Baldingen,4301,Baldingen
-2011,4302,Böbikon,4302,Böbikon
+2011,4301,Baldingen,4324,Zurzach
+2011,4302,Böbikon,4324,Zurzach
 2011,4303,Böttstein,4303,Böttstein
 2011,4304,Döttingen,4304,Döttingen
 2011,4305,Endingen,4305,Endingen
 2011,4306,Fisibach,4306,Fisibach
 2011,4307,Full-Reuenthal,4307,Full-Reuenthal
-2011,4308,Kaiserstuhl,4308,Kaiserstuhl
+2011,4308,Kaiserstuhl,4324,Zurzach
 2011,4309,Klingnau,4309,Klingnau
 2011,4310,Koblenz,4310,Koblenz
 2011,4311,Leibstadt,4311,Leibstadt
 2011,4312,Lengnau (AG),4312,Lengnau (AG)
 2011,4313,Leuggern,4313,Leuggern
 2011,4314,Mellikon,4314,Mellikon
-2011,4315,Rekingen (AG),4315,Rekingen (AG)
-2011,4316,Rietheim,4316,Rietheim
-2011,4317,Rümikon,4317,Rümikon
+2011,4315,Rekingen (AG),4324,Zurzach
+2011,4316,Rietheim,4324,Zurzach
+2011,4317,Rümikon,4324,Zurzach
 2011,4318,Schneisingen,4318,Schneisingen
 2011,4319,Siglistorf,4319,Siglistorf
 2011,4320,Tegerfelden,4320,Tegerfelden
 2011,4321,Unterendingen,4305,Endingen
-2011,4322,Wislikofen,4322,Wislikofen
-2011,4323,Bad Zurzach,4323,Bad Zurzach
+2011,4322,Wislikofen,4324,Zurzach
+2011,4323,Bad Zurzach,4324,Zurzach
 2011,4401,Arbon,4401,Arbon
 2011,4406,Dozwil,4406,Dozwil
 2011,4411,Egnach,4411,Egnach
@@ -18355,7 +18355,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
 2011,5786,Les Cullayes,5799,Servion
 2011,5787,Ecoteaux,5805,Oron
-2011,5788,Essertes,5788,Essertes
+2011,5788,Essertes,5805,Oron
 2011,5789,Ferlens (VD),5806,Jorat-Mézières
 2011,5790,Maracon,5790,Maracon
 2011,5791,Mézières (VD),5806,Jorat-Mézières
@@ -18407,13 +18407,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,5871,L'Abbaye,5871,L'Abbaye
 2011,5872,Le Chenit,5872,Le Chenit
 2011,5873,Le Lieu,5873,Le Lieu
-2011,5881,Blonay,5881,Blonay
+2011,5881,Blonay,5892,Blonay - Saint-Légier
 2011,5882,Chardonne,5882,Chardonne
 2011,5883,Corseaux,5883,Corseaux
 2011,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2011,5885,Jongny,5885,Jongny
 2011,5886,Montreux,5886,Montreux
-2011,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2011,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2011,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2011,5890,Vevey,5890,Vevey
 2011,5891,Veytaux,5891,Veytaux
@@ -19128,7 +19128,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,630,Allmendingen,630,Allmendingen
 2012,631,Trimstein,616,Münsingen
 2012,632,Wichtrach,632,Wichtrach
-2012,661,Clavaleyres,661,Clavaleyres
+2012,661,Clavaleyres,2275,Murten
 2012,662,Ferenbalm,662,Ferenbalm
 2012,663,Frauenkappelen,663,Frauenkappelen
 2012,664,Golaten,304,Kallnach
@@ -19597,8 +19597,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,2254,Courtepin,2254,Courtepin
 2012,2257,Cressier (FR),2257,Cressier (FR)
 2012,2258,Fräschels,2258,Fräschels
-2012,2259,Galmiz,2259,Galmiz
-2012,2260,Gempenach,2260,Gempenach
+2012,2259,Galmiz,2275,Murten
+2012,2260,Gempenach,2275,Murten
 2012,2261,Greng,2261,Greng
 2012,2262,Gurmels,2262,Gurmels
 2012,2264,Jeuss,2275,Murten
@@ -20232,10 +20232,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,4091,Auenstein,4091,Auenstein
 2012,4092,Birr,4092,Birr
 2012,4093,Birrhard,4093,Birrhard
-2012,4094,Bözen,4094,Bözen
+2012,4094,Bözen,4185,Böztal
 2012,4095,Brugg,4095,Brugg
-2012,4096,Effingen,4096,Effingen
-2012,4097,Elfingen,4097,Elfingen
+2012,4096,Effingen,4185,Böztal
+2012,4097,Elfingen,4185,Böztal
 2012,4098,Gallenkirch,4124,Bözberg
 2012,4099,Habsburg,4099,Habsburg
 2012,4100,Hausen (AG),4100,Hausen (AG)
@@ -20280,7 +20280,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,4164,Gansingen,4164,Gansingen
 2012,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2012,4166,Herznach,4166,Herznach
-2012,4167,Hornussen,4167,Hornussen
+2012,4167,Hornussen,4185,Böztal
 2012,4169,Kaisten,4169,Kaisten
 2012,4170,Laufenburg,4170,Laufenburg
 2012,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -20364,29 +20364,29 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,4287,Vordemwald,4287,Vordemwald
 2012,4288,Wiliberg,4288,Wiliberg
 2012,4289,Zofingen,4289,Zofingen
-2012,4301,Baldingen,4301,Baldingen
-2012,4302,Böbikon,4302,Böbikon
+2012,4301,Baldingen,4324,Zurzach
+2012,4302,Böbikon,4324,Zurzach
 2012,4303,Böttstein,4303,Böttstein
 2012,4304,Döttingen,4304,Döttingen
 2012,4305,Endingen,4305,Endingen
 2012,4306,Fisibach,4306,Fisibach
 2012,4307,Full-Reuenthal,4307,Full-Reuenthal
-2012,4308,Kaiserstuhl,4308,Kaiserstuhl
+2012,4308,Kaiserstuhl,4324,Zurzach
 2012,4309,Klingnau,4309,Klingnau
 2012,4310,Koblenz,4310,Koblenz
 2012,4311,Leibstadt,4311,Leibstadt
 2012,4312,Lengnau (AG),4312,Lengnau (AG)
 2012,4313,Leuggern,4313,Leuggern
 2012,4314,Mellikon,4314,Mellikon
-2012,4315,Rekingen (AG),4315,Rekingen (AG)
-2012,4316,Rietheim,4316,Rietheim
-2012,4317,Rümikon,4317,Rümikon
+2012,4315,Rekingen (AG),4324,Zurzach
+2012,4316,Rietheim,4324,Zurzach
+2012,4317,Rümikon,4324,Zurzach
 2012,4318,Schneisingen,4318,Schneisingen
 2012,4319,Siglistorf,4319,Siglistorf
 2012,4320,Tegerfelden,4320,Tegerfelden
 2012,4321,Unterendingen,4305,Endingen
-2012,4322,Wislikofen,4322,Wislikofen
-2012,4323,Bad Zurzach,4323,Bad Zurzach
+2012,4322,Wislikofen,4324,Zurzach
+2012,4323,Bad Zurzach,4324,Zurzach
 2012,4401,Arbon,4401,Arbon
 2012,4406,Dozwil,4406,Dozwil
 2012,4411,Egnach,4411,Egnach
@@ -20870,7 +20870,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,5766,Vuiteboeuf,5766,Vuiteboeuf
 2012,5782,Carrouge (VD),5806,Jorat-Mézières
 2012,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
-2012,5788,Essertes,5788,Essertes
+2012,5788,Essertes,5805,Oron
 2012,5789,Ferlens (VD),5806,Jorat-Mézières
 2012,5790,Maracon,5790,Maracon
 2012,5791,Mézières (VD),5806,Jorat-Mézières
@@ -20910,13 +20910,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,5871,L'Abbaye,5871,L'Abbaye
 2012,5872,Le Chenit,5872,Le Chenit
 2012,5873,Le Lieu,5873,Le Lieu
-2012,5881,Blonay,5881,Blonay
+2012,5881,Blonay,5892,Blonay - Saint-Légier
 2012,5882,Chardonne,5882,Chardonne
 2012,5883,Corseaux,5883,Corseaux
 2012,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2012,5885,Jongny,5885,Jongny
 2012,5886,Montreux,5886,Montreux
-2012,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2012,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2012,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2012,5890,Vevey,5890,Vevey
 2012,5891,Veytaux,5891,Veytaux
@@ -21624,7 +21624,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,629,Oberhünigen,629,Oberhünigen
 2013,630,Allmendingen,630,Allmendingen
 2013,632,Wichtrach,632,Wichtrach
-2013,661,Clavaleyres,661,Clavaleyres
+2013,661,Clavaleyres,2275,Murten
 2013,662,Ferenbalm,662,Ferenbalm
 2013,663,Frauenkappelen,663,Frauenkappelen
 2013,664,Golaten,304,Kallnach
@@ -22088,8 +22088,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,2254,Courtepin,2254,Courtepin
 2013,2257,Cressier (FR),2257,Cressier (FR)
 2013,2258,Fräschels,2258,Fräschels
-2013,2259,Galmiz,2259,Galmiz
-2013,2260,Gempenach,2260,Gempenach
+2013,2259,Galmiz,2275,Murten
+2013,2260,Gempenach,2275,Murten
 2013,2261,Greng,2261,Greng
 2013,2262,Gurmels,2262,Gurmels
 2013,2264,Jeuss,2275,Murten
@@ -22694,10 +22694,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,4091,Auenstein,4091,Auenstein
 2013,4092,Birr,4092,Birr
 2013,4093,Birrhard,4093,Birrhard
-2013,4094,Bözen,4094,Bözen
+2013,4094,Bözen,4185,Böztal
 2013,4095,Brugg,4095,Brugg
-2013,4096,Effingen,4096,Effingen
-2013,4097,Elfingen,4097,Elfingen
+2013,4096,Effingen,4185,Böztal
+2013,4097,Elfingen,4185,Böztal
 2013,4099,Habsburg,4099,Habsburg
 2013,4100,Hausen (AG),4100,Hausen (AG)
 2013,4104,Lupfig,4104,Lupfig
@@ -22739,7 +22739,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,4164,Gansingen,4164,Gansingen
 2013,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2013,4166,Herznach,4166,Herznach
-2013,4167,Hornussen,4167,Hornussen
+2013,4167,Hornussen,4185,Böztal
 2013,4169,Kaisten,4169,Kaisten
 2013,4170,Laufenburg,4170,Laufenburg
 2013,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -22823,29 +22823,29 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,4287,Vordemwald,4287,Vordemwald
 2013,4288,Wiliberg,4288,Wiliberg
 2013,4289,Zofingen,4289,Zofingen
-2013,4301,Baldingen,4301,Baldingen
-2013,4302,Böbikon,4302,Böbikon
+2013,4301,Baldingen,4324,Zurzach
+2013,4302,Böbikon,4324,Zurzach
 2013,4303,Böttstein,4303,Böttstein
 2013,4304,Döttingen,4304,Döttingen
 2013,4305,Endingen,4305,Endingen
 2013,4306,Fisibach,4306,Fisibach
 2013,4307,Full-Reuenthal,4307,Full-Reuenthal
-2013,4308,Kaiserstuhl,4308,Kaiserstuhl
+2013,4308,Kaiserstuhl,4324,Zurzach
 2013,4309,Klingnau,4309,Klingnau
 2013,4310,Koblenz,4310,Koblenz
 2013,4311,Leibstadt,4311,Leibstadt
 2013,4312,Lengnau (AG),4312,Lengnau (AG)
 2013,4313,Leuggern,4313,Leuggern
 2013,4314,Mellikon,4314,Mellikon
-2013,4315,Rekingen (AG),4315,Rekingen (AG)
-2013,4316,Rietheim,4316,Rietheim
-2013,4317,Rümikon,4317,Rümikon
+2013,4315,Rekingen (AG),4324,Zurzach
+2013,4316,Rietheim,4324,Zurzach
+2013,4317,Rümikon,4324,Zurzach
 2013,4318,Schneisingen,4318,Schneisingen
 2013,4319,Siglistorf,4319,Siglistorf
 2013,4320,Tegerfelden,4320,Tegerfelden
 2013,4321,Unterendingen,4305,Endingen
-2013,4322,Wislikofen,4322,Wislikofen
-2013,4323,Bad Zurzach,4323,Bad Zurzach
+2013,4322,Wislikofen,4324,Zurzach
+2013,4323,Bad Zurzach,4324,Zurzach
 2013,4401,Arbon,4401,Arbon
 2013,4406,Dozwil,4406,Dozwil
 2013,4411,Egnach,4411,Egnach
@@ -23312,7 +23312,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,5766,Vuiteboeuf,5766,Vuiteboeuf
 2013,5782,Carrouge (VD),5806,Jorat-Mézières
 2013,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
-2013,5788,Essertes,5788,Essertes
+2013,5788,Essertes,5805,Oron
 2013,5789,Ferlens (VD),5806,Jorat-Mézières
 2013,5790,Maracon,5790,Maracon
 2013,5791,Mézières (VD),5806,Jorat-Mézières
@@ -23352,13 +23352,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,5871,L'Abbaye,5871,L'Abbaye
 2013,5872,Le Chenit,5872,Le Chenit
 2013,5873,Le Lieu,5873,Le Lieu
-2013,5881,Blonay,5881,Blonay
+2013,5881,Blonay,5892,Blonay - Saint-Légier
 2013,5882,Chardonne,5882,Chardonne
 2013,5883,Corseaux,5883,Corseaux
 2013,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2013,5885,Jongny,5885,Jongny
 2013,5886,Montreux,5886,Montreux
-2013,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2013,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2013,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2013,5890,Vevey,5890,Vevey
 2013,5891,Veytaux,5891,Veytaux
@@ -24024,7 +24024,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,629,Oberhünigen,629,Oberhünigen
 2014,630,Allmendingen,630,Allmendingen
 2014,632,Wichtrach,632,Wichtrach
-2014,661,Clavaleyres,661,Clavaleyres
+2014,661,Clavaleyres,2275,Murten
 2014,662,Ferenbalm,662,Ferenbalm
 2014,663,Frauenkappelen,663,Frauenkappelen
 2014,664,Golaten,304,Kallnach
@@ -24481,8 +24481,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,2254,Courtepin,2254,Courtepin
 2014,2257,Cressier (FR),2257,Cressier (FR)
 2014,2258,Fräschels,2258,Fräschels
-2014,2259,Galmiz,2259,Galmiz
-2014,2260,Gempenach,2260,Gempenach
+2014,2259,Galmiz,2275,Murten
+2014,2260,Gempenach,2275,Murten
 2014,2261,Greng,2261,Greng
 2014,2262,Gurmels,2262,Gurmels
 2014,2264,Jeuss,2275,Murten
@@ -25065,10 +25065,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,4091,Auenstein,4091,Auenstein
 2014,4092,Birr,4092,Birr
 2014,4093,Birrhard,4093,Birrhard
-2014,4094,Bözen,4094,Bözen
+2014,4094,Bözen,4185,Böztal
 2014,4095,Brugg,4095,Brugg
-2014,4096,Effingen,4096,Effingen
-2014,4097,Elfingen,4097,Elfingen
+2014,4096,Effingen,4185,Böztal
+2014,4097,Elfingen,4185,Böztal
 2014,4099,Habsburg,4099,Habsburg
 2014,4100,Hausen (AG),4100,Hausen (AG)
 2014,4104,Lupfig,4104,Lupfig
@@ -25109,7 +25109,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,4164,Gansingen,4164,Gansingen
 2014,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2014,4166,Herznach,4166,Herznach
-2014,4167,Hornussen,4167,Hornussen
+2014,4167,Hornussen,4185,Böztal
 2014,4169,Kaisten,4169,Kaisten
 2014,4170,Laufenburg,4170,Laufenburg
 2014,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -25193,28 +25193,28 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,4287,Vordemwald,4287,Vordemwald
 2014,4288,Wiliberg,4288,Wiliberg
 2014,4289,Zofingen,4289,Zofingen
-2014,4301,Baldingen,4301,Baldingen
-2014,4302,Böbikon,4302,Böbikon
+2014,4301,Baldingen,4324,Zurzach
+2014,4302,Böbikon,4324,Zurzach
 2014,4303,Böttstein,4303,Böttstein
 2014,4304,Döttingen,4304,Döttingen
 2014,4305,Endingen,4305,Endingen
 2014,4306,Fisibach,4306,Fisibach
 2014,4307,Full-Reuenthal,4307,Full-Reuenthal
-2014,4308,Kaiserstuhl,4308,Kaiserstuhl
+2014,4308,Kaiserstuhl,4324,Zurzach
 2014,4309,Klingnau,4309,Klingnau
 2014,4310,Koblenz,4310,Koblenz
 2014,4311,Leibstadt,4311,Leibstadt
 2014,4312,Lengnau (AG),4312,Lengnau (AG)
 2014,4313,Leuggern,4313,Leuggern
 2014,4314,Mellikon,4314,Mellikon
-2014,4315,Rekingen (AG),4315,Rekingen (AG)
-2014,4316,Rietheim,4316,Rietheim
-2014,4317,Rümikon,4317,Rümikon
+2014,4315,Rekingen (AG),4324,Zurzach
+2014,4316,Rietheim,4324,Zurzach
+2014,4317,Rümikon,4324,Zurzach
 2014,4318,Schneisingen,4318,Schneisingen
 2014,4319,Siglistorf,4319,Siglistorf
 2014,4320,Tegerfelden,4320,Tegerfelden
-2014,4322,Wislikofen,4322,Wislikofen
-2014,4323,Bad Zurzach,4323,Bad Zurzach
+2014,4322,Wislikofen,4324,Zurzach
+2014,4323,Bad Zurzach,4324,Zurzach
 2014,4401,Arbon,4401,Arbon
 2014,4406,Dozwil,4406,Dozwil
 2014,4411,Egnach,4411,Egnach
@@ -25669,7 +25669,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,5766,Vuiteboeuf,5766,Vuiteboeuf
 2014,5782,Carrouge (VD),5806,Jorat-Mézières
 2014,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
-2014,5788,Essertes,5788,Essertes
+2014,5788,Essertes,5805,Oron
 2014,5789,Ferlens (VD),5806,Jorat-Mézières
 2014,5790,Maracon,5790,Maracon
 2014,5791,Mézières (VD),5806,Jorat-Mézières
@@ -25709,13 +25709,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,5871,L'Abbaye,5871,L'Abbaye
 2014,5872,Le Chenit,5872,Le Chenit
 2014,5873,Le Lieu,5873,Le Lieu
-2014,5881,Blonay,5881,Blonay
+2014,5881,Blonay,5892,Blonay - Saint-Légier
 2014,5882,Chardonne,5882,Chardonne
 2014,5883,Corseaux,5883,Corseaux
 2014,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2014,5885,Jongny,5885,Jongny
 2014,5886,Montreux,5886,Montreux
-2014,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2014,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2014,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2014,5890,Vevey,5890,Vevey
 2014,5891,Veytaux,5891,Veytaux
@@ -26378,7 +26378,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,629,Oberhünigen,629,Oberhünigen
 2015,630,Allmendingen,630,Allmendingen
 2015,632,Wichtrach,632,Wichtrach
-2015,661,Clavaleyres,661,Clavaleyres
+2015,661,Clavaleyres,2275,Murten
 2015,662,Ferenbalm,662,Ferenbalm
 2015,663,Frauenkappelen,663,Frauenkappelen
 2015,664,Golaten,304,Kallnach
@@ -26830,8 +26830,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,2254,Courtepin,2254,Courtepin
 2015,2257,Cressier (FR),2257,Cressier (FR)
 2015,2258,Fräschels,2258,Fräschels
-2015,2259,Galmiz,2259,Galmiz
-2015,2260,Gempenach,2260,Gempenach
+2015,2259,Galmiz,2275,Murten
+2015,2260,Gempenach,2275,Murten
 2015,2261,Greng,2261,Greng
 2015,2262,Gurmels,2262,Gurmels
 2015,2264,Jeuss,2275,Murten
@@ -27393,10 +27393,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,4091,Auenstein,4091,Auenstein
 2015,4092,Birr,4092,Birr
 2015,4093,Birrhard,4093,Birrhard
-2015,4094,Bözen,4094,Bözen
+2015,4094,Bözen,4185,Böztal
 2015,4095,Brugg,4095,Brugg
-2015,4096,Effingen,4096,Effingen
-2015,4097,Elfingen,4097,Elfingen
+2015,4096,Effingen,4185,Böztal
+2015,4097,Elfingen,4185,Böztal
 2015,4099,Habsburg,4099,Habsburg
 2015,4100,Hausen (AG),4100,Hausen (AG)
 2015,4104,Lupfig,4104,Lupfig
@@ -27437,7 +27437,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,4164,Gansingen,4164,Gansingen
 2015,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2015,4166,Herznach,4166,Herznach
-2015,4167,Hornussen,4167,Hornussen
+2015,4167,Hornussen,4185,Böztal
 2015,4169,Kaisten,4169,Kaisten
 2015,4170,Laufenburg,4170,Laufenburg
 2015,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -27521,28 +27521,28 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,4287,Vordemwald,4287,Vordemwald
 2015,4288,Wiliberg,4288,Wiliberg
 2015,4289,Zofingen,4289,Zofingen
-2015,4301,Baldingen,4301,Baldingen
-2015,4302,Böbikon,4302,Böbikon
+2015,4301,Baldingen,4324,Zurzach
+2015,4302,Böbikon,4324,Zurzach
 2015,4303,Böttstein,4303,Böttstein
 2015,4304,Döttingen,4304,Döttingen
 2015,4305,Endingen,4305,Endingen
 2015,4306,Fisibach,4306,Fisibach
 2015,4307,Full-Reuenthal,4307,Full-Reuenthal
-2015,4308,Kaiserstuhl,4308,Kaiserstuhl
+2015,4308,Kaiserstuhl,4324,Zurzach
 2015,4309,Klingnau,4309,Klingnau
 2015,4310,Koblenz,4310,Koblenz
 2015,4311,Leibstadt,4311,Leibstadt
 2015,4312,Lengnau (AG),4312,Lengnau (AG)
 2015,4313,Leuggern,4313,Leuggern
 2015,4314,Mellikon,4314,Mellikon
-2015,4315,Rekingen (AG),4315,Rekingen (AG)
-2015,4316,Rietheim,4316,Rietheim
-2015,4317,Rümikon,4317,Rümikon
+2015,4315,Rekingen (AG),4324,Zurzach
+2015,4316,Rietheim,4324,Zurzach
+2015,4317,Rümikon,4324,Zurzach
 2015,4318,Schneisingen,4318,Schneisingen
 2015,4319,Siglistorf,4319,Siglistorf
 2015,4320,Tegerfelden,4320,Tegerfelden
-2015,4322,Wislikofen,4322,Wislikofen
-2015,4323,Bad Zurzach,4323,Bad Zurzach
+2015,4322,Wislikofen,4324,Zurzach
+2015,4323,Bad Zurzach,4324,Zurzach
 2015,4401,Arbon,4401,Arbon
 2015,4406,Dozwil,4406,Dozwil
 2015,4411,Egnach,4411,Egnach
@@ -27997,7 +27997,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,5766,Vuiteboeuf,5766,Vuiteboeuf
 2015,5782,Carrouge (VD),5806,Jorat-Mézières
 2015,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
-2015,5788,Essertes,5788,Essertes
+2015,5788,Essertes,5805,Oron
 2015,5789,Ferlens (VD),5806,Jorat-Mézières
 2015,5790,Maracon,5790,Maracon
 2015,5791,Mézières (VD),5806,Jorat-Mézières
@@ -28037,13 +28037,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,5871,L'Abbaye,5871,L'Abbaye
 2015,5872,Le Chenit,5872,Le Chenit
 2015,5873,Le Lieu,5873,Le Lieu
-2015,5881,Blonay,5881,Blonay
+2015,5881,Blonay,5892,Blonay - Saint-Légier
 2015,5882,Chardonne,5882,Chardonne
 2015,5883,Corseaux,5883,Corseaux
 2015,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2015,5885,Jongny,5885,Jongny
 2015,5886,Montreux,5886,Montreux
-2015,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2015,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2015,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2015,5890,Vevey,5890,Vevey
 2015,5891,Veytaux,5891,Veytaux
@@ -28702,7 +28702,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,629,Oberhünigen,629,Oberhünigen
 2016,630,Allmendingen,630,Allmendingen
 2016,632,Wichtrach,632,Wichtrach
-2016,661,Clavaleyres,661,Clavaleyres
+2016,661,Clavaleyres,2275,Murten
 2016,662,Ferenbalm,662,Ferenbalm
 2016,663,Frauenkappelen,663,Frauenkappelen
 2016,664,Golaten,304,Kallnach
@@ -29144,8 +29144,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,2254,Courtepin,2254,Courtepin
 2016,2257,Cressier (FR),2257,Cressier (FR)
 2016,2258,Fräschels,2258,Fräschels
-2016,2259,Galmiz,2259,Galmiz
-2016,2260,Gempenach,2260,Gempenach
+2016,2259,Galmiz,2275,Murten
+2016,2260,Gempenach,2275,Murten
 2016,2261,Greng,2261,Greng
 2016,2262,Gurmels,2262,Gurmels
 2016,2265,Kerzers,2265,Kerzers
@@ -29692,10 +29692,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,4091,Auenstein,4091,Auenstein
 2016,4092,Birr,4092,Birr
 2016,4093,Birrhard,4093,Birrhard
-2016,4094,Bözen,4094,Bözen
+2016,4094,Bözen,4185,Böztal
 2016,4095,Brugg,4095,Brugg
-2016,4096,Effingen,4096,Effingen
-2016,4097,Elfingen,4097,Elfingen
+2016,4096,Effingen,4185,Böztal
+2016,4097,Elfingen,4185,Böztal
 2016,4099,Habsburg,4099,Habsburg
 2016,4100,Hausen (AG),4100,Hausen (AG)
 2016,4104,Lupfig,4104,Lupfig
@@ -29736,7 +29736,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,4164,Gansingen,4164,Gansingen
 2016,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2016,4166,Herznach,4166,Herznach
-2016,4167,Hornussen,4167,Hornussen
+2016,4167,Hornussen,4185,Böztal
 2016,4169,Kaisten,4169,Kaisten
 2016,4170,Laufenburg,4170,Laufenburg
 2016,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -29820,28 +29820,28 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,4287,Vordemwald,4287,Vordemwald
 2016,4288,Wiliberg,4288,Wiliberg
 2016,4289,Zofingen,4289,Zofingen
-2016,4301,Baldingen,4301,Baldingen
-2016,4302,Böbikon,4302,Böbikon
+2016,4301,Baldingen,4324,Zurzach
+2016,4302,Böbikon,4324,Zurzach
 2016,4303,Böttstein,4303,Böttstein
 2016,4304,Döttingen,4304,Döttingen
 2016,4305,Endingen,4305,Endingen
 2016,4306,Fisibach,4306,Fisibach
 2016,4307,Full-Reuenthal,4307,Full-Reuenthal
-2016,4308,Kaiserstuhl,4308,Kaiserstuhl
+2016,4308,Kaiserstuhl,4324,Zurzach
 2016,4309,Klingnau,4309,Klingnau
 2016,4310,Koblenz,4310,Koblenz
 2016,4311,Leibstadt,4311,Leibstadt
 2016,4312,Lengnau (AG),4312,Lengnau (AG)
 2016,4313,Leuggern,4313,Leuggern
 2016,4314,Mellikon,4314,Mellikon
-2016,4315,Rekingen (AG),4315,Rekingen (AG)
-2016,4316,Rietheim,4316,Rietheim
-2016,4317,Rümikon,4317,Rümikon
+2016,4315,Rekingen (AG),4324,Zurzach
+2016,4316,Rietheim,4324,Zurzach
+2016,4317,Rümikon,4324,Zurzach
 2016,4318,Schneisingen,4318,Schneisingen
 2016,4319,Siglistorf,4319,Siglistorf
 2016,4320,Tegerfelden,4320,Tegerfelden
-2016,4322,Wislikofen,4322,Wislikofen
-2016,4323,Bad Zurzach,4323,Bad Zurzach
+2016,4322,Wislikofen,4324,Zurzach
+2016,4323,Bad Zurzach,4324,Zurzach
 2016,4401,Arbon,4401,Arbon
 2016,4406,Dozwil,4406,Dozwil
 2016,4411,Egnach,4411,Egnach
@@ -30296,7 +30296,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,5766,Vuiteboeuf,5766,Vuiteboeuf
 2016,5782,Carrouge (VD),5806,Jorat-Mézières
 2016,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
-2016,5788,Essertes,5788,Essertes
+2016,5788,Essertes,5805,Oron
 2016,5789,Ferlens (VD),5806,Jorat-Mézières
 2016,5790,Maracon,5790,Maracon
 2016,5791,Mézières (VD),5806,Jorat-Mézières
@@ -30336,13 +30336,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,5871,L'Abbaye,5871,L'Abbaye
 2016,5872,Le Chenit,5872,Le Chenit
 2016,5873,Le Lieu,5873,Le Lieu
-2016,5881,Blonay,5881,Blonay
+2016,5881,Blonay,5892,Blonay - Saint-Légier
 2016,5882,Chardonne,5882,Chardonne
 2016,5883,Corseaux,5883,Corseaux
 2016,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2016,5885,Jongny,5885,Jongny
 2016,5886,Montreux,5886,Montreux
-2016,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2016,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2016,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2016,5890,Vevey,5890,Vevey
 2016,5891,Veytaux,5891,Veytaux
@@ -30999,7 +30999,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,629,Oberhünigen,629,Oberhünigen
 2017,630,Allmendingen,630,Allmendingen
 2017,632,Wichtrach,632,Wichtrach
-2017,661,Clavaleyres,661,Clavaleyres
+2017,661,Clavaleyres,2275,Murten
 2017,662,Ferenbalm,662,Ferenbalm
 2017,663,Frauenkappelen,663,Frauenkappelen
 2017,664,Golaten,304,Kallnach
@@ -31431,8 +31431,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,2254,Courtepin,2254,Courtepin
 2017,2257,Cressier (FR),2257,Cressier (FR)
 2017,2258,Fräschels,2258,Fräschels
-2017,2259,Galmiz,2259,Galmiz
-2017,2260,Gempenach,2260,Gempenach
+2017,2259,Galmiz,2275,Murten
+2017,2260,Gempenach,2275,Murten
 2017,2261,Greng,2261,Greng
 2017,2262,Gurmels,2262,Gurmels
 2017,2265,Kerzers,2265,Kerzers
@@ -31973,10 +31973,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,4091,Auenstein,4091,Auenstein
 2017,4092,Birr,4092,Birr
 2017,4093,Birrhard,4093,Birrhard
-2017,4094,Bözen,4094,Bözen
+2017,4094,Bözen,4185,Böztal
 2017,4095,Brugg,4095,Brugg
-2017,4096,Effingen,4096,Effingen
-2017,4097,Elfingen,4097,Elfingen
+2017,4096,Effingen,4185,Böztal
+2017,4097,Elfingen,4185,Böztal
 2017,4099,Habsburg,4099,Habsburg
 2017,4100,Hausen (AG),4100,Hausen (AG)
 2017,4104,Lupfig,4104,Lupfig
@@ -32017,7 +32017,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,4164,Gansingen,4164,Gansingen
 2017,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2017,4166,Herznach,4166,Herznach
-2017,4167,Hornussen,4167,Hornussen
+2017,4167,Hornussen,4185,Böztal
 2017,4169,Kaisten,4169,Kaisten
 2017,4170,Laufenburg,4170,Laufenburg
 2017,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -32101,28 +32101,28 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,4287,Vordemwald,4287,Vordemwald
 2017,4288,Wiliberg,4288,Wiliberg
 2017,4289,Zofingen,4289,Zofingen
-2017,4301,Baldingen,4301,Baldingen
-2017,4302,Böbikon,4302,Böbikon
+2017,4301,Baldingen,4324,Zurzach
+2017,4302,Böbikon,4324,Zurzach
 2017,4303,Böttstein,4303,Böttstein
 2017,4304,Döttingen,4304,Döttingen
 2017,4305,Endingen,4305,Endingen
 2017,4306,Fisibach,4306,Fisibach
 2017,4307,Full-Reuenthal,4307,Full-Reuenthal
-2017,4308,Kaiserstuhl,4308,Kaiserstuhl
+2017,4308,Kaiserstuhl,4324,Zurzach
 2017,4309,Klingnau,4309,Klingnau
 2017,4310,Koblenz,4310,Koblenz
 2017,4311,Leibstadt,4311,Leibstadt
 2017,4312,Lengnau (AG),4312,Lengnau (AG)
 2017,4313,Leuggern,4313,Leuggern
 2017,4314,Mellikon,4314,Mellikon
-2017,4315,Rekingen (AG),4315,Rekingen (AG)
-2017,4316,Rietheim,4316,Rietheim
-2017,4317,Rümikon,4317,Rümikon
+2017,4315,Rekingen (AG),4324,Zurzach
+2017,4316,Rietheim,4324,Zurzach
+2017,4317,Rümikon,4324,Zurzach
 2017,4318,Schneisingen,4318,Schneisingen
 2017,4319,Siglistorf,4319,Siglistorf
 2017,4320,Tegerfelden,4320,Tegerfelden
-2017,4322,Wislikofen,4322,Wislikofen
-2017,4323,Bad Zurzach,4323,Bad Zurzach
+2017,4322,Wislikofen,4324,Zurzach
+2017,4323,Bad Zurzach,4324,Zurzach
 2017,4401,Arbon,4401,Arbon
 2017,4406,Dozwil,4406,Dozwil
 2017,4411,Egnach,4411,Egnach
@@ -32565,7 +32565,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,5765,Vaulion,5765,Vaulion
 2017,5766,Vuiteboeuf,5766,Vuiteboeuf
 2017,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
-2017,5788,Essertes,5788,Essertes
+2017,5788,Essertes,5805,Oron
 2017,5790,Maracon,5790,Maracon
 2017,5792,Montpreveyres,5792,Montpreveyres
 2017,5798,Ropraz,5798,Ropraz
@@ -32604,13 +32604,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,5871,L'Abbaye,5871,L'Abbaye
 2017,5872,Le Chenit,5872,Le Chenit
 2017,5873,Le Lieu,5873,Le Lieu
-2017,5881,Blonay,5881,Blonay
+2017,5881,Blonay,5892,Blonay - Saint-Légier
 2017,5882,Chardonne,5882,Chardonne
 2017,5883,Corseaux,5883,Corseaux
 2017,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2017,5885,Jongny,5885,Jongny
 2017,5886,Montreux,5886,Montreux
-2017,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2017,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2017,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2017,5890,Vevey,5890,Vevey
 2017,5891,Veytaux,5891,Veytaux
@@ -33254,7 +33254,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,629,Oberhünigen,629,Oberhünigen
 2018,630,Allmendingen,630,Allmendingen
 2018,632,Wichtrach,632,Wichtrach
-2018,661,Clavaleyres,661,Clavaleyres
+2018,661,Clavaleyres,2275,Murten
 2018,662,Ferenbalm,662,Ferenbalm
 2018,663,Frauenkappelen,663,Frauenkappelen
 2018,664,Golaten,304,Kallnach
@@ -33683,8 +33683,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,2254,Courtepin,2254,Courtepin
 2018,2257,Cressier (FR),2257,Cressier (FR)
 2018,2258,Fräschels,2258,Fräschels
-2018,2259,Galmiz,2259,Galmiz
-2018,2260,Gempenach,2260,Gempenach
+2018,2259,Galmiz,2275,Murten
+2018,2260,Gempenach,2275,Murten
 2018,2261,Greng,2261,Greng
 2018,2262,Gurmels,2262,Gurmels
 2018,2265,Kerzers,2265,Kerzers
@@ -34221,10 +34221,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,4091,Auenstein,4091,Auenstein
 2018,4092,Birr,4092,Birr
 2018,4093,Birrhard,4093,Birrhard
-2018,4094,Bözen,4094,Bözen
+2018,4094,Bözen,4185,Böztal
 2018,4095,Brugg,4095,Brugg
-2018,4096,Effingen,4096,Effingen
-2018,4097,Elfingen,4097,Elfingen
+2018,4096,Effingen,4185,Böztal
+2018,4097,Elfingen,4185,Böztal
 2018,4099,Habsburg,4099,Habsburg
 2018,4100,Hausen (AG),4100,Hausen (AG)
 2018,4104,Lupfig,4104,Lupfig
@@ -34264,7 +34264,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,4164,Gansingen,4164,Gansingen
 2018,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2018,4166,Herznach,4166,Herznach
-2018,4167,Hornussen,4167,Hornussen
+2018,4167,Hornussen,4185,Böztal
 2018,4169,Kaisten,4169,Kaisten
 2018,4170,Laufenburg,4170,Laufenburg
 2018,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -34348,28 +34348,28 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,4287,Vordemwald,4287,Vordemwald
 2018,4288,Wiliberg,4288,Wiliberg
 2018,4289,Zofingen,4289,Zofingen
-2018,4301,Baldingen,4301,Baldingen
-2018,4302,Böbikon,4302,Böbikon
+2018,4301,Baldingen,4324,Zurzach
+2018,4302,Böbikon,4324,Zurzach
 2018,4303,Böttstein,4303,Böttstein
 2018,4304,Döttingen,4304,Döttingen
 2018,4305,Endingen,4305,Endingen
 2018,4306,Fisibach,4306,Fisibach
 2018,4307,Full-Reuenthal,4307,Full-Reuenthal
-2018,4308,Kaiserstuhl,4308,Kaiserstuhl
+2018,4308,Kaiserstuhl,4324,Zurzach
 2018,4309,Klingnau,4309,Klingnau
 2018,4310,Koblenz,4310,Koblenz
 2018,4311,Leibstadt,4311,Leibstadt
 2018,4312,Lengnau (AG),4312,Lengnau (AG)
 2018,4313,Leuggern,4313,Leuggern
 2018,4314,Mellikon,4314,Mellikon
-2018,4315,Rekingen (AG),4315,Rekingen (AG)
-2018,4316,Rietheim,4316,Rietheim
-2018,4317,Rümikon,4317,Rümikon
+2018,4315,Rekingen (AG),4324,Zurzach
+2018,4316,Rietheim,4324,Zurzach
+2018,4317,Rümikon,4324,Zurzach
 2018,4318,Schneisingen,4318,Schneisingen
 2018,4319,Siglistorf,4319,Siglistorf
 2018,4320,Tegerfelden,4320,Tegerfelden
-2018,4322,Wislikofen,4322,Wislikofen
-2018,4323,Bad Zurzach,4323,Bad Zurzach
+2018,4322,Wislikofen,4324,Zurzach
+2018,4323,Bad Zurzach,4324,Zurzach
 2018,4401,Arbon,4401,Arbon
 2018,4406,Dozwil,4406,Dozwil
 2018,4411,Egnach,4411,Egnach
@@ -34797,7 +34797,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,5765,Vaulion,5765,Vaulion
 2018,5766,Vuiteboeuf,5766,Vuiteboeuf
 2018,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
-2018,5788,Essertes,5788,Essertes
+2018,5788,Essertes,5805,Oron
 2018,5790,Maracon,5790,Maracon
 2018,5792,Montpreveyres,5792,Montpreveyres
 2018,5798,Ropraz,5798,Ropraz
@@ -34836,13 +34836,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,5871,L'Abbaye,5871,L'Abbaye
 2018,5872,Le Chenit,5872,Le Chenit
 2018,5873,Le Lieu,5873,Le Lieu
-2018,5881,Blonay,5881,Blonay
+2018,5881,Blonay,5892,Blonay - Saint-Légier
 2018,5882,Chardonne,5882,Chardonne
 2018,5883,Corseaux,5883,Corseaux
 2018,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2018,5885,Jongny,5885,Jongny
 2018,5886,Montreux,5886,Montreux
-2018,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2018,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2018,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2018,5890,Vevey,5890,Vevey
 2018,5891,Veytaux,5891,Veytaux
@@ -35475,7 +35475,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,629,Oberhünigen,629,Oberhünigen
 2019,630,Allmendingen,630,Allmendingen
 2019,632,Wichtrach,632,Wichtrach
-2019,661,Clavaleyres,661,Clavaleyres
+2019,661,Clavaleyres,2275,Murten
 2019,662,Ferenbalm,662,Ferenbalm
 2019,663,Frauenkappelen,663,Frauenkappelen
 2019,665,Gurbrü,665,Gurbrü
@@ -35903,8 +35903,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,2254,Courtepin,2254,Courtepin
 2019,2257,Cressier (FR),2257,Cressier (FR)
 2019,2258,Fräschels,2258,Fräschels
-2019,2259,Galmiz,2259,Galmiz
-2019,2260,Gempenach,2260,Gempenach
+2019,2259,Galmiz,2275,Murten
+2019,2260,Gempenach,2275,Murten
 2019,2261,Greng,2261,Greng
 2019,2262,Gurmels,2262,Gurmels
 2019,2265,Kerzers,2265,Kerzers
@@ -36439,10 +36439,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,4091,Auenstein,4091,Auenstein
 2019,4092,Birr,4092,Birr
 2019,4093,Birrhard,4093,Birrhard
-2019,4094,Bözen,4094,Bözen
+2019,4094,Bözen,4185,Böztal
 2019,4095,Brugg,4095,Brugg
-2019,4096,Effingen,4096,Effingen
-2019,4097,Elfingen,4097,Elfingen
+2019,4096,Effingen,4185,Böztal
+2019,4097,Elfingen,4185,Böztal
 2019,4099,Habsburg,4099,Habsburg
 2019,4100,Hausen (AG),4100,Hausen (AG)
 2019,4104,Lupfig,4104,Lupfig
@@ -36482,7 +36482,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,4164,Gansingen,4164,Gansingen
 2019,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2019,4166,Herznach,4166,Herznach
-2019,4167,Hornussen,4167,Hornussen
+2019,4167,Hornussen,4185,Böztal
 2019,4169,Kaisten,4169,Kaisten
 2019,4170,Laufenburg,4170,Laufenburg
 2019,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -36565,28 +36565,28 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,4287,Vordemwald,4287,Vordemwald
 2019,4288,Wiliberg,4288,Wiliberg
 2019,4289,Zofingen,4289,Zofingen
-2019,4301,Baldingen,4301,Baldingen
-2019,4302,Böbikon,4302,Böbikon
+2019,4301,Baldingen,4324,Zurzach
+2019,4302,Böbikon,4324,Zurzach
 2019,4303,Böttstein,4303,Böttstein
 2019,4304,Döttingen,4304,Döttingen
 2019,4305,Endingen,4305,Endingen
 2019,4306,Fisibach,4306,Fisibach
 2019,4307,Full-Reuenthal,4307,Full-Reuenthal
-2019,4308,Kaiserstuhl,4308,Kaiserstuhl
+2019,4308,Kaiserstuhl,4324,Zurzach
 2019,4309,Klingnau,4309,Klingnau
 2019,4310,Koblenz,4310,Koblenz
 2019,4311,Leibstadt,4311,Leibstadt
 2019,4312,Lengnau (AG),4312,Lengnau (AG)
 2019,4313,Leuggern,4313,Leuggern
 2019,4314,Mellikon,4314,Mellikon
-2019,4315,Rekingen (AG),4315,Rekingen (AG)
-2019,4316,Rietheim,4316,Rietheim
-2019,4317,Rümikon,4317,Rümikon
+2019,4315,Rekingen (AG),4324,Zurzach
+2019,4316,Rietheim,4324,Zurzach
+2019,4317,Rümikon,4324,Zurzach
 2019,4318,Schneisingen,4318,Schneisingen
 2019,4319,Siglistorf,4319,Siglistorf
 2019,4320,Tegerfelden,4320,Tegerfelden
-2019,4322,Wislikofen,4322,Wislikofen
-2019,4323,Bad Zurzach,4323,Bad Zurzach
+2019,4322,Wislikofen,4324,Zurzach
+2019,4323,Bad Zurzach,4324,Zurzach
 2019,4401,Arbon,4401,Arbon
 2019,4406,Dozwil,4406,Dozwil
 2019,4411,Egnach,4411,Egnach
@@ -37014,7 +37014,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,5765,Vaulion,5765,Vaulion
 2019,5766,Vuiteboeuf,5766,Vuiteboeuf
 2019,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
-2019,5788,Essertes,5788,Essertes
+2019,5788,Essertes,5805,Oron
 2019,5790,Maracon,5790,Maracon
 2019,5792,Montpreveyres,5792,Montpreveyres
 2019,5798,Ropraz,5798,Ropraz
@@ -37053,13 +37053,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,5871,L'Abbaye,5871,L'Abbaye
 2019,5872,Le Chenit,5872,Le Chenit
 2019,5873,Le Lieu,5873,Le Lieu
-2019,5881,Blonay,5881,Blonay
+2019,5881,Blonay,5892,Blonay - Saint-Légier
 2019,5882,Chardonne,5882,Chardonne
 2019,5883,Corseaux,5883,Corseaux
 2019,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2019,5885,Jongny,5885,Jongny
 2019,5886,Montreux,5886,Montreux
-2019,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2019,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2019,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2019,5890,Vevey,5890,Vevey
 2019,5891,Veytaux,5891,Veytaux
@@ -37690,7 +37690,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,629,Oberhünigen,629,Oberhünigen
 2020,630,Allmendingen,630,Allmendingen
 2020,632,Wichtrach,632,Wichtrach
-2020,661,Clavaleyres,661,Clavaleyres
+2020,661,Clavaleyres,2275,Murten
 2020,662,Ferenbalm,662,Ferenbalm
 2020,663,Frauenkappelen,663,Frauenkappelen
 2020,665,Gurbrü,665,Gurbrü
@@ -38110,8 +38110,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,2254,Courtepin,2254,Courtepin
 2020,2257,Cressier (FR),2257,Cressier (FR)
 2020,2258,Fräschels,2258,Fräschels
-2020,2259,Galmiz,2259,Galmiz
-2020,2260,Gempenach,2260,Gempenach
+2020,2259,Galmiz,2275,Murten
+2020,2260,Gempenach,2275,Murten
 2020,2261,Greng,2261,Greng
 2020,2262,Gurmels,2262,Gurmels
 2020,2265,Kerzers,2265,Kerzers
@@ -38645,10 +38645,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,4091,Auenstein,4091,Auenstein
 2020,4092,Birr,4092,Birr
 2020,4093,Birrhard,4093,Birrhard
-2020,4094,Bözen,4094,Bözen
+2020,4094,Bözen,4185,Böztal
 2020,4095,Brugg,4095,Brugg
-2020,4096,Effingen,4096,Effingen
-2020,4097,Elfingen,4097,Elfingen
+2020,4096,Effingen,4185,Böztal
+2020,4097,Elfingen,4185,Böztal
 2020,4099,Habsburg,4099,Habsburg
 2020,4100,Hausen (AG),4100,Hausen (AG)
 2020,4104,Lupfig,4104,Lupfig
@@ -38687,7 +38687,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,4164,Gansingen,4164,Gansingen
 2020,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2020,4166,Herznach,4166,Herznach
-2020,4167,Hornussen,4167,Hornussen
+2020,4167,Hornussen,4185,Böztal
 2020,4169,Kaisten,4169,Kaisten
 2020,4170,Laufenburg,4170,Laufenburg
 2020,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -38770,28 +38770,28 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,4287,Vordemwald,4287,Vordemwald
 2020,4288,Wiliberg,4288,Wiliberg
 2020,4289,Zofingen,4289,Zofingen
-2020,4301,Baldingen,4301,Baldingen
-2020,4302,Böbikon,4302,Böbikon
+2020,4301,Baldingen,4324,Zurzach
+2020,4302,Böbikon,4324,Zurzach
 2020,4303,Böttstein,4303,Böttstein
 2020,4304,Döttingen,4304,Döttingen
 2020,4305,Endingen,4305,Endingen
 2020,4306,Fisibach,4306,Fisibach
 2020,4307,Full-Reuenthal,4307,Full-Reuenthal
-2020,4308,Kaiserstuhl,4308,Kaiserstuhl
+2020,4308,Kaiserstuhl,4324,Zurzach
 2020,4309,Klingnau,4309,Klingnau
 2020,4310,Koblenz,4310,Koblenz
 2020,4311,Leibstadt,4311,Leibstadt
 2020,4312,Lengnau (AG),4312,Lengnau (AG)
 2020,4313,Leuggern,4313,Leuggern
 2020,4314,Mellikon,4314,Mellikon
-2020,4315,Rekingen (AG),4315,Rekingen (AG)
-2020,4316,Rietheim,4316,Rietheim
-2020,4317,Rümikon,4317,Rümikon
+2020,4315,Rekingen (AG),4324,Zurzach
+2020,4316,Rietheim,4324,Zurzach
+2020,4317,Rümikon,4324,Zurzach
 2020,4318,Schneisingen,4318,Schneisingen
 2020,4319,Siglistorf,4319,Siglistorf
 2020,4320,Tegerfelden,4320,Tegerfelden
-2020,4322,Wislikofen,4322,Wislikofen
-2020,4323,Bad Zurzach,4323,Bad Zurzach
+2020,4322,Wislikofen,4324,Zurzach
+2020,4323,Bad Zurzach,4324,Zurzach
 2020,4401,Arbon,4401,Arbon
 2020,4406,Dozwil,4406,Dozwil
 2020,4411,Egnach,4411,Egnach
@@ -39219,7 +39219,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,5765,Vaulion,5765,Vaulion
 2020,5766,Vuiteboeuf,5766,Vuiteboeuf
 2020,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
-2020,5788,Essertes,5788,Essertes
+2020,5788,Essertes,5805,Oron
 2020,5790,Maracon,5790,Maracon
 2020,5792,Montpreveyres,5792,Montpreveyres
 2020,5798,Ropraz,5798,Ropraz
@@ -39258,13 +39258,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,5871,L'Abbaye,5871,L'Abbaye
 2020,5872,Le Chenit,5872,Le Chenit
 2020,5873,Le Lieu,5873,Le Lieu
-2020,5881,Blonay,5881,Blonay
+2020,5881,Blonay,5892,Blonay - Saint-Légier
 2020,5882,Chardonne,5882,Chardonne
 2020,5883,Corseaux,5883,Corseaux
 2020,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2020,5885,Jongny,5885,Jongny
 2020,5886,Montreux,5886,Montreux
-2020,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2020,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2020,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2020,5890,Vevey,5890,Vevey
 2020,5891,Veytaux,5891,Veytaux
@@ -39893,7 +39893,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,629,Oberhünigen,629,Oberhünigen
 2021,630,Allmendingen,630,Allmendingen
 2021,632,Wichtrach,632,Wichtrach
-2021,661,Clavaleyres,661,Clavaleyres
+2021,661,Clavaleyres,2275,Murten
 2021,662,Ferenbalm,662,Ferenbalm
 2021,663,Frauenkappelen,663,Frauenkappelen
 2021,665,Gurbrü,665,Gurbrü
@@ -40306,8 +40306,8 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,2254,Courtepin,2254,Courtepin
 2021,2257,Cressier (FR),2257,Cressier (FR)
 2021,2258,Fräschels,2258,Fräschels
-2021,2259,Galmiz,2259,Galmiz
-2021,2260,Gempenach,2260,Gempenach
+2021,2259,Galmiz,2275,Murten
+2021,2260,Gempenach,2275,Murten
 2021,2261,Greng,2261,Greng
 2021,2262,Gurmels,2262,Gurmels
 2021,2265,Kerzers,2265,Kerzers
@@ -40833,10 +40833,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,4091,Auenstein,4091,Auenstein
 2021,4092,Birr,4092,Birr
 2021,4093,Birrhard,4093,Birrhard
-2021,4094,Bözen,4094,Bözen
+2021,4094,Bözen,4185,Böztal
 2021,4095,Brugg,4095,Brugg
-2021,4096,Effingen,4096,Effingen
-2021,4097,Elfingen,4097,Elfingen
+2021,4096,Effingen,4185,Böztal
+2021,4097,Elfingen,4185,Böztal
 2021,4099,Habsburg,4099,Habsburg
 2021,4100,Hausen (AG),4100,Hausen (AG)
 2021,4104,Lupfig,4104,Lupfig
@@ -40875,7 +40875,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,4164,Gansingen,4164,Gansingen
 2021,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2021,4166,Herznach,4166,Herznach
-2021,4167,Hornussen,4167,Hornussen
+2021,4167,Hornussen,4185,Böztal
 2021,4169,Kaisten,4169,Kaisten
 2021,4170,Laufenburg,4170,Laufenburg
 2021,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -40958,28 +40958,28 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,4287,Vordemwald,4287,Vordemwald
 2021,4288,Wiliberg,4288,Wiliberg
 2021,4289,Zofingen,4289,Zofingen
-2021,4301,Baldingen,4301,Baldingen
-2021,4302,Böbikon,4302,Böbikon
+2021,4301,Baldingen,4324,Zurzach
+2021,4302,Böbikon,4324,Zurzach
 2021,4303,Böttstein,4303,Böttstein
 2021,4304,Döttingen,4304,Döttingen
 2021,4305,Endingen,4305,Endingen
 2021,4306,Fisibach,4306,Fisibach
 2021,4307,Full-Reuenthal,4307,Full-Reuenthal
-2021,4308,Kaiserstuhl,4308,Kaiserstuhl
+2021,4308,Kaiserstuhl,4324,Zurzach
 2021,4309,Klingnau,4309,Klingnau
 2021,4310,Koblenz,4310,Koblenz
 2021,4311,Leibstadt,4311,Leibstadt
 2021,4312,Lengnau (AG),4312,Lengnau (AG)
 2021,4313,Leuggern,4313,Leuggern
 2021,4314,Mellikon,4314,Mellikon
-2021,4315,Rekingen (AG),4315,Rekingen (AG)
-2021,4316,Rietheim,4316,Rietheim
-2021,4317,Rümikon,4317,Rümikon
+2021,4315,Rekingen (AG),4324,Zurzach
+2021,4316,Rietheim,4324,Zurzach
+2021,4317,Rümikon,4324,Zurzach
 2021,4318,Schneisingen,4318,Schneisingen
 2021,4319,Siglistorf,4319,Siglistorf
 2021,4320,Tegerfelden,4320,Tegerfelden
-2021,4322,Wislikofen,4322,Wislikofen
-2021,4323,Bad Zurzach,4323,Bad Zurzach
+2021,4322,Wislikofen,4324,Zurzach
+2021,4323,Bad Zurzach,4324,Zurzach
 2021,4401,Arbon,4401,Arbon
 2021,4406,Dozwil,4406,Dozwil
 2021,4411,Egnach,4411,Egnach
@@ -41402,7 +41402,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,5765,Vaulion,5765,Vaulion
 2021,5766,Vuiteboeuf,5766,Vuiteboeuf
 2021,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
-2021,5788,Essertes,5788,Essertes
+2021,5788,Essertes,5805,Oron
 2021,5790,Maracon,5790,Maracon
 2021,5792,Montpreveyres,5792,Montpreveyres
 2021,5798,Ropraz,5798,Ropraz
@@ -41441,13 +41441,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,5871,L'Abbaye,5871,L'Abbaye
 2021,5872,Le Chenit,5872,Le Chenit
 2021,5873,Le Lieu,5873,Le Lieu
-2021,5881,Blonay,5881,Blonay
+2021,5881,Blonay,5892,Blonay - Saint-Légier
 2021,5882,Chardonne,5882,Chardonne
 2021,5883,Corseaux,5883,Corseaux
 2021,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2021,5885,Jongny,5885,Jongny
 2021,5886,Montreux,5886,Montreux
-2021,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2021,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2021,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2021,5890,Vevey,5890,Vevey
 2021,5891,Veytaux,5891,Veytaux
@@ -42068,7 +42068,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,629,Oberhünigen,629,Oberhünigen
 2022,630,Allmendingen,630,Allmendingen
 2022,632,Wichtrach,632,Wichtrach
-2022,661,Clavaleyres,661,Clavaleyres
 2022,662,Ferenbalm,662,Ferenbalm
 2022,663,Frauenkappelen,663,Frauenkappelen
 2022,665,Gurbrü,665,Gurbrü
@@ -42481,8 +42480,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,2254,Courtepin,2254,Courtepin
 2022,2257,Cressier (FR),2257,Cressier (FR)
 2022,2258,Fräschels,2258,Fräschels
-2022,2259,Galmiz,2259,Galmiz
-2022,2260,Gempenach,2260,Gempenach
 2022,2261,Greng,2261,Greng
 2022,2262,Gurmels,2262,Gurmels
 2022,2265,Kerzers,2265,Kerzers
@@ -43008,10 +43005,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,4091,Auenstein,4091,Auenstein
 2022,4092,Birr,4092,Birr
 2022,4093,Birrhard,4093,Birrhard
-2022,4094,Bözen,4094,Bözen
 2022,4095,Brugg,4095,Brugg
-2022,4096,Effingen,4096,Effingen
-2022,4097,Elfingen,4097,Elfingen
 2022,4099,Habsburg,4099,Habsburg
 2022,4100,Hausen (AG),4100,Hausen (AG)
 2022,4104,Lupfig,4104,Lupfig
@@ -43050,7 +43044,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,4164,Gansingen,4164,Gansingen
 2022,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2022,4166,Herznach,4166,Herznach
-2022,4167,Hornussen,4167,Hornussen
 2022,4169,Kaisten,4169,Kaisten
 2022,4170,Laufenburg,4170,Laufenburg
 2022,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -43063,6 +43056,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,4182,Wölflinswil,4182,Wölflinswil
 2022,4183,Zeihen,4183,Zeihen
 2022,4184,Mettauertal,4184,Mettauertal
+2022,4185,Böztal,4185,Böztal
 2022,4191,Ammerswil,4191,Ammerswil
 2022,4192,Boniswil,4192,Boniswil
 2022,4193,Brunegg,4193,Brunegg
@@ -43133,28 +43127,21 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,4287,Vordemwald,4287,Vordemwald
 2022,4288,Wiliberg,4288,Wiliberg
 2022,4289,Zofingen,4289,Zofingen
-2022,4301,Baldingen,4301,Baldingen
-2022,4302,Böbikon,4302,Böbikon
 2022,4303,Böttstein,4303,Böttstein
 2022,4304,Döttingen,4304,Döttingen
 2022,4305,Endingen,4305,Endingen
 2022,4306,Fisibach,4306,Fisibach
 2022,4307,Full-Reuenthal,4307,Full-Reuenthal
-2022,4308,Kaiserstuhl,4308,Kaiserstuhl
 2022,4309,Klingnau,4309,Klingnau
 2022,4310,Koblenz,4310,Koblenz
 2022,4311,Leibstadt,4311,Leibstadt
 2022,4312,Lengnau (AG),4312,Lengnau (AG)
 2022,4313,Leuggern,4313,Leuggern
 2022,4314,Mellikon,4314,Mellikon
-2022,4315,Rekingen (AG),4315,Rekingen (AG)
-2022,4316,Rietheim,4316,Rietheim
-2022,4317,Rümikon,4317,Rümikon
 2022,4318,Schneisingen,4318,Schneisingen
 2022,4319,Siglistorf,4319,Siglistorf
 2022,4320,Tegerfelden,4320,Tegerfelden
-2022,4322,Wislikofen,4322,Wislikofen
-2022,4323,Bad Zurzach,4323,Bad Zurzach
+2022,4324,Zurzach,4324,Zurzach
 2022,4401,Arbon,4401,Arbon
 2022,4406,Dozwil,4406,Dozwil
 2022,4411,Egnach,4411,Egnach
@@ -43568,7 +43555,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,5765,Vaulion,5765,Vaulion
 2022,5766,Vuiteboeuf,5766,Vuiteboeuf
 2022,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
-2022,5788,Essertes,5788,Essertes
 2022,5790,Maracon,5790,Maracon
 2022,5792,Montpreveyres,5792,Montpreveyres
 2022,5798,Ropraz,5798,Ropraz
@@ -43607,16 +43593,15 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,5871,L'Abbaye,5871,L'Abbaye
 2022,5872,Le Chenit,5872,Le Chenit
 2022,5873,Le Lieu,5873,Le Lieu
-2022,5881,Blonay,5881,Blonay
 2022,5882,Chardonne,5882,Chardonne
 2022,5883,Corseaux,5883,Corseaux
 2022,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2022,5885,Jongny,5885,Jongny
 2022,5886,Montreux,5886,Montreux
-2022,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
 2022,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2022,5890,Vevey,5890,Vevey
 2022,5891,Veytaux,5891,Veytaux
+2022,5892,Blonay - Saint-Légier,5892,Blonay - Saint-Légier
 2022,5902,Belmont-sur-Yverdon,5902,Belmont-sur-Yverdon
 2022,5903,Bioley-Magnoux,5903,Bioley-Magnoux
 2022,5904,Chamblon,5904,Chamblon

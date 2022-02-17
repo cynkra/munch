@@ -15,5 +15,4 @@ if (check_data()) {
   }
 
   overwrite_data()
-  desc::desc_bump_version("dev")
 }

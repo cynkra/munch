@@ -117,7 +117,7 @@ swc_read_data <- function() {
 
     mode.names <- grep("Mode", names(dat), value = TRUE)
     logging::logdebug("Mode names: %s", mode.names)
-    for (n in mode.names) dat[, n] <- factor(dat[, n], levels = names(codes), labels = codes)
+    for (n in mode.names) dat[, n] <- as.character(factor(dat[, n], levels = names(codes), labels = codes))
 
     integer.names <- grep("Id|Number", names(dat), value = TRUE)
     logging::logdebug("Integer names: %s", integer.names)

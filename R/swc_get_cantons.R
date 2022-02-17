@@ -1,5 +1,5 @@
 swc_get_cantons <- function() {
-  readr::read_csv(csv_file("mut/canton"), col_types = "iccD")
+  as_tibble(readr::read_csv(csv_file("mut/canton"), col_types = "iccD", lazy = FALSE))
 }
 
 csv_file <- function(name) {

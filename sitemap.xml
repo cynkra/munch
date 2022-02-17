@@ -31,12 +31,6 @@
     <loc>/reference/add_past.html</loc>
   </url>
   <url>
-    <loc>/reference/check_data.html</loc>
-  </url>
-  <url>
-    <loc>/reference/check_past_changes.html</loc>
-  </url>
-  <url>
     <loc>/reference/deprecated.html</loc>
   </url>
   <url>
@@ -47,9 +41,6 @@
   </url>
   <url>
     <loc>/reference/munch-package.html</loc>
-  </url>
-  <url>
-    <loc>/reference/overwrite_data.html</loc>
   </url>
   <url>
     <loc>/reference/swc_get_mapping.html</loc>

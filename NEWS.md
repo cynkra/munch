@@ -1,5 +1,17 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# munch 0.0.8.9006 (2022-02-17)
+
+- Automatically update mutation data on GitHub Actions (#56).
+- Use most recent mutation data from 2022 (#56).
+- Update tests to use testthat 3e (#51).
+- Fix tests and compatibility with dev dplyr (#49).
+- new internal function to download lists of municipalities by date via an API provided by BFS.
+- Rename to munch (#21).
+- Fix filter in `swc_get_mapping()` for correct results (#39).
+- `swc_read_data()` now always fetches the most recent dataset (#20).
+
+
 # SwissCommunes 0.0.8.9005 (2021-03-20)
 
 - Full internal consistency (#23).

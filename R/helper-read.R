@@ -117,7 +117,7 @@ swc_read_data <- function() {
 
     mode.names <- grep("Mode", names(dat), value = TRUE)
     logging::logdebug("Mode names: %s", mode.names)
-    for (n in mode.names) dat[, n] <- factor(dat[, n], levels = names(codes), labels = codes)
+    for (n in mode.names) dat[, n] <- as.character(factor(dat[, n], levels = names(codes), labels = codes))
 
     integer.names <- grep("Id|Number", names(dat), value = TRUE)
     logging::logdebug("Integer names: %s", integer.names)
@@ -140,9 +140,7 @@ swc_read_data <- function() {
   out
 }
 
-#' Overwrite the mutation package-data
-#'
-#' @export
+# Overwrite the mutation package-data
 overwrite_data <- function() {
   data <- swc_read_data()
 
@@ -154,44 +152,17 @@ overwrite_data <- function() {
   write_all_mapping_tables()
 }
 
-#' check if new data is identical to old data
-#'
-#' @export
+# check if new data is identical to existing data
 check_data <- function() {
   data <- swc_read_data()
 
-  unchanged <-
-    identical(data$canton, swc_get_cantons()) &&
-      identical(data$district, swc_get_district_mutations()) &&
-      identical(data$municipality, swc_get_municipality_mutations())
+  changed <-
+    !identical(data$canton, swc_get_cantons()) ||
+      !identical(data$district, swc_get_district_mutations()) ||
+      !identical(data$municipality, swc_get_municipality_mutations())
 
-  !unchanged
+  changed
 }
-
-
-#' check if there were no changes in the old data
-#'
-#' @export
-check_past_changes <- function() {
-  data <- swc_read_data()
-
-  past_canton <- dplyr::inner_join(data$canton, swc_get_cantons())
-
-  past_district <- dplyr::inner_join(data$district, swc_get_district_mutations())
-
-  past_municipality <- dplyr::inner_join(
-    data$municipality,
-    swc_get_municipality_mutations()
-  )
-
-  unchanged <-
-    nrow(past_canton) == nrow(swc_get_cantons()) &&
-      nrow(past_district) == nrow(swc_get_district_mutations()) &&
-      nrow(past_municipality) == nrow(swc_get_municipality_mutations())
-
-  unchanged
-}
-
 
 daff_canton <- function() {
   stopifnot(requireNamespace("daff", quietly = TRUE))

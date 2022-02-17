@@ -386,7 +386,7 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2022,630,Allmendingen,630,Allmendingen
 2005,2012,631,Trimstein,616,Münsingen
 2005,2022,632,Wichtrach,632,Wichtrach
-2005,2022,661,Clavaleyres,661,Clavaleyres
+2005,2021,661,Clavaleyres,2275,Murten
 2005,2022,662,Ferenbalm,662,Ferenbalm
 2005,2022,663,Frauenkappelen,663,Frauenkappelen
 2005,2018,664,Golaten,304,Kallnach
@@ -938,8 +938,8 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2022,2254,Courtepin,2254,Courtepin
 2005,2022,2257,Cressier (FR),2257,Cressier (FR)
 2005,2022,2258,Fräschels,2258,Fräschels
-2005,2022,2259,Galmiz,2259,Galmiz
-2005,2022,2260,Gempenach,2260,Gempenach
+2005,2021,2259,Galmiz,2275,Murten
+2005,2021,2260,Gempenach,2275,Murten
 2005,2022,2261,Greng,2261,Greng
 2005,2022,2262,Gurmels,2262,Gurmels
 2005,2015,2264,Jeuss,2275,Murten
@@ -1662,10 +1662,10 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2022,4091,Auenstein,4091,Auenstein
 2005,2022,4092,Birr,4092,Birr
 2005,2022,4093,Birrhard,4093,Birrhard
-2005,2022,4094,Bözen,4094,Bözen
+2005,2021,4094,Bözen,4185,Böztal
 2005,2022,4095,Brugg,4095,Brugg
-2005,2022,4096,Effingen,4096,Effingen
-2005,2022,4097,Elfingen,4097,Elfingen
+2005,2021,4096,Effingen,4185,Böztal
+2005,2021,4097,Elfingen,4185,Böztal
 2005,2012,4098,Gallenkirch,4124,Bözberg
 2005,2022,4099,Habsburg,4099,Habsburg
 2005,2022,4100,Hausen (AG),4100,Hausen (AG)
@@ -1716,7 +1716,7 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2022,4164,Gansingen,4164,Gansingen
 2005,2022,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
 2005,2022,4166,Herznach,4166,Herznach
-2005,2022,4167,Hornussen,4167,Hornussen
+2005,2021,4167,Hornussen,4185,Böztal
 2005,2009,4168,Ittenthal,4169,Kaisten
 2005,2022,4169,Kaisten,4169,Kaisten
 2005,2022,4170,Laufenburg,4170,Laufenburg
@@ -1734,6 +1734,7 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2022,4182,Wölflinswil,4182,Wölflinswil
 2005,2022,4183,Zeihen,4183,Zeihen
 2010,2022,4184,Mettauertal,4184,Mettauertal
+2022,2022,4185,Böztal,4185,Böztal
 2005,2022,4191,Ammerswil,4191,Ammerswil
 2005,2022,4192,Boniswil,4192,Boniswil
 2005,2022,4193,Brunegg,4193,Brunegg
@@ -1806,30 +1807,31 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2022,4287,Vordemwald,4287,Vordemwald
 2005,2022,4288,Wiliberg,4288,Wiliberg
 2005,2022,4289,Zofingen,4289,Zofingen
-2005,2022,4301,Baldingen,4301,Baldingen
-2005,2022,4302,Böbikon,4302,Böbikon
+2005,2021,4301,Baldingen,4324,Zurzach
+2005,2021,4302,Böbikon,4324,Zurzach
 2005,2022,4303,Böttstein,4303,Böttstein
 2005,2022,4304,Döttingen,4304,Döttingen
 2005,2022,4305,Endingen,4305,Endingen
 2005,2022,4306,Fisibach,4306,Fisibach
 2005,2022,4307,Full-Reuenthal,4307,Full-Reuenthal
-2005,2022,4308,Kaiserstuhl,4308,Kaiserstuhl
+2005,2021,4308,Kaiserstuhl,4324,Zurzach
 2005,2022,4309,Klingnau,4309,Klingnau
 2005,2022,4310,Koblenz,4310,Koblenz
 2005,2022,4311,Leibstadt,4311,Leibstadt
 2005,2022,4312,Lengnau (AG),4312,Lengnau (AG)
 2005,2022,4313,Leuggern,4313,Leuggern
 2005,2022,4314,Mellikon,4314,Mellikon
-2005,2022,4315,Rekingen (AG),4315,Rekingen (AG)
-2005,2022,4316,Rietheim,4316,Rietheim
-2005,2022,4317,Rümikon,4317,Rümikon
+2005,2021,4315,Rekingen (AG),4324,Zurzach
+2005,2021,4316,Rietheim,4324,Zurzach
+2005,2021,4317,Rümikon,4324,Zurzach
 2005,2022,4318,Schneisingen,4318,Schneisingen
 2005,2022,4319,Siglistorf,4319,Siglistorf
 2005,2022,4320,Tegerfelden,4320,Tegerfelden
 2005,2013,4321,Unterendingen,4305,Endingen
-2005,2022,4322,Wislikofen,4322,Wislikofen
-2007,2022,4323,Bad Zurzach,4323,Bad Zurzach
-2005,2006,4323,Zurzach,4323,Bad Zurzach
+2005,2021,4322,Wislikofen,4324,Zurzach
+2007,2021,4323,Bad Zurzach,4324,Zurzach
+2005,2006,4323,Zurzach,4324,Zurzach
+2022,2022,4324,Zurzach,4324,Zurzach
 2005,2022,4401,Arbon,4401,Arbon
 2005,2022,4406,Dozwil,4406,Dozwil
 2005,2022,4411,Egnach,4411,Egnach
@@ -2424,7 +2426,7 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2022,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
 2005,2011,5786,Les Cullayes,5799,Servion
 2005,2011,5787,Ecoteaux,5805,Oron
-2005,2022,5788,Essertes,5788,Essertes
+2005,2021,5788,Essertes,5805,Oron
 2005,2016,5789,Ferlens (VD),5806,Jorat-Mézières
 2005,2022,5790,Maracon,5790,Maracon
 2005,2016,5791,Mézières (VD),5806,Jorat-Mézières
@@ -2482,16 +2484,17 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2022,5871,L'Abbaye,5871,L'Abbaye
 2005,2022,5872,Le Chenit,5872,Le Chenit
 2005,2022,5873,Le Lieu,5873,Le Lieu
-2005,2022,5881,Blonay,5881,Blonay
+2005,2021,5881,Blonay,5892,Blonay - Saint-Légier
 2005,2022,5882,Chardonne,5882,Chardonne
 2005,2022,5883,Corseaux,5883,Corseaux
 2005,2022,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
 2005,2022,5885,Jongny,5885,Jongny
 2005,2022,5886,Montreux,5886,Montreux
-2005,2022,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2005,2021,5888,Saint-Légier-La Chiésaz,5892,Blonay - Saint-Légier
 2005,2022,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
 2005,2022,5890,Vevey,5890,Vevey
 2005,2022,5891,Veytaux,5891,Veytaux
+2022,2022,5892,Blonay - Saint-Légier,5892,Blonay - Saint-Légier
 2005,2022,5902,Belmont-sur-Yverdon,5902,Belmont-sur-Yverdon
 2005,2022,5903,Bioley-Magnoux,5903,Bioley-Magnoux
 2005,2022,5904,Chamblon,5904,Chamblon

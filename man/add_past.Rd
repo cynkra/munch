@@ -18,7 +18,7 @@ The past is searched by the mHistId.x of the origial file
 mutations <- swcGetMutations()
 
 t <-
- dplyr::filter(mutations, mId.y == 293)
+  dplyr::filter(mutations, mId.y == 293)
 
 t_1 <- dplyr::filter(t, mHistId.y == max(mHistId.y))
 

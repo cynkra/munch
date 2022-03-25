@@ -9,20 +9,21 @@
 #' waedenswil_history <- swc_get_mun_history(293)
 #'
 #' @export
-swc_get_mun_history <- function(munId){
-
+swc_get_mun_history <- function(munId) {
   mutations <- swc_get_mutations()
 
-  mutations_reduced <- dplyr::select(mutations,
-      mMutationNumber,
-      mMutationId,
-      cAbbreviation,
-      mHistId.x, mId.x,
-      mShortName.x,
-      mHistId.y, mId.y,
-      mShortName.y,
-      mAdmissionMode,
-      mMutationDate)
+  mutations_reduced <- dplyr::select(
+    mutations,
+    mMutationNumber,
+    mMutationId,
+    cAbbreviation,
+    mHistId.x, mId.x,
+    mShortName.x,
+    mHistId.y, mId.y,
+    mShortName.y,
+    mAdmissionMode,
+    mMutationDate
+  )
 
   t <- dplyr::filter(mutations_reduced, mId.y == munId)
 
@@ -31,12 +32,11 @@ swc_get_mun_history <- function(munId){
   success <- 1
 
   while (success != 1000) {
-
     vector <- 1
 
     t <- purrr::reduce(
       .x = vector,
-      ~add_past(..1,mutations = mutations_reduced),
+      ~ add_past(..1, mutations = mutations_reduced),
       .init = t
     )
 
@@ -60,32 +60,15 @@ swc_get_mun_history <- function(munId){
 #' mutations <- swcGetMutations()
 #'
 #' t <-
-#'  dplyr::filter(mutations, mId.y == 293)
+#'   dplyr::filter(mutations, mId.y == 293)
 #'
 #' t_1 <- dplyr::filter(t, mHistId.y == max(mHistId.y))
 #'
 #' t_past <- add_past(t, mutations)
 #'
 #' @export
-add_past <- function(x, mutations){
-
+add_past <- function(x, mutations) {
   history <- dplyr::filter(mutations, mHistId.y %in% x$mHistId.x)
 
   t_added <- dplyr::full_join(history, x, by = c("mHistId.y" = "mHistId.x"))
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

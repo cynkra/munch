@@ -31,26 +31,31 @@ swc_get_mun_merges <- function(year = NULL, canton = NULL) {
 
   mun.mut <- subset(mun.mut.all, !is.na(get("mMutationNumber.x")))
 
-  mun.mut.red <- dplyr::filter(mun.mut,
+  mun.mut.red <- dplyr::filter(
+    mun.mut,
     !(mMutationNumber.x %in% unique(na.omit(mun.mut$mMutationNumber.y)))
   )
 
   mun.mut.red$rename <- dplyr::if_else(grepl(c("name"), mun.mut.red$mAdmissionMode.x),
-                               mun.mut.red$mShortName.y.x,
-                               mun.mut.red$mShortName.y.y)
+    mun.mut.red$mShortName.y.x,
+    mun.mut.red$mShortName.y.y
+  )
 
   mun.mut.red$rename_date <- dplyr::if_else(grepl(c("name"), mun.mut.red$mAdmissionMode.x),
-                               mun.mut.red$mMutationDate.x,
-                               mun.mut.red$mMutationDate.y)
+    mun.mut.red$mMutationDate.x,
+    mun.mut.red$mMutationDate.y
+  )
 
 
   mun.mut.red$mShortName.y.x <- dplyr::if_else(grepl(c("name"), mun.mut.red$mAdmissionMode.x),
-                                            NA_character_,
-                                            mun.mut.red$mShortName.y.x)
+    NA_character_,
+    mun.mut.red$mShortName.y.x
+  )
 
   mun.mut.red$mMutationDate.x <- dplyr::if_else(grepl(c("name"), mun.mut.red$mAdmissionMode.x),
-                                              structure(NA_real_, class = "Date"),
-                                               mun.mut.red$mMutationDate.x)
+    structure(NA_real_, class = "Date"),
+    mun.mut.red$mMutationDate.x
+  )
 
 
   mun.mut.fus <- dplyr::filter(

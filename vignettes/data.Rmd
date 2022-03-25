@@ -30,7 +30,7 @@ write_mapping_table <- function(year, type) {
   mapping <- swc_get_merger_mapping_table(SOURCE_YEAR, year, type = type)
   
   rel_path <- file.path("data", type, paste0(year, ".csv"))
-  path <- file.path("../docs", rel_path)
+  path <- file.path("../pkgdown/assets", rel_path)
   pkgdown_path <- file.path("..", rel_path)
   
   dir.create(dirname(path), recursive = TRUE, showWarnings = FALSE)

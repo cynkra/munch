@@ -35,7 +35,8 @@ write_mapping_table <- function(year, type) {
   
   dir.create(dirname(path), recursive = TRUE, showWarnings = FALSE)
   
-  readr::write_csv(mapping, path)
+  # FIXME: Generate files in pkgdown/assets/data/...
+  #readr::write_csv(mapping, path)
   
   tibble(year, type, path, pkgdown_path, nrow = nrow(mapping))
 }

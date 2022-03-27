@@ -1,0 +1,2786 @@
+year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
+2005,2007,1,Aeugst am Albis,1,Aeugst am Albis
+2005,2007,2,Affoltern am Albis,2,Affoltern am Albis
+2005,2007,3,Bonstetten,3,Bonstetten
+2005,2007,4,Hausen am Albis,4,Hausen am Albis
+2005,2007,5,Hedingen,5,Hedingen
+2005,2007,6,Kappel am Albis,6,Kappel am Albis
+2005,2007,7,Knonau,7,Knonau
+2005,2007,8,Maschwanden,8,Maschwanden
+2005,2007,9,Mettmenstetten,9,Mettmenstetten
+2005,2007,10,Obfelden,10,Obfelden
+2005,2007,11,Ottenbach,11,Ottenbach
+2005,2007,12,Rifferswil,12,Rifferswil
+2005,2007,13,Stallikon,13,Stallikon
+2005,2007,14,Wettswil am Albis,14,Wettswil am Albis
+2005,2007,21,Adlikon,21,Adlikon
+2005,2007,22,Benken (ZH),22,Benken (ZH)
+2005,2007,23,Berg am Irchel,23,Berg am Irchel
+2005,2007,24,Buch am Irchel,24,Buch am Irchel
+2005,2007,25,Dachsen,25,Dachsen
+2005,2007,26,Dorf,26,Dorf
+2005,2007,27,Feuerthalen,27,Feuerthalen
+2005,2007,28,Flaach,28,Flaach
+2005,2007,29,Flurlingen,29,Flurlingen
+2005,2007,30,Andelfingen,30,Andelfingen
+2005,2007,31,Henggart,31,Henggart
+2005,2007,32,Humlikon,32,Humlikon
+2005,2007,33,Kleinandelfingen,33,Kleinandelfingen
+2005,2007,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
+2005,2007,35,Marthalen,35,Marthalen
+2005,2007,36,Oberstammheim,36,Oberstammheim
+2005,2007,37,Ossingen,37,Ossingen
+2005,2007,38,Rheinau,38,Rheinau
+2005,2007,39,Thalheim an der Thur,39,Thalheim an der Thur
+2005,2007,40,Trüllikon,40,Trüllikon
+2005,2007,41,Truttikon,41,Truttikon
+2005,2007,42,Unterstammheim,42,Unterstammheim
+2005,2007,43,Volken,43,Volken
+2005,2007,44,Waltalingen,44,Waltalingen
+2005,2007,51,Bachenbülach,51,Bachenbülach
+2005,2007,52,Bassersdorf,52,Bassersdorf
+2005,2007,53,Bülach,53,Bülach
+2005,2007,54,Dietlikon,54,Dietlikon
+2005,2007,55,Eglisau,55,Eglisau
+2005,2007,56,Embrach,56,Embrach
+2005,2007,57,Freienstein-Teufen,57,Freienstein-Teufen
+2005,2007,58,Glattfelden,58,Glattfelden
+2005,2007,59,Hochfelden,59,Hochfelden
+2005,2007,60,Höri,60,Höri
+2005,2007,61,Hüntwangen,61,Hüntwangen
+2005,2007,62,Kloten,62,Kloten
+2005,2007,63,Lufingen,63,Lufingen
+2005,2007,64,Nürensdorf,64,Nürensdorf
+2005,2007,65,Oberembrach,65,Oberembrach
+2005,2007,66,Opfikon,66,Opfikon
+2005,2007,67,Rafz,67,Rafz
+2005,2007,68,Rorbas,68,Rorbas
+2005,2007,69,Wallisellen,69,Wallisellen
+2005,2007,70,Wasterkingen,70,Wasterkingen
+2005,2007,71,Wil (ZH),71,Wil (ZH)
+2005,2007,72,Winkel,72,Winkel
+2005,2007,81,Bachs,81,Bachs
+2005,2007,82,Boppelsen,82,Boppelsen
+2005,2007,83,Buchs (ZH),83,Buchs (ZH)
+2005,2007,84,Dällikon,84,Dällikon
+2005,2007,85,Dänikon,85,Dänikon
+2005,2007,86,Dielsdorf,86,Dielsdorf
+2005,2007,87,Hüttikon,87,Hüttikon
+2005,2007,88,Neerach,88,Neerach
+2005,2007,89,Niederglatt,89,Niederglatt
+2005,2007,90,Niederhasli,90,Niederhasli
+2005,2007,91,Niederweningen,91,Niederweningen
+2005,2007,92,Oberglatt,92,Oberglatt
+2005,2007,93,Oberweningen,93,Oberweningen
+2005,2007,94,Otelfingen,94,Otelfingen
+2005,2007,95,Regensberg,95,Regensberg
+2005,2007,96,Regensdorf,96,Regensdorf
+2005,2007,97,Rümlang,97,Rümlang
+2005,2007,98,Schleinikon,98,Schleinikon
+2005,2007,99,Schöfflisdorf,99,Schöfflisdorf
+2005,2007,100,Stadel,100,Stadel
+2005,2007,101,Steinmaur,101,Steinmaur
+2005,2007,102,Weiach,102,Weiach
+2005,2007,111,Bäretswil,111,Bäretswil
+2005,2007,112,Bubikon,112,Bubikon
+2005,2007,113,Dürnten,113,Dürnten
+2005,2007,114,Fischenthal,114,Fischenthal
+2005,2007,115,Gossau (ZH),115,Gossau (ZH)
+2005,2007,116,Grüningen,116,Grüningen
+2005,2007,117,Hinwil,117,Hinwil
+2005,2007,118,Rüti (ZH),118,Rüti (ZH)
+2005,2007,119,Seegräben,119,Seegräben
+2005,2007,120,Wald (ZH),120,Wald (ZH)
+2005,2007,121,Wetzikon (ZH),121,Wetzikon (ZH)
+2005,2007,131,Adliswil,131,Adliswil
+2005,2007,132,Hirzel,132,Hirzel
+2005,2007,133,Horgen,133,Horgen
+2005,2007,134,Hütten,134,Hütten
+2005,2007,135,Kilchberg (ZH),135,Kilchberg (ZH)
+2005,2007,136,Langnau am Albis,136,Langnau am Albis
+2005,2007,137,Oberrieden,137,Oberrieden
+2005,2007,138,Richterswil,138,Richterswil
+2005,2007,139,Rüschlikon,139,Rüschlikon
+2005,2007,140,Schönenberg (ZH),140,Schönenberg (ZH)
+2005,2007,141,Thalwil,141,Thalwil
+2005,2007,142,Wädenswil,142,Wädenswil
+2005,2007,151,Erlenbach (ZH),151,Erlenbach (ZH)
+2005,2007,152,Herrliberg,152,Herrliberg
+2005,2007,153,Hombrechtikon,153,Hombrechtikon
+2005,2007,154,Küsnacht (ZH),154,Küsnacht (ZH)
+2005,2007,155,Männedorf,155,Männedorf
+2005,2007,156,Meilen,156,Meilen
+2005,2007,157,Oetwil am See,157,Oetwil am See
+2005,2007,158,Stäfa,158,Stäfa
+2005,2007,159,Uetikon am See,159,Uetikon am See
+2005,2007,160,Zumikon,160,Zumikon
+2005,2007,161,Zollikon,161,Zollikon
+2005,2007,171,Bauma,171,Bauma
+2005,2007,172,Fehraltorf,172,Fehraltorf
+2005,2007,173,Hittnau,173,Hittnau
+2005,2007,174,Illnau-Effretikon,174,Illnau-Effretikon
+2005,2007,175,Kyburg,175,Kyburg
+2005,2007,176,Lindau,176,Lindau
+2005,2007,177,Pfäffikon,177,Pfäffikon
+2005,2007,178,Russikon,178,Russikon
+2005,2007,179,Sternenberg,179,Sternenberg
+2005,2007,180,Weisslingen,180,Weisslingen
+2005,2007,181,Wila,181,Wila
+2005,2007,182,Wildberg,182,Wildberg
+2005,2007,191,Dübendorf,191,Dübendorf
+2005,2007,192,Egg,192,Egg
+2005,2007,193,Fällanden,193,Fällanden
+2005,2007,194,Greifensee,194,Greifensee
+2005,2007,195,Maur,195,Maur
+2005,2007,196,Mönchaltorf,196,Mönchaltorf
+2005,2007,197,Schwerzenbach,197,Schwerzenbach
+2005,2007,198,Uster,198,Uster
+2005,2007,199,Volketswil,199,Volketswil
+2005,2007,200,Wangen-Brüttisellen,200,Wangen-Brüttisellen
+2005,2007,211,Altikon,211,Altikon
+2005,2007,212,Bertschikon,212,Bertschikon
+2005,2007,213,Brütten,213,Brütten
+2005,2007,214,Dägerlen,214,Dägerlen
+2005,2007,215,Dättlikon,215,Dättlikon
+2005,2007,216,Dinhard,216,Dinhard
+2005,2007,217,Elgg,217,Elgg
+2005,2007,218,Ellikon an der Thur,218,Ellikon an der Thur
+2005,2007,219,Elsau,219,Elsau
+2005,2007,220,Hagenbuch,220,Hagenbuch
+2005,2007,221,Hettlingen,221,Hettlingen
+2005,2007,222,Hofstetten (ZH),222,Hofstetten (ZH)
+2005,2007,223,Neftenbach,223,Neftenbach
+2005,2007,224,Pfungen,224,Pfungen
+2005,2007,225,Rickenbach (ZH),225,Rickenbach (ZH)
+2005,2007,226,Schlatt (ZH),226,Schlatt (ZH)
+2005,2007,227,Seuzach,227,Seuzach
+2005,2007,228,Turbenthal,228,Turbenthal
+2005,2007,229,Wiesendangen,229,Wiesendangen
+2005,2007,230,Winterthur,230,Winterthur
+2005,2007,231,Zell (ZH),231,Zell (ZH)
+2005,2007,241,Aesch (ZH),241,Aesch (ZH)
+2005,2007,242,Birmensdorf (ZH),242,Birmensdorf (ZH)
+2005,2007,243,Dietikon,243,Dietikon
+2005,2007,244,Geroldswil,244,Geroldswil
+2005,2007,245,Oberengstringen,245,Oberengstringen
+2005,2007,246,Oetwil an der Limmat,246,Oetwil an der Limmat
+2005,2007,247,Schlieren,247,Schlieren
+2005,2007,248,Uitikon,248,Uitikon
+2005,2007,249,Unterengstringen,249,Unterengstringen
+2005,2007,250,Urdorf,250,Urdorf
+2005,2007,251,Weiningen (ZH),251,Weiningen (ZH)
+2005,2007,261,Zürich,261,Zürich
+2005,2007,301,Aarberg,301,Aarberg
+2005,2007,302,Bargen (BE),302,Bargen (BE)
+2005,2007,303,Grossaffoltern,303,Grossaffoltern
+2005,2007,304,Kallnach,304,Kallnach
+2005,2007,305,Kappelen,305,Kappelen
+2005,2007,306,Lyss,306,Lyss
+2005,2007,307,Meikirch,307,Meikirch
+2005,2007,308,Niederried bei Kallnach,308,Niederried bei Kallnach
+2005,2007,309,Radelfingen,309,Radelfingen
+2005,2007,310,Rapperswil (BE),310,Rapperswil (BE)
+2005,2007,311,Schüpfen,311,Schüpfen
+2005,2007,312,Seedorf (BE),312,Seedorf (BE)
+2005,2007,321,Aarwangen,321,Aarwangen
+2005,2007,322,Auswil,322,Auswil
+2005,2007,323,Bannwil,323,Bannwil
+2005,2007,324,Bleienbach,324,Bleienbach
+2005,2007,325,Busswil bei Melchnau,325,Busswil bei Melchnau
+2005,2007,326,Gondiswil,326,Gondiswil
+2005,2006,327,Gutenburg,332,Madiswil
+2005,2007,328,Kleindietwil,328,Kleindietwil
+2005,2007,329,Langenthal,329,Langenthal
+2005,2007,330,Leimiswil,330,Leimiswil
+2005,2007,331,Lotzwil,331,Lotzwil
+2005,2007,332,Madiswil,332,Madiswil
+2005,2007,333,Melchnau,333,Melchnau
+2005,2007,334,Obersteckholz,334,Obersteckholz
+2005,2007,335,Oeschenbach,335,Oeschenbach
+2005,2007,336,Reisiswil,336,Reisiswil
+2005,2007,337,Roggwil (BE),337,Roggwil (BE)
+2005,2007,338,Rohrbach,338,Rohrbach
+2005,2007,339,Rohrbachgraben,339,Rohrbachgraben
+2005,2007,340,Rütschelen,340,Rütschelen
+2005,2007,341,Schwarzhäusern,341,Schwarzhäusern
+2005,2007,342,Thunstetten,342,Thunstetten
+2005,2007,343,Untersteckholz,343,Untersteckholz
+2005,2007,344,Ursenbach,344,Ursenbach
+2005,2007,345,Wynau,345,Wynau
+2005,2007,351,Bern,351,Bern
+2005,2007,352,Bolligen,352,Bolligen
+2005,2007,353,Bremgarten bei Bern,353,Bremgarten bei Bern
+2005,2007,354,Kirchlindach,354,Kirchlindach
+2005,2007,355,Köniz,355,Köniz
+2005,2007,356,Muri bei Bern,356,Muri bei Bern
+2005,2007,357,Oberbalm,357,Oberbalm
+2005,2007,358,Stettlen,358,Stettlen
+2005,2007,359,Vechigen,359,Vechigen
+2005,2007,360,Wohlen bei Bern,360,Wohlen bei Bern
+2005,2007,361,Zollikofen,361,Zollikofen
+2005,2007,362,Ittigen,362,Ittigen
+2005,2007,363,Ostermundigen,363,Ostermundigen
+2005,2007,371,Biel/Bienne,371,Biel/Bienne
+2005,2007,372,Evilard,372,Evilard
+2005,2007,381,Arch,381,Arch
+2005,2007,382,Büetigen,382,Büetigen
+2005,2007,383,Büren an der Aare,383,Büren an der Aare
+2005,2007,384,Busswil bei Büren,384,Busswil bei Büren
+2005,2007,385,Diessbach bei Büren,385,Diessbach bei Büren
+2005,2007,386,Dotzigen,386,Dotzigen
+2005,2007,387,Lengnau (BE),387,Lengnau (BE)
+2005,2007,388,Leuzigen,388,Leuzigen
+2005,2007,389,Meienried,389,Meienried
+2005,2007,390,Meinisberg,390,Meinisberg
+2005,2007,391,Oberwil bei Büren,391,Oberwil bei Büren
+2005,2007,392,Pieterlen,392,Pieterlen
+2005,2007,393,Rüti bei Büren,393,Rüti bei Büren
+2005,2007,394,Wengi,394,Wengi
+2005,2007,401,Aefligen,401,Aefligen
+2005,2007,402,Alchenstorf,402,Alchenstorf
+2005,2007,403,Bäriswil,403,Bäriswil
+2005,2007,404,Burgdorf,404,Burgdorf
+2005,2007,405,Ersigen,405,Ersigen
+2005,2007,406,Hasle bei Burgdorf,406,Hasle bei Burgdorf
+2005,2007,407,Heimiswil,407,Heimiswil
+2005,2007,408,Hellsau,408,Hellsau
+2005,2007,409,Hindelbank,409,Hindelbank
+2005,2007,410,Höchstetten,410,Höchstetten
+2005,2007,411,Kernenried,411,Kernenried
+2005,2007,412,Kirchberg (BE),412,Kirchberg (BE)
+2005,2007,413,Koppigen,413,Koppigen
+2005,2007,414,Krauchthal,414,Krauchthal
+2005,2007,415,Lyssach,415,Lyssach
+2005,2007,416,Mötschwil,416,Mötschwil
+2005,2007,417,Niederösch,417,Niederösch
+2005,2007,418,Oberburg,418,Oberburg
+2005,2007,419,Oberösch,419,Oberösch
+2005,2007,420,Rüdtligen-Alchenflüh,420,Rüdtligen-Alchenflüh
+2005,2007,421,Rumendingen,421,Rumendingen
+2005,2007,422,Rüti bei Lyssach,422,Rüti bei Lyssach
+2005,2007,423,Willadingen,423,Willadingen
+2005,2007,424,Wynigen,424,Wynigen
+2005,2007,431,Corgémont,431,Corgémont
+2005,2007,432,Cormoret,432,Cormoret
+2005,2007,433,Cortébert,433,Cortébert
+2005,2007,434,Courtelary,434,Courtelary
+2005,2007,435,La Ferrière,435,La Ferrière
+2005,2007,436,La Heutte,436,La Heutte
+2005,2007,437,Mont-Tramelan,437,Mont-Tramelan
+2005,2007,438,Orvin,438,Orvin
+2005,2007,439,Péry,439,Péry
+2005,2007,440,Plagne,440,Plagne
+2005,2007,441,Renan (BE),441,Renan (BE)
+2005,2007,442,Romont (BE),442,Romont (BE)
+2005,2007,443,Saint-Imier,443,Saint-Imier
+2005,2007,444,Sonceboz-Sombeval,444,Sonceboz-Sombeval
+2005,2007,445,Sonvilier,445,Sonvilier
+2005,2007,446,Tramelan,446,Tramelan
+2005,2007,447,Vauffelin,447,Vauffelin
+2005,2007,448,Villeret,448,Villeret
+2005,2007,491,Brüttelen,491,Brüttelen
+2005,2007,492,Erlach,492,Erlach
+2005,2007,493,Finsterhennen,493,Finsterhennen
+2005,2007,494,Gals,494,Gals
+2005,2007,495,Gampelen,495,Gampelen
+2005,2007,496,Ins,496,Ins
+2005,2007,497,Lüscherz,497,Lüscherz
+2005,2007,498,Müntschemier,498,Müntschemier
+2005,2007,499,Siselen,499,Siselen
+2005,2007,500,Treiten,500,Treiten
+2005,2007,501,Tschugg,501,Tschugg
+2005,2007,502,Vinelz,502,Vinelz
+2005,2007,531,Ballmoos,531,Ballmoos
+2005,2007,532,Bangerten,532,Bangerten
+2005,2007,533,Bätterkinden,533,Bätterkinden
+2005,2007,534,Büren zum Hof,534,Büren zum Hof
+2005,2007,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
+2005,2007,536,Diemerswil,536,Diemerswil
+2005,2007,537,Etzelkofen,537,Etzelkofen
+2005,2007,538,Fraubrunnen,538,Fraubrunnen
+2005,2007,539,Grafenried,539,Grafenried
+2005,2007,540,Jegenstorf,540,Jegenstorf
+2005,2007,541,Iffwil,541,Iffwil
+2005,2007,542,Limpach,542,Limpach
+2005,2007,543,Mattstetten,543,Mattstetten
+2005,2007,544,Moosseedorf,544,Moosseedorf
+2005,2007,545,Mülchi,545,Mülchi
+2005,2007,546,Münchenbuchsee,546,Münchenbuchsee
+2005,2007,547,Münchringen,547,Münchringen
+2005,2007,548,Ruppoldsried,548,Ruppoldsried
+2005,2007,549,Schalunen,549,Schalunen
+2005,2007,550,Scheunen,550,Scheunen
+2005,2007,551,Urtenen-Schönbühl,551,Urtenen-Schönbühl
+2005,2007,552,Utzenstorf,552,Utzenstorf
+2005,2007,553,Wiggiswil,553,Wiggiswil
+2005,2007,554,Wiler bei Utzenstorf,554,Wiler bei Utzenstorf
+2005,2007,555,Zauggenried,555,Zauggenried
+2005,2007,556,Zielebach,556,Zielebach
+2005,2007,557,Zuzwil (BE),557,Zuzwil (BE)
+2005,2007,561,Adelboden,561,Adelboden
+2005,2007,562,Aeschi bei Spiez,562,Aeschi bei Spiez
+2005,2007,563,Frutigen,563,Frutigen
+2005,2007,564,Kandergrund,564,Kandergrund
+2005,2007,565,Kandersteg,565,Kandersteg
+2005,2007,566,Krattigen,566,Krattigen
+2005,2007,567,Reichenbach im Kandertal,567,Reichenbach im Kandertal
+2005,2007,571,Beatenberg,571,Beatenberg
+2005,2007,572,Bönigen,572,Bönigen
+2005,2007,573,Brienz (BE),573,Brienz (BE)
+2005,2007,574,Brienzwiler,574,Brienzwiler
+2005,2007,575,Därligen,575,Därligen
+2005,2007,576,Grindelwald,576,Grindelwald
+2005,2007,577,Gsteigwiler,577,Gsteigwiler
+2005,2007,578,Gündlischwand,578,Gündlischwand
+2005,2007,579,Habkern,579,Habkern
+2005,2007,580,Hofstetten bei Brienz,580,Hofstetten bei Brienz
+2005,2007,581,Interlaken,581,Interlaken
+2005,2007,582,Iseltwald,582,Iseltwald
+2005,2007,584,Lauterbrunnen,584,Lauterbrunnen
+2005,2007,585,Leissigen,585,Leissigen
+2005,2007,586,Lütschental,586,Lütschental
+2005,2007,587,Matten bei Interlaken,587,Matten bei Interlaken
+2005,2007,588,Niederried b. Interlaken,588,Niederried b. Interlaken
+2005,2007,589,Oberried am Brienzersee,589,Oberried am Brienzersee
+2005,2007,590,Ringgenberg (BE),590,Ringgenberg (BE)
+2005,2007,591,Saxeten,591,Saxeten
+2005,2007,592,Schwanden bei Brienz,592,Schwanden bei Brienz
+2005,2007,593,Unterseen,593,Unterseen
+2005,2007,594,Wilderswil,594,Wilderswil
+2005,2007,601,Aeschlen,601,Aeschlen
+2005,2007,602,Arni (BE),602,Arni (BE)
+2005,2007,603,Biglen,603,Biglen
+2005,2007,604,Bleiken b. Oberdiessbach,604,Bleiken b. Oberdiessbach
+2005,2007,605,Bowil,605,Bowil
+2005,2007,606,Brenzikofen,606,Brenzikofen
+2005,2007,607,Freimettigen,607,Freimettigen
+2005,2007,608,Grosshöchstetten,608,Grosshöchstetten
+2005,2007,609,Häutligen,609,Häutligen
+2005,2007,610,Herbligen,610,Herbligen
+2005,2007,611,Kiesen,611,Kiesen
+2005,2007,612,Konolfingen,612,Konolfingen
+2005,2007,613,Landiswil,613,Landiswil
+2005,2007,614,Linden,614,Linden
+2005,2007,615,Mirchel,615,Mirchel
+2005,2007,616,Münsingen,616,Münsingen
+2005,2007,617,Niederhünigen,617,Niederhünigen
+2005,2007,619,Oberdiessbach,619,Oberdiessbach
+2005,2007,620,Oberthal,620,Oberthal
+2005,2007,622,Oppligen,622,Oppligen
+2005,2007,623,Rubigen,623,Rubigen
+2005,2007,624,Schlosswil,624,Schlosswil
+2005,2007,625,Tägertschi,625,Tägertschi
+2005,2007,626,Walkringen,626,Walkringen
+2005,2007,627,Worb,627,Worb
+2005,2007,628,Zäziwil,628,Zäziwil
+2005,2007,629,Oberhünigen,629,Oberhünigen
+2005,2007,630,Allmendingen,630,Allmendingen
+2005,2007,631,Trimstein,631,Trimstein
+2005,2007,632,Wichtrach,632,Wichtrach
+2005,2007,661,Clavaleyres,661,Clavaleyres
+2005,2007,662,Ferenbalm,662,Ferenbalm
+2005,2007,663,Frauenkappelen,663,Frauenkappelen
+2005,2007,664,Golaten,664,Golaten
+2005,2007,665,Gurbrü,665,Gurbrü
+2005,2007,666,Kriechenwil,666,Kriechenwil
+2005,2007,667,Laupen,667,Laupen
+2005,2007,668,Mühleberg,668,Mühleberg
+2005,2007,669,Münchenwiler,669,Münchenwiler
+2005,2007,670,Neuenegg,670,Neuenegg
+2005,2007,671,Wileroltigen,671,Wileroltigen
+2005,2007,681,Belprahon,681,Belprahon
+2005,2007,682,Bévilard,682,Bévilard
+2005,2007,683,Champoz,683,Champoz
+2005,2007,684,Châtelat,684,Châtelat
+2005,2007,687,Corcelles (BE),687,Corcelles (BE)
+2005,2007,690,Court,690,Court
+2005,2007,691,Crémines,691,Crémines
+2005,2007,692,Eschert,692,Eschert
+2005,2007,694,Grandval,694,Grandval
+2005,2007,696,Loveresse,696,Loveresse
+2005,2007,697,Malleray,697,Malleray
+2005,2007,699,Monible,699,Monible
+2005,2007,700,Moutier,700,Moutier
+2005,2007,701,Perrefitte,701,Perrefitte
+2005,2007,702,Pontenet,702,Pontenet
+2005,2007,703,Reconvilier,703,Reconvilier
+2005,2007,704,Roches (BE),704,Roches (BE)
+2005,2007,706,Saicourt,706,Saicourt
+2005,2007,707,Saules (BE),707,Saules (BE)
+2005,2007,708,Schelten,708,Schelten
+2005,2007,709,Seehof,709,Seehof
+2005,2007,710,Sornetan,710,Sornetan
+2005,2007,711,Sorvilier,711,Sorvilier
+2005,2007,712,Souboz,712,Souboz
+2005,2007,713,Tavannes,713,Tavannes
+2005,2007,715,Rebévelier,715,Rebévelier
+2005,2007,721,Diesse,721,Diesse
+2005,2007,722,Lamboing,722,Lamboing
+2005,2007,723,La Neuveville,723,La Neuveville
+2005,2007,724,Nods,724,Nods
+2005,2007,725,Prêles,725,Prêles
+2005,2007,731,Aegerten,731,Aegerten
+2005,2007,732,Bellmund,732,Bellmund
+2005,2007,733,Brügg,733,Brügg
+2005,2007,734,Bühl,734,Bühl
+2005,2007,735,Epsach,735,Epsach
+2005,2007,736,Hagneck,736,Hagneck
+2005,2007,737,Hermrigen,737,Hermrigen
+2005,2007,738,Jens,738,Jens
+2005,2007,739,Ipsach,739,Ipsach
+2005,2007,740,Ligerz,740,Ligerz
+2005,2007,741,Merzligen,741,Merzligen
+2005,2007,742,Mörigen,742,Mörigen
+2005,2007,743,Nidau,743,Nidau
+2005,2007,744,Orpund,744,Orpund
+2005,2007,745,Port,745,Port
+2005,2007,746,Safnern,746,Safnern
+2005,2007,747,Scheuren,747,Scheuren
+2005,2007,748,Schwadernau,748,Schwadernau
+2005,2006,749,Studen,749,Studen (BE)
+2007,2007,749,Studen (BE),749,Studen (BE)
+2005,2007,750,Sutz-Lattrigen,750,Sutz-Lattrigen
+2005,2007,751,Täuffelen,751,Täuffelen
+2005,2007,752,Tüscherz-Alfermée,752,Tüscherz-Alfermée
+2005,2007,753,Twann,753,Twann
+2005,2007,754,Walperswil,754,Walperswil
+2005,2007,755,Worben,755,Worben
+2005,2007,761,Därstetten,761,Därstetten
+2005,2007,762,Diemtigen,762,Diemtigen
+2005,2007,763,Erlenbach im Simmental,763,Erlenbach im Simmental
+2005,2007,764,Niederstocken,764,Niederstocken
+2005,2007,765,Oberstocken,765,Oberstocken
+2005,2007,766,Oberwil im Simmental,766,Oberwil im Simmental
+2005,2007,767,Reutigen,767,Reutigen
+2005,2007,768,Spiez,768,Spiez
+2005,2007,769,Wimmis,769,Wimmis
+2005,2007,781,Gadmen,781,Gadmen
+2005,2007,782,Guttannen,782,Guttannen
+2005,2007,783,Hasliberg,783,Hasliberg
+2005,2007,784,Innertkirchen,784,Innertkirchen
+2005,2007,785,Meiringen,785,Meiringen
+2005,2007,786,Schattenhalb,786,Schattenhalb
+2005,2007,791,Boltigen,791,Boltigen
+2005,2007,792,Lenk,792,Lenk
+2005,2007,793,St. Stephan,793,St. Stephan
+2005,2007,794,Zweisimmen,794,Zweisimmen
+2005,2007,841,Gsteig,841,Gsteig
+2005,2007,842,Lauenen,842,Lauenen
+2005,2007,843,Saanen,843,Saanen
+2005,2007,851,Albligen,851,Albligen
+2005,2007,852,Guggisberg,852,Guggisberg
+2005,2007,853,Rüschegg,853,Rüschegg
+2005,2007,854,Wahlern,854,Wahlern
+2005,2007,861,Belp,861,Belp
+2005,2007,862,Belpberg,862,Belpberg
+2005,2007,863,Burgistein,863,Burgistein
+2005,2007,865,Gelterfingen,865,Gelterfingen
+2005,2007,866,Gerzensee,866,Gerzensee
+2005,2007,867,Gurzelen,867,Gurzelen
+2005,2007,868,Jaberg,868,Jaberg
+2005,2007,869,Kaufdorf,869,Kaufdorf
+2005,2007,870,Kehrsatz,870,Kehrsatz
+2005,2007,871,Kienersrüti,871,Kienersrüti
+2005,2007,872,Kirchdorf (BE),872,Kirchdorf (BE)
+2005,2007,873,Kirchenthurnen,873,Kirchenthurnen
+2005,2007,874,Lohnstorf,874,Lohnstorf
+2005,2007,875,Mühledorf (BE),875,Mühledorf (BE)
+2005,2007,876,Mühlethurnen,876,Mühlethurnen
+2005,2007,877,Niedermuhlern,877,Niedermuhlern
+2005,2007,878,Noflen,878,Noflen
+2005,2007,879,Riggisberg,879,Riggisberg
+2005,2007,880,Rüeggisberg,880,Rüeggisberg
+2005,2007,881,Rümligen,881,Rümligen
+2005,2007,882,Rüti bei Riggisberg,882,Rüti bei Riggisberg
+2005,2007,883,Seftigen,883,Seftigen
+2005,2007,884,Toffen,884,Toffen
+2005,2007,885,Uttigen,885,Uttigen
+2005,2007,886,Wattenwil,886,Wattenwil
+2005,2007,888,Wald (BE),888,Wald (BE)
+2005,2007,901,Eggiwil,901,Eggiwil
+2005,2007,902,Langnau im Emmental,902,Langnau im Emmental
+2005,2007,903,Lauperswil,903,Lauperswil
+2005,2007,904,Röthenbach im Emmental,904,Röthenbach im Emmental
+2005,2007,905,Rüderswil,905,Rüderswil
+2005,2007,906,Schangnau,906,Schangnau
+2005,2007,907,Signau,907,Signau
+2005,2007,908,Trub,908,Trub
+2005,2007,909,Trubschachen,909,Trubschachen
+2005,2007,921,Amsoldingen,921,Amsoldingen
+2005,2007,922,Blumenstein,922,Blumenstein
+2005,2007,923,Buchholterberg,923,Buchholterberg
+2005,2007,924,Eriz,924,Eriz
+2005,2007,925,Fahrni,925,Fahrni
+2005,2006,926,Forst,948,Forst-Längenbühl
+2005,2007,927,Heiligenschwendi,927,Heiligenschwendi
+2005,2007,928,Heimberg,928,Heimberg
+2005,2007,929,Hilterfingen,929,Hilterfingen
+2005,2007,930,Höfen,930,Höfen
+2005,2007,931,Homberg,931,Homberg
+2005,2007,932,Horrenbach-Buchen,932,Horrenbach-Buchen
+2005,2006,933,Längenbühl,948,Forst-Längenbühl
+2005,2007,934,Oberhofen am Thunersee,934,Oberhofen am Thunersee
+2005,2007,935,Oberlangenegg,935,Oberlangenegg
+2005,2007,936,Pohlern,936,Pohlern
+2005,2007,937,Schwendibach,937,Schwendibach
+2005,2007,938,Sigriswil,938,Sigriswil
+2005,2007,939,Steffisburg,939,Steffisburg
+2005,2007,940,Teuffenthal (BE),940,Teuffenthal (BE)
+2005,2007,941,Thierachern,941,Thierachern
+2005,2007,942,Thun,942,Thun
+2005,2007,943,Uebeschi,943,Uebeschi
+2005,2007,944,Uetendorf,944,Uetendorf
+2005,2007,945,Unterlangenegg,945,Unterlangenegg
+2005,2007,946,Wachseldorn,946,Wachseldorn
+2005,2007,947,Zwieselberg,947,Zwieselberg
+2007,2007,948,Forst-Längenbühl,948,Forst-Längenbühl
+2005,2007,951,Affoltern im Emmental,951,Affoltern im Emmental
+2005,2007,952,Dürrenroth,952,Dürrenroth
+2005,2007,953,Eriswil,953,Eriswil
+2005,2007,954,Huttwil,954,Huttwil
+2005,2007,955,Lützelflüh,955,Lützelflüh
+2005,2007,956,Rüegsau,956,Rüegsau
+2005,2007,957,Sumiswald,957,Sumiswald
+2005,2007,958,Trachselwald,958,Trachselwald
+2005,2007,959,Walterswil (BE),959,Walterswil (BE)
+2005,2007,960,Wyssachen,960,Wyssachen
+2005,2007,971,Attiswil,971,Attiswil
+2005,2007,972,Berken,972,Berken
+2005,2007,973,Bettenhausen,973,Bettenhausen
+2005,2007,974,Bollodingen,974,Bollodingen
+2005,2007,975,Farnern,975,Farnern
+2005,2007,976,Graben,976,Graben
+2005,2007,977,Heimenhausen,977,Heimenhausen
+2005,2007,978,Hermiswil,978,Hermiswil
+2005,2007,979,Herzogenbuchsee,979,Herzogenbuchsee
+2005,2007,980,Inkwil,980,Inkwil
+2005,2007,981,Niederbipp,981,Niederbipp
+2005,2007,982,Niederönz,982,Niederönz
+2005,2007,983,Oberbipp,983,Oberbipp
+2005,2007,984,Oberönz,984,Oberönz
+2005,2007,985,Ochlenberg,985,Ochlenberg
+2005,2007,986,Röthenbach b. Herzogenb.,986,Röthenbach b. Herzogenb.
+2005,2007,987,Rumisberg,987,Rumisberg
+2005,2007,988,Seeberg,988,Seeberg
+2005,2007,989,Thörigen,989,Thörigen
+2005,2007,990,Walliswil bei Niederbipp,990,Walliswil bei Niederbipp
+2005,2007,991,Walliswil bei Wangen,991,Walliswil bei Wangen
+2005,2007,992,Wangen an der Aare,992,Wangen an der Aare
+2005,2007,993,Wangenried,993,Wangenried
+2005,2007,994,Wanzwil,994,Wanzwil
+2005,2007,995,Wiedlisbach,995,Wiedlisbach
+2005,2007,996,Wolfisberg,996,Wolfisberg
+2005,2007,1001,Doppleschwand,1001,Doppleschwand
+2005,2007,1002,Entlebuch,1002,Entlebuch
+2005,2007,1003,Escholzmatt,1003,Escholzmatt
+2005,2007,1004,Flühli,1004,Flühli
+2005,2007,1005,Hasle (LU),1005,Hasle (LU)
+2005,2007,1006,Marbach (LU),1006,Marbach (LU)
+2005,2007,1007,Romoos,1007,Romoos
+2005,2007,1008,Schüpfheim,1008,Schüpfheim
+2005,2007,1009,Werthenstein,1009,Werthenstein
+2005,2007,1021,Aesch (LU),1021,Aesch (LU)
+2005,2007,1022,Altwis,1022,Altwis
+2005,2007,1023,Ballwil,1023,Ballwil
+2005,2007,1024,Emmen,1024,Emmen
+2005,2007,1025,Ermensee,1025,Ermensee
+2005,2007,1026,Eschenbach (LU),1026,Eschenbach (LU)
+2005,2007,1027,Gelfingen,1027,Gelfingen
+2005,2007,1028,Hämikon,1028,Hämikon
+2005,2007,1030,Hitzkirch,1030,Hitzkirch
+2005,2007,1031,Hochdorf,1031,Hochdorf
+2005,2007,1032,Hohenrain,1032,Hohenrain
+2005,2007,1033,Inwil,1033,Inwil
+2005,2006,1034,Lieli,1032,Hohenrain
+2005,2007,1035,Mosen,1035,Mosen
+2005,2007,1036,Müswangen,1036,Müswangen
+2005,2007,1037,Rain,1037,Rain
+2005,2007,1038,Retschwil,1038,Retschwil
+2005,2007,1039,Römerswil,1039,Römerswil
+2005,2007,1040,Rothenburg,1040,Rothenburg
+2005,2007,1041,Schongau,1041,Schongau
+2005,2007,1042,Sulz (LU),1042,Sulz (LU)
+2005,2007,1051,Adligenswil,1051,Adligenswil
+2005,2007,1052,Buchrain,1052,Buchrain
+2005,2007,1053,Dierikon,1053,Dierikon
+2005,2007,1054,Ebikon,1054,Ebikon
+2005,2007,1055,Gisikon,1055,Gisikon
+2005,2007,1056,Greppen,1056,Greppen
+2005,2007,1057,Honau,1057,Honau
+2005,2007,1058,Horw,1058,Horw
+2005,2007,1059,Kriens,1059,Kriens
+2005,2007,1060,Littau,1060,Littau
+2005,2007,1061,Luzern,1061,Luzern
+2005,2007,1062,Malters,1062,Malters
+2005,2007,1063,Meggen,1063,Meggen
+2005,2007,1064,Meierskappel,1064,Meierskappel
+2005,2007,1065,Root,1065,Root
+2005,2007,1066,Schwarzenberg,1066,Schwarzenberg
+2005,2007,1067,Udligenswil,1067,Udligenswil
+2005,2007,1068,Vitznau,1068,Vitznau
+2005,2007,1069,Weggis,1069,Weggis
+2005,2007,1081,Beromünster,1081,Beromünster
+2005,2007,1082,Büron,1082,Büron
+2005,2007,1083,Buttisholz,1083,Buttisholz
+2005,2007,1084,Eich,1084,Eich
+2005,2007,1085,Geuensee,1085,Geuensee
+2005,2007,1086,Grosswangen,1086,Grosswangen
+2005,2007,1087,Gunzwil,1087,Gunzwil
+2005,2007,1088,Hildisrieden,1088,Hildisrieden
+2005,2007,1089,Knutwil,1089,Knutwil
+2005,2007,1091,Mauensee,1091,Mauensee
+2005,2007,1092,Neudorf,1092,Neudorf
+2005,2007,1093,Neuenkirch,1093,Neuenkirch
+2005,2007,1094,Nottwil,1094,Nottwil
+2005,2007,1095,Oberkirch,1095,Oberkirch
+2005,2007,1096,Pfeffikon,1096,Pfeffikon
+2005,2007,1097,Rickenbach (LU),1097,Rickenbach (LU)
+2005,2007,1098,Ruswil,1098,Ruswil
+2005,2007,1099,Schenkon,1099,Schenkon
+2005,2007,1100,Schlierbach,1100,Schlierbach
+2005,2007,1102,Sempach,1102,Sempach
+2005,2007,1103,Sursee,1103,Sursee
+2005,2007,1104,Triengen,1104,Triengen
+2005,2007,1106,Winikon,1106,Winikon
+2005,2007,1107,Wolhusen,1107,Wolhusen
+2005,2007,1121,Alberswil,1121,Alberswil
+2005,2007,1122,Altbüron,1122,Altbüron
+2005,2007,1123,Altishofen,1123,Altishofen
+2005,2005,1124,Buchs (LU),1125,Dagmersellen
+2005,2007,1125,Dagmersellen,1125,Dagmersellen
+2005,2007,1126,Ebersecken,1126,Ebersecken
+2005,2007,1127,Egolzwil,1127,Egolzwil
+2005,2007,1128,Ettiswil,1128,Ettiswil
+2005,2007,1129,Fischbach,1129,Fischbach
+2005,2007,1130,Gettnau,1130,Gettnau
+2005,2007,1131,Grossdietwil,1131,Grossdietwil
+2005,2007,1132,Hergiswil bei Willisau,1132,Hergiswil bei Willisau
+2005,2005,1133,Kottwil,1128,Ettiswil
+2005,2005,1134,Langnau bei Reiden,1140,Reiden
+2005,2007,1135,Luthern,1135,Luthern
+2005,2007,1136,Menznau,1136,Menznau
+2005,2007,1137,Nebikon,1137,Nebikon
+2005,2007,1138,Ohmstal,1138,Ohmstal
+2005,2007,1139,Pfaffnau,1139,Pfaffnau
+2005,2007,1140,Reiden,1140,Reiden
+2005,2005,1141,Richenthal,1140,Reiden
+2005,2007,1142,Roggliswil,1142,Roggliswil
+2005,2007,1143,Schötz,1143,Schötz
+2005,2005,1144,Uffikon,1125,Dagmersellen
+2005,2007,1145,Ufhusen,1145,Ufhusen
+2005,2007,1146,Wauwil,1146,Wauwil
+2005,2007,1147,Wikon,1147,Wikon
+2005,2005,1148,Willisau Land,1151,Willisau
+2005,2005,1149,Willisau Stadt,1151,Willisau
+2005,2007,1150,Zell (LU),1150,Zell (LU)
+2006,2007,1151,Willisau,1151,Willisau
+2005,2007,1201,Altdorf (UR),1201,Altdorf (UR)
+2005,2007,1202,Andermatt,1202,Andermatt
+2005,2007,1203,Attinghausen,1203,Attinghausen
+2005,2007,1204,Bauen,1204,Bauen
+2005,2007,1205,Bürglen (UR),1205,Bürglen (UR)
+2005,2007,1206,Erstfeld,1206,Erstfeld
+2005,2007,1207,Flüelen,1207,Flüelen
+2005,2007,1208,Göschenen,1208,Göschenen
+2005,2007,1209,Gurtnellen,1209,Gurtnellen
+2005,2007,1210,Hospental,1210,Hospental
+2005,2007,1211,Isenthal,1211,Isenthal
+2005,2007,1212,Realp,1212,Realp
+2005,2007,1213,Schattdorf,1213,Schattdorf
+2005,2007,1214,Seedorf (UR),1214,Seedorf (UR)
+2005,2007,1215,Seelisberg,1215,Seelisberg
+2005,2007,1216,Silenen,1216,Silenen
+2005,2007,1217,Sisikon,1217,Sisikon
+2005,2007,1218,Spiringen,1218,Spiringen
+2005,2007,1219,Unterschächen,1219,Unterschächen
+2005,2007,1220,Wassen,1220,Wassen
+2005,2007,1301,Einsiedeln,1301,Einsiedeln
+2005,2007,1311,Gersau,1311,Gersau
+2005,2007,1321,Feusisberg,1321,Feusisberg
+2005,2007,1322,Freienbach,1322,Freienbach
+2005,2007,1323,Wollerau,1323,Wollerau
+2005,2007,1331,Küssnacht (SZ),1331,Küssnacht (SZ)
+2005,2007,1341,Altendorf,1341,Altendorf
+2005,2007,1342,Galgenen,1342,Galgenen
+2005,2007,1343,Innerthal,1343,Innerthal
+2005,2007,1344,Lachen,1344,Lachen
+2005,2007,1345,Reichenburg,1345,Reichenburg
+2005,2007,1346,Schübelbach,1346,Schübelbach
+2005,2007,1347,Tuggen,1347,Tuggen
+2005,2007,1348,Vorderthal,1348,Vorderthal
+2005,2007,1349,Wangen (SZ),1349,Wangen (SZ)
+2005,2007,1361,Alpthal,1361,Alpthal
+2005,2007,1362,Arth,1362,Arth
+2005,2007,1363,Illgau,1363,Illgau
+2005,2007,1364,Ingenbohl,1364,Ingenbohl
+2005,2007,1365,Lauerz,1365,Lauerz
+2005,2007,1366,Morschach,1366,Morschach
+2005,2007,1367,Muotathal,1367,Muotathal
+2005,2007,1368,Oberiberg,1368,Oberiberg
+2005,2007,1369,Riemenstalden,1369,Riemenstalden
+2005,2007,1370,Rothenthurm,1370,Rothenthurm
+2005,2007,1371,Sattel,1371,Sattel
+2005,2007,1372,Schwyz,1372,Schwyz
+2005,2007,1373,Steinen,1373,Steinen
+2005,2007,1374,Steinerberg,1374,Steinerberg
+2005,2007,1375,Unteriberg,1375,Unteriberg
+2005,2007,1401,Alpnach,1401,Alpnach
+2005,2007,1402,Engelberg,1402,Engelberg
+2005,2007,1403,Giswil,1403,Giswil
+2005,2007,1404,Kerns,1404,Kerns
+2005,2007,1405,Lungern,1405,Lungern
+2005,2007,1406,Sachseln,1406,Sachseln
+2005,2007,1407,Sarnen,1407,Sarnen
+2005,2007,1501,Beckenried,1501,Beckenried
+2005,2007,1502,Buochs,1502,Buochs
+2005,2007,1503,Dallenwil,1503,Dallenwil
+2005,2007,1504,Emmetten,1504,Emmetten
+2005,2007,1505,Ennetbürgen,1505,Ennetbürgen
+2005,2007,1506,Ennetmoos,1506,Ennetmoos
+2005,2007,1507,Hergiswil (NW),1507,Hergiswil (NW)
+2005,2007,1508,Oberdorf (NW),1508,Oberdorf (NW)
+2005,2007,1509,Stans,1509,Stans
+2005,2007,1510,Stansstad,1510,Stansstad
+2005,2007,1511,Wolfenschiessen,1511,Wolfenschiessen
+2005,2007,1601,Betschwanden,1601,Betschwanden
+2005,2007,1602,Bilten,1602,Bilten
+2005,2007,1603,Braunwald,1603,Braunwald
+2005,2007,1605,Elm,1605,Elm
+2005,2007,1606,Engi,1606,Engi
+2005,2007,1607,Ennenda,1607,Ennenda
+2005,2007,1608,Filzbach,1608,Filzbach
+2005,2007,1609,Glarus,1609,Glarus
+2005,2007,1610,Haslen,1610,Haslen
+2005,2006,1612,Leuggelbach,1610,Haslen
+2005,2007,1613,Linthal,1613,Linthal
+2005,2007,1614,Luchsingen,1614,Luchsingen
+2005,2007,1615,Matt,1615,Matt
+2005,2007,1616,Mitlödi,1616,Mitlödi
+2005,2007,1617,Mollis,1617,Mollis
+2005,2007,1618,Mühlehorn,1618,Mühlehorn
+2005,2007,1619,Näfels,1619,Näfels
+2005,2007,1620,Netstal,1620,Netstal
+2005,2006,1621,Nidfurn,1610,Haslen
+2005,2007,1622,Niederurnen,1622,Niederurnen
+2005,2007,1623,Oberurnen,1623,Oberurnen
+2005,2007,1624,Obstalden,1624,Obstalden
+2005,2007,1625,Riedern,1625,Riedern
+2005,2007,1626,Rüti (GL),1626,Rüti (GL)
+2005,2007,1627,Schwanden (GL),1627,Schwanden (GL)
+2005,2007,1628,Schwändi,1628,Schwändi
+2005,2007,1629,Sool,1629,Sool
+2005,2007,1701,Baar,1701,Baar
+2005,2007,1702,Cham,1702,Cham
+2005,2007,1703,Hünenberg,1703,Hünenberg
+2005,2007,1704,Menzingen,1704,Menzingen
+2005,2007,1705,Neuheim,1705,Neuheim
+2005,2007,1706,Oberägeri,1706,Oberägeri
+2005,2007,1707,Risch,1707,Risch
+2005,2007,1708,Steinhausen,1708,Steinhausen
+2005,2007,1709,Unterägeri,1709,Unterägeri
+2005,2007,1710,Walchwil,1710,Walchwil
+2005,2007,1711,Zug,1711,Zug
+2005,2005,2002,Autavaux,2052,Vernay
+2005,2005,2003,Bollion,2025,Lully (FR)
+2005,2007,2004,Bussy (FR),2004,Bussy (FR)
+2005,2007,2005,Châbles,2005,Châbles
+2005,2007,2008,Châtillon (FR),2008,Châtillon (FR)
+2005,2007,2009,Cheiry,2009,Cheiry
+2005,2007,2010,Cheyres,2010,Cheyres
+2005,2007,2011,Cugy (FR),2011,Cugy (FR)
+2005,2007,2013,Domdidier,2013,Domdidier
+2005,2007,2014,Dompierre (FR),2014,Dompierre (FR)
+2005,2007,2015,Estavayer-le-Lac,2015,Estavayer-le-Lac
+2005,2007,2016,Fétigny,2016,Fétigny
+2005,2007,2017,Font,2017,Font
+2005,2005,2018,Forel (FR),2052,Vernay
+2005,2007,2022,Gletterens,2022,Gletterens
+2005,2007,2024,Léchelles,2024,Léchelles
+2005,2007,2025,Lully (FR),2025,Lully (FR)
+2005,2007,2027,Ménières,2027,Ménières
+2005,2007,2029,Montagny (FR),2029,Montagny (FR)
+2005,2005,2031,Montbrelloz,2052,Vernay
+2005,2007,2033,Morens (FR),2033,Morens (FR)
+2005,2007,2034,Murist,2034,Murist
+2005,2007,2035,Nuvilly,2035,Nuvilly
+2005,2007,2038,Prévondavaux,2038,Prévondavaux
+2005,2007,2039,Rueyres-les-Prés,2039,Rueyres-les-Prés
+2005,2007,2040,Russy,2040,Russy
+2005,2007,2041,Saint-Aubin (FR),2041,Saint-Aubin (FR)
+2005,2005,2042,Seiry,2025,Lully (FR)
+2005,2007,2043,Sévaz,2043,Sévaz
+2005,2007,2044,Surpierre,2044,Surpierre
+2005,2007,2045,Vallon,2045,Vallon
+2005,2007,2047,Villeneuve (FR),2047,Villeneuve (FR)
+2005,2007,2049,Vuissens,2049,Vuissens
+2005,2007,2050,Les Montets,2050,Les Montets
+2005,2007,2051,Delley-Portalban,2051,Delley-Portalban
+2006,2007,2052,Vernay,2052,Vernay
+2005,2007,2061,Auboranges,2061,Auboranges
+2005,2007,2063,Billens-Hennens,2063,Billens-Hennens
+2005,2007,2066,Chapelle (Glâne),2066,Chapelle (Glâne)
+2005,2007,2067,Le Châtelard,2067,Le Châtelard
+2005,2007,2068,Châtonnaye,2068,Châtonnaye
+2005,2007,2072,Ecublens (FR),2072,Ecublens (FR)
+2005,2005,2074,Esmonts,2112,Vuarmarens
+2005,2007,2079,Grangettes,2079,Grangettes
+2005,2007,2086,Massonnens,2086,Massonnens
+2005,2007,2087,Mézières (FR),2087,Mézières (FR)
+2005,2007,2089,Montet (Glâne),2089,Montet (Glâne)
+2005,2007,2096,Romont (FR),2096,Romont (FR)
+2005,2007,2097,Rue,2097,Rue
+2005,2007,2099,Siviriez,2099,Siviriez
+2005,2007,2102,Ursy,2102,Ursy
+2005,2007,2111,Villaz-Saint-Pierre,2111,Villaz-Saint-Pierre
+2005,2007,2112,Vuarmarens,2112,Vuarmarens
+2005,2007,2113,Vuisternens-dev-Romont,2113,Vuisternens-dev-Romont
+2005,2007,2114,Villorsonnens,2114,Villorsonnens
+2005,2007,2115,Torny,2115,Torny
+2005,2007,2116,La Folliaz,2116,La Folliaz
+2005,2007,2121,Haut-Intyamon,2121,Haut-Intyamon
+2005,2007,2122,Pont-en-Ogoz,2122,Pont-en-Ogoz
+2005,2007,2123,Botterens,2123,Botterens
+2005,2007,2124,Broc,2124,Broc
+2005,2007,2125,Bulle,2125,Bulle
+2005,2007,2126,Cerniat (FR),2126,Cerniat (FR)
+2005,2007,2127,Charmey,2127,Charmey
+2005,2007,2128,Châtel-sur-Montsalvens,2128,Châtel-sur-Montsalvens
+2005,2007,2129,Corbières,2129,Corbières
+2005,2007,2130,Crésuz,2130,Crésuz
+2005,2007,2131,Echarlens,2131,Echarlens
+2005,2007,2134,Grandvillard,2134,Grandvillard
+2005,2007,2135,Gruyères,2135,Gruyères
+2005,2007,2137,Hauteville,2137,Hauteville
+2005,2007,2138,Jaun,2138,Jaun
+2005,2007,2140,Marsens,2140,Marsens
+2005,2007,2143,Morlon,2143,Morlon
+2005,2007,2145,Le Pâquier (FR),2145,Le Pâquier (FR)
+2005,2007,2147,Pont-la-Ville,2147,Pont-la-Ville
+2005,2007,2148,Riaz,2148,Riaz
+2005,2007,2149,La Roche,2149,La Roche
+2005,2007,2152,Sâles,2152,Sâles
+2005,2007,2153,Sorens,2153,Sorens
+2005,2005,2154,La Tour-de-Trême,2125,Bulle
+2005,2007,2155,Vaulruz,2155,Vaulruz
+2005,2005,2156,Villarbeney,2123,Botterens
+2005,2007,2159,Villarvolard,2159,Villarvolard
+2005,2007,2160,Vuadens,2160,Vuadens
+2005,2007,2162,Bas-Intyamon,2162,Bas-Intyamon
+2005,2007,2171,Arconciel,2171,Arconciel
+2005,2007,2172,Autafond,2172,Autafond
+2005,2007,2173,Autigny,2173,Autigny
+2005,2007,2174,Avry,2174,Avry
+2005,2007,2175,Belfaux,2175,Belfaux
+2005,2007,2177,Chénens,2177,Chénens
+2005,2007,2179,Chésopelloz,2179,Chésopelloz
+2005,2007,2183,Corminboeuf,2183,Corminboeuf
+2005,2007,2184,Corpataux-Magnedens,2184,Corpataux-Magnedens
+2005,2007,2185,Corserey,2185,Corserey
+2005,2007,2186,Cottens (FR),2186,Cottens (FR)
+2005,2007,2189,Ependes (FR),2189,Ependes (FR)
+2005,2007,2192,Farvagny,2192,Farvagny
+2005,2007,2194,Ferpicloz,2194,Ferpicloz
+2005,2007,2196,Fribourg,2196,Fribourg
+2005,2007,2197,Givisiez,2197,Givisiez
+2005,2007,2198,Granges-Paccot,2198,Granges-Paccot
+2005,2007,2200,Grolley,2200,Grolley
+2005,2007,2206,Marly,2206,Marly
+2005,2007,2208,Matran,2208,Matran
+2005,2007,2211,Neyruz (FR),2211,Neyruz (FR)
+2005,2007,2213,Noréaz,2213,Noréaz
+2005,2007,2216,Pierrafortscha,2216,Pierrafortscha
+2005,2007,2217,Ponthaux,2217,Ponthaux
+2005,2007,2220,Le Mouret,2220,Le Mouret
+2005,2007,2221,Prez-vers-Noréaz,2221,Prez-vers-Noréaz
+2005,2007,2222,Rossens (FR),2222,Rossens (FR)
+2005,2007,2223,Le Glèbe,2223,Le Glèbe
+2005,2007,2225,Senèdes,2225,Senèdes
+2005,2007,2226,Treyvaux,2226,Treyvaux
+2005,2007,2228,Villars-sur-Glâne,2228,Villars-sur-Glâne
+2005,2007,2230,Villarsel-sur-Marly,2230,Villarsel-sur-Marly
+2005,2007,2231,Vuisternens-en-Ogoz,2231,Vuisternens-en-Ogoz
+2005,2007,2233,Hauterive (FR),2233,Hauterive (FR)
+2005,2007,2234,La Brillaz,2234,La Brillaz
+2005,2007,2235,La Sonnaz,2235,La Sonnaz
+2005,2005,2241,Agriswil,2276,Ried bei Kerzers
+2005,2007,2243,Barberêche,2243,Barberêche
+2005,2007,2244,Büchslen,2244,Büchslen
+2005,2007,2250,Courgevaux,2250,Courgevaux
+2005,2007,2251,Courlevon,2251,Courlevon
+2005,2007,2254,Courtepin,2254,Courtepin
+2005,2007,2257,Cressier (FR),2257,Cressier (FR)
+2005,2007,2258,Fräschels,2258,Fräschels
+2005,2007,2259,Galmiz,2259,Galmiz
+2005,2007,2260,Gempenach,2260,Gempenach
+2005,2007,2261,Greng,2261,Greng
+2005,2007,2262,Gurmels,2262,Gurmels
+2005,2007,2264,Jeuss,2264,Jeuss
+2005,2007,2265,Kerzers,2265,Kerzers
+2005,2007,2266,Kleinbösingen,2266,Kleinbösingen
+2005,2007,2270,Lurtigen,2270,Lurtigen
+2005,2007,2271,Meyriez,2271,Meyriez
+2005,2007,2272,Misery-Courtion,2272,Misery-Courtion
+2005,2007,2274,Muntelier,2274,Muntelier
+2005,2007,2275,Murten,2275,Murten
+2005,2007,2276,Ried bei Kerzers,2276,Ried bei Kerzers
+2005,2007,2277,Salvenach,2277,Salvenach
+2005,2007,2278,Ulmiz,2278,Ulmiz
+2005,2007,2279,Villarepos,2279,Villarepos
+2005,2007,2280,Bas-Vully,2280,Bas-Vully
+2005,2007,2281,Haut-Vully,2281,Haut-Vully
+2005,2007,2283,Wallenried,2283,Wallenried
+2005,2007,2291,Alterswil,2291,Alterswil
+2005,2007,2292,Brünisried,2292,Brünisried
+2005,2007,2293,Düdingen,2293,Düdingen
+2005,2007,2294,Giffers,2294,Giffers
+2005,2007,2295,Bösingen,2295,Bösingen
+2005,2007,2296,Heitenried,2296,Heitenried
+2005,2007,2298,Oberschrot,2298,Oberschrot
+2005,2007,2299,Plaffeien,2299,Plaffeien
+2005,2007,2300,Plasselb,2300,Plasselb
+2005,2007,2301,Rechthalten,2301,Rechthalten
+2005,2007,2302,St. Antoni,2302,St. Antoni
+2005,2007,2303,St. Silvester,2303,St. Silvester
+2005,2007,2304,St. Ursen,2304,St. Ursen
+2005,2007,2305,Schmitten (FR),2305,Schmitten (FR)
+2005,2007,2306,Tafers,2306,Tafers
+2005,2007,2307,Tentlingen,2307,Tentlingen
+2005,2007,2308,Ueberstorf,2308,Ueberstorf
+2005,2007,2309,Wünnewil-Flamatt,2309,Wünnewil-Flamatt
+2005,2007,2310,Zumholz,2310,Zumholz
+2005,2007,2321,Attalens,2321,Attalens
+2005,2007,2323,Bossonnens,2323,Bossonnens
+2005,2007,2325,Châtel-Saint-Denis,2325,Châtel-Saint-Denis
+2005,2007,2328,Granges (Veveyse),2328,Granges (Veveyse)
+2005,2007,2333,Remaufens,2333,Remaufens
+2005,2007,2335,Saint-Martin (FR),2335,Saint-Martin (FR)
+2005,2007,2336,Semsales,2336,Semsales
+2005,2007,2337,Le Flon,2337,Le Flon
+2005,2007,2338,La Verrerie,2338,La Verrerie
+2005,2007,2391,Staatswald Galm,2391,Staatswald Galm
+2005,2007,2401,Egerkingen,2401,Egerkingen
+2005,2007,2402,Härkingen,2402,Härkingen
+2005,2007,2403,Kestenholz,2403,Kestenholz
+2005,2007,2404,Neuendorf,2404,Neuendorf
+2005,2007,2405,Niederbuchsiten,2405,Niederbuchsiten
+2005,2007,2406,Oberbuchsiten,2406,Oberbuchsiten
+2005,2007,2407,Oensingen,2407,Oensingen
+2005,2007,2408,Wolfwil,2408,Wolfwil
+2005,2007,2421,Aedermannsdorf,2421,Aedermannsdorf
+2005,2007,2422,Balsthal,2422,Balsthal
+2005,2007,2423,Gänsbrunnen,2423,Gänsbrunnen
+2005,2007,2424,Herbetswil,2424,Herbetswil
+2005,2007,2425,Holderbank (SO),2425,Holderbank (SO)
+2005,2007,2426,Laupersdorf,2426,Laupersdorf
+2005,2007,2427,Matzendorf,2427,Matzendorf
+2005,2007,2428,Mümliswil-Ramiswil,2428,Mümliswil-Ramiswil
+2005,2007,2429,Welschenrohr,2429,Welschenrohr
+2005,2007,2441,Aetigkofen,2441,Aetigkofen
+2005,2007,2442,Aetingen,2442,Aetingen
+2005,2007,2443,Balm bei Messen,2443,Balm bei Messen
+2005,2007,2444,Bibern (SO),2444,Bibern (SO)
+2005,2007,2445,Biezwil,2445,Biezwil
+2005,2007,2446,Brügglen,2446,Brügglen
+2005,2007,2447,Brunnenthal,2447,Brunnenthal
+2005,2007,2449,Gossliwil,2449,Gossliwil
+2005,2007,2450,Hessigkofen,2450,Hessigkofen
+2005,2007,2452,Küttigkofen,2452,Küttigkofen
+2005,2007,2453,Kyburg-Buchegg,2453,Kyburg-Buchegg
+2005,2007,2454,Lüsslingen,2454,Lüsslingen
+2005,2007,2455,Lüterkofen-Ichertswil,2455,Lüterkofen-Ichertswil
+2005,2007,2456,Lüterswil-Gächliwil,2456,Lüterswil-Gächliwil
+2005,2007,2457,Messen,2457,Messen
+2005,2007,2458,Mühledorf (SO),2458,Mühledorf (SO)
+2005,2007,2459,Nennigkofen,2459,Nennigkofen
+2005,2007,2460,Oberramsern,2460,Oberramsern
+2005,2007,2461,Schnottwil,2461,Schnottwil
+2005,2007,2462,Tscheppach,2462,Tscheppach
+2005,2007,2463,Unterramsern,2463,Unterramsern
+2005,2007,2471,Bättwil,2471,Bättwil
+2005,2007,2472,Büren (SO),2472,Büren (SO)
+2005,2007,2473,Dornach,2473,Dornach
+2005,2007,2474,Gempen,2474,Gempen
+2005,2007,2475,Hochwald,2475,Hochwald
+2005,2007,2476,Hofstetten-Flüh,2476,Hofstetten-Flüh
+2005,2007,2477,Metzerlen-Mariastein,2477,Metzerlen-Mariastein
+2005,2007,2478,Nuglar-St. Pantaleon,2478,Nuglar-St. Pantaleon
+2005,2007,2479,Rodersdorf,2479,Rodersdorf
+2005,2007,2480,Seewen,2480,Seewen
+2005,2007,2481,Witterswil,2481,Witterswil
+2005,2007,2491,Hauenstein-Ifenthal,2491,Hauenstein-Ifenthal
+2005,2007,2492,Kienberg,2492,Kienberg
+2005,2007,2493,Lostorf,2493,Lostorf
+2005,2005,2494,Niedererlinsbach,2503,Erlinsbach (SO)
+2005,2007,2495,Niedergösgen,2495,Niedergösgen
+2005,2005,2496,Obererlinsbach,2503,Erlinsbach (SO)
+2005,2007,2497,Obergösgen,2497,Obergösgen
+2005,2007,2498,Rohr (SO),2498,Rohr (SO)
+2005,2007,2499,Stüsslingen,2499,Stüsslingen
+2005,2007,2500,Trimbach,2500,Trimbach
+2005,2007,2501,Winznau,2501,Winznau
+2005,2007,2502,Wisen (SO),2502,Wisen (SO)
+2006,2007,2503,Erlinsbach (SO),2503,Erlinsbach (SO)
+2005,2007,2511,Aeschi (SO),2511,Aeschi (SO)
+2005,2007,2513,Biberist,2513,Biberist
+2005,2007,2514,Bolken,2514,Bolken
+2005,2007,2516,Deitingen,2516,Deitingen
+2005,2007,2517,Derendingen,2517,Derendingen
+2005,2007,2518,Etziken,2518,Etziken
+2005,2007,2519,Gerlafingen,2519,Gerlafingen
+2005,2007,2520,Halten,2520,Halten
+2005,2007,2521,Heinrichswil-Winistorf,2521,Heinrichswil-Winistorf
+2005,2007,2522,Hersiwil,2522,Hersiwil
+2005,2007,2523,Horriwil,2523,Horriwil
+2005,2007,2524,Hüniken,2524,Hüniken
+2005,2007,2525,Kriegstetten,2525,Kriegstetten
+2005,2007,2526,Lohn-Ammannsegg,2526,Lohn-Ammannsegg
+2005,2007,2527,Luterbach,2527,Luterbach
+2005,2007,2528,Obergerlafingen,2528,Obergerlafingen
+2005,2007,2529,Oekingen,2529,Oekingen
+2005,2007,2530,Recherswil,2530,Recherswil
+2005,2007,2531,Steinhof,2531,Steinhof
+2005,2007,2532,Subingen,2532,Subingen
+2005,2007,2534,Zuchwil,2534,Zuchwil
+2005,2007,2541,Balm bei Günsberg,2541,Balm bei Günsberg
+2005,2007,2542,Bellach,2542,Bellach
+2005,2007,2543,Bettlach,2543,Bettlach
+2005,2007,2544,Feldbrunnen-St. Niklaus,2544,Feldbrunnen-St. Niklaus
+2005,2007,2545,Flumenthal,2545,Flumenthal
+2005,2007,2546,Grenchen,2546,Grenchen
+2005,2007,2547,Günsberg,2547,Günsberg
+2005,2007,2548,Hubersdorf,2548,Hubersdorf
+2005,2007,2549,Kammersrohr,2549,Kammersrohr
+2005,2007,2550,Langendorf,2550,Langendorf
+2005,2007,2551,Lommiswil,2551,Lommiswil
+2005,2007,2552,Niederwil (SO),2552,Niederwil (SO)
+2005,2007,2553,Oberdorf (SO),2553,Oberdorf (SO)
+2005,2007,2554,Riedholz,2554,Riedholz
+2005,2007,2555,Rüttenen,2555,Rüttenen
+2005,2007,2556,Selzach,2556,Selzach
+2005,2007,2571,Boningen,2571,Boningen
+2005,2007,2572,Däniken,2572,Däniken
+2005,2007,2573,Dulliken,2573,Dulliken
+2005,2007,2574,Eppenberg-Wöschnau,2574,Eppenberg-Wöschnau
+2005,2007,2575,Fulenbach,2575,Fulenbach
+2005,2007,2576,Gretzenbach,2576,Gretzenbach
+2005,2007,2578,Gunzgen,2578,Gunzgen
+2005,2007,2579,Hägendorf,2579,Hägendorf
+2005,2007,2580,Kappel (SO),2580,Kappel (SO)
+2005,2007,2581,Olten,2581,Olten
+2005,2007,2582,Rickenbach (SO),2582,Rickenbach (SO)
+2005,2007,2583,Schönenwerd,2583,Schönenwerd
+2005,2007,2584,Starrkirch-Wil,2584,Starrkirch-Wil
+2005,2007,2585,Walterswil (SO),2585,Walterswil (SO)
+2005,2007,2586,Wangen bei Olten,2586,Wangen bei Olten
+2005,2007,2601,Solothurn,2601,Solothurn
+2005,2007,2611,Bärschwil,2611,Bärschwil
+2005,2007,2612,Beinwil (SO),2612,Beinwil (SO)
+2005,2007,2613,Breitenbach,2613,Breitenbach
+2005,2007,2614,Büsserach,2614,Büsserach
+2005,2007,2615,Erschwil,2615,Erschwil
+2005,2007,2616,Fehren,2616,Fehren
+2005,2007,2617,Grindel,2617,Grindel
+2005,2007,2618,Himmelried,2618,Himmelried
+2005,2007,2619,Kleinlützel,2619,Kleinlützel
+2005,2007,2620,Meltingen,2620,Meltingen
+2005,2007,2621,Nunningen,2621,Nunningen
+2005,2007,2622,Zullwil,2622,Zullwil
+2005,2007,2701,Basel,2701,Basel
+2005,2007,2702,Bettingen,2702,Bettingen
+2005,2007,2703,Riehen,2703,Riehen
+2005,2007,2761,Aesch (BL),2761,Aesch (BL)
+2005,2007,2762,Allschwil,2762,Allschwil
+2005,2007,2763,Arlesheim,2763,Arlesheim
+2005,2007,2764,Biel-Benken,2764,Biel-Benken
+2005,2007,2765,Binningen,2765,Binningen
+2005,2007,2766,Birsfelden,2766,Birsfelden
+2005,2007,2767,Bottmingen,2767,Bottmingen
+2005,2007,2768,Ettingen,2768,Ettingen
+2005,2007,2769,Münchenstein,2769,Münchenstein
+2005,2007,2770,Muttenz,2770,Muttenz
+2005,2007,2771,Oberwil (BL),2771,Oberwil (BL)
+2005,2007,2772,Pfeffingen,2772,Pfeffingen
+2005,2007,2773,Reinach (BL),2773,Reinach (BL)
+2005,2007,2774,Schönenbuch,2774,Schönenbuch
+2005,2007,2775,Therwil,2775,Therwil
+2005,2007,2781,Blauen,2781,Blauen
+2005,2007,2782,Brislach,2782,Brislach
+2005,2007,2783,Burg im Leimental,2783,Burg im Leimental
+2005,2007,2784,Dittingen,2784,Dittingen
+2005,2007,2785,Duggingen,2785,Duggingen
+2005,2007,2786,Grellingen,2786,Grellingen
+2005,2007,2787,Laufen,2787,Laufen
+2005,2007,2788,Liesberg,2788,Liesberg
+2005,2007,2789,Nenzlingen,2789,Nenzlingen
+2005,2007,2790,Roggenburg,2790,Roggenburg
+2005,2007,2791,Röschenz,2791,Röschenz
+2005,2007,2792,Wahlen,2792,Wahlen
+2005,2007,2793,Zwingen,2793,Zwingen
+2005,2007,2821,Arisdorf,2821,Arisdorf
+2005,2007,2822,Augst,2822,Augst
+2005,2007,2823,Bubendorf,2823,Bubendorf
+2005,2007,2824,Frenkendorf,2824,Frenkendorf
+2005,2007,2825,Füllinsdorf,2825,Füllinsdorf
+2005,2007,2826,Giebenach,2826,Giebenach
+2005,2007,2827,Hersberg,2827,Hersberg
+2005,2007,2828,Lausen,2828,Lausen
+2005,2007,2829,Liestal,2829,Liestal
+2005,2007,2830,Lupsingen,2830,Lupsingen
+2005,2007,2831,Pratteln,2831,Pratteln
+2005,2007,2832,Ramlinsburg,2832,Ramlinsburg
+2005,2007,2833,Seltisberg,2833,Seltisberg
+2005,2007,2834,Ziefen,2834,Ziefen
+2005,2007,2841,Anwil,2841,Anwil
+2005,2007,2842,Böckten,2842,Böckten
+2005,2007,2843,Buckten,2843,Buckten
+2005,2007,2844,Buus,2844,Buus
+2005,2007,2845,Diepflingen,2845,Diepflingen
+2005,2007,2846,Gelterkinden,2846,Gelterkinden
+2005,2007,2847,Häfelfingen,2847,Häfelfingen
+2005,2007,2848,Hemmiken,2848,Hemmiken
+2005,2007,2849,Itingen,2849,Itingen
+2005,2007,2850,Känerkinden,2850,Känerkinden
+2005,2007,2851,Kilchberg (BL),2851,Kilchberg (BL)
+2005,2007,2852,Läufelfingen,2852,Läufelfingen
+2005,2007,2853,Maisprach,2853,Maisprach
+2005,2007,2854,Nusshof,2854,Nusshof
+2005,2007,2855,Oltingen,2855,Oltingen
+2005,2007,2856,Ormalingen,2856,Ormalingen
+2005,2007,2857,Rickenbach (BL),2857,Rickenbach (BL)
+2005,2007,2858,Rothenfluh,2858,Rothenfluh
+2005,2007,2859,Rümlingen,2859,Rümlingen
+2005,2007,2860,Rünenberg,2860,Rünenberg
+2005,2007,2861,Sissach,2861,Sissach
+2005,2007,2862,Tecknau,2862,Tecknau
+2005,2007,2863,Tenniken,2863,Tenniken
+2005,2007,2864,Thürnen,2864,Thürnen
+2005,2007,2865,Wenslingen,2865,Wenslingen
+2005,2007,2866,Wintersingen,2866,Wintersingen
+2005,2007,2867,Wittinsburg,2867,Wittinsburg
+2005,2007,2868,Zeglingen,2868,Zeglingen
+2005,2007,2869,Zunzgen,2869,Zunzgen
+2005,2007,2881,Arboldswil,2881,Arboldswil
+2005,2007,2882,Bennwil,2882,Bennwil
+2005,2007,2883,Bretzwil,2883,Bretzwil
+2005,2007,2884,Diegten,2884,Diegten
+2005,2007,2885,Eptingen,2885,Eptingen
+2005,2007,2886,Hölstein,2886,Hölstein
+2005,2007,2887,Lampenberg,2887,Lampenberg
+2005,2007,2888,Langenbruck,2888,Langenbruck
+2005,2007,2889,Lauwil,2889,Lauwil
+2005,2007,2890,Liedertswil,2890,Liedertswil
+2005,2007,2891,Niederdorf,2891,Niederdorf
+2005,2007,2892,Oberdorf (BL),2892,Oberdorf (BL)
+2005,2007,2893,Reigoldswil,2893,Reigoldswil
+2005,2007,2894,Titterten,2894,Titterten
+2005,2007,2895,Waldenburg,2895,Waldenburg
+2005,2007,2901,Gächlingen,2901,Gächlingen
+2005,2007,2902,Guntmadingen,2902,Guntmadingen
+2005,2007,2903,Löhningen,2903,Löhningen
+2005,2007,2904,Neunkirch,2904,Neunkirch
+2005,2007,2911,Altdorf (SH),2911,Altdorf (SH)
+2005,2007,2913,Bibern (SH),2913,Bibern (SH)
+2005,2007,2914,Büttenhardt,2914,Büttenhardt
+2005,2007,2915,Dörflingen,2915,Dörflingen
+2005,2007,2916,Hofen,2916,Hofen
+2005,2007,2917,Lohn (SH),2917,Lohn (SH)
+2005,2007,2918,Opfertshofen (SH),2918,Opfertshofen (SH)
+2005,2007,2919,Stetten (SH),2919,Stetten (SH)
+2005,2007,2920,Thayngen,2920,Thayngen
+2005,2007,2931,Bargen (SH),2931,Bargen (SH)
+2005,2007,2932,Beringen,2932,Beringen
+2005,2007,2933,Buchberg,2933,Buchberg
+2005,2007,2934,Hemmental,2934,Hemmental
+2005,2007,2936,Merishausen,2936,Merishausen
+2005,2007,2937,Neuhausen am Rheinfall,2937,Neuhausen am Rheinfall
+2005,2007,2938,Rüdlingen,2938,Rüdlingen
+2005,2007,2939,Schaffhausen,2939,Schaffhausen
+2005,2007,2951,Beggingen,2951,Beggingen
+2005,2007,2952,Schleitheim,2952,Schleitheim
+2005,2007,2953,Siblingen,2953,Siblingen
+2005,2007,2961,Buch (SH),2961,Buch (SH)
+2005,2007,2962,Hemishofen,2962,Hemishofen
+2005,2007,2963,Ramsen,2963,Ramsen
+2005,2007,2964,Stein am Rhein,2964,Stein am Rhein
+2005,2007,2971,Hallau,2971,Hallau
+2005,2007,2972,Oberhallau,2972,Oberhallau
+2005,2007,2973,Trasadingen,2973,Trasadingen
+2005,2007,2974,Wilchingen,2974,Wilchingen
+2005,2007,3001,Herisau,3001,Herisau
+2005,2007,3002,Hundwil,3002,Hundwil
+2005,2007,3003,Schönengrund,3003,Schönengrund
+2005,2007,3004,Schwellbrunn,3004,Schwellbrunn
+2005,2007,3005,Stein (AR),3005,Stein (AR)
+2005,2007,3006,Urnäsch,3006,Urnäsch
+2005,2007,3007,Waldstatt,3007,Waldstatt
+2005,2007,3021,Bühler,3021,Bühler
+2005,2007,3022,Gais,3022,Gais
+2005,2007,3023,Speicher,3023,Speicher
+2005,2007,3024,Teufen (AR),3024,Teufen (AR)
+2005,2007,3025,Trogen,3025,Trogen
+2005,2007,3031,Grub (AR),3031,Grub (AR)
+2005,2007,3032,Heiden,3032,Heiden
+2005,2007,3033,Lutzenberg,3033,Lutzenberg
+2005,2007,3034,Rehetobel,3034,Rehetobel
+2005,2007,3035,Reute (AR),3035,Reute (AR)
+2005,2007,3036,Wald (AR),3036,Wald (AR)
+2005,2007,3037,Walzenhausen,3037,Walzenhausen
+2005,2007,3038,Wolfhalden,3038,Wolfhalden
+2005,2007,3101,Appenzell,3101,Appenzell
+2005,2007,3102,Gonten,3102,Gonten
+2005,2007,3103,Rüte,3103,Rüte
+2005,2007,3104,Schlatt-Haslen,3104,Schlatt-Haslen
+2005,2007,3105,Schwende,3105,Schwende
+2005,2007,3111,Oberegg,3111,Oberegg
+2005,2007,3201,Häggenschwil,3201,Häggenschwil
+2005,2007,3202,Muolen,3202,Muolen
+2005,2007,3203,St. Gallen,3203,St. Gallen
+2005,2007,3204,Wittenbach,3204,Wittenbach
+2005,2007,3211,Berg (SG),3211,Berg (SG)
+2005,2007,3212,Eggersriet,3212,Eggersriet
+2005,2007,3213,Goldach,3213,Goldach
+2005,2007,3214,Mörschwil,3214,Mörschwil
+2005,2007,3215,Rorschach,3215,Rorschach
+2005,2007,3216,Rorschacherberg,3216,Rorschacherberg
+2005,2007,3217,Steinach,3217,Steinach
+2005,2007,3218,Tübach,3218,Tübach
+2005,2007,3219,Untereggen,3219,Untereggen
+2005,2007,3231,Au (SG),3231,Au (SG)
+2005,2007,3232,Balgach,3232,Balgach
+2005,2007,3233,Berneck,3233,Berneck
+2005,2007,3234,Diepoldsau,3234,Diepoldsau
+2005,2007,3235,Rheineck,3235,Rheineck
+2005,2007,3236,St. Margrethen,3236,St. Margrethen
+2005,2007,3237,Thal,3237,Thal
+2005,2007,3238,Widnau,3238,Widnau
+2005,2007,3251,Altstätten,3251,Altstätten
+2005,2007,3252,Eichberg,3252,Eichberg
+2005,2007,3253,Marbach (SG),3253,Marbach (SG)
+2005,2007,3254,Oberriet (SG),3254,Oberriet (SG)
+2005,2007,3255,Rebstein,3255,Rebstein
+2005,2007,3256,Rüthi (SG),3256,Rüthi (SG)
+2005,2007,3271,Buchs (SG),3271,Buchs (SG)
+2005,2007,3272,Gams,3272,Gams
+2005,2007,3273,Grabs,3273,Grabs
+2005,2007,3274,Sennwald,3274,Sennwald
+2005,2007,3275,Sevelen,3275,Sevelen
+2005,2007,3276,Wartau,3276,Wartau
+2005,2007,3291,Bad Ragaz,3291,Bad Ragaz
+2005,2007,3292,Flums,3292,Flums
+2005,2007,3293,Mels,3293,Mels
+2005,2007,3294,Pfäfers,3294,Pfäfers
+2005,2007,3295,Quarten,3295,Quarten
+2005,2007,3296,Sargans,3296,Sargans
+2005,2007,3297,Vilters-Wangs,3297,Vilters-Wangs
+2005,2007,3298,Walenstadt,3298,Walenstadt
+2005,2007,3311,Amden,3311,Amden
+2005,2007,3312,Benken (SG),3312,Benken (SG)
+2005,2007,3313,Kaltbrunn,3313,Kaltbrunn
+2005,2007,3314,Rieden,3314,Rieden
+2005,2007,3315,Schänis,3315,Schänis
+2005,2007,3316,Weesen,3316,Weesen
+2005,2007,3331,Ernetschwil,3331,Ernetschwil
+2005,2007,3332,Eschenbach (SG),3332,Eschenbach (SG)
+2005,2007,3333,Goldingen,3333,Goldingen
+2005,2007,3334,Gommiswald,3334,Gommiswald
+2005,2006,3335,Jona,3340,Rapperswil-Jona
+2005,2006,3336,Rapperswil (SG),3340,Rapperswil-Jona
+2005,2007,3337,St. Gallenkappel,3337,St. Gallenkappel
+2005,2007,3338,Schmerikon,3338,Schmerikon
+2005,2007,3339,Uznach,3339,Uznach
+2007,2007,3340,Rapperswil-Jona,3340,Rapperswil-Jona
+2005,2007,3351,Alt St. Johann,3351,Alt St. Johann
+2005,2007,3352,Ebnat-Kappel,3352,Ebnat-Kappel
+2005,2007,3356,Stein (SG),3356,Stein (SG)
+2005,2007,3357,Wildhaus,3357,Wildhaus
+2005,2007,3358,Nesslau-Krummenau,3358,Nesslau-Krummenau
+2005,2007,3371,Brunnadern,3371,Brunnadern
+2005,2007,3372,Hemberg,3372,Hemberg
+2005,2007,3373,Krinau,3373,Krinau
+2005,2007,3374,Lichtensteig,3374,Lichtensteig
+2005,2007,3375,Oberhelfenschwil,3375,Oberhelfenschwil
+2005,2007,3376,St. Peterzell,3376,St. Peterzell
+2005,2007,3377,Wattwil,3377,Wattwil
+2005,2007,3391,Bütschwil,3391,Bütschwil
+2005,2007,3392,Kirchberg (SG),3392,Kirchberg (SG)
+2005,2007,3393,Lütisburg,3393,Lütisburg
+2005,2007,3394,Mosnang,3394,Mosnang
+2005,2007,3401,Degersheim,3401,Degersheim
+2005,2007,3402,Flawil,3402,Flawil
+2005,2007,3403,Ganterschwil,3403,Ganterschwil
+2005,2007,3405,Jonschwil,3405,Jonschwil
+2005,2007,3406,Mogelsberg,3406,Mogelsberg
+2005,2007,3407,Oberuzwil,3407,Oberuzwil
+2005,2007,3408,Uzwil,3408,Uzwil
+2005,2007,3421,Bronschhofen,3421,Bronschhofen
+2005,2007,3422,Niederbüren,3422,Niederbüren
+2005,2007,3423,Niederhelfenschwil,3423,Niederhelfenschwil
+2005,2007,3424,Oberbüren,3424,Oberbüren
+2005,2007,3425,Wil (SG),3425,Wil (SG)
+2005,2007,3426,Zuzwil (SG),3426,Zuzwil (SG)
+2005,2007,3441,Andwil (SG),3441,Andwil (SG)
+2005,2007,3442,Gaiserwald,3442,Gaiserwald
+2005,2007,3443,Gossau (SG),3443,Gossau (SG)
+2005,2007,3444,Waldkirch,3444,Waldkirch
+2005,2007,3501,Alvaschein,3501,Alvaschein
+2005,2007,3502,Mon,3502,Mon
+2005,2007,3503,Mutten,3503,Mutten
+2005,2007,3504,Stierva,3504,Stierva
+2005,2007,3505,Tiefencastel,3505,Tiefencastel
+2005,2007,3506,Vaz/Obervaz,3506,Vaz/Obervaz
+2005,2007,3511,Alvaneu,3511,Alvaneu
+2005,2007,3512,Brienz/Brinzauls,3512,Brienz/Brinzauls
+2005,2007,3513,Lantsch/Lenz,3513,Lantsch/Lenz
+2005,2007,3514,Schmitten (GR),3514,Schmitten (GR)
+2005,2007,3515,Surava,3515,Surava
+2005,2007,3521,Bergün/Bravuogn,3521,Bergün/Bravuogn
+2005,2007,3522,Filisur,3522,Filisur
+2005,2007,3523,Wiesen (GR),3523,Wiesen (GR)
+2005,2007,3531,Bivio,3531,Bivio
+2005,2007,3532,Cunter,3532,Cunter
+2005,2007,3533,Marmorera,3533,Marmorera
+2005,2007,3534,Mulegns,3534,Mulegns
+2005,2007,3536,Riom-Parsonz,3536,Riom-Parsonz
+2005,2007,3538,Salouf,3538,Salouf
+2005,2007,3539,Savognin,3539,Savognin
+2005,2007,3540,Sur,3540,Sur
+2005,2007,3541,Tinizong-Rona,3541,Tinizong-Rona
+2005,2007,3551,Brusio,3551,Brusio
+2005,2007,3561,Poschiavo,3561,Poschiavo
+2005,2007,3571,Castrisch,3571,Castrisch
+2005,2007,3572,Falera,3572,Falera
+2005,2007,3573,Flond,3573,Flond
+2005,2007,3574,Ilanz,3574,Ilanz
+2005,2007,3575,Laax,3575,Laax
+2005,2007,3576,Ladir,3576,Ladir
+2005,2007,3577,Luven,3577,Luven
+2005,2007,3578,Pitasch,3578,Pitasch
+2005,2007,3579,Riein,3579,Riein
+2005,2007,3580,Ruschein,3580,Ruschein
+2005,2007,3581,Sagogn,3581,Sagogn
+2005,2007,3582,Schluein,3582,Schluein
+2005,2007,3583,Schnaus,3583,Schnaus
+2005,2007,3584,Sevgein,3584,Sevgein
+2005,2007,3586,Valendas,3586,Valendas
+2005,2007,3587,Versam,3587,Versam
+2005,2007,3592,Cumbel,3592,Cumbel
+2005,2007,3593,Duvin,3593,Duvin
+2005,2007,3594,Degen,3594,Degen
+2005,2007,3595,Lumbrein,3595,Lumbrein
+2005,2007,3596,Morissen,3596,Morissen
+2005,2007,3598,St. Martin,3598,St. Martin
+2005,2007,3599,Suraua,3599,Suraua
+2005,2007,3600,Surcuolm,3600,Surcuolm
+2005,2007,3603,Vals,3603,Vals
+2005,2007,3604,Vignogn,3604,Vignogn
+2005,2007,3605,Vella,3605,Vella
+2005,2007,3606,Vrin,3606,Vrin
+2005,2007,3611,Andiast,3611,Andiast
+2005,2007,3612,Obersaxen,3612,Obersaxen
+2005,2007,3613,Pigniu,3613,Pigniu
+2005,2007,3614,Rueun,3614,Rueun
+2005,2007,3615,Siat,3615,Siat
+2005,2007,3616,Waltensburg/Vuorz,3616,Waltensburg/Vuorz
+2005,2007,3631,Almens,3631,Almens
+2005,2007,3632,Feldis/Veulden,3632,Feldis/Veulden
+2005,2007,3633,Fürstenau,3633,Fürstenau
+2005,2007,3634,Paspels,3634,Paspels
+2005,2007,3635,Pratval,3635,Pratval
+2005,2007,3636,Rodels,3636,Rodels
+2005,2007,3637,Rothenbrunnen,3637,Rothenbrunnen
+2005,2007,3638,Scharans,3638,Scharans
+2005,2007,3639,Scheid,3639,Scheid
+2005,2007,3640,Sils im Domleschg,3640,Sils im Domleschg
+2005,2007,3641,Trans,3641,Trans
+2005,2007,3642,Tumegl/Tomils,3642,Tumegl/Tomils
+2005,2007,3651,Safien,3651,Safien
+2005,2007,3652,Tenna,3652,Tenna
+2005,2007,3661,Cazis,3661,Cazis
+2005,2007,3662,Flerden,3662,Flerden
+2005,2007,3663,Masein,3663,Masein
+2005,2007,3664,Portein,3664,Portein
+2005,2007,3665,Präz,3665,Präz
+2005,2007,3666,Sarn,3666,Sarn
+2005,2007,3667,Tartar,3667,Tartar
+2005,2007,3668,Thusis,3668,Thusis
+2005,2007,3669,Tschappina,3669,Tschappina
+2005,2007,3670,Urmein,3670,Urmein
+2005,2007,3681,Avers,3681,Avers
+2005,2007,3691,Hinterrhein,3691,Hinterrhein
+2005,2005,3692,Medels im Rheinwald,3694,Splügen
+2005,2007,3693,Nufenen,3693,Nufenen
+2005,2007,3694,Splügen,3694,Splügen
+2005,2007,3695,Sufers,3695,Sufers
+2005,2007,3701,Andeer,3701,Andeer
+2005,2007,3702,Ausserferrera,3702,Ausserferrera
+2005,2007,3703,Casti-Wergenstein,3703,Casti-Wergenstein
+2005,2007,3704,Clugin,3704,Clugin
+2005,2007,3705,Donat,3705,Donat
+2005,2007,3706,Innerferrera,3706,Innerferrera
+2005,2007,3707,Lohn (GR),3707,Lohn (GR)
+2005,2007,3708,Mathon,3708,Mathon
+2005,2007,3710,Pignia,3710,Pignia
+2005,2007,3711,Rongellen,3711,Rongellen
+2005,2007,3712,Zillis-Reischen,3712,Zillis-Reischen
+2005,2007,3721,Bonaduz,3721,Bonaduz
+2005,2007,3722,Domat/Ems,3722,Domat/Ems
+2005,2007,3723,Rhäzüns,3723,Rhäzüns
+2005,2007,3731,Felsberg,3731,Felsberg
+2005,2007,3732,Flims,3732,Flims
+2005,2007,3733,Tamins,3733,Tamins
+2005,2007,3734,Trin,3734,Trin
+2005,2007,3741,Ardez,3741,Ardez
+2005,2007,3742,Guarda,3742,Guarda
+2005,2007,3743,Lavin,3743,Lavin
+2005,2007,3744,Susch,3744,Susch
+2005,2007,3745,Tarasp,3745,Tarasp
+2005,2007,3746,Zernez,3746,Zernez
+2005,2007,3751,Ramosch,3751,Ramosch
+2005,2007,3752,Samnaun,3752,Samnaun
+2005,2007,3753,Tschlin,3753,Tschlin
+2005,2007,3761,Ftan,3761,Ftan
+2005,2007,3762,Scuol,3762,Scuol
+2005,2007,3763,Sent,3763,Sent
+2005,2007,3771,Bondo,3771,Bondo
+2005,2007,3773,Castasegna,3773,Castasegna
+2005,2007,3774,Soglio,3774,Soglio
+2005,2007,3775,Stampa,3775,Stampa
+2005,2007,3776,Vicosoprano,3776,Vicosoprano
+2005,2007,3781,Bever,3781,Bever
+2005,2007,3782,Celerina/Schlarigna,3782,Celerina/Schlarigna
+2005,2007,3783,Madulain,3783,Madulain
+2005,2007,3784,Pontresina,3784,Pontresina
+2005,2007,3785,La Punt-Chamues-ch,3785,La Punt-Chamues-ch
+2005,2007,3786,Samedan,3786,Samedan
+2005,2007,3787,St. Moritz,3787,St. Moritz
+2005,2007,3788,S-chanf,3788,S-chanf
+2005,2007,3789,Sils im Engadin/Segl,3789,Sils im Engadin/Segl
+2005,2007,3790,Silvaplana,3790,Silvaplana
+2005,2007,3791,Zuoz,3791,Zuoz
+2005,2007,3801,Arvigo,3801,Arvigo
+2005,2007,3803,Braggio,3803,Braggio
+2005,2007,3804,Buseno,3804,Buseno
+2005,2007,3805,Castaneda,3805,Castaneda
+2005,2007,3806,Cauco,3806,Cauco
+2005,2007,3808,Rossa,3808,Rossa
+2005,2007,3810,Santa Maria in Calanca,3810,Santa Maria in Calanca
+2005,2007,3811,Selma,3811,Selma
+2005,2007,3821,Lostallo,3821,Lostallo
+2005,2007,3822,Mesocco,3822,Mesocco
+2005,2007,3823,Soazza,3823,Soazza
+2005,2007,3831,Cama,3831,Cama
+2005,2007,3832,Grono,3832,Grono
+2005,2007,3833,Leggia,3833,Leggia
+2005,2007,3834,Roveredo (GR),3834,Roveredo (GR)
+2005,2007,3835,San Vittore,3835,San Vittore
+2005,2007,3836,Verdabbio,3836,Verdabbio
+2005,2007,3841,Fuldera,3841,Fuldera
+2005,2007,3842,Lü,3842,Lü
+2005,2007,3843,Müstair,3843,Müstair
+2005,2007,3844,Sta. Maria Val Müstair,3844,Sta. Maria Val Müstair
+2005,2007,3845,Tschierv,3845,Tschierv
+2005,2007,3846,Valchava,3846,Valchava
+2005,2007,3851,Davos,3851,Davos
+2005,2007,3861,Fideris,3861,Fideris
+2005,2007,3862,Furna,3862,Furna
+2005,2007,3863,Jenaz,3863,Jenaz
+2005,2007,3871,Klosters-Serneus,3871,Klosters-Serneus
+2005,2007,3881,Conters im Prättigau,3881,Conters im Prättigau
+2005,2007,3882,Küblis,3882,Küblis
+2005,2007,3883,Saas,3883,Saas
+2005,2007,3891,Luzein,3891,Luzein
+2005,2006,3892,St. Antönien Ascharina,3893,St. Antönien
+2005,2007,3893,St. Antönien,3893,St. Antönien
+2005,2007,3901,Chur,3901,Chur
+2005,2007,3911,Churwalden,3911,Churwalden
+2005,2007,3912,Malix,3912,Malix
+2005,2007,3913,Parpan,3913,Parpan
+2005,2007,3914,Praden,3914,Praden
+2005,2007,3915,Tschiertschen,3915,Tschiertschen
+2005,2007,3921,Arosa,3921,Arosa
+2005,2007,3922,Calfreisen,3922,Calfreisen
+2005,2007,3923,Castiel,3923,Castiel
+2005,2007,3924,Langwies,3924,Langwies
+2005,2007,3925,Lüen,3925,Lüen
+2005,2007,3926,Maladers,3926,Maladers
+2005,2007,3927,Molinis,3927,Molinis
+2005,2007,3928,Pagig,3928,Pagig
+2005,2007,3929,Peist,3929,Peist
+2005,2007,3930,St. Peter,3930,St. Peter
+2005,2007,3941,Haldenstein,3941,Haldenstein
+2005,2007,3942,Igis,3942,Igis
+2005,2007,3943,Mastrils,3943,Mastrils
+2005,2007,3944,Says,3944,Says
+2005,2007,3945,Trimmis,3945,Trimmis
+2005,2007,3946,Untervaz,3946,Untervaz
+2005,2007,3947,Zizers,3947,Zizers
+2005,2007,3951,Fläsch,3951,Fläsch
+2005,2007,3952,Jenins,3952,Jenins
+2005,2007,3953,Maienfeld,3953,Maienfeld
+2005,2007,3954,Malans,3954,Malans
+2005,2007,3961,Grüsch,3961,Grüsch
+2005,2007,3962,Schiers,3962,Schiers
+2005,2007,3971,Fanas,3971,Fanas
+2005,2007,3972,Seewis im Prättigau,3972,Seewis im Prättigau
+2005,2007,3973,Valzeina,3973,Valzeina
+2005,2007,3981,Breil/Brigels,3981,Breil/Brigels
+2005,2007,3982,Disentis/Mustér,3982,Disentis/Mustér
+2005,2007,3983,Medel (Lucmagn),3983,Medel (Lucmagn)
+2005,2007,3984,Schlans,3984,Schlans
+2005,2007,3985,Sumvitg,3985,Sumvitg
+2005,2007,3986,Tujetsch,3986,Tujetsch
+2005,2007,3987,Trun,3987,Trun
+2005,2007,4001,Aarau,4001,Aarau
+2005,2007,4002,Biberstein,4002,Biberstein
+2005,2007,4003,Buchs (AG),4003,Buchs (AG)
+2005,2007,4004,Densbüren,4004,Densbüren
+2005,2005,4005,Erlinsbach,4005,Erlinsbach (AG)
+2006,2007,4005,Erlinsbach (AG),4005,Erlinsbach (AG)
+2005,2007,4006,Gränichen,4006,Gränichen
+2005,2007,4007,Hirschthal,4007,Hirschthal
+2005,2007,4008,Küttigen,4008,Küttigen
+2005,2007,4009,Muhen,4009,Muhen
+2005,2007,4010,Oberentfelden,4010,Oberentfelden
+2005,2007,4011,Rohr (AG),4011,Rohr (AG)
+2005,2007,4012,Suhr,4012,Suhr
+2005,2007,4013,Unterentfelden,4013,Unterentfelden
+2005,2007,4021,Baden,4021,Baden
+2005,2007,4022,Bellikon,4022,Bellikon
+2005,2007,4023,Bergdietikon,4023,Bergdietikon
+2005,2007,4024,Birmenstorf (AG),4024,Birmenstorf (AG)
+2005,2007,4026,Ennetbaden,4026,Ennetbaden
+2005,2007,4027,Fislisbach,4027,Fislisbach
+2005,2007,4028,Freienwil,4028,Freienwil
+2005,2007,4029,Gebenstorf,4029,Gebenstorf
+2005,2007,4030,Killwangen,4030,Killwangen
+2005,2007,4031,Künten,4031,Künten
+2005,2007,4032,Mägenwil,4032,Mägenwil
+2005,2007,4033,Mellingen,4033,Mellingen
+2005,2007,4034,Neuenhof,4034,Neuenhof
+2005,2007,4035,Niederrohrdorf,4035,Niederrohrdorf
+2005,2005,4036,Oberehrendingen,4049,Ehrendingen
+2005,2007,4037,Oberrohrdorf,4037,Oberrohrdorf
+2005,2007,4038,Obersiggenthal,4038,Obersiggenthal
+2005,2007,4039,Remetschwil,4039,Remetschwil
+2005,2007,4040,Spreitenbach,4040,Spreitenbach
+2005,2007,4041,Stetten (AG),4041,Stetten (AG)
+2005,2007,4042,Turgi,4042,Turgi
+2005,2005,4043,Unterehrendingen,4049,Ehrendingen
+2005,2007,4044,Untersiggenthal,4044,Untersiggenthal
+2005,2007,4045,Wettingen,4045,Wettingen
+2005,2007,4046,Wohlenschwil,4046,Wohlenschwil
+2005,2007,4047,Würenlingen,4047,Würenlingen
+2005,2007,4048,Würenlos,4048,Würenlos
+2006,2007,4049,Ehrendingen,4049,Ehrendingen
+2005,2007,4061,Arni (AG),4061,Arni (AG)
+2005,2007,4062,Berikon,4062,Berikon
+2005,2007,4063,Bremgarten (AG),4063,Bremgarten (AG)
+2005,2007,4064,Büttikon,4064,Büttikon
+2005,2007,4065,Dottikon,4065,Dottikon
+2005,2007,4066,Eggenwil,4066,Eggenwil
+2005,2007,4067,Fischbach-Göslikon,4067,Fischbach-Göslikon
+2005,2007,4068,Hägglingen,4068,Hägglingen
+2005,2007,4069,Hermetschwil-Staffeln,4069,Hermetschwil-Staffeln
+2005,2007,4070,Hilfikon,4070,Hilfikon
+2005,2007,4071,Jonen,4071,Jonen
+2005,2007,4072,Niederwil (AG),4072,Niederwil (AG)
+2005,2007,4073,Oberlunkhofen,4073,Oberlunkhofen
+2005,2007,4074,Oberwil-Lieli,4074,Oberwil-Lieli
+2005,2007,4075,Rudolfstetten-Friedlisb.,4075,Rudolfstetten-Friedlisb.
+2005,2007,4076,Sarmenstorf,4076,Sarmenstorf
+2005,2007,4077,Tägerig,4077,Tägerig
+2005,2007,4078,Uezwil,4078,Uezwil
+2005,2007,4079,Unterlunkhofen,4079,Unterlunkhofen
+2005,2007,4080,Villmergen,4080,Villmergen
+2005,2007,4081,Widen,4081,Widen
+2005,2007,4082,Wohlen (AG),4082,Wohlen (AG)
+2005,2007,4083,Zufikon,4083,Zufikon
+2005,2007,4084,Islisberg,4084,Islisberg
+2005,2007,4091,Auenstein,4091,Auenstein
+2005,2007,4092,Birr,4092,Birr
+2005,2007,4093,Birrhard,4093,Birrhard
+2005,2007,4094,Bözen,4094,Bözen
+2005,2007,4095,Brugg,4095,Brugg
+2005,2007,4096,Effingen,4096,Effingen
+2005,2007,4097,Elfingen,4097,Elfingen
+2005,2007,4098,Gallenkirch,4098,Gallenkirch
+2005,2007,4099,Habsburg,4099,Habsburg
+2005,2007,4100,Hausen (AG),4100,Hausen (AG)
+2005,2007,4101,Hottwil,4101,Hottwil
+2005,2007,4103,Linn,4103,Linn
+2005,2007,4104,Lupfig,4104,Lupfig
+2005,2007,4105,Mandach,4105,Mandach
+2005,2007,4106,Mönthal,4106,Mönthal
+2005,2007,4107,Mülligen,4107,Mülligen
+2005,2007,4108,Oberbözberg,4108,Oberbözberg
+2005,2007,4109,Oberflachs,4109,Oberflachs
+2005,2007,4110,Remigen,4110,Remigen
+2005,2007,4111,Riniken,4111,Riniken
+2005,2007,4112,Rüfenach,4112,Rüfenach
+2005,2007,4113,Scherz,4113,Scherz
+2005,2007,4114,Schinznach-Bad,4114,Schinznach-Bad
+2005,2007,4115,Schinznach-Dorf,4115,Schinznach-Dorf
+2005,2005,4116,Stilli,4121,Villigen
+2005,2007,4117,Thalheim (AG),4117,Thalheim (AG)
+2005,2007,4118,Umiken,4118,Umiken
+2005,2007,4119,Unterbözberg,4119,Unterbözberg
+2005,2007,4120,Veltheim (AG),4120,Veltheim (AG)
+2005,2007,4121,Villigen,4121,Villigen
+2005,2007,4122,Villnachern,4122,Villnachern
+2005,2007,4123,Windisch,4123,Windisch
+2005,2007,4131,Beinwil am See,4131,Beinwil am See
+2005,2007,4132,Birrwil,4132,Birrwil
+2005,2007,4133,Burg (AG),4133,Burg (AG)
+2005,2007,4134,Dürrenäsch,4134,Dürrenäsch
+2005,2007,4135,Gontenschwil,4135,Gontenschwil
+2005,2007,4136,Holziken,4136,Holziken
+2005,2007,4137,Leimbach (AG),4137,Leimbach (AG)
+2005,2007,4138,Leutwil,4138,Leutwil
+2005,2007,4139,Menziken,4139,Menziken
+2005,2007,4140,Oberkulm,4140,Oberkulm
+2005,2007,4141,Reinach (AG),4141,Reinach (AG)
+2005,2007,4142,Schlossrued,4142,Schlossrued
+2005,2007,4143,Schmiedrued,4143,Schmiedrued
+2005,2007,4144,Schöftland,4144,Schöftland
+2005,2007,4145,Teufenthal (AG),4145,Teufenthal (AG)
+2005,2007,4146,Unterkulm,4146,Unterkulm
+2005,2007,4147,Zetzwil,4147,Zetzwil
+2005,2007,4161,Eiken,4161,Eiken
+2005,2007,4162,Etzgen,4162,Etzgen
+2005,2007,4163,Frick,4163,Frick
+2005,2007,4164,Gansingen,4164,Gansingen
+2005,2007,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
+2005,2007,4166,Herznach,4166,Herznach
+2005,2007,4167,Hornussen,4167,Hornussen
+2005,2007,4168,Ittenthal,4168,Ittenthal
+2005,2007,4169,Kaisten,4169,Kaisten
+2005,2007,4170,Laufenburg,4170,Laufenburg
+2005,2007,4171,Mettau,4171,Mettau
+2005,2007,4172,Münchwilen (AG),4172,Münchwilen (AG)
+2005,2007,4173,Oberhof,4173,Oberhof
+2005,2007,4174,Oberhofen (AG),4174,Oberhofen (AG)
+2005,2007,4175,Oeschgen,4175,Oeschgen
+2005,2007,4176,Schwaderloch,4176,Schwaderloch
+2005,2007,4177,Sisseln,4177,Sisseln
+2005,2007,4178,Sulz (AG),4178,Sulz (AG)
+2005,2007,4179,Ueken,4179,Ueken
+2005,2007,4180,Wil (AG),4180,Wil (AG)
+2005,2007,4181,Wittnau,4181,Wittnau
+2005,2007,4182,Wölflinswil,4182,Wölflinswil
+2005,2007,4183,Zeihen,4183,Zeihen
+2005,2007,4191,Ammerswil,4191,Ammerswil
+2005,2007,4192,Boniswil,4192,Boniswil
+2005,2007,4193,Brunegg,4193,Brunegg
+2005,2007,4194,Dintikon,4194,Dintikon
+2005,2007,4195,Egliswil,4195,Egliswil
+2005,2007,4196,Fahrwangen,4196,Fahrwangen
+2005,2007,4197,Hallwil,4197,Hallwil
+2005,2007,4198,Hendschiken,4198,Hendschiken
+2005,2007,4199,Holderbank (AG),4199,Holderbank (AG)
+2005,2007,4200,Hunzenschwil,4200,Hunzenschwil
+2005,2007,4201,Lenzburg,4201,Lenzburg
+2005,2007,4202,Meisterschwanden,4202,Meisterschwanden
+2005,2007,4203,Möriken-Wildegg,4203,Möriken-Wildegg
+2005,2007,4204,Niederlenz,4204,Niederlenz
+2005,2007,4205,Othmarsingen,4205,Othmarsingen
+2005,2007,4206,Rupperswil,4206,Rupperswil
+2005,2007,4207,Schafisheim,4207,Schafisheim
+2005,2007,4208,Seengen,4208,Seengen
+2005,2007,4209,Seon,4209,Seon
+2005,2007,4210,Staufen,4210,Staufen
+2005,2007,4221,Abtwil,4221,Abtwil
+2005,2007,4222,Aristau,4222,Aristau
+2005,2007,4223,Auw,4223,Auw
+2005,2007,4224,Beinwil (Freiamt),4224,Beinwil (Freiamt)
+2005,2007,4225,Benzenschwil,4225,Benzenschwil
+2005,2007,4226,Besenbüren,4226,Besenbüren
+2005,2007,4227,Bettwil,4227,Bettwil
+2005,2007,4228,Boswil,4228,Boswil
+2005,2007,4229,Bünzen,4229,Bünzen
+2005,2007,4230,Buttwil,4230,Buttwil
+2005,2007,4231,Dietwil,4231,Dietwil
+2005,2007,4232,Geltwil,4232,Geltwil
+2005,2007,4233,Kallern,4233,Kallern
+2005,2007,4234,Merenschwand,4234,Merenschwand
+2005,2007,4235,Mühlau,4235,Mühlau
+2005,2007,4236,Muri (AG),4236,Muri (AG)
+2005,2007,4237,Oberrüti,4237,Oberrüti
+2005,2007,4238,Rottenschwil,4238,Rottenschwil
+2005,2007,4239,Sins,4239,Sins
+2005,2007,4240,Waltenschwil,4240,Waltenschwil
+2005,2007,4251,Hellikon,4251,Hellikon
+2005,2007,4252,Kaiseraugst,4252,Kaiseraugst
+2005,2007,4253,Magden,4253,Magden
+2005,2007,4254,Möhlin,4254,Möhlin
+2005,2007,4255,Mumpf,4255,Mumpf
+2005,2007,4256,Obermumpf,4256,Obermumpf
+2005,2007,4257,Olsberg,4257,Olsberg
+2005,2007,4258,Rheinfelden,4258,Rheinfelden
+2005,2007,4259,Schupfart,4259,Schupfart
+2005,2007,4260,Stein (AG),4260,Stein (AG)
+2005,2007,4261,Wallbach,4261,Wallbach
+2005,2007,4262,Wegenstetten,4262,Wegenstetten
+2005,2007,4263,Zeiningen,4263,Zeiningen
+2005,2007,4264,Zuzgen,4264,Zuzgen
+2005,2007,4271,Aarburg,4271,Aarburg
+2005,2007,4272,Attelwil,4272,Attelwil
+2005,2007,4273,Bottenwil,4273,Bottenwil
+2005,2007,4274,Brittnau,4274,Brittnau
+2005,2007,4275,Kirchleerau,4275,Kirchleerau
+2005,2007,4276,Kölliken,4276,Kölliken
+2005,2007,4277,Moosleerau,4277,Moosleerau
+2005,2007,4279,Murgenthal,4279,Murgenthal
+2005,2007,4280,Oftringen,4280,Oftringen
+2005,2007,4281,Reitnau,4281,Reitnau
+2005,2007,4282,Rothrist,4282,Rothrist
+2005,2007,4283,Safenwil,4283,Safenwil
+2005,2007,4284,Staffelbach,4284,Staffelbach
+2005,2007,4285,Strengelbach,4285,Strengelbach
+2005,2007,4286,Uerkheim,4286,Uerkheim
+2005,2007,4287,Vordemwald,4287,Vordemwald
+2005,2007,4288,Wiliberg,4288,Wiliberg
+2005,2007,4289,Zofingen,4289,Zofingen
+2005,2007,4301,Baldingen,4301,Baldingen
+2005,2007,4302,Böbikon,4302,Böbikon
+2005,2007,4303,Böttstein,4303,Böttstein
+2005,2007,4304,Döttingen,4304,Döttingen
+2005,2007,4305,Endingen,4305,Endingen
+2005,2007,4306,Fisibach,4306,Fisibach
+2005,2007,4307,Full-Reuenthal,4307,Full-Reuenthal
+2005,2007,4308,Kaiserstuhl,4308,Kaiserstuhl
+2005,2007,4309,Klingnau,4309,Klingnau
+2005,2007,4310,Koblenz,4310,Koblenz
+2005,2007,4311,Leibstadt,4311,Leibstadt
+2005,2007,4312,Lengnau (AG),4312,Lengnau (AG)
+2005,2007,4313,Leuggern,4313,Leuggern
+2005,2007,4314,Mellikon,4314,Mellikon
+2005,2007,4315,Rekingen (AG),4315,Rekingen (AG)
+2005,2007,4316,Rietheim,4316,Rietheim
+2005,2007,4317,Rümikon,4317,Rümikon
+2005,2007,4318,Schneisingen,4318,Schneisingen
+2005,2007,4319,Siglistorf,4319,Siglistorf
+2005,2007,4320,Tegerfelden,4320,Tegerfelden
+2005,2007,4321,Unterendingen,4321,Unterendingen
+2005,2007,4322,Wislikofen,4322,Wislikofen
+2007,2007,4323,Bad Zurzach,4323,Bad Zurzach
+2005,2006,4323,Zurzach,4323,Bad Zurzach
+2005,2007,4401,Arbon,4401,Arbon
+2005,2007,4406,Dozwil,4406,Dozwil
+2005,2007,4411,Egnach,4411,Egnach
+2005,2007,4416,Hefenhofen,4416,Hefenhofen
+2005,2007,4421,Horn,4421,Horn
+2005,2007,4426,Kesswil,4426,Kesswil
+2005,2007,4431,Roggwil (TG),4431,Roggwil (TG)
+2005,2007,4436,Romanshorn,4436,Romanshorn
+2005,2007,4441,Salmsach,4441,Salmsach
+2005,2007,4446,Sommeri,4446,Sommeri
+2005,2007,4451,Uttwil,4451,Uttwil
+2005,2007,4461,Amriswil,4461,Amriswil
+2005,2007,4471,Bischofszell,4471,Bischofszell
+2005,2007,4476,Erlen,4476,Erlen
+2005,2007,4486,Hauptwil-Gottshaus,4486,Hauptwil-Gottshaus
+2005,2007,4495,Hohentannen,4495,Hohentannen
+2005,2007,4501,Kradolf-Schönenberg,4501,Kradolf-Schönenberg
+2005,2007,4506,Sulgen,4506,Sulgen
+2005,2007,4511,Zihlschlacht-Sitterdorf,4511,Zihlschlacht-Sitterdorf
+2005,2007,4536,Basadingen-Schlattingen,4536,Basadingen-Schlattingen
+2005,2007,4545,Diessenhofen,4545,Diessenhofen
+2005,2007,4546,Schlatt (TG),4546,Schlatt (TG)
+2005,2007,4551,Aadorf,4551,Aadorf
+2005,2007,4561,Felben-Wellhausen,4561,Felben-Wellhausen
+2005,2007,4566,Frauenfeld,4566,Frauenfeld
+2005,2007,4571,Gachnang,4571,Gachnang
+2005,2007,4590,Hüttlingen,4590,Hüttlingen
+2005,2007,4591,Matzingen,4591,Matzingen
+2005,2007,4601,Neunforn,4601,Neunforn
+2005,2007,4606,Stettfurt,4606,Stettfurt
+2005,2007,4611,Thundorf,4611,Thundorf
+2005,2007,4616,Uesslingen-Buch,4616,Uesslingen-Buch
+2005,2007,4621,Warth-Weiningen,4621,Warth-Weiningen
+2005,2007,4641,Altnau,4641,Altnau
+2005,2007,4643,Bottighofen,4643,Bottighofen
+2005,2007,4646,Ermatingen,4646,Ermatingen
+2005,2007,4651,Gottlieben,4651,Gottlieben
+2005,2007,4656,Güttingen,4656,Güttingen
+2005,2007,4666,Kemmental,4666,Kemmental
+2005,2007,4671,Kreuzlingen,4671,Kreuzlingen
+2005,2007,4681,Langrickenbach,4681,Langrickenbach
+2005,2007,4683,Lengwil,4683,Lengwil
+2005,2007,4691,Münsterlingen,4691,Münsterlingen
+2005,2007,4696,Tägerwilen,4696,Tägerwilen
+2005,2007,4701,Wäldi,4701,Wäldi
+2005,2007,4711,Affeltrangen,4711,Affeltrangen
+2005,2007,4716,Bettwiesen,4716,Bettwiesen
+2005,2007,4721,Bichelsee-Balterswil,4721,Bichelsee-Balterswil
+2005,2007,4723,Braunau,4723,Braunau
+2005,2007,4724,Eschlikon,4724,Eschlikon
+2005,2007,4726,Fischingen,4726,Fischingen
+2005,2007,4741,Lommis,4741,Lommis
+2005,2007,4746,Münchwilen (TG),4746,Münchwilen (TG)
+2005,2007,4751,Rickenbach (TG),4751,Rickenbach (TG)
+2005,2007,4756,Schönholzerswilen,4756,Schönholzerswilen
+2005,2007,4761,Sirnach,4761,Sirnach
+2005,2007,4776,Tobel-Tägerschen,4776,Tobel-Tägerschen
+2005,2007,4781,Wängi,4781,Wängi
+2005,2007,4786,Wilen (TG),4786,Wilen (TG)
+2005,2007,4791,Wuppenau,4791,Wuppenau
+2005,2007,4801,Berlingen,4801,Berlingen
+2005,2007,4806,Eschenz,4806,Eschenz
+2005,2007,4811,Herdern,4811,Herdern
+2005,2007,4816,Homburg,4816,Homburg
+2005,2007,4821,Hüttwilen,4821,Hüttwilen
+2005,2007,4826,Mammern,4826,Mammern
+2005,2007,4831,Müllheim,4831,Müllheim
+2005,2007,4841,Pfyn,4841,Pfyn
+2005,2007,4846,Raperswilen,4846,Raperswilen
+2005,2007,4851,Salenstein,4851,Salenstein
+2005,2007,4864,Steckborn,4864,Steckborn
+2005,2007,4871,Wagenhausen,4871,Wagenhausen
+2005,2007,4881,Amlikon-Bissegg,4881,Amlikon-Bissegg
+2005,2007,4891,Berg (TG),4891,Berg (TG)
+2005,2007,4901,Birwinken,4901,Birwinken
+2005,2007,4911,Bürglen (TG),4911,Bürglen (TG)
+2005,2007,4921,Bussnang,4921,Bussnang
+2005,2007,4941,Märstetten,4941,Märstetten
+2005,2007,4946,Weinfelden,4946,Weinfelden
+2005,2007,4951,Wigoltingen,4951,Wigoltingen
+2005,2007,5001,Arbedo-Castione,5001,Arbedo-Castione
+2005,2007,5002,Bellinzona,5002,Bellinzona
+2005,2007,5003,Cadenazzo,5003,Cadenazzo
+2005,2007,5004,Camorino,5004,Camorino
+2005,2007,5005,Giubiasco,5005,Giubiasco
+2005,2007,5006,Gnosca,5006,Gnosca
+2005,2007,5007,Gorduno,5007,Gorduno
+2005,2007,5008,Gudo,5008,Gudo
+2005,2007,5009,Isone,5009,Isone
+2005,2007,5010,Lumino,5010,Lumino
+2005,2007,5011,Medeglia,5011,Medeglia
+2005,2007,5012,Moleno,5012,Moleno
+2005,2007,5013,Monte Carasso,5013,Monte Carasso
+2005,2007,5014,Pianezzo,5014,Pianezzo
+2005,2007,5015,Preonzo,5015,Preonzo
+2005,2005,5016,Robasacco,5003,Cadenazzo
+2005,2007,5017,Sant'Antonino,5017,Sant'Antonino
+2005,2007,5018,Sant'Antonio,5018,Sant'Antonio
+2005,2007,5019,Sementina,5019,Sementina
+2005,2006,5031,Aquila,5049,Blenio
+2005,2006,5032,Campo (Blenio),5049,Blenio
+2005,2006,5036,Ghirone,5049,Blenio
+2005,2007,5040,Ludiano,5040,Ludiano
+2005,2007,5041,Malvaglia,5041,Malvaglia
+2005,2006,5043,Olivone,5049,Blenio
+2005,2007,5046,Semione,5046,Semione
+2005,2006,5047,Torre,5049,Blenio
+2005,2007,5048,Acquarossa,5048,Acquarossa
+2007,2007,5049,Blenio,5049,Blenio
+2005,2007,5061,Airolo,5061,Airolo
+2005,2007,5062,Anzonico,5062,Anzonico
+2005,2007,5063,Bedretto,5063,Bedretto
+2005,2007,5064,Bodio,5064,Bodio
+2005,2006,5065,Calonico,5072,Faido
+2005,2007,5066,Calpiogna,5066,Calpiogna
+2005,2007,5067,Campello,5067,Campello
+2005,2007,5068,Cavagnago,5068,Cavagnago
+2005,2006,5069,Chiggiogna,5072,Faido
+2005,2007,5070,Chironico,5070,Chironico
+2005,2007,5071,Dalpe,5071,Dalpe
+2005,2007,5072,Faido,5072,Faido
+2005,2007,5073,Giornico,5073,Giornico
+2005,2007,5074,Mairengo,5074,Mairengo
+2005,2007,5075,Osco,5075,Osco
+2005,2007,5076,Personico,5076,Personico
+2005,2007,5077,Pollegio,5077,Pollegio
+2005,2007,5078,Prato (Leventina),5078,Prato (Leventina)
+2005,2007,5079,Quinto,5079,Quinto
+2005,2006,5080,Rossura,5072,Faido
+2005,2007,5081,Sobrio,5081,Sobrio
+2005,2007,5091,Ascona,5091,Ascona
+2005,2007,5094,Borgnone,5094,Borgnone
+2005,2007,5095,Brione (Verzasca),5095,Brione (Verzasca)
+2005,2007,5096,Brione sopra Minusio,5096,Brione sopra Minusio
+2005,2007,5097,Brissago,5097,Brissago
+2005,2007,5098,Caviano,5098,Caviano
+2005,2007,5099,Cavigliano,5099,Cavigliano
+2005,2007,5101,Contone,5101,Contone
+2005,2007,5102,Corippo,5102,Corippo
+2005,2007,5104,Cugnasco,5104,Cugnasco
+2005,2007,5105,Frasco,5105,Frasco
+2005,2007,5106,Gerra (Gambarogno),5106,Gerra (Gambarogno)
+2005,2007,5107,Gerra (Verzasca),5107,Gerra (Verzasca)
+2005,2007,5108,Gordola,5108,Gordola
+2005,2007,5109,Gresso,5109,Gresso
+2005,2007,5110,Indemini,5110,Indemini
+2005,2007,5111,Intragna,5111,Intragna
+2005,2007,5112,Lavertezzo,5112,Lavertezzo
+2005,2007,5113,Locarno,5113,Locarno
+2005,2007,5115,Losone,5115,Losone
+2005,2007,5116,Magadino,5116,Magadino
+2005,2007,5117,Mergoscia,5117,Mergoscia
+2005,2007,5118,Minusio,5118,Minusio
+2005,2007,5119,Mosogno,5119,Mosogno
+2005,2007,5120,Muralto,5120,Muralto
+2005,2007,5121,Orselina,5121,Orselina
+2005,2007,5122,Palagnedra,5122,Palagnedra
+2005,2007,5123,Piazzogna,5123,Piazzogna
+2005,2007,5125,Ronco sopra Ascona,5125,Ronco sopra Ascona
+2005,2007,5127,San Nazzaro,5127,San Nazzaro
+2005,2007,5128,Sant'Abbondio,5128,Sant'Abbondio
+2005,2007,5129,Sonogno,5129,Sonogno
+2005,2007,5130,Tegna,5130,Tegna
+2005,2007,5131,Tenero-Contra,5131,Tenero-Contra
+2005,2007,5132,Vergeletto,5132,Vergeletto
+2005,2007,5133,Verscio,5133,Verscio
+2005,2007,5134,Vira (Gambarogno),5134,Vira (Gambarogno)
+2005,2007,5135,Vogorno,5135,Vogorno
+2005,2007,5136,Onsernone,5136,Onsernone
+2005,2007,5137,Isorno,5137,Isorno
+2005,2007,5141,Agno,5141,Agno
+2005,2007,5143,Aranno,5143,Aranno
+2005,2007,5144,Arogno,5144,Arogno
+2005,2005,5145,Arosio,5237,Alto Malcantone
+2005,2007,5146,Astano,5146,Astano
+2005,2007,5147,Barbengo,5147,Barbengo
+2005,2007,5148,Bedano,5148,Bedano
+2005,2007,5149,Bedigliora,5149,Bedigliora
+2005,2007,5150,Bidogno,5150,Bidogno
+2005,2007,5151,Bioggio,5151,Bioggio
+2005,2007,5153,Bironico,5153,Bironico
+2005,2007,5154,Bissone,5154,Bissone
+2005,2007,5155,Bogno,5155,Bogno
+2005,2005,5159,Breno,5237,Alto Malcantone
+2005,2007,5160,Brusino Arsizio,5160,Brusino Arsizio
+2005,2007,5161,Cademario,5161,Cademario
+2005,2007,5162,Cadempino,5162,Cadempino
+2005,2007,5163,Cadro,5163,Cadro
+2005,2007,5165,Camignolo,5165,Camignolo
+2005,2007,5167,Canobbio,5167,Canobbio
+2005,2007,5168,Carabbia,5168,Carabbia
+2005,2007,5169,Carabietta,5169,Carabietta
+2005,2007,5170,Carona,5170,Carona
+2005,2007,5171,Caslano,5171,Caslano
+2005,2007,5173,Certara,5173,Certara
+2005,2007,5174,Cimadera,5174,Cimadera
+2005,2007,5176,Comano,5176,Comano
+2005,2007,5177,Corticiasca,5177,Corticiasca
+2005,2007,5178,Croglio,5178,Croglio
+2005,2007,5180,Cureglia,5180,Cureglia
+2005,2007,5181,Curio,5181,Curio
+2005,2005,5183,Fescoggia,5237,Alto Malcantone
+2005,2007,5186,Grancia,5186,Grancia
+2005,2007,5187,Gravesano,5187,Gravesano
+2005,2007,5188,Iseo,5188,Iseo
+2005,2007,5189,Lamone,5189,Lamone
+2005,2007,5191,Lugaggia,5191,Lugaggia
+2005,2007,5192,Lugano,5192,Lugano
+2005,2007,5193,Magliaso,5193,Magliaso
+2005,2007,5194,Manno,5194,Manno
+2005,2007,5195,Maroggia,5195,Maroggia
+2005,2007,5196,Massagno,5196,Massagno
+2005,2007,5197,Melano,5197,Melano
+2005,2007,5198,Melide,5198,Melide
+2005,2007,5199,Mezzovico-Vira,5199,Mezzovico-Vira
+2005,2007,5200,Miglieglia,5200,Miglieglia
+2005,2007,5202,Monteggio,5202,Monteggio
+2005,2007,5203,Morcote,5203,Morcote
+2005,2005,5204,Mugena,5237,Alto Malcantone
+2005,2007,5205,Muzzano,5205,Muzzano
+2005,2007,5206,Neggio,5206,Neggio
+2005,2007,5207,Novaggio,5207,Novaggio
+2005,2007,5208,Origlio,5208,Origlio
+2005,2007,5210,Paradiso,5210,Paradiso
+2005,2007,5212,Ponte Capriasca,5212,Ponte Capriasca
+2005,2007,5213,Ponte Tresa,5213,Ponte Tresa
+2005,2007,5214,Porza,5214,Porza
+2005,2007,5216,Pura,5216,Pura
+2005,2007,5217,Rivera,5217,Rivera
+2005,2007,5219,Rovio,5219,Rovio
+2005,2007,5221,Savosa,5221,Savosa
+2005,2007,5222,Sessa,5222,Sessa
+2005,2007,5223,Sigirino,5223,Sigirino
+2005,2007,5224,Sonvico,5224,Sonvico
+2005,2007,5225,Sorengo,5225,Sorengo
+2005,2007,5226,Capriasca,5226,Capriasca
+2005,2007,5227,Torricella-Taverne,5227,Torricella-Taverne
+2005,2007,5229,Valcolla,5229,Valcolla
+2005,2007,5230,Vernate,5230,Vernate
+2005,2007,5231,Vezia,5231,Vezia
+2005,2005,5232,Vezio,5237,Alto Malcantone
+2005,2007,5233,Vico Morcote,5233,Vico Morcote
+2005,2007,5235,Villa Luganese,5235,Villa Luganese
+2005,2007,5236,Collina d'Oro,5236,Collina d'Oro
+2006,2007,5237,Alto Malcantone,5237,Alto Malcantone
+2005,2007,5241,Arzo,5241,Arzo
+2005,2007,5242,Balerna,5242,Balerna
+2005,2007,5243,Besazio,5243,Besazio
+2005,2007,5244,Bruzella,5244,Bruzella
+2005,2007,5245,Cabbio,5245,Cabbio
+2005,2007,5246,Caneggio,5246,Caneggio
+2005,2007,5247,Capolago,5247,Capolago
+2005,2007,5249,Castel San Pietro,5249,Castel San Pietro
+2005,2007,5250,Chiasso,5250,Chiasso
+2005,2007,5251,Coldrerio,5251,Coldrerio
+2005,2007,5252,Genestrerio,5252,Genestrerio
+2005,2007,5253,Ligornetto,5253,Ligornetto
+2005,2007,5254,Mendrisio,5254,Mendrisio
+2005,2007,5255,Meride,5255,Meride
+2005,2007,5257,Morbio Inferiore,5257,Morbio Inferiore
+2005,2007,5258,Morbio Superiore,5258,Morbio Superiore
+2005,2007,5259,Muggio,5259,Muggio
+2005,2007,5260,Novazzano,5260,Novazzano
+2005,2007,5262,Rancate,5262,Rancate
+2005,2007,5263,Riva San Vitale,5263,Riva San Vitale
+2005,2007,5264,Sagno,5264,Sagno
+2005,2007,5266,Stabio,5266,Stabio
+2005,2007,5267,Tremona,5267,Tremona
+2005,2007,5268,Vacallo,5268,Vacallo
+2005,2007,5281,Biasca,5281,Biasca
+2005,2007,5282,Claro,5282,Claro
+2005,2007,5283,Cresciano,5283,Cresciano
+2005,2007,5284,Iragna,5284,Iragna
+2005,2007,5285,Lodrino,5285,Lodrino
+2005,2007,5286,Osogna,5286,Osogna
+2005,2007,5302,Avegno,5302,Avegno
+2005,2006,5303,Bignasco,5310,Cevio
+2005,2007,5304,Bosco/Gurin,5304,Bosco/Gurin
+2005,2007,5307,Campo (Vallemaggia),5307,Campo (Vallemaggia)
+2005,2006,5308,Cavergno,5310,Cevio
+2005,2007,5309,Cerentino,5309,Cerentino
+2005,2007,5310,Cevio,5310,Cevio
+2005,2007,5314,Gordevio,5314,Gordevio
+2005,2007,5315,Linescio,5315,Linescio
+2005,2007,5317,Maggia,5317,Maggia
+2005,2007,5323,Lavizzara,5323,Lavizzara
+2006,2007,5391,C'za Medeglia/Cadenazzo,5391,C'za Medeglia/Cadenazzo
+2005,2005,5391,C'za Medeglia/Robasacco,5391,C'za Medeglia/Cadenazzo
+2005,2007,5392,C'za Bid./Capri./Cortic.,5392,C'za Bid./Capri./Cortic.
+2005,2007,5393,C'za Capriasca/Lugagg.,5393,C'za Capriasca/Lugagg.
+2005,2007,5394,C'za Corticiasca/Valc.,5394,C'za Corticiasca/Valc.
+2005,2007,5401,Aigle,5401,Aigle
+2005,2007,5402,Bex,5402,Bex
+2005,2007,5403,Chessel,5403,Chessel
+2005,2007,5404,Corbeyrier,5404,Corbeyrier
+2005,2007,5405,Gryon,5405,Gryon
+2005,2007,5406,Lavey-Morcles,5406,Lavey-Morcles
+2005,2007,5407,Leysin,5407,Leysin
+2005,2007,5408,Noville,5408,Noville
+2005,2007,5409,Ollon,5409,Ollon
+2005,2007,5410,Ormont-Dessous,5410,Ormont-Dessous
+2005,2007,5411,Ormont-Dessus,5411,Ormont-Dessus
+2005,2007,5412,Rennaz,5412,Rennaz
+2005,2007,5413,Roche (VD),5413,Roche (VD)
+2005,2007,5414,Villeneuve (VD),5414,Villeneuve (VD)
+2005,2007,5415,Yvorne,5415,Yvorne
+2005,2007,5421,Apples,5421,Apples
+2005,2007,5422,Aubonne,5422,Aubonne
+2005,2007,5423,Ballens,5423,Ballens
+2005,2007,5424,Berolle,5424,Berolle
+2005,2007,5425,Bière,5425,Bière
+2005,2007,5426,Bougy-Villars,5426,Bougy-Villars
+2005,2007,5427,Féchy,5427,Féchy
+2005,2007,5428,Gimel,5428,Gimel
+2005,2007,5429,Longirod,5429,Longirod
+2005,2007,5430,Marchissy,5430,Marchissy
+2005,2007,5431,Mollens (VD),5431,Mollens (VD)
+2005,2007,5432,Montherod,5432,Montherod
+2005,2007,5433,Pizy,5433,Pizy
+2005,2007,5434,Saint-George,5434,Saint-George
+2005,2007,5435,Saint-Livres,5435,Saint-Livres
+2005,2007,5436,Saint-Oyens,5436,Saint-Oyens
+2005,2007,5437,Saubraz,5437,Saubraz
+2005,2007,5451,Avenches,5451,Avenches
+2005,2007,5452,Bellerive (VD),5452,Bellerive (VD)
+2005,2007,5453,Chabrey,5453,Chabrey
+2005,2007,5455,Constantine,5455,Constantine
+2005,2007,5456,Cudrefin,5456,Cudrefin
+2005,2006,5457,Donatyre,5451,Avenches
+2005,2007,5458,Faoug,5458,Faoug
+2005,2007,5459,Montmagny,5459,Montmagny
+2005,2007,5460,Mur (VD),5460,Mur (VD)
+2005,2007,5461,Oleyres,5461,Oleyres
+2005,2007,5462,Vallamand,5462,Vallamand
+2005,2007,5463,Villars-le-Grand,5463,Villars-le-Grand
+2005,2007,5471,Bettens,5471,Bettens
+2005,2007,5472,Bournens,5472,Bournens
+2005,2007,5473,Boussens,5473,Boussens
+2005,2007,5474,La Chaux (Cossonay),5474,La Chaux (Cossonay)
+2005,2007,5475,Chavannes-le-Veyron,5475,Chavannes-le-Veyron
+2005,2007,5476,Chevilly,5476,Chevilly
+2005,2007,5477,Cossonay,5477,Cossonay
+2005,2007,5478,Cottens (VD),5478,Cottens (VD)
+2005,2007,5479,Cuarnens,5479,Cuarnens
+2005,2007,5480,Daillens,5480,Daillens
+2005,2007,5481,Dizy,5481,Dizy
+2005,2007,5482,Eclépens,5482,Eclépens
+2005,2007,5483,Ferreyres,5483,Ferreyres
+2005,2007,5484,Gollion,5484,Gollion
+2005,2007,5485,Grancy,5485,Grancy
+2005,2007,5486,L'Isle,5486,L'Isle
+2005,2007,5487,Lussery-Villars,5487,Lussery-Villars
+2005,2007,5488,Mauraz,5488,Mauraz
+2005,2007,5489,Mex (VD),5489,Mex (VD)
+2005,2007,5490,Moiry,5490,Moiry
+2005,2007,5491,Mont-la-Ville,5491,Mont-la-Ville
+2005,2007,5492,Montricher,5492,Montricher
+2005,2007,5493,Orny,5493,Orny
+2005,2007,5494,Pampigny,5494,Pampigny
+2005,2007,5495,Penthalaz,5495,Penthalaz
+2005,2007,5496,Penthaz,5496,Penthaz
+2005,2007,5497,Pompaples,5497,Pompaples
+2005,2007,5498,La Sarraz,5498,La Sarraz
+2005,2007,5499,Senarclens,5499,Senarclens
+2005,2007,5500,Sévery,5500,Sévery
+2005,2007,5501,Sullens,5501,Sullens
+2005,2007,5503,Vufflens-la-Ville,5503,Vufflens-la-Ville
+2005,2007,5511,Assens,5511,Assens
+2005,2007,5512,Bercher,5512,Bercher
+2005,2007,5513,Bioley-Orjulaz,5513,Bioley-Orjulaz
+2005,2007,5514,Bottens,5514,Bottens
+2005,2007,5515,Bretigny-sur-Morrens,5515,Bretigny-sur-Morrens
+2005,2007,5516,Cugy (VD),5516,Cugy (VD)
+2005,2007,5517,Dommartin,5517,Dommartin
+2005,2007,5518,Echallens,5518,Echallens
+2005,2007,5519,Eclagnens,5519,Eclagnens
+2005,2007,5520,Essertines-sur-Yverdon,5520,Essertines-sur-Yverdon
+2005,2007,5521,Etagnières,5521,Etagnières
+2005,2007,5522,Fey,5522,Fey
+2005,2007,5523,Froideville,5523,Froideville
+2005,2007,5524,Goumoens-la-Ville,5524,Goumoens-la-Ville
+2005,2007,5525,Goumoens-le-Jux,5525,Goumoens-le-Jux
+2005,2007,5526,Malapalud,5526,Malapalud
+2005,2007,5527,Morrens (VD),5527,Morrens (VD)
+2005,2007,5528,Naz,5528,Naz
+2005,2007,5529,Oulens-sous-Echallens,5529,Oulens-sous-Echallens
+2005,2007,5530,Pailly,5530,Pailly
+2005,2007,5531,Penthéréaz,5531,Penthéréaz
+2005,2007,5532,Poliez-le-Grand,5532,Poliez-le-Grand
+2005,2007,5533,Poliez-Pittet,5533,Poliez-Pittet
+2005,2007,5534,Rueyres,5534,Rueyres
+2005,2007,5535,Saint-Barthélemy (VD),5535,Saint-Barthélemy (VD)
+2005,2007,5536,Sugnens,5536,Sugnens
+2005,2007,5537,Villars-le-Terroir,5537,Villars-le-Terroir
+2005,2007,5538,Villars-Tiercelin,5538,Villars-Tiercelin
+2005,2007,5539,Vuarrens,5539,Vuarrens
+2005,2007,5551,Bonvillars,5551,Bonvillars
+2005,2007,5552,Bullet,5552,Bullet
+2005,2007,5553,Champagne,5553,Champagne
+2005,2007,5554,Concise,5554,Concise
+2005,2007,5555,Corcelles-près-Concise,5555,Corcelles-près-Concise
+2005,2007,5556,Fiez,5556,Fiez
+2005,2007,5557,Fontaines-sur-Grandson,5557,Fontaines-sur-Grandson
+2005,2007,5558,Fontanezier,5558,Fontanezier
+2005,2007,5559,Giez,5559,Giez
+2005,2007,5560,Grandevent,5560,Grandevent
+2005,2007,5561,Grandson,5561,Grandson
+2005,2007,5562,Mauborget,5562,Mauborget
+2005,2007,5563,Mutrux,5563,Mutrux
+2005,2007,5564,Novalles,5564,Novalles
+2005,2007,5565,Onnens (VD),5565,Onnens (VD)
+2005,2007,5566,Provence,5566,Provence
+2005,2007,5567,Romairon,5567,Romairon
+2005,2007,5568,Sainte-Croix,5568,Sainte-Croix
+2005,2007,5569,Vaugondry,5569,Vaugondry
+2005,2007,5570,Villars-Burquin,5570,Villars-Burquin
+2005,2007,5581,Belmont-sur-Lausanne,5581,Belmont-sur-Lausanne
+2005,2007,5582,Cheseaux-sur-Lausanne,5582,Cheseaux-sur-Lausanne
+2005,2007,5583,Crissier,5583,Crissier
+2005,2007,5584,Epalinges,5584,Epalinges
+2005,2007,5585,Jouxtens-Mézery,5585,Jouxtens-Mézery
+2005,2007,5586,Lausanne,5586,Lausanne
+2005,2007,5587,Le Mont-sur-Lausanne,5587,Le Mont-sur-Lausanne
+2005,2007,5588,Paudex,5588,Paudex
+2005,2007,5589,Prilly,5589,Prilly
+2005,2007,5590,Pully,5590,Pully
+2005,2007,5591,Renens (VD),5591,Renens (VD)
+2005,2007,5592,Romanel-sur-Lausanne,5592,Romanel-sur-Lausanne
+2005,2007,5601,Chexbres,5601,Chexbres
+2005,2007,5602,Cully,5602,Cully
+2005,2007,5603,Epesses,5603,Epesses
+2005,2007,5604,Forel (Lavaux),5604,Forel (Lavaux)
+2005,2007,5605,Grandvaux,5605,Grandvaux
+2005,2007,5606,Lutry,5606,Lutry
+2005,2007,5607,Puidoux,5607,Puidoux
+2005,2007,5608,Riex,5608,Riex
+2005,2007,5609,Rivaz,5609,Rivaz
+2005,2007,5610,Saint-Saphorin (Lavaux),5610,Saint-Saphorin (Lavaux)
+2005,2007,5611,Savigny,5611,Savigny
+2005,2007,5612,Villette (Lavaux),5612,Villette (Lavaux)
+2005,2007,5621,Aclens,5621,Aclens
+2005,2007,5622,Bremblens,5622,Bremblens
+2005,2007,5623,Buchillon,5623,Buchillon
+2005,2007,5624,Bussigny-près-Lausanne,5624,Bussigny-près-Lausanne
+2005,2007,5625,Bussy-Chardonney,5625,Bussy-Chardonney
+2005,2007,5627,Chavannes-près-Renens,5627,Chavannes-près-Renens
+2005,2007,5628,Chigny,5628,Chigny
+2005,2007,5629,Clarmont,5629,Clarmont
+2005,2007,5630,Colombier (VD),5630,Colombier (VD)
+2005,2007,5631,Denens,5631,Denens
+2005,2007,5632,Denges,5632,Denges
+2005,2007,5633,Echandens,5633,Echandens
+2005,2007,5634,Echichens,5634,Echichens
+2005,2007,5635,Ecublens (VD),5635,Ecublens (VD)
+2005,2007,5636,Etoy,5636,Etoy
+2005,2007,5637,Lavigny,5637,Lavigny
+2005,2007,5638,Lonay,5638,Lonay
+2005,2007,5639,Lully (VD),5639,Lully (VD)
+2005,2007,5640,Lussy-sur-Morges,5640,Lussy-sur-Morges
+2005,2007,5641,Monnaz,5641,Monnaz
+2005,2007,5642,Morges,5642,Morges
+2005,2007,5643,Préverenges,5643,Préverenges
+2005,2007,5644,Reverolle,5644,Reverolle
+2005,2007,5645,Romanel-sur-Morges,5645,Romanel-sur-Morges
+2005,2007,5646,Saint-Prex,5646,Saint-Prex
+2005,2007,5647,Saint-Saphorin-s-Morges,5647,Saint-Saphorin-s-Morges
+2005,2007,5648,Saint-Sulpice (VD),5648,Saint-Sulpice (VD)
+2005,2007,5649,Tolochenaz,5649,Tolochenaz
+2005,2007,5650,Vaux-sur-Morges,5650,Vaux-sur-Morges
+2005,2007,5651,Villars-Sainte-Croix,5651,Villars-Sainte-Croix
+2005,2007,5652,Villars-sous-Yens,5652,Villars-sous-Yens
+2005,2007,5653,Vufflens-le-Château,5653,Vufflens-le-Château
+2005,2007,5654,Vullierens,5654,Vullierens
+2005,2007,5655,Yens,5655,Yens
+2005,2007,5661,Boulens,5661,Boulens
+2005,2007,5662,Brenles,5662,Brenles
+2005,2007,5663,Bussy-sur-Moudon,5663,Bussy-sur-Moudon
+2005,2007,5664,Chapelle-sur-Moudon,5664,Chapelle-sur-Moudon
+2005,2007,5665,Chavannes-sur-Moudon,5665,Chavannes-sur-Moudon
+2005,2007,5666,Chesalles-sur-Moudon,5666,Chesalles-sur-Moudon
+2005,2007,5667,Correvon,5667,Correvon
+2005,2007,5668,Cremin,5668,Cremin
+2005,2007,5669,Curtilles,5669,Curtilles
+2005,2007,5670,Denezy,5670,Denezy
+2005,2007,5671,Dompierre (VD),5671,Dompierre (VD)
+2005,2007,5672,Forel-sur-Lucens,5672,Forel-sur-Lucens
+2005,2007,5673,Hermenches,5673,Hermenches
+2005,2007,5674,Lovatens,5674,Lovatens
+2005,2007,5675,Lucens,5675,Lucens
+2005,2007,5676,Martherenges,5676,Martherenges
+2005,2007,5677,Montaubion-Chardonney,5677,Montaubion-Chardonney
+2005,2007,5678,Moudon,5678,Moudon
+2005,2007,5679,Neyruz-sur-Moudon,5679,Neyruz-sur-Moudon
+2005,2007,5680,Ogens,5680,Ogens
+2005,2007,5681,Oulens-sur-Lucens,5681,Oulens-sur-Lucens
+2005,2007,5682,Peyres-Possens,5682,Peyres-Possens
+2005,2007,5683,Prévonloup,5683,Prévonloup
+2005,2007,5684,Rossenges,5684,Rossenges
+2005,2007,5685,Saint-Cierges,5685,Saint-Cierges
+2005,2007,5686,Sarzens,5686,Sarzens
+2005,2007,5687,Sottens,5687,Sottens
+2005,2007,5688,Syens,5688,Syens
+2005,2007,5689,Thierrens,5689,Thierrens
+2005,2007,5690,Villars-le-Comte,5690,Villars-le-Comte
+2005,2007,5691,Villars-Mendraz,5691,Villars-Mendraz
+2005,2007,5692,Vucherens,5692,Vucherens
+2005,2007,5701,Arnex-sur-Nyon,5701,Arnex-sur-Nyon
+2005,2007,5702,Arzier,5702,Arzier
+2005,2007,5703,Bassins,5703,Bassins
+2005,2007,5704,Begnins,5704,Begnins
+2005,2007,5705,Bogis-Bossey,5705,Bogis-Bossey
+2005,2007,5706,Borex,5706,Borex
+2005,2007,5707,Chavannes-de-Bogis,5707,Chavannes-de-Bogis
+2005,2007,5708,Chavannes-des-Bois,5708,Chavannes-des-Bois
+2005,2007,5709,Chéserex,5709,Chéserex
+2005,2007,5710,Coinsins,5710,Coinsins
+2005,2007,5711,Commugny,5711,Commugny
+2005,2007,5712,Coppet,5712,Coppet
+2005,2007,5713,Crans-près-Céligny,5713,Crans-près-Céligny
+2005,2007,5714,Crassier,5714,Crassier
+2005,2007,5715,Duillier,5715,Duillier
+2005,2007,5716,Eysins,5716,Eysins
+2005,2007,5717,Founex,5717,Founex
+2005,2007,5718,Genolier,5718,Genolier
+2005,2007,5719,Gingins,5719,Gingins
+2005,2007,5720,Givrins,5720,Givrins
+2005,2007,5721,Gland,5721,Gland
+2005,2007,5722,Grens,5722,Grens
+2005,2007,5723,Mies,5723,Mies
+2005,2007,5724,Nyon,5724,Nyon
+2005,2007,5725,Prangins,5725,Prangins
+2005,2007,5726,La Rippe,5726,La Rippe
+2005,2007,5727,Saint-Cergue,5727,Saint-Cergue
+2005,2007,5728,Signy-Avenex,5728,Signy-Avenex
+2005,2007,5729,Tannay,5729,Tannay
+2005,2007,5730,Trélex,5730,Trélex
+2005,2007,5731,Le Vaud,5731,Le Vaud
+2005,2007,5732,Vich,5732,Vich
+2005,2007,5741,L'Abergement,5741,L'Abergement
+2005,2007,5742,Agiez,5742,Agiez
+2005,2007,5743,Arnex-sur-Orbe,5743,Arnex-sur-Orbe
+2005,2007,5744,Ballaigues,5744,Ballaigues
+2005,2007,5745,Baulmes,5745,Baulmes
+2005,2007,5746,Bavois,5746,Bavois
+2005,2007,5747,Bofflens,5747,Bofflens
+2005,2007,5748,Bretonnières,5748,Bretonnières
+2005,2007,5749,Chavornay,5749,Chavornay
+2005,2007,5750,Les Clées,5750,Les Clées
+2005,2007,5751,Corcelles-sur-Chavornay,5751,Corcelles-sur-Chavornay
+2005,2007,5752,Croy,5752,Croy
+2005,2007,5754,Juriens,5754,Juriens
+2005,2007,5755,Lignerolle,5755,Lignerolle
+2005,2007,5756,Montcherand,5756,Montcherand
+2005,2007,5757,Orbe,5757,Orbe
+2005,2007,5758,La Praz,5758,La Praz
+2005,2007,5759,Premier,5759,Premier
+2005,2007,5760,Rances,5760,Rances
+2005,2007,5761,Romainmôtier-Envy,5761,Romainmôtier-Envy
+2005,2007,5762,Sergey,5762,Sergey
+2005,2007,5763,Valeyres-sous-Rances,5763,Valeyres-sous-Rances
+2005,2007,5764,Vallorbe,5764,Vallorbe
+2005,2007,5765,Vaulion,5765,Vaulion
+2005,2007,5766,Vuiteboeuf,5766,Vuiteboeuf
+2005,2007,5781,Bussigny-sur-Oron,5781,Bussigny-sur-Oron
+2005,2007,5782,Carrouge (VD),5782,Carrouge (VD)
+2005,2007,5783,Châtillens,5783,Châtillens
+2005,2007,5784,Chesalles-sur-Oron,5784,Chesalles-sur-Oron
+2005,2007,5785,Corcelles-le-Jorat,5785,Corcelles-le-Jorat
+2005,2007,5786,Les Cullayes,5786,Les Cullayes
+2005,2007,5787,Ecoteaux,5787,Ecoteaux
+2005,2007,5788,Essertes,5788,Essertes
+2005,2007,5789,Ferlens (VD),5789,Ferlens (VD)
+2005,2007,5790,Maracon,5790,Maracon
+2005,2007,5791,Mézières (VD),5791,Mézières (VD)
+2005,2007,5792,Montpreveyres,5792,Montpreveyres
+2005,2007,5793,Oron-la-Ville,5793,Oron-la-Ville
+2005,2007,5794,Oron-le-Châtel,5794,Oron-le-Châtel
+2005,2007,5795,Palézieux,5795,Palézieux
+2005,2007,5796,Peney-le-Jorat,5796,Peney-le-Jorat
+2005,2007,5798,Ropraz,5798,Ropraz
+2005,2007,5799,Servion,5799,Servion
+2005,2007,5800,Les Tavernes,5800,Les Tavernes
+2005,2007,5801,Les Thioleyres,5801,Les Thioleyres
+2005,2007,5802,Vuibroye,5802,Vuibroye
+2005,2007,5803,Vulliens,5803,Vulliens
+2005,2007,5811,Cerniaz (VD),5811,Cerniaz (VD)
+2005,2007,5812,Champtauroz,5812,Champtauroz
+2005,2007,5813,Chevroux,5813,Chevroux
+2005,2007,5814,Combremont-le-Grand,5814,Combremont-le-Grand
+2005,2007,5815,Combremont-le-Petit,5815,Combremont-le-Petit
+2005,2007,5816,Corcelles-près-Payerne,5816,Corcelles-près-Payerne
+2005,2007,5817,Grandcour,5817,Grandcour
+2005,2007,5818,Granges-près-Marnand,5818,Granges-près-Marnand
+2005,2007,5819,Henniez,5819,Henniez
+2005,2007,5820,Marnand,5820,Marnand
+2005,2007,5821,Missy,5821,Missy
+2005,2007,5822,Payerne,5822,Payerne
+2005,2006,5823,Rossens (VD),5830,Villarzel
+2005,2007,5824,Sassel,5824,Sassel
+2005,2006,5825,Sédeilles,5830,Villarzel
+2005,2007,5826,Seigneux,5826,Seigneux
+2005,2007,5827,Trey,5827,Trey
+2005,2007,5828,Treytorrens (Payerne),5828,Treytorrens (Payerne)
+2005,2007,5829,Villars-Bramard,5829,Villars-Bramard
+2005,2007,5830,Villarzel,5830,Villarzel
+2005,2007,5841,Château-d'Oex,5841,Château-d'Oex
+2005,2007,5842,Rossinière,5842,Rossinière
+2005,2007,5843,Rougemont,5843,Rougemont
+2005,2007,5851,Allaman,5851,Allaman
+2005,2007,5852,Bursinel,5852,Bursinel
+2005,2007,5853,Bursins,5853,Bursins
+2005,2007,5854,Burtigny,5854,Burtigny
+2005,2007,5855,Dully,5855,Dully
+2005,2007,5856,Essertines-sur-Rolle,5856,Essertines-sur-Rolle
+2005,2007,5857,Gilly,5857,Gilly
+2005,2007,5858,Luins,5858,Luins
+2005,2007,5859,Mont-sur-Rolle,5859,Mont-sur-Rolle
+2005,2007,5860,Perroy,5860,Perroy
+2005,2007,5861,Rolle,5861,Rolle
+2005,2007,5862,Tartegnin,5862,Tartegnin
+2005,2007,5863,Vinzel,5863,Vinzel
+2005,2007,5871,L'Abbaye,5871,L'Abbaye
+2005,2007,5872,Le Chenit,5872,Le Chenit
+2005,2007,5873,Le Lieu,5873,Le Lieu
+2005,2007,5881,Blonay,5881,Blonay
+2005,2007,5882,Chardonne,5882,Chardonne
+2005,2007,5883,Corseaux,5883,Corseaux
+2005,2007,5884,Corsier-sur-Vevey,5884,Corsier-sur-Vevey
+2005,2007,5885,Jongny,5885,Jongny
+2005,2007,5886,Montreux,5886,Montreux
+2005,2007,5888,Saint-Légier-La Chiésaz,5888,Saint-Légier-La Chiésaz
+2005,2007,5889,La Tour-de-Peilz,5889,La Tour-de-Peilz
+2005,2007,5890,Vevey,5890,Vevey
+2005,2007,5891,Veytaux,5891,Veytaux
+2005,2007,5902,Belmont-sur-Yverdon,5902,Belmont-sur-Yverdon
+2005,2007,5903,Bioley-Magnoux,5903,Bioley-Magnoux
+2005,2007,5904,Chamblon,5904,Chamblon
+2005,2007,5905,Champvent,5905,Champvent
+2005,2007,5906,Chanéaz,5906,Chanéaz
+2005,2007,5907,Chavannes-le-Chêne,5907,Chavannes-le-Chêne
+2005,2007,5908,Chêne-Pâquier,5908,Chêne-Pâquier
+2005,2007,5909,Cheseaux-Noréaz,5909,Cheseaux-Noréaz
+2005,2007,5910,Cronay,5910,Cronay
+2005,2007,5911,Cuarny,5911,Cuarny
+2005,2007,5912,Démoret,5912,Démoret
+2005,2007,5913,Donneloye,5913,Donneloye
+2005,2007,5914,Ependes (VD),5914,Ependes (VD)
+2005,2007,5915,Essert-Pittet,5915,Essert-Pittet
+2005,2007,5916,Essert-sous-Champvent,5916,Essert-sous-Champvent
+2005,2007,5917,Gossens,5917,Gossens
+2005,2007,5918,Gressy,5918,Gressy
+2005,2007,5919,Mathod,5919,Mathod
+2005,2007,5920,Mézery-près-Donneloye,5920,Mézery-près-Donneloye
+2005,2007,5921,Molondin,5921,Molondin
+2005,2007,5922,Montagny-près-Yverdon,5922,Montagny-près-Yverdon
+2005,2007,5923,Oppens,5923,Oppens
+2005,2007,5924,Orges,5924,Orges
+2005,2007,5925,Orzens,5925,Orzens
+2005,2007,5926,Pomy,5926,Pomy
+2005,2007,5927,Prahins,5927,Prahins
+2005,2007,5928,Rovray,5928,Rovray
+2005,2007,5929,Suchy,5929,Suchy
+2005,2007,5930,Suscévaz,5930,Suscévaz
+2005,2007,5931,Treycovagnes,5931,Treycovagnes
+2005,2007,5932,Ursins,5932,Ursins
+2005,2007,5933,Valeyres-sous-Montagny,5933,Valeyres-sous-Montagny
+2005,2007,5934,Valeyres-sous-Ursins,5934,Valeyres-sous-Ursins
+2005,2007,5935,Villars-Epeney,5935,Villars-Epeney
+2005,2007,5936,Villars-sous-Champvent,5936,Villars-sous-Champvent
+2005,2007,5937,Vugelles-La Mothe,5937,Vugelles-La Mothe
+2005,2007,5938,Yverdon-les-Bains,5938,Yverdon-les-Bains
+2005,2007,5939,Yvonand,5939,Yvonand
+2005,2007,6001,Birgisch,6001,Birgisch
+2005,2007,6002,Brig-Glis,6002,Brig-Glis
+2005,2007,6004,Eggerberg,6004,Eggerberg
+2005,2007,6006,Mund,6006,Mund
+2005,2007,6007,Naters,6007,Naters
+2005,2007,6008,Ried-Brig,6008,Ried-Brig
+2005,2007,6009,Simplon,6009,Simplon
+2005,2007,6010,Termen,6010,Termen
+2005,2007,6011,Zwischbergen,6011,Zwischbergen
+2005,2007,6021,Ardon,6021,Ardon
+2005,2007,6022,Chamoson,6022,Chamoson
+2005,2007,6023,Conthey,6023,Conthey
+2005,2007,6024,Nendaz,6024,Nendaz
+2005,2007,6025,Vétroz,6025,Vétroz
+2005,2007,6031,Bagnes,6031,Bagnes
+2005,2007,6032,Bourg-Saint-Pierre,6032,Bourg-Saint-Pierre
+2005,2007,6033,Liddes,6033,Liddes
+2005,2007,6034,Orsières,6034,Orsières
+2005,2007,6035,Sembrancher,6035,Sembrancher
+2005,2007,6036,Vollèges,6036,Vollèges
+2005,2007,6052,Bellwald,6052,Bellwald
+2005,2007,6054,Binn,6054,Binn
+2005,2007,6055,Blitzingen,6055,Blitzingen
+2005,2007,6056,Ernen,6056,Ernen
+2005,2007,6057,Fiesch,6057,Fiesch
+2005,2007,6058,Fieschertal,6058,Fieschertal
+2005,2007,6061,Lax,6061,Lax
+2005,2007,6064,Niederwald,6064,Niederwald
+2005,2007,6065,Obergesteln,6065,Obergesteln
+2005,2007,6066,Oberwald,6066,Oberwald
+2005,2007,6071,Ulrichen,6071,Ulrichen
+2005,2007,6073,Grafschaft,6073,Grafschaft
+2005,2007,6074,Münster-Geschinen,6074,Münster-Geschinen
+2005,2007,6075,Reckingen-Gluringen,6075,Reckingen-Gluringen
+2005,2007,6081,Les Agettes,6081,Les Agettes
+2005,2007,6082,Ayent,6082,Ayent
+2005,2007,6083,Evolène,6083,Evolène
+2005,2007,6084,Hérémence,6084,Hérémence
+2005,2007,6085,Mase,6085,Mase
+2005,2007,6086,Nax,6086,Nax
+2005,2007,6087,Saint-Martin (VS),6087,Saint-Martin (VS)
+2005,2007,6088,Vernamiège,6088,Vernamiège
+2005,2007,6089,Vex,6089,Vex
+2005,2007,6101,Agarn,6101,Agarn
+2005,2007,6102,Albinen,6102,Albinen
+2005,2007,6103,Bratsch,6103,Bratsch
+2005,2007,6104,Ergisch,6104,Ergisch
+2005,2007,6105,Erschmatt,6105,Erschmatt
+2005,2007,6107,Gampel,6107,Gampel
+2005,2007,6109,Inden,6109,Inden
+2005,2007,6110,Leuk,6110,Leuk
+2005,2007,6111,Leukerbad,6111,Leukerbad
+2005,2007,6112,Oberems,6112,Oberems
+2005,2007,6113,Salgesch,6113,Salgesch
+2005,2007,6114,Turtmann,6114,Turtmann
+2005,2007,6115,Unterems,6115,Unterems
+2005,2007,6116,Varen,6116,Varen
+2005,2007,6117,Guttet-Feschel,6117,Guttet-Feschel
+2005,2007,6131,Bovernier,6131,Bovernier
+2005,2007,6132,Charrat,6132,Charrat
+2005,2007,6133,Fully,6133,Fully
+2005,2007,6134,Isérables,6134,Isérables
+2005,2007,6135,Leytron,6135,Leytron
+2005,2007,6136,Martigny,6136,Martigny
+2005,2007,6137,Martigny-Combe,6137,Martigny-Combe
+2005,2007,6139,Riddes,6139,Riddes
+2005,2007,6140,Saillon,6140,Saillon
+2005,2007,6141,Saxon,6141,Saxon
+2005,2007,6142,Trient,6142,Trient
+2005,2007,6151,Champéry,6151,Champéry
+2005,2007,6152,Collombey-Muraz,6152,Collombey-Muraz
+2005,2007,6153,Monthey,6153,Monthey
+2005,2007,6154,Port-Valais,6154,Port-Valais
+2005,2007,6155,Saint-Gingolph,6155,Saint-Gingolph
+2005,2007,6156,Troistorrents,6156,Troistorrents
+2005,2007,6157,Val-d'Illiez,6157,Val-d'Illiez
+2005,2007,6158,Vionnaz,6158,Vionnaz
+2005,2007,6159,Vouvry,6159,Vouvry
+2005,2007,6171,Betten,6171,Betten
+2005,2007,6172,Bister,6172,Bister
+2005,2007,6173,Bitsch,6173,Bitsch
+2005,2007,6174,Filet,6174,Filet
+2005,2007,6177,Grengiols,6177,Grengiols
+2005,2007,6178,Martisberg,6178,Martisberg
+2005,2007,6179,Mörel,6179,Mörel
+2005,2007,6181,Riederalp,6181,Riederalp
+2005,2007,6191,Ausserberg,6191,Ausserberg
+2005,2007,6192,Blatten,6192,Blatten
+2005,2007,6193,Bürchen,6193,Bürchen
+2005,2007,6194,Eischoll,6194,Eischoll
+2005,2007,6195,Ferden,6195,Ferden
+2005,2007,6196,Hohtenn,6196,Hohtenn
+2005,2007,6197,Kippel,6197,Kippel
+2005,2007,6198,Niedergesteln,6198,Niedergesteln
+2005,2007,6199,Raron,6199,Raron
+2005,2007,6200,Steg,6200,Steg
+2005,2007,6201,Unterbäch,6201,Unterbäch
+2005,2007,6202,Wiler (Lötschen),6202,Wiler (Lötschen)
+2005,2007,6211,Collonges,6211,Collonges
+2005,2007,6212,Dorénaz,6212,Dorénaz
+2005,2007,6213,Evionnaz,6213,Evionnaz
+2005,2007,6214,Finhaut,6214,Finhaut
+2005,2007,6215,Massongex,6215,Massongex
+2005,2007,6216,Mex (VS),6216,Mex (VS)
+2005,2007,6217,Saint-Maurice,6217,Saint-Maurice
+2005,2007,6218,Salvan,6218,Salvan
+2005,2007,6219,Vernayaz,6219,Vernayaz
+2005,2007,6220,Vérossaz,6220,Vérossaz
+2005,2007,6231,Ayer,6231,Ayer
+2005,2007,6232,Chalais,6232,Chalais
+2005,2007,6233,Chandolin,6233,Chandolin
+2005,2007,6234,Chermignon,6234,Chermignon
+2005,2007,6235,Chippis,6235,Chippis
+2005,2007,6237,Grimentz,6237,Grimentz
+2005,2007,6238,Grône,6238,Grône
+2005,2007,6239,Icogne,6239,Icogne
+2005,2007,6240,Lens,6240,Lens
+2005,2007,6241,Miège,6241,Miège
+2005,2007,6242,Mollens (VS),6242,Mollens (VS)
+2005,2007,6243,Montana,6243,Montana
+2005,2007,6244,Randogne,6244,Randogne
+2005,2007,6245,Saint-Jean,6245,Saint-Jean
+2005,2007,6246,Saint-Léonard,6246,Saint-Léonard
+2005,2007,6247,Saint-Luc,6247,Saint-Luc
+2005,2007,6248,Sierre,6248,Sierre
+2005,2007,6249,Venthône,6249,Venthône
+2005,2007,6250,Veyras,6250,Veyras
+2005,2007,6251,Vissoie,6251,Vissoie
+2005,2007,6261,Arbaz,6261,Arbaz
+2005,2007,6263,Grimisuat,6263,Grimisuat
+2005,2007,6264,Salins,6264,Salins
+2005,2007,6265,Savièse,6265,Savièse
+2005,2007,6266,Sion,6266,Sion
+2005,2007,6267,Veysonnaz,6267,Veysonnaz
+2005,2007,6281,Baltschieder,6281,Baltschieder
+2005,2007,6282,Eisten,6282,Eisten
+2005,2007,6283,Embd,6283,Embd
+2005,2007,6285,Grächen,6285,Grächen
+2005,2007,6286,Lalden,6286,Lalden
+2005,2007,6287,Randa,6287,Randa
+2005,2006,6288,Saas Almagell,6288,Saas-Almagell
+2007,2007,6288,Saas-Almagell,6288,Saas-Almagell
+2005,2006,6289,Saas Balen,6289,Saas-Balen
+2007,2007,6289,Saas-Balen,6289,Saas-Balen
+2005,2006,6290,Saas Fee,6290,Saas-Fee
+2007,2007,6290,Saas-Fee,6290,Saas-Fee
+2005,2006,6291,Saas Grund,6291,Saas-Grund
+2007,2007,6291,Saas-Grund,6291,Saas-Grund
+2005,2007,6292,St. Niklaus,6292,St. Niklaus
+2005,2007,6293,Stalden (VS),6293,Stalden (VS)
+2005,2007,6294,Staldenried,6294,Staldenried
+2005,2007,6295,Täsch,6295,Täsch
+2005,2007,6296,Törbel,6296,Törbel
+2005,2007,6297,Visp,6297,Visp
+2005,2007,6298,Visperterminen,6298,Visperterminen
+2005,2007,6299,Zeneggen,6299,Zeneggen
+2005,2007,6300,Zermatt,6300,Zermatt
+2005,2007,6391,Kom. Reck.-Glu./Grafsch.,6391,Kom. Reck.-Glu./Grafsch.
+2005,2007,6401,Auvernier,6401,Auvernier
+2005,2007,6402,Bevaix,6402,Bevaix
+2005,2007,6403,Bôle,6403,Bôle
+2005,2007,6404,Boudry,6404,Boudry
+2005,2007,6405,Brot-Dessous,6405,Brot-Dessous
+2005,2007,6406,Colombier (NE),6406,Colombier (NE)
+2005,2007,6407,Corcelles-Cormondrèche,6407,Corcelles-Cormondrèche
+2005,2007,6408,Cortaillod,6408,Cortaillod
+2005,2007,6409,Fresens,6409,Fresens
+2005,2007,6410,Gorgier,6410,Gorgier
+2005,2007,6411,Montalchez,6411,Montalchez
+2005,2007,6412,Peseux,6412,Peseux
+2005,2007,6413,Rochefort,6413,Rochefort
+2005,2007,6414,Saint-Aubin-Sauges,6414,Saint-Aubin-Sauges
+2005,2007,6415,Vaumarcus,6415,Vaumarcus
+2005,2007,6421,La Chaux-de-Fonds,6421,La Chaux-de-Fonds
+2005,2007,6422,Les Planchettes,6422,Les Planchettes
+2005,2007,6423,La Sagne,6423,La Sagne
+2005,2007,6431,Les Brenets,6431,Les Brenets
+2005,2007,6432,La Brévine,6432,La Brévine
+2005,2007,6433,Brot-Plamboz,6433,Brot-Plamboz
+2005,2007,6434,Le Cerneux-Péquignot,6434,Le Cerneux-Péquignot
+2005,2007,6435,La Chaux-du-Milieu,6435,La Chaux-du-Milieu
+2005,2007,6436,Le Locle,6436,Le Locle
+2005,2007,6437,Les Ponts-de-Martel,6437,Les Ponts-de-Martel
+2005,2007,6451,Cornaux,6451,Cornaux
+2005,2007,6452,Cressier (NE),6452,Cressier (NE)
+2005,2007,6453,Enges,6453,Enges
+2005,2007,6454,Hauterive (NE),6454,Hauterive (NE)
+2005,2007,6455,Le Landeron,6455,Le Landeron
+2005,2007,6456,Lignières,6456,Lignières
+2005,2007,6457,Marin-Epagnier,6457,Marin-Epagnier
+2005,2007,6458,Neuchâtel,6458,Neuchâtel
+2005,2007,6459,Saint-Blaise,6459,Saint-Blaise
+2005,2007,6460,Thielle-Wavre,6460,Thielle-Wavre
+2005,2007,6471,Boudevilliers,6471,Boudevilliers
+2005,2007,6472,Cernier,6472,Cernier
+2005,2007,6473,Chézard-Saint-Martin,6473,Chézard-Saint-Martin
+2005,2007,6474,Coffrane,6474,Coffrane
+2005,2007,6475,Dombresson,6475,Dombresson
+2005,2007,6476,Engollon,6476,Engollon
+2005,2007,6477,Fenin-Vilars-Saules,6477,Fenin-Vilars-Saules
+2005,2007,6478,Fontainemelon,6478,Fontainemelon
+2005,2007,6479,Fontaines (NE),6479,Fontaines (NE)
+2005,2007,6480,Les Geneveys-s-Coffrane,6480,Les Geneveys-s-Coffrane
+2005,2007,6481,Les Hauts-Geneveys,6481,Les Hauts-Geneveys
+2005,2007,6482,Montmollin,6482,Montmollin
+2005,2007,6483,Le Pâquier (NE),6483,Le Pâquier (NE)
+2005,2007,6484,Savagnier,6484,Savagnier
+2005,2007,6485,Valangin,6485,Valangin
+2005,2007,6486,Villiers,6486,Villiers
+2005,2007,6501,Les Bayards,6501,Les Bayards
+2005,2007,6502,Boveresse,6502,Boveresse
+2005,2007,6503,Buttes,6503,Buttes
+2005,2007,6504,La Côte-aux-Fées,6504,La Côte-aux-Fées
+2005,2007,6505,Couvet,6505,Couvet
+2005,2007,6506,Fleurier,6506,Fleurier
+2005,2007,6507,Môtiers (NE),6507,Môtiers (NE)
+2005,2007,6508,Noiraigue,6508,Noiraigue
+2005,2007,6509,Saint-Sulpice (NE),6509,Saint-Sulpice (NE)
+2005,2007,6510,Travers,6510,Travers
+2005,2007,6511,Les Verrières,6511,Les Verrières
+2005,2007,6601,Aire-la-Ville,6601,Aire-la-Ville
+2005,2007,6602,Anières,6602,Anières
+2005,2007,6603,Avully,6603,Avully
+2005,2007,6604,Avusy,6604,Avusy
+2005,2007,6605,Bardonnex,6605,Bardonnex
+2005,2007,6606,Bellevue,6606,Bellevue
+2005,2007,6607,Bernex,6607,Bernex
+2005,2007,6608,Carouge (GE),6608,Carouge (GE)
+2005,2007,6609,Cartigny,6609,Cartigny
+2005,2007,6610,Céligny,6610,Céligny
+2005,2007,6611,Chancy,6611,Chancy
+2005,2007,6612,Chêne-Bougeries,6612,Chêne-Bougeries
+2005,2007,6613,Chêne-Bourg,6613,Chêne-Bourg
+2005,2007,6614,Choulex,6614,Choulex
+2005,2007,6615,Collex-Bossy,6615,Collex-Bossy
+2005,2007,6616,Collonge-Bellerive,6616,Collonge-Bellerive
+2005,2007,6617,Cologny,6617,Cologny
+2005,2007,6618,Confignon,6618,Confignon
+2005,2007,6619,Corsier (GE),6619,Corsier (GE)
+2005,2007,6620,Dardagny,6620,Dardagny
+2005,2007,6621,Genève,6621,Genève
+2005,2007,6622,Genthod,6622,Genthod
+2005,2007,6623,Le Grand-Saconnex,6623,Le Grand-Saconnex
+2005,2007,6624,Gy,6624,Gy
+2005,2007,6625,Hermance,6625,Hermance
+2005,2007,6626,Jussy,6626,Jussy
+2005,2007,6627,Laconnex,6627,Laconnex
+2005,2007,6628,Lancy,6628,Lancy
+2005,2007,6629,Meinier,6629,Meinier
+2005,2007,6630,Meyrin,6630,Meyrin
+2005,2007,6631,Onex,6631,Onex
+2005,2007,6632,Perly-Certoux,6632,Perly-Certoux
+2005,2007,6633,Plan-les-Ouates,6633,Plan-les-Ouates
+2005,2007,6634,Pregny-Chambésy,6634,Pregny-Chambésy
+2005,2007,6635,Presinge,6635,Presinge
+2005,2007,6636,Puplinge,6636,Puplinge
+2005,2007,6637,Russin,6637,Russin
+2005,2007,6638,Satigny,6638,Satigny
+2005,2007,6639,Soral,6639,Soral
+2005,2007,6640,Thônex,6640,Thônex
+2005,2007,6641,Troinex,6641,Troinex
+2005,2007,6642,Vandoeuvres,6642,Vandoeuvres
+2005,2007,6643,Vernier,6643,Vernier
+2005,2007,6644,Versoix,6644,Versoix
+2005,2007,6645,Veyrier,6645,Veyrier
+2005,2007,6701,Bassecourt,6701,Bassecourt
+2005,2007,6702,Boécourt,6702,Boécourt
+2005,2007,6703,Bourrignon,6703,Bourrignon
+2005,2007,6704,Châtillon (JU),6704,Châtillon (JU)
+2005,2007,6705,Corban,6705,Corban
+2005,2007,6706,Courchapoix,6706,Courchapoix
+2005,2007,6707,Courfaivre,6707,Courfaivre
+2005,2007,6708,Courrendlin,6708,Courrendlin
+2005,2007,6709,Courroux,6709,Courroux
+2005,2007,6710,Courtételle,6710,Courtételle
+2005,2007,6711,Delémont,6711,Delémont
+2005,2007,6712,Develier,6712,Develier
+2005,2007,6713,Ederswiler,6713,Ederswiler
+2005,2007,6714,Glovelier,6714,Glovelier
+2005,2007,6715,Mervelier,6715,Mervelier
+2005,2007,6716,Mettembert,6716,Mettembert
+2005,2007,6717,Montsevelier,6717,Montsevelier
+2005,2007,6718,Movelier,6718,Movelier
+2005,2007,6719,Pleigne,6719,Pleigne
+2005,2007,6720,Rebeuvelier,6720,Rebeuvelier
+2005,2007,6721,Rossemaison,6721,Rossemaison
+2005,2007,6722,Saulcy,6722,Saulcy
+2005,2007,6723,Soulce,6723,Soulce
+2005,2007,6724,Soyhières,6724,Soyhières
+2005,2007,6725,Undervelier,6725,Undervelier
+2005,2007,6726,Vermes,6726,Vermes
+2005,2007,6727,Vicques,6727,Vicques
+2005,2007,6728,Vellerat,6728,Vellerat
+2005,2007,6741,Le Bémont (JU),6741,Le Bémont (JU)
+2005,2007,6742,Les Bois,6742,Les Bois
+2005,2007,6743,Les Breuleux,6743,Les Breuleux
+2005,2007,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2005,2007,6745,Les Enfers,6745,Les Enfers
+2005,2007,6746,Epauvillers,6746,Epauvillers
+2005,2007,6747,Epiquerez,6747,Epiquerez
+2005,2007,6748,Les Genevez (JU),6748,Les Genevez (JU)
+2005,2007,6749,Goumois,6749,Goumois
+2005,2007,6750,Lajoux (JU),6750,Lajoux (JU)
+2005,2007,6751,Montfaucon,6751,Montfaucon
+2005,2007,6752,Montfavergier,6752,Montfavergier
+2005,2007,6753,Muriaux,6753,Muriaux
+2005,2007,6754,Le Noirmont,6754,Le Noirmont
+2005,2007,6755,Le Peuchapatte,6755,Le Peuchapatte
+2005,2007,6756,Les Pommerats,6756,Les Pommerats
+2005,2007,6757,Saignelégier,6757,Saignelégier
+2005,2007,6758,Saint-Brais,6758,Saint-Brais
+2005,2007,6759,Soubey,6759,Soubey
+2005,2007,6771,Alle,6771,Alle
+2005,2007,6772,Asuel,6772,Asuel
+2005,2007,6773,Beurnevésin,6773,Beurnevésin
+2005,2007,6774,Boncourt,6774,Boncourt
+2005,2007,6775,Bonfol,6775,Bonfol
+2005,2007,6776,Bressaucourt,6776,Bressaucourt
+2005,2007,6777,Buix,6777,Buix
+2005,2007,6778,Bure,6778,Bure
+2005,2007,6779,Charmoille,6779,Charmoille
+2005,2007,6780,Chevenez,6780,Chevenez
+2005,2007,6781,Coeuve,6781,Coeuve
+2005,2007,6782,Cornol,6782,Cornol
+2005,2007,6783,Courchavon,6783,Courchavon
+2005,2007,6784,Courgenay,6784,Courgenay
+2005,2007,6785,Courtedoux,6785,Courtedoux
+2005,2007,6786,Courtemaîche,6786,Courtemaîche
+2005,2007,6787,Damphreux,6787,Damphreux
+2005,2007,6788,Damvant,6788,Damvant
+2005,2007,6789,Fahy,6789,Fahy
+2005,2007,6790,Fontenais,6790,Fontenais
+2005,2007,6791,Fregiécourt,6791,Fregiécourt
+2005,2007,6792,Grandfontaine,6792,Grandfontaine
+2005,2007,6793,Lugnez,6793,Lugnez
+2005,2007,6794,Miécourt,6794,Miécourt
+2005,2007,6795,Montenol,6795,Montenol
+2005,2007,6796,Montignez,6796,Montignez
+2005,2007,6797,Montmelon,6797,Montmelon
+2005,2007,6798,Ocourt,6798,Ocourt
+2005,2007,6799,Pleujouse,6799,Pleujouse
+2005,2007,6800,Porrentruy,6800,Porrentruy
+2005,2007,6801,Réclère,6801,Réclère
+2005,2007,6802,Roche-d'Or,6802,Roche-d'Or
+2005,2007,6803,Rocourt,6803,Rocourt
+2005,2007,6804,Saint-Ursanne,6804,Saint-Ursanne
+2005,2007,6805,Seleute,6805,Seleute
+2005,2007,6806,Vendlincourt,6806,Vendlincourt

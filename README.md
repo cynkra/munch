@@ -1,7 +1,7 @@
 # munch 
 
 <!-- badges: start -->
-[![tic](https://github.com/cynkra/munch/workflows/tic/badge.svg?branch=master)](https://github.com/cynkra/munch/actions)
+[![rcc](https://github.com/cynkra/munch/workflows/rcc/badge.svg)](https://github.com/cynkra/munch/actions)
 <!-- badges: end -->
 
 Functions for working with the [historicized list of communes of Switzerland](https://www.bfs.admin.ch/bfs/de/home/grundlagen/agvch/historisiertes-gemeindeverzeichnis.html).

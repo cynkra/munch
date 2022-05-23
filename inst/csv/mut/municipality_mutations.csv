@@ -2372,7 +2372,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 12409,10187,GE,6629,Meinier,Meinier,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
 12410,10069,BE,390,Meinisberg,Meinisberg,Municipality,1,1000,First-time registration,1960-01-01,2829,Reassignment to other d/c,2009-12-31,2009-12-31
 12411,10020,AG,4202,Meisterschwanden,Meisterschwanden,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
-12412,10003,TI,5197,Melano,Melano,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+12412,10003,TI,5197,Melano,Melano,Municipality,1,1000,First-time registration,1960-01-01,3962,Abolition,2022-04-09,2022-04-09
 12413,10064,LU,1063,Meggen,Meggen,Municipality,1,1000,First-time registration,1960-01-01,3312,Reassignment to other d/c,2012-12-31,2012-12-31
 12414,10007,TI,5012,Moleno,Moleno,Municipality,1,1000,First-time registration,1960-01-01,3580,Abolition,2017-04-01,2017-04-01
 12415,10100,SO,2457,Messen,Messen,Municipality,1,1000,First-time registration,1960-01-01,3162,Change of area,2009-12-31,2009-12-31
@@ -2722,7 +2722,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 12759,10123,VD,5430,Marchissy,Marchissy,Municipality,1,1000,First-time registration,1960-01-01,2363,Reassignment to other d/c,2006-08-31,2006-08-31
 12760,10176,NE,6457,Marin-Epagnier,Marin-Epagnier,Municipality,1,1000,First-time registration,1960-01-01,2761,Abolition,2008-12-31,2008-12-31
 12761,10041,VD,5820,Marnand,Marnand,Municipality,1,1000,First-time registration,1960-01-01,2641,Reassignment to other d/c,2006-08-31,2006-08-31
-12762,10003,TI,5195,Maroggia,Maroggia,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+12762,10003,TI,5195,Maroggia,Maroggia,Municipality,1,1000,First-time registration,1960-01-01,3962,Abolition,2022-04-09,2022-04-09
 12763,10006,TI,5042,Marolta,Marolta,Municipality,1,1000,First-time registration,1960-01-01,2292,Abolition,2004-04-03,2004-04-03
 12764,10105,FR,2140,Marsens,Marsens,Municipality,1,1000,First-time registration,1960-01-01,1935,Change of area,2000-12-31,2000-12-31
 12765,10003,TI,5194,Manno,Manno,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
@@ -2807,7 +2807,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 12845,10107,FR,2040,Russy,Russy,Municipality,1,1000,First-time registration,1960-01-01,3443,Abolition,2015-12-31,2015-12-31
 12846,10089,SH,2938,Rüdlingen,Rüdlingen,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
 12847,10036,VD,5928,Rovray,Rovray,Municipality,1,1000,First-time registration,1960-01-01,2316,Change of area,2004-12-31,2004-12-31
-12848,10003,TI,5219,Rovio,Rovio,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+12848,10003,TI,5219,Rovio,Rovio,Municipality,1,1000,First-time registration,1960-01-01,3962,Abolition,2022-04-09,2022-04-09
 12849,10003,TI,5218,Roveredo-Capriasca,Roveredo-Capriasca,Municipality,1,1000,First-time registration,1960-01-01,2157,Abolition,2001-10-17,2001-10-17
 12850,10055,VD,5843,Rougemont,Rougemont,Municipality,1,1000,First-time registration,1960-01-01,2652,Reassignment to other d/c,2006-08-31,2006-08-31
 12851,10019,AG,4238,Rottenschwil,Rottenschwil,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
@@ -4055,9 +4055,9 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 14096,10103,FR,2272,Misery-Courtion,Misery-Courtion,Municipality,1,1898,Creation,1997-01-01,NA,NA,NA,1997-01-01
 14097,10252,AI,3101,Appenzell,Appenzell,Municipality,1,1899,Reassignment to other d/c,1997-01-01,NA,NA,NA,1997-01-01
 14098,10252,AI,3102,Gonten,Gonten,Municipality,1,1900,Reassignment to other d/c,1997-01-01,NA,NA,NA,1997-01-01
-14099,10252,AI,3103,Rüte,Rüte,Municipality,1,1901,Reassignment to other d/c,1997-01-01,NA,NA,NA,1997-01-01
+14099,10252,AI,3103,Rüte,Rüte,Municipality,1,1901,Reassignment to other d/c,1997-01-01,3963,Abolition,2022-04-30,2022-04-30
 14100,10252,AI,3104,Schlatt-Haslen,Schlatt-Haslen,Municipality,1,1902,Reassignment to other d/c,1997-01-01,NA,NA,NA,1997-01-01
-14101,10252,AI,3105,Schwende,Schwende,Municipality,1,1903,Reassignment to other d/c,1997-01-01,NA,NA,NA,1997-01-01
+14101,10252,AI,3105,Schwende,Schwende,Municipality,1,1903,Reassignment to other d/c,1997-01-01,3963,Abolition,2022-04-30,2022-04-30
 14102,10252,AI,3111,Oberegg,Oberegg,Municipality,1,1904,Reassignment to other d/c,1997-01-01,NA,NA,NA,1997-01-01
 14103,10106,FR,2063,Billens-Hennens,Billens-Hennens,Municipality,1,1905,Creation,1998-01-01,NA,NA,NA,1998-01-01
 14104,10001,TG,4401,Arbon,Arbon,Municipality,1,1906,Change of area,1998-01-01,3186,Reassignment to other d/c,2010-12-31,2010-12-31
@@ -5833,3 +5833,5 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 16616,10016,AG,4324,Zurzach,Zurzach,Municipality,1,3959,Creation,2022-01-01,NA,NA,NA,2022-01-01
 16617,10278,VD,5805,Oron,Oron,Municipality,1,3960,Change of area,2022-01-01,NA,NA,NA,2022-01-01
 16618,10282,VD,5892,Blonay - Saint-Légier,Blonay - Saint-Légier,Municipality,1,3961,Creation,2022-01-01,NA,NA,NA,2022-01-01
+16619,10003,TI,5240,Val Mara,Val Mara,Municipality,1,3962,Creation,2022-04-10,NA,NA,NA,2022-04-10
+16620,10252,AI,3112,Schwende-Rüte,Schwende-Rüte,Municipality,1,3963,Creation,2022-05-01,NA,NA,NA,2022-05-01

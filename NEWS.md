@@ -1,5 +1,11 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# munch 0.0.8.9007 (2022-05-23)
+
+- Automatic data update to 2022-05-01 (#58).
+- Fix extraction from Zip archive.
+
+
 # munch 0.0.8.9006 (2022-02-17)
 
 - Automatically update mutation data on GitHub Actions (#56).

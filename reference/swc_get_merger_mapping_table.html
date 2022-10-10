@@ -69,37 +69,46 @@ Filtering by canton is supported.</p>
     </div>
 
     <div id="ref-usage">
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">swc_get_merger_mapping_table</span><span class="op">(</span>
-  <span class="va">start_year</span>,
-  <span class="va">end_year</span>,
-  canton <span class="op">=</span> <span class="cn">NULL</span>,
-  type <span class="op">=</span> <span class="st">"flat"</span>
-<span class="op">)</span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">swc_get_merger_mapping_table</span><span class="op">(</span></span>
+<span>  <span class="va">start_year</span>,</span>
+<span>  <span class="va">end_year</span>,</span>
+<span>  canton <span class="op">=</span> <span class="cn">NULL</span>,</span>
+<span>  type <span class="op">=</span> <span class="st">"flat"</span></span>
+<span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div id="arguments">
     <h2>Arguments</h2>
     <dl><dt>start_year</dt>
 <dd><p>First year of time interval (integer)</p></dd>
+
+
 <dt>end_year</dt>
 <dd><p>Last year of time interval (integer)</p></dd>
+
+
 <dt>canton</dt>
 <dd><p>Canton abbreviation as character (e.g. "GE", "ZH", "TI", etc.) to focus on.
 If left `NULL` (default) all cantons are considered.</p></dd>
+
+
 <dt>type</dt>
 <dd><p>Two options:</p>
 <p>- "flat" (default) returns the table with one row per year per mapping</p>
 <p>- "compact" returns a more compact table with one row per mapping,
   containing the time interval it is valid for</p></dd>
+
 </dl></div>
     <div id="value">
     <h2>Value</h2>
-    <p>Mapping table for the given time interval in the specified canton</p>
+    
+
+<p>Mapping table for the given time interval in the specified canton</p>
     </div>
 
     <div id="ref-examples">
     <h2>Examples</h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="fu">swc_get_merger_mapping_table</span><span class="op">(</span><span class="fl">2005</span>, <span class="fl">2010</span><span class="op">)</span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">swc_get_merger_mapping_table</span><span class="op">(</span><span class="fl">2005</span>, <span class="fl">2010</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 16,203 × 5</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>     year mun_id_x short_name_x       mun_id_y short_name_y      </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                 <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>             </span>
@@ -114,7 +123,7 @@ If left `NULL` (default) all cantons are considered.</p></dd>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span>  <span style="text-decoration: underline;">2</span>005        9 Mettmenstetten            9 Mettmenstetten    </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span>  <span style="text-decoration: underline;">2</span>005       10 Obfelden                 10 Obfelden          </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># … with 16,193 more rows</span></span>
-<span class="r-in"><span class="fu">swc_get_merger_mapping_table</span><span class="op">(</span><span class="fl">2015</span>, <span class="fl">2019</span>, canton <span class="op">=</span> <span class="st">"ZH"</span>, type <span class="op">=</span> <span class="st">"compact"</span><span class="op">)</span></span>
+<span class="r-in"><span><span class="fu">swc_get_merger_mapping_table</span><span class="op">(</span><span class="fl">2015</span>, <span class="fl">2019</span>, canton <span class="op">=</span> <span class="st">"ZH"</span>, type <span class="op">=</span> <span class="st">"compact"</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 174 × 6</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>    year_from year_to mun_id_x short_name_x       mun_id_y short_name_y      </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                 <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>             </span>
@@ -143,7 +152,7 @@ If left `NULL` (default) all cantons are considered.</p></dd>
 </div>
 
 <div class="pkgdown">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.3.9000.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.6.9000.</p>
 </div>
 
       </footer></div>

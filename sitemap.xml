@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cynkra.github.io/munch/404.html</loc>
+    <loc>/404.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/CODE_OF_CONDUCT.html</loc>
+    <loc>/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/articles/data.html</loc>
+    <loc>/articles/data.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/articles/index.html</loc>
+    <loc>/articles/index.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/authors.html</loc>
+    <loc>/authors.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/index.html</loc>
+    <loc>/index.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/news/index.html</loc>
+    <loc>/news/index.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/SwissBirths.html</loc>
+    <loc>/reference/SwissBirths.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/SwissPop.html</loc>
+    <loc>/reference/SwissPop.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/add_past.html</loc>
+    <loc>/reference/add_past.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/deprecated.html</loc>
+    <loc>/reference/deprecated.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/download_mun_inventory.html</loc>
+    <loc>/reference/download_mun_inventory.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/index.html</loc>
+    <loc>/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/munch-package.html</loc>
+    <loc>/reference/munch-package.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/swc_get_mapping.html</loc>
+    <loc>/reference/swc_get_mapping.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/swc_get_merger_mapping_table.html</loc>
+    <loc>/reference/swc_get_merger_mapping_table.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/swc_get_mun_history.html</loc>
+    <loc>/reference/swc_get_mun_history.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/swc_get_mun_merges.html</loc>
+    <loc>/reference/swc_get_mun_merges.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/swc_get_municipality_state.html</loc>
+    <loc>/reference/swc_get_municipality_state.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/swc_get_mutations.html</loc>
+    <loc>/reference/swc_get_mutations.html</loc>
   </url>
   <url>
-    <loc>https://cynkra.github.io/munch/reference/swc_read_data.html</loc>
+    <loc>/reference/swc_read_data.html</loc>
   </url>
 </urlset>

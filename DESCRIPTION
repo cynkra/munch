@@ -24,7 +24,7 @@ Description: Contains historicized municipality data for
     Switzerland from 1960 onwards, from the "Historisiertes
     Gemeindeverzeichnis" of the Swiss Federal Statistical Office.
 License: GPL-3
-URL: https://cynkra.github.io/munch/,
+URL: https://munch.cynkra.com/,
     https://github.com/cynkra/munch
 BugReports: https://github.com/cynkra/munch/issues
 Depends:

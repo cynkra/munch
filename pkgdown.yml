@@ -3,7 +3,7 @@ pkgdown: 2.0.6.9000
 pkgdown_sha: 5bb671b1a8bac8e926479868681936f7c9ee41b3
 articles:
   data: data.html
-last_built: 2022-11-02T05:06Z
+last_built: 2022-11-02T05:32Z
 urls:
   reference: https://munch.cynkra.com/reference
   article: https://munch.cynkra.com/articles

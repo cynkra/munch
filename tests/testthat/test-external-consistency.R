@@ -26,7 +26,6 @@ bfs_2020 <- load_bfs_mun_list(2020)
 
 
 test_that("mapping tables' inventory of municipalities are complete", {
-
   # TEST 2005 DATA:
   expect_identical(
     sort(mapping_2005$mun_id_y),

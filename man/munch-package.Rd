@@ -30,7 +30,7 @@ Contains historicized municipality data for Switzerland from 1960 onwards, from 
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://cynkra.github.io/munch/}
+  \item \url{https://munch.cynkra.com/}
   \item \url{https://github.com/cynkra/munch}
   \item Report bugs at \url{https://github.com/cynkra/munch/issues}
 }

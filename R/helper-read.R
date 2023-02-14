@@ -37,7 +37,7 @@ swc_read_data <- function() {
   on.exit(unlink(unzip_dir_name, recursive = TRUE), add = TRUE)
 
   all_file_list <- unzip(zip_file_name, list = TRUE)
-  file_list <- all_file_list[grepl("/01[.]1/", all_file_list$Name), ]
+  file_list <- all_file_list[grepl("/1[.]1/", all_file_list$Name), ]
   unzip(zip_file_name, exdir = unzip_dir_name)
 
   # Reading using unz() and recoding "on the fly"

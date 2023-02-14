@@ -816,7 +816,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 10846,10030,VS,6114,Turtmann,Turtmann,Municipality,1,1000,First-time registration,1960-01-01,3398,Abolition,2012-12-31,2012-12-31
 10847,10064,LU,1067,Udligenswil,Udligenswil,Municipality,1,1000,First-time registration,1960-01-01,3316,Reassignment to other d/c,2012-12-31,2012-12-31
 10848,10102,FR,2308,Ueberstorf,Ueberstorf,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
-10849,10021,AG,4179,Ueken,Ueken,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+10849,10021,AG,4179,Ueken,Ueken,Municipality,1,1000,First-time registration,1960-01-01,3969,Abolition,2022-12-31,2022-12-31
 10850,10017,AG,4286,Uerkheim,Uerkheim,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
 10851,10009,TG,4823,Uerschhausen,Uerschhausen,Municipality,1,1000,First-time registration,1960-01-01,1897,Abolition,1996-12-31,1996-12-31
 10852,10012,TG,4617,Uesslingen,Uesslingen,Municipality,1,1000,First-time registration,1960-01-01,1862,Abolition,1994-12-31,1994-12-31
@@ -1467,7 +1467,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 11500,10002,TI,5245,Cabbio,Cabbio,Municipality,1,1000,First-time registration,1960-01-01,2772,Abolition,2009-10-24,2009-10-24
 11501,10039,VD,5854,Burtigny,Burtigny,Municipality,1,1000,First-time registration,1960-01-01,2656,Reassignment to other d/c,2006-08-31,2006-08-31
 11502,10104,FR,2177,Chénens,Chénens,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
-11503,10022,AG,4133,Burg (AG),Burg (AG),Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+11503,10022,AG,4133,Burg (AG),Burg (AG),Municipality,1,1000,First-time registration,1960-01-01,3968,Abolition,2022-12-31,2022-12-31
 11504,10083,BE,404,Burgdorf,Burgdorf,Municipality,1,1000,First-time registration,1960-01-01,2941,Reassignment to other d/c,2009-12-31,2009-12-31
 11505,10008,TG,4911,Bürglen (TG),Bürglen (TG),Municipality,1,1000,First-time registration,1960-01-01,1859,Change of area,1994-12-31,1994-12-31
 11506,10061,UR,1205,Bürglen (UR),Bürglen (UR),Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
@@ -1698,7 +1698,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 11732,10039,VD,5851,Allaman,Allaman,Municipality,1,1000,First-time registration,1960-01-01,2653,Reassignment to other d/c,2006-08-31,2006-08-31
 11733,10092,BL,2802,Allschwil,Allschwil,Municipality,1,1000,First-time registration,1960-01-01,1633,Formal renumbering,1993-12-31,1993-12-31
 11734,10015,VD,5401,Aigle,Aigle,Municipality,1,1000,First-time registration,1960-01-01,2339,Reassignment to other d/c,2006-08-31,2006-08-31
-11735,10082,ZH,21,Adlikon,Adlikon,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+11735,10082,ZH,21,Adlikon,Adlikon,Municipality,1,1000,First-time registration,1960-01-01,3964,Abolition,2022-12-31,2022-12-31
 11736,10026,AG,4001,Aarau,Aarau,Municipality,1,1000,First-time registration,1960-01-01,3167,Change of area,2009-12-31,2009-12-31
 11737,10073,BE,301,Aarberg,Aarberg,Municipality,1,1000,First-time registration,1960-01-01,2844,Reassignment to other d/c,2009-12-31,2009-12-31
 11738,10017,AG,4271,Aarburg,Aarburg,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
@@ -2135,7 +2135,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 12170,10021,AG,4161,Eiken,Eiken,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
 12171,10052,VD,5457,Donatyre,Donatyre,Municipality,1,1000,First-time registration,1960-01-01,2337,Abolition,2006-06-30,2006-06-30
 12172,10009,TG,4816,Homburg,Homburg,Municipality,1,1000,First-time registration,1960-01-01,1925,Change of area,1998-12-31,1998-12-31
-12173,10082,ZH,32,Humlikon,Humlikon,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+12173,10082,ZH,32,Humlikon,Humlikon,Municipality,1,1000,First-time registration,1960-01-01,3964,Abolition,2022-12-31,2022-12-31
 12174,10066,LU,1001,Doppleschwand,Doppleschwand,Municipality,1,1000,First-time registration,1960-01-01,3372,Reassignment to other d/c,2012-12-31,2012-12-31
 12175,10054,AR,3002,Hundwil,Hundwil,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
 12176,10108,ZG,1703,Hünenberg,Hünenberg,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
@@ -2278,7 +2278,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 12314,10045,VD,5673,Hermenches,Hermenches,Municipality,1,1000,First-time registration,1960-01-01,2533,Reassignment to other d/c,2006-08-31,2006-08-31
 12315,10008,TG,4913,Hessenreuti,Hessenreuti,Municipality,1,1000,First-time registration,1960-01-01,1857,Formal renumbering,1994-12-31,1994-12-31
 12316,10077,ZH,152,Herrliberg,Herrliberg,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
-12317,10021,AG,4166,Herznach,Herznach,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+12317,10021,AG,4166,Herznach,Herznach,Municipality,1,1000,First-time registration,1960-01-01,3969,Abolition,2022-12-31,2022-12-31
 12318,10028,VD,5792,Montpreveyres,Montpreveyres,Municipality,1,1000,First-time registration,1960-01-01,2621,Reassignment to other d/c,2006-08-31,2006-08-31
 12319,10107,FR,2033,Morens (FR),Morens (FR),Municipality,1,1000,First-time registration,1960-01-01,3457,Abolition,2016-12-31,2016-12-31
 12320,10104,FR,2210,Montévraz,Montévraz,Municipality,1,1000,First-time registration,1960-01-01,2169,Abolition,2002-12-31,2002-12-31
@@ -2358,7 +2358,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 12394,10002,TI,5255,Meride,Meride,Municipality,1,1000,First-time registration,1960-01-01,3409,Abolition,2013-04-13,2013-04-13
 12395,10089,SH,2936,Merishausen,Merishausen,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
 12396,10067,BE,437,Mont-Tramelan,Mont-Tramelan,Municipality,1,1000,First-time registration,1960-01-01,2783,Reassignment to other d/c,2009-12-31,2009-12-31
-12397,10022,AG,4139,Menziken,Menziken,Municipality,1,1000,First-time registration,1960-01-01,NA,NA,NA,1960-01-01
+12397,10022,AG,4139,Menziken,Menziken,Municipality,1,1000,First-time registration,1960-01-01,3968,Change of area,2022-12-31,2022-12-31
 12398,10064,LU,1064,Meierskappel,Meierskappel,Municipality,1,1000,First-time registration,1960-01-01,3313,Reassignment to other d/c,2012-12-31,2012-12-31
 12399,10028,VD,5794,Oron-le-Châtel,Oron-le-Châtel,Municipality,1,1000,First-time registration,1960-01-01,2623,Reassignment to other d/c,2006-08-31,2006-08-31
 12400,10085,VD,5488,Mauraz,Mauraz,Municipality,1,1000,First-time registration,1960-01-01,2399,Reassignment to other d/c,2006-08-31,2006-08-31
@@ -3170,7 +3170,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 13211,10106,FR,2072,Ecublens (FR),Ecublens (FR),Municipality,1,1026,Change of area,1969-03-01,NA,NA,NA,1969-03-01
 13212,10043,VD,5761,Romainmôtier-Envy,Romainmôtier-Envy,Municipality,1,1027,Creation,1970-01-01,2604,Reassignment to other d/c,2006-08-31,2006-08-31
 13213,10023,AG,4095,Brugg,Brugg,Municipality,1,1028,Change of area,1970-01-01,3169,Change of area,2009-12-31,2009-12-31
-13214,10082,ZH,30,Andelfingen,Andelfingen,Municipality,1,1029,Change of name (m),1970-01-01,NA,NA,NA,1970-01-01
+13214,10082,ZH,30,Andelfingen,Andelfingen,Municipality,1,1029,Change of name (m),1970-01-01,3964,Change of area,2022-12-31,2022-12-31
 13215,10163,GR,3762,Scuol,Scuol,Municipality,1,1030,Change of name (m),1970-01-01,2065,Reassignment to other d/c,2000-12-31,2000-12-31
 13216,10105,FR,2146,Le Bry,Le Bry,Municipality,1,1031,Creation,1970-01-26,2168,Abolition,2002-12-31,2002-12-31
 13217,10104,FR,2206,Marly,Marly,Municipality,1,1032,Creation,1970-03-14,1064,Change of area,1975-12-31,1975-12-31
@@ -3257,8 +3257,8 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 13298,10224,JU,6727,Vicques,Vicques,Municipality,1,1112,Reassignment to other d/c,1979-01-01,3404,Abolition,2012-12-31,2012-12-31
 13299,10225,JU,6741,Le Bémont (JU),Le Bémont (JU),Municipality,1,1113,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
 13300,10225,JU,6742,Les Bois,Les Bois,Municipality,1,1114,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
-13301,10225,JU,6743,Les Breuleux,Les Breuleux,Municipality,1,1115,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
-13302,10225,JU,6744,La Chaux-des-Breuleux,La Chaux-des-Breuleux,Municipality,1,1116,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
+13301,10225,JU,6743,Les Breuleux,Les Breuleux,Municipality,1,1115,Reassignment to other d/c,1979-01-01,3967,Change of area,2022-12-31,2022-12-31
+13302,10225,JU,6744,La Chaux-des-Breuleux,La Chaux-des-Breuleux,Municipality,1,1116,Reassignment to other d/c,1979-01-01,3967,Abolition,2022-12-31,2022-12-31
 13303,10225,JU,6745,Les Enfers,Les Enfers,Municipality,1,1117,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
 13304,10225,JU,6746,Epauvillers,Epauvillers,Municipality,1,1118,Reassignment to other d/c,1979-01-01,2763,Abolition,2008-12-31,2008-12-31
 13305,10225,JU,6747,Epiquerez,Epiquerez,Municipality,1,1119,Reassignment to other d/c,1979-01-01,2763,Abolition,2008-12-31,2008-12-31
@@ -3290,13 +3290,13 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 13331,10226,JU,6784,Courgenay,Courgenay,Municipality,1,1145,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
 13332,10226,JU,6785,Courtedoux,Courtedoux,Municipality,1,1146,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
 13333,10226,JU,6786,Courtemaîche,Courtemaîche,Municipality,1,1147,Reassignment to other d/c,1979-01-01,2768,Abolition,2008-12-31,2008-12-31
-13334,10226,JU,6787,Damphreux,Damphreux,Municipality,1,1148,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
+13334,10226,JU,6787,Damphreux,Damphreux,Municipality,1,1148,Reassignment to other d/c,1979-01-01,3970,Abolition,2022-12-31,2022-12-31
 13335,10226,JU,6788,Damvant,Damvant,Municipality,1,1149,Reassignment to other d/c,1979-01-01,2769,Abolition,2008-12-31,2008-12-31
 13336,10226,JU,6789,Fahy,Fahy,Municipality,1,1150,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
 13337,10226,JU,6790,Fontenais,Fontenais,Municipality,1,1151,Reassignment to other d/c,1979-01-01,3405,Change of area,2012-12-31,2012-12-31
 13338,10226,JU,6791,Fregiécourt,Fregiécourt,Municipality,1,1152,Reassignment to other d/c,1979-01-01,2767,Abolition,2008-12-31,2008-12-31
 13339,10226,JU,6792,Grandfontaine,Grandfontaine,Municipality,1,1153,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
-13340,10226,JU,6793,Lugnez,Lugnez,Municipality,1,1154,Reassignment to other d/c,1979-01-01,NA,NA,NA,1979-01-01
+13340,10226,JU,6793,Lugnez,Lugnez,Municipality,1,1154,Reassignment to other d/c,1979-01-01,3970,Abolition,2022-12-31,2022-12-31
 13341,10226,JU,6794,Miécourt,Miécourt,Municipality,1,1155,Reassignment to other d/c,1979-01-01,2767,Abolition,2008-12-31,2008-12-31
 13342,10226,JU,6795,Montenol,Montenol,Municipality,1,1156,Reassignment to other d/c,1979-01-01,2763,Abolition,2008-12-31,2008-12-31
 13343,10226,JU,6796,Montignez,Montignez,Municipality,1,1157,Reassignment to other d/c,1979-01-01,2768,Abolition,2008-12-31,2008-12-31
@@ -4397,10 +4397,10 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 14438,10264,SG,3356,Stein (SG),Stein (SG),Municipality,1,2238,Reassignment to other d/c,2003-01-01,3386,Abolition,2012-12-31,2012-12-31
 14439,10264,SG,3357,Wildhaus,Wildhaus,Municipality,1,2239,Reassignment to other d/c,2003-01-01,3163,Abolition,2009-12-31,2009-12-31
 14440,10264,SG,3371,Brunnadern,Brunnadern,Municipality,1,2240,Reassignment to other d/c,2003-01-01,2748,Abolition,2008-12-31,2008-12-31
-14441,10264,SG,3372,Hemberg,Hemberg,Municipality,1,2241,Reassignment to other d/c,2003-01-01,NA,NA,NA,2003-01-01
+14441,10264,SG,3372,Hemberg,Hemberg,Municipality,1,2241,Reassignment to other d/c,2003-01-01,3966,Abolition,2022-12-31,2022-12-31
 14442,10264,SG,3373,Krinau,Krinau,Municipality,1,2242,Reassignment to other d/c,2003-01-01,3387,Abolition,2012-12-31,2012-12-31
 14443,10264,SG,3374,Lichtensteig,Lichtensteig,Municipality,1,2243,Reassignment to other d/c,2003-01-01,NA,NA,NA,2003-01-01
-14444,10264,SG,3375,Oberhelfenschwil,Oberhelfenschwil,Municipality,1,2244,Reassignment to other d/c,2003-01-01,NA,NA,NA,2003-01-01
+14444,10264,SG,3375,Oberhelfenschwil,Oberhelfenschwil,Municipality,1,2244,Reassignment to other d/c,2003-01-01,3966,Abolition,2022-12-31,2022-12-31
 14445,10264,SG,3376,St. Peterzell,St. Peterzell,Municipality,1,2245,Reassignment to other d/c,2003-01-01,2748,Abolition,2008-12-31,2008-12-31
 14446,10264,SG,3377,Wattwil,Wattwil,Municipality,1,2246,Reassignment to other d/c,2003-01-01,3387,Abolition,2012-12-31,2012-12-31
 14447,10264,SG,3391,Bütschwil,Bütschwil,Municipality,1,2247,Reassignment to other d/c,2003-01-01,3388,Abolition,2012-12-31,2012-12-31
@@ -4905,7 +4905,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 14947,10063,LU,1104,Triengen,Triengen,Municipality,1,2745,Change of area,2009-01-01,3349,Reassignment to other d/c,2012-12-31,2012-12-31
 14948,10090,SH,2920,Thayngen,Thayngen,Municipality,1,2746,Change of area,2009-01-01,NA,NA,NA,2009-01-01
 14949,10089,SH,2939,Schaffhausen,Schaffhausen,Municipality,1,2747,Change of area,2009-01-01,NA,NA,NA,2009-01-01
-14950,10264,SG,3378,Neckertal,Neckertal,Municipality,1,2748,Creation,2009-01-01,NA,NA,NA,2009-01-01
+14950,10264,SG,3378,Neckertal,Neckertal,Municipality,1,2748,Creation,2009-01-01,3966,Change of area,2022-12-31,2022-12-31
 14951,10258,GR,3851,Davos,Davos,Municipality,1,2749,Change of area,2009-01-01,3522,Reassignment to other d/c,2016-12-31,2016-12-31
 14952,10257,GR,3617,Mundaun,Mundaun,Municipality,1,2750,Creation,2009-01-01,3449,Abolition,2015-12-31,2015-12-31
 14953,10259,GR,3671,Tomils,Tomils,Municipality,1,2751,Creation,2009-01-01,3435,Abolition,2014-12-31,2014-12-31
@@ -5055,7 +5055,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 15113,10287,BE,533,Bätterkinden,Bätterkinden,Municipality,1,2962,Reassignment to other d/c,2010-01-01,NA,NA,NA,2010-01-01
 15114,10288,BE,534,Büren zum Hof,Büren zum Hof,Municipality,1,2996,Reassignment to other d/c,2010-01-01,3412,Abolition,2013-12-31,2013-12-31
 15115,10288,BE,535,Deisswil bei Münchenbuchsee,Deisswil b. Münchenbuch.,Municipality,1,2997,Reassignment to other d/c,2010-01-01,NA,NA,NA,2010-01-01
-15116,10288,BE,536,Diemerswil,Diemerswil,Municipality,1,2998,Reassignment to other d/c,2010-01-01,NA,NA,NA,2010-01-01
+15116,10288,BE,536,Diemerswil,Diemerswil,Municipality,1,2998,Reassignment to other d/c,2010-01-01,3965,Abolition,2022-12-31,2022-12-31
 15117,10288,BE,537,Etzelkofen,Etzelkofen,Municipality,1,2999,Reassignment to other d/c,2010-01-01,3412,Abolition,2013-12-31,2013-12-31
 15118,10288,BE,538,Fraubrunnen,Fraubrunnen,Municipality,1,3000,Reassignment to other d/c,2010-01-01,3412,Change of area,2013-12-31,2013-12-31
 15119,10288,BE,539,Grafenried,Grafenried,Municipality,1,3001,Reassignment to other d/c,2010-01-01,3412,Abolition,2013-12-31,2013-12-31
@@ -5064,7 +5064,7 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 15122,10288,BE,543,Mattstetten,Mattstetten,Municipality,1,3004,Reassignment to other d/c,2010-01-01,NA,NA,NA,2010-01-01
 15123,10288,BE,544,Moosseedorf,Moosseedorf,Municipality,1,3005,Reassignment to other d/c,2010-01-01,NA,NA,NA,2010-01-01
 15124,10288,BE,545,Mülchi,Mülchi,Municipality,1,3006,Reassignment to other d/c,2010-01-01,3412,Abolition,2013-12-31,2013-12-31
-15125,10288,BE,546,Münchenbuchsee,Münchenbuchsee,Municipality,1,3007,Reassignment to other d/c,2010-01-01,NA,NA,NA,2010-01-01
+15125,10288,BE,546,Münchenbuchsee,Münchenbuchsee,Municipality,1,3007,Reassignment to other d/c,2010-01-01,3965,Change of area,2022-12-31,2022-12-31
 15126,10288,BE,547,Münchringen,Münchringen,Municipality,1,3008,Reassignment to other d/c,2010-01-01,3413,Abolition,2013-12-31,2013-12-31
 15127,10285,BE,548,Ruppoldsried,Ruppoldsried,Municipality,1,2879,Reassignment to other d/c,2010-01-01,3295,Abolition,2012-12-31,2012-12-31
 15128,10288,BE,549,Schalunen,Schalunen,Municipality,1,3009,Reassignment to other d/c,2010-01-01,3412,Abolition,2013-12-31,2013-12-31
@@ -5835,3 +5835,10 @@ mHistId,dHistId,cAbbreviation,mId,mLongName,mShortName,mEntryMode,mStatus,mAdmis
 16618,10282,VD,5892,Blonay - Saint-Légier,Blonay - Saint-Légier,Municipality,1,3961,Creation,2022-01-01,NA,NA,NA,2022-01-01
 16619,10003,TI,5240,Val Mara,Val Mara,Municipality,1,3962,Creation,2022-04-10,NA,NA,NA,2022-04-10
 16620,10252,AI,3112,Schwende-Rüte,Schwende-Rüte,Municipality,1,3963,Creation,2022-05-01,NA,NA,NA,2022-05-01
+16621,10082,ZH,291,Andelfingen,Andelfingen,Municipality,1,3964,Change of area,2023-01-01,NA,NA,NA,2023-01-01
+16622,10288,BE,546,Münchenbuchsee,Münchenbuchsee,Municipality,1,3965,Change of area,2023-01-01,NA,NA,NA,2023-01-01
+16623,10264,SG,3396,Neckertal,Neckertal,Municipality,1,3966,Change of area,2023-01-01,NA,NA,NA,2023-01-01
+16624,10225,JU,6743,Les Breuleux,Les Breuleux,Municipality,1,3967,Change of area,2023-01-01,NA,NA,NA,2023-01-01
+16625,10022,AG,4139,Menziken,Menziken,Municipality,1,3968,Change of area,2023-01-01,NA,NA,NA,2023-01-01
+16626,10021,AG,4186,Herznach-Ueken,Herznach-Ueken,Municipality,1,3969,Creation,2023-01-01,NA,NA,NA,2023-01-01
+16627,10226,JU,6811,Damphreux-Lugnez,Damphreux-Lugnez,Municipality,1,3970,Creation,2023-01-01,NA,NA,NA,2023-01-01

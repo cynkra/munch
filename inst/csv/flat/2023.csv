@@ -13,7 +13,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,12,Rifferswil,12,Rifferswil
 2005,13,Stallikon,13,Stallikon
 2005,14,Wettswil am Albis,14,Wettswil am Albis
-2005,21,Adlikon,21,Adlikon
+2005,21,Adlikon,291,Andelfingen
 2005,22,Benken (ZH),22,Benken (ZH)
 2005,23,Berg am Irchel,23,Berg am Irchel
 2005,24,Buch am Irchel,24,Buch am Irchel
@@ -22,9 +22,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,27,Feuerthalen,27,Feuerthalen
 2005,28,Flaach,28,Flaach
 2005,29,Flurlingen,29,Flurlingen
-2005,30,Andelfingen,30,Andelfingen
+2005,30,Andelfingen,291,Andelfingen
 2005,31,Henggart,31,Henggart
-2005,32,Humlikon,32,Humlikon
+2005,32,Humlikon,291,Andelfingen
 2005,33,Kleinandelfingen,33,Kleinandelfingen
 2005,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2005,35,Marthalen,35,Marthalen
@@ -295,7 +295,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,533,Bätterkinden,533,Bätterkinden
 2005,534,Büren zum Hof,538,Fraubrunnen
 2005,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2005,536,Diemerswil,536,Diemerswil
+2005,536,Diemerswil,546,Münchenbuchsee
 2005,537,Etzelkofen,538,Fraubrunnen
 2005,538,Fraubrunnen,538,Fraubrunnen
 2005,539,Grafenried,538,Fraubrunnen
@@ -1288,12 +1288,12 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,3356,Stein (SG),3360,Nesslau
 2005,3357,Wildhaus,3359,Wildhaus-Alt St. Johann
 2005,3358,Nesslau-Krummenau,3360,Nesslau
-2005,3371,Brunnadern,3378,Neckertal
-2005,3372,Hemberg,3372,Hemberg
+2005,3371,Brunnadern,3396,Neckertal
+2005,3372,Hemberg,3396,Neckertal
 2005,3373,Krinau,3379,Wattwil
 2005,3374,Lichtensteig,3374,Lichtensteig
-2005,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2005,3376,St. Peterzell,3378,Neckertal
+2005,3375,Oberhelfenschwil,3396,Neckertal
+2005,3376,St. Peterzell,3396,Neckertal
 2005,3377,Wattwil,3379,Wattwil
 2005,3391,Bütschwil,3395,Bütschwil-Ganterschwil
 2005,3392,Kirchberg (SG),3392,Kirchberg (SG)
@@ -1303,7 +1303,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,3402,Flawil,3402,Flawil
 2005,3403,Ganterschwil,3395,Bütschwil-Ganterschwil
 2005,3405,Jonschwil,3405,Jonschwil
-2005,3406,Mogelsberg,3378,Neckertal
+2005,3406,Mogelsberg,3396,Neckertal
 2005,3407,Oberuzwil,3407,Oberuzwil
 2005,3408,Uzwil,3408,Uzwil
 2005,3421,Bronschhofen,3427,Wil (SG)
@@ -1622,7 +1622,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,4123,Windisch,4123,Windisch
 2005,4131,Beinwil am See,4131,Beinwil am See
 2005,4132,Birrwil,4132,Birrwil
-2005,4133,Burg (AG),4133,Burg (AG)
+2005,4133,Burg (AG),4139,Menziken
 2005,4134,Dürrenäsch,4134,Dürrenäsch
 2005,4135,Gontenschwil,4135,Gontenschwil
 2005,4136,Holziken,4136,Holziken
@@ -1642,7 +1642,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,4163,Frick,4163,Frick
 2005,4164,Gansingen,4164,Gansingen
 2005,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2005,4166,Herznach,4166,Herznach
+2005,4166,Herznach,4186,Herznach-Ueken
 2005,4167,Hornussen,4185,Böztal
 2005,4168,Ittenthal,4169,Kaisten
 2005,4169,Kaisten,4169,Kaisten
@@ -1655,7 +1655,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,4176,Schwaderloch,4176,Schwaderloch
 2005,4177,Sisseln,4177,Sisseln
 2005,4178,Sulz (AG),4170,Laufenburg
-2005,4179,Ueken,4179,Ueken
+2005,4179,Ueken,4186,Herznach-Ueken
 2005,4180,Wil (AG),4184,Mettauertal
 2005,4181,Wittnau,4181,Wittnau
 2005,4182,Wölflinswil,4182,Wölflinswil
@@ -2716,7 +2716,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2005,6742,Les Bois,6742,Les Bois
 2005,6743,Les Breuleux,6743,Les Breuleux
-2005,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2005,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2005,6745,Les Enfers,6745,Les Enfers
 2005,6746,Epauvillers,6808,Clos du Doubs
 2005,6747,Epiquerez,6808,Clos du Doubs
@@ -2748,13 +2748,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,6784,Courgenay,6784,Courgenay
 2005,6785,Courtedoux,6785,Courtedoux
 2005,6786,Courtemaîche,6807,Basse-Allaine
-2005,6787,Damphreux,6787,Damphreux
+2005,6787,Damphreux,6811,Damphreux-Lugnez
 2005,6788,Damvant,6809,Haute-Ajoie
 2005,6789,Fahy,6789,Fahy
 2005,6790,Fontenais,6790,Fontenais
 2005,6791,Fregiécourt,6810,La Baroche
 2005,6792,Grandfontaine,6792,Grandfontaine
-2005,6793,Lugnez,6793,Lugnez
+2005,6793,Lugnez,6811,Damphreux-Lugnez
 2005,6794,Miécourt,6810,La Baroche
 2005,6795,Montenol,6808,Clos du Doubs
 2005,6796,Montignez,6807,Basse-Allaine
@@ -2782,7 +2782,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,12,Rifferswil,12,Rifferswil
 2006,13,Stallikon,13,Stallikon
 2006,14,Wettswil am Albis,14,Wettswil am Albis
-2006,21,Adlikon,21,Adlikon
+2006,21,Adlikon,291,Andelfingen
 2006,22,Benken (ZH),22,Benken (ZH)
 2006,23,Berg am Irchel,23,Berg am Irchel
 2006,24,Buch am Irchel,24,Buch am Irchel
@@ -2791,9 +2791,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,27,Feuerthalen,27,Feuerthalen
 2006,28,Flaach,28,Flaach
 2006,29,Flurlingen,29,Flurlingen
-2006,30,Andelfingen,30,Andelfingen
+2006,30,Andelfingen,291,Andelfingen
 2006,31,Henggart,31,Henggart
-2006,32,Humlikon,32,Humlikon
+2006,32,Humlikon,291,Andelfingen
 2006,33,Kleinandelfingen,33,Kleinandelfingen
 2006,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2006,35,Marthalen,35,Marthalen
@@ -3064,7 +3064,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,533,Bätterkinden,533,Bätterkinden
 2006,534,Büren zum Hof,538,Fraubrunnen
 2006,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2006,536,Diemerswil,536,Diemerswil
+2006,536,Diemerswil,546,Münchenbuchsee
 2006,537,Etzelkofen,538,Fraubrunnen
 2006,538,Fraubrunnen,538,Fraubrunnen
 2006,539,Grafenried,538,Fraubrunnen
@@ -4042,12 +4042,12 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,3356,Stein (SG),3360,Nesslau
 2006,3357,Wildhaus,3359,Wildhaus-Alt St. Johann
 2006,3358,Nesslau-Krummenau,3360,Nesslau
-2006,3371,Brunnadern,3378,Neckertal
-2006,3372,Hemberg,3372,Hemberg
+2006,3371,Brunnadern,3396,Neckertal
+2006,3372,Hemberg,3396,Neckertal
 2006,3373,Krinau,3379,Wattwil
 2006,3374,Lichtensteig,3374,Lichtensteig
-2006,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2006,3376,St. Peterzell,3378,Neckertal
+2006,3375,Oberhelfenschwil,3396,Neckertal
+2006,3376,St. Peterzell,3396,Neckertal
 2006,3377,Wattwil,3379,Wattwil
 2006,3391,Bütschwil,3395,Bütschwil-Ganterschwil
 2006,3392,Kirchberg (SG),3392,Kirchberg (SG)
@@ -4057,7 +4057,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,3402,Flawil,3402,Flawil
 2006,3403,Ganterschwil,3395,Bütschwil-Ganterschwil
 2006,3405,Jonschwil,3405,Jonschwil
-2006,3406,Mogelsberg,3378,Neckertal
+2006,3406,Mogelsberg,3396,Neckertal
 2006,3407,Oberuzwil,3407,Oberuzwil
 2006,3408,Uzwil,3408,Uzwil
 2006,3421,Bronschhofen,3427,Wil (SG)
@@ -4373,7 +4373,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,4123,Windisch,4123,Windisch
 2006,4131,Beinwil am See,4131,Beinwil am See
 2006,4132,Birrwil,4132,Birrwil
-2006,4133,Burg (AG),4133,Burg (AG)
+2006,4133,Burg (AG),4139,Menziken
 2006,4134,Dürrenäsch,4134,Dürrenäsch
 2006,4135,Gontenschwil,4135,Gontenschwil
 2006,4136,Holziken,4136,Holziken
@@ -4393,7 +4393,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,4163,Frick,4163,Frick
 2006,4164,Gansingen,4164,Gansingen
 2006,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2006,4166,Herznach,4166,Herznach
+2006,4166,Herznach,4186,Herznach-Ueken
 2006,4167,Hornussen,4185,Böztal
 2006,4168,Ittenthal,4169,Kaisten
 2006,4169,Kaisten,4169,Kaisten
@@ -4406,7 +4406,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,4176,Schwaderloch,4176,Schwaderloch
 2006,4177,Sisseln,4177,Sisseln
 2006,4178,Sulz (AG),4170,Laufenburg
-2006,4179,Ueken,4179,Ueken
+2006,4179,Ueken,4186,Herznach-Ueken
 2006,4180,Wil (AG),4184,Mettauertal
 2006,4181,Wittnau,4181,Wittnau
 2006,4182,Wölflinswil,4182,Wölflinswil
@@ -5462,7 +5462,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2006,6742,Les Bois,6742,Les Bois
 2006,6743,Les Breuleux,6743,Les Breuleux
-2006,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2006,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2006,6745,Les Enfers,6745,Les Enfers
 2006,6746,Epauvillers,6808,Clos du Doubs
 2006,6747,Epiquerez,6808,Clos du Doubs
@@ -5494,13 +5494,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2006,6784,Courgenay,6784,Courgenay
 2006,6785,Courtedoux,6785,Courtedoux
 2006,6786,Courtemaîche,6807,Basse-Allaine
-2006,6787,Damphreux,6787,Damphreux
+2006,6787,Damphreux,6811,Damphreux-Lugnez
 2006,6788,Damvant,6809,Haute-Ajoie
 2006,6789,Fahy,6789,Fahy
 2006,6790,Fontenais,6790,Fontenais
 2006,6791,Fregiécourt,6810,La Baroche
 2006,6792,Grandfontaine,6792,Grandfontaine
-2006,6793,Lugnez,6793,Lugnez
+2006,6793,Lugnez,6811,Damphreux-Lugnez
 2006,6794,Miécourt,6810,La Baroche
 2006,6795,Montenol,6808,Clos du Doubs
 2006,6796,Montignez,6807,Basse-Allaine
@@ -5528,7 +5528,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,12,Rifferswil,12,Rifferswil
 2007,13,Stallikon,13,Stallikon
 2007,14,Wettswil am Albis,14,Wettswil am Albis
-2007,21,Adlikon,21,Adlikon
+2007,21,Adlikon,291,Andelfingen
 2007,22,Benken (ZH),22,Benken (ZH)
 2007,23,Berg am Irchel,23,Berg am Irchel
 2007,24,Buch am Irchel,24,Buch am Irchel
@@ -5537,9 +5537,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,27,Feuerthalen,27,Feuerthalen
 2007,28,Flaach,28,Flaach
 2007,29,Flurlingen,29,Flurlingen
-2007,30,Andelfingen,30,Andelfingen
+2007,30,Andelfingen,291,Andelfingen
 2007,31,Henggart,31,Henggart
-2007,32,Humlikon,32,Humlikon
+2007,32,Humlikon,291,Andelfingen
 2007,33,Kleinandelfingen,33,Kleinandelfingen
 2007,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2007,35,Marthalen,35,Marthalen
@@ -5809,7 +5809,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,533,Bätterkinden,533,Bätterkinden
 2007,534,Büren zum Hof,538,Fraubrunnen
 2007,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2007,536,Diemerswil,536,Diemerswil
+2007,536,Diemerswil,546,Münchenbuchsee
 2007,537,Etzelkofen,538,Fraubrunnen
 2007,538,Fraubrunnen,538,Fraubrunnen
 2007,539,Grafenried,538,Fraubrunnen
@@ -6782,12 +6782,12 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,3356,Stein (SG),3360,Nesslau
 2007,3357,Wildhaus,3359,Wildhaus-Alt St. Johann
 2007,3358,Nesslau-Krummenau,3360,Nesslau
-2007,3371,Brunnadern,3378,Neckertal
-2007,3372,Hemberg,3372,Hemberg
+2007,3371,Brunnadern,3396,Neckertal
+2007,3372,Hemberg,3396,Neckertal
 2007,3373,Krinau,3379,Wattwil
 2007,3374,Lichtensteig,3374,Lichtensteig
-2007,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2007,3376,St. Peterzell,3378,Neckertal
+2007,3375,Oberhelfenschwil,3396,Neckertal
+2007,3376,St. Peterzell,3396,Neckertal
 2007,3377,Wattwil,3379,Wattwil
 2007,3391,Bütschwil,3395,Bütschwil-Ganterschwil
 2007,3392,Kirchberg (SG),3392,Kirchberg (SG)
@@ -6797,7 +6797,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,3402,Flawil,3402,Flawil
 2007,3403,Ganterschwil,3395,Bütschwil-Ganterschwil
 2007,3405,Jonschwil,3405,Jonschwil
-2007,3406,Mogelsberg,3378,Neckertal
+2007,3406,Mogelsberg,3396,Neckertal
 2007,3407,Oberuzwil,3407,Oberuzwil
 2007,3408,Uzwil,3408,Uzwil
 2007,3421,Bronschhofen,3427,Wil (SG)
@@ -7112,7 +7112,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,4123,Windisch,4123,Windisch
 2007,4131,Beinwil am See,4131,Beinwil am See
 2007,4132,Birrwil,4132,Birrwil
-2007,4133,Burg (AG),4133,Burg (AG)
+2007,4133,Burg (AG),4139,Menziken
 2007,4134,Dürrenäsch,4134,Dürrenäsch
 2007,4135,Gontenschwil,4135,Gontenschwil
 2007,4136,Holziken,4136,Holziken
@@ -7132,7 +7132,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,4163,Frick,4163,Frick
 2007,4164,Gansingen,4164,Gansingen
 2007,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2007,4166,Herznach,4166,Herznach
+2007,4166,Herznach,4186,Herznach-Ueken
 2007,4167,Hornussen,4185,Böztal
 2007,4168,Ittenthal,4169,Kaisten
 2007,4169,Kaisten,4169,Kaisten
@@ -7145,7 +7145,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,4176,Schwaderloch,4176,Schwaderloch
 2007,4177,Sisseln,4177,Sisseln
 2007,4178,Sulz (AG),4170,Laufenburg
-2007,4179,Ueken,4179,Ueken
+2007,4179,Ueken,4186,Herznach-Ueken
 2007,4180,Wil (AG),4184,Mettauertal
 2007,4181,Wittnau,4181,Wittnau
 2007,4182,Wölflinswil,4182,Wölflinswil
@@ -8189,7 +8189,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2007,6742,Les Bois,6742,Les Bois
 2007,6743,Les Breuleux,6743,Les Breuleux
-2007,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2007,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2007,6745,Les Enfers,6745,Les Enfers
 2007,6746,Epauvillers,6808,Clos du Doubs
 2007,6747,Epiquerez,6808,Clos du Doubs
@@ -8221,13 +8221,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2007,6784,Courgenay,6784,Courgenay
 2007,6785,Courtedoux,6785,Courtedoux
 2007,6786,Courtemaîche,6807,Basse-Allaine
-2007,6787,Damphreux,6787,Damphreux
+2007,6787,Damphreux,6811,Damphreux-Lugnez
 2007,6788,Damvant,6809,Haute-Ajoie
 2007,6789,Fahy,6789,Fahy
 2007,6790,Fontenais,6790,Fontenais
 2007,6791,Fregiécourt,6810,La Baroche
 2007,6792,Grandfontaine,6792,Grandfontaine
-2007,6793,Lugnez,6793,Lugnez
+2007,6793,Lugnez,6811,Damphreux-Lugnez
 2007,6794,Miécourt,6810,La Baroche
 2007,6795,Montenol,6808,Clos du Doubs
 2007,6796,Montignez,6807,Basse-Allaine
@@ -8255,7 +8255,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,12,Rifferswil,12,Rifferswil
 2008,13,Stallikon,13,Stallikon
 2008,14,Wettswil am Albis,14,Wettswil am Albis
-2008,21,Adlikon,21,Adlikon
+2008,21,Adlikon,291,Andelfingen
 2008,22,Benken (ZH),22,Benken (ZH)
 2008,23,Berg am Irchel,23,Berg am Irchel
 2008,24,Buch am Irchel,24,Buch am Irchel
@@ -8264,9 +8264,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,27,Feuerthalen,27,Feuerthalen
 2008,28,Flaach,28,Flaach
 2008,29,Flurlingen,29,Flurlingen
-2008,30,Andelfingen,30,Andelfingen
+2008,30,Andelfingen,291,Andelfingen
 2008,31,Henggart,31,Henggart
-2008,32,Humlikon,32,Humlikon
+2008,32,Humlikon,291,Andelfingen
 2008,33,Kleinandelfingen,33,Kleinandelfingen
 2008,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2008,35,Marthalen,35,Marthalen
@@ -8536,7 +8536,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,533,Bätterkinden,533,Bätterkinden
 2008,534,Büren zum Hof,538,Fraubrunnen
 2008,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2008,536,Diemerswil,536,Diemerswil
+2008,536,Diemerswil,546,Münchenbuchsee
 2008,537,Etzelkofen,538,Fraubrunnen
 2008,538,Fraubrunnen,538,Fraubrunnen
 2008,539,Grafenried,538,Fraubrunnen
@@ -9508,12 +9508,12 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,3356,Stein (SG),3360,Nesslau
 2008,3357,Wildhaus,3359,Wildhaus-Alt St. Johann
 2008,3358,Nesslau-Krummenau,3360,Nesslau
-2008,3371,Brunnadern,3378,Neckertal
-2008,3372,Hemberg,3372,Hemberg
+2008,3371,Brunnadern,3396,Neckertal
+2008,3372,Hemberg,3396,Neckertal
 2008,3373,Krinau,3379,Wattwil
 2008,3374,Lichtensteig,3374,Lichtensteig
-2008,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2008,3376,St. Peterzell,3378,Neckertal
+2008,3375,Oberhelfenschwil,3396,Neckertal
+2008,3376,St. Peterzell,3396,Neckertal
 2008,3377,Wattwil,3379,Wattwil
 2008,3391,Bütschwil,3395,Bütschwil-Ganterschwil
 2008,3392,Kirchberg (SG),3392,Kirchberg (SG)
@@ -9523,7 +9523,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,3402,Flawil,3402,Flawil
 2008,3403,Ganterschwil,3395,Bütschwil-Ganterschwil
 2008,3405,Jonschwil,3405,Jonschwil
-2008,3406,Mogelsberg,3378,Neckertal
+2008,3406,Mogelsberg,3396,Neckertal
 2008,3407,Oberuzwil,3407,Oberuzwil
 2008,3408,Uzwil,3408,Uzwil
 2008,3421,Bronschhofen,3427,Wil (SG)
@@ -9835,7 +9835,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,4123,Windisch,4123,Windisch
 2008,4131,Beinwil am See,4131,Beinwil am See
 2008,4132,Birrwil,4132,Birrwil
-2008,4133,Burg (AG),4133,Burg (AG)
+2008,4133,Burg (AG),4139,Menziken
 2008,4134,Dürrenäsch,4134,Dürrenäsch
 2008,4135,Gontenschwil,4135,Gontenschwil
 2008,4136,Holziken,4136,Holziken
@@ -9855,7 +9855,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,4163,Frick,4163,Frick
 2008,4164,Gansingen,4164,Gansingen
 2008,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2008,4166,Herznach,4166,Herznach
+2008,4166,Herznach,4186,Herznach-Ueken
 2008,4167,Hornussen,4185,Böztal
 2008,4168,Ittenthal,4169,Kaisten
 2008,4169,Kaisten,4169,Kaisten
@@ -9868,7 +9868,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,4176,Schwaderloch,4176,Schwaderloch
 2008,4177,Sisseln,4177,Sisseln
 2008,4178,Sulz (AG),4170,Laufenburg
-2008,4179,Ueken,4179,Ueken
+2008,4179,Ueken,4186,Herznach-Ueken
 2008,4180,Wil (AG),4184,Mettauertal
 2008,4181,Wittnau,4181,Wittnau
 2008,4182,Wölflinswil,4182,Wölflinswil
@@ -10910,7 +10910,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2008,6742,Les Bois,6742,Les Bois
 2008,6743,Les Breuleux,6743,Les Breuleux
-2008,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2008,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2008,6745,Les Enfers,6745,Les Enfers
 2008,6746,Epauvillers,6808,Clos du Doubs
 2008,6747,Epiquerez,6808,Clos du Doubs
@@ -10942,13 +10942,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2008,6784,Courgenay,6784,Courgenay
 2008,6785,Courtedoux,6785,Courtedoux
 2008,6786,Courtemaîche,6807,Basse-Allaine
-2008,6787,Damphreux,6787,Damphreux
+2008,6787,Damphreux,6811,Damphreux-Lugnez
 2008,6788,Damvant,6809,Haute-Ajoie
 2008,6789,Fahy,6789,Fahy
 2008,6790,Fontenais,6790,Fontenais
 2008,6791,Fregiécourt,6810,La Baroche
 2008,6792,Grandfontaine,6792,Grandfontaine
-2008,6793,Lugnez,6793,Lugnez
+2008,6793,Lugnez,6811,Damphreux-Lugnez
 2008,6794,Miécourt,6810,La Baroche
 2008,6795,Montenol,6808,Clos du Doubs
 2008,6796,Montignez,6807,Basse-Allaine
@@ -10976,7 +10976,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,12,Rifferswil,12,Rifferswil
 2009,13,Stallikon,13,Stallikon
 2009,14,Wettswil am Albis,14,Wettswil am Albis
-2009,21,Adlikon,21,Adlikon
+2009,21,Adlikon,291,Andelfingen
 2009,22,Benken (ZH),22,Benken (ZH)
 2009,23,Berg am Irchel,23,Berg am Irchel
 2009,24,Buch am Irchel,24,Buch am Irchel
@@ -10985,9 +10985,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,27,Feuerthalen,27,Feuerthalen
 2009,28,Flaach,28,Flaach
 2009,29,Flurlingen,29,Flurlingen
-2009,30,Andelfingen,30,Andelfingen
+2009,30,Andelfingen,291,Andelfingen
 2009,31,Henggart,31,Henggart
-2009,32,Humlikon,32,Humlikon
+2009,32,Humlikon,291,Andelfingen
 2009,33,Kleinandelfingen,33,Kleinandelfingen
 2009,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2009,35,Marthalen,35,Marthalen
@@ -11257,7 +11257,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,533,Bätterkinden,533,Bätterkinden
 2009,534,Büren zum Hof,538,Fraubrunnen
 2009,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2009,536,Diemerswil,536,Diemerswil
+2009,536,Diemerswil,546,Münchenbuchsee
 2009,537,Etzelkofen,538,Fraubrunnen
 2009,538,Fraubrunnen,538,Fraubrunnen
 2009,539,Grafenried,538,Fraubrunnen
@@ -12213,12 +12213,12 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,3356,Stein (SG),3360,Nesslau
 2009,3357,Wildhaus,3359,Wildhaus-Alt St. Johann
 2009,3358,Nesslau-Krummenau,3360,Nesslau
-2009,3372,Hemberg,3372,Hemberg
+2009,3372,Hemberg,3396,Neckertal
 2009,3373,Krinau,3379,Wattwil
 2009,3374,Lichtensteig,3374,Lichtensteig
-2009,3375,Oberhelfenschwil,3375,Oberhelfenschwil
+2009,3375,Oberhelfenschwil,3396,Neckertal
 2009,3377,Wattwil,3379,Wattwil
-2009,3378,Neckertal,3378,Neckertal
+2009,3378,Neckertal,3396,Neckertal
 2009,3391,Bütschwil,3395,Bütschwil-Ganterschwil
 2009,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2009,3393,Lütisburg,3393,Lütisburg
@@ -12525,7 +12525,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,4123,Windisch,4123,Windisch
 2009,4131,Beinwil am See,4131,Beinwil am See
 2009,4132,Birrwil,4132,Birrwil
-2009,4133,Burg (AG),4133,Burg (AG)
+2009,4133,Burg (AG),4139,Menziken
 2009,4134,Dürrenäsch,4134,Dürrenäsch
 2009,4135,Gontenschwil,4135,Gontenschwil
 2009,4136,Holziken,4136,Holziken
@@ -12545,7 +12545,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,4163,Frick,4163,Frick
 2009,4164,Gansingen,4164,Gansingen
 2009,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2009,4166,Herznach,4166,Herznach
+2009,4166,Herznach,4186,Herznach-Ueken
 2009,4167,Hornussen,4185,Böztal
 2009,4168,Ittenthal,4169,Kaisten
 2009,4169,Kaisten,4169,Kaisten
@@ -12558,7 +12558,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,4176,Schwaderloch,4176,Schwaderloch
 2009,4177,Sisseln,4177,Sisseln
 2009,4178,Sulz (AG),4170,Laufenburg
-2009,4179,Ueken,4179,Ueken
+2009,4179,Ueken,4186,Herznach-Ueken
 2009,4180,Wil (AG),4184,Mettauertal
 2009,4181,Wittnau,4181,Wittnau
 2009,4182,Wölflinswil,4182,Wölflinswil
@@ -13569,7 +13569,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2009,6742,Les Bois,6742,Les Bois
 2009,6743,Les Breuleux,6743,Les Breuleux
-2009,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2009,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2009,6745,Les Enfers,6745,Les Enfers
 2009,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2009,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -13590,11 +13590,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,6783,Courchavon,6783,Courchavon
 2009,6784,Courgenay,6784,Courgenay
 2009,6785,Courtedoux,6785,Courtedoux
-2009,6787,Damphreux,6787,Damphreux
+2009,6787,Damphreux,6811,Damphreux-Lugnez
 2009,6789,Fahy,6789,Fahy
 2009,6790,Fontenais,6790,Fontenais
 2009,6792,Grandfontaine,6792,Grandfontaine
-2009,6793,Lugnez,6793,Lugnez
+2009,6793,Lugnez,6811,Damphreux-Lugnez
 2009,6800,Porrentruy,6800,Porrentruy
 2009,6803,Rocourt,6809,Haute-Ajoie
 2009,6806,Vendlincourt,6806,Vendlincourt
@@ -13616,7 +13616,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,12,Rifferswil,12,Rifferswil
 2010,13,Stallikon,13,Stallikon
 2010,14,Wettswil am Albis,14,Wettswil am Albis
-2010,21,Adlikon,21,Adlikon
+2010,21,Adlikon,291,Andelfingen
 2010,22,Benken (ZH),22,Benken (ZH)
 2010,23,Berg am Irchel,23,Berg am Irchel
 2010,24,Buch am Irchel,24,Buch am Irchel
@@ -13625,9 +13625,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,27,Feuerthalen,27,Feuerthalen
 2010,28,Flaach,28,Flaach
 2010,29,Flurlingen,29,Flurlingen
-2010,30,Andelfingen,30,Andelfingen
+2010,30,Andelfingen,291,Andelfingen
 2010,31,Henggart,31,Henggart
-2010,32,Humlikon,32,Humlikon
+2010,32,Humlikon,291,Andelfingen
 2010,33,Kleinandelfingen,33,Kleinandelfingen
 2010,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2010,35,Marthalen,35,Marthalen
@@ -13895,7 +13895,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,533,Bätterkinden,533,Bätterkinden
 2010,534,Büren zum Hof,538,Fraubrunnen
 2010,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2010,536,Diemerswil,536,Diemerswil
+2010,536,Diemerswil,546,Münchenbuchsee
 2010,537,Etzelkofen,538,Fraubrunnen
 2010,538,Fraubrunnen,538,Fraubrunnen
 2010,539,Grafenried,538,Fraubrunnen
@@ -14844,12 +14844,12 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,3356,Stein (SG),3360,Nesslau
 2010,3358,Nesslau-Krummenau,3360,Nesslau
 2010,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
-2010,3372,Hemberg,3372,Hemberg
+2010,3372,Hemberg,3396,Neckertal
 2010,3373,Krinau,3379,Wattwil
 2010,3374,Lichtensteig,3374,Lichtensteig
-2010,3375,Oberhelfenschwil,3375,Oberhelfenschwil
+2010,3375,Oberhelfenschwil,3396,Neckertal
 2010,3377,Wattwil,3379,Wattwil
-2010,3378,Neckertal,3378,Neckertal
+2010,3378,Neckertal,3396,Neckertal
 2010,3391,Bütschwil,3395,Bütschwil-Ganterschwil
 2010,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2010,3393,Lütisburg,3393,Lütisburg
@@ -15142,7 +15142,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,4123,Windisch,4123,Windisch
 2010,4131,Beinwil am See,4131,Beinwil am See
 2010,4132,Birrwil,4132,Birrwil
-2010,4133,Burg (AG),4133,Burg (AG)
+2010,4133,Burg (AG),4139,Menziken
 2010,4134,Dürrenäsch,4134,Dürrenäsch
 2010,4135,Gontenschwil,4135,Gontenschwil
 2010,4136,Holziken,4136,Holziken
@@ -15161,7 +15161,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,4163,Frick,4163,Frick
 2010,4164,Gansingen,4164,Gansingen
 2010,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2010,4166,Herznach,4166,Herznach
+2010,4166,Herznach,4186,Herznach-Ueken
 2010,4167,Hornussen,4185,Böztal
 2010,4169,Kaisten,4169,Kaisten
 2010,4170,Laufenburg,4170,Laufenburg
@@ -15170,7 +15170,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,4175,Oeschgen,4175,Oeschgen
 2010,4176,Schwaderloch,4176,Schwaderloch
 2010,4177,Sisseln,4177,Sisseln
-2010,4179,Ueken,4179,Ueken
+2010,4179,Ueken,4186,Herznach-Ueken
 2010,4181,Wittnau,4181,Wittnau
 2010,4182,Wölflinswil,4182,Wölflinswil
 2010,4183,Zeihen,4183,Zeihen
@@ -16169,7 +16169,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2010,6742,Les Bois,6742,Les Bois
 2010,6743,Les Breuleux,6743,Les Breuleux
-2010,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2010,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2010,6745,Les Enfers,6745,Les Enfers
 2010,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2010,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -16190,11 +16190,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2010,6783,Courchavon,6783,Courchavon
 2010,6784,Courgenay,6784,Courgenay
 2010,6785,Courtedoux,6785,Courtedoux
-2010,6787,Damphreux,6787,Damphreux
+2010,6787,Damphreux,6811,Damphreux-Lugnez
 2010,6789,Fahy,6789,Fahy
 2010,6790,Fontenais,6790,Fontenais
 2010,6792,Grandfontaine,6792,Grandfontaine
-2010,6793,Lugnez,6793,Lugnez
+2010,6793,Lugnez,6811,Damphreux-Lugnez
 2010,6800,Porrentruy,6800,Porrentruy
 2010,6803,Rocourt,6809,Haute-Ajoie
 2010,6806,Vendlincourt,6806,Vendlincourt
@@ -16216,7 +16216,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,12,Rifferswil,12,Rifferswil
 2011,13,Stallikon,13,Stallikon
 2011,14,Wettswil am Albis,14,Wettswil am Albis
-2011,21,Adlikon,21,Adlikon
+2011,21,Adlikon,291,Andelfingen
 2011,22,Benken (ZH),22,Benken (ZH)
 2011,23,Berg am Irchel,23,Berg am Irchel
 2011,24,Buch am Irchel,24,Buch am Irchel
@@ -16225,9 +16225,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,27,Feuerthalen,27,Feuerthalen
 2011,28,Flaach,28,Flaach
 2011,29,Flurlingen,29,Flurlingen
-2011,30,Andelfingen,30,Andelfingen
+2011,30,Andelfingen,291,Andelfingen
 2011,31,Henggart,31,Henggart
-2011,32,Humlikon,32,Humlikon
+2011,32,Humlikon,291,Andelfingen
 2011,33,Kleinandelfingen,33,Kleinandelfingen
 2011,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2011,35,Marthalen,35,Marthalen
@@ -16492,7 +16492,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,533,Bätterkinden,533,Bätterkinden
 2011,534,Büren zum Hof,538,Fraubrunnen
 2011,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2011,536,Diemerswil,536,Diemerswil
+2011,536,Diemerswil,546,Münchenbuchsee
 2011,537,Etzelkofen,538,Fraubrunnen
 2011,538,Fraubrunnen,538,Fraubrunnen
 2011,539,Grafenried,538,Fraubrunnen
@@ -17415,12 +17415,12 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,3356,Stein (SG),3360,Nesslau
 2011,3358,Nesslau-Krummenau,3360,Nesslau
 2011,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
-2011,3372,Hemberg,3372,Hemberg
+2011,3372,Hemberg,3396,Neckertal
 2011,3373,Krinau,3379,Wattwil
 2011,3374,Lichtensteig,3374,Lichtensteig
-2011,3375,Oberhelfenschwil,3375,Oberhelfenschwil
+2011,3375,Oberhelfenschwil,3396,Neckertal
 2011,3377,Wattwil,3379,Wattwil
-2011,3378,Neckertal,3378,Neckertal
+2011,3378,Neckertal,3396,Neckertal
 2011,3391,Bütschwil,3395,Bütschwil-Ganterschwil
 2011,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2011,3393,Lütisburg,3393,Lütisburg
@@ -17711,7 +17711,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,4123,Windisch,4123,Windisch
 2011,4131,Beinwil am See,4131,Beinwil am See
 2011,4132,Birrwil,4132,Birrwil
-2011,4133,Burg (AG),4133,Burg (AG)
+2011,4133,Burg (AG),4139,Menziken
 2011,4134,Dürrenäsch,4134,Dürrenäsch
 2011,4135,Gontenschwil,4135,Gontenschwil
 2011,4136,Holziken,4136,Holziken
@@ -17730,7 +17730,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,4163,Frick,4163,Frick
 2011,4164,Gansingen,4164,Gansingen
 2011,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2011,4166,Herznach,4166,Herznach
+2011,4166,Herznach,4186,Herznach-Ueken
 2011,4167,Hornussen,4185,Böztal
 2011,4169,Kaisten,4169,Kaisten
 2011,4170,Laufenburg,4170,Laufenburg
@@ -17739,7 +17739,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,4175,Oeschgen,4175,Oeschgen
 2011,4176,Schwaderloch,4176,Schwaderloch
 2011,4177,Sisseln,4177,Sisseln
-2011,4179,Ueken,4179,Ueken
+2011,4179,Ueken,4186,Herznach-Ueken
 2011,4181,Wittnau,4181,Wittnau
 2011,4182,Wölflinswil,4182,Wölflinswil
 2011,4183,Zeihen,4183,Zeihen
@@ -18724,7 +18724,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2011,6742,Les Bois,6742,Les Bois
 2011,6743,Les Breuleux,6743,Les Breuleux
-2011,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2011,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2011,6745,Les Enfers,6745,Les Enfers
 2011,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2011,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -18745,11 +18745,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2011,6783,Courchavon,6783,Courchavon
 2011,6784,Courgenay,6784,Courgenay
 2011,6785,Courtedoux,6785,Courtedoux
-2011,6787,Damphreux,6787,Damphreux
+2011,6787,Damphreux,6811,Damphreux-Lugnez
 2011,6789,Fahy,6789,Fahy
 2011,6790,Fontenais,6790,Fontenais
 2011,6792,Grandfontaine,6792,Grandfontaine
-2011,6793,Lugnez,6793,Lugnez
+2011,6793,Lugnez,6811,Damphreux-Lugnez
 2011,6800,Porrentruy,6800,Porrentruy
 2011,6803,Rocourt,6809,Haute-Ajoie
 2011,6806,Vendlincourt,6806,Vendlincourt
@@ -18771,7 +18771,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,12,Rifferswil,12,Rifferswil
 2012,13,Stallikon,13,Stallikon
 2012,14,Wettswil am Albis,14,Wettswil am Albis
-2012,21,Adlikon,21,Adlikon
+2012,21,Adlikon,291,Andelfingen
 2012,22,Benken (ZH),22,Benken (ZH)
 2012,23,Berg am Irchel,23,Berg am Irchel
 2012,24,Buch am Irchel,24,Buch am Irchel
@@ -18780,9 +18780,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,27,Feuerthalen,27,Feuerthalen
 2012,28,Flaach,28,Flaach
 2012,29,Flurlingen,29,Flurlingen
-2012,30,Andelfingen,30,Andelfingen
+2012,30,Andelfingen,291,Andelfingen
 2012,31,Henggart,31,Henggart
-2012,32,Humlikon,32,Humlikon
+2012,32,Humlikon,291,Andelfingen
 2012,33,Kleinandelfingen,33,Kleinandelfingen
 2012,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2012,35,Marthalen,35,Marthalen
@@ -19047,7 +19047,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,533,Bätterkinden,533,Bätterkinden
 2012,534,Büren zum Hof,538,Fraubrunnen
 2012,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2012,536,Diemerswil,536,Diemerswil
+2012,536,Diemerswil,546,Münchenbuchsee
 2012,537,Etzelkofen,538,Fraubrunnen
 2012,538,Fraubrunnen,538,Fraubrunnen
 2012,539,Grafenried,538,Fraubrunnen
@@ -19966,12 +19966,12 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,3356,Stein (SG),3360,Nesslau
 2012,3358,Nesslau-Krummenau,3360,Nesslau
 2012,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
-2012,3372,Hemberg,3372,Hemberg
+2012,3372,Hemberg,3396,Neckertal
 2012,3373,Krinau,3379,Wattwil
 2012,3374,Lichtensteig,3374,Lichtensteig
-2012,3375,Oberhelfenschwil,3375,Oberhelfenschwil
+2012,3375,Oberhelfenschwil,3396,Neckertal
 2012,3377,Wattwil,3379,Wattwil
-2012,3378,Neckertal,3378,Neckertal
+2012,3378,Neckertal,3396,Neckertal
 2012,3391,Bütschwil,3395,Bütschwil-Ganterschwil
 2012,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2012,3393,Lütisburg,3393,Lütisburg
@@ -20260,7 +20260,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,4123,Windisch,4123,Windisch
 2012,4131,Beinwil am See,4131,Beinwil am See
 2012,4132,Birrwil,4132,Birrwil
-2012,4133,Burg (AG),4133,Burg (AG)
+2012,4133,Burg (AG),4139,Menziken
 2012,4134,Dürrenäsch,4134,Dürrenäsch
 2012,4135,Gontenschwil,4135,Gontenschwil
 2012,4136,Holziken,4136,Holziken
@@ -20279,7 +20279,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,4163,Frick,4163,Frick
 2012,4164,Gansingen,4164,Gansingen
 2012,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2012,4166,Herznach,4166,Herznach
+2012,4166,Herznach,4186,Herznach-Ueken
 2012,4167,Hornussen,4185,Böztal
 2012,4169,Kaisten,4169,Kaisten
 2012,4170,Laufenburg,4170,Laufenburg
@@ -20288,7 +20288,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,4175,Oeschgen,4175,Oeschgen
 2012,4176,Schwaderloch,4176,Schwaderloch
 2012,4177,Sisseln,4177,Sisseln
-2012,4179,Ueken,4179,Ueken
+2012,4179,Ueken,4186,Herznach-Ueken
 2012,4181,Wittnau,4181,Wittnau
 2012,4182,Wölflinswil,4182,Wölflinswil
 2012,4183,Zeihen,4183,Zeihen
@@ -21223,7 +21223,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2012,6742,Les Bois,6742,Les Bois
 2012,6743,Les Breuleux,6743,Les Breuleux
-2012,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2012,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2012,6745,Les Enfers,6745,Les Enfers
 2012,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2012,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -21244,11 +21244,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2012,6783,Courchavon,6783,Courchavon
 2012,6784,Courgenay,6784,Courgenay
 2012,6785,Courtedoux,6785,Courtedoux
-2012,6787,Damphreux,6787,Damphreux
+2012,6787,Damphreux,6811,Damphreux-Lugnez
 2012,6789,Fahy,6789,Fahy
 2012,6790,Fontenais,6790,Fontenais
 2012,6792,Grandfontaine,6792,Grandfontaine
-2012,6793,Lugnez,6793,Lugnez
+2012,6793,Lugnez,6811,Damphreux-Lugnez
 2012,6800,Porrentruy,6800,Porrentruy
 2012,6803,Rocourt,6809,Haute-Ajoie
 2012,6806,Vendlincourt,6806,Vendlincourt
@@ -21270,7 +21270,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,12,Rifferswil,12,Rifferswil
 2013,13,Stallikon,13,Stallikon
 2013,14,Wettswil am Albis,14,Wettswil am Albis
-2013,21,Adlikon,21,Adlikon
+2013,21,Adlikon,291,Andelfingen
 2013,22,Benken (ZH),22,Benken (ZH)
 2013,23,Berg am Irchel,23,Berg am Irchel
 2013,24,Buch am Irchel,24,Buch am Irchel
@@ -21279,9 +21279,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,27,Feuerthalen,27,Feuerthalen
 2013,28,Flaach,28,Flaach
 2013,29,Flurlingen,29,Flurlingen
-2013,30,Andelfingen,30,Andelfingen
+2013,30,Andelfingen,291,Andelfingen
 2013,31,Henggart,31,Henggart
-2013,32,Humlikon,32,Humlikon
+2013,32,Humlikon,291,Andelfingen
 2013,33,Kleinandelfingen,33,Kleinandelfingen
 2013,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2013,35,Marthalen,35,Marthalen
@@ -21545,7 +21545,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,533,Bätterkinden,533,Bätterkinden
 2013,534,Büren zum Hof,538,Fraubrunnen
 2013,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2013,536,Diemerswil,536,Diemerswil
+2013,536,Diemerswil,546,Münchenbuchsee
 2013,537,Etzelkofen,538,Fraubrunnen
 2013,538,Fraubrunnen,538,Fraubrunnen
 2013,539,Grafenried,538,Fraubrunnen
@@ -22449,10 +22449,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,3352,Ebnat-Kappel,3352,Ebnat-Kappel
 2013,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 2013,3360,Nesslau,3360,Nesslau
-2013,3372,Hemberg,3372,Hemberg
+2013,3372,Hemberg,3396,Neckertal
 2013,3374,Lichtensteig,3374,Lichtensteig
-2013,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2013,3378,Neckertal,3378,Neckertal
+2013,3375,Oberhelfenschwil,3396,Neckertal
+2013,3378,Neckertal,3396,Neckertal
 2013,3379,Wattwil,3379,Wattwil
 2013,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2013,3393,Lütisburg,3393,Lütisburg
@@ -22719,7 +22719,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,4124,Bözberg,4124,Bözberg
 2013,4131,Beinwil am See,4131,Beinwil am See
 2013,4132,Birrwil,4132,Birrwil
-2013,4133,Burg (AG),4133,Burg (AG)
+2013,4133,Burg (AG),4139,Menziken
 2013,4134,Dürrenäsch,4134,Dürrenäsch
 2013,4135,Gontenschwil,4135,Gontenschwil
 2013,4136,Holziken,4136,Holziken
@@ -22738,7 +22738,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,4163,Frick,4163,Frick
 2013,4164,Gansingen,4164,Gansingen
 2013,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2013,4166,Herznach,4166,Herznach
+2013,4166,Herznach,4186,Herznach-Ueken
 2013,4167,Hornussen,4185,Böztal
 2013,4169,Kaisten,4169,Kaisten
 2013,4170,Laufenburg,4170,Laufenburg
@@ -22747,7 +22747,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,4175,Oeschgen,4175,Oeschgen
 2013,4176,Schwaderloch,4176,Schwaderloch
 2013,4177,Sisseln,4177,Sisseln
-2013,4179,Ueken,4179,Ueken
+2013,4179,Ueken,4186,Herznach-Ueken
 2013,4181,Wittnau,4181,Wittnau
 2013,4182,Wölflinswil,4182,Wölflinswil
 2013,4183,Zeihen,4183,Zeihen
@@ -23636,7 +23636,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2013,6742,Les Bois,6742,Les Bois
 2013,6743,Les Breuleux,6743,Les Breuleux
-2013,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2013,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2013,6745,Les Enfers,6745,Les Enfers
 2013,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2013,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -23656,11 +23656,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2013,6783,Courchavon,6783,Courchavon
 2013,6784,Courgenay,6784,Courgenay
 2013,6785,Courtedoux,6785,Courtedoux
-2013,6787,Damphreux,6787,Damphreux
+2013,6787,Damphreux,6811,Damphreux-Lugnez
 2013,6789,Fahy,6789,Fahy
 2013,6790,Fontenais,6790,Fontenais
 2013,6792,Grandfontaine,6792,Grandfontaine
-2013,6793,Lugnez,6793,Lugnez
+2013,6793,Lugnez,6811,Damphreux-Lugnez
 2013,6800,Porrentruy,6800,Porrentruy
 2013,6803,Rocourt,6809,Haute-Ajoie
 2013,6806,Vendlincourt,6806,Vendlincourt
@@ -23682,7 +23682,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,12,Rifferswil,12,Rifferswil
 2014,13,Stallikon,13,Stallikon
 2014,14,Wettswil am Albis,14,Wettswil am Albis
-2014,21,Adlikon,21,Adlikon
+2014,21,Adlikon,291,Andelfingen
 2014,22,Benken (ZH),22,Benken (ZH)
 2014,23,Berg am Irchel,23,Berg am Irchel
 2014,24,Buch am Irchel,24,Buch am Irchel
@@ -23691,9 +23691,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,27,Feuerthalen,27,Feuerthalen
 2014,28,Flaach,28,Flaach
 2014,29,Flurlingen,29,Flurlingen
-2014,30,Andelfingen,30,Andelfingen
+2014,30,Andelfingen,291,Andelfingen
 2014,31,Henggart,31,Henggart
-2014,32,Humlikon,32,Humlikon
+2014,32,Humlikon,291,Andelfingen
 2014,33,Kleinandelfingen,33,Kleinandelfingen
 2014,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2014,35,Marthalen,35,Marthalen
@@ -23954,7 +23954,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,532,Bangerten,310,Rapperswil (BE)
 2014,533,Bätterkinden,533,Bätterkinden
 2014,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2014,536,Diemerswil,536,Diemerswil
+2014,536,Diemerswil,546,Münchenbuchsee
 2014,538,Fraubrunnen,538,Fraubrunnen
 2014,540,Jegenstorf,540,Jegenstorf
 2014,541,Iffwil,541,Iffwil
@@ -24833,10 +24833,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,3352,Ebnat-Kappel,3352,Ebnat-Kappel
 2014,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 2014,3360,Nesslau,3360,Nesslau
-2014,3372,Hemberg,3372,Hemberg
+2014,3372,Hemberg,3396,Neckertal
 2014,3374,Lichtensteig,3374,Lichtensteig
-2014,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2014,3378,Neckertal,3378,Neckertal
+2014,3375,Oberhelfenschwil,3396,Neckertal
+2014,3378,Neckertal,3396,Neckertal
 2014,3379,Wattwil,3379,Wattwil
 2014,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2014,3393,Lütisburg,3393,Lütisburg
@@ -25089,7 +25089,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,4125,Schinznach,4125,Schinznach
 2014,4131,Beinwil am See,4131,Beinwil am See
 2014,4132,Birrwil,4132,Birrwil
-2014,4133,Burg (AG),4133,Burg (AG)
+2014,4133,Burg (AG),4139,Menziken
 2014,4134,Dürrenäsch,4134,Dürrenäsch
 2014,4135,Gontenschwil,4135,Gontenschwil
 2014,4136,Holziken,4136,Holziken
@@ -25108,7 +25108,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,4163,Frick,4163,Frick
 2014,4164,Gansingen,4164,Gansingen
 2014,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2014,4166,Herznach,4166,Herznach
+2014,4166,Herznach,4186,Herznach-Ueken
 2014,4167,Hornussen,4185,Böztal
 2014,4169,Kaisten,4169,Kaisten
 2014,4170,Laufenburg,4170,Laufenburg
@@ -25117,7 +25117,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,4175,Oeschgen,4175,Oeschgen
 2014,4176,Schwaderloch,4176,Schwaderloch
 2014,4177,Sisseln,4177,Sisseln
-2014,4179,Ueken,4179,Ueken
+2014,4179,Ueken,4186,Herznach-Ueken
 2014,4181,Wittnau,4181,Wittnau
 2014,4182,Wölflinswil,4182,Wölflinswil
 2014,4183,Zeihen,4183,Zeihen
@@ -25992,7 +25992,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2014,6742,Les Bois,6742,Les Bois
 2014,6743,Les Breuleux,6743,Les Breuleux
-2014,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2014,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2014,6745,Les Enfers,6745,Les Enfers
 2014,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2014,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -26012,11 +26012,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,6783,Courchavon,6783,Courchavon
 2014,6784,Courgenay,6784,Courgenay
 2014,6785,Courtedoux,6785,Courtedoux
-2014,6787,Damphreux,6787,Damphreux
+2014,6787,Damphreux,6811,Damphreux-Lugnez
 2014,6789,Fahy,6789,Fahy
 2014,6790,Fontenais,6790,Fontenais
 2014,6792,Grandfontaine,6792,Grandfontaine
-2014,6793,Lugnez,6793,Lugnez
+2014,6793,Lugnez,6811,Damphreux-Lugnez
 2014,6800,Porrentruy,6800,Porrentruy
 2014,6803,Rocourt,6809,Haute-Ajoie
 2014,6806,Vendlincourt,6806,Vendlincourt
@@ -26038,7 +26038,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,12,Rifferswil,12,Rifferswil
 2015,13,Stallikon,13,Stallikon
 2015,14,Wettswil am Albis,14,Wettswil am Albis
-2015,21,Adlikon,21,Adlikon
+2015,21,Adlikon,291,Andelfingen
 2015,22,Benken (ZH),22,Benken (ZH)
 2015,23,Berg am Irchel,23,Berg am Irchel
 2015,24,Buch am Irchel,24,Buch am Irchel
@@ -26047,9 +26047,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,27,Feuerthalen,27,Feuerthalen
 2015,28,Flaach,28,Flaach
 2015,29,Flurlingen,29,Flurlingen
-2015,30,Andelfingen,30,Andelfingen
+2015,30,Andelfingen,291,Andelfingen
 2015,31,Henggart,31,Henggart
-2015,32,Humlikon,32,Humlikon
+2015,32,Humlikon,291,Andelfingen
 2015,33,Kleinandelfingen,33,Kleinandelfingen
 2015,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2015,35,Marthalen,35,Marthalen
@@ -26308,7 +26308,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,532,Bangerten,310,Rapperswil (BE)
 2015,533,Bätterkinden,533,Bätterkinden
 2015,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2015,536,Diemerswil,536,Diemerswil
+2015,536,Diemerswil,546,Münchenbuchsee
 2015,538,Fraubrunnen,538,Fraubrunnen
 2015,540,Jegenstorf,540,Jegenstorf
 2015,541,Iffwil,541,Iffwil
@@ -27182,10 +27182,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,3352,Ebnat-Kappel,3352,Ebnat-Kappel
 2015,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 2015,3360,Nesslau,3360,Nesslau
-2015,3372,Hemberg,3372,Hemberg
+2015,3372,Hemberg,3396,Neckertal
 2015,3374,Lichtensteig,3374,Lichtensteig
-2015,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2015,3378,Neckertal,3378,Neckertal
+2015,3375,Oberhelfenschwil,3396,Neckertal
+2015,3378,Neckertal,3396,Neckertal
 2015,3379,Wattwil,3379,Wattwil
 2015,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2015,3393,Lütisburg,3393,Lütisburg
@@ -27417,7 +27417,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,4125,Schinznach,4125,Schinznach
 2015,4131,Beinwil am See,4131,Beinwil am See
 2015,4132,Birrwil,4132,Birrwil
-2015,4133,Burg (AG),4133,Burg (AG)
+2015,4133,Burg (AG),4139,Menziken
 2015,4134,Dürrenäsch,4134,Dürrenäsch
 2015,4135,Gontenschwil,4135,Gontenschwil
 2015,4136,Holziken,4136,Holziken
@@ -27436,7 +27436,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,4163,Frick,4163,Frick
 2015,4164,Gansingen,4164,Gansingen
 2015,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2015,4166,Herznach,4166,Herznach
+2015,4166,Herznach,4186,Herznach-Ueken
 2015,4167,Hornussen,4185,Böztal
 2015,4169,Kaisten,4169,Kaisten
 2015,4170,Laufenburg,4170,Laufenburg
@@ -27445,7 +27445,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,4175,Oeschgen,4175,Oeschgen
 2015,4176,Schwaderloch,4176,Schwaderloch
 2015,4177,Sisseln,4177,Sisseln
-2015,4179,Ueken,4179,Ueken
+2015,4179,Ueken,4186,Herznach-Ueken
 2015,4181,Wittnau,4181,Wittnau
 2015,4182,Wölflinswil,4182,Wölflinswil
 2015,4183,Zeihen,4183,Zeihen
@@ -28320,7 +28320,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2015,6742,Les Bois,6742,Les Bois
 2015,6743,Les Breuleux,6743,Les Breuleux
-2015,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2015,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2015,6745,Les Enfers,6745,Les Enfers
 2015,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2015,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -28340,11 +28340,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2015,6783,Courchavon,6783,Courchavon
 2015,6784,Courgenay,6784,Courgenay
 2015,6785,Courtedoux,6785,Courtedoux
-2015,6787,Damphreux,6787,Damphreux
+2015,6787,Damphreux,6811,Damphreux-Lugnez
 2015,6789,Fahy,6789,Fahy
 2015,6790,Fontenais,6790,Fontenais
 2015,6792,Grandfontaine,6792,Grandfontaine
-2015,6793,Lugnez,6793,Lugnez
+2015,6793,Lugnez,6811,Damphreux-Lugnez
 2015,6800,Porrentruy,6800,Porrentruy
 2015,6803,Rocourt,6809,Haute-Ajoie
 2015,6806,Vendlincourt,6806,Vendlincourt
@@ -28366,7 +28366,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,12,Rifferswil,12,Rifferswil
 2016,13,Stallikon,13,Stallikon
 2016,14,Wettswil am Albis,14,Wettswil am Albis
-2016,21,Adlikon,21,Adlikon
+2016,21,Adlikon,291,Andelfingen
 2016,22,Benken (ZH),22,Benken (ZH)
 2016,23,Berg am Irchel,23,Berg am Irchel
 2016,24,Buch am Irchel,24,Buch am Irchel
@@ -28375,9 +28375,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,27,Feuerthalen,27,Feuerthalen
 2016,28,Flaach,28,Flaach
 2016,29,Flurlingen,29,Flurlingen
-2016,30,Andelfingen,30,Andelfingen
+2016,30,Andelfingen,291,Andelfingen
 2016,31,Henggart,31,Henggart
-2016,32,Humlikon,32,Humlikon
+2016,32,Humlikon,291,Andelfingen
 2016,33,Kleinandelfingen,33,Kleinandelfingen
 2016,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2016,35,Marthalen,35,Marthalen
@@ -28632,7 +28632,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,502,Vinelz,502,Vinelz
 2016,533,Bätterkinden,533,Bätterkinden
 2016,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2016,536,Diemerswil,536,Diemerswil
+2016,536,Diemerswil,546,Münchenbuchsee
 2016,538,Fraubrunnen,538,Fraubrunnen
 2016,540,Jegenstorf,540,Jegenstorf
 2016,541,Iffwil,541,Iffwil
@@ -29492,10 +29492,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,3352,Ebnat-Kappel,3352,Ebnat-Kappel
 2016,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 2016,3360,Nesslau,3360,Nesslau
-2016,3372,Hemberg,3372,Hemberg
+2016,3372,Hemberg,3396,Neckertal
 2016,3374,Lichtensteig,3374,Lichtensteig
-2016,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2016,3378,Neckertal,3378,Neckertal
+2016,3375,Oberhelfenschwil,3396,Neckertal
+2016,3378,Neckertal,3396,Neckertal
 2016,3379,Wattwil,3379,Wattwil
 2016,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2016,3393,Lütisburg,3393,Lütisburg
@@ -29716,7 +29716,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,4125,Schinznach,4125,Schinznach
 2016,4131,Beinwil am See,4131,Beinwil am See
 2016,4132,Birrwil,4132,Birrwil
-2016,4133,Burg (AG),4133,Burg (AG)
+2016,4133,Burg (AG),4139,Menziken
 2016,4134,Dürrenäsch,4134,Dürrenäsch
 2016,4135,Gontenschwil,4135,Gontenschwil
 2016,4136,Holziken,4136,Holziken
@@ -29735,7 +29735,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,4163,Frick,4163,Frick
 2016,4164,Gansingen,4164,Gansingen
 2016,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2016,4166,Herznach,4166,Herznach
+2016,4166,Herznach,4186,Herznach-Ueken
 2016,4167,Hornussen,4185,Böztal
 2016,4169,Kaisten,4169,Kaisten
 2016,4170,Laufenburg,4170,Laufenburg
@@ -29744,7 +29744,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,4175,Oeschgen,4175,Oeschgen
 2016,4176,Schwaderloch,4176,Schwaderloch
 2016,4177,Sisseln,4177,Sisseln
-2016,4179,Ueken,4179,Ueken
+2016,4179,Ueken,4186,Herznach-Ueken
 2016,4181,Wittnau,4181,Wittnau
 2016,4182,Wölflinswil,4182,Wölflinswil
 2016,4183,Zeihen,4183,Zeihen
@@ -30618,7 +30618,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2016,6742,Les Bois,6742,Les Bois
 2016,6743,Les Breuleux,6743,Les Breuleux
-2016,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2016,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2016,6745,Les Enfers,6745,Les Enfers
 2016,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2016,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -30638,11 +30638,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2016,6783,Courchavon,6783,Courchavon
 2016,6784,Courgenay,6784,Courgenay
 2016,6785,Courtedoux,6785,Courtedoux
-2016,6787,Damphreux,6787,Damphreux
+2016,6787,Damphreux,6811,Damphreux-Lugnez
 2016,6789,Fahy,6789,Fahy
 2016,6790,Fontenais,6790,Fontenais
 2016,6792,Grandfontaine,6792,Grandfontaine
-2016,6793,Lugnez,6793,Lugnez
+2016,6793,Lugnez,6811,Damphreux-Lugnez
 2016,6800,Porrentruy,6800,Porrentruy
 2016,6803,Rocourt,6809,Haute-Ajoie
 2016,6806,Vendlincourt,6806,Vendlincourt
@@ -30664,7 +30664,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,12,Rifferswil,12,Rifferswil
 2017,13,Stallikon,13,Stallikon
 2017,14,Wettswil am Albis,14,Wettswil am Albis
-2017,21,Adlikon,21,Adlikon
+2017,21,Adlikon,291,Andelfingen
 2017,22,Benken (ZH),22,Benken (ZH)
 2017,23,Berg am Irchel,23,Berg am Irchel
 2017,24,Buch am Irchel,24,Buch am Irchel
@@ -30673,9 +30673,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,27,Feuerthalen,27,Feuerthalen
 2017,28,Flaach,28,Flaach
 2017,29,Flurlingen,29,Flurlingen
-2017,30,Andelfingen,30,Andelfingen
+2017,30,Andelfingen,291,Andelfingen
 2017,31,Henggart,31,Henggart
-2017,32,Humlikon,32,Humlikon
+2017,32,Humlikon,291,Andelfingen
 2017,33,Kleinandelfingen,33,Kleinandelfingen
 2017,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2017,35,Marthalen,35,Marthalen
@@ -30930,7 +30930,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,502,Vinelz,502,Vinelz
 2017,533,Bätterkinden,533,Bätterkinden
 2017,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2017,536,Diemerswil,536,Diemerswil
+2017,536,Diemerswil,546,Münchenbuchsee
 2017,538,Fraubrunnen,538,Fraubrunnen
 2017,540,Jegenstorf,540,Jegenstorf
 2017,541,Iffwil,541,Iffwil
@@ -31775,10 +31775,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,3352,Ebnat-Kappel,3352,Ebnat-Kappel
 2017,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 2017,3360,Nesslau,3360,Nesslau
-2017,3372,Hemberg,3372,Hemberg
+2017,3372,Hemberg,3396,Neckertal
 2017,3374,Lichtensteig,3374,Lichtensteig
-2017,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2017,3378,Neckertal,3378,Neckertal
+2017,3375,Oberhelfenschwil,3396,Neckertal
+2017,3378,Neckertal,3396,Neckertal
 2017,3379,Wattwil,3379,Wattwil
 2017,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2017,3393,Lütisburg,3393,Lütisburg
@@ -31997,7 +31997,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,4125,Schinznach,4125,Schinznach
 2017,4131,Beinwil am See,4131,Beinwil am See
 2017,4132,Birrwil,4132,Birrwil
-2017,4133,Burg (AG),4133,Burg (AG)
+2017,4133,Burg (AG),4139,Menziken
 2017,4134,Dürrenäsch,4134,Dürrenäsch
 2017,4135,Gontenschwil,4135,Gontenschwil
 2017,4136,Holziken,4136,Holziken
@@ -32016,7 +32016,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,4163,Frick,4163,Frick
 2017,4164,Gansingen,4164,Gansingen
 2017,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2017,4166,Herznach,4166,Herznach
+2017,4166,Herznach,4186,Herznach-Ueken
 2017,4167,Hornussen,4185,Böztal
 2017,4169,Kaisten,4169,Kaisten
 2017,4170,Laufenburg,4170,Laufenburg
@@ -32025,7 +32025,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,4175,Oeschgen,4175,Oeschgen
 2017,4176,Schwaderloch,4176,Schwaderloch
 2017,4177,Sisseln,4177,Sisseln
-2017,4179,Ueken,4179,Ueken
+2017,4179,Ueken,4186,Herznach-Ueken
 2017,4181,Wittnau,4181,Wittnau
 2017,4182,Wölflinswil,4182,Wölflinswil
 2017,4183,Zeihen,4183,Zeihen
@@ -32876,7 +32876,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2017,6742,Les Bois,6742,Les Bois
 2017,6743,Les Breuleux,6743,Les Breuleux
-2017,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2017,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2017,6745,Les Enfers,6745,Les Enfers
 2017,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2017,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -32896,11 +32896,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2017,6783,Courchavon,6783,Courchavon
 2017,6784,Courgenay,6784,Courgenay
 2017,6785,Courtedoux,6785,Courtedoux
-2017,6787,Damphreux,6787,Damphreux
+2017,6787,Damphreux,6811,Damphreux-Lugnez
 2017,6789,Fahy,6789,Fahy
 2017,6790,Fontenais,6790,Fontenais
 2017,6792,Grandfontaine,6792,Grandfontaine
-2017,6793,Lugnez,6793,Lugnez
+2017,6793,Lugnez,6811,Damphreux-Lugnez
 2017,6800,Porrentruy,6800,Porrentruy
 2017,6803,Rocourt,6809,Haute-Ajoie
 2017,6806,Vendlincourt,6806,Vendlincourt
@@ -32922,7 +32922,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,12,Rifferswil,12,Rifferswil
 2018,13,Stallikon,13,Stallikon
 2018,14,Wettswil am Albis,14,Wettswil am Albis
-2018,21,Adlikon,21,Adlikon
+2018,21,Adlikon,291,Andelfingen
 2018,22,Benken (ZH),22,Benken (ZH)
 2018,23,Berg am Irchel,23,Berg am Irchel
 2018,24,Buch am Irchel,24,Buch am Irchel
@@ -32931,9 +32931,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,27,Feuerthalen,27,Feuerthalen
 2018,28,Flaach,28,Flaach
 2018,29,Flurlingen,29,Flurlingen
-2018,30,Andelfingen,30,Andelfingen
+2018,30,Andelfingen,291,Andelfingen
 2018,31,Henggart,31,Henggart
-2018,32,Humlikon,32,Humlikon
+2018,32,Humlikon,291,Andelfingen
 2018,33,Kleinandelfingen,33,Kleinandelfingen
 2018,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2018,35,Marthalen,35,Marthalen
@@ -33186,7 +33186,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,502,Vinelz,502,Vinelz
 2018,533,Bätterkinden,533,Bätterkinden
 2018,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2018,536,Diemerswil,536,Diemerswil
+2018,536,Diemerswil,546,Münchenbuchsee
 2018,538,Fraubrunnen,538,Fraubrunnen
 2018,540,Jegenstorf,540,Jegenstorf
 2018,541,Iffwil,541,Iffwil
@@ -34027,10 +34027,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,3352,Ebnat-Kappel,3352,Ebnat-Kappel
 2018,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 2018,3360,Nesslau,3360,Nesslau
-2018,3372,Hemberg,3372,Hemberg
+2018,3372,Hemberg,3396,Neckertal
 2018,3374,Lichtensteig,3374,Lichtensteig
-2018,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2018,3378,Neckertal,3378,Neckertal
+2018,3375,Oberhelfenschwil,3396,Neckertal
+2018,3378,Neckertal,3396,Neckertal
 2018,3379,Wattwil,3379,Wattwil
 2018,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2018,3393,Lütisburg,3393,Lütisburg
@@ -34244,7 +34244,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,4125,Schinznach,4125,Schinznach
 2018,4131,Beinwil am See,4131,Beinwil am See
 2018,4132,Birrwil,4132,Birrwil
-2018,4133,Burg (AG),4133,Burg (AG)
+2018,4133,Burg (AG),4139,Menziken
 2018,4134,Dürrenäsch,4134,Dürrenäsch
 2018,4135,Gontenschwil,4135,Gontenschwil
 2018,4136,Holziken,4136,Holziken
@@ -34263,7 +34263,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,4163,Frick,4163,Frick
 2018,4164,Gansingen,4164,Gansingen
 2018,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2018,4166,Herznach,4166,Herznach
+2018,4166,Herznach,4186,Herznach-Ueken
 2018,4167,Hornussen,4185,Böztal
 2018,4169,Kaisten,4169,Kaisten
 2018,4170,Laufenburg,4170,Laufenburg
@@ -34272,7 +34272,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,4175,Oeschgen,4175,Oeschgen
 2018,4176,Schwaderloch,4176,Schwaderloch
 2018,4177,Sisseln,4177,Sisseln
-2018,4179,Ueken,4179,Ueken
+2018,4179,Ueken,4186,Herznach-Ueken
 2018,4181,Wittnau,4181,Wittnau
 2018,4182,Wölflinswil,4182,Wölflinswil
 2018,4183,Zeihen,4183,Zeihen
@@ -35102,7 +35102,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2018,6742,Les Bois,6742,Les Bois
 2018,6743,Les Breuleux,6743,Les Breuleux
-2018,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2018,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2018,6745,Les Enfers,6745,Les Enfers
 2018,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2018,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -35122,11 +35122,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2018,6783,Courchavon,6783,Courchavon
 2018,6784,Courgenay,6784,Courgenay
 2018,6785,Courtedoux,6785,Courtedoux
-2018,6787,Damphreux,6787,Damphreux
+2018,6787,Damphreux,6811,Damphreux-Lugnez
 2018,6789,Fahy,6789,Fahy
 2018,6790,Fontenais,6790,Fontenais
 2018,6792,Grandfontaine,6792,Grandfontaine
-2018,6793,Lugnez,6793,Lugnez
+2018,6793,Lugnez,6811,Damphreux-Lugnez
 2018,6800,Porrentruy,6800,Porrentruy
 2018,6806,Vendlincourt,6806,Vendlincourt
 2018,6807,Basse-Allaine,6807,Basse-Allaine
@@ -35147,7 +35147,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,12,Rifferswil,12,Rifferswil
 2019,13,Stallikon,13,Stallikon
 2019,14,Wettswil am Albis,14,Wettswil am Albis
-2019,21,Adlikon,21,Adlikon
+2019,21,Adlikon,291,Andelfingen
 2019,22,Benken (ZH),22,Benken (ZH)
 2019,23,Berg am Irchel,23,Berg am Irchel
 2019,24,Buch am Irchel,24,Buch am Irchel
@@ -35156,9 +35156,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,27,Feuerthalen,27,Feuerthalen
 2019,28,Flaach,28,Flaach
 2019,29,Flurlingen,29,Flurlingen
-2019,30,Andelfingen,30,Andelfingen
+2019,30,Andelfingen,291,Andelfingen
 2019,31,Henggart,31,Henggart
-2019,32,Humlikon,32,Humlikon
+2019,32,Humlikon,291,Andelfingen
 2019,33,Kleinandelfingen,33,Kleinandelfingen
 2019,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2019,35,Marthalen,35,Marthalen
@@ -35407,7 +35407,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,502,Vinelz,502,Vinelz
 2019,533,Bätterkinden,533,Bätterkinden
 2019,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2019,536,Diemerswil,536,Diemerswil
+2019,536,Diemerswil,546,Münchenbuchsee
 2019,538,Fraubrunnen,538,Fraubrunnen
 2019,540,Jegenstorf,540,Jegenstorf
 2019,541,Iffwil,541,Iffwil
@@ -36247,10 +36247,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,3352,Ebnat-Kappel,3352,Ebnat-Kappel
 2019,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 2019,3360,Nesslau,3360,Nesslau
-2019,3372,Hemberg,3372,Hemberg
+2019,3372,Hemberg,3396,Neckertal
 2019,3374,Lichtensteig,3374,Lichtensteig
-2019,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2019,3378,Neckertal,3378,Neckertal
+2019,3375,Oberhelfenschwil,3396,Neckertal
+2019,3378,Neckertal,3396,Neckertal
 2019,3379,Wattwil,3379,Wattwil
 2019,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2019,3393,Lütisburg,3393,Lütisburg
@@ -36462,7 +36462,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,4125,Schinznach,4125,Schinznach
 2019,4131,Beinwil am See,4131,Beinwil am See
 2019,4132,Birrwil,4132,Birrwil
-2019,4133,Burg (AG),4133,Burg (AG)
+2019,4133,Burg (AG),4139,Menziken
 2019,4134,Dürrenäsch,4134,Dürrenäsch
 2019,4135,Gontenschwil,4135,Gontenschwil
 2019,4136,Holziken,4136,Holziken
@@ -36481,7 +36481,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,4163,Frick,4163,Frick
 2019,4164,Gansingen,4164,Gansingen
 2019,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2019,4166,Herznach,4166,Herznach
+2019,4166,Herznach,4186,Herznach-Ueken
 2019,4167,Hornussen,4185,Böztal
 2019,4169,Kaisten,4169,Kaisten
 2019,4170,Laufenburg,4170,Laufenburg
@@ -36490,7 +36490,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,4175,Oeschgen,4175,Oeschgen
 2019,4176,Schwaderloch,4176,Schwaderloch
 2019,4177,Sisseln,4177,Sisseln
-2019,4179,Ueken,4179,Ueken
+2019,4179,Ueken,4186,Herznach-Ueken
 2019,4181,Wittnau,4181,Wittnau
 2019,4182,Wölflinswil,4182,Wölflinswil
 2019,4183,Zeihen,4183,Zeihen
@@ -37317,7 +37317,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2019,6742,Les Bois,6742,Les Bois
 2019,6743,Les Breuleux,6743,Les Breuleux
-2019,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2019,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2019,6745,Les Enfers,6745,Les Enfers
 2019,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2019,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -37337,11 +37337,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2019,6783,Courchavon,6783,Courchavon
 2019,6784,Courgenay,6784,Courgenay
 2019,6785,Courtedoux,6785,Courtedoux
-2019,6787,Damphreux,6787,Damphreux
+2019,6787,Damphreux,6811,Damphreux-Lugnez
 2019,6789,Fahy,6789,Fahy
 2019,6790,Fontenais,6790,Fontenais
 2019,6792,Grandfontaine,6792,Grandfontaine
-2019,6793,Lugnez,6793,Lugnez
+2019,6793,Lugnez,6811,Damphreux-Lugnez
 2019,6800,Porrentruy,6800,Porrentruy
 2019,6806,Vendlincourt,6806,Vendlincourt
 2019,6807,Basse-Allaine,6807,Basse-Allaine
@@ -37362,7 +37362,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,12,Rifferswil,12,Rifferswil
 2020,13,Stallikon,13,Stallikon
 2020,14,Wettswil am Albis,14,Wettswil am Albis
-2020,21,Adlikon,21,Adlikon
+2020,21,Adlikon,291,Andelfingen
 2020,22,Benken (ZH),22,Benken (ZH)
 2020,23,Berg am Irchel,23,Berg am Irchel
 2020,24,Buch am Irchel,24,Buch am Irchel
@@ -37371,9 +37371,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,27,Feuerthalen,27,Feuerthalen
 2020,28,Flaach,28,Flaach
 2020,29,Flurlingen,29,Flurlingen
-2020,30,Andelfingen,30,Andelfingen
+2020,30,Andelfingen,291,Andelfingen
 2020,31,Henggart,31,Henggart
-2020,32,Humlikon,32,Humlikon
+2020,32,Humlikon,291,Andelfingen
 2020,33,Kleinandelfingen,33,Kleinandelfingen
 2020,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2020,35,Marthalen,35,Marthalen
@@ -37622,7 +37622,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,502,Vinelz,502,Vinelz
 2020,533,Bätterkinden,533,Bätterkinden
 2020,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2020,536,Diemerswil,536,Diemerswil
+2020,536,Diemerswil,546,Münchenbuchsee
 2020,538,Fraubrunnen,538,Fraubrunnen
 2020,540,Jegenstorf,540,Jegenstorf
 2020,541,Iffwil,541,Iffwil
@@ -38454,10 +38454,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,3352,Ebnat-Kappel,3352,Ebnat-Kappel
 2020,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 2020,3360,Nesslau,3360,Nesslau
-2020,3372,Hemberg,3372,Hemberg
+2020,3372,Hemberg,3396,Neckertal
 2020,3374,Lichtensteig,3374,Lichtensteig
-2020,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2020,3378,Neckertal,3378,Neckertal
+2020,3375,Oberhelfenschwil,3396,Neckertal
+2020,3378,Neckertal,3396,Neckertal
 2020,3379,Wattwil,3379,Wattwil
 2020,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2020,3393,Lütisburg,3393,Lütisburg
@@ -38667,7 +38667,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,4125,Schinznach,4125,Schinznach
 2020,4131,Beinwil am See,4131,Beinwil am See
 2020,4132,Birrwil,4132,Birrwil
-2020,4133,Burg (AG),4133,Burg (AG)
+2020,4133,Burg (AG),4139,Menziken
 2020,4134,Dürrenäsch,4134,Dürrenäsch
 2020,4135,Gontenschwil,4135,Gontenschwil
 2020,4136,Holziken,4136,Holziken
@@ -38686,7 +38686,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,4163,Frick,4163,Frick
 2020,4164,Gansingen,4164,Gansingen
 2020,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2020,4166,Herznach,4166,Herznach
+2020,4166,Herznach,4186,Herznach-Ueken
 2020,4167,Hornussen,4185,Böztal
 2020,4169,Kaisten,4169,Kaisten
 2020,4170,Laufenburg,4170,Laufenburg
@@ -38695,7 +38695,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,4175,Oeschgen,4175,Oeschgen
 2020,4176,Schwaderloch,4176,Schwaderloch
 2020,4177,Sisseln,4177,Sisseln
-2020,4179,Ueken,4179,Ueken
+2020,4179,Ueken,4186,Herznach-Ueken
 2020,4181,Wittnau,4181,Wittnau
 2020,4182,Wölflinswil,4182,Wölflinswil
 2020,4183,Zeihen,4183,Zeihen
@@ -39522,7 +39522,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2020,6742,Les Bois,6742,Les Bois
 2020,6743,Les Breuleux,6743,Les Breuleux
-2020,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2020,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2020,6745,Les Enfers,6745,Les Enfers
 2020,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2020,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -39542,11 +39542,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2020,6783,Courchavon,6783,Courchavon
 2020,6784,Courgenay,6784,Courgenay
 2020,6785,Courtedoux,6785,Courtedoux
-2020,6787,Damphreux,6787,Damphreux
+2020,6787,Damphreux,6811,Damphreux-Lugnez
 2020,6789,Fahy,6789,Fahy
 2020,6790,Fontenais,6790,Fontenais
 2020,6792,Grandfontaine,6792,Grandfontaine
-2020,6793,Lugnez,6793,Lugnez
+2020,6793,Lugnez,6811,Damphreux-Lugnez
 2020,6800,Porrentruy,6800,Porrentruy
 2020,6806,Vendlincourt,6806,Vendlincourt
 2020,6807,Basse-Allaine,6807,Basse-Allaine
@@ -39567,7 +39567,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,12,Rifferswil,12,Rifferswil
 2021,13,Stallikon,13,Stallikon
 2021,14,Wettswil am Albis,14,Wettswil am Albis
-2021,21,Adlikon,21,Adlikon
+2021,21,Adlikon,291,Andelfingen
 2021,22,Benken (ZH),22,Benken (ZH)
 2021,23,Berg am Irchel,23,Berg am Irchel
 2021,24,Buch am Irchel,24,Buch am Irchel
@@ -39576,9 +39576,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,27,Feuerthalen,27,Feuerthalen
 2021,28,Flaach,28,Flaach
 2021,29,Flurlingen,29,Flurlingen
-2021,30,Andelfingen,30,Andelfingen
+2021,30,Andelfingen,291,Andelfingen
 2021,31,Henggart,31,Henggart
-2021,32,Humlikon,32,Humlikon
+2021,32,Humlikon,291,Andelfingen
 2021,33,Kleinandelfingen,33,Kleinandelfingen
 2021,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2021,35,Marthalen,35,Marthalen
@@ -39825,7 +39825,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,502,Vinelz,502,Vinelz
 2021,533,Bätterkinden,533,Bätterkinden
 2021,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2021,536,Diemerswil,536,Diemerswil
+2021,536,Diemerswil,546,Münchenbuchsee
 2021,538,Fraubrunnen,538,Fraubrunnen
 2021,540,Jegenstorf,540,Jegenstorf
 2021,541,Iffwil,541,Iffwil
@@ -40646,10 +40646,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,3352,Ebnat-Kappel,3352,Ebnat-Kappel
 2021,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 2021,3360,Nesslau,3360,Nesslau
-2021,3372,Hemberg,3372,Hemberg
+2021,3372,Hemberg,3396,Neckertal
 2021,3374,Lichtensteig,3374,Lichtensteig
-2021,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2021,3378,Neckertal,3378,Neckertal
+2021,3375,Oberhelfenschwil,3396,Neckertal
+2021,3378,Neckertal,3396,Neckertal
 2021,3379,Wattwil,3379,Wattwil
 2021,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2021,3393,Lütisburg,3393,Lütisburg
@@ -40855,7 +40855,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,4125,Schinznach,4125,Schinznach
 2021,4131,Beinwil am See,4131,Beinwil am See
 2021,4132,Birrwil,4132,Birrwil
-2021,4133,Burg (AG),4133,Burg (AG)
+2021,4133,Burg (AG),4139,Menziken
 2021,4134,Dürrenäsch,4134,Dürrenäsch
 2021,4135,Gontenschwil,4135,Gontenschwil
 2021,4136,Holziken,4136,Holziken
@@ -40874,7 +40874,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,4163,Frick,4163,Frick
 2021,4164,Gansingen,4164,Gansingen
 2021,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2021,4166,Herznach,4166,Herznach
+2021,4166,Herznach,4186,Herznach-Ueken
 2021,4167,Hornussen,4185,Böztal
 2021,4169,Kaisten,4169,Kaisten
 2021,4170,Laufenburg,4170,Laufenburg
@@ -40883,7 +40883,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,4175,Oeschgen,4175,Oeschgen
 2021,4176,Schwaderloch,4176,Schwaderloch
 2021,4177,Sisseln,4177,Sisseln
-2021,4179,Ueken,4179,Ueken
+2021,4179,Ueken,4186,Herznach-Ueken
 2021,4181,Wittnau,4181,Wittnau
 2021,4182,Wölflinswil,4182,Wölflinswil
 2021,4183,Zeihen,4183,Zeihen
@@ -41697,7 +41697,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2021,6742,Les Bois,6742,Les Bois
 2021,6743,Les Breuleux,6743,Les Breuleux
-2021,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2021,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2021,6745,Les Enfers,6745,Les Enfers
 2021,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2021,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -41717,11 +41717,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2021,6783,Courchavon,6783,Courchavon
 2021,6784,Courgenay,6784,Courgenay
 2021,6785,Courtedoux,6785,Courtedoux
-2021,6787,Damphreux,6787,Damphreux
+2021,6787,Damphreux,6811,Damphreux-Lugnez
 2021,6789,Fahy,6789,Fahy
 2021,6790,Fontenais,6790,Fontenais
 2021,6792,Grandfontaine,6792,Grandfontaine
-2021,6793,Lugnez,6793,Lugnez
+2021,6793,Lugnez,6811,Damphreux-Lugnez
 2021,6800,Porrentruy,6800,Porrentruy
 2021,6806,Vendlincourt,6806,Vendlincourt
 2021,6807,Basse-Allaine,6807,Basse-Allaine
@@ -41742,7 +41742,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,12,Rifferswil,12,Rifferswil
 2022,13,Stallikon,13,Stallikon
 2022,14,Wettswil am Albis,14,Wettswil am Albis
-2022,21,Adlikon,21,Adlikon
+2022,21,Adlikon,291,Andelfingen
 2022,22,Benken (ZH),22,Benken (ZH)
 2022,23,Berg am Irchel,23,Berg am Irchel
 2022,24,Buch am Irchel,24,Buch am Irchel
@@ -41751,9 +41751,9 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,27,Feuerthalen,27,Feuerthalen
 2022,28,Flaach,28,Flaach
 2022,29,Flurlingen,29,Flurlingen
-2022,30,Andelfingen,30,Andelfingen
+2022,30,Andelfingen,291,Andelfingen
 2022,31,Henggart,31,Henggart
-2022,32,Humlikon,32,Humlikon
+2022,32,Humlikon,291,Andelfingen
 2022,33,Kleinandelfingen,33,Kleinandelfingen
 2022,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2022,35,Marthalen,35,Marthalen
@@ -42000,7 +42000,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,502,Vinelz,502,Vinelz
 2022,533,Bätterkinden,533,Bätterkinden
 2022,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2022,536,Diemerswil,536,Diemerswil
+2022,536,Diemerswil,546,Münchenbuchsee
 2022,538,Fraubrunnen,538,Fraubrunnen
 2022,540,Jegenstorf,540,Jegenstorf
 2022,541,Iffwil,541,Iffwil
@@ -42818,10 +42818,10 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,3352,Ebnat-Kappel,3352,Ebnat-Kappel
 2022,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 2022,3360,Nesslau,3360,Nesslau
-2022,3372,Hemberg,3372,Hemberg
+2022,3372,Hemberg,3396,Neckertal
 2022,3374,Lichtensteig,3374,Lichtensteig
-2022,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2022,3378,Neckertal,3378,Neckertal
+2022,3375,Oberhelfenschwil,3396,Neckertal
+2022,3378,Neckertal,3396,Neckertal
 2022,3379,Wattwil,3379,Wattwil
 2022,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2022,3393,Lütisburg,3393,Lütisburg
@@ -43024,7 +43024,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,4125,Schinznach,4125,Schinznach
 2022,4131,Beinwil am See,4131,Beinwil am See
 2022,4132,Birrwil,4132,Birrwil
-2022,4133,Burg (AG),4133,Burg (AG)
+2022,4133,Burg (AG),4139,Menziken
 2022,4134,Dürrenäsch,4134,Dürrenäsch
 2022,4135,Gontenschwil,4135,Gontenschwil
 2022,4136,Holziken,4136,Holziken
@@ -43043,7 +43043,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,4163,Frick,4163,Frick
 2022,4164,Gansingen,4164,Gansingen
 2022,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2022,4166,Herznach,4166,Herznach
+2022,4166,Herznach,4186,Herznach-Ueken
 2022,4169,Kaisten,4169,Kaisten
 2022,4170,Laufenburg,4170,Laufenburg
 2022,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -43051,7 +43051,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,4175,Oeschgen,4175,Oeschgen
 2022,4176,Schwaderloch,4176,Schwaderloch
 2022,4177,Sisseln,4177,Sisseln
-2022,4179,Ueken,4179,Ueken
+2022,4179,Ueken,4186,Herznach-Ueken
 2022,4181,Wittnau,4181,Wittnau
 2022,4182,Wölflinswil,4182,Wölflinswil
 2022,4183,Zeihen,4183,Zeihen
@@ -43848,7 +43848,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2022,6742,Les Bois,6742,Les Bois
 2022,6743,Les Breuleux,6743,Les Breuleux
-2022,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2022,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2022,6745,Les Enfers,6745,Les Enfers
 2022,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2022,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -43868,11 +43868,11 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2022,6783,Courchavon,6783,Courchavon
 2022,6784,Courgenay,6784,Courgenay
 2022,6785,Courtedoux,6785,Courtedoux
-2022,6787,Damphreux,6787,Damphreux
+2022,6787,Damphreux,6811,Damphreux-Lugnez
 2022,6789,Fahy,6789,Fahy
 2022,6790,Fontenais,6790,Fontenais
 2022,6792,Grandfontaine,6792,Grandfontaine
-2022,6793,Lugnez,6793,Lugnez
+2022,6793,Lugnez,6811,Damphreux-Lugnez
 2022,6800,Porrentruy,6800,Porrentruy
 2022,6806,Vendlincourt,6806,Vendlincourt
 2022,6807,Basse-Allaine,6807,Basse-Allaine
@@ -43893,7 +43893,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2023,12,Rifferswil,12,Rifferswil
 2023,13,Stallikon,13,Stallikon
 2023,14,Wettswil am Albis,14,Wettswil am Albis
-2023,21,Adlikon,21,Adlikon
 2023,22,Benken (ZH),22,Benken (ZH)
 2023,23,Berg am Irchel,23,Berg am Irchel
 2023,24,Buch am Irchel,24,Buch am Irchel
@@ -43902,9 +43901,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2023,27,Feuerthalen,27,Feuerthalen
 2023,28,Flaach,28,Flaach
 2023,29,Flurlingen,29,Flurlingen
-2023,30,Andelfingen,30,Andelfingen
 2023,31,Henggart,31,Henggart
-2023,32,Humlikon,32,Humlikon
 2023,33,Kleinandelfingen,33,Kleinandelfingen
 2023,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2023,35,Marthalen,35,Marthalen
@@ -44034,6 +44031,7 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2023,250,Urdorf,250,Urdorf
 2023,251,Weiningen (ZH),251,Weiningen (ZH)
 2023,261,Zürich,261,Zürich
+2023,291,Andelfingen,291,Andelfingen
 2023,292,Stammheim,292,Stammheim
 2023,293,Wädenswil,293,Wädenswil
 2023,294,Elgg,294,Elgg
@@ -44151,7 +44149,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2023,502,Vinelz,502,Vinelz
 2023,533,Bätterkinden,533,Bätterkinden
 2023,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2023,536,Diemerswil,536,Diemerswil
 2023,538,Fraubrunnen,538,Fraubrunnen
 2023,540,Jegenstorf,540,Jegenstorf
 2023,541,Iffwil,541,Iffwil
@@ -44968,15 +44965,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2023,3352,Ebnat-Kappel,3352,Ebnat-Kappel
 2023,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 2023,3360,Nesslau,3360,Nesslau
-2023,3372,Hemberg,3372,Hemberg
 2023,3374,Lichtensteig,3374,Lichtensteig
-2023,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2023,3378,Neckertal,3378,Neckertal
 2023,3379,Wattwil,3379,Wattwil
 2023,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2023,3393,Lütisburg,3393,Lütisburg
 2023,3394,Mosnang,3394,Mosnang
 2023,3395,Bütschwil-Ganterschwil,3395,Bütschwil-Ganterschwil
+2023,3396,Neckertal,3396,Neckertal
 2023,3401,Degersheim,3401,Degersheim
 2023,3402,Flawil,3402,Flawil
 2023,3405,Jonschwil,3405,Jonschwil
@@ -45174,7 +45169,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2023,4125,Schinznach,4125,Schinznach
 2023,4131,Beinwil am See,4131,Beinwil am See
 2023,4132,Birrwil,4132,Birrwil
-2023,4133,Burg (AG),4133,Burg (AG)
 2023,4134,Dürrenäsch,4134,Dürrenäsch
 2023,4135,Gontenschwil,4135,Gontenschwil
 2023,4136,Holziken,4136,Holziken
@@ -45193,7 +45187,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2023,4163,Frick,4163,Frick
 2023,4164,Gansingen,4164,Gansingen
 2023,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2023,4166,Herznach,4166,Herznach
 2023,4169,Kaisten,4169,Kaisten
 2023,4170,Laufenburg,4170,Laufenburg
 2023,4172,Münchwilen (AG),4172,Münchwilen (AG)
@@ -45201,12 +45194,12 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2023,4175,Oeschgen,4175,Oeschgen
 2023,4176,Schwaderloch,4176,Schwaderloch
 2023,4177,Sisseln,4177,Sisseln
-2023,4179,Ueken,4179,Ueken
 2023,4181,Wittnau,4181,Wittnau
 2023,4182,Wölflinswil,4182,Wölflinswil
 2023,4183,Zeihen,4183,Zeihen
 2023,4184,Mettauertal,4184,Mettauertal
 2023,4185,Böztal,4185,Böztal
+2023,4186,Herznach-Ueken,4186,Herznach-Ueken
 2023,4191,Ammerswil,4191,Ammerswil
 2023,4192,Boniswil,4192,Boniswil
 2023,4193,Brunegg,4193,Brunegg
@@ -45996,7 +45989,6 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2023,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2023,6742,Les Bois,6742,Les Bois
 2023,6743,Les Breuleux,6743,Les Breuleux
-2023,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
 2023,6745,Les Enfers,6745,Les Enfers
 2023,6748,Les Genevez (JU),6748,Les Genevez (JU)
 2023,6750,Lajoux (JU),6750,Lajoux (JU)
@@ -46016,14 +46008,13 @@ year,mun_id_x,short_name_x,mun_id_y,short_name_y
 2023,6783,Courchavon,6783,Courchavon
 2023,6784,Courgenay,6784,Courgenay
 2023,6785,Courtedoux,6785,Courtedoux
-2023,6787,Damphreux,6787,Damphreux
 2023,6789,Fahy,6789,Fahy
 2023,6790,Fontenais,6790,Fontenais
 2023,6792,Grandfontaine,6792,Grandfontaine
-2023,6793,Lugnez,6793,Lugnez
 2023,6800,Porrentruy,6800,Porrentruy
 2023,6806,Vendlincourt,6806,Vendlincourt
 2023,6807,Basse-Allaine,6807,Basse-Allaine
 2023,6808,Clos du Doubs,6808,Clos du Doubs
 2023,6809,Haute-Ajoie,6809,Haute-Ajoie
 2023,6810,La Baroche,6810,La Baroche
+2023,6811,Damphreux-Lugnez,6811,Damphreux-Lugnez

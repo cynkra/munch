@@ -13,7 +13,7 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2023,12,Rifferswil,12,Rifferswil
 2005,2023,13,Stallikon,13,Stallikon
 2005,2023,14,Wettswil am Albis,14,Wettswil am Albis
-2005,2023,21,Adlikon,21,Adlikon
+2005,2022,21,Adlikon,291,Andelfingen
 2005,2023,22,Benken (ZH),22,Benken (ZH)
 2005,2023,23,Berg am Irchel,23,Berg am Irchel
 2005,2023,24,Buch am Irchel,24,Buch am Irchel
@@ -22,9 +22,9 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2023,27,Feuerthalen,27,Feuerthalen
 2005,2023,28,Flaach,28,Flaach
 2005,2023,29,Flurlingen,29,Flurlingen
-2005,2023,30,Andelfingen,30,Andelfingen
+2005,2022,30,Andelfingen,291,Andelfingen
 2005,2023,31,Henggart,31,Henggart
-2005,2023,32,Humlikon,32,Humlikon
+2005,2022,32,Humlikon,291,Andelfingen
 2005,2023,33,Kleinandelfingen,33,Kleinandelfingen
 2005,2023,34,Laufen-Uhwiesen,34,Laufen-Uhwiesen
 2005,2023,35,Marthalen,35,Marthalen
@@ -170,6 +170,7 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2023,250,Urdorf,250,Urdorf
 2005,2023,251,Weiningen (ZH),251,Weiningen (ZH)
 2005,2023,261,Zürich,261,Zürich
+2023,2023,291,Andelfingen,291,Andelfingen
 2019,2023,292,Stammheim,292,Stammheim
 2019,2023,293,Wädenswil,293,Wädenswil
 2018,2023,294,Elgg,294,Elgg
@@ -304,7 +305,7 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2023,533,Bätterkinden,533,Bätterkinden
 2005,2013,534,Büren zum Hof,538,Fraubrunnen
 2005,2023,535,Deisswil b. Münchenbuch.,535,Deisswil b. Münchenbuch.
-2005,2023,536,Diemerswil,536,Diemerswil
+2005,2022,536,Diemerswil,546,Münchenbuchsee
 2005,2013,537,Etzelkofen,538,Fraubrunnen
 2005,2023,538,Fraubrunnen,538,Fraubrunnen
 2005,2013,539,Grafenried,538,Fraubrunnen
@@ -1332,25 +1333,26 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2012,3358,Nesslau-Krummenau,3360,Nesslau
 2010,2023,3359,Wildhaus-Alt St. Johann,3359,Wildhaus-Alt St. Johann
 2013,2023,3360,Nesslau,3360,Nesslau
-2005,2008,3371,Brunnadern,3378,Neckertal
-2005,2023,3372,Hemberg,3372,Hemberg
+2005,2008,3371,Brunnadern,3396,Neckertal
+2005,2022,3372,Hemberg,3396,Neckertal
 2005,2012,3373,Krinau,3379,Wattwil
 2005,2023,3374,Lichtensteig,3374,Lichtensteig
-2005,2023,3375,Oberhelfenschwil,3375,Oberhelfenschwil
-2005,2008,3376,St. Peterzell,3378,Neckertal
+2005,2022,3375,Oberhelfenschwil,3396,Neckertal
+2005,2008,3376,St. Peterzell,3396,Neckertal
 2005,2012,3377,Wattwil,3379,Wattwil
-2009,2023,3378,Neckertal,3378,Neckertal
+2009,2022,3378,Neckertal,3396,Neckertal
 2013,2023,3379,Wattwil,3379,Wattwil
 2005,2012,3391,Bütschwil,3395,Bütschwil-Ganterschwil
 2005,2023,3392,Kirchberg (SG),3392,Kirchberg (SG)
 2005,2023,3393,Lütisburg,3393,Lütisburg
 2005,2023,3394,Mosnang,3394,Mosnang
 2013,2023,3395,Bütschwil-Ganterschwil,3395,Bütschwil-Ganterschwil
+2023,2023,3396,Neckertal,3396,Neckertal
 2005,2023,3401,Degersheim,3401,Degersheim
 2005,2023,3402,Flawil,3402,Flawil
 2005,2012,3403,Ganterschwil,3395,Bütschwil-Ganterschwil
 2005,2023,3405,Jonschwil,3405,Jonschwil
-2005,2008,3406,Mogelsberg,3378,Neckertal
+2005,2008,3406,Mogelsberg,3396,Neckertal
 2005,2023,3407,Oberuzwil,3407,Oberuzwil
 2005,2023,3408,Uzwil,3408,Uzwil
 2005,2012,3421,Bronschhofen,3427,Wil (SG)
@@ -1696,7 +1698,7 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2014,2023,4125,Schinznach,4125,Schinznach
 2005,2023,4131,Beinwil am See,4131,Beinwil am See
 2005,2023,4132,Birrwil,4132,Birrwil
-2005,2023,4133,Burg (AG),4133,Burg (AG)
+2005,2022,4133,Burg (AG),4139,Menziken
 2005,2023,4134,Dürrenäsch,4134,Dürrenäsch
 2005,2023,4135,Gontenschwil,4135,Gontenschwil
 2005,2023,4136,Holziken,4136,Holziken
@@ -1716,7 +1718,7 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2023,4163,Frick,4163,Frick
 2005,2023,4164,Gansingen,4164,Gansingen
 2005,2023,4165,Gipf-Oberfrick,4165,Gipf-Oberfrick
-2005,2023,4166,Herznach,4166,Herznach
+2005,2022,4166,Herznach,4186,Herznach-Ueken
 2005,2021,4167,Hornussen,4185,Böztal
 2005,2009,4168,Ittenthal,4169,Kaisten
 2005,2023,4169,Kaisten,4169,Kaisten
@@ -1729,13 +1731,14 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2023,4176,Schwaderloch,4176,Schwaderloch
 2005,2023,4177,Sisseln,4177,Sisseln
 2005,2009,4178,Sulz (AG),4170,Laufenburg
-2005,2023,4179,Ueken,4179,Ueken
+2005,2022,4179,Ueken,4186,Herznach-Ueken
 2005,2009,4180,Wil (AG),4184,Mettauertal
 2005,2023,4181,Wittnau,4181,Wittnau
 2005,2023,4182,Wölflinswil,4182,Wölflinswil
 2005,2023,4183,Zeihen,4183,Zeihen
 2010,2023,4184,Mettauertal,4184,Mettauertal
 2022,2023,4185,Böztal,4185,Böztal
+2023,2023,4186,Herznach-Ueken,4186,Herznach-Ueken
 2005,2023,4191,Ammerswil,4191,Ammerswil
 2005,2023,4192,Boniswil,4192,Boniswil
 2005,2023,4193,Brunegg,4193,Brunegg
@@ -2851,7 +2854,7 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2023,6741,Le Bémont (JU),6741,Le Bémont (JU)
 2005,2023,6742,Les Bois,6742,Les Bois
 2005,2023,6743,Les Breuleux,6743,Les Breuleux
-2005,2023,6744,La Chaux-des-Breuleux,6744,La Chaux-des-Breuleux
+2005,2022,6744,La Chaux-des-Breuleux,6743,Les Breuleux
 2005,2023,6745,Les Enfers,6745,Les Enfers
 2005,2008,6746,Epauvillers,6808,Clos du Doubs
 2005,2008,6747,Epiquerez,6808,Clos du Doubs
@@ -2883,13 +2886,13 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2005,2023,6784,Courgenay,6784,Courgenay
 2005,2023,6785,Courtedoux,6785,Courtedoux
 2005,2008,6786,Courtemaîche,6807,Basse-Allaine
-2005,2023,6787,Damphreux,6787,Damphreux
+2005,2022,6787,Damphreux,6811,Damphreux-Lugnez
 2005,2008,6788,Damvant,6809,Haute-Ajoie
 2005,2023,6789,Fahy,6789,Fahy
 2005,2023,6790,Fontenais,6790,Fontenais
 2005,2008,6791,Fregiécourt,6810,La Baroche
 2005,2023,6792,Grandfontaine,6792,Grandfontaine
-2005,2023,6793,Lugnez,6793,Lugnez
+2005,2022,6793,Lugnez,6811,Damphreux-Lugnez
 2005,2008,6794,Miécourt,6810,La Baroche
 2005,2008,6795,Montenol,6808,Clos du Doubs
 2005,2008,6796,Montignez,6807,Basse-Allaine
@@ -2907,3 +2910,4 @@ year_from,year_to,mun_id_x,short_name_x,mun_id_y,short_name_y
 2009,2023,6808,Clos du Doubs,6808,Clos du Doubs
 2009,2023,6809,Haute-Ajoie,6809,Haute-Ajoie
 2009,2023,6810,La Baroche,6810,La Baroche
+2023,2023,6811,Damphreux-Lugnez,6811,Damphreux-Lugnez

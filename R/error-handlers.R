@@ -1,4 +1,3 @@
-
 # error class generator (taken from {dm})---------------------------------------------------
 
 swc_error <- function(x) {

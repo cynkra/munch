@@ -55,6 +55,8 @@ Suggests:
     testthat (>= 2.1.0),
     usethis (>= 1.4.0),
     xml2
+Remotes:
+    edwindj/daff
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.1

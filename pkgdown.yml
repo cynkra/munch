@@ -1,9 +1,9 @@
 pandoc: 2.19.2
 pkgdown: 2.0.7.9000
-pkgdown_sha: 170015984ae234da3028b2b083df757227fdd241
+pkgdown_sha: ab96d2fa60be7a6e54eb8132b572688eadc41be3
 articles:
   data: data.html
-last_built: 2023-10-08T14:14Z
+last_built: 2023-11-05T05:21Z
 urls:
   reference: https://munch.cynkra.com/reference
   article: https://munch.cynkra.com/articles

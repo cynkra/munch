@@ -1,3 +1,4 @@
 url: https://munch.cynkra.com/
 template:
   package: cynkratemplate
+  bootstrap: 5

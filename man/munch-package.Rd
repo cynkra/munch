@@ -35,6 +35,14 @@ Useful links:
   \item Report bugs at \url{https://github.com/cynkra/munch/issues}
 }
 
+
+Useful links:
+\itemize{
+  \item \url{https://munch.cynkra.com/}
+  \item \url{https://github.com/cynkra/munch}
+  \item Report bugs at \url{https://github.com/cynkra/munch/issues}
+}
+
 }
 \author{
 Kirill Müller

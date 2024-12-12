@@ -1,4 +1,69 @@
-<!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
+<!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
+
+# munch 0.0.8.9008 (2024-12-12)
+
+## Chore
+
+- Add Aviator configuration.
+
+- Update maintainer e-mail address.
+
+## Continuous integration
+
+- Avoid failure in fledge workflow if no changes (#84).
+
+- Fetch tags for fledge workflow to avoid unnecessary NEWS entries (#83).
+
+- Use larger retry count for lock-threads workflow (#82).
+
+- Ignore errors when removing pkg-config on macOS (#81).
+
+- Explicit permissions (#80).
+
+- Use styler from main branch (#79).
+
+- Need to install R on Ubuntu 24.04 (#78).
+
+- Use Ubuntu 24.04 and styler PR (#76).
+
+- Correctly detect branch protection (#75).
+
+- Use stable pak (#74).
+
+- Trigger run (#73).
+
+- Use pkgdown branch (#72).
+
+- Install via R CMD INSTALL ., not pak (#71).
+
+- Install local package for pkgdown builds.
+
+- Improve support for protected branches with fledge.
+
+- Improve support for protected branches, without fledge.
+
+- Sync with latest developments.
+
+- Use v2 instead of master.
+
+- Import from actions-sync, check carefully.
+
+- Import from actions-sync, check carefully.
+
+## Documentation
+
+- Set BS version explicitly for now.
+
+  https://github.com/cynkra/cynkratemplate/issues/53
+
+## Uncategorized
+
+- Ci: Fix macOS (#16) (#77).
+
+- Merge pull request #65 from cynkra/f-add-2023-data.
+
+- Merge pull request #63 from cynkra/docs-pkgdown-cynkra.
+
 
 # munch 0.0.8.9007 (2022-05-23)
 

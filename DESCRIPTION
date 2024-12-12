@@ -2,8 +2,8 @@ Type: Package
 Package: munch
 Title: Functions for working with the historicized list of
     communes of Switzerland
-Version: 0.0.8.9007
-Date: 2022-05-23
+Version: 0.0.8.9008
+Date: 2024-12-12
 Authors@R: 
     c(person(given = "Kirill",
              family = "Müller",

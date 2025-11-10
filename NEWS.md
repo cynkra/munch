@@ -1,5 +1,38 @@
 <!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
 
+# munch 0.0.8.9009 (2025-11-10)
+
+## Continuous integration
+
+- Use workflows for fledge (#100).
+
+- Sync (#99).
+
+- Use reviewdog for external PRs (#98).
+
+- Cleanup and fix macOS (#97).
+
+- Format with air, check detritus, better handling of `extra-packages` (#96).
+
+- Enhance permissions for workflow (#95).
+
+- Permissions, better tests for missing suggests, lints (#94).
+
+- Only fail covr builds if token is given (#93).
+
+- Always use `_R_CHECK_FORCE_SUGGESTS_=false` (#92).
+
+- Correct installation of xml2 (#91).
+
+- Explain (#90).
+
+- Add xml2 for covr, print testthat results (#89).
+
+- Fix (#88).
+
+- Sync (#87).
+
+
 # munch 0.0.8.9008 (2024-12-12)
 
 ## Chore

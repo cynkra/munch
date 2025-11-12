@@ -1,5 +1,12 @@
 <!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
 
+# munch 0.0.8.9010 (2025-11-12)
+
+## Continuous integration
+
+- Fix reviewdog and add commenting workflow (#101).
+
+
 # munch 0.0.8.9009 (2025-11-10)
 
 ## Continuous integration

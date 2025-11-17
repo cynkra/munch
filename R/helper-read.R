@@ -2,6 +2,8 @@
 #'
 #' @export
 swc_read_data <- function() {
+  check_suggested(c("rvest", "xml2"), "swc_read_data")
+
   bfs_nr <- "dz-b-00.04-hgv-01"
 
   bfs_home <- "https://www.bfs.admin.ch"

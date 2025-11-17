@@ -1,5 +1,12 @@
 <!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
 
+# munch 0.0.8.9011 (2025-11-17)
+
+## Continuous integration
+
+- Install binaries from r-universe for dev workflow (#102).
+
+
 # munch 0.0.8.9010 (2025-11-12)
 
 ## Continuous integration

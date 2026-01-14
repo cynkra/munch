@@ -1,5 +1,16 @@
 <!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
 
+# munch 0.0.8.9012 (2026-01-14)
+
+## Continuous integration
+
+- Fix comment (#105).
+
+- Tweaks (#104).
+
+- Test all R versions on branches that start with cran- (#103).
+
+
 # munch 0.0.8.9011 (2025-11-17)
 
 ## Continuous integration

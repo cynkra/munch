@@ -1,5 +1,18 @@
 <!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
 
+# munch 0.0.8.9013 (2026-05-06)
+
+## Continuous integration
+
+- Cosmetics.
+
+- Bump action versions.
+
+- Install clang-format-21.
+
+- Align fledge workflow.
+
+
 # munch 0.0.8.9012 (2026-01-14)
 
 ## Continuous integration

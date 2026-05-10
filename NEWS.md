@@ -1,5 +1,12 @@
 <!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
 
+# munch 0.0.8.9015 (2026-05-10)
+
+## Continuous integration
+
+- Only run fledge on pushes to main.
+
+
 # munch 0.0.8.9014 (2026-05-10)
 
 ## Continuous integration

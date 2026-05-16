@@ -1,5 +1,10 @@
 <!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
 
+# munch 0.0.8.9017 (2026-05-16)
+
+- Ci: Unify fledge.yaml across cynkratemplate and fledge (#86).
+
+
 # munch 0.0.8.9016 (2026-05-14)
 
 ## Chore

@@ -54,7 +54,7 @@ calc_all_hist_ids <- function(mut_in_time_interval, m_hist_id) {
 
 get_former_hist_ids <- function(mut_in_time_interval, hist_ids) {
   hist_ids <- map(hist_ids, get_former_hist_id_from_one, mut_in_time_interval) %>%
-    squash_int()
+    unlist(use.names = FALSE)
   hist_ids[hist_ids %in% mut_in_time_interval$mHistId.y]
 }
 

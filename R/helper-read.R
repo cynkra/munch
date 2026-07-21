@@ -8,7 +8,7 @@ swc_read_data <- function() {
 
   asset_page <- xml2::read_html(sprintf("%s/asset/de/%s", bfs_home, bfs_nr))
 
-  asset_text <- rvest::html_text(asset_page, bfs_nr)
+  asset_text <- rvest::html_text(asset_page)
 
   asset_number <-
     asset_text %>%

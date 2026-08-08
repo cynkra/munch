@@ -6,14 +6,29 @@ swc_read_data <- function() {
 
   bfs_home <- "https://www.bfs.admin.ch"
 
-  asset_page <- xml2::read_html(sprintf("%s/asset/de/%s", bfs_home, bfs_nr))
+  asset_page_url <- sprintf("%s/asset/de/%s", bfs_home, bfs_nr)
+  asset_page <- xml2::read_html(asset_page_url)
 
-  asset_text <- rvest::html_text(asset_page, bfs_nr)
+  asset_text <- rvest::html_text(asset_page)
 
-  asset_number <-
-    asset_text %>%
-    stringr::str_extract("https://.*assets/.*/") %>%
-    stringr::str_extract("[0-9]+")
+  # The master download link (".../assets/<number>/master") is exposed as an
+  # <a href> attribute (and/or embedded in a <script>), which
+  # rvest::html_text() does not return -- scraping the rendered text yielded
+  # NA, so the URL degenerated to ".../assets/NA/master" (HTTP 404). Match the
+  # asset number from the link targets first, falling back to the full page
+  # HTML, and take the first hit.
+  asset_urls <- c(
+    rvest::html_attr(rvest::html_elements(asset_page, "a"), "href"),
+    as.character(asset_page)
+  )
+  asset_number <- stringr::str_match(asset_urls, "assets/([0-9]+)/master")[, 2]
+  asset_number <- asset_number[!is.na(asset_number)][1]
+  if (is.na(asset_number)) {
+    stop(
+      "Could not find a master-asset number ('assets/<n>/master') on ",
+      asset_page_url, "; the BFS page structure may have changed."
+    )
+  }
 
   pub_date <-
     asset_text %>%

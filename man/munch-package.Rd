@@ -45,7 +45,7 @@ URL: \url{https://github.com/cynkra/munch}
 
 Issue tracker: \url{https://github.com/cynkra/munch/issues}
 
-\strong{Maintainer}: Kirill Müller \email{krlmlr+r@mailbox.org}
+\strong{Maintainer}: Kirill Müller \email{kirill@cynkra.com}
 
 Authors:
 \itemize{

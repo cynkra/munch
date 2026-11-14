@@ -1,6 +1,6 @@
 #' Get municipality mutation history
 #'
-#' The history goes back as far as the mutation number becocmes 1000
+#' The history goes back as far as the mutation number becomes 1000
 #'   (first time registration)
 #'
 #' @param munId Municipality Id as integer

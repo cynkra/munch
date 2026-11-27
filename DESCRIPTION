@@ -46,7 +46,8 @@ Suggests:
     usethis (>= 1.4.0),
     xml2
 VignetteBuilder: 
-    knitr
+    knitr,
+    rmarkdown
 Remotes:
     edwindj/daff
 Config/autostyle/scope: line_breaks
